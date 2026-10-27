@@ -129,3 +129,24 @@ roots to pi, or rephrasing bounded partial quotients, is insufficient.
   evidence that the target theorem was checked.
 - If continuing research, state exactly which new estimate is needed and
   which of the current bounds or definitions it changes.
+
+## Follow-up: weighted slopes, tight prefix certificates, oscillatory control
+
+Audit WEIGHTED_WAVE_RETURNS.md and WAVE_CERTIFICATES_AND_CONTROL.md.
+For x=pi-3 in base p, check (p-1)x=d1+sum_j(d[j+1]-d[j])/p^j.
+For a prefix A=floor(p^L*x), check that the exact infimum/supremum
+of E=(p-1)*||(p-1)x|| over the prefix cell are obtained from the
+integer and half-integer breakpoints in the scaled cell closure.
+Verify the resolution bound (p-1)^2/p^L and rational-threshold termination
+for fixed irrational x when arbitrarily many digits can be certified.
+
+Check the explicit control y=46/99+sum_{j>=1}10^(-j!): all adjacent
+decimal digits differ by at least 2; y is Liouville; its mean squared
+adjacent difference tends to 4; in bases 99*10^(k!)+1 it has k identical
+initial digits for k>=4. This refutes fixed-base amplitude/energy criteria,
+not the full signed weighted phase or an all-base criterion.
+
+Run `python3 wave_certificates.py`. Check the finite pi witness E<1/20000
+from its three-digit certificate, including the exact denominator and
+large digit values in wave_certificate_results.json. It is neither a
+new numerical approximation record nor evidence that the liminf is zero.

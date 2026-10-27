@@ -8,7 +8,7 @@ if not __debug__:
     raise RuntimeError('Assertions are required; do not use Python -O')
 
 for name in ('verify.py', 'wave_compare.py', 'quadratic_barriers.py',
-             'pure_root_barriers.py', 'envelope_audit.py', 'weighted_wave.py'):
+             'pure_root_barriers.py', 'envelope_audit.py', 'weighted_wave.py', 'wave_certificates.py'):
     print('\nRunning', name, flush=True)
     subprocess.run([sys.executable, str(ROOT / name)], cwd=ROOT, check=True)
 print('\nAll exact-check programs completed successfully.')

@@ -92,3 +92,7 @@ python3 reproduce.py
 ## 后续：加权差与周期返回
 
 [WEIGHTED_WAVE_RETURNS.md](WEIGHTED_WAVE_RETURNS.md) 给出精确恒等式 (p−1)x=d₁+Σ(dⱼ₊₁−dⱼ)/pʲ，并将接近整数、周期返回和归一化误差联系起来。`python3 weighted_wave.py` 可独立复现新实验；9000 次精确恒等式检查通过。
+
+## 后续：前缀证书与振荡对照
+
+[WAVE_CERTIFICATES_AND_CONTROL.md](WAVE_CERTIFICATES_AND_CONTROL.md) 给出最优的有限前缀区间、每一步数位高度差至少为 2 的刘维尔数，以及 π 的有限证书 q²×误差<1/20000。固定进制的强振荡不能单独保证坏逼近。运行 `python3 wave_certificates.py`，只用标准库；未得到 π 的无限尺度结论。
