@@ -150,3 +150,22 @@ Run `python3 wave_certificates.py`. Check the finite pi witness E<1/20000
 from its three-digit certificate, including the exact denominator and
 large digit values in wave_certificate_results.json. It is neither a
 new numerical approximation record nor evidence that the liminf is zero.
+
+## Follow-up: real-base lines and integer-endpoint needle areas
+
+Independently audit REAL_BASE_NEEDLE_MODEL.md. For irrational x in (0,1),
+let beta_n=1+n/x, and check the greedy repeated digit n and the identity
+q^2*|x-n/q|=x*q*|(q+1)-beta_n|. Check all quantifiers and the proof that
+liminf_n n*||beta_n|| equals liminf_q q*||qx||.
+
+Define the needle as the rigid segment from (0,0) to (q,a), with q>=1
+and a an integer; rotate about the origin to slope pi. Audit the sector
+formula and prove that its area is asymptotic to q^2*|pi-a/q|/2 when
+a/q approaches pi. Check the liminf statement for nearest numerators and
+the equivalence of the area-to-zero property for arbitrary numerators.
+
+For target slope 2+sqrt(2), verify the stated strictly positive global
+area bound 1/85, including negative and outside-[3,4] slopes. Recompute
+the exact interval showing the pi needle (113,355) has area <1/85.
+Do not infer pi is well or badly approximable from that finite comparison.
+Run `python3 real_base_needle.py` with assertions enabled.
