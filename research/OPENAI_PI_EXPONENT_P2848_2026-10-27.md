@@ -334,3 +334,109 @@ g<(1-s)\bigl((1+\varepsilon)s-1\bigr)
 \left(s-\frac{2+\varepsilon}{2(1+\varepsilon)}\right)^2\ge0.
 \]
 因此该比较系统中的正余量至多为 \(O(\varepsilon^2)\)，无法在 \(\varepsilon\downarrow0\) 时维持固定正值。这本身不提供第 8 节的 \(N_x(\varepsilon)\) 下界，也不说明指数式的阈值控制不可能；要处理坏逼近，需要新的量化控制或改变现有比较条件。
+
+
+## 11. 阅读实际插值与行列式构造后的研究方向（2026-10-28）
+
+阅读对象：[interpolation.tex](https://github.com/openai/math/blob/main/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex)、[determinant.tex](https://github.com/openai/math/blob/main/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex) 以及原文参数部分。本节区分原文构造、可以直接推导的细化和仍未证明的目标；不宣称完成坏逼近证明。
+
+### 11.1 实际构造及进制交点的接口
+
+原文同时选取若干有理逼近 \(a_i/q_i\)。在 \(K\) 个中心处，以加权多项式为列、指定的 Taylor 系数为行，构造矩阵。插值满射保证存在使用所有行的非零方形子式。清除分母后，该子式变为非零高斯整数，所以模至少为 1；这是算术下界的来源。
+
+解析上，把中心 \(2\mathrm i j a_i/q_i\) 平移到精确周期 \(2\pi\mathrm i j\)，利用 \(e^{2\pi\mathrm i j}=1\)。这给出的不是独立的统计样本，而是同一指数函数周期上的多点算术联系。
+
+与进制模型的接口是精确的。令 \(x=\pi-3\)，选择同数位高度 \(n_i\)，令 \(q_i+1\) 为其交点 \(r_{n_i}=1+n_i/x\) 附近的整数进制，设 \(a_i=3q_i+n_i\)。则
+\[
+\frac{a_i}{q_i}-\pi
+=\frac{x}{q_i}\bigl(r_{n_i}-(q_i+1)\bigr).
+\]
+因此原文中心的横向位移恰好为
+\[
+2\mathrm i j\left(\frac{a_i}{q_i}-\pi\right)
+=\frac{2\mathrm i jx}{q_i}\bigl(r_{n_i}-(q_i+1)\bigr).
+\]
+可以把若干进制交点直接带入原构造；构造本身仍依赖指数函数的精确周期，不能只依赖数位波的外观。
+
+### 11.2 原文的两种解析收益
+
+平移后的行按横向多重指标 \(a\) 分组。每组内部进一步展开成 Taylor 级数；若同一组的两行选到同一 Taylor 次数，该项的两条系数向量相同，行列式严格为零。若组内有 \(N_a\) 行，非零项的次数必须互异，次数之和至少为 \(\binom{N_a}{2}\)。原文据此得到形如
+\[
+\exp\left(-c\sum_aN_a^2\right),\qquad c=(\log2)/4
+\]
+的压小因素。它是精确的行列式抵消，不是数位随机性的假设。
+
+另一项收益来自逼近误差的幂次。最终比较分成两种情况：低横向指标多，就用上面的组内抵消；高指标多，就用逼近误差的幂次。原文对每种情况各舍弃另一项非负收益。
+
+### 11.3 保留坏逼近问题真正关心的小系数
+
+若要反证坏逼近失败，假设存在逼近序列使
+\[
+\kappa_i=q_i^2\left|\pi-\frac{a_i}{q_i}\right|\longrightarrow0.
+\]
+在进制交点附近，\(\kappa_i=xq_i\Delta_{n_i}\sim n_i\Delta_{n_i}\)。不能把它默认改成固定的 \(q_i^{-\varepsilon}\)：无理指数等于 2 时，沿任何 \(\kappa_i\to0\) 的无界分母序列，都有
+\[
+\frac{\log(1/\kappa_i)}{\log q_i}\longrightarrow0.
+\]
+
+不过原文的精确行平移恒等式可以保留这些系数。令 \(w_i=\lceil\log q_i\rceil\)，并取 \(0<\kappa_i\le1\)。在原文行平移中，行的原多重指标为 \(\beta\)，选取的横向指标为 \(a\ge\beta\)，Taylor 截断尾项的次数多重指标为 \(d\)，且 \(0\le d\le a-\beta\)。原误差常数按 \(\nu=2\) 代入记为 \(E_{\rm tr}(2)\)。逐项重复原文估计，标量因子 \(\xi\) 满足
+\[
+|\xi|\le
+ \exp\{-2w(a-\beta)+H E_{\rm tr}(2)\}
+ \prod_i\kappa_i^{\,a_i-\beta_i-d_i}.
+\]
+理由是精确位移满足
+\[
+|j(r_i-2\pi\mathrm i)|\le2K\kappa_iq_i^{-2},
+\]
+而尾项预算、组合系数界及 Cauchy 界与原证明相同。这只是行平移引理在实际误差系数下的细化，不是把原文的端点比较定理直接宣布成立。
+
+这说明应研究“小系数收益”能否在指数 2 处抵消剩余损失，而不是在一开始把它转换为一个固定的正指数余量。该问题仍未闭合。
+
+### 11.4 两个可严格保留的平均量
+
+原文行集合是
+\[
+v_0s+w\beta/\theta<H.
+\]
+固定维数 \(m\)、权重及中心，令 \(H\to\infty\)。单纯形上的一阶矩直接给出
+\[
+\bar b_H=\frac{1}{M_HH}\sum_{\mathrm{rows}}w\beta
+\longrightarrow\frac{m\theta}{m+2}.
+\]
+这比原文比较时使用的 \(\bar b_H\le\theta\) 更精确。每一个尺度坐标在该 \(m+1\) 维单纯形上的均值为预算的 \(1/(m+2)\)；其中 \(m\) 个横向坐标各带比例 \(\theta\)。有限枚举检查了 \(m=1,2,3\) 的收敛方向；该公式的证明来自固定数据下的 Riemann 和，不能与 \(m\to\infty\) 的极限任意交换。
+
+对选中的列，另外记实际平均横向代价
+\[
+\bar c_H=\frac{1}{M_HH}\sum_{\mathrm{selected\ columns}}w\alpha\le1.
+\]
+沿原文清除分母的计算可保留
+\[
+\frac{\log|\Delta_H|}{M_HH}
+\ge-\bar c_H+\bar b_H-E_{\rm ar},
+\]
+而不必立即用 1 替代 \(\bar c_H\)。原文的满射只保证非零子式存在，不直接保证可选取低代价的列；若要进一步利用这个改善，需要证明带代价的列选择性质。
+
+### 11.5 一个明确但尚未证明的端点比较目标
+
+设每条行展开中选择一项，用 \(\rho\) 标记行，\(a_\rho,\beta_\rho,d_\rho\) 为该项的指标；令 \(\lambda_i=\log(1/\kappa_i)\ge0\)。把两种解析收益及小系数全部保留，可定义
+\[
+S_H=
+\frac{
+2\sum_\rho w(a_\rho-\beta_\rho)
++\sum_{\rho,i}\lambda_i(a_{\rho i}-\beta_{\rho i}-d_{\rho i})
++c\sum_aN_a^2
+}{M_HH}.
+\]
+原文同样的有限项展开、绝对值估计和组内抵消给出
+\[
+\frac{\log|\Delta_H|}{M_HH}
+\le E_{\rm an}(2)+o(1)-\inf_{\text{nonzero term choices}}S_H.
+\]
+所以一个足以导出矛盾的目标是
+\[
+\liminf_{H\to\infty}
+\left(\inf S_H+\bar b_H-\bar c_H\right)
+>E_{\rm ar}+E_{\rm an}(2).
+\]
+参数、分母和中心须先固定，才能取此 \(H\) 极限。如何在仅假设 \(\kappa_i\to0\) 时选择数据并证明这个严格比较，目前没有完成；它可能需要新的插值控制、列选择定理或全局分组估计。这里只给出从原文真实公式提炼出的研究靶子，不把它算作已获得的 π 下界。
