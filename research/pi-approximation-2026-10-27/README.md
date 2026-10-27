@@ -100,3 +100,7 @@ python3 reproduce.py
 ## 后续：实数进制与整数针
 
 [REAL_BASE_NEEDLE_MODEL.md](REAL_BASE_NEEDLE_MODEL.md) 按研究构想建立实数底数横线与整数端点针的扇形面积，给出两者和归一化误差的等价关系。以 2+√2 为对照，证明其所有整数端点针的旋转面积大于 1/85；π 的 355/113 针具有小于此值的有限面积。该有限比较没有判定 π 的无限下极限。运行 `python3 real_base_needle.py` 可复现精确证书。
+
+## 后续：无限射线与细管重叠
+
+[INFINITE_RAYS_KAKEYA_BRIDGE.md](INFINITE_RAYS_KAKEYA_BRIDGE.md) 将共同起点的无限射线截断为长度随分母增长的窗口，并借鉴所给预印本第 9 节的细管重叠视角。射线扫过的三角形面积等于 q² 倍误差的一半；带厚度细管的重叠给出精确判据。还推导了多尺度重叠核和傅里叶平方表示。该模型没有应用或核验论文的 PDE 定理，也没有判定 π 的极限。运行 `python3 ray_tube_overlap.py` 可复现全部数值证书。

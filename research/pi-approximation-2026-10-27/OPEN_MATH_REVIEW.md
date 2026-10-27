@@ -169,3 +169,30 @@ area bound 1/85, including negative and outside-[3,4] slopes. Recompute
 the exact interval showing the pi needle (113,355) has area <1/85.
 Do not infer pi is well or badly approximable from that finite comparison.
 Run `python3 real_base_needle.py` with assertions enabled.
+
+## Follow-up: infinite rays, tube overlaps, and a Kakeya-inspired bridge
+
+Audit INFINITE_RAYS_KAKEYA_BRIDGE.md independently. Rays have a shared
+origin, slope pi or a/q, and are truncated by 0<=t<=q. Check that the
+continuous rotation sweeps a triangle of area q^2*|pi-a/q|/2; check that
+the full infinite-ray sweep has infinite area for distinct slopes.
+
+For vertical half-width 1/q, verify that each tube has area 2 and their
+overlap fraction is Phi(E), E=q^2*|pi-a/q|, where Phi(E)=1-E/4 if
+0<=E<=2 and Phi(E)=1/E if E>=2. Check the area of the union of all
+intermediate-slope tubes, and note these tubes shear rather than undergo
+rigid Euclidean rotation. Verify the pi (113,355) certified interval and
+the global bound Phi(E)<13/14 for target 2+sqrt(2).
+
+Audit the dyadic max M_Q and its equivalence to liminf q*||q*pi||=0.
+Prove the stated union-bound estimate for the exceptional sets, and
+verify it implies only an almost-everywhere shrinking gap, not a fixed
+positive gap or a pointwise conclusion for pi. Audit the Gram kernel
+and its exact Fourier/Plancherel formula.
+
+Compare—not conflate—the unit delta-tube scaling with section 9.2 of
+the OpenAI preprint. P2848-relevant pairs have direction gaps o(delta),
+whereas that section's Lemma 9.4 assumes delta-separated directions.
+Do not claim the preprint's PDE argument was transferred, or that an
+Lp or dimension result alone establishes a pi-specific assertion.
+Run `python3 ray_tube_overlap.py` with assertions enabled.
