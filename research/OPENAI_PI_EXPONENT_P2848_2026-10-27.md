@@ -201,3 +201,105 @@ d_q\ge\frac{C}{xq},
 指数等于 2 仍允许 \(n\Delta_n\) 沿子列趋于零；它只排除该量在无限多指标上以某个固定负幂的速度趋零。比如 \(1/\log n\) 是说明逻辑差距的可能尺度，不是对 π 的实际断言。\(\varepsilon\) 的阈值可以依赖 \(\varepsilon\)，因此不能令 \(\varepsilon=\varepsilon(n)\) 而直接推得统一常数。
 
 数值例子：\(n=16\) 时 \(r_{16}\approx114.0002128948967\)，\(\Delta_{16}\approx0.0002128948967\)，故 \(16\Delta_{16}\approx0.00340631835\)。单个样本不决定上述上极限或下确界。
+
+
+## 8. 坏逼近等价于阈值的统一增长界
+
+沿用第 7 节的 \(\Delta_n=\|n/x\|\)，此处假定 \(x\in(0,1)\) 无理，且 \(\mu(x)=2\)。对每个 \(\varepsilon>0\)，定义**最小有效阈值**
+
+\[
+N_x(\varepsilon)=\min\left\{N\ge2:
+\forall n\ge N,\quad \Delta_n\ge n^{-1-\varepsilon}\right\}.
+\]
+
+因为 \(\mu(1/x)=\mu(x)=2\)，每个这样的阈值都有限。它是进制空间的阈值，不直接等同于 OpenAI 原文中分母的 \(Q(\nu)\)。
+
+记
+\[
+\ell_x=\liminf_{n\to\infty}n\Delta_n.
+\]
+Dirichlet 逼近保证 \(0\le\ell_x\le1\)。实际上有以下严格恒等式：
+
+\[
+\boxed{\displaystyle
+\limsup_{\varepsilon\downarrow0}
+ \varepsilon\log N_x(\varepsilon)
+ =-\log\ell_x}
+\]
+其中 \(-\log0\) 按 \(+\infty\) 解释。于是 \(x\) 是坏逼近数，当且仅当存在 \(K,\varepsilon_0>0\)，使
+\[
+N_x(\varepsilon)\le \exp(K/\varepsilon)
+\qquad(0<\varepsilon<\varepsilon_0).
+\]
+
+**证明。** 令 \(A_n=n\Delta_n\)。若 \(\ell_x>0\)，任取 \(0<t<\ell_x\)，充分大的 \(n\) 满足 \(A_n\ge t\)；只要 \(n\ge t^{-1/\varepsilon}\)，就有 \(n^{-\varepsilon}\le t\)。因此
+\[
+N_x(\varepsilon)\le
+\max\!\left(n_0,\left\lceil t^{-1/\varepsilon}\right\rceil\right),
+\quad
+\limsup_{\varepsilon\downarrow0}\varepsilon\log N_x(\varepsilon)
+\le-\log t.
+\]
+令 \(t\uparrow\ell_x\) 得到上界。
+
+如果 \(\ell_x<1\)，任取 \(\ell_x<t<1\)，存在无穷多个 \(n\) 满足 \(A_n<t\)。对这些 \(n\) 取
+\[
+\varepsilon_n=\frac{-\log t}{\log n},
+\]
+则 \(A_n<n^{-\varepsilon_n}\)，所以 \(N_x(\varepsilon_n)>n\)，从而
+\[
+\varepsilon_n\log N_x(\varepsilon_n)>-\log t.
+\]
+令 \(t\downarrow\ell_x\) 得到下界；若 \(\ell_x=0\)，下界可以任意大。若 \(\ell_x=1\)，上界为 0，且左侧非负，故也成立。有限多个小 \(n\) 的 \(\Delta_n\) 均为正，因此 \(\ell_x>0\) 等价于坏逼近。
+
+不使用上面的精确恒等式，也可以直接看到关键量词：若对所有小 \(\varepsilon\) 有 \(N_x(\varepsilon)\le e^{K/\varepsilon}\)，对充分大的 \(n\) 取 \(\varepsilon=K/\log n\)，则 \(n\ge N_x(\varepsilon)\) 并有
+\[
+n\Delta_n\ge n^{-\varepsilon}=e^{-K}.
+\]
+反过来，若 \(n\Delta_n\ge c>0\)，选择任何 \(K>\log(1/c)\)，对足够小的 \(\varepsilon\) 即有 \(N_x(\varepsilon)\le e^{K/\varepsilon}\)；向上取整只影响常数余量。
+
+**对 π 的含义。** OpenAI 主结论经第 7 节的变量转换，给出每个 \(N_{\pi-3}(\varepsilon)\) 有限，但没有给出这个统一增长界。原文明确说其分母阈值没有有效给出。原文参数证明对固定 \(\nu=2+\varepsilon\) 选取 \(1/2<t<1-1/\nu\)，可用区间宽度为 \(\varepsilon/[2(2+\varepsilon)]\)，在端点趋零。这是该参数构造的障碍，并不证明其他改进不可能。
+
+仅知 \(\mu=2\) 不足以推出统一增长界。确切反例：取 \(z=[0;1,2,3,\ldots]\) 且 \(x=1/(1+z)\in(0,1)\)，则进制交点满足 \(\Delta_n=\|nz\|\)。由连分数公式 \(\mu(z)=2\)，但其收敛分数分母 \(q_k\) 满足 \(q_k\|q_kz\|<1/(k+1)\)，所以 \(\ell_x=0\)。因此所有单独的阈值仍然有限，但 \(\limsup_{\varepsilon\downarrow0}\varepsilon\log N_x(\varepsilon)=\infty\)。
+
+## 9. 对全部非平方整数的平方根给出固定正下界
+
+令 \(D\ge2\) 为非平方整数，\(m=\lfloor\sqrt D\rfloor\)，\(s=D-m^2\ge1\)，目标小数部分为
+\[
+x_D=\sqrt D-m\in(0,1).
+\]
+其横线交点仍是 \(r_n=1+n/x_D\)。由于
+\[
+\alpha=\frac1{x_D}=\frac{\sqrt D+m}{s},\qquad
+\alpha'=\frac{m-\sqrt D}{s},
+\]
+有 \(\Delta_n=\|n\alpha\|\)。取 \(k\) 为最接近 \(n\alpha\) 的整数。平方根无理，故以下整数非零：
+\[
+J=s k^2-2mkn-n^2
+ =s(k-n\alpha)(k-n\alpha').
+\]
+利用 \(|k-n\alpha|\le1/2\) 和 \(\alpha-\alpha'=2\sqrt D/s\)，得到
+\[
+1\le |J|
+\le \left(2\sqrt D\,n+\frac s2\right)\Delta_n,
+\]
+故
+\[
+\boxed{\displaystyle
+\Delta_n\ge \frac{1}{2\sqrt D\,n+s/2}
+\ge \frac{1}{(2\sqrt D+s/2)n}.}
+\]
+
+这给全部非平方整数 \(D\) 一个明确的统一常数；它依赖于目标 \(D\)，与 \(n\) 无关。特别地，\(D=2\) 时 \(m=s=1\)，
+\[
+r_n=1+n(\sqrt2+1),\quad
+\Delta_n=\|n\sqrt2\|
+\ge\frac1{(2\sqrt2+1/2)n}>\frac1{4n}.
+\]
+因此平方根的交点序列满足坏逼近，并且直接给出
+\[
+N_{x_D}(\varepsilon)\le
+\max\!\left(2,\left\lceil(2\sqrt D+s/2)^{1/\varepsilon}\right\rceil\right).
+\]
+
+这一步使用了平方根满足整数二次方程形成的非零整数 \(J\)。对 π 的交点，不能仅把它写成这种平方根形式就得到同一个整数证书；还需要新的算术信息。Python 以 70 位十进制精度检查了 138,000 组非平方 \(D\in[2,150]\)、\(1\le n\le1000\) 的公式，数值检查不代替上面的证明。以上转换与估计不宣称文献首创，也未做 Lean 核验。
