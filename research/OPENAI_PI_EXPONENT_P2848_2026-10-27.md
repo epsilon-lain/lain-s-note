@@ -303,3 +303,34 @@ N_{x_D}(\varepsilon)\le
 \]
 
 这一步使用了平方根满足整数二次方程形成的非零整数 \(J\)。对 π 的交点，不能仅把它写成这种平方根形式就得到同一个整数证书；还需要新的算术信息。Python 以 70 位十进制精度检查了 138,000 组非平方 \(D\in[2,150]\)、\(1\le n\le1000\) 的公式，数值检查不代替上面的证明。以上转换与估计不宣称文献首创，也未做 Lean 核验。
+
+
+## 10. 原论文整组参数在指数 2 的障碍
+
+这一节只分析原文第 4 节的参数不等式；它不证明其他论证或其他形式的行列式估计不能处理端点。按[原文参数引理](https://github.com/openai/math/blob/main/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/conclusion.tex)，参数满足
+\[
+0<\theta<A<B<1,\qquad
+B<1/C,\quad B<C\theta,\quad
+\nu(A-\theta)>1-\theta.
+\]
+前两条 \(B\) 上界相乘得到 \(B^2<\theta\)，所以 \(A^2<\theta\)。若令 \(\nu=2\)，最后一条却要求
+\[
+A>\frac{1+\theta}{2}\ge\sqrt\theta,
+\]
+这与 \(A<\sqrt\theta\) 矛盾。因此并非只是原文某一个参数选取区间在 \(\nu=2\) 变空：**整组现有严格条件在该端点不可行**。
+
+还能定量限制该系统的余量。令 \(\nu=2+\varepsilon\)，原文的正余量为
+\[
+g=\nu\bigl(A(1-\eta)-\theta\bigr)-(1-\theta)>0.
+\]
+由 \(A<\sqrt\theta\) 和 \(\eta>0\)，放 \(s=\sqrt\theta\) 得
+\[
+g<(1-s)\bigl((1+\varepsilon)s-1\bigr)
+\le\frac{\varepsilon^2}{4(1+\varepsilon)}.
+\]
+最后一步是配方：右边与中间表达式之差等于
+\[
+(1+\varepsilon)
+\left(s-\frac{2+\varepsilon}{2(1+\varepsilon)}\right)^2\ge0.
+\]
+因此该比较系统中的正余量至多为 \(O(\varepsilon^2)\)，无法在 \(\varepsilon\downarrow0\) 时维持固定正值。这本身不提供第 8 节的 \(N_x(\varepsilon)\) 下界，也不说明指数式的阈值控制不可能；要处理坏逼近，需要新的量化控制或改变现有比较条件。
