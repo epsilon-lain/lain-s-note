@@ -104,3 +104,7 @@ python3 reproduce.py
 ## 后续：无限射线与细管重叠
 
 [INFINITE_RAYS_KAKEYA_BRIDGE.md](INFINITE_RAYS_KAKEYA_BRIDGE.md) 将共同起点的无限射线截断为长度随分母增长的窗口，并借鉴所给预印本第 9 节的细管重叠视角。射线扫过的三角形面积等于 q² 倍误差的一半；带厚度细管的重叠给出精确判据。还推导了多尺度重叠核和傅里叶平方表示。该模型没有应用或核验论文的 PDE 定理，也没有判定 π 的极限。运行 `python3 ray_tube_overlap.py` 可复现全部数值证书。
+
+## 后续：实数进制空间与数位波
+
+[BASE_SPACE_MODEL.md](BASE_SPACE_MODEL.md) 将实数进制、目标数值和数位波组合成一个可计算对象，推导横线曲线、有限前缀区域及其两种收缩尺度。还证明对固定目标、固定 K≥3，平移整数进制网格后几乎所有偏移只发生有限次全同前缀；特定整数网格是否命中不由此决定。`python3 base_space.py` 可复现证书；示意图可选用 `python3 base_space_plot.py` 生成。

@@ -196,3 +196,28 @@ whereas that section's Lemma 9.4 assumes delta-separated directions.
 Do not claim the preprint's PDE argument was transferred, or that an
 Lp or dimension result alone establishes a pi-specific assertion.
 Run `python3 ray_tube_overlap.py` with assertions enabled.
+
+## Follow-up: real-base wave space and constant-digit cells
+
+Audit BASE_SPACE_MODEL.md, including all endpoint inequalities. For real
+base beta>1 and target y with fractional part x, define d_j by the greedy
+recursion; check that F(beta,y;v,u) is bounded and that the digits plus
+the separately recorded integer part reconstruct y.
+
+For n>=1 and beta>n+1, verify that the first K greedy digits equal n
+if and only if L_K(beta)<=x<U_K(beta), including the left endpoint and
+excluding the right endpoint. Audit the local interval [beta_minus,
+beta_plus) and its asymptotics as K tends to infinity for fixed x,n.
+
+For fixed x and K, independently verify width ~ x^(K-2)*n^(1-K) as
+n tends to infinity, paying attention to the different limits. Check the
+almost-every-offset finite-hit result for K>=3 by the convergent sum of
+interval lengths, and verify that it says nothing about the specific
+integer-grid offset zero. Check the Liouville example where offset zero
+is exceptional.
+
+Review the polynomial cell inequalities and the finite-prefix stability
+at the all-equal wave. Verify certified digits in bases 8 and 114 and the
+rational bisection intervals. Run `python3 base_space.py` with assertions
+enabled. Do not infer a new pi irrationality measure or P2848 result from
+a generic offset statement or finite prefixes.

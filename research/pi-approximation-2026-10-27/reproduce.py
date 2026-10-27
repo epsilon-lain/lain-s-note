@@ -9,7 +9,7 @@ if not __debug__:
 
 for name in ('verify.py', 'wave_compare.py', 'quadratic_barriers.py',
              'pure_root_barriers.py', 'envelope_audit.py', 'weighted_wave.py', 'wave_certificates.py', 'real_base_needle.py',
-             'ray_tube_overlap.py'):
+             'ray_tube_overlap.py', 'base_space.py'):
     print('\nRunning', name, flush=True)
     subprocess.run([sys.executable, str(ROOT / name)], cwd=ROOT, check=True)
 print('\nAll exact-check programs completed successfully.')
