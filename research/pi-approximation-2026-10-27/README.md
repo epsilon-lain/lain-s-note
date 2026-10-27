@@ -88,3 +88,7 @@ python3 reproduce.py
 这份资料是数学任务包，不是声称已兼容某个未核验的提交 API，也没有代用户提交到 Open Math。平台权限开通后，可以将本目录作为上下文并使用该审查文本。
 
 外部定理与依赖见 [SOURCES.md](SOURCES.md)。历史记录中有关其他预印本的讨论不被用作当前根式证明的输入。
+
+## 后续：加权差与周期返回
+
+[WEIGHTED_WAVE_RETURNS.md](WEIGHTED_WAVE_RETURNS.md) 给出精确恒等式 (p−1)x=d₁+Σ(dⱼ₊₁−dⱼ)/pʲ，并将接近整数、周期返回和归一化误差联系起来。`python3 weighted_wave.py` 可独立复现新实验；9000 次精确恒等式检查通过。
