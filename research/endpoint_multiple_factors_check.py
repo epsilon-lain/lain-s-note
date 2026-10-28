@@ -10,7 +10,7 @@ The two truncated logarithms really differ. All arithmetic is rational.
 from collections import defaultdict
 from fractions import Fraction as F
 from itertools import product
-from math import comb
+from math import comb, lcm
 
 W0, V0, W1, W2 = 1, 2, 2, 4
 THETA = F(1, 2)
@@ -223,7 +223,74 @@ def asymptotic_count():
     print('H=1000000: R/H^4 divided by predicted limit =', float(ratio))
 
 
+def integer_divisibility():
+    # A real-rational specialization of the same denominator argument:
+    # r1=2/2=1, r2=5/3, delta=2/3, L=6, and L*delta=4.
+    H, h, q1, q2 = 52, 10, 2, 3
+    L = lcm(q1, q2)
+    delta = F(2, 3)
+    d = L * delta
+    assert d.denominator == 1 and d != 0
+    U, A, B = params(H, h)
+    trunc_denom = lcm(*range(1, T1)) ** (H // W1)
+    trunc_denom *= lcm(*range(1, T2)) ** (H // W2)
+    checked = 0
+    for a in range(A + 1):
+        for b in range(B + 1):
+            k = U + 1 + b
+            e = k - U
+            for center in (0, 1):
+                column = special_column(H, h, a, k, center)
+                entries = defaultdict(F)
+                for (s, b1, b2, power), coeff in column.items():
+                    entries[(s, b1, b2)] += coeff * delta ** power
+                for (_, b1, b2), value in entries.items():
+                    if not value:
+                        continue
+                    scaled_quotient = (
+                        value * trunc_denom * q1 ** a * L ** k
+                        / (q1 ** b1 * q2 ** b2 * d ** e)
+                    )
+                    assert scaled_quotient.denominator == 1
+                    checked += 1
+    print('Exact scaled entries divisible by (L delta)^e:', checked)
+
+
+def gaussian_integer_divisibility():
+    # r1=1, r2=1+i/3; q1*r1 and q2*r2 are Gaussian integers.
+    # Here L=6, L*delta=2i. Divisibility by (2i)^e is the same
+    # as divisibility of both integer components by 2^e.
+    H, h, q1, q2 = 52, 10, 2, 3
+    L = lcm(q1, q2)
+    U, A, B = params(H, h)
+    trunc_denom = lcm(*range(1, T1)) ** (H // W1)
+    trunc_denom *= lcm(*range(1, T2)) ** (H // W2)
+    checked = 0
+    for a in range(A + 1):
+        for b in range(B + 1):
+            k = U + 1 + b
+            e = k - U
+            for center in (0, 1):
+                column = special_column(H, h, a, k, center)
+                entries = defaultdict(lambda: [F(0), F(0)])
+                for (s, b1, b2, power), coeff in column.items():
+                    sign = 1 if power % 4 in (0, 1) else -1
+                    axis = power % 2
+                    entries[(s, b1, b2)][axis] += sign * coeff / 3 ** power
+                for (_, b1, b2), (real, imag) in entries.items():
+                    if not (real or imag):
+                        continue
+                    scale = F(trunc_denom * q1 ** a * L ** k,
+                              q1 ** b1 * q2 ** b2 * 2 ** e)
+                    assert (real * scale).denominator == 1
+                    assert (imag * scale).denominator == 1
+                    checked += 1
+    print('Exact Gaussian scaled entries divisible by (L delta)^e:', checked)
+
+
 if __name__ == '__main__':
     block_symbolic()
     full_row_example()
     asymptotic_count()
+    integer_divisibility()
+    gaussian_integer_divisibility()
