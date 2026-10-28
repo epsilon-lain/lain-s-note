@@ -1,0 +1,115 @@
+{
+  "exact_identity_samples": 8000,
+  "rational_aperiodic_prefix_base_3_over_2": "01000001001001010000000001000000100001000000100100101000000000001000100100000001",
+  "pi": {
+    "target_base_interval": [
+      "8.0625133059310457697930051525705580",
+      "8.0625133059310457697930051525705581"
+    ],
+    "rows": [
+      {
+        "rational": "22/7",
+        "small_fraction": "1/7",
+        "rational_base": "8",
+        "base_decimal": "8",
+        "leading_ones": 2,
+        "next_digit": 0,
+        "kappa_interval": [
+          "0.06195997410013131533047",
+          "0.06195997410013131533048"
+        ],
+        "base_normalized_interval": [
+          "0.06251330593104576979300",
+          "0.06251330593104576979301"
+        ],
+        "shadow_excess_approx": 0.12843005196159707
+      },
+      {
+        "rational": "333/106",
+        "small_fraction": "15/106",
+        "rational_base": "121/15",
+        "base_decimal": "8.066666666666666666667",
+        "leading_ones": 4,
+        "next_digit": 3,
+        "kappa_interval": [
+          "0.9350557349168273662610",
+          "0.9350557349168273662611"
+        ],
+        "base_normalized_interval": [
+          "0.9345061655147017965738",
+          "0.9345061655147017965739"
+        ],
+        "shadow_excess_approx": -0.4674512387613472
+      },
+      {
+        "rational": "355/113",
+        "small_fraction": "16/113",
+        "rational_base": "129/16",
+        "base_decimal": "8.0625",
+        "leading_ones": 6,
+        "next_digit": 0,
+        "kappa_interval": [
+          "0.003406311930138070506638",
+          "0.003406311930138070506639"
+        ],
+        "base_normalized_interval": [
+          "0.003406318347717067009319",
+          "0.003406318347717067009320"
+        ],
+        "shadow_excess_approx": 1.4701665574180964
+      },
+      {
+        "rational": "103993/33102",
+        "small_fraction": "4687/33102",
+        "rational_base": "37789/4687",
+        "base_decimal": "8.062513334755707275443",
+        "leading_ones": 10,
+        "next_digit": 6,
+        "kappa_interval": [
+          "0.6332192729760021249893",
+          "0.6332192729760021249894"
+        ],
+        "base_normalized_interval": [
+          "0.6332192703916061263914",
+          "0.6332192703916061263915"
+        ],
+        "shadow_excess_approx": 0.02757507512113655
+      },
+      {
+        "rational": "104348/33215",
+        "small_fraction": "4703/33215",
+        "rational_base": "37918/4703",
+        "base_decimal": "8.062513289389751222624",
+        "leading_ones": 9,
+        "next_digit": 0,
+        "kappa_interval": [
+          "0.3658638090679485103094",
+          "0.3658638090679485103095"
+        ],
+        "base_normalized_interval": [
+          "0.3658638099248475747026",
+          "0.3658638099248475747027"
+        ],
+        "shadow_excess_approx": -0.9756904138564959
+      },
+      {
+        "rational": "245850922/78256779",
+        "small_fraction": "11080585/78256779",
+        "rational_base": "89337364/11080585",
+        "base_decimal": "8.062513305931049669309",
+        "leading_ones": 17,
+        "next_digit": 2,
+        "kappa_interval": [
+          "0.4787800905850687191460",
+          "0.4787800905850687191461"
+        ],
+        "base_normalized_interval": [
+          "0.4787800905850684547910",
+          "0.4787800905850684547911"
+        ],
+        "shadow_excess_approx": -0.4159500016452924
+      }
+    ]
+  },
+  "gamma_reflection_float_max_relative_error": 8.548717289613705e-15
+}
