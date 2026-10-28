@@ -1,0 +1,196 @@
+{
+  "configuration": {
+    "grid": "8+i/1000, i=0,...,1000",
+    "train": 600,
+    "validation": 200,
+    "test": 201,
+    "split_rule": "train i%5 in {1,2,3}; validation i%5=4; test i%5=0",
+    "hyperparameter_selection": "Architecture fixed; optimizer limits/tolerance adjusted after convergence warnings; exploratory fixed-split evaluation",
+    "network": "32,32 tanh; lbfgs; alpha=1e-6; max_iter=10000; tol=1e-7; seed=2848",
+    "raw_inputs": [
+      "base"
+    ],
+    "raw_outputs": [
+      "slope",
+      "absolute MSE"
+    ],
+    "phase_inputs": [
+      "base",
+      "midpoint from 12 post-exit digits"
+    ],
+    "phase_outputs": [
+      "log |H|",
+      "log V"
+    ],
+    "structured_reconstruction": "epsilon_hat=n^-N*(tail_mid-1/(n-1)); s=-6*epsilon_hat+epsilon_hat^2*H_hat",
+    "post_exit_digits": 12,
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "exact_multiscale_checks": 500,
+  "label_checks": {
+    "max_slope_interval_width": 7.052376756218225e-94,
+    "max_mse_interval_width": 1.1623978165450786e-47,
+    "max_H_interval_width": 3.972305559458588e-85,
+    "uniform_phase_relative_error_bound": 5.238689482212067e-10
+  },
+  "validation_metrics": {
+    "linear_base_regression": {
+      "slope_mae": 0.0028418805599298596,
+      "slope_max_absolute_error": 0.0053219627367802474,
+      "mse_mae": 0.0019445014601876104,
+      "mse_max_absolute_error": 0.0064735303460074535
+    },
+    "raw_base_neural_network": {
+      "slope_mae": 7.56203279234776e-05,
+      "slope_max_absolute_error": 0.006708268405975423,
+      "mse_mae": 0.00016422311096526683,
+      "mse_max_absolute_error": 0.006071318869903949
+    },
+    "local_phase_neural_network": {
+      "slope_mae": 2.4116820999469036e-05,
+      "slope_max_absolute_error": 0.0002943130233803992,
+      "mse_mae": 7.962070118301295e-05,
+      "mse_max_absolute_error": 0.0007798597285796731
+    }
+  },
+  "test_metrics": {
+    "linear_base_regression": {
+      "slope_mae": 0.0028516109978825198,
+      "slope_max_absolute_error": 0.005329569218069902,
+      "mse_mae": 0.0019425176291898358,
+      "mse_max_absolute_error": 0.006494910709707405
+    },
+    "raw_base_neural_network": {
+      "slope_mae": 5.4673789296890484e-05,
+      "slope_max_absolute_error": 0.002591896242086729,
+      "mse_mae": 0.000148107868442304,
+      "mse_max_absolute_error": 0.0022919405035055572
+    },
+    "local_phase_neural_network": {
+      "slope_mae": 2.470845293723802e-05,
+      "slope_max_absolute_error": 0.00034818984127743535,
+      "mse_mae": 7.948996931757508e-05,
+      "mse_max_absolute_error": 0.0009019835191094742
+    }
+  },
+  "critical_holdouts": [
+    {
+      "base": "121/15",
+      "pi_fraction": "333/106",
+      "q": 106,
+      "leading_ones": 4,
+      "true_slope": -0.0004992201406944322,
+      "true_slope_score": 0.9348729168071067,
+      "true_kappa": 0.9350557349168274,
+      "raw_network_score": 1.0838712952284253,
+      "local_phase_network_score": 0.9348240411602887,
+      "local_analytic_score": 0.9350557349195758,
+      "finite_phase_relative_error": 2.9393365857425263e-12,
+      "exact_H": 14.09636701904796,
+      "predicted_H": 17.86497121048599,
+      "exact_V": 0.4498168477041759,
+      "predicted_V": 0.45470898663002046,
+      "raw_score_relative_error": 0.15937821680640418,
+      "phase_score_relative_error": 5.228052491335067e-05
+    },
+    {
+      "base": "129/16",
+      "pi_fraction": "355/113",
+      "q": 113,
+      "leading_ones": 6,
+      "true_slope": 1.6005745642016127e-06,
+      "true_slope_score": 0.0034062894350483986,
+      "true_kappa": 0.0034063119301380703,
+      "raw_network_score": 0.18121240168496053,
+      "local_phase_network_score": 0.003406289273880646,
+      "local_analytic_score": 0.0034063119303495105,
+      "finite_phase_relative_error": 6.207286648592504e-11,
+      "exact_H": -148.53439611106668,
+      "predicted_H": -149.59997801638187,
+      "exact_V": 0.5265678008884171,
+      "predicted_V": 0.5558445076400067,
+      "raw_score_relative_error": 52.19935523399988,
+      "phase_score_relative_error": 4.731475578001465e-08
+    },
+    {
+      "base": "37789/4687",
+      "pi_fraction": "103993/33102",
+      "q": 33102,
+      "leading_ones": 10,
+      "true_slope": -3.4673438032086325e-09,
+      "true_slope_score": 0.6332192724037217,
+      "true_kappa": 0.6332192729760021,
+      "raw_network_score": 15839.124239573837,
+      "local_phase_network_score": 0.6332192724410691,
+      "local_analytic_score": 0.6332192729703569,
+      "finite_phase_relative_error": 8.915194460724552e-12,
+      "exact_H": 9.383403701078839,
+      "predicted_H": 8.67847318614086,
+      "exact_V": 0.6857415248294081,
+      "predicted_V": 0.6894355196414772,
+      "raw_score_relative_error": 25012.648399310383,
+      "phase_score_relative_error": 5.898037613860652e-11
+    },
+    {
+      "base": "37918/4703",
+      "pi_fraction": "104348/33215",
+      "q": 33215,
+      "leading_ones": 9,
+      "true_slope": 1.989766800208622e-09,
+      "true_slope_score": 0.36586380221541487,
+      "true_kappa": 0.36586380906794846,
+      "raw_network_score": 15946.459337461582,
+      "local_phase_network_score": 0.3658638021042628,
+      "local_analytic_score": 0.36586380903351584,
+      "finite_phase_relative_error": 9.411346617224358e-11,
+      "exact_H": -338.869151635644,
+      "predicted_H": -342.6630550596111,
+      "exact_V": 1.532573773000612,
+      "predicted_V": 1.4515304673499196,
+      "raw_score_relative_error": 43584.780393963534,
+      "phase_score_relative_error": 3.0380731264045835e-10
+    },
+    {
+      "base": "89337364/11080585",
+      "pi_fraction": "245850922/78256779",
+      "q": 78256779,
+      "leading_ones": 17,
+      "true_slope": -4.690761971944525e-16,
+      "true_slope_score": 0.4787800905850686,
+      "true_kappa": 0.47878009058506876,
+      "raw_network_score": 88521653331.96426,
+      "local_phase_network_score": 0.47878009059286725,
+      "local_analytic_score": 0.4787800905928673,
+      "finite_phase_relative_error": 1.628854779529961e-11,
+      "exact_H": 22.308087344521365,
+      "predicted_H": 22.12656266413737,
+      "exact_V": 0.35838704994611925,
+      "predicted_V": 0.32772060416615406,
+      "raw_score_relative_error": 184890004977.67596,
+      "phase_score_relative_error": 1.6288526083485522e-11
+    }
+  ],
+  "network_training": {
+    "raw": {
+      "iterations": 6226,
+      "warnings": []
+    },
+    "phase": {
+      "iterations": 8589,
+      "warnings": []
+    }
+  },
+  "raw_prediction_at_special_base": [
+    -8.672750043405009e-05,
+    0.0005718352088070187
+  ],
+  "raw_network_zero_estimate": 8.061782113865792,
+  "raw_network_zero_error_approx": -0.0007311920652526283,
+  "phase_test_correction_mae": 1.0743495353934076,
+  "export_checks_max_absolute_error": {
+    "raw": 0.0,
+    "phase": 0.0
+  },
+  "elapsed_seconds": 9.195286273956299
+}
