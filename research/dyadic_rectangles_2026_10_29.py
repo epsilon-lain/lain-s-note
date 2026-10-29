@@ -111,10 +111,33 @@ def integral_checks():
     assert integral_rational(3) == Fraction(431302721, 137287920)
 
 
+def rational_base_checks():
+    """Check the b=3/2 geometric-kernel rectangle construction."""
+    lower_pi, upper_pi = pi_bounds()
+    base = Fraction(3, 2)
+    total = Fraction()
+    for k in range(16):
+        height = 4 * sum(
+            (Fraction((-1) ** j * comb(k, j), 2 * j + 1)
+             * (base - 1) ** (k - j) for j in range(k + 1)),
+            Fraction(),
+        )
+        assert height > 0
+        total += height / base ** (k + 1)
+        n = k + 1
+        assert 0 < lower_pi - total < upper_pi - total
+        assert upper_pi - total < upper_pi / 3**n
+        if n == 2:
+            assert total == Fraction(80, 27)
+        if n == 4:
+            assert total == Fraction(8864, 2835)
+
+
 if __name__ == '__main__':
     rows = rectangle_series_checks()
     integral_checks()
-    print('All exact checks passed; n=1..100 for the binary series, n=1..8 for the 1024 family.')
+    rational_base_checks()
+    print('All exact checks passed; n=1..100 for the binary series, n=1..16 for b=3/2, n=1..8 for the 1024 family.')
     print('N | P_N | certified-error approximation | q^2 times error approximation')
     for row in rows:
         print(' | '.join(map(str, row)))
