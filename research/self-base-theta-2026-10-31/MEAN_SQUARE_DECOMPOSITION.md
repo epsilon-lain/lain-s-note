@@ -89,3 +89,8 @@ g_n/[D_n 2^(−n/2)n^(−1/4)]→∞
 [Gadre, Partial sums of excursions along random geodesics](https://www.maths.gla.ac.uk/~vgadre/papers/Exc-sums.pdf) 研究随机/几乎处处轨道的累计 cusp excursion；该文第1节还说明与部分商和的联系。因此累计峰/深入区间不是全新理论方向。其几乎处处结论不直接判定 π 这条指定轨道。
 
 本次结论：全局积分现在有可证明的分解和线性误差；对π的正积分试验暴露出明确的约分缺口。π上要求的长期增长仍未证明。
+
+
+## 后续限制
+
+[稀疏高峰反例](SPARSE_PEAK_OBSTRUCTION.md) 严格证明：无界峰可以与有界长期平方平均共存。因此本文件的平均发散目标严格强于非坏逼近，平均有界不能用于证伪P2848。

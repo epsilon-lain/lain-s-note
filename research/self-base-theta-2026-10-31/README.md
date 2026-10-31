@@ -296,3 +296,8 @@ python3 verify.py > results.json
 ## 后续：长期平方平均
 
 [不重叠区间分解与 π 正积分尝试](MEAN_SQUARE_DECOMPOSITION.md)：给出全局线性余项界、单峰充分条件和一次未成功的约分实验。
+
+
+## 后续：稀疏高峰与平均路线的限制
+
+[构造反例及完整证明](SPARSE_PEAK_OBSTRUCTION.md)：峰高无界但长期平方平均有界；给出不漏掉稀疏高峰的固定长度移动窗口判据。
