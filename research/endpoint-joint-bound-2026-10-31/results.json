@@ -1,0 +1,150 @@
+{
+  "status": "checks passed; not a proof or disproof of P2848",
+  "finite_check_c": "1/6 (the finite inequality holds for every c>0)",
+  "exact_primal_dual": [
+    {
+      "weights": [
+        "1"
+      ],
+      "mass": 100,
+      "exact_minimum": "673",
+      "exact_dual": "2691/4",
+      "nonnegative_gap": "1/4"
+    },
+    {
+      "weights": [
+        "1",
+        "2"
+      ],
+      "mass": 250,
+      "exact_minimum": "6799/3",
+      "exact_dual": "6797/3",
+      "nonnegative_gap": "2/3"
+    },
+    {
+      "weights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "mass": 1000,
+      "exact_minimum": "42878/3",
+      "exact_dual": "342971/24",
+      "nonnegative_gap": "53/24"
+    }
+  ],
+  "riemann_sums": [
+    {
+      "weights": [
+        "1"
+      ],
+      "ratios": [
+        {
+          "H": 8,
+          "ratio": 1.2638888888888888
+        },
+        {
+          "H": 16,
+          "ratio": 1.1284722222222223
+        },
+        {
+          "H": 32,
+          "ratio": 1.0633680555555556
+        },
+        {
+          "H": 64,
+          "ratio": 1.0314670138888888
+        }
+      ]
+    },
+    {
+      "weights": [
+        "1",
+        "2"
+      ],
+      "ratios": [
+        {
+          "H": 8,
+          "ratio": 2.3333333333333335
+        },
+        {
+          "H": 16,
+          "ratio": 1.5798611111111112
+        },
+        {
+          "H": 32,
+          "ratio": 1.26953125
+        },
+        {
+          "H": 64,
+          "ratio": 1.1298285590277777
+        }
+      ]
+    },
+    {
+      "weights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "ratios": [
+        {
+          "H": 8,
+          "ratio": 6.527777777777778
+        },
+        {
+          "H": 16,
+          "ratio": 2.8949652777777777
+        },
+        {
+          "H": 32,
+          "ratio": 1.7732747395833333
+        },
+        {
+          "H": 64,
+          "ratio": 1.3480122884114583
+        }
+      ]
+    }
+  ],
+  "paper_constant_bound": {
+    "sample_count": 600,
+    "largest_lhs_minus_rhs": -0.0977302256923957,
+    "thresholds": [
+      {
+        "m": 1,
+        "rho": 0.5,
+        "necessary_tau_strictly_above": 166195.46870439156
+      },
+      {
+        "m": 10,
+        "rho": 0.5,
+        "necessary_tau_strictly_above": 12.211534785635731
+      },
+      {
+        "m": 100,
+        "rho": 0.5,
+        "necessary_tau_strictly_above": 1.3480326818347292
+      },
+      {
+        "m": 1000,
+        "rho": 0.5,
+        "necessary_tau_strictly_above": 0.34841363918279183
+      },
+      {
+        "m": 10000,
+        "rho": 0.5,
+        "necessary_tau_strictly_above": 0.109238311554097
+      }
+    ]
+  },
+  "omitted_monotone_constraint": {
+    "m": 3,
+    "theta": "4/5",
+    "T": "2/5",
+    "R": "3/5",
+    "source_fraction": "189/256",
+    "free_target_fraction": "1",
+    "violated_mass_fraction": "67/256"
+  }
+}

@@ -47,6 +47,7 @@
 - [加权数位差、整数接近与周期返回](pi-approximation-2026-10-27/WEIGHTED_WAVE_RETURNS.md)
 - [自身进制、解析高斯和与 P2848：峰高估计及其限制](self-base-theta-2026-10-31/README.md)
 - [两中心插值行列式：显式列约化、分母与系数界](endpoint-reduction-2026-10-31/README.md)
+- [任意常数改善、Lean 反证链与联合变分判据](endpoint-joint-bound-2026-10-31/README.md)：追读实际 Lean 构造；给出联合收益下界、原误差成本下的必要门槛，以及尚未使用的单调分配约束。未证明或证伪 P2848。
 
 
 
