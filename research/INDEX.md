@@ -71,3 +71,5 @@
 - [跨进制迁移曲线上的代数与超越值](cross-base-transport-2026-10-31/ALGEBRAIC_TRANSCENDENTAL_FIBERS.md)：证明固定 π 数位串的迁移函数是 (1,∞) 到 (0,∞) 的严格递减双射；代数值对应的底数参数构成可数稠密集，超越值对应的底数参数具有满测度且为 comeager。未识别 F(10) 的超越性。
 
 - [迁移几何：数位敏感度、不变量与算术纤维](cross-base-transport-2026-10-31/MIGRATION_GEOMETRY.md)：把对数底数下的相对敏感度识别为数位位置均值，导出方差演化、成对赔率斜率不变量、累积量与 Fisher 度量；区分算术例外点和解析奇点。
+
+- [全局敏感度坐标与端点渐近](cross-base-transport-2026-10-31/GLOBAL_SENSITIVITY_COORDINATE.md)：证明平均数位位置 μ(t) 是底数空间 (1,∞) 到 (1,∞) 的严格递减双射，并给出 t→1 与 t→∞ 的端点渐近。
