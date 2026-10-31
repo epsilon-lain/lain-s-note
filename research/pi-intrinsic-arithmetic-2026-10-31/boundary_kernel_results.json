@@ -1,0 +1,97 @@
+{
+  "native_digit_certificate": {
+    "count": 192,
+    "source": "Machin rational bounds, 160 terms, then dyadic outward enclosure"
+  },
+  "harmonic_quotient_first_16": [
+    1,
+    1,
+    3,
+    7,
+    17,
+    46,
+    123,
+    340,
+    950,
+    2688,
+    7678,
+    22112,
+    64125,
+    187067,
+    548509,
+    1615492
+  ],
+  "zero_relation_first_16": [
+    1,
+    -2,
+    0,
+    -3,
+    -6,
+    -9,
+    -27,
+    -56,
+    -141,
+    -350,
+    -894,
+    -2331,
+    -6167,
+    -16542,
+    -44899,
+    -123079
+  ],
+  "formal_D_quotient_and_C_recovery_orders": 192,
+  "scaled_product_coefficients": [
+    {
+      "n": 16,
+      "quantity": "n^2 * f_n * pi^(-n)",
+      "lower": "-0.967811381127773795909635",
+      "upper": "-0.967811381127773795909634",
+      "bounds": "exact rational interval, displayed with outward Decimal rounding"
+    },
+    {
+      "n": 32,
+      "quantity": "n^2 * f_n * pi^(-n)",
+      "lower": "-0.981852370305285770376649",
+      "upper": "-0.981852370305285770376648",
+      "bounds": "exact rational interval, displayed with outward Decimal rounding"
+    },
+    {
+      "n": 64,
+      "quantity": "n^2 * f_n * pi^(-n)",
+      "lower": "-0.990468991869587294390194",
+      "upper": "-0.990468991869587294390193",
+      "bounds": "exact rational interval, displayed with outward Decimal rounding"
+    },
+    {
+      "n": 128,
+      "quantity": "n^2 * f_n * pi^(-n)",
+      "lower": "-0.995124923992102060120317",
+      "upper": "-0.995124923992102060120316",
+      "bounds": "exact rational interval, displayed with outward Decimal rounding"
+    },
+    {
+      "n": 192,
+      "quantity": "n^2 * f_n * pi^(-n)",
+      "lower": "-0.996725988498729307976794",
+      "upper": "-0.996725988498729307976793",
+      "bounds": "exact rational interval, displayed with outward Decimal rounding"
+    }
+  ],
+  "divisible_block_identity_cases": 132,
+  "mod4_example": {
+    "modulus": 4,
+    "start": 3,
+    "stop": 5,
+    "count_block": [
+      28,
+      88,
+      276
+    ],
+    "forced_digit_block": [
+      1,
+      1,
+      0
+    ]
+  },
+  "scope": "Finite exact certificates only. Norm convergence, non-finite-generation, and modular nonrecurrence require the accompanying general proofs."
+}
