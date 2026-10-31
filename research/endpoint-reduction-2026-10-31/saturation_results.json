@@ -1,0 +1,988 @@
+{
+  "status": "all_exact_checks_passed",
+  "scope": "Fixed finite rational polynomial matrices only; no theorem about pi or P2848.",
+  "arithmetic": "Python standard-library fractions.Fraction; no floating-point operations.",
+  "independent_reference": "Permutation expansion with rational polynomial arithmetic.",
+  "precision_rule": "Initial D=sum(maximum entry degree in each column); after accumulated order e retain through D-e.",
+  "case_count": 8,
+  "endpoint_crosscheck": {
+    "model": "Constructed coefficient vectors satisfying the block expansion; not a full paper interpolation matrix.",
+    "known_first_reduction_order": 8,
+    "additional_order": 2,
+    "total_order": 10,
+    "leading_coefficient": "-9",
+    "exact_identity": "det(original)=delta^8 det(residual)"
+  },
+  "cases": [
+    {
+      "name": "invertible_constant_3",
+      "description": "Nonunit rational leading coefficient and valuation zero.",
+      "dimension": 3,
+      "input_polynomial_matrix": [
+        [
+          [
+            "0"
+          ],
+          [
+            "1/2"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "3"
+          ]
+        ],
+        [
+          [
+            "2"
+          ],
+          [
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "3"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 0,
+        "valuation": 0,
+        "leading_coefficient": "3",
+        "trace": [
+          {
+            "size": 3,
+            "precision": 0,
+            "rank_at_zero": 3,
+            "valuation_before": 0,
+            "action": "full_rank",
+            "constant_determinant": "3"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "nontrivial_schur_inverse_3",
+      "description": "A(delta)=1+delta requires a nonconstant inverse series.",
+      "dimension": 3,
+      "input_polynomial_matrix": [
+        [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "-1",
+        "1",
+        "2",
+        "1"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 5,
+        "valuation": 2,
+        "leading_coefficient": "-1",
+        "trace": [
+          {
+            "size": 3,
+            "precision": 5,
+            "rank_at_zero": 1,
+            "valuation_before": 0,
+            "valuation_added": 2,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2
+            ],
+            "column_permutation": [
+              0,
+              1,
+              2
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "1",
+            "precision_after": 3,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 2,
+            "precision": 3,
+            "rank_at_zero": 2,
+            "valuation_before": 2,
+            "action": "full_rank",
+            "constant_determinant": "-1"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "permuted_pivot_and_late_zero_ranks_3",
+      "description": "A rank-two pivot uses row/column permutations and a nontrivial Schur denominator.",
+      "dimension": 3,
+      "input_polynomial_matrix": [
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ],
+          [
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1"
+          ],
+          [
+            "3",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "0",
+        "-2",
+        "-1"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 4,
+        "valuation": 3,
+        "leading_coefficient": "-2",
+        "trace": [
+          {
+            "size": 3,
+            "precision": 4,
+            "rank_at_zero": 2,
+            "valuation_before": 0,
+            "valuation_added": 1,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              1,
+              2,
+              0
+            ],
+            "column_permutation": [
+              1,
+              2,
+              0
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "5",
+            "precision_after": 3,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 1,
+            "precision": 3,
+            "rank_at_zero": 0,
+            "valuation_before": 1,
+            "valuation_added": 1,
+            "action": "divide_whole_matrix",
+            "precision_after": 2
+          },
+          {
+            "size": 1,
+            "precision": 2,
+            "rank_at_zero": 0,
+            "valuation_before": 2,
+            "valuation_added": 1,
+            "action": "divide_whole_matrix",
+            "precision_after": 1
+          },
+          {
+            "size": 1,
+            "precision": 1,
+            "rank_at_zero": 1,
+            "valuation_before": 3,
+            "action": "full_rank",
+            "constant_determinant": "-2/5"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "rational_nontrivial_schur_3",
+      "description": "Exact rational data with singular constant matrix.",
+      "dimension": 3,
+      "input_polynomial_matrix": [
+        [
+          [
+            "1/2",
+            "1"
+          ],
+          [
+            "1/3"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "2"
+          ],
+          [
+            "4/3",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "0",
+        "-1/2",
+        "5/6",
+        "1"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 5,
+        "valuation": 3,
+        "leading_coefficient": "-1/2",
+        "trace": [
+          {
+            "size": 3,
+            "precision": 5,
+            "rank_at_zero": 1,
+            "valuation_before": 0,
+            "valuation_added": 2,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2
+            ],
+            "column_permutation": [
+              0,
+              1,
+              2
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "1/2",
+            "precision_after": 3,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 2,
+            "precision": 3,
+            "rank_at_zero": 1,
+            "valuation_before": 2,
+            "valuation_added": 1,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1
+            ],
+            "column_permutation": [
+              0,
+              1
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "11/3",
+            "precision_after": 2,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 1,
+            "precision": 2,
+            "rank_at_zero": 1,
+            "valuation_before": 3,
+            "action": "full_rank",
+            "constant_determinant": "-3/11"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "mixed_orders_4",
+      "description": "Repeated rank-zero and Schur steps; unequal invariant orders.",
+      "dimension": 4,
+      "input_polynomial_matrix": [
+        [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 10,
+        "valuation": 10,
+        "leading_coefficient": "1",
+        "trace": [
+          {
+            "size": 4,
+            "precision": 10,
+            "rank_at_zero": 0,
+            "valuation_before": 0,
+            "valuation_added": 4,
+            "action": "divide_whole_matrix",
+            "precision_after": 6
+          },
+          {
+            "size": 4,
+            "precision": 6,
+            "rank_at_zero": 1,
+            "valuation_before": 4,
+            "valuation_added": 3,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "column_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "1",
+            "precision_after": 3,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 3,
+            "precision": 3,
+            "rank_at_zero": 1,
+            "valuation_before": 7,
+            "valuation_added": 2,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2
+            ],
+            "column_permutation": [
+              0,
+              1,
+              2
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "1",
+            "precision_after": 1,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 2,
+            "precision": 1,
+            "rank_at_zero": 1,
+            "valuation_before": 9,
+            "valuation_added": 1,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1
+            ],
+            "column_permutation": [
+              0,
+              1
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "1",
+            "precision_after": 0,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 1,
+            "precision": 0,
+            "rank_at_zero": 1,
+            "valuation_before": 10,
+            "action": "full_rank",
+            "constant_determinant": "1"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "identically_singular_3",
+      "description": "Equal columns; degree bound must certify the zero determinant.",
+      "dimension": 3,
+      "input_polynomial_matrix": [
+        [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "2"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0"
+      ],
+      "recursion": {
+        "zero": true,
+        "degree_bound": 4,
+        "valuation": null,
+        "leading_coefficient": "0",
+        "trace": [
+          {
+            "size": 3,
+            "precision": 4,
+            "rank_at_zero": 2,
+            "valuation_before": 0,
+            "valuation_added": 1,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2
+            ],
+            "column_permutation": [
+              0,
+              2,
+              1
+            ],
+            "permutation_sign": -1,
+            "pivot_constant_determinant": "1",
+            "precision_after": 3,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 1,
+            "precision": 3,
+            "rank_at_zero": 0,
+            "valuation_before": 1,
+            "valuation_added": 1,
+            "action": "divide_whole_matrix",
+            "precision_after": 2
+          },
+          {
+            "size": 1,
+            "precision": 2,
+            "rank_at_zero": 0,
+            "valuation_before": 2,
+            "valuation_added": 1,
+            "action": "divide_whole_matrix",
+            "precision_after": 1
+          },
+          {
+            "size": 1,
+            "precision": 1,
+            "rank_at_zero": 0,
+            "valuation_before": 3,
+            "valuation_added": 1,
+            "action": "divide_whole_matrix",
+            "precision_after": 0
+          },
+          {
+            "size": 1,
+            "precision": 0,
+            "rank_at_zero": 0,
+            "valuation_before": 4,
+            "valuation_added": 1,
+            "action": "degree_bound_forces_zero",
+            "forced_valuation_at_least": 5
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "two_endpoint_blocks_original_4",
+      "description": "Constructed coefficient-vector model of two U=2,B=1 blocks; not a full paper interpolation matrix.",
+      "dimension": 4,
+      "input_polynomial_matrix": [
+        [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "6"
+          ],
+          [
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "6"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "3",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "6",
+            "4"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-9"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 14,
+        "valuation": 10,
+        "leading_coefficient": "-9",
+        "trace": [
+          {
+            "size": 4,
+            "precision": 14,
+            "rank_at_zero": 0,
+            "valuation_before": 0,
+            "valuation_added": 4,
+            "action": "divide_whole_matrix",
+            "precision_after": 10
+          },
+          {
+            "size": 4,
+            "precision": 10,
+            "rank_at_zero": 2,
+            "valuation_before": 4,
+            "valuation_added": 2,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "column_permutation": [
+              0,
+              2,
+              1,
+              3
+            ],
+            "permutation_sign": -1,
+            "pivot_constant_determinant": "9",
+            "precision_after": 8,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 2,
+            "precision": 8,
+            "rank_at_zero": 0,
+            "valuation_before": 6,
+            "valuation_added": 2,
+            "action": "divide_whole_matrix",
+            "precision_after": 6
+          },
+          {
+            "size": 2,
+            "precision": 6,
+            "rank_at_zero": 0,
+            "valuation_before": 8,
+            "valuation_added": 2,
+            "action": "divide_whole_matrix",
+            "precision_after": 4
+          },
+          {
+            "size": 2,
+            "precision": 4,
+            "rank_at_zero": 2,
+            "valuation_before": 10,
+            "action": "full_rank",
+            "constant_determinant": "1"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    },
+    {
+      "name": "two_endpoint_blocks_residual_4",
+      "description": "Constructed coefficient-vector model of two U=2,B=1 blocks; not a full paper interpolation matrix.",
+      "dimension": 4,
+      "input_polynomial_matrix": [
+        [
+          [
+            "3"
+          ],
+          [
+            "0"
+          ],
+          [
+            "3"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "3"
+          ],
+          [
+            "-2"
+          ],
+          [
+            "3",
+            "3"
+          ],
+          [
+            "-2"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ]
+      ],
+      "independent_determinant_coefficients": [
+        "0",
+        "0",
+        "-9"
+      ],
+      "recursion": {
+        "zero": false,
+        "degree_bound": 6,
+        "valuation": 2,
+        "leading_coefficient": "-9",
+        "trace": [
+          {
+            "size": 4,
+            "precision": 6,
+            "rank_at_zero": 2,
+            "valuation_before": 0,
+            "valuation_added": 2,
+            "action": "schur_then_divide",
+            "row_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "column_permutation": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "permutation_sign": 1,
+            "pivot_constant_determinant": "-6",
+            "precision_after": 4,
+            "schur_constant_is_zero": true
+          },
+          {
+            "size": 2,
+            "precision": 4,
+            "rank_at_zero": 2,
+            "valuation_before": 2,
+            "action": "full_rank",
+            "constant_determinant": "3/2"
+          }
+        ]
+      },
+      "matches_independent_determinant": true
+    }
+  ]
+}

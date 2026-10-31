@@ -1,0 +1,361 @@
+{
+  "status": "pass",
+  "scope": "finite exact algebra and arithmetic checks; not a proof of P2848 or the general interpolation hypotheses",
+  "dependencies": "Python standard library only",
+  "counts": {
+    "closed_coefficient_identities": 2805,
+    "canonical_elimination_entries": 5385,
+    "wedge_polynomials": 115,
+    "wedge_determinants": 189,
+    "central_denominator_checks": 189,
+    "cleared_gaussian_entries": 5112,
+    "cleared_residual_determinants": 378,
+    "tensor_determinants": 15
+  },
+  "parameter_range": {
+    "U": [
+      0,
+      24
+    ],
+    "b": "0 <= b <= min(U,8)"
+  },
+  "denominators": {
+    "guaranteed": "D_b = binomial(2b,b) <= 4^b",
+    "exact_minimal": "D_b / gcd(D_b, all integer numerators in column b)",
+    "largest_guaranteed_in_checked_range": 12870,
+    "largest_actual_in_checked_range": 12870,
+    "first_largest_actual_example": {
+      "U": 8,
+      "b": 8
+    }
+  },
+  "special_example": {
+    "U": 7,
+    "A": 1,
+    "B": 1,
+    "binomial_block": [
+      [
+        8,
+        36
+      ],
+      [
+        28,
+        84
+      ]
+    ],
+    "column_change": [
+      [
+        "1",
+        "-9/2"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "pivots": [
+      "8",
+      "-42"
+    ],
+    "block_coefficient_determinant": "-336",
+    "tensor_coefficient_determinant": "112896",
+    "delta_exponent": 8,
+    "identity": "det = 112896 * delta^8"
+  },
+  "full_row_block": {
+    "status": "pass",
+    "parameters": {
+      "K": 2,
+      "theta": "1/2",
+      "w1": 2,
+      "w2": 4,
+      "v0": 1,
+      "F0": 5,
+      "T1": 10,
+      "T2": 20,
+      "remaining_budget": 32,
+      "U": 7,
+      "A": 1,
+      "B": 1,
+      "compatible_shift_example": {
+        "H": 160,
+        "h": 128
+      },
+      "p1": 1,
+      "q1": 2,
+      "p2": 2,
+      "q2": 3,
+      "r1": {
+        "real": "0",
+        "imag": "1"
+      },
+      "r2": {
+        "real": "0",
+        "imag": "4/3"
+      },
+      "delta": {
+        "real": "0",
+        "imag": "1/3"
+      },
+      "L": 6,
+      "d": {
+        "real": "0",
+        "imag": "2"
+      }
+    },
+    "row_count": 560,
+    "row_condition": "k + 4*beta1 + 8*beta2 < 32, j in {0,1}; k is s_time-h",
+    "counts": {
+      "original_reconstruction_entries": 2240,
+      "transformed_reconstruction_entries": 2240,
+      "cleared_V_entries": 8960,
+      "cleared_original_entries": 2240,
+      "cleared_transformed_entries": 2240,
+      "nonzero_V_entries": 515,
+      "nonzero_tail_difference_entries": 311
+    },
+    "truncation_denominator": "lcm(1..9)^(a+U+2) * lcm(1..19)^(U+2)",
+    "truncation_denominator_digits_for_a0_a1": [
+      106,
+      110
+    ],
+    "nonzero_G2_minus_G1_effects": [
+      {
+        "a": 0,
+        "s": 1,
+        "changed_entries": 2,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          5,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "3/5",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 0,
+        "s": 2,
+        "changed_entries": 8,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          4,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "-1/2",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 0,
+        "s": 3,
+        "changed_entries": 22,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          20,
+          2,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "3/50",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 0,
+        "s": 4,
+        "changed_entries": 40,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          30,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "-1/1000",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 0,
+        "s": 5,
+        "changed_entries": 32,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          20,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "1/100",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 0,
+        "s": 6,
+        "changed_entries": 10,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "-1/10",
+          "imag": "0"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 1,
+        "changed_entries": 2,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          5,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "3/5"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 2,
+        "changed_entries": 10,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          4,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "-1/2"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 3,
+        "changed_entries": 30,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          20,
+          2,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "3/50"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 4,
+        "changed_entries": 62,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          30,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "-1/1000"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 5,
+        "changed_entries": 64,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          20,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "1/100"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      },
+      {
+        "a": 1,
+        "s": 6,
+        "changed_entries": 29,
+        "first_row_j_k_beta1_beta2": [
+          1,
+          10,
+          0,
+          0
+        ],
+        "coefficient_with_tail": {
+          "real": "0",
+          "imag": "-1/10"
+        },
+        "coefficient_without_tail": {
+          "real": "0",
+          "imag": "0"
+        }
+      }
+    ],
+    "scope": "actual local coefficient row pack including unequal weights and unequal truncations; global interpolation separation hypotheses and full-row-rank completion not certified"
+  },
+  "conclusions_checked": [
+    "independent rational elimination matches the displayed closed coefficient formula",
+    "transformed column b has first nonzero row s=b and factor delta^(2b+1)",
+    "the small block determinant has exact difference order (B+1)^2",
+    "the tensor block has exact difference order (A+1)*(B+1)^2",
+    "after clearing rational change-of-column coefficients, the corresponding Gaussian integer power d^(2b+1) also divides every transformed column entry"
+  ]
+}
