@@ -387,3 +387,7 @@ B(\rho e^{-\varepsilon})=\frac1m\log(1/\varepsilon)+O(1),
 2. Yao-Qiang Li, [*Hausdorff dimension of frequency sets in beta-expansions*](https://arxiv.org/html/1905.01481v3), §2 的 Parry 合法性准则与 §1 的符号空间/自然投影区分。自然投影的逆一般不 Lipschitz；本记录只对 t>π 的分离嵌入使用 (12)，没有假设源 π 求值本身具有 Lipschitz 逆。
 
 以上引用定位标准背景；不将本文全部推导归给这些论文，也不宣称穷尽文献。未运行 Lean。
+
+## 10. 后续：算术分辨率与可构造的超越底数
+
+[有理命中层与可构造底数](ARITHMETIC_LAYERS_AND_CONSTRUCTIVE_BASES.md) 给出分母上限 Q 下的首次命中位置、Farey 目标的迁移密度、逆底数的带余项展开，并用嵌套有理区间构造可计算的代数独立对 (t*,Φ(t*))。还核对并应用 Pila 的有理/代数点计数与 McMullen 的 winning 定理，明确低复杂度值的稀疏性以及双 Liouville／双坏逼近点的共存。附 192 位认证的有限层检查和 16 阶段构造证书；Φ(10) 的超越性与 P2848 仍未解决。
