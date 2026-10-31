@@ -1,0 +1,779 @@
+{
+  "status": "all_exact_checks_passed",
+  "scope": "Certified finite intrinsic pi-digit construction. No continued-fraction input, no claim about the full sequence's approximation constants, and no proof or disproof of P2848.",
+  "arithmetic": "Python standard-library integers and fractions.Fraction; outward rational interval arithmetic only.",
+  "pi_enclosure": {
+    "formula": "pi = 16 atan(1/5) - 4 atan(1/239)",
+    "atan_1_over_5_terms": 172,
+    "atan_1_over_239_terms": 51,
+    "scaled_interval_width": 1,
+    "denominator_power_of_two": 768,
+    "lower_numerator": "4877379433337147730785367636783184438106629544617005312117094624703067483921226022338309556503443306860806188903176291743533035472145733148871978886168796592731366023201732593643478734362637387390638076433575349658271570922316398230",
+    "upper_numerator": "4877379433337147730785367636783184438106629544617005312117094624703067483921226022338309556503443306860806188903176291743533035472145733148871978886168796592731366023201732593643478734362637387390638076433575349658271570922316398231",
+    "outward_decimal_interval": [
+      "3.14159265358979323846264e0",
+      "3.14159265358979323846265e0"
+    ]
+  },
+  "greedy_digits": {
+    "count": 256,
+    "definition": "r_0=1, d_n=floor(pi*r_(n-1)), r_n=pi*r_(n-1)-d_n",
+    "digits": [
+      3,
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      2,
+      0,
+      2,
+      2,
+      1,
+      1,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      0,
+      2,
+      0,
+      1,
+      2,
+      1,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      0,
+      2,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      2,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      2,
+      0,
+      2,
+      2,
+      0,
+      2,
+      0,
+      2,
+      1,
+      1,
+      0,
+      1,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      3,
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      0,
+      3,
+      0,
+      0,
+      2,
+      2,
+      2,
+      0,
+      1,
+      3,
+      0,
+      0,
+      1,
+      3,
+      0,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      0,
+      0,
+      2,
+      2,
+      2,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2,
+      1,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      2,
+      2,
+      1,
+      1,
+      2,
+      0,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      0,
+      2,
+      2,
+      0,
+      1,
+      2,
+      2,
+      0,
+      2,
+      0,
+      2,
+      2,
+      1,
+      2,
+      1,
+      0,
+      2
+    ],
+    "sha256_of_digit_bytes": "3c1568eaf4801a2758a2686c16fd68ec71d027795b6136d75309460433a799c8",
+    "every_digit_interval_unambiguous": true,
+    "every_remainder_certified_in_0_1": true,
+    "least_boundary_margin_at_n": 48,
+    "least_boundary_margin_certified_lower": "2.00754425608349196963797e-3",
+    "last_remainder_interval_width_upper": "5.63798388452348796630156e-105"
+  },
+  "integer_reciprocal": {
+    "definition": "c_0=1, c_n=sum_(k=1)^n d_k*c_(n-k)",
+    "count": 257,
+    "first_17_coefficients": [
+      "1",
+      "3",
+      "9",
+      "28",
+      "88",
+      "276",
+      "867",
+      "2724",
+      "8558",
+      "26886",
+      "84465",
+      "265354",
+      "833634",
+      "2618938",
+      "8227636",
+      "25847881",
+      "81203514"
+    ],
+    "sha256_of_comma_joined_decimal_coefficients": "ed456dd9e07b7f3fcd31398a13c70fab418b351ecf40e22a17d108b0ce5fb613",
+    "c_n_ge_3_to_n_checked_through": 256
+  },
+  "formal_identities": {
+    "D_times_C_checked_through": 256,
+    "D_equals_1_minus_Xu_times_R_checked_through": 256,
+    "R_times_H_checked_through": 256,
+    "R_times_H_integer_polynomial_coefficients_checked": 33153,
+    "H_definition": "h_0(X)=1; h_n(X)=c_n-X*c_(n-1)"
+  },
+  "linear_form_bound": {
+    "definition": "h_n=c_n-pi*c_(n-1)",
+    "bound": "abs(h_n)<=2^(n-1)",
+    "certified_through": 256
+  },
+  "renewal_constant": {
+    "definition": "m=sum_(n>=0) r_n*pi^(-n)=sum_(k>=1) k*d_k*pi^(-k)",
+    "lower_numerator": "1721312843351770902106469124203561375071993192081470779493298422587456825491644142257128650870633761266731789243681708588122098695634334272282164466657698925018614339636543708792673066391389513012597559775522638628496449955240363951",
+    "upper_numerator": "1721312843351770902106469124203561375071993192081470779493298422587456825491644142257128650870633761266731789243681708588122098734532792839503982080349248024321458980796147496296949672278534782462512806580563081670964338796286391758",
+    "denominator_power_of_two": 768,
+    "outward_decimal_interval": [
+      "1.10872321030470022127174e0",
+      "1.10872321030470022127175e0"
+    ],
+    "tail_upper_after_remainder_n": 256,
+    "tail_upper": "2.50550758539485879521550e-128",
+    "one_lt_m_lt_pi_over_pi_minus_one_certified": true
+  },
+  "coefficient_asymptotic_check": {
+    "bound": "abs(c_n-pi^n/m)<=2^n/(pi-2)",
+    "checked_n_zero_through": 256
+  },
+  "ratio_candidates": {
+    "definition": "p=c_(n+1)/g, q=c_n/g, g=gcd(c_n,c_(n+1))",
+    "tested_n_min": 1,
+    "tested_n_max": 128,
+    "distinct_reduced_fraction_count": 128,
+    "ratio_error_bound_certified": "abs(c_(n+1)/c_n-pi)<=(2/3)^n",
+    "minimum_certified_over_tested_range": true,
+    "minimum": {
+      "n": 3,
+      "p": "22",
+      "q": "7",
+      "gcd": "4",
+      "side": "above_pi",
+      "raw_c_n_decimal_digits": 2,
+      "kappa_outward_decimal_interval": [
+        "6.19599741001313153304742e-2",
+        "6.19599741001313153304743e-2"
+      ],
+      "kappa_lower_numerator": "96193980788937204459827020849356042335598949738017821676377245561540001561965400378106690942835568195607271102546978317304588658540491987693274934070862393649131170325988366210396003496928520949236130587144054382191440294169396505",
+      "kappa_upper_numerator": "96193980788937204459827020849356042335598949738017821676377245561540001561965400378106690942835568195607271102546978317304588658540491987693274934070862393649131170325988366210396003496928520949236130587144054382191440294169396554",
+      "denominator_power_of_two": 768,
+      "raw_c_n": "28",
+      "normalization": "kappa=(c_n/gcd^2)*abs(c_(n+1)-pi*c_n)"
+    },
+    "minimum_fraction_occurs_at_n": [
+      3
+    ],
+    "strict_record_improvements": [
+      {
+        "n": 1,
+        "p": "3",
+        "q": "1",
+        "gcd": "3",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 1,
+        "kappa_outward_decimal_interval": [
+          "1.41592653589793238462643e-1",
+          "1.41592653589793238462644e-1"
+        ]
+      },
+      {
+        "n": 3,
+        "p": "22",
+        "q": "7",
+        "gcd": "4",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 2,
+        "kappa_outward_decimal_interval": [
+          "6.19599741001313153304742e-2",
+          "6.19599741001313153304743e-2"
+        ]
+      }
+    ],
+    "largest_observed_gcd": {
+      "n": 108,
+      "gcd": "235"
+    },
+    "selected_samples": [
+      {
+        "n": 1,
+        "p": "3",
+        "q": "1",
+        "gcd": "3",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 1,
+        "kappa_outward_decimal_interval": [
+          "1.41592653589793238462643e-1",
+          "1.41592653589793238462644e-1"
+        ]
+      },
+      {
+        "n": 2,
+        "p": "28",
+        "q": "9",
+        "gcd": "1",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 1,
+        "kappa_outward_decimal_interval": [
+          "2.46900494077325231547411e0",
+          "2.46900494077325231547412e0"
+        ]
+      },
+      {
+        "n": 3,
+        "p": "22",
+        "q": "7",
+        "gcd": "4",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 2,
+        "kappa_outward_decimal_interval": [
+          "6.19599741001313153304742e-2",
+          "6.19599741001313153304743e-2"
+        ]
+      },
+      {
+        "n": 4,
+        "p": "69",
+        "q": "22",
+        "gcd": "4",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 2,
+        "kappa_outward_decimal_interval": [
+          "2.53084433745992741591939e0",
+          "2.53084433745992741591940e0"
+        ]
+      },
+      {
+        "n": 5,
+        "p": "289",
+        "q": "92",
+        "gcd": "3",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 3,
+        "kappa_outward_decimal_interval": [
+          "2.44021998400997034781359e0",
+          "2.44021998400997034781360e0"
+        ]
+      },
+      {
+        "n": 6,
+        "p": "908",
+        "q": "289",
+        "gcd": "3",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 3,
+        "kappa_outward_decimal_interval": [
+          "2.30399795268789303615619e1",
+          "2.30399795268789303615620e1"
+        ]
+      },
+      {
+        "n": 7,
+        "p": "4279",
+        "q": "1362",
+        "gcd": "2",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 4,
+        "kappa_outward_decimal_interval": [
+          "2.05397514175591749304167e2",
+          "2.05397514175591749304168e2"
+        ]
+      },
+      {
+        "n": 8,
+        "p": "13443",
+        "q": "4279",
+        "gcd": "2",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 4,
+        "kappa_outward_decimal_interval": [
+          "5.35026002806580873915212e2",
+          "5.35026002806580873915213e2"
+        ]
+      },
+      {
+        "n": 16,
+        "p": "85036121",
+        "q": "27067838",
+        "gcd": "3",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 8,
+        "kappa_outward_decimal_interval": [
+          "2.53318201014072336914101e5",
+          "2.53318201014072336914102e5"
+        ]
+      },
+      {
+        "n": 32,
+        "p": "11483986253903479",
+        "q": "3655466357416233",
+        "gcd": "2",
+        "side": "above_pi",
+        "raw_c_n_decimal_digits": 16,
+        "kappa_outward_decimal_interval": [
+          "1.18147900525547114749565e13",
+          "1.18147900525547114749566e13"
+        ]
+      },
+      {
+        "n": 64,
+        "p": "186173809696429115017922671720255",
+        "q": "59260964174873055715287096130326",
+        "gcd": "1",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 32,
+        "kappa_outward_decimal_interval": [
+          "1.43169274779708560828791e33",
+          "1.43169274779708560828792e33"
+        ]
+      },
+      {
+        "n": 128,
+        "p": "12232365192317884433271223265990648926073760231162943631466714821",
+        "q": "3893682772125268482907054485884170334583625699256619280644178115",
+        "gcd": "1",
+        "side": "below_pi",
+        "raw_c_n_decimal_digits": 64,
+        "kappa_outward_decimal_interval": [
+          "7.65043882282729713574848e66",
+          "7.65043882282729713574849e66"
+        ]
+      }
+    ]
+  },
+  "B_N_checks": {
+    "definition": "B_N=1-D*C_N, C_N=sum_(j=0)^N c_j u^j",
+    "cases": [
+      {
+        "N": 0,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 1,
+        "first_nonzero_coefficient": "3",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 1,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 2,
+        "first_nonzero_coefficient": "9",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 2,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 3,
+        "first_nonzero_coefficient": "28",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 4,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 5,
+        "first_nonzero_coefficient": "276",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 8,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 9,
+        "first_nonzero_coefficient": "26886",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 16,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 17,
+        "first_nonzero_coefficient": "255108363",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 32,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 33,
+        "first_nonzero_coefficient": "22967972507806958",
+        "all_inspected_later_coefficients_nonnegative": true
+      },
+      {
+        "N": 64,
+        "checked_through_degree": 256,
+        "first_nonzero_degree": 65,
+        "first_nonzero_coefficient": "186173809696429115017922671720255",
+        "all_inspected_later_coefficients_nonnegative": true
+      }
+    ],
+    "scope": "Finite coefficient checks only. Evaluation B_N(1/pi)=1 is an infinite-series identity proved separately, not established by this truncation."
+  },
+  "intrinsic_score_checks": {
+    "definition": "S(q)=q/a*min((q*b) mod a, a-((q*b) mod a)); a=c_(N-1), b=c_N",
+    "prefix_rule": "N is least >=1 with 3^(N-1)>=q^3*2^(N-1)",
+    "theorem_bound": "abs(S(q)-q*distance(q*pi,Z))<=q^2*2^(N-1)/c_(N-1)<=1/q",
+    "scope": "Finite checks of the score and error certificates. The asymptotic equivalence with P2848 requires the general proof; finite scores alone do not decide it.",
+    "q_range": "1..128, 33102, 1000000",
+    "case_count": 130,
+    "maximum_prefix_N": 104,
+    "all_certificates_passed": true,
+    "selected_samples": [
+      {
+        "q": 1,
+        "prefix_N": 1,
+        "a_c_N_minus_1": "1",
+        "b_c_N": "3",
+        "residue_qb_mod_a": "0",
+        "score_numerator": "0",
+        "score_denominator": "1",
+        "score_outward_decimal_interval": [
+          "0",
+          "0"
+        ],
+        "universal_error_bound_numerator": "1",
+        "universal_error_bound_denominator": "1",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "3",
+        "true_q_distance_outward_decimal_interval": [
+          "1.41592653589793238462643e-1",
+          "1.41592653589793238462644e-1"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "1.41592653589793238462644e-1",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 7,
+        "prefix_N": 16,
+        "a_c_N_minus_1": "25847881",
+        "b_c_N": "81203514",
+        "residue_qb_mod_a": "25619097",
+        "score_numerator": "1601488",
+        "score_denominator": "25847881",
+        "score_outward_decimal_interval": [
+          "6.19581930139650519127660e-2",
+          "6.19581930139650519127661e-2"
+        ],
+        "universal_error_bound_numerator": "1605632",
+        "universal_error_bound_denominator": "25847881",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "22",
+        "true_q_distance_outward_decimal_interval": [
+          "6.19599741001313153304742e-2",
+          "6.19599741001313153304743e-2"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "1.78108616626341770813995e-6",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 106,
+        "prefix_N": 36,
+        "a_c_N_minus_1": "226684802547150960",
+        "b_c_N": "712151310362582307",
+        "residue_qb_mod_a": "1999650232454862",
+        "score_numerator": "17663577053351281",
+        "score_denominator": "18890400212262580",
+        "score_outward_decimal_interval": [
+          "9.35055734916885733639613e-1",
+          "9.35055734916885733639614e-1"
+        ],
+        "universal_error_bound_numerator": "24129126268928",
+        "universal_error_bound_denominator": "14167800159196935",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "333",
+        "true_q_distance_outward_decimal_interval": [
+          "9.35055734916827366261054e-1",
+          "9.35055734916827366261055e-1"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "5.83673785586407589132858e-14",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 113,
+        "prefix_N": 36,
+        "a_c_N_minus_1": "226684802547150960",
+        "b_c_N": "712151310362582307",
+        "residue_qb_mod_a": "226677969280360851",
+        "score_numerator": "257386382427439",
+        "score_denominator": "75561600849050320",
+        "score_outward_decimal_interval": [
+          "3.40631193007173968990561e-3",
+          "3.40631193007173968990562e-3"
+        ],
+        "universal_error_bound_numerator": "27421218701312",
+        "universal_error_bound_denominator": "14167800159196935",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "355",
+        "true_q_distance_outward_decimal_interval": [
+          "3.40631193013807050663890e-3",
+          "3.40631193013807050663891e-3"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "6.63308167332933295268553e-14",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 128,
+        "prefix_N": 37,
+        "a_c_N_minus_1": "712151310362582307",
+        "b_c_N": "2237289324879433370",
+        "residue_qb_mod_a": "88206818809383946",
+        "score_numerator": "1612924686800163584",
+        "score_denominator": "101735901480368901",
+        "score_outward_decimal_interval": [
+          "1.58540364151724329332831e1",
+          "1.58540364151724329332832e1"
+        ],
+        "universal_error_bound_numerator": "1125899906842624",
+        "universal_error_bound_denominator": "712151310362582307",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "402",
+        "true_q_distance_outward_decimal_interval": [
+          "1.58540364151724189719491e1",
+          "1.58540364151724189719492e1"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "1.39613340027083281660722e-14",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 33102,
+        "prefix_N": 79,
+        "a_c_N_minus_1": "540588659599004129374082679504707342512",
+        "b_c_N": "1698309361610184835179355828024868186408",
+        "residue_qb_mod_a": "10341101988108056529546156036627200",
+        "score_numerator": "21394447375647055452564803570277098400",
+        "score_denominator": "33786791224937758085880167469044208907",
+        "score_outward_decimal_interval": [
+          "6.33219272976002124989375e-1",
+          "6.33219272976002124989376e-1"
+        ],
+        "universal_error_bound_numerator": "20697988810034439460329395060736",
+        "universal_error_bound_denominator": "33786791224937758085880167469044208907",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "103993",
+        "true_q_distance_outward_decimal_interval": [
+          "6.33219272976002124989375e-1",
+          "6.33219272976002124989376e-1"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "1.32865898339181405686202e-28",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      },
+      {
+        "q": 1000000,
+        "prefix_N": 104,
+        "a_c_N_minus_1": "1450820716245440688932514899867620628530886991244983",
+        "b_c_N": "4557887703832558461760737493595388678757239622728839",
+        "residue_qb_mod_a": "948241611956935860144290470653129633298129530367064",
+        "score_numerator": "502579104288504828788224429214490995232757460877919000000",
+        "score_denominator": "1450820716245440688932514899867620628530886991244983",
+        "score_outward_decimal_interval": [
+          "3.46410206761537356616720e5",
+          "3.46410206761537356616721e5"
+        ],
+        "universal_error_bound_numerator": "10141204801825835211973625643008000000000000",
+        "universal_error_bound_denominator": "1450820716245440688932514899867620628530886991244983",
+        "universal_error_bound_le_1_over_q": true,
+        "nearest_integer_to_q_pi": "3141593",
+        "true_q_distance_outward_decimal_interval": [
+          "3.46410206761537356616720e5",
+          "3.46410206761537356616721e5"
+        ],
+        "actual_ratio_lipschitz_bound_upper": "1.21747572189205557236390e-37",
+        "whole_true_interval_inside_score_plus_minus_bound": true
+      }
+    ]
+  }
+}
