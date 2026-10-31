@@ -1,0 +1,120 @@
+{
+  "pi_certificate": "Machin identity; 100 alternating terms per arctangent; exact Fraction bounds",
+  "boundary_digits": "301102111002022113000102000210222212212020121202",
+  "four_units_pi_base": "10.22012202112111030100001011001001...",
+  "return_counts_A_0_through_A_20": [
+    1,
+    3,
+    9,
+    28,
+    88,
+    276,
+    867,
+    2724,
+    8558,
+    26886,
+    84465,
+    265354,
+    833634,
+    2618938,
+    8227636,
+    25847881,
+    81203514,
+    255108363,
+    801446560,
+    2517818626,
+    7909960498
+  ],
+  "graph_vs_renewal_checked_lengths": 30,
+  "formal_inverse_checked_coefficients": 40,
+  "rouche_circle_radius": "1/2",
+  "nonlinear_tail_bound": "17/64",
+  "analytic_remainder_bound": "94/15",
+  "adjacent_count_ratios": [
+    {
+      "n": 1,
+      "raw_numerator": 9,
+      "raw_denominator": 3,
+      "gcd": 3,
+      "reduced_ratio": "3"
+    },
+    {
+      "n": 2,
+      "raw_numerator": 28,
+      "raw_denominator": 9,
+      "gcd": 1,
+      "reduced_ratio": "28/9"
+    },
+    {
+      "n": 3,
+      "raw_numerator": 88,
+      "raw_denominator": 28,
+      "gcd": 4,
+      "reduced_ratio": "22/7"
+    },
+    {
+      "n": 4,
+      "raw_numerator": 276,
+      "raw_denominator": 88,
+      "gcd": 4,
+      "reduced_ratio": "69/22"
+    },
+    {
+      "n": 5,
+      "raw_numerator": 867,
+      "raw_denominator": 276,
+      "gcd": 3,
+      "reduced_ratio": "289/92"
+    },
+    {
+      "n": 6,
+      "raw_numerator": 2724,
+      "raw_denominator": 867,
+      "gcd": 3,
+      "reduced_ratio": "908/289"
+    },
+    {
+      "n": 7,
+      "raw_numerator": 8558,
+      "raw_denominator": 2724,
+      "gcd": 2,
+      "reduced_ratio": "4279/1362"
+    },
+    {
+      "n": 8,
+      "raw_numerator": 26886,
+      "raw_denominator": 8558,
+      "gcd": 2,
+      "reduced_ratio": "13443/4279"
+    },
+    {
+      "n": 9,
+      "raw_numerator": 84465,
+      "raw_denominator": 26886,
+      "gcd": 3,
+      "reduced_ratio": "28155/8962"
+    },
+    {
+      "n": 10,
+      "raw_numerator": 265354,
+      "raw_denominator": 84465,
+      "gcd": 1,
+      "reduced_ratio": "265354/84465"
+    },
+    {
+      "n": 11,
+      "raw_numerator": 833634,
+      "raw_denominator": 265354,
+      "gcd": 2,
+      "reduced_ratio": "416817/132677"
+    },
+    {
+      "n": 12,
+      "raw_numerator": 2618938,
+      "raw_denominator": 833634,
+      "gcd": 2,
+      "reduced_ratio": "1309469/416817"
+    }
+  ],
+  "scope": "Finite exact certificates; no claim to prove P2848 or infinite randomness."
+}
