@@ -34,7 +34,7 @@ F(r)-1=\frac{\pi-r}{r}
 }
 \tag{1}
 \]
-The series converges for every r>1: its terms are bounded by a constant times n r^{-n}, since d_n≤3.
+The series converges for every r>1: its terms are bounded by 3n·max(π⁻¹,r⁻¹)^n, since d_n≤3. This bound also covers r>π, where a bound by a fixed constant times n r⁻ⁿ need not hold.
 
 Define the migration secant factor
 \[
@@ -210,3 +210,7 @@ The main conceptual result is a transport dictionary: a rational approximation p
 - [MIT continued-fractions notes](https://math.mit.edu/~rmd/IAP/continuedfractions.pdf): standard continued-fraction approximation background.
 
 No proof or disproof of P2848 is claimed.
+
+## 8. Integer carry continuation
+
+[Rational carry escape](RATIONAL_CARRY_ESCAPE.md) identifies the secant factor with the native-remainder series, proves exact denominator and two-sided modular identities, and translates approximation quality into excess integer survival depth. It gives a finite integer-strip certificate equivalent to P2848 in the unbounded-depth limit, together with a non-eventually-periodic √10 control whose excess depth is uniformly bounded. No unboundedness theorem for π is claimed.
