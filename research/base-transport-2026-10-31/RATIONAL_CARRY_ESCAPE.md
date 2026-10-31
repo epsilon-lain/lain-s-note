@@ -227,3 +227,7 @@ q^2|p/q-\sqrt{10}|=
 有理底数数制已有系统研究，例如 Akiyama–Frougny–Sakarovitch 的 [Powers of rationals modulo 1 and rational base number systems](https://perso.telecom-paristech.fr/jsaka/PUB/Files/RBNS-rev.pdf)。其正文 §1 明确区分一种从低位向高位生成、字母表为 {0,…,p−1} 的 p/q 数制与通常贪心 β 展开。本记录固定 π 的单位串，使用 (5) 的有符号余量；没有把该文的有限转导器或语言定理直接移植过来。
 
 本轮将旧偏移等价式落实为 (14)、(16) 的有限整数条带条件。下一步应研究这些条带在增长分母与增长深度下能否同时被命中；目前尚未获得保证任意深命中的 π 特有定量估计。未运行 Lean。
+
+## 8. Continuation: survival windows and least denominators
+
+[Survival windows and minimal denominators](SURVIVAL_WINDOWS_AND_MINIMAL_DENOMINATORS.md) treats all surviving bases at each depth as one nested interval. It proves explicit endpoint asymptotics, computes the unique least-denominator rational using integer Farey certificates, and shows that P2848 is equivalent to unbounded constant-denominator plateau lengths. Certified depths 4–160 do not settle that unboundedness.
