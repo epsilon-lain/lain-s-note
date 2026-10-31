@@ -1,0 +1,95 @@
+{
+  "finite_interpolation_matrices": [
+    {
+      "N": 1,
+      "rows": 5,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 2,
+      "rows": 6,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 3,
+      "rows": 7,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 4,
+      "rows": 8,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 5,
+      "rows": 9,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 6,
+      "rows": 10,
+      "identity": true,
+      "difference_multiplicity": 1
+    },
+    {
+      "N": 7,
+      "rows": 11,
+      "identity": true,
+      "difference_multiplicity": 1
+    }
+  ],
+  "primitive_polynomial_rational_centers": [
+    {
+      "p": 22,
+      "q": 7,
+      "base": "-25/49",
+      "checked_powers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "exact_reduced_denominator": true
+    },
+    {
+      "p": 355,
+      "q": 113,
+      "base": "-6109/12769",
+      "checked_powers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "exact_reduced_denominator": true
+    }
+  ],
+  "machin_certificate": {
+    "terms_per_arctangent": 40,
+    "certified": "0 < 4*pi^2 - 39 < 1/2",
+    "arithmetic": "Fraction, exact"
+  },
+  "three_variable_counterexample": {
+    "polynomial": "x + y - 2*z",
+    "diagonal_zero": true,
+    "nondividing_pair_differences": [
+      "x - y",
+      "x - z",
+      "y - z"
+    ]
+  },
+  "scope": "Finite checks only; not a full-row asymptotic construction or a P2848 proof."
+}
