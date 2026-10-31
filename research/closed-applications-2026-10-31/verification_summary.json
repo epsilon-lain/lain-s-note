@@ -1,0 +1,34 @@
+{
+  "status": "all_checks_passed",
+  "scope": "Analytic proofs plus finite exact checks. The high-precision demonstrations are not outward interval certificates. No P2848 or transcendence conclusion.",
+  "pi_word_certificate": {
+    "bits": 1792,
+    "atan_terms": [389, 114],
+    "count": 512,
+    "sha256": "49529bc18d78bee86bcfaed71c98ad78c82b38ad1595d13009414304fa8010be",
+    "first_32": "30110211100202211300010200021022"
+  },
+  "exact_tests": {
+    "gaussian_rational_four_sample_recovered": [3, 0, 1, 1],
+    "sampling_radius": "5/3",
+    "sample_noise": "1/50",
+    "component_interval_cases": 4165,
+    "sharp_indistinguishability_pairs": 12,
+    "zero_noise_boundary_collisions": 4,
+    "renewal_identity_orders": 512
+  },
+  "numerical_demonstrations": {
+    "precision_decimal_digits": 90,
+    "recovery_lengths": [16, 32, 64],
+    "X": 8,
+    "sample_noise": "1/40",
+    "all_prefixes_recovered": true,
+    "tube_bases": [4, 10, 16],
+    "tube_depths": [12, 24, 48],
+    "tube_phases": ["0", "1/2"],
+    "tube_case_count": 18,
+    "P10_0_approx": "1.45297922125531188786463",
+    "P10_half_approx": "1.24153992280781688293133"
+  },
+  "reproduction": "python verify_closed_problems.py generates full verification_results.json"
+}
