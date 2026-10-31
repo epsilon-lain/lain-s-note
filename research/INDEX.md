@@ -73,3 +73,5 @@
 - [迁移几何：数位敏感度、不变量与算术纤维](cross-base-transport-2026-10-31/MIGRATION_GEOMETRY.md)：把对数底数下的相对敏感度识别为数位位置均值，导出方差演化、成对赔率斜率不变量、累积量与 Fisher 度量；区分算术例外点和解析奇点。
 
 - [全局敏感度坐标与端点渐近](cross-base-transport-2026-10-31/GLOBAL_SENSITIVITY_COORDINATE.md)：证明平均数位位置 μ(t) 是底数空间 (1,∞) 到 (1,∞) 的严格递减双射，并给出 t→1 与 t→∞ 的端点渐近。
+
+- [累积量谱、对象识别与迁移曲线交叉](cross-base-transport-2026-10-31/CUMULANT_SPECTRA_AND_CROSSINGS.md)：证明已知底数下总值加完整累积量序列唯一恢复有界非负数位对象；交叉曲线的接触阶由首个不同累积量决定，两个不同对象不可能无限阶接触。
