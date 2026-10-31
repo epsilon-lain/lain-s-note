@@ -72,7 +72,7 @@ I_{i,j,k}(a):=
 \]
 is independent of t. It is also unchanged if all coefficients are multiplied by the same positive scalar. These invariants are part of the projective digit profile.
 
-The support S(a)={n:a_n>0} is invariant under transport. The complete family of triple invariants, together with support, determines all coefficient ratios on the support: fix two reference positions i_0<j_0, and use the triple invariant involving i_0,j_0,n to recover a_n up to a common scale (with the two reference coefficients setting the scale ratio). This is a convenient finite-coordinate description when the support has at least two elements; singleton support is trivial.
+The support S(a)={n:a_n>0} is invariant under transport. A qualification is necessary: on a common support, the complete family of triple invariants determines positive coefficients only up to b_n=C·λ^n a_n, with C,λ>0. Indeed, the logarithms of b_n/a_n must be affine in n, and this affine freedom also preserves every triple invariant. For example, the finite objects (1,1,1) and (1,2,4) have identical triple invariants but different coefficient ratios. Fixing two reference coefficients removes both freedoms. If the common support is infinite and both objects have bounded positive integer coefficients there, then λ≠1 would force one coefficient ratio to tend to zero or infinity, so λ=1; only in that additional setting do the invariants determine all coefficient ratios without two anchors. Singleton support is trivial.
 
 ## 3. Crossings of two transport curves are governed by cumulant differences
 

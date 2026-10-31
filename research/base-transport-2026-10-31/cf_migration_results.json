@@ -1,0 +1,2444 @@
+{
+  "native_digit_certificate": {
+    "count": 192,
+    "method": "Machin rational bounds and 600-bit outward intervals"
+  },
+  "pi_continued_fraction_prefix": [
+    3,
+    7,
+    15,
+    1,
+    292,
+    1,
+    1,
+    1,
+    2,
+    1,
+    3,
+    1
+  ],
+  "pi_prefix_status": "requested prefix certified",
+  "integer_base_checks": [
+    {
+      "base": 4,
+      "Psi_interval": {
+        "lower": "3.080399074999405811348371374492780528001",
+        "upper": "3.080399074999405811348371374492780528002"
+      },
+      "continued_fraction_prefix": [
+        3,
+        12,
+        2,
+        3,
+        1,
+        1,
+        8,
+        24,
+        1,
+        1,
+        5,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 5,
+      "Psi_interval": {
+        "lower": "3.048719402969336025222121623281105414240",
+        "upper": "3.048719402969336025222121623281105414241"
+      },
+      "continued_fraction_prefix": [
+        3,
+        20,
+        1,
+        1,
+        9,
+        4,
+        2,
+        2,
+        2,
+        7,
+        1,
+        29
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 6,
+      "Psi_interval": {
+        "lower": "3.032690215837306404287319468832464187896",
+        "upper": "3.032690215837306404287319468832464187897"
+      },
+      "continued_fraction_prefix": [
+        3,
+        30,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        9,
+        1893,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 7,
+      "Psi_interval": {
+        "lower": "3.023452501824150327455910674663465362950",
+        "upper": "3.023452501824150327455910674663465362951"
+      },
+      "continued_fraction_prefix": [
+        3,
+        42,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2,
+        8,
+        1,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 8,
+      "Psi_interval": {
+        "lower": "3.017643511532275280130020790436236550308",
+        "upper": "3.017643511532275280130020790436236550309"
+      },
+      "continued_fraction_prefix": [
+        3,
+        56,
+        1,
+        2,
+        9,
+        2,
+        2,
+        1,
+        1,
+        2,
+        6,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 9,
+      "Psi_interval": {
+        "lower": "3.013753405347212341750435333314756049647",
+        "upper": "3.013753405347212341750435333314756049648"
+      },
+      "continued_fraction_prefix": [
+        3,
+        72,
+        1,
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        3,
+        39,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 10,
+      "Psi_interval": {
+        "lower": "3.011021110020221130001020002102222122120",
+        "upper": "3.011021110020221130001020002102222122121"
+      },
+      "continued_fraction_prefix": [
+        3,
+        90,
+        1,
+        2,
+        1,
+        3,
+        2,
+        2,
+        6,
+        11,
+        2,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 11,
+      "Psi_interval": {
+        "lower": "3.009028816499169139763014398840173673281",
+        "upper": "3.009028816499169139763014398840173673282"
+      },
+      "continued_fraction_prefix": [
+        3,
+        110,
+        1,
+        3,
+        9,
+        2,
+        1,
+        1,
+        1,
+        1,
+        13,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 12,
+      "Psi_interval": {
+        "lower": "3.007531550834122356617886797166408546180",
+        "upper": "3.007531550834122356617886797166408546181"
+      },
+      "continued_fraction_prefix": [
+        3,
+        132,
+        1,
+        3,
+        2,
+        3,
+        1,
+        2,
+        17,
+        2,
+        6,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 13,
+      "Psi_interval": {
+        "lower": "3.006377936820300471006309477440825342917",
+        "upper": "3.006377936820300471006309477440825342918"
+      },
+      "continued_fraction_prefix": [
+        3,
+        156,
+        1,
+        3,
+        1,
+        3,
+        2,
+        2,
+        1,
+        1,
+        10,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 14,
+      "Psi_interval": {
+        "lower": "3.005470333966708083239964146711714286757",
+        "upper": "3.005470333966708083239964146711714286758"
+      },
+      "continued_fraction_prefix": [
+        3,
+        182,
+        1,
+        4,
+        9,
+        2,
+        1,
+        170,
+        3,
+        5,
+        1,
+        16
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 15,
+      "Psi_interval": {
+        "lower": "3.004743468520274995442471186294772356968",
+        "upper": "3.004743468520274995442471186294772356969"
+      },
+      "continued_fraction_prefix": [
+        3,
+        210,
+        1,
+        4,
+        2,
+        3,
+        1,
+        2,
+        2,
+        8,
+        4,
+        32
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 16,
+      "Psi_interval": {
+        "lower": "3.004152361536512689620652067209940858112",
+        "upper": "3.004152361536512689620652067209940858113"
+      },
+      "continued_fraction_prefix": [
+        3,
+        240,
+        1,
+        4,
+        1,
+        3,
+        2,
+        2,
+        1,
+        20,
+        12,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 17,
+      "Psi_interval": {
+        "lower": "3.003665201838890684746377512762962671848",
+        "upper": "3.003665201838890684746377512762962671849"
+      },
+      "continued_fraction_prefix": [
+        3,
+        272,
+        1,
+        5,
+        9,
+        3,
+        2,
+        3,
+        2,
+        4,
+        6,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 18,
+      "Psi_interval": {
+        "lower": "3.003258977085504235338633318757964312325",
+        "upper": "3.003258977085504235338633318757964312326"
+      },
+      "continued_fraction_prefix": [
+        3,
+        306,
+        1,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        11,
+        1,
+        317
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 19,
+      "Psi_interval": {
+        "lower": "3.002916707105611905333742750904449221667",
+        "upper": "3.002916707105611905333742750904449221668"
+      },
+      "continued_fraction_prefix": [
+        3,
+        342,
+        1,
+        5,
+        1,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        7
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 20,
+      "Psi_interval": {
+        "lower": "3.002625641445322291292037964346408859269",
+        "upper": "3.002625641445322291292037964346408859270"
+      },
+      "continued_fraction_prefix": [
+        3,
+        380,
+        1,
+        6,
+        9,
+        3,
+        1,
+        9,
+        9,
+        2,
+        1,
+        4
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 21,
+      "Psi_interval": {
+        "lower": "3.002376055341095724542467753045483666062",
+        "upper": "3.002376055341095724542467753045483666063"
+      },
+      "continued_fraction_prefix": [
+        3,
+        420,
+        1,
+        6,
+        2,
+        3,
+        1,
+        3,
+        2,
+        1,
+        1,
+        4
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 22,
+      "Psi_interval": {
+        "lower": "3.002160427367455259725552905238278928114",
+        "upper": "3.002160427367455259725552905238278928115"
+      },
+      "continued_fraction_prefix": [
+        3,
+        462,
+        1,
+        6,
+        1,
+        3,
+        2,
+        3,
+        1,
+        7,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 23,
+      "Psi_interval": {
+        "lower": "3.001972866494346728223384118013331945369",
+        "upper": "3.001972866494346728223384118013331945370"
+      },
+      "continued_fraction_prefix": [
+        3,
+        506,
+        1,
+        7,
+        9,
+        4,
+        2,
+        1,
+        1,
+        1,
+        7,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 24,
+      "Psi_interval": {
+        "lower": "3.001808705707456012646768055504781340318",
+        "upper": "3.001808705707456012646768055504781340319"
+      },
+      "continued_fraction_prefix": [
+        3,
+        552,
+        1,
+        7,
+        2,
+        3,
+        1,
+        3,
+        1,
+        6,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 25,
+      "Psi_interval": {
+        "lower": "3.001664209066394440257786216662127320296",
+        "upper": "3.001664209066394440257786216662127320297"
+      },
+      "continued_fraction_prefix": [
+        3,
+        600,
+        1,
+        7,
+        1,
+        3,
+        2,
+        4,
+        2,
+        1,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 26,
+      "Psi_interval": {
+        "lower": "3.001536357404877234213566289243648770019",
+        "upper": "3.001536357404877234213566289243648770020"
+      },
+      "continued_fraction_prefix": [
+        3,
+        650,
+        1,
+        8,
+        9,
+        4,
+        1,
+        6,
+        9,
+        8,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 27,
+      "Psi_interval": {
+        "lower": "3.001422689439661821115957348545331313931",
+        "upper": "3.001422689439661821115957348545331313932"
+      },
+      "continued_fraction_prefix": [
+        3,
+        702,
+        1,
+        8,
+        2,
+        3,
+        1,
+        4,
+        2,
+        1,
+        4,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 28,
+      "Psi_interval": {
+        "lower": "3.001321182500882840508459860716804277226",
+        "upper": "3.001321182500882840508459860716804277227"
+      },
+      "continued_fraction_prefix": [
+        3,
+        756,
+        1,
+        8,
+        1,
+        3,
+        2,
+        4,
+        1,
+        5,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 29,
+      "Psi_interval": {
+        "lower": "3.001230161982287034254900041383463036144",
+        "upper": "3.001230161982287034254900041383463036145"
+      },
+      "continued_fraction_prefix": [
+        3,
+        812,
+        1,
+        9,
+        9,
+        5,
+        2,
+        1,
+        8,
+        19,
+        1,
+        42
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 30,
+      "Psi_interval": {
+        "lower": "3.001148231871666017617999521961362036641",
+        "upper": "3.001148231871666017617999521961362036642"
+      },
+      "continued_fraction_prefix": [
+        3,
+        870,
+        1,
+        9,
+        2,
+        3,
+        1,
+        4,
+        1,
+        5,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 31,
+      "Psi_interval": {
+        "lower": "3.001074220934187558796614176262450394141",
+        "upper": "3.001074220934187558796614176262450394142"
+      },
+      "continued_fraction_prefix": [
+        3,
+        930,
+        1,
+        9,
+        1,
+        3,
+        2,
+        5,
+        2,
+        1,
+        19,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 32,
+      "Psi_interval": {
+        "lower": "3.001007140644105730731692927761228509433",
+        "upper": "3.001007140644105730731692927761228509434"
+      },
+      "continued_fraction_prefix": [
+        3,
+        992,
+        1,
+        10,
+        9,
+        5,
+        1,
+        5,
+        11,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 33,
+      "Psi_interval": {
+        "lower": "3.000946152022777233201038592032867894650",
+        "upper": "3.000946152022777233201038592032867894651"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1056,
+        1,
+        10,
+        2,
+        3,
+        1,
+        5,
+        3,
+        175,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 34,
+      "Psi_interval": {
+        "lower": "3.000890539291594607059130226364630134190",
+        "upper": "3.000890539291594607059130226364630134191"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1122,
+        1,
+        10,
+        1,
+        3,
+        2,
+        5,
+        1,
+        4,
+        1,
+        7
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 35,
+      "Psi_interval": {
+        "lower": "3.000839688785122004995006604719370539539",
+        "upper": "3.000839688785122004995006604719370539540"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1190,
+        1,
+        11,
+        9,
+        6,
+        3,
+        18,
+        7,
+        2,
+        1,
+        7
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 36,
+      "Psi_interval": {
+        "lower": "3.000793071957631603924699300747910550220",
+        "upper": "3.000793071957631603924699300747910550221"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1260,
+        1,
+        11,
+        2,
+        3,
+        1,
+        5,
+        1,
+        4,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 37,
+      "Psi_interval": {
+        "lower": "3.000750231599521068062688470650702613188",
+        "upper": "3.000750231599521068062688470650702613189"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1332,
+        1,
+        11,
+        1,
+        3,
+        2,
+        6,
+        3,
+        10,
+        92,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 38,
+      "Psi_interval": {
+        "lower": "3.000710770588970482714978189232085842120",
+        "upper": "3.000710770588970482714978189232085842121"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1406,
+        1,
+        12,
+        9,
+        6,
+        1,
+        4,
+        1,
+        1,
+        3,
+        8
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 39,
+      "Psi_interval": {
+        "lower": "3.000674342659615591718815117039970259369",
+        "upper": "3.000674342659615591718815117039970259370"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1482,
+        1,
+        12,
+        2,
+        3,
+        1,
+        6,
+        3,
+        7,
+        8,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 40,
+      "Psi_interval": {
+        "lower": "3.000640644781646733287052276427857805458",
+        "upper": "3.000640644781646733287052276427857805459"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1560,
+        1,
+        12,
+        1,
+        3,
+        2,
+        6,
+        1,
+        4,
+        2,
+        4
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 41,
+      "Psi_interval": {
+        "lower": "3.000609410841976750878920659196489277262",
+        "upper": "3.000609410841976750878920659196489277263"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1640,
+        1,
+        13,
+        9,
+        7,
+        3,
+        5,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 42,
+      "Psi_interval": {
+        "lower": "3.000580406376381202532482551342295365067",
+        "upper": "3.000580406376381202532482551342295365068"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1722,
+        1,
+        13,
+        2,
+        3,
+        1,
+        6,
+        1,
+        4,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 43,
+      "Psi_interval": {
+        "lower": "3.000553424158156852675385615948822050929",
+        "upper": "3.000553424158156852675385615948822050930"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1806,
+        1,
+        13,
+        1,
+        3,
+        2,
+        7,
+        3,
+        4,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 44,
+      "Psi_interval": {
+        "lower": "3.000528280487767784583912892149502665402",
+        "upper": "3.000528280487767784583912892149502665403"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1892,
+        1,
+        14,
+        9,
+        7,
+        1,
+        4,
+        3,
+        1,
+        7,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 45,
+      "Psi_interval": {
+        "lower": "3.000504812059012812060991288425002211629",
+        "upper": "3.000504812059012812060991288425002211630"
+      },
+      "continued_fraction_prefix": [
+        3,
+        1980,
+        1,
+        14,
+        2,
+        3,
+        1,
+        7,
+        3,
+        4,
+        9,
+        27
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 46,
+      "Psi_interval": {
+        "lower": "3.000482873301568501948497113961264519386",
+        "upper": "3.000482873301568501948497113961264519387"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2070,
+        1,
+        14,
+        1,
+        3,
+        2,
+        7,
+        1,
+        4,
+        5,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 47,
+      "Psi_interval": {
+        "lower": "3.000462334118915094733022414661623914527",
+        "upper": "3.000462334118915094733022414661623914528"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2162,
+        1,
+        15,
+        9,
+        8,
+        3,
+        3,
+        1,
+        2,
+        16,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 48,
+      "Psi_interval": {
+        "lower": "3.000443077955820544835778823749086105192",
+        "upper": "3.000443077955820544835778823749086105193"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2256,
+        1,
+        15,
+        2,
+        3,
+        1,
+        7,
+        1,
+        4,
+        9,
+        24
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 49,
+      "Psi_interval": {
+        "lower": "3.000425000141634201718956554214863409489",
+        "upper": "3.000425000141634201718956554214863409490"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2352,
+        1,
+        15,
+        1,
+        3,
+        2,
+        8,
+        3,
+        3,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 50,
+      "Psi_interval": {
+        "lower": "3.000408006465305600409767150262681602098",
+        "upper": "3.000408006465305600409767150262681602099"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2450,
+        1,
+        16,
+        9,
+        8,
+        1,
+        4,
+        20,
+        3,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 51,
+      "Psi_interval": {
+        "lower": "3.000392011945815088595157267233981084894",
+        "upper": "3.000392011945815088595157267233981084895"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2550,
+        1,
+        16,
+        2,
+        3,
+        1,
+        8,
+        3,
+        3,
+        11,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 52,
+      "Psi_interval": {
+        "lower": "3.000376939767981481553683512276052174724",
+        "upper": "3.000376939767981481553683512276052174725"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2652,
+        1,
+        16,
+        1,
+        3,
+        2,
+        8,
+        1,
+        3,
+        1,
+        176
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 53,
+      "Psi_interval": {
+        "lower": "3.000362720358707070400779105981437954141",
+        "upper": "3.000362720358707070400779105981437954142"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2756,
+        1,
+        17,
+        9,
+        9,
+        3,
+        2,
+        1,
+        7,
+        3,
+        6
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 54,
+      "Psi_interval": {
+        "lower": "3.000349290582872890565064651528458242683",
+        "upper": "3.000349290582872890565064651528458242684"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2862,
+        1,
+        17,
+        2,
+        3,
+        1,
+        8,
+        1,
+        3,
+        1,
+        17
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 55,
+      "Psi_interval": {
+        "lower": "3.000336593041495491062878864815776844597",
+        "upper": "3.000336593041495491062878864815776844598"
+      },
+      "continued_fraction_prefix": [
+        3,
+        2970,
+        1,
+        17,
+        1,
+        3,
+        2,
+        9,
+        3,
+        2,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 56,
+      "Psi_interval": {
+        "lower": "3.000324575457548530330335628845978295960",
+        "upper": "3.000324575457548530330335628845978295961"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3080,
+        1,
+        18,
+        9,
+        9,
+        1,
+        3,
+        1,
+        9,
+        64,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 57,
+      "Psi_interval": {
+        "lower": "3.000313190137155236687749539292306119515",
+        "upper": "3.000313190137155236687749539292306119516"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3192,
+        1,
+        18,
+        2,
+        3,
+        1,
+        9,
+        3,
+        2,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 58,
+      "Psi_interval": {
+        "lower": "3.000302393495763830967015857146763055917",
+        "upper": "3.000302393495763830967015857146763055918"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3306,
+        1,
+        18,
+        1,
+        3,
+        2,
+        9,
+        1,
+        3,
+        1,
+        6
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 59,
+      "Psi_interval": {
+        "lower": "3.000292145640501296499768336751827255503",
+        "upper": "3.000292145640501296499768336751827255504"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3422,
+        1,
+        19,
+        9,
+        10,
+        3,
+        2,
+        2,
+        4,
+        2,
+        5
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 60,
+      "Psi_interval": {
+        "lower": "3.000282410001220517125711320362137042413",
+        "upper": "3.000282410001220517125711320362137042414"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3540,
+        1,
+        19,
+        2,
+        3,
+        1,
+        9,
+        1,
+        3,
+        1,
+        4
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 61,
+      "Psi_interval": {
+        "lower": "3.000273153003859287891804162630057459662",
+        "upper": "3.000273153003859287891804162630057459663"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3660,
+        1,
+        19,
+        1,
+        3,
+        2,
+        10,
+        3,
+        2,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 62,
+      "Psi_interval": {
+        "lower": "3.000264343780655351376989684833573843719",
+        "upper": "3.000264343780655351376989684833573843720"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3782,
+        1,
+        20,
+        9,
+        10,
+        1,
+        3,
+        1,
+        3,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 63,
+      "Psi_interval": {
+        "lower": "3.000255953912540449234605014041065620798",
+        "upper": "3.000255953912540449234605014041065620799"
+      },
+      "continued_fraction_prefix": [
+        3,
+        3906,
+        1,
+        20,
+        2,
+        3,
+        1,
+        10,
+        3,
+        2,
+        3,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 64,
+      "Psi_interval": {
+        "lower": "3.000247957199693615875557691592670331707",
+        "upper": "3.000247957199693615875557691592670331708"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4032,
+        1,
+        20,
+        1,
+        3,
+        2,
+        10,
+        1,
+        3,
+        1,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 65,
+      "Psi_interval": {
+        "lower": "3.000240329456790140944867131002003172164",
+        "upper": "3.000240329456790140944867131002003172165"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4160,
+        1,
+        21,
+        9,
+        11,
+        3,
+        2,
+        5,
+        1,
+        1,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 66,
+      "Psi_interval": {
+        "lower": "3.000233048329954615742877623872309019437",
+        "upper": "3.000233048329954615742877623872309019438"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4290,
+        1,
+        21,
+        2,
+        3,
+        1,
+        10,
+        1,
+        3,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 67,
+      "Psi_interval": {
+        "lower": "3.000226093132828071166818597542201609916",
+        "upper": "3.000226093132828071166818597542201609917"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4422,
+        1,
+        21,
+        1,
+        3,
+        2,
+        11,
+        3,
+        2,
+        9,
+        26
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 68,
+      "Psi_interval": {
+        "lower": "3.000219444699501790226795532056685218248",
+        "upper": "3.000219444699501790226795532056685218249"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4556,
+        1,
+        22,
+        9,
+        11,
+        1,
+        3,
+        1,
+        2,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 69,
+      "Psi_interval": {
+        "lower": "3.000213085252363338406421537139830982413",
+        "upper": "3.000213085252363338406421537139830982414"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4692,
+        1,
+        22,
+        2,
+        3,
+        1,
+        11,
+        3,
+        2,
+        20,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 70,
+      "Psi_interval": {
+        "lower": "3.000206998283151491275816998528497112217",
+        "upper": "3.000206998283151491275816998528497112218"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4830,
+        1,
+        22,
+        1,
+        3,
+        2,
+        11,
+        1,
+        3,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 71,
+      "Psi_interval": {
+        "lower": "3.000201168445732526156635811318142960334",
+        "upper": "3.000201168445732526156635811318142960335"
+      },
+      "continued_fraction_prefix": [
+        3,
+        4970,
+        1,
+        23,
+        9,
+        12,
+        3,
+        1,
+        1,
+        177,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 72,
+      "Psi_interval": {
+        "lower": "3.000195581459296180170231191030965106407",
+        "upper": "3.000195581459296180170231191030965106408"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5112,
+        1,
+        23,
+        2,
+        3,
+        1,
+        11,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 73,
+      "Psi_interval": {
+        "lower": "3.000190224020829971017591818116315343771",
+        "upper": "3.000190224020829971017591818116315343772"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5256,
+        1,
+        23,
+        1,
+        3,
+        2,
+        12,
+        3,
+        1,
+        1,
+        17
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 74,
+      "Psi_interval": {
+        "lower": "3.000185083725869308781336633625103104513",
+        "upper": "3.000185083725869308781336633625103104514"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5402,
+        1,
+        24,
+        9,
+        12,
+        1,
+        3,
+        1,
+        1,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 75,
+      "Psi_interval": {
+        "lower": "3.000180148996641072036438731294684998931",
+        "upper": "3.000180148996641072036438731294684998932"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5550,
+        1,
+        24,
+        2,
+        3,
+        1,
+        12,
+        3,
+        1,
+        1,
+        9
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 76,
+      "Psi_interval": {
+        "lower": "3.000175409016822753727389930871672187141",
+        "upper": "3.000175409016822753727389930871672187142"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5700,
+        1,
+        24,
+        1,
+        3,
+        2,
+        12,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 77,
+      "Psi_interval": {
+        "lower": "3.000170853672230159253549758387095515366",
+        "upper": "3.000170853672230159253549758387095515367"
+      },
+      "continued_fraction_prefix": [
+        3,
+        5852,
+        1,
+        25,
+        9,
+        13,
+        3,
+        1,
+        1,
+        6,
+        8,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 78,
+      "Psi_interval": {
+        "lower": "3.000166473496825871525957036960845617659",
+        "upper": "3.000166473496825871525957036960845617660"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6006,
+        1,
+        25,
+        2,
+        3,
+        1,
+        12,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 79,
+      "Psi_interval": {
+        "lower": "3.000162259623509905911770609640626347536",
+        "upper": "3.000162259623509905911770609640626347537"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6162,
+        1,
+        25,
+        1,
+        3,
+        2,
+        13,
+        3,
+        1,
+        1,
+        4
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 80,
+      "Psi_interval": {
+        "lower": "3.000158203739214539530221741216933217799",
+        "upper": "3.000158203739214539530221741216933217800"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6320,
+        1,
+        26,
+        9,
+        13,
+        1,
+        3,
+        1,
+        1,
+        2,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 81,
+      "Psi_interval": {
+        "lower": "3.000154298043878387904410960327604943898",
+        "upper": "3.000154298043878387904410960327604943899"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6480,
+        1,
+        26,
+        2,
+        3,
+        1,
+        13,
+        3,
+        1,
+        1,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 82,
+      "Psi_interval": {
+        "lower": "3.000150535212921419455336510817395438636",
+        "upper": "3.000150535212921419455336510817395438637"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6642,
+        1,
+        26,
+        1,
+        3,
+        2,
+        13,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 83,
+      "Psi_interval": {
+        "lower": "3.000146908362883601916988994436812317008",
+        "upper": "3.000146908362883601916988994436812317009"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6806,
+        1,
+        27,
+        9,
+        14,
+        3,
+        1,
+        1,
+        3,
+        8,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 84,
+      "Psi_interval": {
+        "lower": "3.000143411019925999236427973184259632371",
+        "upper": "3.000143411019925999236427973184259632372"
+      },
+      "continued_fraction_prefix": [
+        3,
+        6972,
+        1,
+        27,
+        2,
+        3,
+        1,
+        13,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 85,
+      "Psi_interval": {
+        "lower": "3.000140037090925014003556468055974953923",
+        "upper": "3.000140037090925014003556468055974953924"
+      },
+      "continued_fraction_prefix": [
+        3,
+        7140,
+        1,
+        27,
+        1,
+        3,
+        2,
+        14,
+        3,
+        1,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 86,
+      "Psi_interval": {
+        "lower": "3.000136780836918642019543852810181090229",
+        "upper": "3.000136780836918642019543852810181090230"
+      },
+      "continued_fraction_prefix": [
+        3,
+        7310,
+        1,
+        28,
+        9,
+        14,
+        1,
+        3,
+        1,
+        1,
+        9,
+        28
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 87,
+      "Psi_interval": {
+        "lower": "3.000133636848688540477483298255626855259",
+        "upper": "3.000133636848688540477483298255626855260"
+      },
+      "continued_fraction_prefix": [
+        3,
+        7482,
+        1,
+        28,
+        2,
+        3,
+        1,
+        14,
+        3,
+        1,
+        1,
+        2
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 88,
+      "Psi_interval": {
+        "lower": "3.000130600024283813794729534539137573580",
+        "upper": "3.000130600024283813794729534539137573581"
+      },
+      "continued_fraction_prefix": [
+        3,
+        7656,
+        1,
+        28,
+        1,
+        3,
+        2,
+        14,
+        1,
+        3,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 89,
+      "Psi_interval": {
+        "lower": "3.000127665548312041304759261011662185169",
+        "upper": "3.000127665548312041304759261011662185170"
+      },
+      "continued_fraction_prefix": [
+        3,
+        7832,
+        1,
+        29,
+        9,
+        15,
+        3,
+        1,
+        1,
+        2,
+        11,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 90,
+      "Psi_interval": {
+        "lower": "3.000124828872840512057293243476366593971",
+        "upper": "3.000124828872840512057293243476366593972"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8010,
+        1,
+        29,
+        2,
+        3,
+        1,
+        14,
+        1,
+        3,
+        2,
+        178
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 91,
+      "Psi_interval": {
+        "lower": "3.000122085699766157185741852050876207676",
+        "upper": "3.000122085699766157185741852050876207677"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8190,
+        1,
+        29,
+        1,
+        3,
+        2,
+        15,
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 92,
+      "Psi_interval": {
+        "lower": "3.000119431964526508650287814304246257347",
+        "upper": "3.000119431964526508650287814304246257348"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8372,
+        1,
+        30,
+        9,
+        15,
+        1,
+        3,
+        2,
+        17,
+        5,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 93,
+      "Psi_interval": {
+        "lower": "3.000116863821036364091349990959235843392",
+        "upper": "3.000116863821036364091349990959235843393"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8556,
+        1,
+        30,
+        2,
+        3,
+        1,
+        15,
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 94,
+      "Psi_interval": {
+        "lower": "3.000114377627745875020974050226653787622",
+        "upper": "3.000114377627745875020974050226653787623"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8742,
+        1,
+        30,
+        1,
+        3,
+        2,
+        15,
+        1,
+        3,
+        2,
+        9
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 95,
+      "Psi_interval": {
+        "lower": "3.000111969934725651659914981716452882349",
+        "upper": "3.000111969934725651659914981716452882350"
+      },
+      "continued_fraction_prefix": [
+        3,
+        8930,
+        1,
+        31,
+        9,
+        16,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 96,
+      "Psi_interval": {
+        "lower": "3.000109637471693325422224409338019351745",
+        "upper": "3.000109637471693325422224409338019351746"
+      },
+      "continued_fraction_prefix": [
+        3,
+        9120,
+        1,
+        31,
+        2,
+        3,
+        1,
+        15,
+        1,
+        3,
+        2,
+        6
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 97,
+      "Psi_interval": {
+        "lower": "3.000107377136903945933361505980066828258",
+        "upper": "3.000107377136903945933361505980066828259"
+      },
+      "continued_fraction_prefix": [
+        3,
+        9312,
+        1,
+        31,
+        1,
+        3,
+        2,
+        16,
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 98,
+      "Psi_interval": {
+        "lower": "3.000105185986833715849665682073745273279",
+        "upper": "3.000105185986833715849665682073745273280"
+      },
+      "continued_fraction_prefix": [
+        3,
+        9506,
+        1,
+        32,
+        9,
+        16,
+        1,
+        3,
+        2,
+        4,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 99,
+      "Psi_interval": {
+        "lower": "3.000103061226592973537939797006302684158",
+        "upper": "3.000103061226592973537939797006302684159"
+      },
+      "continued_fraction_prefix": [
+        3,
+        9702,
+        1,
+        32,
+        2,
+        3,
+        1,
+        16,
+        3,
+        1,
+        1,
+        1
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 100,
+      "Psi_interval": {
+        "lower": "3.000101000201010100000200020201010300000",
+        "upper": "3.000101000201010100000200020201010300001"
+      },
+      "continued_fraction_prefix": [
+        3,
+        9900,
+        1,
+        32,
+        1,
+        3,
+        2,
+        16,
+        1,
+        3,
+        2,
+        3
+      ],
+      "status": "requested prefix certified"
+    },
+    {
+      "base": 1000,
+      "Psi_interval": {
+        "lower": "3.000001001000002001001001000000002000002",
+        "upper": "3.000001001000002001001001000000002000003"
+      },
+      "continued_fraction_prefix": [
+        3,
+        999000,
+        1,
+        332,
+        1,
+        3,
+        2,
+        166,
+        1,
+        3,
+        25,
+        1
+      ],
+      "status": "requested prefix certified"
+    }
+  ],
+  "universal_prefix_finitely_checked": {
+    "formula_for_b_at_least_5": "[3; b^2-b, 1, floor((b-2)/3)]",
+    "bases": "5 through 100, and 1000",
+    "exception_b4_prefix": [
+      3,
+      12,
+      2,
+      3,
+      1,
+      1,
+      8,
+      24,
+      1,
+      1,
+      5,
+      2
+    ]
+  },
+  "selected_bases": [
+    4,
+    5,
+    6,
+    10,
+    20,
+    100,
+    1000
+  ],
+  "rational_boundary_preimages": [
+    {
+      "target_p_over_q": "22/7",
+      "is_pi_convergent": true,
+      "root_exact_rational_interval": [
+        "2031512916829590085446031837994769/649037107316853453566312041152512",
+        "16252103334636720683568254703958153/5192296858534827628530496329220096"
+      ],
+      "root": {
+        "lower": "3.130041247145250982519020478854675661934",
+        "upper": "3.130041247145250982519020478854675854528"
+      },
+      "root_minus_pi": {
+        "lower": "-0.01155140644454225594362290442482722226316",
+        "upper": "-0.01155140644454225594362290442482702967015"
+      },
+      "q_squared_times_signed_offset": {
+        "lower": "-0.5660189157825705412375223168165338908945",
+        "upper": "-0.5660189157825705412375223168165244538377"
+      },
+      "q_squared_times_absolute_offset": {
+        "lower": "0.5660189157825705412375223168165244538377",
+        "upper": "0.5660189157825705412375223168165338908945"
+      },
+      "kappa_q_squared_abs_pi_minus_p_over_q": {
+        "lower": "0.06195997410013131533047421930435867433869",
+        "upper": "0.06195997410013131533047421930435867433870"
+      },
+      "absolute_offset_over_rational_error": {
+        "lower": "9.135234867397579251924677494852058452172",
+        "upper": "9.135234867397579251924677494852210761093"
+      },
+      "Psi_root_minus_target": {
+        "lower": "-6.179942214834988376146357002033269321363E-36",
+        "upper": "1.504648598361374884337844182926327887302E-35"
+      },
+      "algorithm": {
+        "bisections": 112,
+        "derivative_fallback_steps": 0,
+        "width_exact": "1/5192296858534827628530496329220096",
+        "requested_maximum_width": "1/2^110"
+      }
+    },
+    {
+      "target_p_over_q": "333/106",
+      "is_pi_convergent": true,
+      "root_exact_rational_interval": [
+        "4079014444325579845463945419954875/1298074214633706907132624082305024",
+        "16316057777302319381855781679819501/5192296858534827628530496329220096"
+      ],
+      "root": {
+        "lower": "3.142358424765878299007190725687253798248",
+        "upper": "3.142358424765878299007190725687253990842"
+      },
+      "root_minus_pi": {
+        "lower": "0.0007657711760850605445473424077509140516166",
+        "upper": "0.0007657711760850605445473424077511066446111"
+      },
+      "q_squared_times_signed_offset": {
+        "lower": "8.604204934491740278533939293489270283964",
+        "upper": "8.604204934491740278533939293491434258850"
+      },
+      "q_squared_times_absolute_offset": {
+        "lower": "8.604204934491740278533939293489270283964",
+        "upper": "8.604204934491740278533939293491434258850"
+      },
+      "kappa_q_squared_abs_pi_minus_p_over_q": {
+        "lower": "0.9350557349168273662610545284944068393953",
+        "upper": "0.9350557349168273662610545284944068393954"
+      },
+      "absolute_offset_over_rational_error": {
+        "lower": "9.201809703094413967425038637413234961082",
+        "upper": "9.201809703094413967425038637415549234772"
+      },
+      "Psi_root_minus_target": {
+        "lower": "-8.521436379863709998084988500355755338101E-37",
+        "upper": "2.006833973186837441843024506160280939447E-35"
+      },
+      "algorithm": {
+        "bisections": 112,
+        "derivative_fallback_steps": 0,
+        "width_exact": "1/5192296858534827628530496329220096",
+        "requested_maximum_width": "1/2^110"
+      }
+    },
+    {
+      "target_p_over_q": "355/113",
+      "is_pi_convergent": true,
+      "root_exact_rational_interval": [
+        "16312068926185235501335180506964407/5192296858534827628530496329220096",
+        "2039008615773154437666897563370551/649037107316853453566312041152512"
+      ],
+      "root": {
+        "lower": "3.141590199984868866845252588216463737697",
+        "upper": "3.141590199984868866845252588216463930291"
+      },
+      "root_minus_pi": {
+        "lower": "-0.000002453604924371617390795063039146499284881",
+        "upper": "-0.000002453604924371617390795063038953906290441"
+      },
+      "q_squared_times_signed_offset": {
+        "lower": "-0.03133008127930118246306215994686164936864",
+        "upper": "-0.03133008127930118246306215994440242942264"
+      },
+      "q_squared_times_absolute_offset": {
+        "lower": "0.03133008127930118246306215994440242942264",
+        "upper": "0.03133008127930118246306215994686164936864"
+      },
+      "kappa_q_squared_abs_pi_minus_p_over_q": {
+        "lower": "0.003406311930138070506638904027671686343939",
+        "upper": "0.003406311930138070506638904027671686343940"
+      },
+      "absolute_offset_over_rational_error": {
+        "lower": "9.197654801400192848675220155642015078206",
+        "upper": "9.197654801400192848675220156363974780203"
+      },
+      "Psi_root_minus_target": {
+        "lower": "-7.800410793387951459411323487140397988544E-36",
+        "upper": "1.313897826337672489779822079099338683774E-35"
+      },
+      "algorithm": {
+        "bisections": 112,
+        "derivative_fallback_steps": 0,
+        "width_exact": "1/5192296858534827628530496329220096",
+        "requested_maximum_width": "1/2^110"
+      }
+    },
+    {
+      "target_p_over_q": "103993/33102",
+      "is_pi_convergent": true,
+      "root_exact_rational_interval": [
+        "8156040846814356411975372443411181/2596148429267413814265248164610048",
+        "16312081693628712823950744886822363/5192296858534827628530496329220096"
+      ],
+      "root": {
+        "lower": "3.141592658905039491557465600679727557166",
+        "upper": "3.141592658905039491557465600679727749760"
+      },
+      "root_minus_pi": {
+        "lower": "5.315246253094822217400224672969254954799E-9",
+        "upper": "5.315246253094822217400224865562249393524E-9"
+      },
+      "q_squared_times_signed_offset": {
+        "lower": "5.824140707218112936446732813299445242261",
+        "upper": "5.824140707218112936446733024331755962107"
+      },
+      "q_squared_times_absolute_offset": {
+        "lower": "5.824140707218112936446732813299445242261",
+        "upper": "5.824140707218112936446733024331755962107"
+      },
+      "kappa_q_squared_abs_pi_minus_p_over_q": {
+        "lower": "0.6332192729760021249893758942551400076665",
+        "upper": "0.6332192729760021249893758942551400076666"
+      },
+      "absolute_offset_over_rational_error": {
+        "lower": "9.197668099781349241867579981627202801341",
+        "upper": "9.197668099781349241867580314896134632865"
+      },
+      "Psi_root_minus_target": {
+        "lower": "-9.495672011296156752289158803896462874330E-36",
+        "upper": "1.144365649539126416863905588842450984379E-35"
+      },
+      "algorithm": {
+        "bisections": 112,
+        "derivative_fallback_steps": 0,
+        "width_exact": "1/5192296858534827628530496329220096",
+        "requested_maximum_width": "1/2^110"
+      }
+    },
+    {
+      "target_p_over_q": "688/219",
+      "is_pi_convergent": false,
+      "root_exact_rational_interval": [
+        "16313999153061877139325909683160503/5192296858534827628530496329220096",
+        "2039249894132734642415738710395063/649037107316853453566312041152512"
+      ],
+      "root": {
+        "lower": "3.141961948158987384626724709758708442711",
+        "upper": "3.141961948158987384626724709758708635305"
+      },
+      "root_minus_pi": {
+        "lower": "0.0003692945691941461640813264792055585139411",
+        "upper": "0.0003692945691941461640813264792057511069357"
+      },
+      "q_squared_times_signed_offset": {
+        "lower": "17.71173683312044417550449926917779188713",
+        "upper": "17.71173683312044417550449926918702883974"
+      },
+      "q_squared_times_absolute_offset": {
+        "lower": "17.71173683312044417550449926917779188713",
+        "upper": "17.71173683312044417550449926918702883974"
+      },
+      "kappa_q_squared_abs_pi_minus_p_over_q": {
+        "lower": "1.925258820073509906839305468237828980441",
+        "upper": "1.925258820073509906839305468237828980442"
+      },
+      "absolute_offset_over_rational_error": {
+        "lower": "9.199665337694273039911488667996725346506",
+        "upper": "9.199665337694273039911488668001523118375"
+      },
+      "Psi_root_minus_target": {
+        "lower": "-6.416160822772482222347709879773430308541E-36",
+        "upper": "1.451407676600837195184767855075703239953E-35"
+      },
+      "algorithm": {
+        "bisections": 112,
+        "derivative_fallback_steps": 0,
+        "width_exact": "1/5192296858534827628530496329220096",
+        "requested_maximum_width": "1/2^110"
+      }
+    }
+  ],
+  "m_sum_n_d_n_pi_to_minus_n": {
+    "lower": "1.108723210304700221271743272189174095177",
+    "upper": "1.108723210304700221271743272189174095178"
+  },
+  "convergence_constant_1_over_m_minus_1": {
+    "lower": "9.197668071035324504965301396061880656781",
+    "upper": "9.197668071035324504965301396061880656782"
+  },
+  "ambiguity_fallback_check": {
+    "algorithm": {
+      "bisections": 0,
+      "derivative_fallback_steps": 1,
+      "width_exact": "602601766597121353328235784627935975945826122668547313238016/1296270528098560950823912669295809623637756663260639087349755386678956080360333371410191735141466294486768586542034063296257900854275999564072519498361053143853715",
+      "requested_maximum_width": "1/2^110"
+    },
+    "root": {
+      "lower": "3.499999999999999999999999999999999999999",
+      "upper": "3.500000000000000000000000000000000000001"
+    }
+  },
+  "figure": {
+    "generated": true,
+    "file": "cf_migration_geometry.svg",
+    "scope": "Floating-point illustration; boundary offsets computed from certified rational intervals before conversion."
+  },
+  "scope": "Finite exact certificates; the universal prefix and inverse asymptotic claims require the accompanying mathematical proofs. No P2848 conclusion."
+}

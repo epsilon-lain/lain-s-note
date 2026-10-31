@@ -1,0 +1,202 @@
+{
+  "native_digit_count_certified": 64,
+  "native_prefix_18": "301102111002022113",
+  "pi_enclosure": "Machin alternating sums, 100 terms; outward dyadic enclosure at 500 bits",
+  "polynomial_certificates": [
+    {
+      "difference": "L-W0",
+      "threshold": 5,
+      "numerator_coefficients_ascending": [
+        -5,
+        -6,
+        -5,
+        -7,
+        2
+      ],
+      "shifted_positive_coefficients_ascending": [
+        215,
+        419,
+        190,
+        33,
+        2
+      ]
+    },
+    {
+      "difference": "W1-U",
+      "threshold": 5,
+      "numerator_coefficients_ascending": [
+        54,
+        10,
+        -10,
+        -59,
+        49,
+        -12,
+        1
+      ],
+      "shifted_positive_coefficients_ascending": [
+        1229,
+        1235,
+        830,
+        421,
+        124,
+        18,
+        1
+      ]
+    },
+    {
+      "difference": "W2-U",
+      "threshold": 14,
+      "numerator_coefficients_ascending": [
+        22,
+        10,
+        -2,
+        -25,
+        13
+      ],
+      "shifted_positive_coefficients_ascending": [
+        430578,
+        127942,
+        14236,
+        703,
+        13
+      ]
+    },
+    {
+      "difference": "L-W3",
+      "threshold": 14,
+      "numerator_coefficients_ascending": [
+        -8,
+        -11,
+        -10,
+        -13,
+        1
+      ],
+      "shifted_positive_coefficients_ascending": [
+        622,
+        3041,
+        620,
+        43,
+        1
+      ]
+    }
+  ],
+  "sampled_bases": "5 through 100, and 1000",
+  "sampled_base_count": 97,
+  "mod3_prefix_counts": {
+    "0": 32,
+    "1": 33,
+    "2": 32
+  },
+  "mod6_next_partial_quotient_counts": {
+    "0": 29,
+    "1": 30,
+    "2": 29
+  },
+  "samples": [
+    {
+      "base": 5,
+      "certified_cf_first_8": [
+        3,
+        20,
+        1,
+        1,
+        9,
+        4,
+        2,
+        2
+      ]
+    },
+    {
+      "base": 6,
+      "certified_cf_first_8": [
+        3,
+        30,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "base": 7,
+      "certified_cf_first_8": [
+        3,
+        42,
+        1,
+        1,
+        1,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "base": 10,
+      "certified_cf_first_8": [
+        3,
+        90,
+        1,
+        2,
+        1,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "base": 14,
+      "certified_cf_first_8": [
+        3,
+        182,
+        1,
+        4,
+        9,
+        2,
+        1,
+        170
+      ]
+    },
+    {
+      "base": 15,
+      "certified_cf_first_8": [
+        3,
+        210,
+        1,
+        4,
+        2,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "base": 16,
+      "certified_cf_first_8": [
+        3,
+        240,
+        1,
+        4,
+        1,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "base": 1000,
+      "certified_cf_first_8": [
+        3,
+        999000,
+        1,
+        332,
+        1,
+        3,
+        2,
+        166
+      ]
+    }
+  ],
+  "scope": "Exact finite checks plus symbolic polynomial positivity certificates; no P2848 conclusion."
+}
