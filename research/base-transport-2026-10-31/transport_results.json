@@ -1,0 +1,185 @@
+{
+  "native_digit_certificate": {
+    "count": 192,
+    "pi_bounds": "Machin identity, 160 alternating terms",
+    "working_intervals": "600-bit dyadic outward enclosures at each step",
+    "prefix": "3011021110020221130001020002102222122120201212020000012222121012"
+  },
+  "return_counts_first_16": [
+    1,
+    3,
+    9,
+    28,
+    88,
+    276,
+    867,
+    2724,
+    8558,
+    26886,
+    84465,
+    265354,
+    833634,
+    2618938,
+    8227636,
+    25847881
+  ],
+  "finite_word_checks": [
+    {
+      "length": 1,
+      "legal_words": 4,
+      "positive_last_digit_words": 3
+    },
+    {
+      "length": 2,
+      "legal_words": 13,
+      "positive_last_digit_words": 9
+    },
+    {
+      "length": 3,
+      "legal_words": 41,
+      "positive_last_digit_words": 28
+    },
+    {
+      "length": 4,
+      "legal_words": 129,
+      "positive_last_digit_words": 88
+    },
+    {
+      "length": 5,
+      "legal_words": 405,
+      "positive_last_digit_words": 276
+    },
+    {
+      "length": 6,
+      "legal_words": 1272,
+      "positive_last_digit_words": 867
+    },
+    {
+      "length": 7,
+      "legal_words": 3996,
+      "positive_last_digit_words": 2724
+    }
+  ],
+  "target_base_certificates": [
+    {
+      "base": 4,
+      "U": {
+        "lower": "0.770099768749851452837092843623",
+        "upper": "0.770099768749851452837092843624"
+      },
+      "delta_1_minus_U": {
+        "lower": "0.229900231250148547162907156376",
+        "upper": "0.229900231250148547162907156377"
+      },
+      "M1": {
+        "lower": "0.816014904442966767425221024222",
+        "upper": "0.816014904442966767425221024223"
+      },
+      "length_weighted_mean_gap_depth": {
+        "lower": "4.60905287193568920416818432430",
+        "upper": "4.60905287193568920416818432431"
+      },
+      "finite_gaps": {
+        "depth": 5,
+        "gap_counts_by_depth": [
+          3,
+          9,
+          28,
+          88,
+          276
+        ],
+        "strictly_disjoint_gaps_checked": 404
+      },
+      "gap_mass_partial_depth": 192,
+      "uncovered_gap_mass": {
+        "lower": "5.46298412016796946226812789727E-21",
+        "upper": "5.46298412016796946226812789728E-21"
+      },
+      "uncovered_gap_mass_upper_bound": "6.55576743619017842725155526518E-21",
+      "dimension_exact": "log(pi)/log(4)",
+      "dimension_display_only": 0.8257480647361595
+    },
+    {
+      "base": 10,
+      "U": {
+        "lower": "0.301102111002022113000102000210",
+        "upper": "0.301102111002022113000102000211"
+      },
+      "delta_1_minus_U": {
+        "lower": "0.698897888997977886999897999789",
+        "upper": "0.698897888997977886999897999790"
+      },
+      "M1": {
+        "lower": "0.303412789024311824002248005896",
+        "upper": "0.303412789024311824002248005897"
+      },
+      "length_weighted_mean_gap_depth": {
+        "lower": "1.44180442334775934227144628446",
+        "upper": "1.44180442334775934227144628447"
+      },
+      "finite_gaps": {
+        "depth": 5,
+        "gap_counts_by_depth": [
+          3,
+          9,
+          28,
+          88,
+          276
+        ],
+        "strictly_disjoint_gaps_checked": 404
+      },
+      "gap_mass_partial_depth": 192,
+      "uncovered_gap_mass": {
+        "lower": "8.19016674063956627742039665743E-98",
+        "upper": "8.19016674063956627742039665744E-98"
+      },
+      "uncovered_gap_mass_upper_bound": "9.81581144440959287745436083564E-98",
+      "dimension_exact": "log(pi)/log(10)",
+      "dimension_display_only": 0.4971498726941338
+    },
+    {
+      "base": 16,
+      "U": {
+        "lower": "0.187759522596032043101290754200",
+        "upper": "0.187759522596032043101290754201"
+      },
+      "delta_1_minus_U": {
+        "lower": "0.812240477403967956898709245799",
+        "upper": "0.812240477403967956898709245800"
+      },
+      "M1": {
+        "lower": "0.188294200357717460870754100370",
+        "upper": "0.188294200357717460870754100371"
+      },
+      "length_weighted_mean_gap_depth": {
+        "lower": "1.23466842776825304734182873334",
+        "upper": "1.23466842776825304734182873335"
+      },
+      "finite_gaps": {
+        "depth": 5,
+        "gap_counts_by_depth": [
+          3,
+          9,
+          28,
+          88,
+          276
+        ],
+        "strictly_disjoint_gaps_checked": 404
+      },
+      "gap_mass_partial_depth": 192,
+      "uncovered_gap_mass": {
+        "lower": "3.27011532859115388015851195458E-137",
+        "upper": "3.27011532859115388015851195459E-137"
+      },
+      "uncovered_gap_mass_upper_bound": "3.91885473283265610030290057874E-137",
+      "dimension_exact": "log(pi)/log(16)",
+      "dimension_display_only": 0.41287403236807974
+    }
+  ],
+  "figure": {
+    "generated": true,
+    "file": "transport_geometry.svg",
+    "scope": "Floating-point display of proved formulas and finite outer covers."
+  },
+  "scope": "Finite exact interval and integer checks. Infinite arithmetic classifications, Cantor geometry, dimensions, and transport asymptotics require the accompanying proofs. No P2848 conclusion."
+}

@@ -181,3 +181,7 @@ The Laplace-transform and moment-flow identities (5)–(10) are direct consequen
 ## 8. Reproducibility note
 
 All displayed identities in this note follow from (1), positivity, and termwise differentiation of exponentially convergent series. The irrationality assertion (4) uses the standard theorem that rational numbers have eventually periodic expansions in an integer base. No numerical experiment is needed for these proofs. No claim of P2848 being proved or disproved is made.
+
+## 9. Extension to the whole word space and carry jets
+
+The companion [continuous-base geometry note](../base-transport-2026-10-31/README.md) transports the entire closed π-greedy word space. It proves the dimension formula logπ/logt, identifies c_n as the number of depth-n gaps, and connects their total length to D·C=1. Further results include the critical gap-depth distribution, generic algebraic independence of t and F(t), and the correspondence between powers of the carry kernel and Taylor contact order. Exact finite certificates and a figure accompany the proofs. None of these statements settles transcendence of F(10) or P2848.
