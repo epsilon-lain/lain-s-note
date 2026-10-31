@@ -1,0 +1,87 @@
+{
+  "status": "exact finite checks passed; P2848 unresolved",
+  "checks": {
+    "flow_composition": 648,
+    "affine_ratio": 1680,
+    "sample_reduction": 5880,
+    "target_divisibility": 53880,
+    "factorial_coverage": 1347,
+    "normalized_identity": 3306
+  },
+  "unit_interval_counterexample": {
+    "n": 4,
+    "time": "2/3",
+    "value": "3/10"
+  },
+  "examples": [
+    {
+      "rational_value": "22/7",
+      "event_time": "15/22",
+      "minimum_uniform_clock_M": 22,
+      "spatial_normalized_error": {
+        "lower": "0.0619599741001313153304742193043",
+        "upper": "0.0619599741001313153304742193044"
+      },
+      "temporal_normalized_error": {
+        "lower": "0.0619849129546850242794829445939",
+        "upper": "0.0619849129546850242794829445940"
+      },
+      "exact_conversion_factor": {
+        "lower": "0.999597662505843303147204712861",
+        "upper": "0.999597662505843303147204712862"
+      }
+    },
+    {
+      "rational_value": "333/106",
+      "event_time": "227/333",
+      "minimum_uniform_clock_M": 333,
+      "spatial_normalized_error": {
+        "lower": "0.935055734916827366261054528494",
+        "upper": "0.935055734916827366261054528495"
+      },
+      "temporal_normalized_error": {
+        "lower": "0.935030965636223848496726770509",
+        "upper": "0.935030965636223848496726770510"
+      },
+      "exact_conversion_factor": {
+        "lower": "1.00002649033188613596708768356",
+        "upper": "1.00002649033188613596708768357"
+      }
+    },
+    {
+      "rational_value": "355/113",
+      "event_time": "242/355",
+      "minimum_uniform_clock_M": 355,
+      "spatial_normalized_error": {
+        "lower": "0.00340631193013807050663890402767",
+        "upper": "0.00340631193013807050663890402768"
+      },
+      "temporal_normalized_error": {
+        "lower": "0.00340631221938054715255804224495",
+        "upper": "0.00340631221938054715255804224496"
+      },
+      "exact_conversion_factor": {
+        "lower": "0.999999915086328551961348457212",
+        "upper": "0.999999915086328551961348457213"
+      }
+    },
+    {
+      "rational_value": "103993/33102",
+      "event_time": "70891/103993",
+      "minimum_uniform_clock_M": 103993,
+      "spatial_normalized_error": {
+        "lower": "0.633219272976002124989375894255",
+        "upper": "0.633219272976002124989375894256"
+      },
+      "temporal_normalized_error": {
+        "lower": "0.633219272859522514894101271786",
+        "upper": "0.633219272859522514894101271787"
+      },
+      "exact_conversion_factor": {
+        "lower": "1.00000000018394830209331802403",
+        "upper": "1.00000000018394830209331802404"
+      }
+    }
+  ],
+  "limits": "No finite check establishes an infinite liminf; no Lean run."
+}
