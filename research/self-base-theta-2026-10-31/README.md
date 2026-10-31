@@ -291,3 +291,8 @@ python3 verify.py > results.json
 - Nicolas Chevallier，[*The natural extension of the Gauss map and the Hermite best approximations*](https://www.numdam.org/item/JTNB_2022__34_2_619_0/)，JTNB 34(2), 2022, 619–636：连分数、格和随参数变化的二次型之间已有成熟联系。本文不把格流或解析编码本身声称为新发现，也不把该文的几乎处处结论套用于 π。
 
 本次未修改仓库原有 P2848 目标，也未声称上述新记录解决了该目标。
+
+
+## 后续：长期平方平均
+
+[不重叠区间分解与 π 正积分尝试](MEAN_SQUARE_DECOMPOSITION.md)：给出全局线性余项界、单峰充分条件和一次未成功的约分实验。
