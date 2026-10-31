@@ -1,0 +1,112 @@
+{
+  "status": "exact finite checks passed; P2848 unresolved",
+  "counterexample": {
+    "coefficients_first_12": [
+      3,
+      4,
+      2,
+      2,
+      3,
+      4,
+      6,
+      6,
+      9,
+      8,
+      12,
+      10
+    ],
+    "denominators_first_12": [
+      1,
+      4,
+      9,
+      22,
+      75,
+      322,
+      2007,
+      12364,
+      113283,
+      918628,
+      11136819,
+      112286818
+    ],
+    "composite_denominators_checked": 80,
+    "convergent_error_bounds_checked": 78,
+    "prime_limit": 2000,
+    "primes_checked": 303,
+    "minimum_prime_sample": {
+      "p": 16,
+      "q": 5,
+      "normalized_error": {
+        "lower": "0.667664168736173335458861515699",
+        "upper": "0.667664168736173335458861515700"
+      }
+    }
+  },
+  "pi_finite_counterexample": [
+    {
+      "p": 6,
+      "q": 2,
+      "absolute_error": {
+        "lower": "0.141592653589793238462643383279",
+        "upper": "0.141592653589793238462643383280"
+      }
+    },
+    {
+      "p": 9,
+      "q": 3,
+      "absolute_error": {
+        "lower": "0.141592653589793238462643383279",
+        "upper": "0.141592653589793238462643383280"
+      }
+    },
+    {
+      "p": 16,
+      "q": 5,
+      "absolute_error": {
+        "lower": "0.0584073464102067615373566167204",
+        "upper": "0.0584073464102067615373566167205"
+      }
+    },
+    {
+      "p": 19,
+      "q": 6,
+      "absolute_error": {
+        "lower": "0.0250740130768734282040232833871",
+        "upper": "0.0250740130768734282040232833872"
+      }
+    }
+  ],
+  "native_digits_certified": 64,
+  "prime_base_values": [
+    {
+      "base": 3,
+      "F": {
+        "lower": "1.05279102834215500671710686513",
+        "upper": "1.05279102834215500671710686514"
+      }
+    },
+    {
+      "base": 5,
+      "F": {
+        "lower": "0.609743880593867205044424324656",
+        "upper": "0.609743880593867205044424324657"
+      }
+    },
+    {
+      "base": 7,
+      "F": {
+        "lower": "0.431921785974878618207987239237",
+        "upper": "0.431921785974878618207987239238"
+      }
+    },
+    {
+      "base": 11,
+      "F": {
+        "lower": "0.273548074227197194523910399894",
+        "upper": "0.273548074227197194523910399895"
+      }
+    }
+  ],
+  "commuting_compositions_checked": 975,
+  "scope": "General counterexample is not pi. Infinite claims follow from the note proofs, not finite tests."
+}
