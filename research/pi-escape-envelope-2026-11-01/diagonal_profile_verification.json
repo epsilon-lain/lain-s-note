@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "column_transformation_entry_checks": 10980,
+  "column_basis_changes": [
+    {
+      "weights": [
+        1,
+        1,
+        3
+      ],
+      "H": 5,
+      "column_count": 27,
+      "basis_change_determinant": 1
+    },
+    {
+      "weights": [
+        2,
+        2,
+        5
+      ],
+      "H": 7,
+      "column_count": 13,
+      "basis_change_determinant": 1
+    },
+    {
+      "weights": [
+        1,
+        1,
+        2,
+        4
+      ],
+      "H": 5,
+      "column_count": 37,
+      "basis_change_determinant": 1
+    }
+  ],
+  "greatest_anchor_row_changes": [
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "cutoff": 7,
+      "time_budget": 0,
+      "rows": 12,
+      "determinants": [
+        1,
+        1
+      ]
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "cutoff": 7,
+      "time_budget": 2,
+      "rows": 7,
+      "determinants": [
+        1,
+        1
+      ]
+    },
+    {
+      "weights": [
+        2,
+        5
+      ],
+      "cutoff": 11,
+      "time_budget": 0,
+      "rows": 10,
+      "determinants": [
+        1,
+        1
+      ]
+    },
+    {
+      "weights": [
+        2,
+        5
+      ],
+      "cutoff": 11,
+      "time_budget": 2,
+      "rows": 7,
+      "determinants": [
+        1,
+        1
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "cutoff": 8,
+      "time_budget": 0,
+      "rows": 24,
+      "determinants": [
+        1,
+        1
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "cutoff": 8,
+      "time_budget": 2,
+      "rows": 13,
+      "determinants": [
+        1,
+        1
+      ]
+    }
+  ],
+  "sharp_capacity_checks": [
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 1,
+      "minimum_time_order": 0,
+      "profile_dimension": 2,
+      "exact_capacity": 2
+    },
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 1,
+      "minimum_time_order": 1,
+      "profile_dimension": 2,
+      "exact_capacity": 1
+    },
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 1,
+      "minimum_time_order": 3,
+      "profile_dimension": 2,
+      "exact_capacity": 1
+    },
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 0,
+      "profile_dimension": 12,
+      "exact_capacity": 12
+    },
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 1,
+      "profile_dimension": 12,
+      "exact_capacity": 11
+    },
+    {
+      "w0": 1,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 3,
+      "profile_dimension": 12,
+      "exact_capacity": 9
+    },
+    {
+      "w0": 2,
+      "w_min": 3,
+      "remaining_budget": 6,
+      "minimum_time_order": 0,
+      "profile_dimension": 7,
+      "exact_capacity": 7
+    },
+    {
+      "w0": 2,
+      "w_min": 3,
+      "remaining_budget": 6,
+      "minimum_time_order": 1,
+      "profile_dimension": 7,
+      "exact_capacity": 6
+    },
+    {
+      "w0": 2,
+      "w_min": 3,
+      "remaining_budget": 6,
+      "minimum_time_order": 3,
+      "profile_dimension": 7,
+      "exact_capacity": 4
+    },
+    {
+      "w0": 2,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 0,
+      "profile_dimension": 6,
+      "exact_capacity": 6
+    },
+    {
+      "w0": 2,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 1,
+      "profile_dimension": 6,
+      "exact_capacity": 5
+    },
+    {
+      "w0": 2,
+      "w_min": 2,
+      "remaining_budget": 5,
+      "minimum_time_order": 3,
+      "profile_dimension": 6,
+      "exact_capacity": 3
+    }
+  ],
+  "kernel_generating_coefficient_checks": 26,
+  "finite_gram_check": {
+    "H": 6,
+    "weights": [
+      1,
+      2
+    ],
+    "formal_real_center": "1/3",
+    "t": "1/4",
+    "rows": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "column_count": 16,
+    "positive_principal_minors_of_loewner_difference": 15,
+    "selected_minor_squared": "1/6561",
+    "full_finite_gram_determinant": "4762156/19683",
+    "grand_kernel_determinant_bound": "36884197502862814609408/2743558264161"
+  },
+  "scope": "Exact coordinate, capacity and weighted-column-kernel checks. Rational formal nodes are not exponential periods. No uniform large-H determinant saving or pi approximation claim is certified."
+}

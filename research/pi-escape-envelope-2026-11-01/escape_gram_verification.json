@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "packets": [
+    {
+      "M": 2,
+      "outside_rows": 3,
+      "matching_minor_checks": 10,
+      "marker_coefficients": [
+        "1",
+        "-467/105",
+        "-11/15"
+      ],
+      "relative_determinant": "-439/105",
+      "support_weighted_squared_upper_bound": "902646502633/166698000"
+    },
+    {
+      "M": 3,
+      "outside_rows": 4,
+      "matching_minor_checks": 35,
+      "marker_coefficients": [
+        "1",
+        "100019/765765",
+        "-62273/306306",
+        "-9403/170170"
+      ],
+      "relative_determinant": "20236/23205",
+      "support_weighted_squared_upper_bound": "165166217775843910771/49105706137488000"
+    }
+  ],
+  "known_spectrum_envelope_checks": [
+    {
+      "k": 0,
+      "maximum_coordinate_minor": "1",
+      "top_singular_product": 1,
+      "minor_count": 1
+    },
+    {
+      "k": 1,
+      "maximum_coordinate_minor": "144/65",
+      "top_singular_product": 3,
+      "minor_count": 6
+    },
+    {
+      "k": 2,
+      "maximum_coordinate_minor": "24/5",
+      "top_singular_product": 6,
+      "minor_count": 3
+    }
+  ],
+  "singular_source_check": {
+    "source_rank": 1,
+    "full_column_rank": 2,
+    "whitened_eigenvalues": [
+      "0",
+      "2/3"
+    ],
+    "escape_square_sum_coefficients": [
+      "0",
+      "2",
+      "1"
+    ]
+  },
+  "generic_obstructions": [
+    {
+      "M": 2,
+      "H": 1,
+      "aligned_relative_determinant": "9",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "3"
+    },
+    {
+      "M": 2,
+      "H": 3,
+      "aligned_relative_determinant": "81",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "9"
+    },
+    {
+      "M": 2,
+      "H": 8,
+      "aligned_relative_determinant": "66049",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "257"
+    },
+    {
+      "M": 3,
+      "H": 1,
+      "aligned_relative_determinant": "27",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "5"
+    },
+    {
+      "M": 3,
+      "H": 3,
+      "aligned_relative_determinant": "729",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "65"
+    },
+    {
+      "M": 3,
+      "H": 8,
+      "aligned_relative_determinant": "16974593",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "65537"
+    },
+    {
+      "M": 5,
+      "H": 1,
+      "aligned_relative_determinant": "243",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "17"
+    },
+    {
+      "M": 5,
+      "H": 3,
+      "aligned_relative_determinant": "59049",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "4097"
+    },
+    {
+      "M": 5,
+      "H": 8,
+      "aligned_relative_determinant": "1121154893057",
+      "disjoint_relative_determinant": "1",
+      "single_exit_relative_determinant": "4294967297"
+    }
+  ],
+  "scope": "Exact finite linear-algebra identities and generic countermodels. No assertion that these countermodels occur in actual-period packets; no period spectral growth or Diophantine conclusion is certified."
+}

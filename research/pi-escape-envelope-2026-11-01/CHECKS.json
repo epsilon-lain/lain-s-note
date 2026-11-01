@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "verification_commands": [
+    {
+      "command": "python verify_surviving_collision.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"exhaustive_survivor_allocations\": 231,\n  \"exact_optimization_cases\": 39,\n  \"complete_packet_cases\": 27,\n  \"ordinary_coefficient_checks\": 3575,\n  \"conditional_highdimensional_bounds\": 4,\n  \"scope\": \"Finite rational minimization, source counts, coefficient bounds and parameter certificates. Infinite conclusions use the written proofs. No pi approximation or endpoint contradiction is certified.\"\n}\n"
+    },
+    {
+      "command": "python verify_small_escape.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"hermite_inverse_cases\": 12,\n  \"cardinal_polynomials\": 60,\n  \"exchange_cases\": 220\n}\n"
+    },
+    {
+      "command": "python verify_escape_gram.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"packets\": 2,\n  \"matching_minor_checks\": 45,\n  \"known_spectrum_checks\": 3,\n  \"singular_source_checks\": 1,\n  \"generic_obstruction_cases\": 9\n}\n"
+    },
+    {
+      "command": "python verify_diagonal_profiles.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"column_entries\": 10980,\n  \"column_changes\": 3,\n  \"row_changes\": 6,\n  \"capacity_cases\": 12,\n  \"kernel_coefficients\": 26,\n  \"loewner_principal_minors\": 15\n}\n"
+    }
+  ],
+  "proof_review_scope": [
+    "Uniform capped survivor minimization, ordinary-time collision estimate, and conditional high-escape concentration reviewed independently.",
+    "Explicit Hermite cardinal norm constants, inverse Hardy Gram inequality, and absolute small-escape bound reviewed independently.",
+    "Escape-count Gram identities, singular-source version, spectral envelope, and support-weighted convex bound reviewed independently.",
+    "Weighted coordinate transformations, normalized derivative coefficients, time capacity, and genuine column-kernel comparison reviewed independently."
+  ],
+  "limitations": [
+    "No conclusion about pi bad or non-bad approximability and no new pi approximation.",
+    "All asymptotic parameters are fixed before H; changing dimension or weights with H requires another proof.",
+    "Near-total-escape arithmetic concentration retains source-rank/interpolation and arithmetic assumptions.",
+    "Finite rational surrogate nodes test algebraic/kernel statements; they are not asserted to be exponential periods.",
+    "The new coupled-column kernel and spectral formulations are exact but their remaining asymptotic growth bound is not proved."
+  ],
+  "local_links": {
+    "status": "passed",
+    "count": 9
+  },
+  "sha256": {
+    "DIAGONAL_PROFILES_AND_COLUMN_KERNEL.md": "6087c8bd9735914d5200a3ffdf5ac2f544570904792c578cc466b3b8f4c23fd9",
+    "ESCAPE_GRAM_ENVELOPE.md": "2fbb9ce4310bb70efe6d6d8a154d3ff1fb4776fb4779de2df3364cd282fbc782",
+    "INDEPENDENT_COLLISION_REVIEW.md": "58a92c0daee61658b7e781b168812aa69c321c46573f10599d39a8b9d01dcbce",
+    "INDEPENDENT_DIAGONAL_REVIEW.md": "90d86a4c69a4affc9658271e03f3c4e24b56e0e25f5464002fc7070896fb70f7",
+    "INDEPENDENT_ESCAPE_GRAM_REVIEW.md": "9d7d0e7ed44bd314749c2fc0a4022a1dd6166d094cc275d9b6b3b08b8778b121",
+    "INDEPENDENT_SMALL_ESCAPE_REVIEW.md": "ab6c5c6eba0e412f88ff8057040aca176428cab82134806811ccdb1fffd2960c",
+    "README.md": "bb9365c6de86fd315e118b7f8d69dcb5ca97fddba906d1ee9ba1d48b153f0031",
+    "SMALL_ESCAPE_GRAM_BOUND.md": "22a4d9da0a5457227908d890898409f0a583cbde60df49ccda189195f1eb6599",
+    "SURVIVING_COLLISION_LAW.md": "16a564f58e2c1636705fec1bb027919bd652e1a984e2cf2c78202ee821a0df0c",
+    "diagonal_profile_verification.json": "abbd251b8df1fbbdb69568805ef3aefb4303d34ed4609a57b9059bde1742fbe3",
+    "escape_gram_verification.json": "512cee7aec7f15820ca6b393513033161ad8dc608a5b4c871e0c12097740940e",
+    "small_escape_verification.json": "62530ecea0b89217d02fe550755994ed57f10d9bcd74e062c630d2a1486e96c2",
+    "surviving_collision_verification.json": "ef14af24ac16c4b4b044e406438ac1245b970dbe812d1b110d09c2f865fbbbd4",
+    "verify_diagonal_profiles.py": "06190ccbe5f5bffc21c9534c59b065f253c7adc14ad208e9454cda64865c06ea",
+    "verify_escape_gram.py": "6223384457a2f6096a52de20c8c7f3bb9eec7b57d48432f6dd75b1b7da5f585d",
+    "verify_small_escape.py": "49d4858e716fa90bdf78fa5828bb8f9f5e53b527a448dd8dc4510d047ae1f824",
+    "verify_surviving_collision.py": "39bada8c1427fe56e2018bfa3c487ab8c5ce8dfd92943ef26d03d7d9085c781e"
+  }
+}

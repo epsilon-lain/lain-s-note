@@ -1,0 +1,483 @@
+{
+  "status": "passed",
+  "exhaustive_survivor_allocations": 231,
+  "exact_optimization_cases": 39,
+  "complete_packet_cases": [
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 330,
+      "escaped": 20,
+      "target_fraction": "1/16",
+      "real_cap_level": "142/3",
+      "exact_minimum_survivor_collision": 11762,
+      "normalized_finite_minimum": "5881/4950",
+      "proved_limit_at_target_fraction": "9/8"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 330,
+      "escaped": 82,
+      "target_fraction": "1/4",
+      "real_cap_level": "158/5",
+      "exact_minimum_survivor_collision": 6974,
+      "normalized_finite_minimum": "317/450",
+      "proved_limit_at_target_fraction": "2/3"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 330,
+      "escaped": 185,
+      "target_fraction": "9/16",
+      "real_cap_level": "127/8",
+      "exact_minimum_survivor_collision": 2197,
+      "normalized_finite_minimum": "2197/9900",
+      "proved_limit_at_target_fraction": "5/24"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 1260,
+      "escaped": 78,
+      "target_fraction": "1/16",
+      "real_cap_level": "462/5",
+      "exact_minimum_survivor_collision": 87330,
+      "normalized_finite_minimum": "2911/2520",
+      "proved_limit_at_target_fraction": "9/8"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 1260,
+      "escaped": 315,
+      "target_fraction": "1/4",
+      "real_cap_level": "123/2",
+      "exact_minimum_survivor_collision": 51685,
+      "normalized_finite_minimum": "10337/15120",
+      "proved_limit_at_target_fraction": "2/3"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 1260,
+      "escaped": 708,
+      "target_fraction": "9/16",
+      "real_cap_level": "154/5",
+      "exact_minimum_survivor_collision": 16212,
+      "normalized_finite_minimum": "193/900",
+      "proved_limit_at_target_fraction": "5/24"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 4920,
+      "escaped": 307,
+      "target_fraction": "1/16",
+      "real_cap_level": "1823/10",
+      "exact_minimum_survivor_collision": 672715,
+      "normalized_finite_minimum": "134543/118080",
+      "proved_limit_at_target_fraction": "9/8"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 4920,
+      "escaped": 1230,
+      "target_fraction": "1/4",
+      "real_cap_level": "243/2",
+      "exact_minimum_survivor_collision": 398570,
+      "normalized_finite_minimum": "39857/59040",
+      "proved_limit_at_target_fraction": "2/3"
+    },
+    {
+      "m": 1,
+      "vi": [
+        3
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 4920,
+      "escaped": 2767,
+      "target_fraction": "9/16",
+      "real_cap_level": "1823/30",
+      "exact_minimum_survivor_collision": 124643,
+      "normalized_finite_minimum": "124643/590400",
+      "proved_limit_at_target_fraction": "5/24"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 672,
+      "escaped": 10,
+      "target_fraction": "1/64",
+      "real_cap_level": "52",
+      "exact_minimum_survivor_collision": 22148,
+      "normalized_finite_minimum": "791/720",
+      "proved_limit_at_target_fraction": "243/256"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 672,
+      "escaped": 84,
+      "target_fraction": "1/8",
+      "real_cap_level": "242/7",
+      "exact_minimum_survivor_collision": 16028,
+      "normalized_finite_minimum": "4007/5040",
+      "proved_limit_at_target_fraction": "11/16"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 672,
+      "escaped": 283,
+      "target_fraction": "27/64",
+      "real_cap_level": "295/17",
+      "exact_minimum_survivor_collision": 6135,
+      "normalized_finite_minimum": "409/1344",
+      "proved_limit_at_target_fraction": "67/256"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 4344,
+      "escaped": 67,
+      "target_fraction": "1/64",
+      "real_cap_level": "583/6",
+      "exact_minimum_survivor_collision": 267349,
+      "normalized_finite_minimum": "267349/260640",
+      "proved_limit_at_target_fraction": "243/256"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 4344,
+      "escaped": 543,
+      "target_fraction": "1/8",
+      "real_cap_level": "1619/25",
+      "exact_minimum_survivor_collision": 193591,
+      "normalized_finite_minimum": "193591/260640",
+      "proved_limit_at_target_fraction": "11/16"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 4344,
+      "escaped": 1832,
+      "target_fraction": "27/64",
+      "real_cap_level": "227/7",
+      "exact_minimum_survivor_collision": 73776,
+      "normalized_finite_minimum": "1537/5430",
+      "proved_limit_at_target_fraction": "67/256"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 30972,
+      "escaped": 483,
+      "target_fraction": "1/64",
+      "real_cap_level": "4307/23",
+      "exact_minimum_survivor_collision": 3672245,
+      "normalized_finite_minimum": "734449/743328",
+      "proved_limit_at_target_fraction": "243/256"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 30972,
+      "escaped": 3871,
+      "target_fraction": "1/8",
+      "real_cap_level": "11615/93",
+      "exact_minimum_survivor_collision": 2659911,
+      "normalized_finite_minimum": "886637/1238880",
+      "proved_limit_at_target_fraction": "11/16"
+    },
+    {
+      "m": 2,
+      "vi": [
+        3,
+        7
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 30972,
+      "escaped": 13066,
+      "target_fraction": "27/64",
+      "real_cap_level": "812/13",
+      "exact_minimum_survivor_collision": 1012748,
+      "normalized_finite_minimum": "253187/929160",
+      "proved_limit_at_target_fraction": "67/256"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 794,
+      "escaped": 3,
+      "target_fraction": "1/256",
+      "real_cap_level": "57",
+      "exact_minimum_survivor_collision": 25261,
+      "normalized_finite_minimum": "25261/23820",
+      "proved_limit_at_target_fraction": "63/80"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 794,
+      "escaped": 49,
+      "target_fraction": "1/16",
+      "real_cap_level": "201/5",
+      "exact_minimum_survivor_collision": 20993,
+      "normalized_finite_minimum": "20993/23820",
+      "proved_limit_at_target_fraction": "13/20"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 30,
+      "K": 2,
+      "rows": 794,
+      "escaped": 251,
+      "target_fraction": "81/256",
+      "real_cap_level": "325/16",
+      "exact_minimum_survivor_collision": 9545,
+      "normalized_finite_minimum": "1909/4764",
+      "proved_limit_at_target_fraction": "47/160"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 7110,
+      "escaped": 27,
+      "target_fraction": "1/256",
+      "real_cap_level": "421/4",
+      "exact_minimum_survivor_collision": 399083,
+      "normalized_finite_minimum": "399083/426600",
+      "proved_limit_at_target_fraction": "63/80"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 7110,
+      "escaped": 444,
+      "target_fraction": "1/16",
+      "real_cap_level": "924/13",
+      "exact_minimum_survivor_collision": 329796,
+      "normalized_finite_minimum": "9161/11850",
+      "proved_limit_at_target_fraction": "13/20"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 60,
+      "K": 2,
+      "rows": 7110,
+      "escaped": 2249,
+      "target_fraction": "81/256",
+      "real_cap_level": "3069/86",
+      "exact_minimum_survivor_collision": 149355,
+      "normalized_finite_minimum": "3319/9480",
+      "proved_limit_at_target_fraction": "47/160"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 80876,
+      "escaped": 315,
+      "target_fraction": "1/256",
+      "real_cap_level": "787/4",
+      "exact_minimum_survivor_collision": 8395627,
+      "normalized_finite_minimum": "8395627/9705120",
+      "proved_limit_at_target_fraction": "63/80"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 80876,
+      "escaped": 5054,
+      "target_fraction": "1/16",
+      "real_cap_level": "20678/157",
+      "exact_minimum_survivor_collision": 6932542,
+      "normalized_finite_minimum": "3466271/4852560",
+      "proved_limit_at_target_fraction": "13/20"
+    },
+    {
+      "m": 3,
+      "vi": [
+        3,
+        7,
+        15
+      ],
+      "H": 120,
+      "K": 2,
+      "rows": 80876,
+      "escaped": 25589,
+      "target_fraction": "81/256",
+      "real_cap_level": "34683/526",
+      "exact_minimum_survivor_collision": 3134661,
+      "normalized_finite_minimum": "1044887/3235040",
+      "proved_limit_at_target_fraction": "47/160"
+    }
+  ],
+  "ordinary_coefficient_checks": 3575,
+  "conditional_highdimensional_bounds": [
+    {
+      "m": 40,
+      "K": 36118,
+      "v0": "164245648193173110485076904296875/3341873634710933516959711494144",
+      "retained_fraction_epsilon_squared": "372892827726900577545166015625/1113957878236977838986570498048",
+      "certified_epsilon_upper_bound": "29/50",
+      "conditional_analytic_plus_arithmetic_cost_upper": "1208868382147934676954706899229666302821924864000000000000000000000000000000000000000000000000191763518657/1896195000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "minimum_transverse_weight_assumed": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "scope": "Conditional parameters only; arbitrary interpolation thresholds must also hold. No approximation tuple is constructed."
+    },
+    {
+      "m": 80,
+      "K": 1304572395,
+      "v0": "35970566427195679276942498481250964914579526521265506744384765625/29781651707669509088572079548239633038047628833600290523447296",
+      "retained_fraction_epsilon_squared": "82718061255302767487140869206996285356581211090087890625/183837356220182154867728886100244648383010054528396855083008",
+      "certified_epsilon_upper_bound": "11/500",
+      "conditional_analytic_plus_arithmetic_cost_upper": "9214016019966270623519831608730230059310252123720511555766028251359664596836192704528384065126389525233572963/17829156065000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "minimum_transverse_weight_assumed": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "scope": "Conditional parameters only; arbitrary interpolation thresholds must also hold. No approximation tuple is constructed."
+    },
+    {
+      "m": 120,
+      "K": 47119673969698,
+      "v0": "17724451380469756637165539762986376747461140358677776835728823190407865695306099951267242431640625/597159099840027494389350510429533270207357289961189376910515799839882408130616945858779807744",
+      "retained_fraction_epsilon_squared": "91030282527677944617098957442490705290277460716430457665637732134200632572174072265625/199053033280009164796450170143177756735785763320396458970171933279960802710205648619593269248",
+      "certified_epsilon_upper_bound": "7/10000",
+      "conditional_analytic_plus_arithmetic_cost_upper": "348388644780225726402553402011368752767962049351012158094104790425731591586943708528503615536907264008543402210388646946581996679/685286548650640964508056640625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "minimum_transverse_weight_assumed": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "scope": "Conditional parameters only; arbitrary interpolation thresholds must also hold. No approximation tuple is constructed."
+    },
+    {
+      "m": 160,
+      "K": 1701909133929924324,
+      "v0": "970411236896314444465697328827230525280591526655863521734352290927409759604117183716984022801010922876230324618518352508544921875/1330420167655401280245746424840632893324181302275028439449161561029646910021324886538640667565414528605267646943127534567424",
+      "retained_fraction_epsilon_squared": "1101606702911599357513283510301154771172471546104096871351992156768829903869255648629632560187019407749176025390625/2660840335310802560491492849681265786648362604550056878898323122059293820042649773077281335130829057210535293886255069134848",
+      "certified_epsilon_upper_bound": "21/1000000",
+      "conditional_analytic_plus_arithmetic_cost_upper": "25218298396139468857213450223801985708712963186424640744968644226305321740664975245363431627481996904079377681088116424521110923590670394638835697639767562611091/49820766670253176524284233206429917117930017411708831787109375000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "minimum_transverse_weight_assumed": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "scope": "Conditional parameters only; arbitrary interpolation thresholds must also hold. No approximation tuple is constructed."
+    }
+  ],
+  "scope": "Finite rational minimization, source counts, coefficient bounds and parameter certificates. Infinite conclusions use the written proofs. No pi approximation or endpoint contradiction is certified."
+}

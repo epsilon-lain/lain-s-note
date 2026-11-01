@@ -1,0 +1,127 @@
+{
+  "status": "passed",
+  "hermite_inverse_cases": [
+    {
+      "K": 1,
+      "n": 1,
+      "cardinal_polynomials": 1,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "1",
+      "Q_K": "14"
+    },
+    {
+      "K": 1,
+      "n": 2,
+      "cardinal_polynomials": 2,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "197",
+      "Q_K": "14"
+    },
+    {
+      "K": 1,
+      "n": 3,
+      "cardinal_polynomials": 3,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "38613",
+      "Q_K": "14"
+    },
+    {
+      "K": 1,
+      "n": 4,
+      "cardinal_polynomials": 4,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "7568149",
+      "Q_K": "14"
+    },
+    {
+      "K": 2,
+      "n": 1,
+      "cardinal_polynomials": 2,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "383/9",
+      "Q_K": "43200/49"
+    },
+    {
+      "K": 2,
+      "n": 2,
+      "cardinal_polynomials": 4,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "561996755/729",
+      "Q_K": "43200/49"
+    },
+    {
+      "K": 2,
+      "n": 3,
+      "cardinal_polynomials": 6,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "94963086350483/6561",
+      "Q_K": "43200/49"
+    },
+    {
+      "K": 2,
+      "n": 4,
+      "cardinal_polynomials": 8,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "1355104076109403224611/4782969",
+      "Q_K": "43200/49"
+    },
+    {
+      "K": 3,
+      "n": 1,
+      "cardinal_polynomials": 3,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "320591/98",
+      "Q_K": "111485936/3087"
+    },
+    {
+      "K": 3,
+      "n": 2,
+      "cardinal_polynomials": 6,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "90355698761935/9604",
+      "Q_K": "111485936/3087"
+    },
+    {
+      "K": 3,
+      "n": 3,
+      "cardinal_polynomials": 9,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "242357421608011924300153/7529536",
+      "Q_K": "111485936/3087"
+    },
+    {
+      "K": 3,
+      "n": 4,
+      "cardinal_polynomials": 12,
+      "inverse_operator_majorization": "exact PSD check passed",
+      "trace_inverse": "24687321472955147956854033661927/210827008",
+      "Q_K": "111485936/3087"
+    }
+  ],
+  "minor_exchange_checks": {
+    "complete_source_rows": 8,
+    "ambient_rows": 12,
+    "source_gram_determinant": "3486784401/12142621044848145806723620515409700061184",
+    "exchange_cases": 220,
+    "counts_by_number_of_exchanges": {
+      "1": 32,
+      "2": 168,
+      "3": 16,
+      "4": 4
+    },
+    "source_parameters": {
+      "K": 2,
+      "H": 3,
+      "v0": 1,
+      "v1": 2,
+      "theta": "1/2",
+      "w1": 1
+    },
+    "kernel_nodes": [
+      0,
+      6
+    ],
+    "radius": 28
+  },
+  "scope": "Exact rational Hardy-kernel checks at surrogate nodes, not finite polynomial interpolation rank or an evaluation of pi. The written Hermite proof gives the uniform actual-period upper bound, with parameters fixed before H."
+}
