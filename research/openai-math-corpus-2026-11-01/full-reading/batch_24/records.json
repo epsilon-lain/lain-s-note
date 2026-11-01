@@ -1,0 +1,1175 @@
+[
+  {
+    "position": 46,
+    "family_id": "260",
+    "title": "Spacetime Penrose inequalities: enclosing area, charge, and rigidity",
+    "pdf_path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/paper.pdf",
+    "directory_tree_sha": "4deb013965ce64c86358b96505d8287529f8cf98",
+    "status": "partial_body_read",
+    "main_source": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/README.md",
+        "sha": "ef5089bc61a62beee70cac939d912e74c73a83aa",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/README.md",
+        "source_bytes": 679,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/figures/charged-region.tex",
+        "sha": "5d8e6b0d5ac00d91def2f867ac33b56a44c00009",
+        "total_lines": 23,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/figures/charged-region.tex",
+        "source_bytes": 908,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/figures/proof-routes.tex",
+        "sha": "dc183cdaf06af88409384bb1f528d6ae79f5c32e",
+        "total_lines": 22,
+        "read_ranges": [
+          [
+            1,
+            22
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            22
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/figures/proof-routes.tex",
+        "source_bytes": 1190,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/modules.tex",
+        "sha": "3d35c28994fca60fcc741dd8bb813d9a2140d846",
+        "total_lines": 52,
+        "read_ranges": [
+          [
+            1,
+            52
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            52
+          ]
+        ],
+        "role": "module_manifest",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/modules.tex",
+        "source_bytes": 2007,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/paper.tex",
+        "sha": "3d40831ad116ed88d2b81b7160e0b132582ed580",
+        "total_lines": 33,
+        "read_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/paper.tex",
+        "source_bytes": 1632,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/preamble.tex",
+        "sha": "de83e5938dcb573d22b0f664decc76f7ddd4fc85",
+        "total_lines": 73,
+        "read_ranges": [
+          [
+            1,
+            73
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            73
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/preamble.tex",
+        "source_bytes": 2438,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/references.bib",
+        "sha": "5625177267d5a557ee0c72d06ec3be5cccea0cce",
+        "total_lines": 981,
+        "read_ranges": [
+          [
+            1,
+            981
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            400
+          ],
+          [
+            401,
+            800
+          ],
+          [
+            801,
+            981
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/references.bib",
+        "source_bytes": 31334,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/00-introduction.tex",
+        "sha": "83c0184a15b8f11968a755cb45046de44650d3df",
+        "total_lines": 235,
+        "read_ranges": [
+          [
+            1,
+            235
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            235
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/00-introduction.tex",
+        "source_bytes": 12820,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/00-introduction.tex",
+        "sha": "043dbe4f4cee8cc32fffd72b049c014d2bd1d129",
+        "total_lines": 71,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/00-introduction.tex",
+        "source_bytes": 3792,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/01-setting.tex",
+        "sha": "fcccb375d68a5ed3a10ed3e2b423ba160c14f525",
+        "total_lines": 248,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/01-setting.tex",
+        "source_bytes": 9620,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/02-analysis.tex",
+        "sha": "d27cdd48cf476637e0761061ce41b17554e16d72",
+        "total_lines": 620,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/02-analysis.tex",
+        "source_bytes": 25598,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/03-cmc.tex",
+        "sha": "3323e4c5c9369cd14531710122688a5b4820a137",
+        "total_lines": 612,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/03-cmc.tex",
+        "source_bytes": 25047,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/04-quadratic.tex",
+        "sha": "1b7ad9b062013ea238625557f4ff74d432db55dc",
+        "total_lines": 341,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/04-quadratic.tex",
+        "source_bytes": 13937,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/05-quartic.tex",
+        "sha": "7fbae882ebf5a09e2dd5a37be4efdee0a73fa804",
+        "total_lines": 860,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/05-quartic.tex",
+        "source_bytes": 34287,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/06-conclusion.tex",
+        "sha": "0231cb1968f8e9cefbc4d6477937c99cfdc5df00",
+        "total_lines": 222,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/ads/sections/06-conclusion.tex",
+        "source_bytes": 7553,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged-extensions.tex",
+        "sha": "79f70b91f690cc8e8e3f60822cef8c8ba6dc47e2",
+        "total_lines": 235,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged-extensions.tex",
+        "source_bytes": 10429,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/01-introduction.tex",
+        "sha": "fbc3a9b822d95fb0e3f6994daeab988e8949b3a4",
+        "total_lines": 21,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/01-introduction.tex",
+        "source_bytes": 3412,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/02-preliminaries.tex",
+        "sha": "40191f5a42ba20d0dc2c4fda90646235d706f09b",
+        "total_lines": 197,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/02-preliminaries.tex",
+        "source_bytes": 9996,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/03-rest.tex",
+        "sha": "11f41c5baae415ff72e7e63f187dd95052c75605",
+        "total_lines": 434,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/03-rest.tex",
+        "source_bytes": 18994,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/04-preparation.tex",
+        "sha": "98197b4f9fbd14596774d1fe3814256609b325c4",
+        "total_lines": 265,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/04-preparation.tex",
+        "source_bytes": 12955,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/05-elliptic.tex",
+        "sha": "511b33c3329bd7d3794f603c0d49d65163a573be",
+        "total_lines": 368,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/05-elliptic.tex",
+        "source_bytes": 17723,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/06-comparison.tex",
+        "sha": "fd92023ebe8d61f49f75582b13cb1be9dcc29e8c",
+        "total_lines": 242,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/06-comparison.tex",
+        "source_bytes": 10007,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/07-mass.tex",
+        "sha": "72ae9f586880ec3dd5a5bd96aace82b9b48e9cd3",
+        "total_lines": 115,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/07-mass.tex",
+        "source_bytes": 5446,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/08-conclusion.tex",
+        "sha": "6a7a2dd624689f6a2c1be3e8fb072f0d45211ec2",
+        "total_lines": 127,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/charged/sections/08-conclusion.tex",
+        "source_bytes": 8076,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/figures/two-frontiers.tex",
+        "sha": "84ecc9b2d3430c85d47789c1141aead04e18c782",
+        "total_lines": 29,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/figures/two-frontiers.tex",
+        "source_bytes": 1317,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/01-enclosures.tex",
+        "sha": "979086b53210bfc6d618c3cdfb8fc441cb4490fc",
+        "total_lines": 543,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/01-enclosures.tex",
+        "source_bytes": 25620,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/03-variation.tex",
+        "sha": "82e3bd729a77425b9cb2c7088cff1dacd209720d",
+        "total_lines": 845,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/03-variation.tex",
+        "source_bytes": 37374,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/04-adjoint.tex",
+        "sha": "996ec7cd4c6a31b7f8495295eedfbab30be1db88",
+        "total_lines": 673,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/04-adjoint.tex",
+        "source_bytes": 29328,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/05-static-base.tex",
+        "sha": "6a97d57b83ac36a0ce9019792004cbf4812a7942",
+        "total_lines": 506,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/05-static-base.tex",
+        "source_bytes": 21345,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/06-classification.tex",
+        "sha": "95896f4f2a777db2ef4a53d715f1f01374c6fbd7",
+        "total_lines": 682,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/06-classification.tex",
+        "source_bytes": 32230,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/07-recovery.tex",
+        "sha": "314b8517257edf6daba3af1a84c6fcaf3021e416",
+        "total_lines": 582,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/rigidity/07-recovery.tex",
+        "source_bytes": 25780,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/01-end.tex",
+        "sha": "acf7ad73829c0756f49a9dabb2275cff30ef2ceb",
+        "total_lines": 1030,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/01-end.tex",
+        "source_bytes": 45551,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/02-geometry.tex",
+        "sha": "034961cbc943748393c074d9da5ccce90c870ee3",
+        "total_lines": 633,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/02-geometry.tex",
+        "source_bytes": 31622,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/03-system.tex",
+        "sha": "78abc670bd9d28e4ae69ea0ad00d1b5aa3440f1c",
+        "total_lines": 785,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/03-system.tex",
+        "source_bytes": 32260,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/04-bounds.tex",
+        "sha": "5c4fcb79019dec1ae5d022609548a887800c1dba",
+        "total_lines": 760,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/04-bounds.tex",
+        "source_bytes": 32860,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/05-regularity.tex",
+        "sha": "32b7bc368e811e80f52ab6d7727e135e5a6a797f",
+        "total_lines": 975,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/05-regularity.tex",
+        "source_bytes": 44517,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/06-existence.tex",
+        "sha": "39bb7775ee80b21d5c0b76b71d1140baf973c069",
+        "total_lines": 875,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/sections/06-existence.tex",
+        "source_bytes": 40036,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/setup.tex",
+        "sha": "aba8103cf4256bc89a7c5dd0f36c28ed1a2117dd",
+        "total_lines": 252,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/four/setup.tex",
+        "source_bytes": 11859,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral-bridge.tex",
+        "sha": "500444692ec396019ecf259b685ec25598f65762",
+        "total_lines": 205,
+        "read_ranges": [
+          [
+            1,
+            205
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            205
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral-bridge.tex",
+        "source_bytes": 9337,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/02-exterior-reduction.tex",
+        "sha": "bc53b556decec08d86daaee3761b67d0a0425d66",
+        "total_lines": 1071,
+        "read_ranges": [
+          [
+            1,
+            1071
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            330
+          ],
+          [
+            331,
+            700
+          ],
+          [
+            701,
+            1071
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/02-exterior-reduction.tex",
+        "source_bytes": 47956,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/03-trapped-domains.tex",
+        "sha": "2a94207d20c2823c5a6b7de884111d8ec1563639",
+        "total_lines": 670,
+        "read_ranges": [
+          [
+            1,
+            670
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            360
+          ],
+          [
+            361,
+            670
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/03-trapped-domains.tex",
+        "source_bytes": 30597,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/04-deformation.tex",
+        "sha": "1f631b317e8d99ab2e0a6b45f1710298e9506247",
+        "total_lines": 812,
+        "read_ranges": [
+          [
+            1,
+            812
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            370
+          ],
+          [
+            371,
+            812
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/04-deformation.tex",
+        "source_bytes": 33268,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/05-apriori.tex",
+        "sha": "7962119dcc62db7e69ddd6f063d9240081fced69",
+        "total_lines": 806,
+        "read_ranges": [
+          [
+            1,
+            806
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            420
+          ],
+          [
+            421,
+            806
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/05-apriori.tex",
+        "source_bytes": 34929,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/06-elliptic-existence.tex",
+        "sha": "711151d63aa7d4fdf958bcec2122b54ba67b7927",
+        "total_lines": 999,
+        "read_ranges": [
+          [
+            1,
+            999
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            410
+          ],
+          [
+            411,
+            800
+          ],
+          [
+            801,
+            999
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/06-elliptic-existence.tex",
+        "source_bytes": 46871,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/sections/07-mass-limit.tex",
+        "sha": "f24280ad2696ee8288bccc0c4bd5a42f34b555db",
+        "total_lines": 390,
+        "read_ranges": [
+          [
+            1,
+            390
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            390
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/sections/07-mass-limit.tex",
+        "source_bytes": 15914,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/neutral/setup.tex",
+        "sha": "896ef4a9ce698f1985d1946d7ad2ce90b685b9f4",
+        "total_lines": 105,
+        "read_ranges": [
+          [
+            1,
+            105
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            105
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/neutral/setup.tex",
+        "source_bytes": 4823,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/00-rigidity-setup.tex",
+        "sha": "c2eb8c0d422bb708a4630306500301ab94de9dc9",
+        "total_lines": 140,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/rigidity/sections/00-rigidity-setup.tex",
+        "source_bytes": 6956,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/08-variational-rigidity.tex",
+        "sha": "e5cb8f1660d3aaa8ee72b1516e098f40feefe91c",
+        "total_lines": 1205,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/rigidity/sections/08-variational-rigidity.tex",
+        "source_bytes": 53134,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/09-static-rigidity.tex",
+        "sha": "89984de1c02e1c70f784541a8bd5824463d0d1d9",
+        "total_lines": 1480,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_24/46/build/sections/rigidity/sections/09-static-rigidity.tex",
+        "source_bytes": 60008,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/figures/charged-region.tex",
+        "sha": "5d8e6b0d5ac00d91def2f867ac33b56a44c00009",
+        "unread_ranges": [
+          [
+            1,
+            23
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/00-introduction.tex",
+        "sha": "043dbe4f4cee8cc32fffd72b049c014d2bd1d129",
+        "unread_ranges": [
+          [
+            1,
+            71
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/01-setting.tex",
+        "sha": "fcccb375d68a5ed3a10ed3e2b423ba160c14f525",
+        "unread_ranges": [
+          [
+            1,
+            248
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/02-analysis.tex",
+        "sha": "d27cdd48cf476637e0761061ce41b17554e16d72",
+        "unread_ranges": [
+          [
+            1,
+            620
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/03-cmc.tex",
+        "sha": "3323e4c5c9369cd14531710122688a5b4820a137",
+        "unread_ranges": [
+          [
+            1,
+            612
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/04-quadratic.tex",
+        "sha": "1b7ad9b062013ea238625557f4ff74d432db55dc",
+        "unread_ranges": [
+          [
+            1,
+            341
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/05-quartic.tex",
+        "sha": "7fbae882ebf5a09e2dd5a37be4efdee0a73fa804",
+        "unread_ranges": [
+          [
+            1,
+            860
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/ads/sections/06-conclusion.tex",
+        "sha": "0231cb1968f8e9cefbc4d6477937c99cfdc5df00",
+        "unread_ranges": [
+          [
+            1,
+            222
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged-extensions.tex",
+        "sha": "79f70b91f690cc8e8e3f60822cef8c8ba6dc47e2",
+        "unread_ranges": [
+          [
+            1,
+            235
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/01-introduction.tex",
+        "sha": "fbc3a9b822d95fb0e3f6994daeab988e8949b3a4",
+        "unread_ranges": [
+          [
+            1,
+            21
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/02-preliminaries.tex",
+        "sha": "40191f5a42ba20d0dc2c4fda90646235d706f09b",
+        "unread_ranges": [
+          [
+            1,
+            197
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/03-rest.tex",
+        "sha": "11f41c5baae415ff72e7e63f187dd95052c75605",
+        "unread_ranges": [
+          [
+            1,
+            434
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/04-preparation.tex",
+        "sha": "98197b4f9fbd14596774d1fe3814256609b325c4",
+        "unread_ranges": [
+          [
+            1,
+            265
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/05-elliptic.tex",
+        "sha": "511b33c3329bd7d3794f603c0d49d65163a573be",
+        "unread_ranges": [
+          [
+            1,
+            368
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/06-comparison.tex",
+        "sha": "fd92023ebe8d61f49f75582b13cb1be9dcc29e8c",
+        "unread_ranges": [
+          [
+            1,
+            242
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/07-mass.tex",
+        "sha": "72ae9f586880ec3dd5a5bd96aace82b9b48e9cd3",
+        "unread_ranges": [
+          [
+            1,
+            115
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/charged/sections/08-conclusion.tex",
+        "sha": "6a7a2dd624689f6a2c1be3e8fb072f0d45211ec2",
+        "unread_ranges": [
+          [
+            1,
+            127
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/figures/two-frontiers.tex",
+        "sha": "84ecc9b2d3430c85d47789c1141aead04e18c782",
+        "unread_ranges": [
+          [
+            1,
+            29
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/01-enclosures.tex",
+        "sha": "979086b53210bfc6d618c3cdfb8fc441cb4490fc",
+        "unread_ranges": [
+          [
+            1,
+            543
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/03-variation.tex",
+        "sha": "82e3bd729a77425b9cb2c7088cff1dacd209720d",
+        "unread_ranges": [
+          [
+            1,
+            845
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/04-adjoint.tex",
+        "sha": "996ec7cd4c6a31b7f8495295eedfbab30be1db88",
+        "unread_ranges": [
+          [
+            1,
+            673
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/05-static-base.tex",
+        "sha": "6a97d57b83ac36a0ce9019792004cbf4812a7942",
+        "unread_ranges": [
+          [
+            1,
+            506
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/06-classification.tex",
+        "sha": "95896f4f2a777db2ef4a53d715f1f01374c6fbd7",
+        "unread_ranges": [
+          [
+            1,
+            682
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/rigidity/07-recovery.tex",
+        "sha": "314b8517257edf6daba3af1a84c6fcaf3021e416",
+        "unread_ranges": [
+          [
+            1,
+            582
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/01-end.tex",
+        "sha": "acf7ad73829c0756f49a9dabb2275cff30ef2ceb",
+        "unread_ranges": [
+          [
+            1,
+            1030
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/02-geometry.tex",
+        "sha": "034961cbc943748393c074d9da5ccce90c870ee3",
+        "unread_ranges": [
+          [
+            1,
+            633
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/03-system.tex",
+        "sha": "78abc670bd9d28e4ae69ea0ad00d1b5aa3440f1c",
+        "unread_ranges": [
+          [
+            1,
+            785
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/04-bounds.tex",
+        "sha": "5c4fcb79019dec1ae5d022609548a887800c1dba",
+        "unread_ranges": [
+          [
+            1,
+            760
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/05-regularity.tex",
+        "sha": "32b7bc368e811e80f52ab6d7727e135e5a6a797f",
+        "unread_ranges": [
+          [
+            1,
+            975
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/sections/06-existence.tex",
+        "sha": "39bb7775ee80b21d5c0b76b71d1140baf973c069",
+        "unread_ranges": [
+          [
+            1,
+            875
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/four/setup.tex",
+        "sha": "aba8103cf4256bc89a7c5dd0f36c28ed1a2117dd",
+        "unread_ranges": [
+          [
+            1,
+            252
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/00-rigidity-setup.tex",
+        "sha": "c2eb8c0d422bb708a4630306500301ab94de9dc9",
+        "unread_ranges": [
+          [
+            1,
+            140
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/08-variational-rigidity.tex",
+        "sha": "e5cb8f1660d3aaa8ee72b1516e098f40feefe91c",
+        "unread_ranges": [
+          [
+            1,
+            1205
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Spacetime-Penrose-inequalities-enclosing-area-charge-and-rigidity-October-5-2026/build/sections/rigidity/sections/09-static-rigidity.tex",
+        "sha": "89984de1c02e1c70f784541a8bd5824463d0d1d9",
+        "unread_ranges": [
+          [
+            1,
+            1480
+          ]
+        ]
+      }
+    ],
+    "source_mapping_complete": true,
+    "source_closure_complete": false,
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README, actual root build/paper.tex, full preamble and complete modules manifest; the introduction including every result-scope qualification, comparison with earlier work, reading/limit conventions, and entire proof-routes TikZ source/caption.",
+      "Entire neutral setup: constraints and signs, q>1/2 decay/integrability/finite ADM limits, connected orientable one-end exterior, filled full obstacle perimeter with coincident/disconnected cuts, timelike one-ended minimum-enclosing-area theorem.",
+      "Entire neutral 02-exterior-reduction (1071 lines): exact conformal constraint/expansion formulas; regularized mixed drift-Poisson strict direction and flux; compactness of all minimizing enclosures; boosted Schwarzschild charge computation; compact scalar/symmetric divergence inverses; sublinear first moments without parity; annular replacement, vacuum logarithmic bend, radial DEC repair, strict rest-end reduction.",
+      "Entire neutral 03-trapped-domains (670 lines): relative filled black/white total regions, shifted tensors, right-continuous thresholds including empty white region; collars including zero stability eigenvalue; exact endpoint-isometry support transfer, smooth enclosure from arbitrary weak supports, prepared-domain offset and margin choices.",
+      "Entire neutral 04-deformation (812 lines): global implicit t(Z,Df), axial matrices, stationary Lorentz/scalar identity, full quadratic square completion, boundary identity, penalty, explicit four-stage homotopy, height/end barriers, floor algebra and exclusion with polynomial constants.",
+      "Entire neutral 05-apriori (806 lines): lower relaxed limits and sigmoid sublevel supports, wrong-face boundary-layer exclusion and maximal-region right continuity, signed collar slopes, polynomial weighted/unweighted traces, high-level energy absorption before fixed-n graph comparisons, ordinary graph Sobolev/Moser iteration, bounded variables through all homotopy stages.",
+      "Entire neutral 06-elliptic-existence (999 lines): measurable axial gradient and Hessian Morrey estimate via Cordes/gradient-flux/drop-or-flat/fixed-axis correction/reflection/Campanato; natural-growth oscillation via exponential deficits and Green-Morrey corrections; regularity bootstrap; scalar solve on unrestricted bounded inputs; compact mixed map and moving-domain Leray-Schauder degree with explicit order of parameters and exhaustion.",
+      "Entire neutral 07-mass-limit (390 lines): exponential graph decay, end normalization via Phi_n transform, R_hat>=0/completeness/strict boundary mean curvature, ADM flux identity, polynomial-only boundary/floor loss estimate, minimizing minimal enclosure and Riemannian Penrose comparison, ordered n->infinity then epsilon->0 limits and original-data rest-reduction limit.",
+      "Entire neutral-bridge (205 lines): precise complete-data designated-end cut class, positive area from a bounded closed flux form, exclusion of non-timelike ADM vectors by the positive conformal direction, removal of other ends with inward-negative spheres, correct inequality of area classes, no equality transfer through deformation.",
+      "Entire references.bib (981 lines) read as bibliography metadata only; cited papers and external theorem proofs were not independently read or verified in this receipt."
+    ],
+    "claim_as_stated": [
+      "Neutral one-ended numerical theorem: for smooth connected orientable 3D exterior data complete with compact nonempty weakly future outer trapped boundary, DEC, q>1/2 AF decay, integrable constraint densities and finite ADM limits, initially assuming E>|P|, invariant mass sqrt(E^2-|P|^2)>=sqrt(a_g(boundary)/(16*pi)); no extension behind the boundary is required. The bridge removes the timelike assumption and proves E>|P|.",
+      "Complete-data formulation: connected orientable complete smooth manifold without boundary, finitely many AF ends satisfying the stated decay/integrability, designated end and nonempty compact smooth two-sided admissible S=boundary(D+) with theta_+<=0 into D+; D+ and cuts may be disconnected and other ends may be included. Its precisely defined A_min satisfies the same invariant-mass bound.",
+      "Overview-only scope for delegated modules: original-data neutral rigidity needs the stated connected one-ended outermost and outer area-minimizing horizon hypotheses; charged one-end electric-magnetic result asserts m>=Q and r<=m+sqrt(m^2-Q^2), with m>=(r+Q^2/r)/2 only on r>=Q and no charged equality classification; four-dimensional bound is m_e>=0.5*(A_e/omega_3)^(2/3); local AdS theorem fixes a TT seed and decaying branch, with no uniform interval across seeds. These statements here are read from the introduction, not yet module coverage."
+    ],
+    "proof_architecture": [
+      "Exact positive conformal direction raises E linearly and preserves P while preserving/trapping signs and controlling every enclosing area. First use it for strict data; later use all finite s to contradict non-timelike ADM vectors against positive enclosing area.",
+      "Replace the distant end by a Schwarzschild plane with matching timelike ADM charges. Remove compact linear obstruction moments and invert Euclidean constraints; bend the vacuum plane to rest; repair the o(R^-3) DEC deficit by an explicit radial positive conformal factor of vanishing mass cost. Keep all area minimizers compact so energies and infima converge.",
+      "Choose black and white maximal trapped regions at right-continuous negative thresholds, discard bounded pockets, retain the selected end component, and construct disjoint positive-expansion collars even at zero principal stability eigenvalue. Fix tiny offsets and positive weights before deformation parameters.",
+      "Build graph plus conformal metric hat(g)=exp(4t)*(g+l(t)^2 df^2), with unknowns f,Z and globally implicit t. An exact scalar identity has a coercive quadratic square term and a controllable divergence. Prescribe divergence/inner flux and a localized floor penalty; use an explicit four-stage homotopy whose terminal coupled map is zero.",
+      "Obtain uniform height/sublevel/collar controls without an upper Z bound; prove polynomial trace constants before any graph Sobolev constants depending arbitrarily on n. Exponential tau/ell then absorbs boundary losses; fixed-n Moser and classical estimates provide bounded variables.",
+      "Measurable axial gradient continuity gives a Hessian Morrey bound, which handles quadratic Hessian forcing in the Z equation. Natural-growth oscillation plus Schauder/interpolation yields classical bounds. Solve the scalar trace problem for all bounded inputs before constructing the compact map and applying degree on the moving admissible floor set.",
+      "At fixed n take exhaustion R->infinity, establish end normalization/decay and finite flux; positive scalar curvature and strict mean-concavity give a minimizing smooth minimal enclosure. The final flux error is poly(n)*(ell+ell^2/tau)->0, with no fixed-n Schauder constants used. Apply the cited Riemannian Penrose theorem; let n->infinity, epsilon->0, then pass through the rest-end approximation.",
+      "For complete many-end data retain the component containing the chosen end, cut other distant ends with negatively oriented expansion spheres, apply one-ended theorem and compare the exact admissible area classes in the required direction."
+    ],
+    "construction_ideas": [
+      {
+        "mechanism": "Project finite-dimensional obstruction moments before applying a compact inverse.",
+        "source_anchor": "build/sections/neutral/sections/02-exterior-reduction.tex:518-597,719-773",
+        "source_construction": "Identify affine/Killing adjoint kernels; remove their moments with a fixed positive-definite Gram matrix of smooth bumps; apply support-preserving divergence inverses to the exact moment-free source. Matched ADM translation charges make residual moments o(R^-1), while nonlinear terms are O(R^-2beta), 2beta>1.",
+        "possible_interface": "For a proposed rational-approximation construction, explicitly list finite algebraic obstruction functionals and choose a common family of correction vectors before estimating the analytic remainder.",
+        "required_premises": "Exact obstruction identities; a common basis over Q or an explicitly controlled integer lattice; nonvanishing minors and uniform denominator/conditioning bounds for every parameter used.",
+        "missing_bridge": "The paper uses real smooth bump functions and real positive-definite Gram matrices. It proves no integral correction mechanism, no row-rank theorem over Q(Z), and no nonzero integer determinant involving pi. Pointwise rank or real positivity cannot supply those missing arithmetic statements.",
+        "status": "conditional construction interface; no established transfer to pi"
+      },
+      {
+        "mechanism": "Arrange an exact transport identity before comparing quantities containing uncontrolled second derivatives.",
+        "source_anchor": "build/sections/neutral/sections/03-trapped-domains.tex:325-442",
+        "source_construction": "Solve a Jacobi endpoint problem and prescribe a local unit vector field so the endpoint map has differential exactly equal to parallel transport, with its second derivative O(z). Pulling back a support then cancels its entire unbounded Hessian contribution and leaves an additive Cz error.",
+        "possible_interface": "In the integer-determinant strategy, identify the exact same determinant in the arithmetic nonvanishing statement and the analytic smallness estimate before using any approximation.",
+        "required_premises": "A literal algebraic identity in one common basis and normalization, with all denominator clearing recorded; the analytic estimate must bound that very integer.",
+        "missing_bridge": "There is no arithmetic determinant or pi-dependent map here. A near-identity comparison would leave an error multiplied by an uncontrolled determinant/Hessian analogue; the source does not remove that arithmetic obstacle.",
+        "status": "conditional proof-design lesson only"
+      },
+      {
+        "mechanism": "Separate polynomial parameter losses from arbitrary fixed-parameter regularity constants.",
+        "source_anchor": "build/sections/neutral/sections/04-deformation.tex:26-32,271-311,748-812; 05-apriori.tex:13-28,427-536; 07-mass-limit.tex:225-318",
+        "source_construction": "Complete the quadratic form into nonnegative squares with coefficients bounded below by reciprocal polynomials in n. Use ell=exp(-epsilon*n), tau=ell^(3/2); first absorb polynomial boundary losses using tau/ell, then apply fixed-n Schauder/Moser bounds. Final flux loss is poly(n)*(ell+ell^2/tau), which tends to zero.",
+        "possible_interface": "Audit growth of every denominator, minor, occupancy bound, and error in a prospective pi approximation family. Exponential smallness can defeat proved polynomial losses when the arithmetic object is unchanged.",
+        "required_premises": "Uniform explicit growth bounds in the same family parameter, including all basis changes and denominator clearings; a nonzero integral witness independent of the analytic limiting procedure.",
+        "missing_bridge": "The arbitrary C(n) regularity constants are deliberately excluded from the final small-loss estimate. No polynomial bound for a candidate arithmetic construction follows from this paper, and quadratic occupancy alone gives neither row-rank nor a determinant lower bound.",
+        "status": "conditional quantitative audit template"
+      },
+      {
+        "mechanism": "Fix the competitor class and localize all minimizers before passing an infimum to the limit.",
+        "source_anchor": "build/sections/neutral/setup.tex:59-87; 02-exterior-reduction.tex:314-401; build/sections/neutral-bridge.tex:133-198",
+        "source_construction": "Use filled full obstacle perimeter, counting boundary-coincident pieces; uniform geometry and a fixed compact competitor force all minimizers into one compact set. Local uniform convergence then controls both liminf and limsup. In the many-end bridge only a directionally correct inequality between distinct competitor classes is used.",
+        "possible_interface": "Keep one common family of rational/integer candidates and one definition of the witness while varying auxiliary bases or parameters; prove the direction of every comparison instead of silently identifying different infima.",
+        "required_premises": "A parameter-independent admissible arithmetic class or proved inclusions; compactness/tightness appropriate to integer height and exact rank; preservation of the target witness.",
+        "missing_bridge": "Geometric perimeter compactness is not compactness of integral bases, and real metric convergence does not preserve nonzero lattice minors. No common-basis or row-rank-over-Q(Z) conclusion is supplied.",
+        "status": "conditional organizational interface"
+      },
+      {
+        "mechanism": "Prove the scalar solution map on the entire bounded input domain before applying degree on an admissible subset.",
+        "source_anchor": "build/sections/neutral/sections/06-elliptic-existence.tex:654-818,897-991",
+        "source_construction": "The implicit variable t is defined globally without a floor. A logarithmic two-point modulus uses radial ellipticity chi>=c/(1+sigma) to solve the scalar Dirichlet equation for every bounded Z input. Only then is a compact coupled map defined; a moving open admissible set excludes floor and norm boundary fixed points, and its terminal map is zero with degree one.",
+        "possible_interface": "If an auxiliary construction for pi is defined only for putatively good candidates, first build it on a genuine common parameter domain and prove boundary exclusions using independent estimates.",
+        "required_premises": "A well-defined continuous map on a common domain, compactness/degree hypotheses, and a rigorous arithmetic interpretation of its output.",
+        "missing_bridge": "Degree produces a real PDE solution; it neither produces rational/integer data nor establishes the desired integer determinant. No such parameter domain or arithmetic output for pi has been identified.",
+        "status": "conditional existence-method interface"
+      },
+      {
+        "mechanism": "Keep numerical deformation and equality/nonvanishing recovery logically separate.",
+        "source_anchor": "build/sections/00-introduction.tex:139-163; build/figures/proof-routes.tex:7-20; build/sections/neutral-bridge.tex:201-205",
+        "source_construction": "The numerical inequality is obtained by approximation/deformation and limits, while the overview explicitly assigns rigidity to variations of the original data under additional horizon assumptions. Equality is not transported backward through the numerical deformations.",
+        "possible_interface": "Treat analytic smallness and exact integer nonvanishing as distinct obligations. A deformation making an expression small does not certify nonvanishing of the original arithmetic witness.",
+        "required_premises": "An exact original-data nonvanishing argument for the same denominator-cleared integer later bounded analytically.",
+        "missing_bridge": "The lead reader has read the numerical proof and the overview of rigidity only; remaining rigidity modules are delegated. In either case no pi arithmetic object appears.",
+        "status": "logical scope safeguard; no transfer asserted"
+      }
+    ],
+    "limits": [
+      "This base receipt reports source first reading, not independent proof validation. No claim is made that the new analytic lemmas, their boundary reflections/compactness steps, cited regularity results, or Riemannian Penrose input have been independently checked.",
+      "All 49 text files in the compiled include/bibliography closure plus README are mapped and cached with exact Git blob hashes. Only the 15 files listed with nonempty read_ranges were actually read by this lead; downloading the remaining modules is not coverage. Full-body status awaits explicit reader continuations.",
+      "Overview summaries do not replace charged/four-dimensional/rigidity/AdS module reading. Equality hypotheses, end conventions and branch restrictions must remain attached to each theorem; numerical deformations cannot automatically transfer equality to original data.",
+      "No construction for pi is supplied. The BA/non-BA target for q^2*|pi-p/q| remains unresolved: BA requires a uniform positive lower bound for all integer p,q>0; non-BA requires a sequence driving this quantity to zero. None of the geometric estimates establishes either.",
+      "Outstanding arithmetic obligations remain exact nonzero integer determinant versus analytic smallness of that same integer, row rank over Q(Z), a common basis/lattice with controlled denominators, and a sufficient quantitative quadratic-occupancy estimate. Smooth Gram projection, real compactness, PDE degree and positivity do not imply these."
+    ],
+    "scope_note": "Lead partial receipt; neutral numerical module and support files fully read. Further modules assigned to separate fresh readers. Source bytes exact; reading coverage is explicit and nonselective. No publishing."
+  }
+]

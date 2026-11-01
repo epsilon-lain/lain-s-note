@@ -1,0 +1,266 @@
+[
+  {
+    "position": 50,
+    "pdf_path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/v126-proof.pdf",
+    "status": "partial_body_read",
+    "main_source": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/main.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": false,
+    "source_files": [
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/README.md",
+        "sha": "c3ca40e7aaca46893c1b4a4fa9811f4d24f39a41",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/figures/resolution.tex",
+        "sha": "82ac97700187b6e068707a991144949dd246d3af",
+        "total_lines": 81,
+        "read_ranges": [
+          [
+            1,
+            81
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/main.tex",
+        "sha": "7cd324577505d08f54f08c67698f21e356d9abfe",
+        "total_lines": 73,
+        "read_ranges": [
+          [
+            1,
+            73
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/references.tex",
+        "sha": "a88a466f4c3cf72733c9eee3905e81ff5dfb1b81",
+        "total_lines": 164,
+        "read_ranges": [
+          [
+            1,
+            164
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/01-introduction.tex",
+        "sha": "dd3ff8c29c9669d4eb04b8c1327ba9c93b33e974",
+        "total_lines": 203,
+        "read_ranges": [
+          [
+            1,
+            203
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/02-reduction-detector.tex",
+        "sha": "9519020d8359f03155b9d06c53d5abfdb95be122",
+        "total_lines": 296,
+        "read_ranges": [
+          [
+            1,
+            296
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/03-graphs.tex",
+        "sha": "525bf530f12a101acecdc61b0c9cac1748a5a1e4",
+        "total_lines": 1496,
+        "read_ranges": [
+          [
+            1,
+            1496
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+        "sha": "16b62b46391b0720c646d0ad0d261b243b996676",
+        "total_lines": 1397,
+        "read_ranges": [
+          [
+            1,
+            1397
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+        "sha": "f1589f2633b91a2aedbb61105dd94ccacc1ae325",
+        "total_lines": 1673,
+        "read_ranges": [],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+        "sha": "2605ba1950559b0476dfabbd6b78f4e5decf30f2",
+        "total_lines": 1363,
+        "read_ranges": [],
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+        "sha": "f1589f2633b91a2aedbb61105dd94ccacc1ae325",
+        "unread_ranges": [
+          [
+            1,
+            1673
+          ]
+        ]
+      },
+      {
+        "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+        "sha": "2605ba1950559b0476dfabbd6b78f4e5decf30f2",
+        "unread_ranges": [
+          [
+            1,
+            1363
+          ]
+        ]
+      }
+    ],
+    "sections_read": [
+      "README and main TeX including abstract, local macros and complete input list",
+      "01 Introduction, theorem and announced proof route",
+      "02 Yamabe reduction, bounded cocycle probability-form detector and measured equivariant families",
+      "03 Complete weighted graph identity, both complete graph prescriptions, localization and ordered boosted sweep proof",
+      "04 Complete conformal bootstrap, entropy increment, surplus estimates, accumulation, phase exit and fixed graph/parameter construction",
+      "Full TikZ resolution figure source and caption; full bibliography"
+    ],
+    "claim_as_stated": "For each n>=3, the manuscript claims a dimension-only a_n>0 such that integral_M (Scal_g^-)^(n/2) dV_g >= a_n ||M|| for every closed connected oriented smooth n-manifold and smooth metric. It explicitly imports the companion manuscript theorem that nonnegative scalar curvature, including identically zero, forces real simplicial volume to vanish.",
+    "proof_architecture": [
+      "Read: imported nonnegative scalar curvature vanishing makes the Yamabe minimizer negative; normalization to scalar -1 and Holder reduce the integral theorem to ||M||<=C_n Vol(M).",
+      "Read: bounded cohomology supplies an alternating cocycle of norm <=1 and detector I>=||M||/2. Its closed probability-simplex form pulls back to I and remains invariant under measured equivariant homotopies.",
+      "Read: weighted graph metrics preserve e^phi dV exactly. Strict height decrease, angle estimates, complete-leaf elliptic continuation and uniqueness supply regular Borel equivariant prescribed graphs.",
+      "Read: localization uses outer forcing, exponential value decay, rescaled jet estimates and full differentiated cutoff/floor control. Ordered graph sweeps give exact mean/variance reserves plus earlier/later metric interactions and a prefix-mass boost.",
+      "Read: a density-contracting conformal bootstrap reaches a dimensional energy threshold. Entropy increments recover a sharp m^2/n quadratic term from full T_0; summable losses accumulate an unused surplus.",
+      "Read: phase exit appends a small orthogonal backup root map, then spends the surplus on a localized conformal repair and absolute gradient bound. Fixed graph squaring controls new overlaps, and a preassigned finite number of exponentially growing phases beats an arbitrary prescribed elementary transfer cost.",
+      "Announced in introduction only; actual proof still unread here: ordered degree slicing and singularity treatment in section 05, followed by balanced cubical chains, unbiased rounding, reflected smooth resolution and final scale/volume cancellation in section 06."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Keep the exact preserved invariant and both ordered cross-interactions in a move ledger.",
+        "precise_hypotheses": "Admissible moves preserve one weighted density exactly; an exact one-step identity yields nonnegative reserves; input/output mass ratios are correctly normalized; both earlier and later metric interactions are retained with coefficient one.",
+        "mechanism": "Density-preserving rank-one graph deformations give an exact weighted scalar identity. A mean/variance decomposition pays normalization mismatch. Earlier and later inverse-metric telescopes, plus self terms, recover tr[(sum A_i^2 e_i e_i^T)^2]>=m^2/n with the sharp coefficient needed by the critical quadratic budget.",
+        "possible_bridge": "Conditional arithmetic interface: seek an exact full-cost increment for common-basis moves on the same nonzero arithmetic minor, preserving integer normalization and row constraints while retaining column heights and every quadratic occupancy cross-term.",
+        "missing_step": "No arithmetic move identity or positivity reserve is supplied. Row rank over Q(Z) alone does not select a low-cost common basis. A single selected normalized integer determinant still needs both a nonzero certificate and an analytic upper bound below one; separate averages cannot replace their joint realization.",
+        "source_anchors": [
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/03-graphs.tex",
+            "line": 31,
+            "label": "lem:graph-identity"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/03-graphs.tex",
+            "line": 1312,
+            "label": "eq:sweep-mean-identity"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 575,
+            "label": "eq:entropy-sharp-T and exact earlier/later telescopes"
+          }
+        ]
+      },
+      {
+        "idea": "Separate a large useful parameter from the combinatorial complexity it creates using preassigned phases and graph squaring.",
+        "precise_hypotheses": "Each phase exits with an absolute small derivative or analogous overlap modulus; support growth is bounded in the phase starting metric; possible new overlaps pass through distance-two parent relations; the downstream cost is elementary with fixed tower height chosen before the construction.",
+        "mechanism": "The first graph has degree exp(C_inst(1+log E_1)^3), with C_inst fixed before E_1. Subsequent phases have targets exp(E_j^(1/1000)) while the previous derivative bound E_j^(-1/100) dominates support growth O(E_j^(3/1000)). Thus graph degree obeys Delta_(j+1)+1<=2(Delta_j+1)^2, while E gains exponential levels. Choosing H+2 phases in advance beats a prescribed elementary cost of height H.",
+        "possible_bridge": "Conditional interface: if row/common-basis configurations admit an exact rank-preserving phase procedure and a certified overlap modulus, use a bounded dependency graph to prebudget full column-height and nonadditive quadratic occupancy costs before amplifying an analytic parameter.",
+        "missing_step": "An arithmetic overlap modulus, controlled common-basis graph recurrence and determinant-smallness amplification remain absent. The paper q is geometric comparison dimension, not a rational denominator. Parameter dominance cannot itself settle the normalized Diophantine q^2 error for pi.",
+        "source_anchors": [
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 21,
+            "label": "thm:entropy"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 1238,
+            "label": "small-gradient distance-two overlap argument"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 1266,
+            "label": "eq:entropy-phase-targets"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 1315,
+            "label": "eq:entropy-graph-recurrence"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 1337,
+            "label": "elementary-bound comparison"
+          }
+        ]
+      },
+      {
+        "idea": "Protect normalization with a small backup witness and charge repair only where the original normalization is defective.",
+        "precise_hypotheses": "An orthogonal backup unit map has controlled derivatives in the enlarged metric; graph tensors are monotone; positive last-step surplus is available on the low-mass region; exact mixed-energy and directional-derivative formulas control the repair.",
+        "mechanism": "A small copy of the phase starting map is appended before normalization, making the denominator positive without an instance-dependent scalar charge. A conformal enlargement is localized to the low-mass region. The retained surplus pays its energy, derivative and entropy costs; orthogonal graph normals control the needed derivative of the weight without controlling its entire gradient.",
+        "possible_bridge": "Conditional interface: retain a certified backup minor or common basis through prospective arithmetic moves, then localize correction to configurations with a measured rank/cost defect while tracking one joint witness.",
+        "missing_step": "Appending or mixing arithmetic witnesses need not preserve the same normalized integer determinant. Backup nonvanishing can have unrelated height or occupancy cost. An arithmetic positive reserve and return to a single finite common-basis witness need proof.",
+        "source_anchors": [
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 900,
+            "label": "lem:entropy-phase-exit"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 954,
+            "label": "exact mixed-energy normalization formula"
+          },
+          {
+            "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/04-entropy.tex",
+            "line": 1019,
+            "label": "weight-gradient directional control"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "This receipt is partial: section 05-degree.tex lines 1-1673 and section 06-transfer.tex lines 1-1363 remain unread. Their downloads and introduction previews are not proof coverage.",
+      "Source reading is not independent theorem verification. The external companion nonnegative-scalar-curvature vanishing theorem and cited classical results were not independently proved or read here.",
+      "The output scalar constant is independent of instance bounds, but target parameters, number of bootstrap steps, graph choices and elliptic regularity bounds may depend on the instance. No numerical a_n is computed in the read portion.",
+      "After phase exit the volume logarithm W need not equal -phi; directional weight estimates use the actual last-sweep graph geometry. Replacing the full interaction reserve by a coarse additive bound would lose the sharp quadratic coefficient.",
+      "The geometric mechanisms do not establish arithmetic common-basis selection or control one same nonzero normalized integer determinant analytically. No BA/nonBA conclusion for pi or resolution of q^2 approximation error follows."
+    ],
+    "scope_note": "Complete pinned text closure mapped from README, main and all recursive inputs; no additional appendix or body source exists in the nontruncated directory tree. Actual reading covers 8 of 10 text files, 3,728 of 6,764 lines (158,094 of 318,629 bytes); unread section 05 and 06 total 3,036 lines and 160,535 bytes. All ten cached files match exact upstream Git blob SHAs, but cache identity is separate from reading. Full TikZ figure and references read; no rendered PDF verification or external cited-proof validation claimed.",
+    "source_cache": "source_context/fullread_round03_27/50",
+    "reading_checkpoint": {
+      "cache": "source_context/fullread_round03_27/50",
+      "read_bytes": 158094,
+      "total_bytes": 318629,
+      "read_lines": 3728,
+      "total_lines": 6764,
+      "next_files": [
+        "build/sections/05-degree.tex:1-1673",
+        "build/sections/06-transfer.tex:1-1363"
+      ]
+    }
+  }
+]

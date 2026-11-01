@@ -1,0 +1,149 @@
+{
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "position": 41,
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "586c971ced925928c0242fb040428c04f16c65c5",
+      "bytes": 562,
+      "lines": 18,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/main.tex",
+      "sha": "d2fb40b8edcb0bd34a2f62644f3b520d15e51fb6",
+      "bytes": 1247,
+      "lines": 41,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/preamble.tex",
+      "sha": "2617c24676b53664b6ccf02c0efc35db1d6756fb",
+      "bytes": 2453,
+      "lines": 70,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/01-history.tex",
+      "sha": "88da3d2da73dc90d6f515f4caa2138714a2ef9cc",
+      "bytes": 5630,
+      "lines": 103,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/01-introduction.tex",
+      "sha": "00aa2f455fc218d503c7b6c6c11eda57dff71782",
+      "bytes": 11117,
+      "lines": 232,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/02-geometry.tex",
+      "sha": "615530e1f2e5052afd794b3e0719ce1c28553d23",
+      "bytes": 13840,
+      "lines": 321,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/03-distributions.tex",
+      "sha": "e1078d63fdcbcde436a021b5345534b66a66ca36",
+      "bytes": 12764,
+      "lines": 250,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/03-frame-laws.tex",
+      "sha": "c047b08e480e2b82816a8d85bd0fcef8585c8341",
+      "bytes": 27685,
+      "lines": 482,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/04-moments.tex",
+      "sha": "db6ff361842646e240ff757f35031a4de337d11e",
+      "bytes": 19468,
+      "lines": 418,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/05-realization.tex",
+      "sha": "ddc5ff129c59f67d78f06cc142b6f6aa74702475",
+      "bytes": 28729,
+      "lines": 623,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/06-collision.tex",
+      "sha": "437abaa4948c16bae1e9624e3d9640e236b7bde9",
+      "bytes": 13035,
+      "lines": 291,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/07-phases.tex",
+      "sha": "4845f58651baeab8af20a52fc3c7013eaa73b36a",
+      "bytes": 32811,
+      "lines": 791,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/08-preparation.tex",
+      "sha": "37110d2331db0692ed8b0543bb10ae4c186f5d66",
+      "bytes": 30152,
+      "lines": 716,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/09-histograms.tex",
+      "sha": "f38c13fc50a33a751722218c6271db9bd2710d90",
+      "bytes": 45604,
+      "lines": 928,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/10-product-tests.tex",
+      "sha": "47a433dc0913018c06d08e09249144777152035e",
+      "bytes": 19327,
+      "lines": 382,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/11-common-limit.tex",
+      "sha": "ebe1c6b2dc5eea6639502f3920d5304bd3604522",
+      "bytes": 28632,
+      "lines": 582,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/12-status-span.tex",
+      "sha": "d5478451087ee1caac50b3ce3f39f08df15260cb",
+      "bytes": 27338,
+      "lines": 567,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/13-rare-overlap.tex",
+      "sha": "26c5da67411fcf66eb37f93635ad1023cea22ce7",
+      "bytes": 20762,
+      "lines": 480,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sections/14-parameters.tex",
+      "sha": "2ba5bc5c3c67830677871c6a94b7fe65a22cfebc",
+      "bytes": 19518,
+      "lines": 505,
+      "terminal_LF_removed": true
+    },
+    {
+      "path": "build/sources/references.bib",
+      "sha": "6bcce5e69f608521da879bcef0d2fae8059d87ab",
+      "bytes": 10231,
+      "lines": 265,
+      "terminal_LF_removed": true
+    }
+  ],
+  "total_bytes": 370905,
+  "total_lines": 8065,
+  "all_verified": true
+}

@@ -1,0 +1,27 @@
+{
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "round": 3,
+  "queue_positions": [
+    37,
+    54
+  ],
+  "new_complete_manuscripts": 18,
+  "total_complete_manuscripts": 54,
+  "remaining_catalogue_manuscripts": 667,
+  "supplementary_directories_pending": 30,
+  "round_source_files": 238,
+  "round_source_lines_read": 85437,
+  "disciplines_in_round": 17,
+  "source_audit": {
+    "status": "passed",
+    "counts": {
+      "source_files": 676,
+      "passed": 676
+    },
+    "failures": [],
+    "scope": "Exact source-byte and line-count audit; no independent theorem verification."
+  },
+  "next_position": 55,
+  "next_title": "Petty’s projection-volume conjecture in dimensions at least four",
+  "scope": "Complete source first reading; no independent theorem-validation claim or pi BA/nonBA result."
+}

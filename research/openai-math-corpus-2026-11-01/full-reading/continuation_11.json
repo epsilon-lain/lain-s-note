@@ -1,0 +1,280 @@
+{
+  "position": 46,
+  "reader": "r03_46_four_analytic_fresh",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "source_files": [
+    {
+      "path": "build/sections/four/setup.tex",
+      "sha": "aba8103cf4256bc89a7c5dd0f36c28ed1a2117dd",
+      "total_lines": 252,
+      "read_ranges": [
+        [
+          1,
+          252
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/01-end.tex",
+      "sha": "acf7ad73829c0756f49a9dabb2275cff30ef2ceb",
+      "total_lines": 1030,
+      "read_ranges": [
+        [
+          1,
+          280
+        ],
+        [
+          281,
+          560
+        ],
+        [
+          561,
+          830
+        ],
+        [
+          831,
+          1030
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/02-geometry.tex",
+      "sha": "034961cbc943748393c074d9da5ccce90c870ee3",
+      "total_lines": 633,
+      "read_ranges": [
+        [
+          1,
+          290
+        ],
+        [
+          291,
+          633
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/03-system.tex",
+      "sha": "78abc670bd9d28e4ae69ea0ad00d1b5aa3440f1c",
+      "total_lines": 785,
+      "read_ranges": [
+        [
+          1,
+          285
+        ],
+        [
+          286,
+          570
+        ],
+        [
+          571,
+          785
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/04-bounds.tex",
+      "sha": "5c4fcb79019dec1ae5d022609548a887800c1dba",
+      "total_lines": 760,
+      "read_ranges": [
+        [
+          1,
+          290
+        ],
+        [
+          291,
+          560
+        ],
+        [
+          561,
+          760
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/05-regularity.tex",
+      "sha": "32b7bc368e811e80f52ab6d7727e135e5a6a797f",
+      "total_lines": 975,
+      "read_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          615
+        ],
+        [
+          616,
+          975
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/sections/06-existence.tex",
+      "sha": "39bb7775ee80b21d5c0b76b71d1140baf973c069",
+      "total_lines": 875,
+      "read_ranges": [
+        [
+          1,
+          300
+        ],
+        [
+          301,
+          600
+        ],
+        [
+          601,
+          875
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/four/figures/two-frontiers.tex",
+      "sha": "84ecc9b2d3430c85d47789c1141aead04e18c782",
+      "total_lines": 29,
+      "read_ranges": [
+        [
+          1,
+          29
+        ]
+      ]
+    }
+  ],
+  "read_source_lines": 5339,
+  "sections_read": [
+    "setup.tex: all definitions, stated invariant numerical and equality theorems, strategy and constant-order remark,1–252.",
+    "01-end.tex: cut positivity/truncation; conformal formulas and positive shell; explicit boosted plane; compact constraint inverses; rest-end gluing, bending, repair and proper-map cut comparison; strictification and transfer,1–1030.",
+    "02-geometry.tex: compact total regions, continuity thresholds, collars; exact support transport and enclosure; two-color exterior and trace-slack budgets,1–633.",
+    "03-system.tex: all variables and scalar identity, exact coercive squares, boundary conversion, four-stage homotopy, coarse heights, stationary Gauss/errors and first-floor exclusion,1–785.",
+    "04-bounds.tex: relaxed limiting heights and support enclosure, collar slopes, weighted trace and flux, graph Sobolev, both iterations and all-stage bounded range,1–760.",
+    "05-regularity.tex: complete measurable axial-coefficient proof; reflection and surface error; Cordes localization; gradient-drop/affine alternatives; fixed-axis estimate and complete scaling iteration; natural-growth measure lemma; full coupled bootstrap and scalar-trial remark,1–975.",
+    "06-existence.tex: full trial-space scalar solve and two-point gradient modulus; frozen compact map and moving-section degree; exhaustion, end decay, scalar/boundary signs, polynomial energy error; minimal enclosure interface, Riemannian comparison, prepared theorem and maximal corollary,1–875.",
+    "two-frontiers.tex: entire TikZ source and caption,1–29."
+  ],
+  "claim_as_stated": "The manuscript claims E_e≥sqrt(|P_e|²+(1/4)(A_e/ω3)^(4/3)) for smooth orientable4-dimensional initial data, arbitrary K, DEC, integrable densities, finitely many AF ends with q>1 and the common future weakly trapped boundary sign. Setup also states an original-data rigidity equivalence for the connected outermost MOTS and outer area-minimizing horizon class; that proof lies in separately assigned rigidity files.",
+  "proof_architecture": [
+    "Reduce each end to strict one-ended prepared rest data, preserving DEC at vanishing energy cost and comparing every entire smooth cut by a proper compression; a positive energy shell treats non-timelike charges.",
+    "Construct total regions for K and −K, choose right-continuity thresholds before collar amplitudes, and budget the trace allowance from strict DEC slack.",
+    "Use f,Z,t graph/conformal variables with three exactly unit transverse eigenvalues. Retain −Fτ in the scalar identity, prove polynomial coercivity and coarse-height floor exclusion, then sharp height bounds and polynomial weighted traces.",
+    "Get bounded range, fixed-n axial scalar regularity and a measure correction for the second equation, then alternate scalar Schauder estimates. Solve scalar trial problems on the whole trial space and use a compact frozen return map with moving-section degree.",
+    "Exhaust at fixed n, prove end decay and finite ADM flux, estimate energy with polynomial losses only, invoke the separately proved full-perimeter enclosure and cited Bray–Lee inequality, then send n→∞, ε↓0 and undo earlier reductions."
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Use an exact first-order identification so an uncontrolled higher-order quantity never enters the error.",
+      "precise_hypotheses": "A compact closed set has the expansion inequality for every smooth exterior support; smooth background metric and tensor have uniform compact-neighborhood bounds; offset distance z is below the injectivity scale. No support-curvature bound is assumed.",
+      "mechanism": "Solve the Jacobi two-endpoint problem J_X(0)=X, J_X(z)=P_zX. It gives a unit field and a local map F_z with dF_z(x)=P_z exactly and |∇dF_z(x)|=O(z). The Hessian chain rule then contracts the unknown support Hessian with precisely the same tangent metric at both contacts, leaving only O(z) background errors. Approximate metric alignment would multiply the uncontrolled Hessian.",
+      "possible_bridge": "Conditional arithmetic interface: seek an exact rational or unimodular coordinate identity preserving the very same integer determinant. Align all row blocks and the one selected common basis exactly before estimating residual coefficients; this may prevent a height perturbation from multiplying an uncontrolled occupancy or derivative term.",
+      "missing_step": "No such arithmetic transport is constructed. Real parallel transport need not preserve lattices, integer determinants, column heights or nonadditive quadratic occupancy. Required: exact row rank over Q(Z), one common basis, explicit lattice/denominator and full-cost control, and analytic smallness for that same nonzero integer witness. Separate small minors or separate block bases are insufficient.",
+      "source_anchors": [
+        {
+          "path": "build/sections/four/sections/02-geometry.tex",
+          "line": 279,
+          "label": "four:geo:support-transport"
+        },
+        {
+          "path": "build/sections/four/sections/02-geometry.tex",
+          "line": 349,
+          "label": "four:geo:exact-isometry"
+        },
+        {
+          "path": "build/sections/four/sections/02-geometry.tex",
+          "line": 373,
+          "label": "four:geo:mean-curvature-transport"
+        }
+      ]
+    },
+    {
+      "idea": "Cancel a rough coefficient structurally before estimating derivatives or asymptotic size.",
+      "precise_hypotheses": "In four dimensions A_z=I−(1−χ̃)e_z⊗e_z has three transverse eigenvalues exactly one and axial eigenvalue χ̃≥χ0>0; e_z is the gradient direction, gradient and scalar source G are bounded, background is smooth. χ̃ and G may be merely measurable.",
+      "mechanism": "A_z∇(|P|²/2)−GP=(H_z−Δz g)P cancels the measurable axial factor. Divergence cancels third derivatives and yields |H_z|²−(Δz)²+Ric(P,P), coercive up to C|G|². A rank-one Frobenius defect below one gives L² absorption and some p0>2. Gradient-drop/affine alternatives and a fixed-axis correction produce Hölder gradient and Hessian Morrey bounds without derivatives of χ̃ or G.",
+      "possible_bridge": "Conditional construction search: find an exact syzygy or antisymmetrized combination of candidate rows eliminating an uncontrolled scale-dependent coefficient before estimating it. If all blocks share one rational basis and the residual unknown direction has a quantified coercive gap, an analytic residual bound might avoid a modulus or derivative bound for that coefficient.",
+      "missing_step": "The PDE axial decomposition does not establish rational row independence. Needed: an explicit exact row identity in Q(Z), a common basis, a quantitative arithmetic coercive gap, and complete transformed column-height plus quadratic occupancy cost. No regularity of an unspecified π-dependent coefficient may be assumed. Cancellation alone does not force the same integer determinant below one.",
+      "source_anchors": [
+        {
+          "path": "build/sections/four/sections/05-regularity.tex",
+          "line": 16,
+          "label": "four:thm:axial-regularity"
+        },
+        {
+          "path": "build/sections/four/sections/05-regularity.tex",
+          "line": 82,
+          "label": "four:reg:defect"
+        },
+        {
+          "path": "build/sections/four/sections/05-regularity.tex",
+          "line": 145,
+          "label": "four:reg:flux-identity"
+        },
+        {
+          "path": "build/sections/four/sections/05-regularity.tex",
+          "line": 148,
+          "label": "four:reg:flux-divergence"
+        },
+        {
+          "path": "build/sections/four/sections/05-regularity.tex",
+          "line": 279,
+          "label": "four:reg:fixed-axis-operator"
+        }
+      ]
+    },
+    {
+      "idea": "Separate existence constants from the final asymptotic budget and avoid using the sharp estimate circularly to obtain admissibility.",
+      "precise_hypotheses": "Prepared geometry, strict DEC slack, thresholds, collars and ε are fixed before n; ℓ=e^(−εn), η_n=ℓ^(3/2); the floor penalty and weighted boundary estimates have polynomial losses Π_n. Fixed-n regularity constants may be arbitrarily large. Exhaustion R→∞ is at fixed n.",
+      "mechanism": "First-floor exclusion pays for unrestricted −Fτ using only a coarse height bound and polynomial penalty. Later height separation permits strict-slack absorption in the final scalar identity. Final energy error uses only Π_n(ℓ+ℓ²/η_n)→0; arbitrary fixed-n existence/Schauder constants never enter it. No limiting metric as n→∞ is required.",
+      "possible_bridge": "Conditional arithmetic workflow: establish an admissible family and a common nonzero integer witness using coarse exact information first. Then derive sharp analytic determinant smallness with a dependency graph tracking rank, derivative order, transformed column heights and the full nonadditive occupancy objective. Only controlled losses may enter the growing-parameter limit.",
+      "missing_step": "No arithmetic analogue of the polynomial weighted-flux bound is proved. A formal exponential factor cannot dominate an arbitrary hidden constant depending on the same growing parameter. The π target still needs actual common witnesses, certified nonvanishing, controlled full cost and a smallness bound in the stated order of limits.",
+      "source_anchors": [
+        {
+          "path": "build/sections/four/setup.tex",
+          "line": 243,
+          "label": "four:rem:constants"
+        },
+        {
+          "path": "build/sections/four/sections/03-system.tex",
+          "line": 695,
+          "label": "four:prop:floor-exclusion"
+        },
+        {
+          "path": "build/sections/four/sections/06-existence.tex",
+          "line": 522,
+          "label": "four:prop:mass-comparison"
+        },
+        {
+          "path": "build/sections/four/sections/06-existence.tex",
+          "line": 610,
+          "label": "four:ex:penalty-absorption"
+        }
+      ]
+    },
+    {
+      "idea": "Compare every full feasible object under one proper map without requiring attainment of an infimum.",
+      "precise_hypotheses": "The rest-end replacement agrees with original data in a growing core, has a fixed positive metric lower bound remotely, and admits a proper radial compression fixing the compact boundary. Every cut counts the entire intrinsic frontier, including disconnected and coincident pieces.",
+      "mechanism": "A constructed diffeomorphism Φ_R satisfies Φ_R* g≤(1+ε_R)g_R globally, ε_R→0. It sends every new admissible outer domain to an original admissible outer domain. Taking infima directly gives A*(g_R)≥(1−o(1))A*(g), without compactness or attainment of a minimizing sequence.",
+      "possible_bridge": "Conditional common-basis comparison: map every feasible full-rank configuration to an admissible comparison configuration and prove a single inequality for its complete column-height plus quadratic occupancy cost. This could avoid replacing a common integer configuration with a relaxed optimum or independently minimized block costs.",
+      "missing_step": "A reduction can delete the only common full-rank basis, and quadratic occupancy is not additive across blocks. A valid arithmetic map must preserve the actual common witness, row rank over Q(Z), integer nonvanishing and the full cost with explicit constants. A proper geometric map provides none of these algebraic facts automatically.",
+      "source_anchors": [
+        {
+          "path": "build/sections/four/sections/01-end.tex",
+          "line": 436,
+          "label": "four:prop:rest-end"
+        },
+        {
+          "path": "build/sections/four/sections/01-end.tex",
+          "line": 773,
+          "label": "four:end:compression-metric"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Actual untruncated reading of exactly8 four-dimensional analytic-module files:5339 source lines,240022 bytes. Git blob SHAs and line totals were checked against source_closure.json. This receipt does not claim other position46 bodies were read. Setup includes an equality theorem statement, but its rigidity proof and the full-perimeter enclosure proof are assigned elsewhere. Actual reading is not independent validation of the manuscript or its cited dependencies.",
+  "limits": [
+    "Not independent proof verification. External citations, including total-region, regularity and Riemannian comparison inputs, were not checked externally.",
+    "The minimal enclosure imports the separately assigned four/rigidity/01-enclosures.tex proof, which this reader has not read.",
+    "Four-dimensional equality/rigidity was read only as stated in setup; its proof body is outside this receipt.",
+    "No arithmetic construction, common-basis certificate, row rank over Q(Z), or full height-plus-quadratic-occupancy bound is proved here.",
+    "Whether π is badly approximable and the target behavior of q²|π−p/q| remain unresolved. These are conditional interfaces, not transfer theorems or relevance filters."
+  ],
+  "independent_proof_verification": false,
+  "external_citation_verification": false
+}

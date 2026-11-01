@@ -1,0 +1,246 @@
+[
+  {
+    "position": 54,
+    "pdf_path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/main.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/README.md",
+        "sha": "929fd82d556125c5c0959f4b7a388acb4d37beeb",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/figures/rank-pairing.tex",
+        "sha": "7e38a5c449daad4f21710d6128245b6bf2e6c01b",
+        "total_lines": 22,
+        "read_ranges": [
+          [
+            1,
+            22
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/main.tex",
+        "sha": "3a7100c0fe2186a2a4deefd37af6e1764b788328",
+        "total_lines": 57,
+        "read_ranges": [
+          [
+            1,
+            57
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/references/references.bib",
+        "sha": "bbbb6b3cd5d9dbbf9991fb393b605dfb327e1433",
+        "total_lines": 170,
+        "read_ranges": [
+          [
+            1,
+            170
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/00-introduction.tex",
+        "sha": "15cbd452de44374c2455d48200883208b9c5c208",
+        "total_lines": 146,
+        "read_ranges": [
+          [
+            1,
+            146
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/01-compact-model.tex",
+        "sha": "3d1739ae96bf2fe619974b114e24e551d55c0ab8",
+        "total_lines": 152,
+        "read_ranges": [
+          [
+            1,
+            152
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/02-weighted-law.tex",
+        "sha": "24258602fd16854b1092918f3624e7abda9967fb",
+        "total_lines": 126,
+        "read_ranges": [
+          [
+            1,
+            126
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/03-escape.tex",
+        "sha": "5eb9b8b48fa321eb2f3f2a265b5e741fda28ea3f",
+        "total_lines": 149,
+        "read_ranges": [
+          [
+            1,
+            149
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/04-strict-pairing.tex",
+        "sha": "f740149bd681dae40a163150efef1001e4f2384a",
+        "total_lines": 270,
+        "read_ranges": [
+          [
+            1,
+            270
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/05-strict-transport.tex",
+        "sha": "9ede76921b8280c1695cf80ea6de80a6f1a0ac4d",
+        "total_lines": 118,
+        "read_ranges": [
+          [
+            1,
+            118
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/06-equality-barrier.tex",
+        "sha": "c45c51bc8a2511102bcbadcb2d81c012ef394260",
+        "total_lines": 54,
+        "read_ranges": [
+          [
+            1,
+            54
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "sections_read": [
+      "README; normalized main and abstract",
+      "00 Introduction: spectrum classes, uniform strict bound and context",
+      "01 compact normalized half-plane model, dyadic positive operator, disk transfer",
+      "02 exact-parameter affine eigenlaw and derivative moments",
+      "03 weighted area tail, infinity and real-boundary escape, compact superlevels",
+      "04 critical Jacobian/Hessian, genericity and Borel goodness, index count, measurable strict rank pairing; full TikZ figure",
+      "05 local area formula, weighted fixed-base goodness and strict transport",
+      "06 harmonic equality barrier, countable-dense propagation and uniform spectral gap",
+      "Complete bibliography"
+    ],
+    "claim_as_stated": "The manuscript claims universal C and ε>0 with M_{-1}[f′](r)<=C(1-r)^(-1/4+ε) for all normalized univalent disk maps and r>=1/2; hence B_b(-1)<1/4 and the stated Kraetzer formula fails at -1. It gives no numerical ε and no conclusion at +1.",
+    "proof_architecture": [
+      "Compactness/distortion yield a single positive dyadic operator L whose spectral growth β controls all disk means.",
+      "Assume β>=1/4; resolvent and affine averages give an exact inverse-first-derivative weighted scaling law. Differentiating gives two logarithmic derivative moments.",
+      "For k=(β+2)/3 the target potential y^k/|F-ξ| has compact positive superlevels almost everywhere. Critical points are fibers of G=F-iyF′/k, with saddle/maximum sign determined by its normalized Jacobian.",
+      "An index count dominates saddle counts by finite maxima above every positive threshold. Generic absence of ties upgrades equal-rank pairing to strict increase, measurably and equivariantly.",
+      "Change of variables matches the cubed critical value exactly to transported weights. Expanding-box limits show E[J]<=0, with equality only when J(i)=0 almost surely. Weighted covariance handles the fixed target.",
+      "The moment formula excludes β>1/4. At equality, the law and a countable dense source set force J≡0; the nonvanishing pre-Schwarzian then obeys an impossible harmonic lower barrier. β<1/4 yields one uniform exponent bound."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Use strict improvement only on positive witness mass, then classify equality separately; a common pointwise gap is unnecessary.",
+        "precise_hypotheses": "A measurable injective same-fiber pairing, exact target weights, finite signed mass, equivariance, and a proved passage from finite boxes to the invariant law. The ratio c is strictly greater than one on the positive-Jacobian domain; generic bad fibers carry zero positive weighted mass.",
+        "mechanism": "Area change of variables converts the cube of a critical value into exactly the partner weight. The comparison gives b<=A<=d. If b=d, the nonnegative integral of J_+(c-1) vanishes and hence b=d=0, even when inf(c-1)=0. A separate harmonic barrier rules out the resulting global zero Jacobian.",
+        "possible_bridge": "Speculative interface: in an extremal law on admissible row/common-basis configurations, seek a pairing which preserves the same nonzero minor and makes the full height-plus-occupancy score strictly better wherever a certified defect occurs. Separate equality rigidity from quantitative gain. This could avoid demanding a uniform improvement for every configuration.",
+        "missing_step": "No such invariant arithmetic law or injective score-improving common-basis move is known here. Improvement of an averaged surrogate cannot replace a nonzero and small estimate for one normalized integer determinant. The equality classification and preservation of actual row/column constraints must be proved afresh.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/04-strict-pairing.tex",
+            "line": 211,
+            "label": "prop:pair"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/05-strict-transport.tex",
+            "line": 55,
+            "label": "prop:strict-transport"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/06-equality-barrier.tex",
+            "line": 8,
+            "label": "lem:no-zero-J"
+          }
+        ]
+      },
+      {
+        "idea": "Promote target-genericity to a fixed distinguished target through weighted covariance, rather than assuming a generic target includes the chosen point.",
+        "precise_hypotheses": "Bad targets have planar measure zero for almost every map, the local change-of-variables formula includes J_+, and rebasing covariance and a strictly positive scaling weight apply to the same Borel event. A finite spatial box has positive dx dy/y mass.",
+        "mechanism": "Although G_F(i) is always the single target -i/k, spatial integration kills bad targets with positive Jacobian; the affine law transports that zero integral to the base point. The conclusion is weighted goodness E[J_+(i)1_bad]=0, not unweighted almost-sure goodness.",
+        "possible_bridge": "Speculative interface: when generic nonzero minors over Q(Z) are used at the fixed transcendental point 2πi, explicitly identify the algebraic or weighted transport which carries the generic certificate to the chosen point. Keep the transported weight and null event attached to the same witness.",
+        "missing_step": "The project already has transcendence-based rank transfer for polynomial entries, but a generic measurable or analytic exceptional set need not avoid 2πi. The source covariance is geometric, not an available arithmetic action. It supplies neither a height estimate nor an automatic fixed-point principle.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/05-strict-transport.tex",
+            "line": 12,
+            "label": "eq:area-formula"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/05-strict-transport.tex",
+            "line": 27,
+            "label": "lem:base-good"
+          }
+        ]
+      },
+      {
+        "idea": "Preserve the exact growth parameter during compactification before attempting a strict endpoint contradiction.",
+        "precise_hypotheses": "Compact normalized map family; bounded positive operators with a multiplicative affine action; spectral growth rho>1; endpoint cancellation whose error decays as rho^-n; finite positive scale-average mass.",
+        "mechanism": "A resolvent eigenmeasure is horizontally averaged and then logarithmically scale-averaged. The resulting law retains y^-β for β=log2 rho itself. Differentiation gives exact moments, and E[J]=(4β-1)(β+2)/(9k²) exposes the equality threshold.",
+        "possible_bridge": "Speculative interface: if row configurations admit a positive transfer operator respecting true rank witnesses and full costs, carry the actual growth exponent into a compact extremal law. Replacing it by an arbitrarily larger exponent too early could destroy the equality obstruction needed for a strict result.",
+        "missing_step": "A normalized compact state space and a positive action preserving a nonzero integer determinant have not been constructed. Integer heights and quadratic occupancy are not known to be multiplicative cocycles. Even an exact spectral law would still need a π-specific obstruction and a return to a finite witness.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/01-compact-model.tex",
+            "line": 106,
+            "label": "eq:rho"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/02-weighted-law.tex",
+            "line": 11,
+            "label": "prop:law"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/02-weighted-law.tex",
+            "line": 108,
+            "label": "lem:moments"
+          },
+          {
+            "path": "preprints/A-strict-inverse-first-power-bound-for-univalent-functions-September-24-2026/build/sections/04-strict-pairing.tex",
+            "line": 18,
+            "label": "eq:Jacobian"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "Complete source first reading is not independent theorem verification; cited classical estimates and external papers were not independently re-proved or read here.",
+      "The ε and C are existential, not numerically evaluated. No uniform pointwise pairing gap is asserted.",
+      "The fixed-base conclusion is weighted by J_+; unweighted target genericity cannot be substituted. The expanding-box limit order S, thenY, thenN is part of the proof.",
+      "No automatic transfer of geometric invariant laws, Jacobian signs or harmonic barriers to arithmetic determinants is established; no π BA/nonBA conclusion follows."
+    ],
+    "scope_note": "Read every line of the pinned README, build/main.tex, all seven included sections, recursively included rank-pairing TikZ source/caption and full bibliography (11 exact SHA-verified text files, 1281 lines). The only remaining inputs are standard TeX glyph-to-Unicode infrastructure; there is no mathematical appendix or further include in the complete directory tree. Figure is schematic with illustrative gaps; no PDF page/layout verification or external cited-proof validation is claimed."
+  }
+]

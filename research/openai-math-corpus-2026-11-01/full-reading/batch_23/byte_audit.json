@@ -1,0 +1,162 @@
+[
+  {
+    "position": 43,
+    "all_git_blobs_verified": true,
+    "files": [
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/README.md",
+        "git_blob_sha": "bde4800b6e6ca3884ace2102d5e401dd797124d2",
+        "sha_verified": true,
+        "bytes": 733,
+        "lines": 18
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/bibliography.tex",
+        "git_blob_sha": "a6470bcf252d4b4978642b408e17995115cf6376",
+        "sha_verified": true,
+        "bytes": 6063,
+        "lines": 152
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/paper.tex",
+        "git_blob_sha": "6b3be69358b16bb518731d8444586d29757c72da",
+        "sha_verified": true,
+        "bytes": 2786,
+        "lines": 80
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/01-history.tex",
+        "git_blob_sha": "1d4ff44dd4c2e55936e0dfa1d076c0c4b07cf507",
+        "sha_verified": true,
+        "bytes": 3217,
+        "lines": 55
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/01-introduction.tex",
+        "git_blob_sha": "b1ed7b8350412af684ec023fb752a47716345c7a",
+        "sha_verified": true,
+        "bytes": 9718,
+        "lines": 199
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/02-inputs.tex",
+        "git_blob_sha": "a3a31beeffaaac750fdf8a9f8f69055c0a70a2ca",
+        "sha_verified": true,
+        "bytes": 55237,
+        "lines": 1091
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/03-nondegeneration.tex",
+        "git_blob_sha": "93f5de6b9d80f30eac6a5b8e228cc80d8699681d",
+        "sha_verified": true,
+        "bytes": 30195,
+        "lines": 606
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/04-energy.tex",
+        "git_blob_sha": "6e0031e25b6fea9ef17432b56cf7e5fee1994aa5",
+        "sha_verified": true,
+        "bytes": 36840,
+        "lines": 779
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/05-sphere.tex",
+        "git_blob_sha": "10840441ecd202474118c36eaaab25ce7d6a3899",
+        "sha_verified": true,
+        "bytes": 20868,
+        "lines": 420
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/06-green.tex",
+        "git_blob_sha": "ee77f3bd3e41f55fe74b6a9b0ab78819bf2733ed",
+        "sha_verified": true,
+        "bytes": 21153,
+        "lines": 488
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/07-dynamics.tex",
+        "git_blob_sha": "09fe5a0c2a51ae5cbe623f880c65c0e055b9aad0",
+        "sha_verified": true,
+        "bytes": 22149,
+        "lines": 512
+      }
+    ],
+    "total_source_bytes": 208959,
+    "total_source_lines": 4400,
+    "actual_read_source_lines": 4400,
+    "removed_extra_terminal_lf": false
+  },
+  {
+    "position": 45,
+    "all_git_blobs_verified": true,
+    "files": [
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/README.md",
+        "git_blob_sha": "757a9e1cee1eed6e150a36cb66a4bcb7581a7313",
+        "sha_verified": true,
+        "bytes": 585,
+        "lines": 18
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/figures/encoded-block.tex",
+        "git_blob_sha": "535ec163b3898b3714186434380b4a3aeb56c2c9",
+        "sha_verified": true,
+        "bytes": 1090,
+        "lines": 27
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/paper.tex",
+        "git_blob_sha": "3df3cc9d09211c25a626d33ea2041c22d0173f5d",
+        "sha_verified": true,
+        "bytes": 15809,
+        "lines": 312
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/references.tex",
+        "git_blob_sha": "b4b60336368d4012fab7e10082cf66828bcf28a8",
+        "sha_verified": true,
+        "bytes": 5762,
+        "lines": 159
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/cancellation.tex",
+        "git_blob_sha": "b52ff630b3a50878ee59f3d7a0e3cf70d0d38bdb",
+        "sha_verified": true,
+        "bytes": 27176,
+        "lines": 609
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/finite-presentation.tex",
+        "git_blob_sha": "bca8a8897e8cf6f34abcc18b168835b16a2cfb05",
+        "sha_verified": true,
+        "bytes": 19150,
+        "lines": 477
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/finite-rules.tex",
+        "git_blob_sha": "7ba23dba6390e947e121c2d86dffc3cbf6a636f0",
+        "sha_verified": true,
+        "bytes": 52936,
+        "lines": 1047
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/kernel-torsion.tex",
+        "git_blob_sha": "c6e5ec1583df44b5fc00d8b284e1b19b5637f57a",
+        "sha_verified": true,
+        "bytes": 21829,
+        "lines": 520
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/stability.tex",
+        "git_blob_sha": "9f7f9144c795626ae536274e0d18da6725ff439d",
+        "sha_verified": true,
+        "bytes": 30850,
+        "lines": 711
+      }
+    ],
+    "total_source_bytes": 175187,
+    "total_source_lines": 3880,
+    "actual_read_source_lines": 3880,
+    "removed_extra_terminal_lf": false
+  }
+]

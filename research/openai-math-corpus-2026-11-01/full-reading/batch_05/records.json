@@ -228,7 +228,9 @@
       "Deterministic recovery requires distinct full finite-field coefficients. Prefix truncation is charged only by codimension bounds; arbitrary truncated differences are not assumed injective.",
       "The golden-ratio separation uses an algebraic conjugate and a specific nonzero quadratic integer norm. It cannot be applied to π without a different independently proved integer construction.",
       "Height and accuracy are separate indices; finite type/weight choices precede degree, and fixed b plus fixed matrix sizes give uniform homotopy moduli. Allowing these quantities to vary in the wrong order would invalidate the claimed quotient argument."
-    ]
+    ],
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 14,
@@ -430,7 +432,9 @@
       "The fixed denominator depends strongly on the chosen odd sphere dimension. It is fixed before m=p^k, not uniform in dimension.",
       "The odd-sphere telescope uses d≥3 odd, Serre finiteness, finite nerve approximation, and a positive degree that may depend on k. None of these supply Q(Z) symmetries directly.",
       "No BA/non-BA assertion or new fact about π is proved by this reading."
-    ]
+    ],
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 15,
@@ -535,6 +539,8 @@
       "The proof uses real Banach geometry, convexity, supports, arbitrary enlargements, and continuous fixed-point methods. Integer transversals and determinants do not automatically satisfy these hypotheses.",
       "A sphere isometry supplies exact distance equalities and an inverse with the same defect bound; these are substantial structural hypotheses unavailable from a generic occupancy model.",
       "Ultrapower attainment and continuous fixed points can discard finite arithmetic information. They cannot by themselves yield a nonzero integer determinant or a BA/non-BA conclusion for π."
-    ]
+    ],
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   }
 ]

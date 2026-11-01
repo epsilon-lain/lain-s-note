@@ -1,0 +1,92 @@
+[
+  {
+    "path": "README.md",
+    "expected_sha": "c3ca40e7aaca46893c1b4a4fa9811f4d24f39a41",
+    "cache_sha": "c3ca40e7aaca46893c1b4a4fa9811f4d24f39a41",
+    "bytes": 663,
+    "expected_bytes": 663,
+    "lines": 18,
+    "matches": true
+  },
+  {
+    "path": "build/figures/resolution.tex",
+    "expected_sha": "82ac97700187b6e068707a991144949dd246d3af",
+    "cache_sha": "82ac97700187b6e068707a991144949dd246d3af",
+    "bytes": 3577,
+    "expected_bytes": 3577,
+    "lines": 81,
+    "matches": true
+  },
+  {
+    "path": "build/main.tex",
+    "expected_sha": "7cd324577505d08f54f08c67698f21e356d9abfe",
+    "cache_sha": "7cd324577505d08f54f08c67698f21e356d9abfe",
+    "bytes": 2231,
+    "expected_bytes": 2231,
+    "lines": 73,
+    "matches": true
+  },
+  {
+    "path": "build/references.tex",
+    "expected_sha": "a88a466f4c3cf72733c9eee3905e81ff5dfb1b81",
+    "cache_sha": "a88a466f4c3cf72733c9eee3905e81ff5dfb1b81",
+    "bytes": 6528,
+    "expected_bytes": 6528,
+    "lines": 164,
+    "matches": true
+  },
+  {
+    "path": "build/sections/01-introduction.tex",
+    "expected_sha": "dd3ff8c29c9669d4eb04b8c1327ba9c93b33e974",
+    "cache_sha": "dd3ff8c29c9669d4eb04b8c1327ba9c93b33e974",
+    "bytes": 10032,
+    "expected_bytes": 10032,
+    "lines": 203,
+    "matches": true
+  },
+  {
+    "path": "build/sections/02-reduction-detector.tex",
+    "expected_sha": "9519020d8359f03155b9d06c53d5abfdb95be122",
+    "cache_sha": "9519020d8359f03155b9d06c53d5abfdb95be122",
+    "bytes": 12376,
+    "expected_bytes": 12376,
+    "lines": 296,
+    "matches": true
+  },
+  {
+    "path": "build/sections/03-graphs.tex",
+    "expected_sha": "525bf530f12a101acecdc61b0c9cac1748a5a1e4",
+    "cache_sha": "525bf530f12a101acecdc61b0c9cac1748a5a1e4",
+    "bytes": 61934,
+    "expected_bytes": 61934,
+    "lines": 1496,
+    "matches": true
+  },
+  {
+    "path": "build/sections/04-entropy.tex",
+    "expected_sha": "16b62b46391b0720c646d0ad0d261b243b996676",
+    "cache_sha": "16b62b46391b0720c646d0ad0d261b243b996676",
+    "bytes": 60753,
+    "expected_bytes": 60753,
+    "lines": 1397,
+    "matches": true
+  },
+  {
+    "path": "build/sections/05-degree.tex",
+    "expected_sha": "f1589f2633b91a2aedbb61105dd94ccacc1ae325",
+    "cache_sha": "f1589f2633b91a2aedbb61105dd94ccacc1ae325",
+    "bytes": 89717,
+    "expected_bytes": 89717,
+    "lines": 1673,
+    "matches": true
+  },
+  {
+    "path": "build/sections/06-transfer.tex",
+    "expected_sha": "2605ba1950559b0476dfabbd6b78f4e5decf30f2",
+    "cache_sha": "2605ba1950559b0476dfabbd6b78f4e5decf30f2",
+    "bytes": 70818,
+    "expected_bytes": 70818,
+    "lines": 1363,
+    "matches": true
+  }
+]

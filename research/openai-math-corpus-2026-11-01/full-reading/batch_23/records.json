@@ -1,0 +1,628 @@
+[
+  {
+    "position": 43,
+    "family_id": "211",
+    "title": "A Linear Clock for Random Walk on Tree-Weighted Planar Maps",
+    "pdf_path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/linear-clock-random-walk-tree-weighted-planar-maps.pdf",
+    "directory_tree_sha": "a70cd66127f2fe4aa7cfca2239beb5fe1eb7decb",
+    "status": "full_body_read",
+    "main_source": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/README.md",
+        "sha": "bde4800b6e6ca3884ace2102d5e401dd797124d2",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/README.md",
+        "source_bytes": 733,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/bibliography.tex",
+        "sha": "a6470bcf252d4b4978642b408e17995115cf6376",
+        "total_lines": 152,
+        "read_ranges": [
+          [
+            1,
+            152
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            152
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/bibliography.tex",
+        "source_bytes": 6063,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/paper.tex",
+        "sha": "6b3be69358b16bb518731d8444586d29757c72da",
+        "total_lines": 80,
+        "read_ranges": [
+          [
+            1,
+            80
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            80
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/paper.tex",
+        "source_bytes": 2786,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/01-history.tex",
+        "sha": "1d4ff44dd4c2e55936e0dfa1d076c0c4b07cf507",
+        "total_lines": 55,
+        "read_ranges": [
+          [
+            1,
+            55
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            55
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/01-history.tex",
+        "source_bytes": 3217,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/01-introduction.tex",
+        "sha": "b1ed7b8350412af684ec023fb752a47716345c7a",
+        "total_lines": 199,
+        "read_ranges": [
+          [
+            1,
+            199
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            199
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/01-introduction.tex",
+        "source_bytes": 9718,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/02-inputs.tex",
+        "sha": "a3a31beeffaaac750fdf8a9f8f69055c0a70a2ca",
+        "total_lines": 1091,
+        "read_ranges": [
+          [
+            1,
+            1091
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            300
+          ],
+          [
+            301,
+            600
+          ],
+          [
+            601,
+            850
+          ],
+          [
+            851,
+            1091
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/02-inputs.tex",
+        "source_bytes": 55237,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/03-nondegeneration.tex",
+        "sha": "93f5de6b9d80f30eac6a5b8e228cc80d8699681d",
+        "total_lines": 606,
+        "read_ranges": [
+          [
+            1,
+            606
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            310
+          ],
+          [
+            311,
+            606
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/03-nondegeneration.tex",
+        "source_bytes": 30195,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/04-energy.tex",
+        "sha": "6e0031e25b6fea9ef17432b56cf7e5fee1994aa5",
+        "total_lines": 779,
+        "read_ranges": [
+          [
+            1,
+            779
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            270
+          ],
+          [
+            271,
+            540
+          ],
+          [
+            541,
+            779
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/04-energy.tex",
+        "source_bytes": 36840,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/05-sphere.tex",
+        "sha": "10840441ecd202474118c36eaaab25ce7d6a3899",
+        "total_lines": 420,
+        "read_ranges": [
+          [
+            1,
+            420
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            220
+          ],
+          [
+            221,
+            420
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/05-sphere.tex",
+        "source_bytes": 20868,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/06-green.tex",
+        "sha": "ee77f3bd3e41f55fe74b6a9b0ab78819bf2733ed",
+        "total_lines": 488,
+        "read_ranges": [
+          [
+            1,
+            488
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            250
+          ],
+          [
+            251,
+            488
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/06-green.tex",
+        "source_bytes": 21153,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/build/sections/07-dynamics.tex",
+        "sha": "09fe5a0c2a51ae5cbe623f880c65c0e055b9aad0",
+        "total_lines": 512,
+        "read_ranges": [
+          [
+            1,
+            512
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            270
+          ],
+          [
+            271,
+            512
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/43/build/sections/07-dynamics.tex",
+        "source_bytes": 22149,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "scope_note": "Actual complete source reading, including every mapped body/history/inline figure/reference line. Reading does not certify theorem correctness.",
+    "sections_read": [
+      "README目标PDF；build/paper.tex全部宏/abstract/include组织；introduction全部（模型、degree measure、loops/half-edge rate1、unit-area sqrt2 LQG sphere与factor1/2、a_n normalization、delta_T quenched path law、主定理、proof roadmap）；included history全部55行；bibliography全部152行。",
+      "02-inputs全部1091行：Mullin exact incidence sewing、Poissonized independent coordinates与peanosphere背景；fiber/degree/winding topology；finite packages/offset forests/bands及matched-step whole-strip规则；triple-contact inline figure和exact selected-minimum cap；complete buffered core与selector sandwich；input-only density/disintegration/bridge proof、unimodular forest basis、merged old/new graphs；spatial product kernels、area Poisson marks、coordinate/unit transport、joint random cone zoom、Gaussian density truncation与primal-dual reflection。",
+      "03-nondegeneration全部606行：EL=minimum traffic²=capacity reciprocal；field/array point-germ determinism；quantiles与absolute quantum-scale annular barriers；density area/diameter charge；hypothetical vanishing traffic的path tightness及absolutely continuous average arclength；tangent strict crossing germs加symmetry给perpendicular primal-dual flows，literal paired edge intersection与Cauchy矛盾；transverse tubes inline figure；uniform ring cutoffs。",
+      "04-energy全部779行：dual-cutoff coarea gives separating circuit；harmonic compactness；uniform relaxed energy envelope/common target selector quantifiers；exact product gluing identity；quadratic Radon energy measures、smooth upper bound；grid intersecting circuits给Sobolev coercivity和integral A representation；germs/translation/rotation/reflection使A=A*=lambda I；condenser convergence、rotated current dual period、reciprocity inline figure、lambda≤1；recovery energy measures、a_m+dq_m exact unit-period angular cochain、finite-resolution signed pairing=1、lambda≥1及final lambda=1。",
+      "05-sphere全部420行：forward joint cone zoom exhaustion；compact numerical arrays在excursion input-only density下transfer、uniform L2 density truncation；intrinsic interval surface/collar/selector表达同时all-target event；zero-capacity omitted endpoint的Sobolev removability和constant-nearpoint approximations；global lower/recovery/harmonic compactness；同一个contour sphere的distance distortion、dense projections、degree-tour pushforward=quantum area。",
+      "06-green全部488行：rank-one determinant/Cauchy–Binet all-minors two-forest quadratic与bilinear formula；cut multiplicity b(F)及mu-centering；tour mass=degree、smaller-side cyclic intervals、b_e=1+dual-tree distance；quadrant-excursion exact Catalan schedule/independent Dyck coordinates；reflection killed-walk bounds、Dyck negative/moment/diameter chaining；one-scale reciprocal-cut second moment、nested components/horizontal cut count、bad schedules；grid W_M and source interpolation m_f^rho，dyadic sum rho<1/2，conditional tree average gives map-measurable simultaneous A_n with bounded mean。",
+      "07-dynamics全部512行：deterministic energy/Green/harmonic compactness criterion；continuous Sobolev smooth core；small localized source potential subtraction gives resolvent equicontinuity/minimizer convergence；alpha R_alpha approximate identity in uniform norm，round mean correction and boundary circles；resolvent separator bounded generators、uniform start-vertex exit estimate及Aldous tightness；nested resolvent Laplace transform identifies entire conditional law；exact −〈u,nL_nu〉=e_n/2、retaining A_n on same extraction、common metric-space gluing and delta_T theorem。"
+    ],
+    "claim_as_stated": "对n-edge rooted planar maps按spanning-tree数量加权，stationary degree measure起始的rate-one incident-half-edge walk X^n，在空间deterministic a_n缩放和时间nt下，作为conditional path probability law与metric-measure space联合收敛到ordinary unit-area sqrt2-LQG sphere上的Liouville Brownian motion；continuum Dirichlet form=(1/2)∫|∇u|²，故exact clock multiplier c=1，through all n，任意fixed finite horizon。结论使用companion同ensemble的metric/contour/topological limits；另得finite-law small-mass centered Green bound，任意rho∈(0,1/2)，||G_nf||∞≤A_n mu_n(|f|)^rho、sup E A_n<∞，同时所有bounded centered f。",
+    "proof_architecture": [
+      "在pinned companion contour reconstruction inputs之上，先把全部exact primal/dual incidences保留下来；finite instruction graphs对non-tree edges按matched occurrence而非端点去重。triple contacts以middle run实际discrete minimum精确cap。固定countable compactified energy/EL outputs在抽subsequence之前加入；input-only change-of-density与bridge law给conditional kernels，forest offset基变换unimodular，避免把旧kernel取forced-offset diagonal。",
+      "complete buffered prescriptions和strict selector sandwich把抽象outputs等同actual local tests。field-local kernels在disjoint buffers conditional独立；GFF point germs因point zero capacity trivial，于Lebesgue-a.e.点任何array germ确定。quantum unit dyadic transforms和random cone zoom在joint extraction中保留，Gaussian reference比较只用fixed density truncation。",
+      "若annular EL quantile b_m→0，record lows保留所有backward offsets的barriers；all-point annuli构造charges macroscopic displacement且b_m||g||²≤area。small traffic flows由crossing-count紧性给rectifiable limit，average arclength≪area。tangent crossings成为local germ events，reflection/rotation给a.e. perpendicular primal-dual pair；每对paths必须遇paired edge，1≤〈j,j*〉≤||j||||j*||=O(b_m)矛盾。于是constant energy ring cutoffs。",
+      "dual cutoff coarea给separating primal circuits与oscillation bound，最大值原理给harmonic compactness。uniform relaxed variational envelope有lower/recovery和bounded-energy gluing；quadraticity/measure property给A(z)，neighbor grid circuits必须相交从而Sobolev coercivity，不要求face regularity。point germs/coordinate symmetries得同deterministic scalar A=A*=lambda I。",
+      "annular condenser capacities趋lambda C0，rotated discrete current的dual potential period恰为C_m，period energy lower bound给lambda≤1。另从canonical angular cochain a_m=(1/2π)∫darg构造alpha_m=a_m+dq_m，q_m是local recovery errors的partition gluing；period逐finite resolution精确保留为1，sharp weighted recovery energy≤lambda/C0。与同condenser current的signed pairing literal |Σdu_m alpha_m|=1，Cauchy给lambda≥1。故exact energy normalization。",
+      "fixed-area sphere interior excursion density只依赖increment block且uniform L2；加入全部array outputs仍保留同tilt。interval interiors覆盖除tour endpoint，point zero-capacity removability与target constant-nearpoint approximation补端点，并与同contour metric/dense projection/quantum area coupling保持一致。",
+      "finite graph centered inverse经rank-one det(Hhat+zqq^T)展开：coefficient source determinant为q(S)，Cauchy–Binet给two-forest sum，再按F=T\\e的b(F) extensions重组。Mullin tree cuts小侧tour intervals mass=ell/N、b_e=1+dual distance；condition schedule后primal/dual Dyck independent。negative distance L2∼M^-1/2乘nested primal cut count L2∼sqrt M给one-scale bound，grid与source min(M/N,m_f) interpolation求dyadic sum，产生map-measurable A_n。",
+      "Green bound使小quantum-mass source potential统一小，subtract后resolvent harmonic所以uniform compactness；variational minimization识别continuous resolvents，uniform approximate identity构造bounded-generator spatial separators，optional stopping给uniform exit与Aldous tightness。stationary nested resolvent multivariate Laplace transforms识别conditional path law，exact degree identity nL_n=−(1/2)mu_n^-1 H_n与lambda=1给time n。"
+    ],
+    "construction_ideas": [
+      {
+        "mechanism": "先构造具有精确整数period的cochain，再仅加single-valued gradient修正以降低能量；同一finite object保留literal非零pairing，之后才施解析Cauchy upper bounds。",
+        "source_anchors": [
+          "build/sections/04-energy.tex:645-722 (en:angular-recovery; alpha_m=a_m+dq_m)",
+          "build/sections/04-energy.tex:724-755 (en:reciprocity; exact signed pairing=1)",
+          "build/sections/02-inputs.tex:150-216 (inp:topology; integral winding/degree sign)"
+        ],
+        "premises": "canonical a_m来自projected integer winding，overlay mesh与cell closedness；q_m全局single-valued、local errors uniform→0，partition weights bounded energy且sum1；cochain closed区域必须覆盖同一condenser全部nonzero increments；primal/dual incidences和orientation exact。",
+        "possible_interface": "π方向最有结构针对性的条件设计：找一个integer-valued topological/algebraic functional I(D)=1，允许的analytic basis corrections落在I的kernel，从而同一个candidate minor/linear form保持非零而优化height或smallness。把nonzero证据先固定，再估计同一对象的column norms，类似这里pairing=1与energy bound共同约束lambda。",
+        "missing_bridge": "正文的pairing是cohomological current/cochain pairing，非Q(Z) row determinant；没有π、integer coefficients、q-denominators、Q(Z) rank或quadratic occupancy界。需新证候选rows的canonical integral class、correction kernel、共同basis、height代价和π-analytic pairing完全一致；这一步未构造。"
+      },
+      {
+        "mechanism": "rank-one Laplacian determinant的同一系数，以Cauchy–Binet转成非负two-forest squares，再polarize并精确计cut multiplicities，得到inverse bilinear identity。",
+        "source_anchors": [
+          "build/sections/06-green.tex:53-130 (gr:forest; gr:rank-one through gr:two-forest-bilinear)",
+          "build/sections/06-green.tex:147-193 (gr:tour-cut; b_e=1+D_e*)"
+        ],
+        "premises": "finite connected multigraph、integer incidence matrix去一row、positive unit conductances；q/r总和零；同一个reduced H=BB^T和tau=det H；Cauchy–Binet source determinant经leaf elimination为±q(S)，每forest的tree extensions数b(F)必须保留。",
+        "possible_interface": "检视candidate common bases时可尝试把Gram/minor determinant表示成同一integer incidence matrix的forest/minor sum，利用positive squares给rank与nonzero的独立certificate，再以相同expansion组织column height/occupancy估计。也可把normalizing denominator tau在algebraic与analytic两侧显式清除，避免换掉determinant。",
+        "missing_bridge": "π approximation rows目前没有graph incidence/total-unimodularity或forest parameterization，source vectors未必centered；positive Gram determinant只给Euclidean rank，不能自行升级为Q(Z)rank、uniform integer lower bound及π smallness。需要同一matrix的representation和定量规模控制，本文不提供。"
+      },
+      {
+        "mechanism": "连续目标的variational convergence不足以控制稀疏质量source；单独构造uniform small-mass inverse estimate，再把inhomogeneous对象拆为small potential+harmonic part。",
+        "source_anchors": [
+          "build/sections/06-green.tex:324-483 (one-scale bound, source interpolation, rho<1/2 dyadic sum)",
+          "build/sections/07-dynamics.tex:134-213 (uniform resolvent convergence; localized q_n)"
+        ],
+        "premises": "all bounded centered sources同时受同一个map-measurable A_n控制；fixed-size law的conditional Dyck independence、one-scale second moment与small-side mass interpolation；A_n tight必须保留在同一joint extraction，最终pathwise sup A_n有限。",
+        "possible_interface": "若column height/degree与quadratic occupancy只控制典型columns，另设对exceptional/sparse coefficient support的inverse or operator-norm estimate，再作small-error+structured-rank分解；强调same object、uniform-over-source quantifier，避免只对每fixed row的估计替代所有rows的rank保障。",
+        "missing_bridge": "mass、Green operator与Q(Z) rows无现成对应；sparse support不等于height小，期望/概率控制不能直接推出deterministic π分母序列。需显式candidate operator与uniform arithmetic sparse-error bound；仅作为远域construction clue保留。"
+      }
+    ],
+    "limits": [
+      "完整source首读并不独立验证此random walk theorem或其companion metric/conformal papers；numerical-array conditional transfer、nondegeneration local germ步骤和all-point annular lemma等作为稿件论证阅读，未重证外部dependencies。",
+      "该稿不讨论π或Diophantine approximation；以上候选接口都需新增arithmetic/common-basis/height/analytic桥，不推出π的BA/nonBA，q²|π−p/q|目标仍未证明。",
+      "exact period=1是本文finite cohomology pairing identity，不是已获得同一个nonzero integer determinant；all-minors source denominator和finite-map probability estimates不能无桥转移至Q(Z) row rank、column heights或quadratic occupancy。",
+      "source closure：README目标linear-clock-random-walk-tree-weighted-planar-maps.pdf对应build/paper.tex；main依次input introduction、inputs、nondegeneration、energy、sphere、green、dynamics、bibliography；introduction再input history。全部11文字files与inline figures已读，无独立appendix或外置figure文件。"
+    ]
+  },
+  {
+    "position": 45,
+    "family_id": "247",
+    "title": "An infinite finitely presented periodic group",
+    "pdf_path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/paper.pdf",
+    "directory_tree_sha": "d7405d130b128f90296dcaa26ce92bac88a1a176",
+    "status": "full_body_read",
+    "main_source": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/README.md",
+        "sha": "757a9e1cee1eed6e150a36cb66a4bcb7581a7313",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/README.md",
+        "source_bytes": 585,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/figures/encoded-block.tex",
+        "sha": "535ec163b3898b3714186434380b4a3aeb56c2c9",
+        "total_lines": 27,
+        "read_ranges": [
+          [
+            1,
+            27
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            27
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/figures/encoded-block.tex",
+        "source_bytes": 1090,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/paper.tex",
+        "sha": "3df3cc9d09211c25a626d33ea2041c22d0173f5d",
+        "total_lines": 312,
+        "read_ranges": [
+          [
+            1,
+            312
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            312
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/paper.tex",
+        "source_bytes": 15809,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/references.tex",
+        "sha": "b4b60336368d4012fab7e10082cf66828bcf28a8",
+        "total_lines": 159,
+        "read_ranges": [
+          [
+            1,
+            159
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            159
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/references.tex",
+        "source_bytes": 5762,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/cancellation.tex",
+        "sha": "b52ff630b3a50878ee59f3d7a0e3cf70d0d38bdb",
+        "total_lines": 609,
+        "read_ranges": [
+          [
+            1,
+            609
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            310
+          ],
+          [
+            311,
+            609
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/sections/cancellation.tex",
+        "source_bytes": 27176,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/finite-presentation.tex",
+        "sha": "bca8a8897e8cf6f34abcc18b168835b16a2cfb05",
+        "total_lines": 477,
+        "read_ranges": [
+          [
+            1,
+            477
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            477
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/sections/finite-presentation.tex",
+        "source_bytes": 19150,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/finite-rules.tex",
+        "sha": "7ba23dba6390e947e121c2d86dffc3cbf6a636f0",
+        "total_lines": 1047,
+        "read_ranges": [
+          [
+            1,
+            1047
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            350
+          ],
+          [
+            351,
+            700
+          ],
+          [
+            701,
+            1047
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/sections/finite-rules.tex",
+        "source_bytes": 52936,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/kernel-torsion.tex",
+        "sha": "c6e5ec1583df44b5fc00d8b284e1b19b5637f57a",
+        "total_lines": 520,
+        "read_ranges": [
+          [
+            1,
+            520
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            280
+          ],
+          [
+            281,
+            520
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/sections/kernel-torsion.tex",
+        "source_bytes": 21829,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/build/sections/stability.tex",
+        "sha": "9f7f9144c795626ae536274e0d18da6725ff439d",
+        "total_lines": 711,
+        "read_ranges": [
+          [
+            1,
+            711
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            360
+          ],
+          [
+            361,
+            711
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_23/45/build/sections/stability.tex",
+        "source_bytes": 30850,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "scope_note": "Actual complete source reading, including every mapped body/figure/reference line. Reading does not certify theorem correctness.",
+    "sections_read": [
+      "README、build/paper.tex全部（含摘要、主定理、property(T)推论、Burnside/代数问题背景、four obligations及组织），全部preamble宏；encoded-block图的所有节点与caption。",
+      "finite-rules全部：word replacement class基；有限位串字母表与structure/checker/transaction语法；双slot committed side、acquisition/release、三寄存器可逆read/undo tours、semantic zeros；context ownership、correct verification、arbitrary forged-state rollback；addressable NAND tableau、Kleene fixed point、h0选择；clean faithful simulation、arbitrary-word bounded fragments/cuts/isolated token normalization、distinct-color eligible runs。",
+      "cancellation全部：letter/chunk tests与segmentation multiplicity；char2 alternating matrix sum、first eligible-run自由chunk permutation orbit；cut identity、prefix-state weighted automaton、dimension growth和有限level termination；central z按factor count提取系数证明每个M_l(I) nil；无限维nonunital finitely presented nil/radical algebra与unitization algebraicity推论及无共同指数限制。",
+      "finite-presentation全部：有限root generators length≤2和有限relators；three-factor commutator identity；positive splits/intermediate-index connected graph；先commutation再involution/empty inputs的word-length induction；polynomial roots与two-sided algebra ideal quotient；perfectness、infinite elementary image、all matrix groups periodic。",
+      "stability全部：frame completion与independence complex homology/simple connectivity；≤5-coordinate matrix presentation；faithful strips给central kernel n≥6；GL/E稳定；locally finite central Q-extension唯一分裂；root lifts/central extension/Hom(J,Q)/H2自然对应；unordered-frame orientation signs使l=2,3,4 stabilizer homology为零；double-complex chain elimination给standard H2 stabilization n≥12和rational dual extension。",
+      "kernel-torsion全部：abelian rational detection、ground field J_n(F2) torsion、exact coordinate permutation/block-root actions、inner triangular faithfulness；cyclic wrap strip figure、N>2(m+1)max(1,d) support bounds、exact W(C_N)=W(S_N)；power-of-two cyclic unipotence→u^N而truncated→u(0) torsion，rational extension将torsion降至rank12；property(T)外部输入与nonamenability。",
+      "references.tex全部159行，所有24项文献及其版本/locator（来源本身未独立核对）。"
+    ],
+    "claim_as_stated": "构造同一个无限有限呈示graded unital F2-algebra R=F2⊕I，其中每个有限矩阵M_d(I)的每个元素都nilpotent（无共同index）；G=St_12(R)是普通有限呈示、无限、periodic的group，且property(T)、nonamenable。I作为nonunital algebra普通有限呈示、无限维、nil且Jacobson radical但非nilpotent；R有限呈示、无限维且algebraic。所有elementwise性质由有限relations导出，不额外添加variety identities；不宣称bounded group exponent。",
+    "proof_architecture": [
+      "仅level0有限homogeneous binomial/zero word relations。上层letter编码为q_h core+q_h palette+stop，bounded local reversible verifier以addressable accepting tableau检查下一层rule；Kleene fixed point使table-membership program自模拟，D先定、h0后定。clean blocks的ownership/committed slots确保任意替换只模拟真正upper relations，非零可反复编码成任意高degree。",
+      "arbitrary words不假定从clean可达：完整forged full-head states必须可rollback至acquisition或显式zero；非zero迫使release。语法与known-endpoint unary zeros限制headless fragments；letter-recognized cuts给唯一bounded-end token decomposition，isolated token normalization至≤k个upper letters；所有长非零word含long distinct-color eligible palette run。",
+      "在characteristic2，m>d²个numerical d×d matrix的全排列和是alternating multilinear并为零。按color-erased word选首long run，固定跨端chunks、自由排列完整chunks，所有words有同一algebra image，segmentation与identifier multiplicity保留，故每个orbit矩阵权和零。cut reduction及prefix automaton将fixed test推至更大palette，D>10(c+1)(k+1)保证palette增长快过dimension²，有限层后反向传vanishing。",
+      "对任意T∈M_l(I)以finite nonempty word expansion，用K=F2(z)给每chunk乘central z；eventual word-length cancellation先得P_n(z)=0，scalar extension injective后提[z^a]，T^a=Σ_{n=a}^{ab}[z^a]P_n=0。nonzero degrees无限给R无限，positive-degree presentation给I有限呈示和上述nil/radical/algebraic后果。",
+      "有限群呈示用length≤2 roots和ring relators，spare coordinates构造所有word roots，验证split/index independence、all commuting roots、involutions及empty-word products，再由additivity得到全部Steinberg relations和two-sided ideal closure。R无限使E_n无限；matrix-nil和finite GL_n(F2) quotient使GL_n(R) periodic，尚须J_n torsion。",
+      "frames的finite labeled independence complexes给homology/simple connectivity，small-coordinate full matrix presentation与faithful rectangular strips把matrix action提升为Aut(St)，所以J_n central。Q-central extensions在locally finite unipotent subgroups唯一分裂，root relations提升；自然识别Hom(J_n,Q)与H2(E_n;Q) dual。unordered frame orientation的transposition在Q上为−1，杀l=2..4 stabilizers；double-complex消元保留标准inclusion，n≥12使任意rational hom extend。",
+      "grading R→R[t]将kernel word连接u(1)=u和ground-field u(0)。N大于显式word support bound时，cyclic与truncated shift substitutions之差全部收集于disjoint-endpoint faithful strip，matrix image=1迫使同一Steinberg word equality。N取2-power，cyclic conjugate upper-unipotent给stabilized u^N，truncated给field-kernel torsion。Q-dual extension降回rank12，abelian rational detection给J_12 torsion，最后lift group periodic。"
+    ],
+    "construction_ideas": [
+      {
+        "mechanism": "有限局部规则必须同时控制clean起点和任意伪造中间态；以可逆rollback或显式zero消除后者。",
+        "source_anchors": [
+          "build/sections/finite-rules.tex:472-616 (context,verification,rollback)",
+          "build/sections/finite-rules.tex:840-1047 (faithful simulation/arbitrary-word token normalization)"
+        ],
+        "premises": "需显式finite alphabet/local syntax、transaction ownership、固定payload的可逆tour、在所有可表示register tuples上保留edge，semantic zero不能删去rollback edge；known-endpoint unary tests须独立于缺失neighbor。",
+        "possible_interface": "若未来Q(Z)候选row由递归/automaton生成，可借此分离：合法seed生成的row非零/independent性，与所有可能path/partial state都保持integrality、height、同一determinant identity。把证明不变量编译成局部certificate并处理forged state，防止只验证规范构造路径却漏掉正规化后的任意states。",
+        "missing_bridge": "本文characteristic2 word algebra和unbounded simulation scale没有给integer rational-approximation rows、Q(Z) row rank、column height或q²|π−p/q|估计；需要新构造使局部certificate控制实际同一非零整数determinant及解析smallness。当前只是结构方法，未转移。"
+      },
+      {
+        "mechanism": "用额外central indeterminate分离不同计数，先在field extension证明整体vanishing，再凭injectivity逐系数返回原对象。",
+        "source_anchors": [
+          "build/sections/cancellation.tex:446-535, especially ca:length-polynomial/ca:power-coefficient"
+        ],
+        "premises": "每个fixed test有限支撑、chunk labels非空且有统一finite length bound b；R[z]→F2(z)⊗R injective；eventual vanishing适用于同一个含z test，而不是每个z单独取变化threshold。",
+        "possible_interface": "在候选common-basis determinant construction中可用形式variables分别追踪column degree、coefficient height contribution和quadratic occupancy，要求同一generating identity逐coefficient取出的项仍对应同一个integer minor。此法提醒将factor count和word/degree count分开，避免从总和小或总和零误推每层。",
+        "missing_bridge": "这里所得是char2 exact zero和nilpotence，通常会消灭nonzero minor，不能直接供π的integer lower bound。须另证所取coefficient非零、统一Q(Z)rank及专门analytic bound；未给出任何这类桥。"
+      },
+      {
+        "mechanism": "不同realizations的误差先收集到一个map-faithful子对象，再以共同image identity证明source层exact equality。",
+        "source_anchors": [
+          "build/sections/kernel-torsion.tex:179-267 (triangular faithfulness/evaluation)",
+          "build/sections/kernel-torsion.tex:274-395 (wrap-removal; N>2(m+1)δ)",
+          "build/sections/stability.tex:696-711 and kernel-torsion.tex:468-481"
+        ],
+        "premises": "correction source/target bands在全过程不交；每次conjugation只扩张δ、无opposite roots、有限m；faithful strip而非仅matrix quotient；rational dual extension精确保留standard inclusions，且kernel已central/abelian。",
+        "possible_interface": "对于同一integer determinant与analytic linear form的两种basis计算，先找一个受控error module，证明evaluation map在该module injective，从而获得exact same-object identity；类似rational-dual延拓可作为common-basis/rank transport需要的自然性检查。",
+        "missing_bridge": "Steinberg root strip injectivity与Q(Z) polynomial-row evaluation没有既成对应；rational-dual extension不提供定量denominators/height或determinant lower bound。需为具体π rows构造faithful error module并证定量bounds；不假定成立。"
+      }
+    ],
+    "limits": [
+      "这是pinned source的完整首读记录，非对声称解决finitely presented Burnside/nil问题的独立证明验证；引用定理、local rule table exhaustiveness、frame/homology chain arguments未独立重建。",
+      "全文无π、Diophantine approximation或badly approximable主张；上述跨域ideas只保留条件接口与缺桥，不能推出π是否BA或nonBA，q²|π−p/q|目标仍未证明。",
+      "characteristic2 permutation cancellation依赖exact zero，与需要同一nonzero integer determinant的目标方向可能冲突；matrix tests任意dimension≠Q(Z) row rank/height/occupancy theorem。",
+      "Source closure按README目标paper.pdf对应build/paper.tex及其全部inputs映射；included figure同时完整阅读，正文inline correction-strip figure也在kernel-torsion区间内阅读。无未读text dependencies；PDF binary不作为独立body来源重复计数。"
+    ]
+  }
+]

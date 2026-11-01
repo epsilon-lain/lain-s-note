@@ -1,0 +1,138 @@
+{
+  "position": 50,
+  "reader": "r03_50_rest",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "pdf_path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/v126-proof.pdf",
+  "source_files": [
+    {
+      "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+      "sha": "f1589f2633b91a2aedbb61105dd94ccacc1ae325",
+      "total_lines": 1673,
+      "read_ranges": [[1, 1673]],
+      "actual_read_ranges": [[1, 330], [331, 660], [661, 990], [991, 1320], [1321, 1673]],
+      "bytes": 89717,
+      "cache_path": "source_context/fullread_round03_27/50/build/sections/05-degree.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+      "sha": "2605ba1950559b0476dfabbd6b78f4e5decf30f2",
+      "total_lines": 1363,
+      "read_ranges": [[1, 1363]],
+      "actual_read_ranges": [[1, 340], [341, 680], [681, 1020], [1021, 1363]],
+      "bytes": 70818,
+      "cache_path": "source_context/fullread_round03_27/50/build/sections/06-transfer.tex",
+      "cache_git_blob_sha_verified": true
+    }
+  ],
+  "sections_read": [
+    "05-degree.tex in full: controlled measured bands and Stokes; measured degree and coordinate descent; pressure-law least minimizers on noncompact leaves; Borel dependence, confinement and local BV/varifold/graph compactness; ordered lapse and coarea; boundary-current degree; low-dimensional children; high-dimensional target gaps, marked-set covers, two-moment potentials, complete auxiliary graph solves and degree-preserving regular children; exact volume cancellation and induction.",
+    "06-transfer.tex in full: flat sheet neighborhood and cutoff detector form; cubical cocycle and one common finite-type unbiased kernel rounding; integer dual current and doubling; invariant reflected states, smooth measured resolution, local original-side current identity, metric upper density and frame homotopy; controlled comparison band, convolution periods and compatible primitive; anisotropic lengths, correlated rotation average, seam bound, noncircular parameter choices, conditional entropy contract and final scalar-volume/integral theorem."
+  ],
+  "claim_as_stated": "Section 05 claims an absolute-loss measured degree inequality with separate coordinate lengths, valid for controlled incomplete measured bands in all dimensions. Section 06 uses it to claim ||M|| <= C_n Vol_g(M) for closed oriented n-manifolds with Scal_g = -1, then invokes the Yamabe reduction to obtain integral_M (Scal_g^-)^(n/2) dV_g >= a_n ||M|| for a dimension-only a_n > 0.",
+  "proof_architecture": [
+    "A canonical nested family of weighted-perimeter least minimizers supplies, at almost every parameter, a positive smooth normal speed v satisfying the lapse equation. Its exact scalar identity gives a v/L_1 factor, and monotone-column change of variables bounds its integrated coarea by parent volume even when the ordered family has jumps.",
+    "The closed boundary current retains degree across singular sets. In high dimensions, a small parent perturbation opens a target gap near points not recognized by finitely many regular graph tests. The p-7 singular-dimension bound permits covers with exponent alpha=p-13/2; the alpha and alpha+4 potentials are both superharmonic because alpha+4<p-2. Their scalar reserve pays successive graphs and exactly 2 log of the entire graph-volume factor. A complete conformal auxiliary region permits the solves, while the retained child lies where the original induced metric is unchanged.",
+    "Distance-two label coloring gives a Hausdorff flat sheet neighborhood without confusing reused colors. A single finite type vector contains all relevant cell coefficients. Rounding in the joint integer incidence kernel preserves every coupled cocycle equation and duplicate-slot equality, with exact conditional expectations and a uniform common denominator D_0.",
+    "A doubled signed cubical diagram is resolved through measure-preserving reflected pairing states with independent subset bits. Signed square-root charts give smooth leaves and an original-side local pushforward identity. The upper coordinate-volume density is fixed before shrinking the seam; inverse metric, curvature, frame rotation and comparison width are bounded only afterward.",
+    "The q-dimensional comparison degree has rounding expectation D_0 I. Matching primal-cell periods identify the smoothed dual current with the detector pairing using a face-compatible cubical primitive and mollification, including maps meeting grid faces. Tangent length b_* sqrt(E) and normal length b_* sqrt(qE) cancel all E powers and the tangent auxiliary volume. A joint rotation/axis-set Cauchy-Schwarz bound permits correlated form components and row norms. The shift average bounds the thin seam before a dimension-only elementary energy contract is fixed and supplied by the entropy theorem."
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Round one shared finite configuration inside the full integer relation kernel.",
+      "precise_hypotheses": "All locally used values are entries of one finite ordered vector; every required incidence and duplicate-value relation is an integer linear row with a uniform entry bound; the number of types and a maximal-minor bound for an integer kernel basis are controlled.",
+      "mechanism": "Choose a maximal pivot minor, clear its determinant to obtain a bounded integer kernel basis, and round the basis coefficients with unbiased adjacent choices at one common denominator. Every cell reads the same rounded vector, so closure equations remain exact even when their faces use different anchors. Conditional expectations and an entrywise error budget survive simultaneously.",
+      "possible_bridge": "Conditional arithmetic interface: encode all shared rows and candidate common-basis data in one finite type vector, and preserve every proved integer linear consistency constraint under a common rounding parameter. This could prevent different local constructions from silently using incompatible witnesses.",
+      "missing_step": "Determinant nonvanishing, common-basis membership, column-height cost and quadratic occupancy are not merely linear incidence constraints. Unbiasedness does not preserve a nonzero minor or a nonlinear cost. One selected normalized integer determinant still needs a joint nonzero certificate and analytic upper bound below one; row rank over Q(Z) alone does not provide it.",
+      "source_anchors": [
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 243,
+          "label": "lem:transfer-rounding"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 318,
+          "label": "all bounded integer zero rows on one shared type vector"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 334,
+          "label": "pivot minor, determinant clearing and Hadamard bound"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 342,
+          "label": "common unbiased kernel rounding and equivariant reuse"
+        }
+      ]
+    },
+    {
+      "idea": "Pay a transformation's exact total expansion through the same logarithmic reserve used in its invariant density.",
+      "precise_hypotheses": "A positive lapse gives an exact slice identity and coarea inequality; singular strata admit a target gap and small-capacity covers; scalar reserves remain positive after all weight cross-terms; every graph gain contains 2 log of its own volume factor; degree survives the full-current and regular-region homotopies.",
+      "mechanism": "Two positive kernel moments supply scalar gain near the marked singular region. One graph locates that region and subsequent graphs push its residual target values out of the child. The accumulated gain contains 2 log W for the full product W of graph-volume factors. Exponentiation cancels W exactly and leaves v/L_1, which coarea consumes; neither W nor v is bounded individually.",
+      "possible_bridge": "Conditional interface: seek an arithmetic move ledger for one common-basis witness in which the exact full column-height and quadratic occupancy charge appears with the coefficient required to cancel the analytic normalization. A positive reserve could then pay a localized rank-defect repair without replacing total cost by independent additive estimates.",
+      "missing_step": "No arithmetic lapse/coarea identity, positive reserve, capacity bound or determinant-preserving repair is provided. Combining or repairing witnesses can change the integer determinant and increase nonlinear occupancy. The same integer minor must remain both nonzero and analytically small after every operation.",
+      "source_anchors": [
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+          "line": 263,
+          "label": "eq:degree-slice-identity"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+          "line": 1001,
+          "label": "target-gap construction before singular-region graph modifications"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+          "line": 1164,
+          "label": "eq:degree-moments and subsequent weight reserve"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/05-degree.tex",
+          "line": 1620,
+          "label": "eq:degree-integrand-cancellation"
+        }
+      ]
+    },
+    {
+      "idea": "Budget anisotropic normalization and correlated selection costs in one conditional estimate before constructing the amplifying instance.",
+      "precise_hypotheses": "Tangent and normal directions have known different volume contributions; a dimension-only Hilbert norm controls form components; rotated row energies have a uniform exponential moment; a seam has an upper density bound fixed before its width; all later inverse, curvature and width costs admit a uniform elementary envelope.",
+      "mechanism": "Lengths L_T=b_*sqrt(E) and L_N=b_*sqrt(qE) cancel tangent volume and E powers, leaving q^(-n/2). Joint Cauchy-Schwarz over the same rotation and axis sets bounds the correlated form/row contribution by q^(n/2), without independence. A preexisting upper density makes the seam mass linear in its width; only after choosing that width are inverse constants and the energy threshold fixed.",
+      "possible_bridge": "Conditional interface: formulate one common-basis selection estimate with the actual column normalizations and full quadratic occupancy on the same configuration, using a joint moment bound if available. Separate coarse upper-cost bounds from inverse/rank constants so that a later amplification threshold is fixed without circular dependence.",
+      "missing_step": "No distribution of arithmetic common bases with the needed joint exponential moments or exact normalization cancellation has been established. Separate averages of rank and small cost do not select the same witness. Formal row rank over Q(Z), denominator clearing and asymptotic parameter growth do not prove nonzero evaluation and analytic smallness of one integer determinant at the target relevant to pi.",
+      "source_anchors": [
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 694,
+          "label": "upper density fixed before collar width and inverse estimates"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 989,
+          "label": "eq:transfer-lengths and eq:transfer-prefactor"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 1180,
+          "label": "eq:transfer-form-average, joint correlated Cauchy-Schwarz"
+        },
+        {
+          "path": "preprints/An-integral-scalar-curvature-bound-for-real-simplicial-volume-October-5-2026/build/sections/06-transfer.tex",
+          "line": 1285,
+          "label": "parameter order closing the conditional transfer contract"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Every line of the two assigned remaining files was displayed untruncated in the recorded consecutive chunks and read: 3,036 lines and 160,535 bytes. Exact cached Git blob identities match batch_27 at the pinned commit. The base receipt already records the other eight source files as read; an in-memory reading.py merge gives complete mapped closure of 10 files, 6,764/6,764 lines, 318,629 bytes, with no unread ranges. This continuation writes only its JSON and Markdown receipt; it does not rebuild or edit the ledger, base records or publication state. Coverage is source reading, not independent theorem verification.",
+  "limits": [
+    "Complete source reading assembled with batch_27 does not independently verify the measured geometric-measure-theory, elliptic, descriptive-set-theory, resolution or bounded-cohomology arguments or their cited inputs. No rendered PDF check is claimed.",
+    "The imported companion theorem that nonnegative scalar curvature forces real simplicial volume to vanish remains an external dependency of the Yamabe reduction. The final constant is existential and dimension-only after the entropy contract is fixed; no numerical value is computed.",
+    "Measured degree can be real after clearing chain coefficients by D_0. Its expectation identity is a pairing identity, not an integer nonvanishing certificate for each realization. Children in the descent are chosen separately at typical parameters; only the common measurable parent integral is integrated.",
+    "Small singular or seam regions require the explicit target-gap, cover/capacity, upper-density and parameter-order arguments. Generic regularity, independent averages, or uncontrolled inverse constants cannot replace them.",
+    "All proposed arithmetic interfaces are conditional. No common-basis construction controlling row rank, column heights and quadratic occupancy jointly has been proved here. The BA/nonBA status of pi and the required same-integer-determinant nonzero/smallness bridge remain unresolved. The geometric q is an auxiliary dimension, not a rational approximation denominator."
+  ],
+  "independent_proof_verification": false
+}

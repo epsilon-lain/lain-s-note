@@ -3,6 +3,6 @@
   "queue_size": 721,
   "first_round_disciplines": 17,
   "supplementary_directories": 30,
-  "unsupported_full_labels_rejected": 3,
+  "unsupported_full_labels_rejected": 4,
   "scope": "Ledger consistency only; cannot mechanically prove that text was understood."
 }

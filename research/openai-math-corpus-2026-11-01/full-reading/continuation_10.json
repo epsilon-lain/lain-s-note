@@ -1,0 +1,214 @@
+{
+  "position": 46,
+  "reader": "root_round03_charged",
+  "source_files": [
+    {
+      "path": "build/figures/charged-region.tex",
+      "sha": "5d8e6b0d5ac00d91def2f867ac33b56a44c00009",
+      "total_lines": 23,
+      "read_ranges": [
+        [
+          1,
+          23
+        ]
+      ]
+    },
+    {
+      "path": "build/modules.tex",
+      "sha": "3d35c28994fca60fcc741dd8bb813d9a2140d846",
+      "total_lines": 52,
+      "read_ranges": [
+        [
+          1,
+          52
+        ]
+      ]
+    },
+    {
+      "path": "build/paper.tex",
+      "sha": "3d40831ad116ed88d2b81b7160e0b132582ed580",
+      "total_lines": 33,
+      "read_ranges": [
+        [
+          1,
+          33
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged-extensions.tex",
+      "sha": "79f70b91f690cc8e8e3f60822cef8c8ba6dc47e2",
+      "total_lines": 235,
+      "read_ranges": [
+        [
+          1,
+          235
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/01-introduction.tex",
+      "sha": "fbc3a9b822d95fb0e3f6994daeab988e8949b3a4",
+      "total_lines": 21,
+      "read_ranges": [
+        [
+          1,
+          21
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/02-preliminaries.tex",
+      "sha": "40191f5a42ba20d0dc2c4fda90646235d706f09b",
+      "total_lines": 197,
+      "read_ranges": [
+        [
+          1,
+          197
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/03-rest.tex",
+      "sha": "11f41c5baae415ff72e7e63f187dd95052c75605",
+      "total_lines": 434,
+      "read_ranges": [
+        [
+          1,
+          434
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/04-preparation.tex",
+      "sha": "98197b4f9fbd14596774d1fe3814256609b325c4",
+      "total_lines": 265,
+      "read_ranges": [
+        [
+          1,
+          265
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/05-elliptic.tex",
+      "sha": "511b33c3329bd7d3794f603c0d49d65163a573be",
+      "total_lines": 368,
+      "read_ranges": [
+        [
+          1,
+          368
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/06-comparison.tex",
+      "sha": "fd92023ebe8d61f49f75582b13cb1be9dcc29e8c",
+      "total_lines": 242,
+      "read_ranges": [
+        [
+          1,
+          242
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/07-mass.tex",
+      "sha": "72ae9f586880ec3dd5a5bd96aace82b9b48e9cd3",
+      "total_lines": 115,
+      "read_ranges": [
+        [
+          1,
+          115
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/charged/sections/08-conclusion.tex",
+      "sha": "6a7a2dd624689f6a2c1be3e8fb072f0d45211ec2",
+      "total_lines": 127,
+      "read_ranges": [
+        [
+          1,
+          127
+        ]
+      ]
+    }
+  ],
+  "sections_read": [
+    "Root/modules include map reread",
+    "Charged sections01–08, every line",
+    "charged-extensions electric rest branch and finite-end cut comparison, every line",
+    "Full charged-region TikZ/caption"
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Preserve the observable exactly while eliminating only a direction proved invisible to it.",
+      "precise_hypotheses": "Two closed flux forms with a fixed total charge vector, a constant SO(2) rotation, and a pointwise graph-norm square completion. The intended observable is the total charge across the full enclosing cut, not separate charges on every component.",
+      "mechanism": "Rotate total charges to (Q,0), keep the first rotated form and discard the second zero-total-charge form, then inverse-rotate. Both original total charges and closedness survive exactly, while the discarded square is nonnegative. This is sufficient for the Riemannian comparison and does not preserve all local fields or component charges.",
+      "possible_bridge": "Speculative interface: compress row/column data only after proving the discarded directions lie in the kernel of the actual determinant/coefficient observable. Distinguish preservation of one full common constraint from preservation of each marginal component. Track the positive form under the same transformation.",
+      "missing_step": "A real orthogonal rotation generally destroys integer lattices and coefficient heights. A common integer determinant need not factor through a total-charge-like linear observable. A usable analogue requires rational or unimodular maps, an exact factorization identity, and explicit denominator and occupancy costs.",
+      "source_anchors": [
+        {
+          "path": "build/sections/charged/sections/06-comparison.tex",
+          "line": 134,
+          "label": "ch:cmp:charged-comparison"
+        },
+        {
+          "path": "build/sections/charged/sections/06-comparison.tex",
+          "line": 186,
+          "label": "ch:cmp:field-square"
+        },
+        {
+          "path": "build/sections/charged/sections/06-comparison.tex",
+          "line": 204,
+          "label": "ch:cmp:new-flux-forms"
+        }
+      ]
+    },
+    {
+      "idea": "Keep error estimates uniform only in parameters that are actually sent to infinity at that stage.",
+      "precise_hypotheses": "Strict prepared data, collars and weights fixed first; fixed ε, then n; exhaustion R→∞ at fixed n; polynomial penalty/coercivity and an explicit integrated flux bound independent of possibly large fixed-n classical regularity constants.",
+      "mechanism": "The energy error is bounded by C(1+n)^N(ℓ+ℓ²/τ0), with ℓ=e^(-εn) and τ0=ℓ^(3/2), so polynomial losses are dominated by exponential smallness. Only numerical bounds are passed through n→∞, ε↓0 and the final data approximation; no n-limit metric is asserted.",
+      "possible_bridge": "Speculative interface: record separately polynomial losses in rank/differentiation and arbitrary constants attached to a fixed configuration. A determinant contradiction needs a final smallness estimate in which only controlled losses occur; avoid accidentally inserting a fixed-n existence bound into a growing-n asymptotic.",
+      "missing_step": "The project has not proved a comparable arithmetic flux/trace estimate independent of all uncontrolled constants. An exponential symbol is useful only with justified parameter order and a preserved same integer witness. No source PDE existence theorem supplies that arithmetic estimate.",
+      "source_anchors": [
+        {
+          "path": "build/sections/charged/sections/05-elliptic.tex",
+          "line": 1,
+          "label": "ch:ell:section"
+        },
+        {
+          "path": "build/sections/charged/sections/07-mass.tex",
+          "line": 77,
+          "label": "ch:mass:vanishing-error"
+        }
+      ]
+    },
+    {
+      "idea": "Compare whole admissible competitor classes directly, so neither infimum attainment nor a geometric limiting object is required.",
+      "precise_hypotheses": "A chosen end, full smooth enclosing cuts with coincident obstacle frontier counted, finitely many ends, conserved flux and the monotone branch r>=|Q|.",
+      "mechanism": "Removing distant tails creates strictly trapped inner spheres. Every retained one-ended full cut is also a designated-end cut of the original manifold, so a_R>=a0 directly. Monotonicity of (r+Q²/r)/2 on the stated branch transfers the bound without taking the tail radii to infinity.",
+      "possible_bridge": "Speculative interface: prove inclusion of actual feasible common-basis/minor certificate sets under a reduction before comparing optimal full costs. A direct set comparison can avoid relying on a limit or relaxed optimum being attained by an integer configuration.",
+      "missing_step": "Deleting supports can remove every full-rank common basis. Inclusion and witness preservation must be proved for the real candidate sets, and the quadratic occupancy objective must be monotone in the appropriate direction. Separate per-block optima cannot replace one common optimum.",
+      "source_anchors": [
+        {
+          "path": "build/sections/charged-extensions.tex",
+          "line": 124,
+          "label": "chext:thm:charged-electric-finite-ends"
+        },
+        {
+          "path": "build/sections/charged-extensions.tex",
+          "line": 207,
+          "label": "chext:eq:charged-area-under-tail-removal"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Complete actual reading of the charged module and its electric finite-end extension, not the rest of the large manuscript. All 12 receipt files match the pinned source SHA and line totals. Charged final numerical theorem is imported from companion ChargedOriginalData2026, not independently proved here. Charge preservation concerns total charges, not individual component charges; mass-lower-bound inversion requires r>=|Q|. No global Lorentz slicing or limiting metric as n→∞ is claimed.",
+  "limits": [
+    "Reading is not independent proof verification.",
+    "Other modules of position46 require separate readers; this continuation alone cannot support a whole-paper full label.",
+    "No arithmetic transfer or π approximation result is proved."
+  ]
+}

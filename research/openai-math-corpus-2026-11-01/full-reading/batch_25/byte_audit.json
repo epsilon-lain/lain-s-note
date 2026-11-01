@@ -1,0 +1,205 @@
+[
+  {
+    "position": 47,
+    "status": "passed",
+    "source_files": [
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/README.md",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/README.md",
+        "expected_sha": "dd80c82c9389e8de439aecca72af2484b8cf4bdc",
+        "actual_sha": "dd80c82c9389e8de439aecca72af2484b8cf4bdc",
+        "source_bytes": 648,
+        "total_lines": 18,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/data.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/data.tex",
+        "expected_sha": "8ade13083412adf3ba6ec52dc614bd653d561935",
+        "actual_sha": "8ade13083412adf3ba6ec52dc614bd653d561935",
+        "source_bytes": 7412,
+        "total_lines": 166,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/figures/cycle-charging.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/figures/cycle-charging.tex",
+        "expected_sha": "9b8c34018db418a549311377c023969a0d42ad7e",
+        "actual_sha": "9b8c34018db418a549311377c023969a0d42ad7e",
+        "source_bytes": 796,
+        "total_lines": 11,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/geometry.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/geometry.tex",
+        "expected_sha": "734c036903e09e55a033e6d13a39c9cb8272e102",
+        "actual_sha": "734c036903e09e55a033e6d13a39c9cb8272e102",
+        "source_bytes": 19042,
+        "total_lines": 374,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/introduction.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/introduction.tex",
+        "expected_sha": "673cc3c60fade31c71668544bbff3c174b064577",
+        "actual_sha": "673cc3c60fade31c71668544bbff3c174b064577",
+        "source_bytes": 10250,
+        "total_lines": 195,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/module.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/module.tex",
+        "expected_sha": "bbdd0e9cde63e29cb18bec43566ab379a30ba0bb",
+        "actual_sha": "bbdd0e9cde63e29cb18bec43566ab379a30ba0bb",
+        "source_bytes": 11064,
+        "total_lines": 313,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/paper.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/paper.tex",
+        "expected_sha": "1accb0585676736de8c5b478c9ce028a31247dee",
+        "actual_sha": "1accb0585676736de8c5b478c9ce028a31247dee",
+        "source_bytes": 814,
+        "total_lines": 29,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/preamble.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/preamble.tex",
+        "expected_sha": "06cb92c122c3bf711a2d427208d638c2842d3e0b",
+        "actual_sha": "06cb92c122c3bf711a2d427208d638c2842d3e0b",
+        "source_bytes": 1583,
+        "total_lines": 43,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/references.bib",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/references.bib",
+        "expected_sha": "b8b6e6506e407d0292b0800717b6e16ff2a3112d",
+        "actual_sha": "b8b6e6506e407d0292b0800717b6e16ff2a3112d",
+        "source_bytes": 10111,
+        "total_lines": 281,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/spectrum.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/spectrum.tex",
+        "expected_sha": "1d4bfa45cf123db3417608f5f9094ac362b94fd6",
+        "actual_sha": "1d4bfa45cf123db3417608f5f9094ac362b94fd6",
+        "source_bytes": 19730,
+        "total_lines": 499,
+        "passed": true
+      },
+      {
+        "path": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/trace.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/47/build/trace.tex",
+        "expected_sha": "e28ee43625b72b529b079af1c9fdcd0c43c3df40",
+        "actual_sha": "e28ee43625b72b529b079af1c9fdcd0c43c3df40",
+        "source_bytes": 3199,
+        "total_lines": 67,
+        "passed": true
+      }
+    ],
+    "scope": "Exact byte identity and line count only; no theorem validation."
+  },
+  {
+    "position": 49,
+    "status": "passed",
+    "source_files": [
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/README.md",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/README.md",
+        "expected_sha": "5d450500b16156b2537a55764204f8643131c373",
+        "actual_sha": "5d450500b16156b2537a55764204f8643131c373",
+        "source_bytes": 740,
+        "total_lines": 18,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/figures/slot-rearrangement.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/figures/slot-rearrangement.tex",
+        "expected_sha": "e32dce1e7fe43a0817cc7850df21413eedde8392",
+        "actual_sha": "e32dce1e7fe43a0817cc7850df21413eedde8392",
+        "source_bytes": 862,
+        "total_lines": 17,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/main.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/main.tex",
+        "expected_sha": "5ace96a48854c12e2878f30282467c5094417f76",
+        "actual_sha": "5ace96a48854c12e2878f30282467c5094417f76",
+        "source_bytes": 1849,
+        "total_lines": 60,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/references.bib",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/references.bib",
+        "expected_sha": "92d083daa70770a0cc4b9b7f2bce5bd0c261b2ec",
+        "actual_sha": "92d083daa70770a0cc4b9b7f2bce5bd0c261b2ec",
+        "source_bytes": 5451,
+        "total_lines": 168,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/01-introduction.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/01-introduction.tex",
+        "expected_sha": "fa380d88df8aaa6f09603dba183a4316874e2b18",
+        "actual_sha": "fa380d88df8aaa6f09603dba183a4316874e2b18",
+        "source_bytes": 8995,
+        "total_lines": 183,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/02-free-graph.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/02-free-graph.tex",
+        "expected_sha": "96c09b53e8dff554c30c9c0bf9ab787aaf197c1f",
+        "actual_sha": "96c09b53e8dff554c30c9c0bf9ab787aaf197c1f",
+        "source_bytes": 14082,
+        "total_lines": 357,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/03-triangular.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/03-triangular.tex",
+        "expected_sha": "83b1a64b684546b6caa1a8c2374c2100fe314b0b",
+        "actual_sha": "83b1a64b684546b6caa1a8c2374c2100fe314b0b",
+        "source_bytes": 6354,
+        "total_lines": 178,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/04-localization.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/04-localization.tex",
+        "expected_sha": "326b888921ed226ff515a044c99e44291825ac58",
+        "actual_sha": "326b888921ed226ff515a044c99e44291825ac58",
+        "source_bytes": 14660,
+        "total_lines": 395,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/05-hilbert.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/05-hilbert.tex",
+        "expected_sha": "5d61b03fac42d919e696abc9704bad6d8897ff50",
+        "actual_sha": "5d61b03fac42d919e696abc9704bad6d8897ff50",
+        "source_bytes": 22257,
+        "total_lines": 578,
+        "passed": true
+      },
+      {
+        "path": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/sections/06-assembly.tex",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/49/build/sections/06-assembly.tex",
+        "expected_sha": "4ae250986322bf3bd34d08013a6247c6c22ab648",
+        "actual_sha": "4ae250986322bf3bd34d08013a6247c6c22ab648",
+        "source_bytes": 1783,
+        "total_lines": 52,
+        "passed": true
+      }
+    ],
+    "scope": "Exact byte identity and line count only; no theorem validation."
+  }
+]

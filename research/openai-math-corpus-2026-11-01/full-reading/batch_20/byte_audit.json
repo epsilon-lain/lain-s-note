@@ -1,0 +1,293 @@
+[
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/README.md",
+    "sha": "a696504b2679ca568d1dc3387f2a97fd372ac283",
+    "source_bytes": 658,
+    "total_lines": 17,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/figures/rank-pairing.tex",
+    "sha": "ec6eb3a27cfa6e39e9a2093e567324c1f6d0c9a6",
+    "source_bytes": 907,
+    "total_lines": 21,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/main.tex",
+    "sha": "ec4d2a0f67cd877d95c6d7be7775a4e74844e844",
+    "source_bytes": 2123,
+    "total_lines": 62,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/references/references.bib",
+    "sha": "a9597413dcae2b816cdc0b6cd5c5973ddc7560b2",
+    "source_bytes": 9022,
+    "total_lines": 285,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/00-history.tex",
+    "sha": "bf56d6382eaa2b2cf9ea9dc2857ef186aed6aa3e",
+    "source_bytes": 5879,
+    "total_lines": 108,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/00-introduction.tex",
+    "sha": "dff808961a21003c48220d1e2132444d5a73e952",
+    "source_bytes": 7762,
+    "total_lines": 175,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/01-preliminaries.tex",
+    "sha": "bc79ec715624d17776041b67f04eb5c881a5a737",
+    "source_bytes": 11998,
+    "total_lines": 331,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/02-weighted-law.tex",
+    "sha": "99e0b6ebcbd43531d900cfdda3e1392db83685ef",
+    "source_bytes": 9906,
+    "total_lines": 284,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/03-escape.tex",
+    "sha": "0b2853f8829140e35f5d11c9ed9ee9b7d175f2c6",
+    "source_bytes": 11690,
+    "total_lines": 324,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/04-critical-pairing.tex",
+    "sha": "9fda0cbf5afa4b6fcf2049fc5010994b2b640134",
+    "source_bytes": 21756,
+    "total_lines": 483,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/05-transport.tex",
+    "sha": "171d192d979901ce1480c228ba8dbaa7d866a16b",
+    "source_bytes": 7147,
+    "total_lines": 193,
+    "verified": true
+  },
+  {
+    "position": 37,
+    "path": "preprints/Brennans-conjecture-and-sharp-inverse-square-integral-means-September-24-2026/build/sections/06-integrability.tex",
+    "sha": "e4b4ea3dad84791c19207675552a875c15027df3",
+    "source_bytes": 12357,
+    "total_lines": 337,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/README.md",
+    "sha": "287b854987f4524398cf962d26ae5c201af7e672",
+    "source_bytes": 580,
+    "total_lines": 18,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/figures/lens-slices.tex",
+    "sha": "e115a0c2395ffedbe2a9071ed37297a26daeaed6",
+    "source_bytes": 501,
+    "total_lines": 11,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/main.tex",
+    "sha": "aa6b4d485add006b51e88de2505f98de3eb4c7a4",
+    "source_bytes": 2184,
+    "total_lines": 61,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/references.bib",
+    "sha": "c2bbf7bc90f59422b88b4fa8cba0b94277457936",
+    "source_bytes": 9374,
+    "total_lines": 230,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/approximation.tex",
+    "sha": "8d41b8f9be801339f63810b774bd1331a506b06f",
+    "source_bytes": 9023,
+    "total_lines": 249,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/ball.tex",
+    "sha": "98356c5e7f8907defc41fe41ccb04c80f56ad065",
+    "source_bytes": 10278,
+    "total_lines": 274,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/history.tex",
+    "sha": "2b5e239d9119a67035b71a4a13f98ae5477140a6",
+    "source_bytes": 4411,
+    "total_lines": 80,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/introduction.tex",
+    "sha": "42a174c723dfb8322baaa7c123252a86d9529d0d",
+    "source_bytes": 5201,
+    "total_lines": 112,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/planar.tex",
+    "sha": "3663188b40c479c7bbab3d89cf5e9adc3c7655a3",
+    "source_bytes": 14689,
+    "total_lines": 362,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/sections/realization.tex",
+    "sha": "42caebf8acf274b56bda451eb9e23ce141152642",
+    "source_bytes": 7110,
+    "total_lines": 192,
+    "verified": true
+  },
+  {
+    "position": 38,
+    "path": "preprints/Symplectic-Balls-in-Symmetric-Polar-Products-September-22-2026/build/figures/lens-slices.pdf",
+    "sha": "4b6bea3d26f78d005c5e18c3a063eca2f1748dc9",
+    "source_bytes": 88238,
+    "total_pages": 1,
+    "read_pages": [
+      1
+    ],
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/README.md",
+    "sha": "1537520bf8daf8be14eb1597c02aba945c617d68",
+    "source_bytes": 610,
+    "total_lines": 18,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/figures/star.tex",
+    "sha": "03ddea8c5ada1f976f33ff7fc26a313610c8a3f7",
+    "source_bytes": 1067,
+    "total_lines": 18,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/main.tex",
+    "sha": "fd9b92e24c154b28865909dfacab5f028fba0941",
+    "source_bytes": 2621,
+    "total_lines": 82,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/references.bib",
+    "sha": "a76c50e3627fb4ec4a129aa1d672ff48fb7b14e2",
+    "source_bytes": 6949,
+    "total_lines": 199,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/analysis.tex",
+    "sha": "87a906d336c6ee7c49edd99adff2baf2ae25ed6c",
+    "source_bytes": 5458,
+    "total_lines": 128,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/conclusion.tex",
+    "sha": "1a95b6d15401f1a80c15fe5d6e96636fe7644cf1",
+    "source_bytes": 3346,
+    "total_lines": 81,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/decoding.tex",
+    "sha": "2410384b306c989fbfb1ac81e4743a2d40262bf1",
+    "source_bytes": 7463,
+    "total_lines": 182,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/graph.tex",
+    "sha": "26130ad49ddde9419fddd909ca52469291379b66",
+    "source_bytes": 14771,
+    "total_lines": 351,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/history.tex",
+    "sha": "b51166ce2c879be9192ee4813031a822db1ec4ab",
+    "source_bytes": 3929,
+    "total_lines": 67,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/introduction.tex",
+    "sha": "8bbe13595c5ce217086b897cbee3d17254f23faa",
+    "source_bytes": 7982,
+    "total_lines": 159,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/lists.tex",
+    "sha": "18d3d956bfeb1360dadeb386498cf936834cdef0",
+    "source_bytes": 17242,
+    "total_lines": 406,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/restriction.tex",
+    "sha": "032fa14ab56dfd7b0d32bc9b3a4e6bca49c7978b",
+    "source_bytes": 16181,
+    "total_lines": 355,
+    "verified": true
+  },
+  {
+    "position": 39,
+    "path": "preprints/The-Factor-Two-Hardness-Threshold-for-Vertex-Cover-September-23-2026/build/sections/source.tex",
+    "sha": "37921606460db5096fbcfed1ac4820826d78cc8d",
+    "source_bytes": 3165,
+    "total_lines": 75,
+    "verified": true
+  }
+]

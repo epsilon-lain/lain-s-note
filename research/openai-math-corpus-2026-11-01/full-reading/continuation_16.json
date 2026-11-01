@@ -1,0 +1,120 @@
+{
+  "position": 52,
+  "reader": "r03_52_08_11",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "main_source": "preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026/build/paper.tex",
+  "source_closure": "source_context/fullread_round03_29/52/source_closure.json",
+  "continuation_scope": "Assigned sections 08–11 only; complements batch_29 lead reading of root/references/01–07 and a separate reading of 12–15. This record does not independently certify the other segments or close queue position 52.",
+  "source_files": [
+    {
+      "path": "build/sections/08-split-measures.tex",
+      "sha": "63e6eeecdadc17e8666e04ed4a3758b5f516f212",
+      "total_lines": 468,
+      "source_bytes": 38130,
+      "git_blob_sha_verified": true,
+      "read_ranges": [[1, 468]],
+      "actual_read_ranges": [[1, 258], [259, 267], [268, 468]],
+      "read_note": "Initial numbered full-file display had a 352-token truncation within lines 260–266. A separate untruncated display of 259–267 recovered every affected line; no truncated passage remains in coverage."
+    },
+    {
+      "path": "build/sections/09-split-local.tex",
+      "sha": "a18d5eb0986412ccfa8084ed488bf977c19772cb",
+      "total_lines": 492,
+      "source_bytes": 63950,
+      "git_blob_sha_verified": true,
+      "read_ranges": [[1, 492]],
+      "actual_read_ranges": [[1, 180], [181, 340], [341, 492]]
+    },
+    {
+      "path": "build/sections/10-reducible.tex",
+      "sha": "0601511ff3302e02d2b7395d6ea4164bb134d9eb",
+      "total_lines": 674,
+      "source_bytes": 33296,
+      "git_blob_sha_verified": true,
+      "read_ranges": [[1, 674]],
+      "actual_read_ranges": [[1, 350], [351, 674]]
+    },
+    {
+      "path": "build/sections/11-cm.tex",
+      "sha": "982c96829c35ce056a1855b8257840f570bf5269",
+      "total_lines": 1053,
+      "source_bytes": 62653,
+      "git_blob_sha_verified": true,
+      "read_ranges": [[1, 1053]],
+      "actual_read_ranges": [[1, 260], [261, 520], [521, 790], [791, 1053]]
+    }
+  ],
+  "assigned_total_lines": 2687,
+  "assigned_source_bytes": 198029,
+  "read_method": "Read numbered source displays in order without content filtering. All display truncation was recovered explicitly. Independently recomputed each cached file's Git blob SHA-1 and line count against the pinned source_closure.json.",
+  "sections_read": [
+    "08 in full: strict square determinant, residual order, auxiliary split-prime sequence, transverse regularity, integral depleted primitives, disk measures and logarithms, exact ring-class interpolation, trace and residual primitivity.",
+    "09 in full: odd conditions, projected dyadic Kummer lines, uniform logarithmic lattices and finite-level membership, inert derivative descent and finite–singular identity, horizontal square switches, integral unit quotient, central rank and exact-factor calculations, independent known-simple-zero Heegner rank test.",
+    "10 in full: label/edge realization, finite local-change inequalities, full-plane graph minimum and isogeny orientation, one-line isogeny construction, quartic compatibility for a split imaginary partner, and transfer of the resulting analytic anchor.",
+    "11 in full: CM realizations and period normalization, individual-character elliptic-unit inputs, specialization under concentration, known-simple-zero logarithm and paired formula, exact lattice index, horizontal line-switch nonnegativity, and separate corank-one Bockstein converse."
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Promote horizontal comparisons to an integral unit only after transverse regularity, exact specialization compatibility, and residual-order matching are established for the same coordinates.",
+      "precise_hypotheses": "The source has bounded integral two-variable B_r and L_alg,r, a transverse nonzero reduction at (2,t)=0, horizontal height-one divisibility for every sufficiently high dyadic character, exact u=0 trace formulas containing the same nonzero factor (a_*−2)^2, and equal finite residual t-orders for B and L_alg. The common factor is nonzero, not assumed to be an integral unit.",
+      "mechanism": "Weierstrass division in u and the high-character remainder test return horizontal divisibility to the integral ring. The exact common specialization factor cancels, so equality of the mod-2 orders makes the one-variable quotient a unit. Its central coefficient then makes the two-variable quotient a unit as well. Fixed quantities discarded as units after inverting 2 are retained in the integral central arithmetic calculation, including c_E and the Haar/Euler terms.",
+      "possible_bridge": "Conditional interface for a π determinant construction: organize arithmetic nonvanishing and analytic estimates as compatible specializations of one explicitly identified minor or determinant, with exact transport factors and one recorded coefficient lattice. A transverse rank certificate for Q(Z) could be useful only if it applies to that same common-basis witness and survives the actual specialization and height/occupancy constraints.",
+      "missing_step": "No arithmetic family, horizontal character identity, integral division theorem, or residual-order comparison has been constructed for the proposed π rows. Formal row-rank over Q(Z), existence of separate bases, or a generic nonzero locus does not produce a common selected integer determinant with the required analytic smallness. Column heights and quadratic occupancy remain additional constraints. The source gives no transfer from its 2-adic units to complex determinant bounds.",
+      "source_anchors": [
+        {"path": "build/sections/08-split-measures.tex", "line": 66, "label": "split-measures:residual-order / A1"},
+        {"path": "build/sections/08-split-measures.tex", "line": 138, "label": "split-measures:transverse / A2–A3"},
+        {"path": "build/sections/08-split-measures.tex", "line": 437, "label": "split-measures:trace-residual / M4–M5"},
+        {"path": "build/sections/09-split-local.tex", "line": 326, "label": "split-local:unit, especially lines 337–345"},
+        {"path": "build/sections/09-split-local.tex", "line": 398, "label": "integral central factors, lines 398–427"}
+      ]
+    },
+    {
+      "idea": "A rank-reducing switch can certify an original determinant valuation when exact finite–singular transport and a common scale make the switch reversible.",
+      "precise_hypotheses": "The source uses exact complementary local conditions and their duality triangles, nonzero simultaneous primal/fiber evaluations, derivative classes with s_new=J f_old and f_new=0, and one nonzero multiplier L shared by all compared classes. Full-Tate Frobenius-square approximation controls torsion ambiguities; fixed projection denominators are included in L. Horizontal DVRs invert 2, so these fixed multipliers are units there.",
+      "mechanism": "In 09 each square switch removes two surplus fiber dimensions while preserving generic rank one and the class-functional determinant valuation. At the terminal one-line minimal model integrality gives a nonnegative valuation, which is transported back to the original class. In 11 analogous rank-one CM line switches remove one surplus dimension using an exact finite–singular interchange and reverse the determinant equalities.",
+      "possible_bridge": "Conditional interface: try an exchange scheme on a pair of row/basis constraints that records a named determinant tensor and its exact change under every exchange. If every surplus rank defect admits a switch preserving that tensor up to a controlled unit and preserving the admissible height/occupancy budget, a terminal certificate could transfer back to the original chosen integer witness.",
+      "missing_step": "Ordinary common-basis existence or matroid exchange alone supplies neither an exact scalar identity on the selected minors nor the complementary duality used here. No admissible π exchange has been shown to preserve one nonzero integer determinant while controlling its complex magnitude. Fixed denominator clearing can increase column heights; quadratic occupancy is nonadditive, so cost preservation must be proved separately. These are conditional design requirements, not a derived construction.",
+      "source_anchors": [
+        {"path": "build/sections/09-split-local.tex", "line": 164, "label": "split-local:descent, common scale and bounded losses through line 198"},
+        {"path": "build/sections/09-split-local.tex", "line": 203, "label": "split-local:derivative / K, proof through line 266"},
+        {"path": "build/sections/09-split-local.tex", "line": 290, "label": "split-local:horizontal, especially switch reversal at lines 318–323"},
+        {"path": "build/sections/11-cm.tex", "line": 823, "label": "cm:eq:precision"},
+        {"path": "build/sections/11-cm.tex", "line": 860, "label": "cm:eq:interchange and cm:eq:cochain-norm, reversal at lines 897–904"}
+      ]
+    },
+    {
+      "idea": "Optimize over explicitly realizable finite configurations, then classify the common obstruction forced by failure of every local rank improvement.",
+      "precise_hypotheses": "For the constant F_2-plane, every admissible label/edge graph is realizable by fresh primes subject to the exact reciprocity relation. The label list has at least 2m+2 copies of every label, total labels fix the boundary condition and parity, and isogeny orientation gives k_A≤m when f_A=0. The pure solution dimension is minimized over this finite edge space.",
+      "mechanism": "If the minimum were at least two, even edge switches would force every even-sum evaluation to have rank at most one. Joint injectivity rules out a common domain functional, leaving a common image line A. The line persists across minimizing switches. The resulting site-error image has dimension at least n−1, contradicting the boundary upper bound n−n_1−r+k_A, with orientation handling f_A=0.",
+      "possible_bridge": "Conditional interface: formulate the row-selection search as a finite, genuinely realizable configuration space with fixed boundary data and an explicit joint defect. A theorem that every failed improvement forces one common low-dimensional obstruction could replace independent basis arguments by a certificate describing exactly why simultaneous selection fails. Cost-neutral exchanges would have to be part of the configuration definition.",
+      "missing_step": "The special rank-one tensor dichotomy is for maps into a two-dimensional F_2 plane and does not directly settle rank_Q(Z) or arbitrary common bases. Dirichlet/Chebotarev realization in this section has no quantitative prime-height bound, and the repetition requirement may be enormous. No corresponding π graph model, boundary inequality, or exchange preserving column height and quadratic occupancy is available from the source.",
+      "source_anchors": [
+        {"path": "build/sections/10-reducible.tex", "line": 56, "label": "lem:reducible-labels"},
+        {"path": "build/sections/10-reducible.tex", "line": 157, "label": "lem:reducible-graph / graph"},
+        {"path": "build/sections/10-reducible.tex", "line": 206, "label": "lem:reducible-orientation"},
+        {"path": "build/sections/10-reducible.tex", "line": 253, "label": "lem:reducible-full-seed; even switches 274–300; obstruction 302–338; contradiction 340–369"}
+      ]
+    },
+    {
+      "idea": "Separate a first-order nonvanishing test at the target center from global divisor control; neither generic rank nor finite-character information alone replaces both.",
+      "precise_hypotheses": "For the CM corank-one converse the source starts with an abstract nonzero rational Selmer class, an exact cup/cochain relation, and a tame direction with nonzero prescribed reciprocity invariant. A Bockstein contradiction proves a minimal differential has order exactly one. Separately, one-character elliptic-unit comparisons give constant valuations at all sufficiently high roots of unity, and horizontal nonnegativity controls all height-one divisors away from 2.",
+      "mechanism": "The Bockstein first establishes generic concentration without assuming a global point spans. For U=π^a ε P/Q with coprime distinguished P,Q, horizontal nonnegativity forces Q=1. Constant high-character valuations then force deg P=0. Thus U has order zero at the center, and the exact triangle gives ord_v Z=1. The independently proved torsion-trace implication turns Z′≠0 into the required nontrivial point and only then the known-rank formulas apply.",
+      "possible_bridge": "Conditional interface: when a common-basis determinant varies with a controlled parameter, distinguish a precise first-order obstruction proving the chosen center is not excessively degenerate from a separate argument ruling out hidden numerator/denominator factors. This suggests recording the target minor, its derivative, and every denominator in one family instead of invoking generic full row rank as a central certificate.",
+      "missing_step": "There is no π analogue here of the global reciprocity obstruction, character-valuation theorem, or horizontal nonnegativity. An auxiliary formal derivative and a nonzero polynomial minor do not establish the required same integer determinant with analytic smallness at the actual π-based rows. The source neither addresses badly approximable versus non-badly-approximable π nor resolves any of the requested common-basis/height/occupancy bridges.",
+      "source_anchors": [
+        {"path": "build/sections/11-cm.tex", "line": 524, "label": "cm:torsion-trace, independent spectral implication"},
+        {"path": "build/sections/11-cm.tex", "line": 717, "label": "cm:horizontal-nonnegative"},
+        {"path": "build/sections/11-cm.tex", "line": 946, "label": "cm:eq:transverse-selmer"},
+        {"path": "build/sections/11-cm.tex", "line": 968, "label": "order-one Bockstein through line 989"},
+        {"path": "build/sections/11-cm.tex", "line": 991, "label": "cm:eq:high-character; preparation and center-order through line 1047"}
+      ]
+    }
+  ],
+  "scope_note": "Every line of the four assigned TeX files has been read, including proofs, qualifications, normalization factors and dependency separations. In 08 the measure construction is more general than the reducible residual-order test; 09 isolates the known-simple-zero characteristic-zero rank test; 10 constructs finite Selmer seeds before using analytic conclusions; 11 keeps the paired known-simple-zero formula independent of the later corank-one converse. This is source coverage and conditional idea extraction, not independent proof validation.",
+  "limits": [
+    "External inputs and all source proofs have not been independently verified; reading is not a correctness endorsement.",
+    "The entire 721-item corpus remains in scope without filtering; this continuation covers only queue position 52 sections 08–11 at the stated pin.",
+    "No ledger mutation, publishing, queue completion, or change to any other reading record was performed.",
+    "No π BA/nonBA conclusion follows. The same-integer-determinant nonzero/smallness bridge, full row rank of Q(Z), common bases, column heights and quadratic occupancy remain unresolved."
+  ]
+}

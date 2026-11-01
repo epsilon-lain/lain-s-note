@@ -1,0 +1,162 @@
+{
+  "position": 46,
+  "reader": "root_round03_ads",
+  "source_files": [
+    {
+      "path": "build/sections/ads/sections/00-introduction.tex",
+      "sha": "043dbe4f4cee8cc32fffd72b049c014d2bd1d129",
+      "total_lines": 71,
+      "read_ranges": [
+        [
+          1,
+          71
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/01-setting.tex",
+      "sha": "fcccb375d68a5ed3a10ed3e2b423ba160c14f525",
+      "total_lines": 248,
+      "read_ranges": [
+        [
+          1,
+          248
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/02-analysis.tex",
+      "sha": "d27cdd48cf476637e0761061ce41b17554e16d72",
+      "total_lines": 620,
+      "read_ranges": [
+        [
+          1,
+          620
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/03-cmc.tex",
+      "sha": "3323e4c5c9369cd14531710122688a5b4820a137",
+      "total_lines": 612,
+      "read_ranges": [
+        [
+          1,
+          612
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/04-quadratic.tex",
+      "sha": "1b7ad9b062013ea238625557f4ff74d432db55dc",
+      "total_lines": 341,
+      "read_ranges": [
+        [
+          1,
+          341
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/05-quartic.tex",
+      "sha": "7fbae882ebf5a09e2dd5a37be4efdee0a73fa804",
+      "total_lines": 860,
+      "read_ranges": [
+        [
+          1,
+          860
+        ]
+      ]
+    },
+    {
+      "path": "build/sections/ads/sections/06-conclusion.tex",
+      "sha": "0231cb1968f8e9cefbc4d6477937c99cfdc5df00",
+      "total_lines": 222,
+      "read_ranges": [
+        [
+          1,
+          222
+        ]
+      ]
+    }
+  ],
+  "sections_read": [
+    "All seven AdS sections00–06, every line; inline boundary-comparison figure/caption included"
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Classify the full null space of a nonnegative quadratic deficit before testing its first surviving higher-order term.",
+      "precise_hypotheses": "A continuous nonnegative rotation-invariant quadratic form on the full real TT seed space; finite-angular approximations preserving TT and the closed kernel; a sharp TT boundary square; actual controlled expansions for a given branch.",
+      "mechanism": "The quadratic kernel is exactly four-dimensional (radial plus degree-one). The degree-one directions are genuine null directions even with mixed seeds meeting the boundary sign. They cannot be discarded by the sign assumption. A fourth-order square and a local tangency obstruction force c4>0 for every nonradial null direction; radial seeds instead have an exact conserved-mass identity.",
+      "possible_bridge": "Speculative interface: if a determinant-cost deficit has a nonnegative leading form, identify every degenerate family and expand the SAME certificate on that family to its first surviving order. Separate exact symmetry/equality families from obstructed directions. This may be more effective than seeking a uniform positive quadratic gap.",
+      "missing_step": "No such differentiable deficit on integer common-basis configurations is established. A zero quadratic coefficient does not by itself imply a finite-dimensional kernel or positivity at fourth order. Expansions must preserve exact rank, integer normalization and full occupancy, with usable remainder estimates.",
+      "source_anchors": [
+        {
+          "path": "build/sections/ads/sections/04-quadratic.tex",
+          "line": 16,
+          "label": "ads:lem:tt-square"
+        },
+        {
+          "path": "build/sections/ads/sections/04-quadratic.tex",
+          "line": 212,
+          "label": "ads:cor:kernel"
+        },
+        {
+          "path": "build/sections/ads/sections/05-quartic.tex",
+          "line": 510,
+          "label": "ads:quart:square"
+        },
+        {
+          "path": "build/sections/ads/sections/06-conclusion.tex",
+          "line": 5,
+          "label": "ads:prop:radial"
+        }
+      ]
+    },
+    {
+      "idea": "Convert a boundary/asymptotic observable to a bounded exact integral functional before passing to approximation or Taylor limits.",
+      "precise_hypotheses": "Each actual member has the stated C^{2,α}_τ decay with τ>3/2 and finite mass flux. The chosen weight β satisfies 3/2<β<min(τ,√3). The Green identity is first taken at fixed member; source products have weight2β and the functional is bounded in the three stated norms.",
+      "mechanism": "An exact Green representation computes all four mass components from u,F,B. Uniform weighted function/source/boundary remainders then yield actual mass expansions without asserting uniform convergence of discarded derivative flux errors. Finite angular coefficients are also identified with their own flux before taking angular approximation limits.",
+      "possible_bridge": "Speculative interface: for determinant evaluation, seek an exact coefficient/integral representation continuous in norms whose approximation errors are controlled. Keep evaluation at the actual π parameter and integer normalization in the identity before taking asymptotic limits.",
+      "missing_step": "The arithmetic determinant observable and its normalization are not represented by the source Green operator. Uniform functional bounds must be proved for the actual row space and increasing dimension; a fixed-dimension continuity assertion gives no needed height bound.",
+      "source_anchors": [
+        {
+          "path": "build/sections/ads/sections/02-analysis.tex",
+          "line": 266,
+          "label": "ads:lem:green"
+        },
+        {
+          "path": "build/sections/ads/sections/02-analysis.tex",
+          "line": 433,
+          "label": "ads:prop:expansions"
+        }
+      ]
+    },
+    {
+      "idea": "Eliminate auxiliary local generators to obtain a global obstruction even when the generators do not agree on overlaps.",
+      "precise_hypotheses": "Equality in a positive quartic integral forces mean-free lapse and tracefree second form to vanish through second order. Round-jet decomposition yields local Lie-derivative-plus-trace representatives on every compact radial interval. A separated decaying degree-one mode solves a fixed homogeneous ODE.",
+      "mechanism": "Project the necessary tangency onto degree-two scalar,gradient,Hessian modes; solve for three local generator coefficients and eliminate them. The remaining identity (V′−NV/r)²=6m0 V²/r³ holds globally independently of choices. For z=V/r, its integrable relative derivative bound and decay at infinity force z≡0 by backward Gronwall.",
+      "possible_bridge": "Speculative interface: use exact elimination of local row-reduction choices to find an invariant polynomial identity for a putative extremizer, avoiding unjustified global gluing of locally selected bases. Combine the invariant with a genuine boundary/asymptotic restriction.",
+      "missing_step": "Local compatible bases need not exist, and elimination can lose the nonzero minor or introduce uncontrolled denominators. There is no π-specific integrable differential constraint here; the source obstruction cannot be transplanted merely by naming a deficit.",
+      "source_anchors": [
+        {
+          "path": "build/sections/ads/sections/05-quartic.tex",
+          "line": 758,
+          "label": "ads:lem:dipole-obstruction"
+        },
+        {
+          "path": "build/sections/ads/sections/05-quartic.tex",
+          "line": 812,
+          "label": "ads:quart:dipole-identity"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Reading is not independent theorem verification.",
+    "The theorem is local for each fixed TT seed and prescribed decaying branch; no branch existence for every seed or uniform neighborhood is asserted.",
+    "Finite Taylor geometry is a jet identity, not an actual global CMC foliation or Einstein extension; boundary displacements of either sign are evaluated at the level of justified jets.",
+    "No arithmetic transfer or π BA/nonBA result is proved."
+  ],
+  "scope_note": "Complete source reading of the seven AdS module sections, including full analytic expansion/flux justification, CMC sphere-jet recursion, TT square and complete kernel, quartic null-transport/tangency obstruction, inline schematic caption and exact radial conclusion. Exact SHA and line counts match the lead closure. Other position46 modules are covered by separate receipts; external cited papers and independent correctness are not certified."
+}

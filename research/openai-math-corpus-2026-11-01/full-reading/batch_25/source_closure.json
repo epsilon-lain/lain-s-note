@@ -1,0 +1,111 @@
+[
+  {
+    "position": 47,
+    "main_source": "preprints/An-Irrational-Trace-Counterexample-to-Reduced-Baum-Connes-September-23-2026/build/paper.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "include_edges": [
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/preamble.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/introduction.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/geometry.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/data.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/module.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/spectrum.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "input",
+        "to": "build/trace.tex"
+      },
+      {
+        "from": "build/paper.tex",
+        "kind": "bibliography",
+        "to": "build/references.bib"
+      },
+      {
+        "from": "build/spectrum.tex",
+        "kind": "input",
+        "to": "build/figures/cycle-charging.tex"
+      }
+    ],
+    "unmapped_local_text_files": [],
+    "unread_files": [],
+    "pdf_rendering_read": false,
+    "external_reference_bodies_read": false
+  },
+  {
+    "position": 49,
+    "main_source": "preprints/Lipschitz-Equivalent-Separable-Banach-Spaces-Need-Not-Be-Linearly-Isomorphic-September-24-2026/build/main.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "include_edges": [
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/01-introduction.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/02-free-graph.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/03-triangular.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/04-localization.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/05-hilbert.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/06-assembly.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "bibliography",
+        "to": "build/references.bib"
+      },
+      {
+        "from": "build/sections/05-hilbert.tex",
+        "kind": "input",
+        "to": "build/figures/slot-rearrangement.tex"
+      }
+    ],
+    "unmapped_local_text_files": [],
+    "unread_files": [],
+    "pdf_rendering_read": false,
+    "external_reference_bodies_read": false
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "position": 40,
+    "path": "README.md",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/README.md",
+    "sha": "d5362b2d91bfeaf99fb090bfe27968e6753c5e48",
+    "source_bytes": 711,
+    "total_lines": 20,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/main.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/main.tex",
+    "sha": "8161aabcb47a1869eef2826275292e285074175a",
+    "source_bytes": 2109,
+    "total_lines": 59,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/references.bib",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/references.bib",
+    "sha": "e75e6328fe332a1e6b2a01b5a1714a5dc6388356",
+    "source_bytes": 6194,
+    "total_lines": 168,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/01-introduction.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/01-introduction.tex",
+    "sha": "f879819514cf24dd4042d9d786e32b9dbafc3999",
+    "source_bytes": 8011,
+    "total_lines": 144,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/02-passages.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/02-passages.tex",
+    "sha": "0f8e0b4db727162800da0f1efad01cdcebbfe5bf",
+    "source_bytes": 23305,
+    "total_lines": 505,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/03-signals.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/03-signals.tex",
+    "sha": "abab379dcaf0a2f383a19c8c376b0a6106b9f9b4",
+    "source_bytes": 18969,
+    "total_lines": 459,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/04-blocks.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/04-blocks.tex",
+    "sha": "5de48b7e90cdeb883d6f3f3b10d5239c7f84f716",
+    "source_bytes": 20619,
+    "total_lines": 511,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/05-completion.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/05-completion.tex",
+    "sha": "0346647a77183e2afc54bba17e8167a6f1c3f2ec",
+    "source_bytes": 20061,
+    "total_lines": 440,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 40,
+    "path": "build/sections/06-consequences.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/40/build/sections/06-consequences.tex",
+    "sha": "265d6d96b95751d0c8e1d1bc73ae4b6225c8aff1",
+    "source_bytes": 2877,
+    "total_lines": 65,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 42,
+    "path": "README.md",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/42/README.md",
+    "sha": "f6bf7acba2255f442b4013b31b9b5e68e2fac11b",
+    "source_bytes": 666,
+    "total_lines": 18,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 42,
+    "path": "build/paper.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/42/build/paper.tex",
+    "sha": "df6c3550b6fa6866034f792a2f53941b6a3e6703",
+    "source_bytes": 32473,
+    "total_lines": 698,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 42,
+    "path": "build/references.bib",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/42/build/references.bib",
+    "sha": "d7c2192afaed78a7752a16c455ef6a682efd4024",
+    "source_bytes": 6494,
+    "total_lines": 213,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 42,
+    "path": "build/surface.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/42/build/surface.tex",
+    "sha": "166f5c263832cc3e41a2517433b0e6482ac1eef5",
+    "source_bytes": 14130,
+    "total_lines": 337,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "README.md",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/README.md",
+    "sha": "52dc5ed25b8654a1357135d48988fea1a3d7875c",
+    "source_bytes": 510,
+    "total_lines": 18,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/figures/bounded-recurrence.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/figures/bounded-recurrence.tex",
+    "sha": "7e935b870a0155c9daa520a63d28bfb747c1e4a8",
+    "source_bytes": 1190,
+    "total_lines": 27,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/glyph-mappings.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/glyph-mappings.tex",
+    "sha": "7e7469e369a1b7f89d58be0ddf16db221f7fe25d",
+    "source_bytes": 438,
+    "total_lines": 12,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/main.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/main.tex",
+    "sha": "66503d1c7c0af99fce7196fe1393ff1667dba961",
+    "source_bytes": 1736,
+    "total_lines": 51,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/references.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/references.tex",
+    "sha": "bc9996ee793d17a1e896cbb1c549e56d64db305f",
+    "source_bytes": 3610,
+    "total_lines": 105,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/sections/introduction.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/sections/introduction.tex",
+    "sha": "9506e5b685cb7145e359ceb7233c57722d9e96c3",
+    "source_bytes": 9004,
+    "total_lines": 186,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/sections/preliminaries.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/sections/preliminaries.tex",
+    "sha": "4ef7f071b37ac648a6219654e62f73bd7c077e86",
+    "source_bytes": 6237,
+    "total_lines": 144,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/sections/recovery.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/sections/recovery.tex",
+    "sha": "afe4b23d0cd2121aac77e9c69deff4d46d70226c",
+    "source_bytes": 7964,
+    "total_lines": 215,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/sections/representation.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/sections/representation.tex",
+    "sha": "76cfaa4afbd2361bd0e36df0c09c28f35f0546dd",
+    "source_bytes": 2281,
+    "total_lines": 63,
+    "removed_exactly_one_added_lf": true
+  },
+  {
+    "position": 44,
+    "path": "build/sections/rigidity.tex",
+    "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_21/44/build/sections/rigidity.tex",
+    "sha": "33b085cc0f4e9e472d39a0fe5ba89949e6f57509",
+    "source_bytes": 2700,
+    "total_lines": 78,
+    "removed_exactly_one_added_lf": true
+  }
+]

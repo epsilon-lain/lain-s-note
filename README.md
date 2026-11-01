@@ -8,4 +8,4 @@
 
 - [OpenAI 数学语料接入与第二轮分析（2026-11-01）](research/openai-math-corpus-2026-11-01/README.md)：完整固定版本子模块、721 篇可检索目录、重点论文工具迁移与验证。
 
-- [全库逐篇正文阅读与台账（2026-11-01）](research/openai-math-corpus-2026-11-01/full-reading/README.md)：按17学科轮转，全721篇保留；累计36篇正文首读完成，尚余685篇，下一断点第37项。
+- [全库逐篇正文阅读与台账（2026-11-01）](research/openai-math-corpus-2026-11-01/full-reading/README.md)：按17学科轮转，全721篇保留；累计54篇正文首读完成，尚余667篇，下一断点第55项。

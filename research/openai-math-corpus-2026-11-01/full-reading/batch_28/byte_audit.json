@@ -1,0 +1,114 @@
+{
+  "position": 51,
+  "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "files": [
+    {
+      "path": "README.md",
+      "sha": "3b5158887f44296dba20e421322abfc98d8a926d",
+      "bytes": 665,
+      "total_lines": 18,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/figures/proof-route.tex",
+      "sha": "396279e990b4857b388e6322769321265801cc2c",
+      "bytes": 1420,
+      "total_lines": 33,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/paper.tex",
+      "sha": "c76a19dad92ae012a52202efd06706d3804a365d",
+      "bytes": 1155,
+      "total_lines": 33,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/preamble.tex",
+      "sha": "6039f7667c2f9a69da52818860bcf9ff2121fa97",
+      "bytes": 1336,
+      "total_lines": 39,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/references.bib",
+      "sha": "1abab2ef77f47dc374c10874dd8ec27d5d5e9e1d",
+      "bytes": 7245,
+      "total_lines": 186,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/01-introduction.tex",
+      "sha": "89c3789911ce6950423182488a60d4968e17a4cb",
+      "bytes": 12698,
+      "total_lines": 242,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/02-framework.tex",
+      "sha": "d9a2b2dfbe3de27786b880f672d119e866f40db7",
+      "bytes": 5207,
+      "total_lines": 131,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/03-kernel.tex",
+      "sha": "38f60fd4c3f7505c43ec080b92dc6deab2baa195",
+      "bytes": 24958,
+      "total_lines": 620,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/04-jets.tex",
+      "sha": "f6b110322653dd4a33767f402510537ac40131c6",
+      "bytes": 28451,
+      "total_lines": 814,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/05-cap.tex",
+      "sha": "21c11ed2309953d73dbfa2ff7800f796e141fe84",
+      "bytes": 5679,
+      "total_lines": 121,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/06-admissibility.tex",
+      "sha": "397069a61017bc5a716ffed26805d13daeeee55e",
+      "bytes": 25785,
+      "total_lines": 561,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/07-dilation.tex",
+      "sha": "ae469e935c0968bca6c769e2ae697c0e9787b1b1",
+      "bytes": 18232,
+      "total_lines": 435,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/08-nonconcentration.tex",
+      "sha": "937ec7b53bf4d3f3a4eb87a404f84ad93a6aa148",
+      "bytes": 37243,
+      "total_lines": 927,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/09-branching.tex",
+      "sha": "c663f29a952100265cd1b27f37fc589cf47800c3",
+      "bytes": 29263,
+      "total_lines": 655,
+      "extra_lf_removed": false
+    },
+    {
+      "path": "build/sections/10-separation.tex",
+      "sha": "32efec13338d4f3aeaf1bcf1af6783e7aae8e64d",
+      "bytes": 5574,
+      "total_lines": 124,
+      "extra_lf_removed": false
+    }
+  ],
+  "all_git_blob_sha_match": true,
+  "total_lines": 4939,
+  "total_bytes": 204911
+}

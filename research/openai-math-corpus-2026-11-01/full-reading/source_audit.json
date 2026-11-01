@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "counts": {
-    "source_files": 438,
-    "passed": 438
+    "source_files": 676,
+    "passed": 676
   },
   "failures": [],
   "scope": "Exact source-byte and line-count audit; no independent theorem verification."

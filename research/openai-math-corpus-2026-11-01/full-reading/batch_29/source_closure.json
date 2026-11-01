@@ -1,0 +1,267 @@
+{
+  "position": 52,
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "source_mapping_complete": true,
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha": "ee93c1149c55c23a58ebf3782304dcaee99c943d",
+      "total_lines": 21,
+      "source_bytes": 947,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/README.md",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/paper.tex",
+      "sha": "6fd483a257055f66f7813014e689f656af4e47d0",
+      "total_lines": 79,
+      "source_bytes": 3132,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/paper.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/references.tex",
+      "sha": "48d65713560dea1fb832717d254256312b0948c6",
+      "total_lines": 395,
+      "source_bytes": 16245,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/references.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/01-introduction.tex",
+      "sha": "3f6fb17bc250067d9fa2f9933f099310dac56a39",
+      "total_lines": 329,
+      "source_bytes": 16081,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/01-introduction.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/02-classical.tex",
+      "sha": "a6f25127dd45c65c06bb05c2fe075a5e655b2c61",
+      "total_lines": 173,
+      "source_bytes": 8877,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/02-classical.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/03-foundations.tex",
+      "sha": "7716960e07945c4b14fe7f09314303ebd938a5da",
+      "total_lines": 416,
+      "source_bytes": 45360,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/03-foundations.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/04-siegel.tex",
+      "sha": "9c77d5199fc7707e4b0db35a17fda0810e34af34",
+      "total_lines": 810,
+      "source_bytes": 35875,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/04-siegel.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/05-positive-determinant.tex",
+      "sha": "c8fd0c03f1e53d878127055e94756e47cb383a8e",
+      "total_lines": 558,
+      "source_bytes": 57669,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/05-positive-determinant.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/06-tame.tex",
+      "sha": "90e935bfbb3c662175d957aac68abbd3cd76fc79",
+      "total_lines": 1337,
+      "source_bytes": 57763,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/06-tame.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/07-positive-completion.tex",
+      "sha": "4a01eb3213fbac7167fafcf57a4d36ff1e9e4665",
+      "total_lines": 408,
+      "source_bytes": 21998,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/07-positive-completion.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/08-split-measures.tex",
+      "sha": "63e6eeecdadc17e8666e04ed4a3758b5f516f212",
+      "total_lines": 468,
+      "source_bytes": 38130,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/08-split-measures.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/09-split-local.tex",
+      "sha": "a18d5eb0986412ccfa8084ed488bf977c19772cb",
+      "total_lines": 492,
+      "source_bytes": 63950,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/09-split-local.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/10-reducible.tex",
+      "sha": "0601511ff3302e02d2b7395d6ea4164bb134d9eb",
+      "total_lines": 674,
+      "source_bytes": 33296,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/10-reducible.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/11-cm.tex",
+      "sha": "982c96829c35ce056a1855b8257840f570bf5269",
+      "total_lines": 1053,
+      "source_bytes": 62653,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/11-cm.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/12-alternation-imaginary.tex",
+      "sha": "ae1c101994fabbc64496a4db7c09cbd33b88583e",
+      "total_lines": 411,
+      "source_bytes": 48105,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/12-alternation-imaginary.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/13-real.tex",
+      "sha": "0011d7030ae2e6ec2efa7c46a43f68cf07c3a310",
+      "total_lines": 1101,
+      "source_bytes": 85758,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/13-real.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/14-cyclic.tex",
+      "sha": "d35821150a3a2db475588a41cedb24ee52f8486d",
+      "total_lines": 692,
+      "source_bytes": 35368,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/14-cyclic.tex",
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "build/sections/15-conclusion.tex",
+      "sha": "639c81ea0ea05c862047608a63105bddb05406b5",
+      "total_lines": 129,
+      "source_bytes": 5314,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_29/52/build/sections/15-conclusion.tex",
+      "cache_git_blob_sha_verified": true
+    }
+  ],
+  "main_source": "preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026/build/paper.tex",
+  "readme_to_actual_root": {
+    "readme": "README.md",
+    "linked_pdf": "paper.pdf",
+    "actual_root": "build/paper.tex"
+  },
+  "root_include_graph": [
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/01-introduction",
+      "resolved_path": "build/sections/01-introduction.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/02-classical",
+      "resolved_path": "build/sections/02-classical.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/03-foundations",
+      "resolved_path": "build/sections/03-foundations.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/04-siegel",
+      "resolved_path": "build/sections/04-siegel.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/05-positive-determinant",
+      "resolved_path": "build/sections/05-positive-determinant.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/06-tame",
+      "resolved_path": "build/sections/06-tame.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/07-positive-completion",
+      "resolved_path": "build/sections/07-positive-completion.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/08-split-measures",
+      "resolved_path": "build/sections/08-split-measures.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/09-split-local",
+      "resolved_path": "build/sections/09-split-local.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/10-reducible",
+      "resolved_path": "build/sections/10-reducible.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/11-cm",
+      "resolved_path": "build/sections/11-cm.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/12-alternation-imaginary",
+      "resolved_path": "build/sections/12-alternation-imaginary.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/13-real",
+      "resolved_path": "build/sections/13-real.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/14-cyclic",
+      "resolved_path": "build/sections/14-cyclic.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "sections/15-conclusion",
+      "resolved_path": "build/sections/15-conclusion.tex"
+    },
+    {
+      "from_path": "build/paper.tex",
+      "input": "references",
+      "resolved_path": "build/references.tex"
+    }
+  ],
+  "include_resolution_complete": true,
+  "included_files": [
+    "build/paper.tex",
+    "build/references.tex",
+    "build/sections/01-introduction.tex",
+    "build/sections/02-classical.tex",
+    "build/sections/03-foundations.tex",
+    "build/sections/04-siegel.tex",
+    "build/sections/05-positive-determinant.tex",
+    "build/sections/06-tame.tex",
+    "build/sections/07-positive-completion.tex",
+    "build/sections/08-split-measures.tex",
+    "build/sections/09-split-local.tex",
+    "build/sections/10-reducible.tex",
+    "build/sections/11-cm.tex",
+    "build/sections/12-alternation-imaginary.tex",
+    "build/sections/13-real.tex",
+    "build/sections/14-cyclic.tex",
+    "build/sections/15-conclusion.tex"
+  ],
+  "excluded_nontext_files": [
+    {
+      "path": "paper.pdf",
+      "role": "compiled_pdf",
+      "sha": "9c1827e35640033bf16eac9fa88136079b1cc2de"
+    }
+  ],
+  "source_mapping_note": "README links the compiled PDF. The directory has a single TeX root build/paper.tex, which explicitly inputs sections01–15 and references.tex. Every nonbinary blob in the pinned directory tree is present and exact Git-blob-SHA verified. No further input/include/bibliography or external figure dependencies occur in the source closure."
+}

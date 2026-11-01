@@ -1,0 +1,342 @@
+[
+  {
+    "position": 51,
+    "pdf_path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/README.md",
+        "sha": "3b5158887f44296dba20e421322abfc98d8a926d",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/figures/proof-route.tex",
+        "sha": "396279e990b4857b388e6322769321265801cc2c",
+        "total_lines": 33,
+        "read_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/paper.tex",
+        "sha": "c76a19dad92ae012a52202efd06706d3804a365d",
+        "total_lines": 33,
+        "read_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/preamble.tex",
+        "sha": "6039f7667c2f9a69da52818860bcf9ff2121fa97",
+        "total_lines": 39,
+        "read_ranges": [
+          [
+            1,
+            39
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/references.bib",
+        "sha": "1abab2ef77f47dc374c10874dd8ec27d5d5e9e1d",
+        "total_lines": 186,
+        "read_ranges": [
+          [
+            1,
+            186
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/01-introduction.tex",
+        "sha": "89c3789911ce6950423182488a60d4968e17a4cb",
+        "total_lines": 242,
+        "read_ranges": [
+          [
+            1,
+            242
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/02-framework.tex",
+        "sha": "d9a2b2dfbe3de27786b880f672d119e866f40db7",
+        "total_lines": 131,
+        "read_ranges": [
+          [
+            1,
+            131
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/03-kernel.tex",
+        "sha": "38f60fd4c3f7505c43ec080b92dc6deab2baa195",
+        "total_lines": 620,
+        "read_ranges": [
+          [
+            1,
+            620
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/04-jets.tex",
+        "sha": "f6b110322653dd4a33767f402510537ac40131c6",
+        "total_lines": 814,
+        "read_ranges": [
+          [
+            1,
+            814
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/05-cap.tex",
+        "sha": "21c11ed2309953d73dbfa2ff7800f796e141fe84",
+        "total_lines": 121,
+        "read_ranges": [
+          [
+            1,
+            121
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/06-admissibility.tex",
+        "sha": "397069a61017bc5a716ffed26805d13daeeee55e",
+        "total_lines": 561,
+        "read_ranges": [
+          [
+            1,
+            561
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/07-dilation.tex",
+        "sha": "ae469e935c0968bca6c769e2ae697c0e9787b1b1",
+        "total_lines": 435,
+        "read_ranges": [
+          [
+            1,
+            435
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+        "sha": "937ec7b53bf4d3f3a4eb87a404f84ad93a6aa148",
+        "total_lines": 927,
+        "read_ranges": [
+          [
+            1,
+            927
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/09-branching.tex",
+        "sha": "c663f29a952100265cd1b27f37fc589cf47800c3",
+        "total_lines": 655,
+        "read_ranges": [
+          [
+            1,
+            655
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/10-separation.tex",
+        "sha": "32efec13338d4f3aeaf1bcf1af6783e7aae8e64d",
+        "total_lines": 124,
+        "read_ranges": [
+          [
+            1,
+            124
+          ]
+        ],
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "sections_read": [
+      "README and PDF-to-source identity: sole document root build/paper.tex, matching title, author, date; full preamble and abstract.",
+      "01 Introduction: precise main theorem and admissibility scope, existing results, cold-jet datum, two approximation families, two compactness procedures; complete proof-route TikZ source and caption.",
+      "02 Framework: exact collision and loss normalizations, Maxwellian renormalization, every-time entropy-class definition, singular H weight, exact colored equations.",
+      "03 Kernel: Carleman coefficient, geometric slice estimates, disk/Gaussian mixtures, sheet bounds and full normalized tails, axial/nonaxial restrictions, compressed parameter laws, hot-hot bound, sharp one-gain axial endpoint.",
+      "04 Jets: stripe and annular geometry, finite-entropy datum and seed overlap, transported Maxwellian barrier, nonlinear cold comparison, escaped-tail summation, exact density Jacobian and sheet domination, mixed source, cold survival sandwich.",
+      "05 Cap: weighted local mild theory with cutoff, scalar comparison, dormant bound, endpoint seed selection and full parameter-order remark.",
+      "06 Admissibility: finite conservation/entropy regularization, one- and two-particle uniform integrability, elementary velocity averaging, pair/collision identification, every-time traces, strong continuity and chain rule, global continuation interface and concatenation.",
+      "07 Dilation: mesh and two-sign measure background, survival/Jacobian/stripe averaging, exact r powers of all errors, strong hot averages with weak-star cold product, positive-lower-mesh trace and local mild formula.",
+      "08 Nonconcentration: full positive core kernels and representatives, finite five-gain residual, endpoint/path tightness, characteristic small-scale matching, two axial gains, redundant plane parameters, uniform pullback and five-gain rank-seven witness, five nonaxial gains and final contradiction including l=1/U=1/U=infinity.",
+      "09 Branching: finite positive histories, Markov representation and retention potential, three-collision volume minorization/mixing, reference displacement block and robust measurable perturbation, uniform parameter choices, access to late boxes and growth contradiction.",
+      "10 Separation: off-axis dormant dilation vanishing, fixed-horizon diagonal approximation, finite-U comparison and nonzero test contradiction, two global continuations.",
+      "Complete references.bib: all 15 bibliographic entries; no separate source appendix occurs in the complete pinned directory tree."
+    ],
+    "claim_as_stated": "There exists a nonnegative bounded-velocity-support datum F0 on T^3 x R^3 with finite mass, energy and absolute entropy, for which the periodic hard-sphere Boltzmann equation has two distinct global admissible solutions with exactly the same initial datum. Admissibility includes weak L1 continuity against every bounded measurable test, Maxwellian renormalizations with separately integrable renormalized gain/loss, local mass and total momentum conservation, and every-time global energy and entropy-dissipation inequalities. On a common early interval both solutions are strongly L1 continuous and have integrable unrenormalized gains/losses. Local momentum and local energy conservation are explicitly not imposed as additional admissibility requirements.",
+    "proof_architecture": [
+      "Normalize hard-sphere gain via Carleman: P(c,h)=2 integral c(dp) delta((v-p).(xi-v)) h(xi) dxi; one-child outgoing mass is 2pi|p-xi|. Use H=e^{-|v|^2}<v>^{-100}(1+|vbar|^{-q}), 1<q<2.",
+      "Uniform sheet estimates permit transverse Gaussian widths tending to zero and arbitrary compressed axial laws with an exponential moment. Control the complete normalized kernel including H(xi)/H(v), its tails, non-atomic axial marginals and off-axis small transverse input. A single matched axial gain need not vanish.",
+      "Build disjoint alternating +/- stripes in geometric transverse annuli s_j. Width d_s=d0*s^10 is much smaller than gaps. The expanding axial tanh profile gives exact density coefficient KS/(s+t*alpha*gamma*S), hence C/(t+s). Annular mass is O(s^2), entropy O(s^2(1+|log s|)).",
+      "A characteristic Maxwellian barrier satisfies Dm >= (1+7|w|^2/(8d_s^2))m and P(m,m)=m*nu_m. Nonlinear comparison yields c_i <= free_i+L(d_s/s)m_i, independent of the hot norm. Disjoint enlargements force every nonmain color into arbitrary-power small escaped tails, so ordered mixed-cold gain is <= C_A*t^(A-1)*H.",
+      "Cutoff mild theory permits seed shooting. Scalar comparison gives zero-seed h<=t^2H. Varying a smooth seed lambda*s_N*chi(x/s_N,v) from strict cap to initial cap failure yields a boundary shot h<=(t+s_N)H attaining cap ratio one, on every fixed sufficiently short horizon.",
+      "At a fixed physical horizon, disjoint annuli give integral_0^T s^2/(t+s)^2 dt <= Cs. Remove small annuli, then use fixed Gaussian/H majorants to obtain full one- and two-particle UI and collision UI. Velocity averaging identifies products, giving the genuine unrenormalized early equation, every-time weak traces, entropy lower semicontinuity and strong L1 path formula.",
+      "Use the cited periodic DiPerna-Lions/Levermore-Masmoudi existence input only for continuation from the early terminal trace. The manuscript checks collision/time normalization, total momentum despite local defects, separate renormalized gain/loss via dissipation, entropy at every time and cancellation of terminal renormalized traces at the splice.",
+      "On shrinking horizons rescale r=t_*+s_N, hot h/r and cold r*c. Surviving free cores, exact axial Jacobian, and stripe mean theta=1/4 identify a two-sign atomic cold background B on a phase-subselected geometric mesh. The hot-hot error is O(r^2), mixed-cold source O(r^(M-1)); strong hot averages identify cold-hot products and give Dg=2P(B,g)-g*nu_B.",
+      "Cap nonvanishing requires a separate argument. If lower mesh endpoint l>0, a nonzero seed trace survives; zero limiting seed contradicts the cap via bounded Gronwall. If l=0, five Volterra gains remain after an O(a*log(1/a)^4) residual. Tails and escaping endpoints vanish.",
+      "At axial endpoints, first-gain axial non-atomicity avoids finitely many characteristic cold speeds (plus five collapsed small-scale speeds); mismatch then makes the second gain small. At nonaxial endpoints, delete small transverse speeds/scales, parameterize planes redundantly and use a rank-seven analytic map after five gains. The witness at equal collision times has three independent position time columns and three velocity angular columns; a compact submersion pullback sends local vanishing mass to vanishing residual.",
+      "For the nonzero limiting equation, positive bounded histories yield growth. Reference +/-e3 collisions retain speeds <=5 with probability >=25/26 and a positive Feynman-Kac potential. Three collisions give Doeblin minorization; mixing supplies displacement blocks. Compact finite-history tests retain weight >3 under measurable uniform partner/density perturbations.",
+      "Choose eta,alpha,gamma small and K large before s0,d0,T0, uniformly over mesh phase and l. In moving boxes at distance proportional to t, repeat growth at times (1+a)^n t0: mass >=3^n m0 while the cap gives O(t^4). The choice (1+a)^4<3 rules out U=infinity.",
+      "Dormant solutions vanish off the velocity axis under T^-1 F(Tt,Tx,v). If cap fixed-horizon limits agreed with the dormant solution on horizons tending to zero, a diagonal finite-approximation sequence would inherit that vanishing. Finite U gives r/T->1/U>0, forcing the nonzero cap dilation g to vanish. Choose a separated early cap limit and continue both globally."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Design joint linear and quadratic budgets through a disjoint multiscale envelope, then remove the smallest scales before taking products.",
+        "precise_hypotheses": "In the source, scales are geometric, spatial annuli are disjoint with area O(s^2), and every velocity moment is bounded by C(1+sum 1_A_s/(t+s)). At a point only one main color occurs, and escaped tails have arbitrary positive powers. These hypotheses concern the same densities and their actual products.",
+        "mechanism": "The one-annulus square integral is <=Cs, so small-scale two-particle mass is summably negligible. Outside the discarded annuli, finitely many positive thermal widths give a common integrable majorant. This proves full product UI before any nonlinear limit, rather than deducing quadratic control from separate marginal bounds.",
+        "possible_bridge": "Conditional arithmetic interface: stratify candidate columns or common-basis configurations by scale and enforce disjoint or bounded-overlap occupancy cells. Seek a single envelope whose sums control both the actual column-height contribution and the quadratic occupancy contribution to one determinant expansion. Keep the selected common basis and its nonzero minor attached throughout truncation.",
+        "missing_step": "No arithmetic realization of such cells or scale amplitudes is provided. One must preserve row rank over Q(Z), the common-bases constraints and the same integer determinant while proving both budgets. The time integration and positive density products have no automatic determinant analogue; marginal height control alone still leaves quadratic occupancy and the q^2 error unresolved.",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/04-jets.tex",
+            "line": 398,
+            "label": "prop:cold-control"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/04-jets.tex",
+            "line": 443,
+            "label": "jet:mixed-source"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/06-admissibility.tex",
+            "line": 143,
+            "label": "comp:annular-square"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/06-admissibility.tex",
+            "line": 328,
+            "label": "comp:pair-limit"
+          }
+        ]
+      },
+      {
+        "idea": "Separate existence of a saturated constraint from proof that its witness survives normalization and weak limits.",
+        "precise_hypotheses": "For each finite cutoff approximation, the hot equation has weighted local well-posedness, continuous dependence on one seed parameter and a bounded continuation criterion. Zero seed has a strict cap; a large seed violates it at time zero. Subsequent nonconcentration estimates apply to the complete H-normalized gain measure and include endpoint escape.",
+        "mechanism": "The endpoint of the open strict-cap parameter component gives cap <=1 with a cap hit. The hit alone carries no positive mass guarantee. A separate l>0 trace argument or l=0 finite-gain residual plus axial/nonaxial regularization yields a nonzero local limit; branching then prevents the observable scale from escaping relative to the horizon.",
+        "possible_bridge": "Conditional arithmetic interface: if an admissible family of row/common-basis constructions admits a controlled deformation or a discrete extremal replacement preserving the same determinant, select a boundary case where a full height-plus-occupancy budget is saturated. Add a finite-witness nonconcentration certificate showing that saturation cannot be carried solely by negligible columns, vanishing minors or unbounded denominators.",
+        "missing_step": "Continuous seed interpolation does not preserve finite integer coefficients or common bases. A feasible arithmetic deformation and a uniform finite-witness certificate must be constructed independently. Saturating a norm or an average does not establish that one integer determinant is simultaneously nonzero and analytically smaller than one, nor resolve pi BA/nonBA.",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/05-cap.tex",
+            "line": 19,
+            "label": "prop:finite-cap"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+            "line": 12,
+            "label": "prop:nonzero-limit"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+            "line": 285,
+            "label": "nc:five-residual"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/09-branching.tex",
+            "line": 8,
+            "label": "prop:finite-dilated-horizon"
+          }
+        ]
+      },
+      {
+        "idea": "Prove finite-composition rank by one explicit witness, then localize quantitatively before pulling back negligible sets.",
+        "precise_hypotheses": "The source map is analytic on a connected positive-time domain, five positive scales stay bounded above/below after deletion, endpoint velocity is nonaxial, and the finite-temperature maps converge in C1 on compact sets. Parameter densities are bounded and compactly supported; target functions are bounded and vanish in measure. Measurable masks need not converge.",
+        "mechanism": "At equal collision times, three time columns are -k1,-k2,-k3 and span position space; two nonparallel final normals furnish three independent velocity angular columns. This gives one nonzero 7x7 minor. Analyticity makes rank failure null. The uniform pullback proof discards a small critical neighborhood and uses finitely many local diffeomorphism charts with explicit positive Jacobian bounds; it does not assume a global lower bound on that minor.",
+        "possible_bridge": "Conditional arithmetic interface: parameterize a finite sequence of row/column exchanges while preserving the relevant constraints, and exhibit a nonzero polynomial minor at one admissible witness. This could certify generic row rank over Q(Z) or simultaneous common-basis nonvanishing. A compact quantitative localization would then need an arithmetic replacement selecting bounded-height integer points outside all bad loci.",
+        "missing_step": "Almost-everywhere real-analytic rank does not select any integer point, avoid a distinguished transcendental specialization for arbitrary analytic functions, or bound denominators. Rational-function rank, common-basis selection and exact integer determinant nonvanishing require algebraic certificates; analytic smallness for that very determinant requires a separate height-plus-quadratic-occupancy estimate. The source supplies neither bridge.",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+            "line": 589,
+            "label": "nc:uniform-pullback"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+            "line": 657,
+            "label": "lem:five-gain-rank"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/08-nonconcentration.tex",
+            "line": 800,
+            "label": "nc:five-nonaxial-gains"
+          }
+        ]
+      },
+      {
+        "idea": "Amplify a positive defect with finite robust blocks until it outruns a polynomial global budget.",
+        "precise_hypotheses": "The source has a positive linear evolution, finite histories dominated by the solution, retained velocities in a fixed ball, a positive potential, volume minorization and mixing. A compact finite set of history tests retains weight >3 under merely measurable uniform coefficient perturbations, and boxes expand on a fixed multiplicative time schedule.",
+        "mechanism": "Three-collision geometric accessibility brings any nonzero density to a late moving box. Repeated bounded histories yield mass >=3^n*m0, whereas the cap and spatial volume give O(((1+a)^n*t0)^4). Fixing parameters so (1+a)^4<3 forces finite horizon. A uniform lower bound for m0 across all limits is unnecessary.",
+        "possible_bridge": "Conditional arithmetic interface: if nonzero feasible determinant witnesses can generate a positive, bounded-overlap tree of admissible common-basis moves, compare the growth rate of retained certified witnesses with the polynomial growth of the joint column-height and quadratic-occupancy budget. Finite move blocks with strict margins could make the comparison robust to bounded perturbations.",
+        "missing_step": "Determinants have cancellation, and multiple histories can encode the same integer matrix, so positivity and bounded overlap need new proofs. No such move tree preserving row rank over Q(Z), common bases and one nonzero/small integer determinant is known here. A count of witnesses alone gives no q^2 Diophantine error estimate.",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/09-branching.tex",
+            "line": 313,
+            "label": "br:reference-block"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/09-branching.tex",
+            "line": 351,
+            "label": "br:robust-block"
+          },
+          {
+            "path": "preprints/Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026/build/sections/09-branching.tex",
+            "line": 523,
+            "label": "br:growth-exponent"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "This is complete source first reading, not independent proof verification. No external cited paper, global existence theorem or referenced estimate was independently re-proved; the periodic continuation interface is recorded as argued by the manuscript.",
+      "The admissibility class does not additionally demand local momentum or local energy conservation. The early construction claims energy conservation, but the global theorem requires its inequality.",
+      "A cap hit is an essential-supremum event, not an a priori positive-mass witness. Full normalized kernel bounds, two axial gains, five nonaxial gains, all endpoint cases and finite dilated horizon are substantive separate steps.",
+      "The analytic rank witness is continuous and may lie outside the masks; the proof transfers rank almost everywhere before applying arbitrary measurable masks. This is not a bounded-height integer nonvanishing principle.",
+      "Fixed physical horizon compactness and shrinking-horizon dilation have different cold limits and cannot be interchanged. The separation argument uses a diagonal choice at each fixed horizon and only afterward the finite-U cap scale.",
+      "All proposed arithmetic interfaces are conditional. The pi BA/nonBA question and q^2 error remain unresolved; the same integer determinant must still be both nonzero and analytically small, with rational-function row rank, common bases, column height and quadratic occupancy handled jointly."
+    ],
+    "scope_note": "Read every line of all 15 pinned text blobs: README (18), paper root (33), preamble (39), all ten included sections (4,630), full TikZ proof-route source (33) and bibliography (186), totaling 4,939 lines and 204,911 bytes. The complete nontruncated directory tree contains no other mathematical source, appendix or figure asset. Root title/author/date match the README-linked paper.pdf; source inclusion closure is explicit. Cached bytes match every expected Git blob SHA without newline repair. This is source reading and source mapping; binary PDF page/layout comparison and independent validation of the theorem or cited dependencies are not claimed.",
+    "independent_proof_verification": false
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "position": 53,
+    "family_id": "032",
+    "title": "Abelian covers, Gale correspondences, and the Hodge conjecture for powers",
+    "pdf_path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/paper.pdf",
+    "directory_tree_sha": "10b943586f6ea65e2eab389f1587fa844c0cbd5c",
+    "status": "full_body_read",
+    "repository": "openai/math",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "read_date": "2026-11-01",
+    "main_source": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/README.md",
+        "sha": "d9b256307bca27bc8c1391a5d06b8d070369c0c5",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_30/53/README.md",
+        "source_bytes": 930,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+        "sha": "0088171f5929a6438c6c0f6de82de781fb929b5d",
+        "total_lines": 3779,
+        "read_ranges": [
+          [
+            1,
+            3779
+          ]
+        ],
+        "role": "main_body_and_inline_bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_30/53/build/paper.tex",
+        "source_bytes": 177793,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping": {
+      "readme_pdf_root": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/paper.pdf",
+      "actual_main_source": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+      "directory_tree_truncated": false,
+      "textual_blobs_in_pinned_tree": [
+        "README.md",
+        "build/paper.tex"
+      ],
+      "recursive_inputs": [],
+      "appendices": [],
+      "external_bibliography_files": [],
+      "external_figure_files": [],
+      "inline_bibliography": {
+        "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+        "start_line": 3627,
+        "end_line": 3778,
+        "entries": 22
+      },
+      "inline_diagram_text": "正文全部交换方阵和表格随 paper.tex 读取；无 figure、caption 或外部图文输入。",
+      "unprocessed_binary_blobs": [
+        {
+          "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/paper.pdf",
+          "sha": "870a7a7289064b392bd08712aafb2df881b57261",
+          "role": "compiled_pdf_not_page_inspected"
+        }
+      ],
+      "previous_version_link": "README 第21行链接 September-30-2026 前版本；不属于本次 October-6-2026 pinned 正文闭包。",
+      "external_reference_bodies": "全部22条引用条目已读；被引论文正文不是此稿局部源闭包，本记录不声称读取。"
+    },
+    "sections_read": [
+      "README 1–21：实际 paper.pdf 链接、作者、日期、BibTeX、前版本说明。",
+      "paper.tex 1–310：完整宏与摘要、两主定理、全标记 tensor Hodge-generic 范围、对角交叠的全光滑 labelled family、前人工作及证明路线。",
+      "311–467：CM-supplied 全上同调定义、admissible 映射/配对、饱和 determinant criterion 和 correspondence transfer 的准确 companion 假设及结论。",
+      "468–1187：有限商、bundle/blowup supply、Fermat 显式支配及消基点；faithful cyclic determinant 的商空间/Abel 纤维局部化、Kummer 类、Fermat bundle 支配、无分支情形、权过滤检测、Poincaré 配对返回、系数逆字符和 abelian quotient 的完整证明。",
+      "1189–1736：全标记 Teichmüller family、Hodge loci 与有限轨道、rank-one nilpotent 分类、crossed cocycles/Dehn twist 公式、连通不可约、winding arcs、正底亏格各个无分支/两点/多点情形的完整证明。",
+      "1739–2397：sphere determinant finite、scalar orbit、有限 monodromy 导致常 period 及 purity 的变形证明；无限 monodromy 的连通不可约与 rank-one Lie 元；standard projections、四点 signatures、共享 simple ideal 的全 mapping-class 比较和所有 scalar conjugate 的纯型定向。",
+      "2399–2510：mixed links、Hodge-circle 权移、真实 Jacobian summands、toric 部分、按 shared ideal 分块、独立 derived action 与 singleton determinant supply 的饱和装配，含任意 CM companion 和曲线混合幂。",
+      "2512–2808：坐标一般性与全部最大子式的精确光滑判据、ambient cohomology、root-cover 局部几何、evaluation quotient 的有限性/满射/商与 Koszul 符号、support character 的 binomial rank 和 support projection。",
+      "2810–3062：perfect Gale tensor、bilinear complementary minors、Lagrange/Vandermonde evaluation 模型、外幂 coproduct 满秩、flat family 常秩及零维端点；forward rational graph supply 的完整次数/Tate 核对；c≤2 的唯一正维 dual curve 与 finite boundary sources。",
+      "3064–3514：branch map 的全局 product normal form、有限 étale coordinate-root base change、fixed deck datum、sphere isotopy、based lift 和每个 marked fiber 的 pathwise comparison、CDK tensor Hodge locus 与 proper algebraic exceptional union。",
+      "3516–3625：所有 self-powers 的 rational whole-degree source 装配、Fermat CM 和 Abel maps、负 Gale shift、finite-product/retract 核对、同一参数对全部幂和 CM source 生效、低维及奇数 m 的检查。",
+      "3627–3779：全部22个 bibliography 条目和文档终止；未读取被引论文正文。"
+    ],
+    "claim_as_stated": "原稿声称：对每个固定连通 topological abelian curve cover，在全标记变形的 tensor Hodge-generic 点 s，对任意 CM abelian variety M 及 N≥1，(Jac(C_s)×M)^N 的每个余维满足有理 Hodge 猜想，并涵盖 C_s^a×M^b；s 的 locus 先于 M 选取。另对任意共同次数 n≥2、d≥0、c∈{0,1,2}，在全光滑 labelled diagonal complete-intersection family 的一个 very-general locus，所有 self-powers 满足有理 Hodge 猜想；c≤1 或 d=0 时无例外。这里按稿件原述登记；结论依赖其引用的 CM Hodge theorem 与 companion tensor/transfer 定理，未独立认证。",
+    "proof_architecture": [
+      "将 CM supply 定义为来自 CM abelian varieties 全上同调的有理 algebraic correspondences 像之和，允许 Tate shifts；用 companion 的 admissible degree-one operations、饱和 determinant criterion 和 whole-degree transfer 作为装配接口，不要求单个不平衡 determinant 本身为 Hodge class。",
+      "Fermat 曲线的非平凡字符重数≤1，故 Jacobian 为 CM；Shioda–Katsura 坐标乘法经 blowup 平滑中心成为 generically finite morphism。bundle/blowup 公式及 f_*f^*=degree 给所有 Fermat cohomology 的有限 CM sources。",
+      "faithful cyclic cover 的 rank n=2g+r−2；C^n 的 phase-kernel/排列商中非平凡残余字符恰为顶外幂。Abel map 在非特殊纤维上的带局部系统上同调消失，将此 line 限制到 K_B(D) 纤维；branched 时其 Kummer 类被 Fermat root bundle 分裂，无分支时特殊纤维为 projective spaces。",
+      "特殊纤维纯权部分在 smooth proper surjection 上可检测；Poincaré duality 找到非零配对。与 C^n 的 fiber product resolution 只实现返回 correspondence，既不要求其全 cohomology 受 CM 供给，也不反转未给出的几何支配。投影 inverse character 后系数共轭，得到原 determinant supply；非faithful字符由实际 cyclic quotient 返回，平凡字符用 polarization。",
+      "在 full marked variation 上，全局 balanced integral tensor 的 lattice+definite norm 轨道有限，给 connected monodromy⊂generic Hodge group。cocycle、disk/handle twists 构造 rank-one operators；fixed-hyperplane 零交与非正交图连通给不可约，rank-one nilpotent 和 reductive irreducible classification 给 standard SL/Sp 投影。正亏格逐一处理 r=0、r=2、r≥3。",
+      "sphere 上有限 determinant 及标量轨道控制 monodromy。有限轨道 variation 经代数 finite cover 的有界 period map 为常；mixed character 的 αβ quadratic differential 在 full branch tangent 上给非零 period differential，故有限情形必须 toric。无限情形证明 connected irreducibility，再由 unipotent 或 Ad-pseudoreflection eigenspace projection 得 rank-one nilpotent；低 rank 直接在 Hodge group 层处理。",
+      "共享 simple Hodge ideal 的字符须比较整个 Γ projective action，不能只知道各投影。sphere 的 pair/triple twists 恢复高rank字符到 inversion；rank2 四点 tuples、signature 和固定 δ ε 处理所有 scalar conjugates 的 pure orientation。正亏格所有 conjugates mixed，Hodge-circle 权移强迫 intertwiners admissible。按 supporting ideals 分块与单个 determinant supply 得 saturation，并在同一 locus 任意加入 CM factors。",
+      "coordinate-root geometry 将字符上同调归于 support，evaluation quotient 给 H^d_b=∧^d V_b 和 binomial(s−2,d)。Gale bilinear complement 的 coordinate multiplication 拉回 Fermat character line；在 evaluation 模型它精确为 complementary-wedge coproduct，故满秩；该 morphism 的 flat local-system tensor 把满秩传到全部 smooth parameters，并单独核对零维端点。",
+      "把 perfect Gale tensor 与 opposite-character Poincaré pairing 收缩，得到来自 Fermat×dual source 的 forward rational graph map。全有理次数而非仅 eigenspaces 作输入，scalar extension 后 spanning 使有理 cokernel 为零，无需 algebraic Künneth projectors。c≤2 保证 dual sources 最多一个 curve，其余为 finite torsors。",
+      "coefficient locus 显式分解为 M_0,m×torus；有限 coordinate roots 才给家族代数同构。另用 based étale torsor、sphere isotopy 和 transported lifts 达到每个 marked cover filtration。CDK+Baire 得 proper algebraic tensor exceptional loci；Fermat CM supply、曲线 Abel maps 和 exact Tate shifts 进入 transfer，有限产品经同一 cover Jacobian+CM sources 装配所有幂。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "用互补外幂的带符号配对，给非零/满秩提供一个逐基项可追踪的证书。",
+        "precise_hypotheses": "P⊂C^m 为(d+1)-维 coordinate-general 平面，Q=P^⊥ 使用普通 bilinear pairing；字符为 full-support。evaluation 特化 P=P_d 来自互异 a_i，N=m−2，d+d′=N；V 的维数恰为 N。",
+        "mechanism": "Lagrange 系数 c_i=∏_{h≠i}(a_i−a_h)^−1 给 P_d^⊥=diag(c_i)P_d′。坐标乘法的真实交换方阵把 Fermat line 拉回精确的 ∧^N V→∧^d V⊗∧^d′V coproduct；每个基楔 v_I 与唯一的互补楔 v_Ic 配对，系数±1，因此不用把带符号展开变成正计数也可证明满秩。一般参数的延伸另依赖 flat local-system morphism。",
+        "possible_bridge": "条件性接口：若实际增长矩阵的 Q(Z) 行空间和候选共同基可嵌入同一有限 exterior-algebra 模型，可尝试显式安排互补基及一个带标记的 coproduct minor，让同一选列的非零证书保留排列符号；原稿的 complementary-minor 身份可作为设计模板。",
+        "missing_step": "尚无将本项目实际行族、共同基或带列权展开识别为上述 Gale tensor 的构造。Vandermonde c_i 及坐标 roots 有分母/高度成本；几何满秩不给指定整数特化的非零或解析小量。仍需同一整数行列式非零与解析上界，并把列高和 cΣn_a² 二次占用同时纳入选列预算；π 的 BA/nonBA 未解决。",
+        "source_anchors": [
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2817,
+            "label": "thm:gale"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2839,
+            "label": "complementary maximal minors"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2859,
+            "label": "Lagrange coefficients c_i"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2903,
+            "label": "exact exterior coproduct and complementary wedge bases"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2928,
+            "label": "flat local-system rank transport"
+          }
+        ]
+      },
+      {
+        "idea": "先精确按字符 support 压缩问题，再把字符级 spanning 提升为 whole-degree 有理满射。",
+        "precise_hypotheses": "有限 abelian phase group 在 smooth projective coordinate-root family 上作用；P coordinate-general，字符 b 的 support S 满足s≥d+2。projection p_S 必须是实际 finite quotient，字符由 G_s,n inflation；返回图 correspondence 必须为有理 cycle，源完整 degree 允许全部 Tate shifts。",
+        "mechanism": "商 pullback 在指定字符上是同构，rank 为 binomial(s−2,d)。Gale perfect tensor 与 opposite-character Poincaré pairing 收缩，给 rational graph correspondence 的像包含每个 W_P,b；对完整有理源次数应用这些有限 maps，extension 到 Qbar 后所有字符 spanning 便使 rational cokernel=0。无需将仅在 scalar extension 可用的字符 projector 冒充 rational map，也不丢掉 Fermat source factor。",
+        "possible_bridge": "条件性接口：实际展开若有一个兼容的有限 abelian symmetry、精确 support projection 及已给出的有理线性 source maps，可先算各 support 的独立容量，再合并为 Q(Z) 上的 row-rank 或候选选基证书；必须保留源、目标、对偶字符和所有 normalization，避免把子块 nonzero 当作全局共同基。",
+        "missing_step": "本项目尚未构造这样的 phase action、finite quotient 或 perfect contraction，binomial(s−2,d) 不是任意列支撑的通用秩公式。一般 polynomial matrix 的秩也不能由连通参数空间推出常数；原稿使用的是 flat local systems。还需实际共同基、清分母、同一整数行列式和完整列高+二次占用估计；whole-degree spanning 本身不给 π 的逼近增益。",
+        "source_anchors": [
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2687,
+            "label": "lem:evaluation"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2748,
+            "label": "prop:characters"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2964,
+            "label": "prop:supply"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 3001,
+            "label": "opposite-character contraction"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 3014,
+            "label": "whole rational source degree and zero cokernel"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 3546,
+            "label": "total shift 2(j−h)"
+          }
+        ]
+      },
+      {
+        "idea": "用 rank-one 变换的固定超平面与方向图检测不可约性，同时显式识别共享作用块。",
+        "precise_hypotheses": "rank-one changes T=1+uℓ 保持非退化 Hermitian pairing，kerℓ=u⊥；指定方向的 nonorthogonality graph 连通且全部 fixed hyperplanes 零交。若进一步使用 standard SL/Sp 分类，须有 connected reductive irreducible action，Lie algebra 中实际存在 rank-one nilpotent；多块独立性须按 supporting simple ideals 证明。",
+        "mechanism": "任何非零 invariant subspace 中的非fixed vector 被某个 T−1 送入 ku；非正交性沿图传播所有方向，零交保证方向 spanning。连通不可约和 rank-one nilpotent 再限制 derived image。原稿另外比较全 Γ action 以识别同一 ideal 的标准/dual copies，防止把逐字符 full projections 误作相互独立的 product action。",
+        "possible_bridge": "条件性接口：若实际 Q(Z) 行空间能找到一组确切保持它的 sparse rank-one operators，可用固定方程和方向图寻找隐藏 invariant blocks；若还能建立同一作用的全部互链关系，可据此审查不同 row types 是否被错误地作为独立容量计数。",
+        "missing_step": "尚无为实际算术行族构造这些 operators、保存配对或共同 invariant row space 的证明。irreducibility/大群不自动给某个 prescribed common basis 或增长族的足够秩，block equivalence 也可能耦合占用。任何迁移仍需具体 Q(Z) rank、同一选列、列高+cΣn_a² 成本，以及同一整数 determinant 的非零/解析小量桥梁；不能据本篇推断 π 为 BA 或 nonBA。",
+        "source_anchors": [
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 1342,
+            "label": "p4:cover-rank-one"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 1448,
+            "label": "p4:twist-model"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 1518,
+            "label": "fixed hyperplanes and propagation"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 1540,
+            "label": "p4:connected-irreducibility"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2245,
+            "label": "full Γ projective action links"
+          },
+          {
+            "path": "preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/build/paper.tex",
+            "line": 2456,
+            "label": "supporting ideals and simultaneous independent blocks"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "这是逐行完整正文首读，不是独立证明有效性认证。未重做完整 Hodge/monodromy、mixed-weight descent、root-family deformation 或 Lie classification 的独立证明，未核验所有 cited theorem 的适用性。",
+      "目录树在 pinned commit 下未截断，唯一文本源为 README 与 build/paper.tex；无 input/include、appendix、外部 bib、figure/caption 或 includegraphics。正文全部交换图、表格及22条 references 随单一 TeX 读取；成品 PDF 页面未检查。",
+      "关键外部 companion 依赖包括 The rational Hodge conjecture for CM abelian varieties（October-6-2026）及 Weil classes and Hodge classes on abelian powers（October-6-2026）；本篇对其陈述接口已读，被引正文未在本记录中计入。另有 Deligne proper descent、CDK、Lefschetz、mapping-class/root-system 等外部依赖。",
+      "tensor Hodge-generic 是 full marked variation 的 locus；受约束子族必须另证 exceptional tensor loci 拉回 proper。coordinate-root finite étale choices 与 based transported marking 是不同数据，不能互相替代。",
+      "CM supply 使用 full cohomology，single determinant 可以不 balanced；bilinear Gale complement 不是 Hermitian complement；curve-product detection 不是无需对应返回的直接 supply；各字符投影满不能直接代替 product independence。",
+      "所有跨域接口均为条件性构造候选。原稿无整数高度、有效分母、common-basis 优化或 π 逼近结论；π BA/nonBA 仍未解决。Q(Z) 行秩、同一整数行列式非零和解析小量、以及列高与二次占用成本之间的缺口保留。"
+    ],
+    "scope_note": "完整首读 pinned README 1–21、build/paper.tex 1–3779，共2个文本、3800行、178723字节。正文按[1,300],[301,600],[601,900],[901,1200],[1201,1500],[1501,1800],[1801,2100],[2101,2400],[2401,2700],[2701,3000],[3001,3300],[3301,3600],[3601,3779]逐块完整显示，均无输出截断。缓存包含原末尾换行的字节重算 Git blob SHA-1，分别等于 d9b256307bca27bc8c1391a5d06b8d070369c0c5、0088171f5929a6438c6c0f6de82de781fb929b5d；对应 queue53 tree 10b943586f6ea65e2eab389f1587fa844c0cbd5c。局部数学源闭合，无未读本地文件；README所链前版本和22项外部文献正文不计入此稿源闭包。未宣称 PDF 页面检查或独立有效性。",
+    "independent_proof_verification": false,
+    "pdf_rendering_read": false,
+    "external_reference_bodies_read": false
+  }
+]

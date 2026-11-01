@@ -1,0 +1,37 @@
+{
+  "position": 51,
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "directory": "Nonuniqueness-for-the-periodic-hard-sphere-Boltzmann-equation-September-23-2026",
+  "directory_tree_sha": "6744e3185181458c99cc0cb11830f19e5964f0b5",
+  "directory_tree_complete": true,
+  "pdf_readme_link": "paper.pdf",
+  "pdf_blob_sha": "653aac461c363560dda1c71c529fd7aceffba737",
+  "main_source": "build/paper.tex",
+  "root_identity": "sole documentclass root; title/author/date agree with README PDF entry",
+  "root_inputs": [
+    "build/preamble.tex",
+    "build/sections/01-introduction.tex",
+    "build/sections/02-framework.tex",
+    "build/sections/03-kernel.tex",
+    "build/sections/04-jets.tex",
+    "build/sections/05-cap.tex",
+    "build/sections/06-admissibility.tex",
+    "build/sections/07-dilation.tex",
+    "build/sections/08-nonconcentration.tex",
+    "build/sections/09-branching.tex",
+    "build/sections/10-separation.tex"
+  ],
+  "recursive_inputs": [
+    {
+      "from_file": "build/sections/01-introduction.tex",
+      "line": 219,
+      "to_file": "build/figures/proof-route.tex"
+    }
+  ],
+  "bibliography": "build/references.bib",
+  "appendices": [],
+  "other_mathematical_text_files": [],
+  "unread_files": [],
+  "standard_tex_packages_external": true,
+  "binary_pdf_layout_verified": false
+}

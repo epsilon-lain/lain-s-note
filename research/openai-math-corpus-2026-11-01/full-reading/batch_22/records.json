@@ -1,0 +1,714 @@
+[
+  {
+    "position": 41,
+    "family_id": "157",
+    "title": "A counterexample to Hadwiger's conjecture",
+    "pdf_path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/paper.pdf",
+    "directory_tree_sha": "c9ca7036ef4365d1a74b260de5581508a75ca78f",
+    "status": "partial_body_read",
+    "main_source": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/README.md",
+        "sha": "586c971ced925928c0242fb040428c04f16c65c5",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/README.md",
+        "source_bytes": 562,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/main.tex",
+        "sha": "d2fb40b8edcb0bd34a2f62644f3b520d15e51fb6",
+        "total_lines": 41,
+        "read_ranges": [
+          [
+            1,
+            41
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            41
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/main.tex",
+        "source_bytes": 1247,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/preamble.tex",
+        "sha": "2617c24676b53664b6ccf02c0efc35db1d6756fb",
+        "total_lines": 70,
+        "read_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/preamble.tex",
+        "source_bytes": 2453,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/01-history.tex",
+        "sha": "88da3d2da73dc90d6f515f4caa2138714a2ef9cc",
+        "total_lines": 103,
+        "read_ranges": [
+          [
+            1,
+            103
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            103
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/01-history.tex",
+        "source_bytes": 5630,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/01-introduction.tex",
+        "sha": "00aa2f455fc218d503c7b6c6c11eda57dff71782",
+        "total_lines": 232,
+        "read_ranges": [
+          [
+            1,
+            232
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            232
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/01-introduction.tex",
+        "source_bytes": 11117,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/02-geometry.tex",
+        "sha": "615530e1f2e5052afd794b3e0719ce1c28553d23",
+        "total_lines": 321,
+        "read_ranges": [
+          [
+            1,
+            321
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            321
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/02-geometry.tex",
+        "source_bytes": 13840,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+        "sha": "e1078d63fdcbcde436a021b5345534b66a66ca36",
+        "total_lines": 250,
+        "read_ranges": [
+          [
+            1,
+            250
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            250
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/03-distributions.tex",
+        "source_bytes": 12764,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-frame-laws.tex",
+        "sha": "c047b08e480e2b82816a8d85bd0fcef8585c8341",
+        "total_lines": 482,
+        "read_ranges": [
+          [
+            1,
+            482
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            250
+          ],
+          [
+            251,
+            482
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/03-frame-laws.tex",
+        "source_bytes": 27685,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/04-moments.tex",
+        "sha": "db6ff361842646e240ff757f35031a4de337d11e",
+        "total_lines": 418,
+        "read_ranges": [
+          [
+            1,
+            418
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            230
+          ],
+          [
+            231,
+            418
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/04-moments.tex",
+        "source_bytes": 19468,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+        "sha": "ddc5ff129c59f67d78f06cc142b6f6aa74702475",
+        "total_lines": 623,
+        "read_ranges": [
+          [
+            1,
+            623
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            240
+          ],
+          [
+            241,
+            450
+          ],
+          [
+            451,
+            623
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/05-realization.tex",
+        "source_bytes": 28729,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/06-collision.tex",
+        "sha": "437abaa4948c16bae1e9624e3d9640e236b7bde9",
+        "total_lines": 291,
+        "read_ranges": [
+          [
+            1,
+            291
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            291
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/06-collision.tex",
+        "source_bytes": 13035,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/07-phases.tex",
+        "sha": "4845f58651baeab8af20a52fc3c7013eaa73b36a",
+        "total_lines": 791,
+        "read_ranges": [
+          [
+            1,
+            791
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            260
+          ],
+          [
+            261,
+            530
+          ],
+          [
+            531,
+            791
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/07-phases.tex",
+        "source_bytes": 32811,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+        "sha": "37110d2331db0692ed8b0543bb10ae4c186f5d66",
+        "total_lines": 716,
+        "read_ranges": [
+          [
+            1,
+            716
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            250
+          ],
+          [
+            251,
+            500
+          ],
+          [
+            501,
+            716
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/08-preparation.tex",
+        "source_bytes": 30152,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/09-histograms.tex",
+        "sha": "f38c13fc50a33a751722218c6271db9bd2710d90",
+        "total_lines": 928,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/09-histograms.tex",
+        "source_bytes": 45604,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/10-product-tests.tex",
+        "sha": "47a433dc0913018c06d08e09249144777152035e",
+        "total_lines": 382,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/10-product-tests.tex",
+        "source_bytes": 19327,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/11-common-limit.tex",
+        "sha": "ebe1c6b2dc5eea6639502f3920d5304bd3604522",
+        "total_lines": 582,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/11-common-limit.tex",
+        "source_bytes": 28632,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/12-status-span.tex",
+        "sha": "d5478451087ee1caac50b3ce3f39f08df15260cb",
+        "total_lines": 567,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/12-status-span.tex",
+        "source_bytes": 27338,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/13-rare-overlap.tex",
+        "sha": "26c5da67411fcf66eb37f93635ad1023cea22ce7",
+        "total_lines": 480,
+        "read_ranges": [],
+        "reading_chunk_ranges": [],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/13-rare-overlap.tex",
+        "source_bytes": 20762,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/14-parameters.tex",
+        "sha": "2ba5bc5c3c67830677871c6a94b7fe65a22cfebc",
+        "total_lines": 505,
+        "read_ranges": [
+          [
+            1,
+            505
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            260
+          ],
+          [
+            261,
+            505
+          ]
+        ],
+        "role": "appendix",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/14-parameters.tex",
+        "source_bytes": 19518,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sources/references.bib",
+        "sha": "6bcce5e69f608521da879bcef0d2fae8059d87ab",
+        "total_lines": 265,
+        "read_ranges": [
+          [
+            1,
+            265
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            265
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sources/references.bib",
+        "source_bytes": 10231,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/09-histograms.tex",
+        "sha": "f38c13fc50a33a751722218c6271db9bd2710d90",
+        "unread_ranges": [
+          [
+            1,
+            928
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/09-histograms.tex"
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/10-product-tests.tex",
+        "sha": "47a433dc0913018c06d08e09249144777152035e",
+        "unread_ranges": [
+          [
+            1,
+            382
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/10-product-tests.tex"
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/11-common-limit.tex",
+        "sha": "ebe1c6b2dc5eea6639502f3920d5304bd3604522",
+        "unread_ranges": [
+          [
+            1,
+            582
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/11-common-limit.tex"
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/12-status-span.tex",
+        "sha": "d5478451087ee1caac50b3ce3f39f08df15260cb",
+        "unread_ranges": [
+          [
+            1,
+            567
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/12-status-span.tex"
+      },
+      {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/13-rare-overlap.tex",
+        "sha": "26c5da67411fcf66eb37f93635ad1023cea22ce7",
+        "unread_ranges": [
+          [
+            1,
+            480
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/13-rare-overlap.tex"
+      }
+    ],
+    "source_mapping_complete": true,
+    "source_closure_complete": false,
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README固定版本、actual main/preamble完整；introduction含历史nested input及全部TikZ节点、边、图注；完整精确主张和roadmap。",
+      "Geometry完整：F2 affine-gradient holes的loopless/symmetric/triangle-free parity proof；tag cut-profile、W_l与strict-majority kernel；testers、T0+T1、selfGram E与E#、Z symmetry；uniform injective paired frames、U_o injectivity、u_oU_o=0。",
+      "Distributions完整：raw supersaturation所需双marginal与joint caps；entropy support和information-projection不等式；terminal maxflow/mincut；entropy-controlled fingerprints、raw重复类型与sample positions的区别；sampling union bound与minor branch-count inequality。",
+      "Frame laws完整：paired-frame orbit和Gram normalization；arbitrary-rank nominal exact-image cap；true intersections导出sparse cut profiles；two peelings、mixed-law actual weights、leaf joint density与mixed marginal cap的不同用途；Walsh estimates全部。",
+      "Moments完整：Boolean base moment characterization、selector interpolation；lowrank moment label decomposition的flat quotient、commuting self-adjoint idempotents、higherdegree discrepancy identity submatrix；projected-pin sparse supports；effective Ci；random unary/binary mixers uniform rank与Z reparametrization。",
+      "Realization完整：paired atoms、scalar recipe、small-table admissibility为两个unary filters；injecting quotient条件；binary bit prescriptions；annihilator classification→relaxed solvability→explicit lowrank tester routing→bounded residual compression→private-channel factorization；所有frozen entries和O(n) test counts。",
+      "Collision完整：reference key tuple Gram space、accepted subprobability不重归一；fixed-parameter numerical records；先prune再average；cell minentropy对growing rank有效；quotient characters的Walsh bound；共同key collision与scalar agreement合成同一four-hole事件。",
+      "Phases完整：no-cover rank-growth多尺度deficits lemma；linear-size cover offsets、singleton Walsh estimates；tiny cover或full-sum mixing alternative；accepting-set-family relative injection；Hadamard-rank兼容概率Ω(N^-4)；additional support/cover pins及leaf-level four-phase event。",
+      "Preparation完整：common predictor定义与quotient modulo q；zero-class exactification；affine-slice common-test second moments；Delta=0时alpha1=alpha2的synthetic-key/small-slice rank contradiction；three preparation branches、phase attainability、rare leaf-pair table filters及acyclic tolerances。",
+      "Appendix14完整：所有参数依赖、channel requirements、pin/atom/rank ledger、linear scalar record编码、collision bit slacks、mixed/leaf/error尺度；后半09–13的命题在appendix被引用而相应正文尚未读。bibliography全部265行条目已读，不等于读外部引用证明。"
+    ],
+    "claim_as_stated": "稿件主定理声称存在arbitrarily large m及m点finite simple graph，alpha(G)≤2且connected matching cm(G)<m/100；此处connected要求matching每对edges都touch。由一般h(G)≤(m+4cm(G)+2)/3得到h(G)<26m/75+2/3<m/2≤chi_f(G)≤chi(G)，因此声称否定ordinary Hadwiger及ordinary fractional-coloring weakening。不是odd-minor替代，也不是cm=o(m)，不解决较小正线性系数的弱connected-matching conjecture。该主张记录自正文，不是独立验证。",
+    "proof_architecture": [
+      "先用F2共享tensor+两个全域cross-gradient identities+opposite a-bits定义triangle-free holes；补图在sample positions上deterministically alpha≤2。目标变成每个capped unit law两独立units产生four cross holes。",
+      "若有uniform raw supersaturation，entropy-minimizer fingerprint将conflict-independent raw-unit families送到不可承载capped law的terminal sets；cut盖以小端点集+小pair集，random sample union bound排除large connected matching。一般minor小branch-set计数给h上界。此law→graph部分已完整读。",
+      "主distribution证明用Boolean point moments与injective paired frames；exact pins peeling得到fresh nominal image entropy；selector interpolation避pins并保证keys independent；small-table/scalar recipe有限化全域gradient solvability，annihilator+compression+private channels实现剩余O(n) scalar entries；overlap转collision proposition完整已读。",
+      "Phase alternative、prediction exactification及synthetic affine slices将law分为无prediction、positive compatibility、zero-class rare compatibility三支；最后一支由lowrank kernel给Ω(N^-4) leaf-pair mass。此preparation已完整读。",
+      "尚未读09–13。根据已读main/intro/appendix，这些是accepted histogram entropy/nets、single-key→full product tests、common-limit obstruction、status-span recipe及rare-overlap完成raw supersaturation；这里只记录闭包及待续依赖，不能用roadmap替代正文阅读或声称proof已闭合。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "把全局组合构造的失败分解为端点容量与成对容量，使用同一个可行law作为进度证据。",
+        "precise_hypotheses": "有限参考概率mu严格为正；候选ordered pairs承载凸紧可行law集，两个marginal cap为Mmu，joint cap为2^(DN)mu^2；对每个可行law均有同一个conflict关系的uniform supersaturation。",
+        "mechanism": "相对熵minimizer在全部可行support上为正，并满足information-projection Pythagorean inequality。记录一个conflict-neighborhood删除时entropy至少增加−log(1−eps)。停止时maxflow/mincut把残集覆盖为mu(S)<1/M的端点例外和mu²(E0)<2^(−DN)的pair例外；fingerprint数与抽样尾界在同一个对象上支付。",
+        "possible_bridge": "可把Q(Z)的候选common bases/row transversals作为有限配置，并把破坏columnheight或quadratic occupancy的同时选择作为conflict。若能建立对所有带marginal及joint cap的候选law的supersaturation，这提供一种从分布证书到具体受预算配置的conditional route；也提示单独控制每行marginal远远不足以控制matching式的endpoint dependence。",
+        "missing_step": "本文没有为Q(Z)定义这样的conflict，也未证明任何对应supersaturation。nonadditive quadratic occupancy无法由单独endpoint caps推出；更没有保证抽到的配置让同一个非零整数determinant满足所需real analytic smallness。finite graph construction不能直接推出π的BA/nonBA。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+            "line": 32,
+            "label": "lem:entropy-support"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+            "line": 76,
+            "label": "lem:terminal-cut"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+            "line": 128,
+            "label": "entropy-controlled fingerprints and actual random-sample exceptions"
+          }
+        ]
+      },
+      {
+        "idea": "先枚举允许改动的annihilator，再把全域目标压缩为有效pin空间和选定atoms上的有限兼容条件。",
+        "precise_hypotheses": "允许response由两个derivative terms和quotient上的pure bilinear forms组成；pin/key entries必须冻结；Boolean moment及label-support结构成立；small table对真正individual pinned primal subspace到private opposite channel quotient是injecting。",
+        "mechanism": "梯度realization先在线性放宽空间求解。annihilator任意profile经低秩label decomposition分离为selected atoms和有效空间Ci；只要target在两类生成元上正确，有限维duality给solvability。随后先移除30r0级explicit pure term，再对bounded residual做保留pins、keys和target row/column forms的blockwise compression，最后通过rank足够的private channels因式分解。",
+        "possible_bridge": "Q(Z)若有保留column occupancy及height的允许integer/row操作，可先求其response image与dual obstruction，而不是盲目扰动。若所有obstructions落在一个可编码小空间，可尝试设计有限兼容tests并保留同一个candidate minor。较远接口是control theory、matrix completion及lowrank correction。",
+        "missing_step": "本文的response、moment domain和F2 private channels特有；Q(Z)尚无对应annihilator classification，也没有整数lift与height/covolume预算。rational compression保持rank不等于保持整数非零minor及real smallness，private-channel factorization的finite-field无成本不能迁移。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+            "line": 205,
+            "label": "thm:gradient-realization"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+            "line": 344,
+            "label": "annihilator classification"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+            "line": 531,
+            "label": "compression preserving domain, frozen vectors and target forms"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+            "line": 578,
+            "label": "factorization through private channels"
+          }
+        ]
+      },
+      {
+        "idea": "通过selector interpolation和对projected pin支持的排除，获得modulo pins的真实nominal independence。",
+        "precise_hypotheses": "squarefree selector evaluations degree至少u−1时任意u distinct labels独立；pin total dimension≤K；对稀疏表示支持的并集有K(R*+14)界；选点避开这些标签，且每endpoint≤14 selected rays。",
+        "mechanism": "对每个projected pin空间，先挑具有稀疏label展开的basis；任意进一步稀疏vector与basis比较只用bounded labels，interpolation迫使其新labels全部已出现。禁止这些labels后，selected rays与table-coordinate space的任何nominal dependence投影到单个primal block均为零。关键是projected pins而非pins与block的交，后者不足以控制mixed endpoint/channel pins。",
+        "possible_bridge": "构造带tag的row候选时，可考虑用评价码或Vandermonde式label使有限组方向在既有约束modulo下独立，并把会触碰fixed pins的labels列为显式有限例外。若最终矩阵为整数，mod prime full rank可作为某个同一整数minor非零的充分证据；它可与候选common-basis搜索连接。",
+        "missing_step": "F2 interpolation给出的tag与enormous固定维度不满足现有Q(Z)的columnheight/occupancy预算；未给row/transversal joint law或common basis定理。即便mod2 minor非零，也不保证它是analytic估计所用同一个minor，且不能提供所需q²|π−p/q|控制。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/04-moments.tex",
+            "line": 34,
+            "label": "lem:base-moments interpolation"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/04-moments.tex",
+            "line": 176,
+            "label": "lem:sparse-pin-labels"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/05-realization.tex",
+            "line": 148,
+            "label": "nominal key independence modulo projected pins"
+          }
+        ]
+      },
+      {
+        "idea": "低degree的渐近几乎处处恒等可exactify；把共同predictor与依赖配置的coefficients明确分开。",
+        "precise_hypotheses": "固定label/tag后表达式为F2 Boolean polynomial，base degree≤2；非零degree≤k多项式在uniform bits上非零概率≥2^(−k)；selector degree≤2j*且例外label数B*<2^(b−2j*)。共同f的reference disagreement经mixed marginal cap转移，unitwise errors须统一趋零。",
+        "mechanism": "先用Markov使每unit/有限test误差统一小；小于1/4的degree2 error强迫每个非例外label上恒等；selector distance界去掉有限例外。最后奇数g个shared-only star atoms的cut sum为零，清除gamma*q歧义，得到整个X上的exact p_i=T(lambda_i,·)+a。affine-slice comparison只对common image-array tests成立，不能冒充任意orientation-dependent测试。",
+        "possible_bridge": "对Q(Z)候选families的symbolic determinant或rank identity，可寻找低degree algebraic model；若有真正distance/anti-concentration gap，则足够小的失败频率可能升级为exact identity，或者证明某个minor不恒零。也可用同一公共test区分可跨配置比较的证据和配置各自选择的basis。",
+        "missing_step": "real polynomial没有此有限Boolean最小support gap，small numerical values不等于identically zero。π analytic estimate依赖real absolute value，需要额外height及distance论证；不能把概率近似预测exactification当作real determinant lower bound或upper bound。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+            "line": 175,
+            "label": "lem:empty-status"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+            "line": 207,
+            "label": "Boolean support gap and removal of excluded selectors"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+            "line": 243,
+            "label": "lem:synthetic-slice common tests"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+            "line": 483,
+            "label": "common representation-existence predicate rather than marks"
+          }
+        ]
+      },
+      {
+        "idea": "对低rank兼容kernel保留逆多项式稀有pair，而不是只在positive-limit branches中寻找结构。",
+        "precise_hypotheses": "F(A,A)=0；F的F2 rank≤d0N。two units独立，singletons的phase error指数小；完整四phase事件在leaf-pair上须determined，不能joint condition后把两侧当独立。",
+        "mechanism": "(1+F)⊙(1+F)^T在pairwise incompatible子集上为I，Hadamard-product rank≤(1+d0N)^2，故incompatible clique有平方rank界。独立采样R_N²+1次再union bound给compatible-pair probability至少1/binom(R_N²+1,2)=Ω(N^−4)。Fourier inversion保留四分之一主项。额外support/cover-evaluation pins把event固定在leaves上，并有relative injection失败界。",
+        "possible_bridge": "若候选common bases的某个互补/兼容事件可写成低rank finite kernel且自兼容，可能不用positive density也能保证inverse-polynomial兼容mass。对nonadditive quadratic occupancy的稀有可行配置，这提示需单独保留polynomial事件，不能在普通limit里丢弃。远接口是rank method与Ramsey/communication matrices。",
+        "missing_step": "Q(Z)目前未有合适kernel、self-compatibility或rank bound；F2 kernel兼容不等于integer determinant非零。后半09–13中的overlap proof本读者尚未读，本记录只报告已读07的有限rank lemma和appendix明确尺度，不把待续overlap结论计为已读。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/07-phases.tex",
+            "line": 648,
+            "label": "lem:tiny-cover"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/07-phases.tex",
+            "line": 712,
+            "label": "Hadamard-product rank and polynomial compatibility"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/07-phases.tex",
+            "line": 746,
+            "label": "additional exact support and cover pins"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/08-preparation.tex",
+            "line": 633,
+            "label": "leaf-level polynomial event and separate admissibility filters"
+          }
+        ]
+      },
+      {
+        "idea": "把vector equality、scalar record和不同概率尺度分别记账，并使参数依赖有向无环。",
+        "precise_hypotheses": "先固定law/pin budgets，再selector/mixers，再r0,h，再M0，最后n；N=M0n且M0固定。每个O(n) record的系数必须在M0前固定。fixed later common-test accuracies只改变onset n，不反向改变construction。",
+        "mechanism": "最终collision成本以k≤56(g−1)个N-bit vectors为主，primal-channel scalar bits<.01N，record logcount<.005N。固定parameter pair先prune小cell，再平均，避免对所有opposite parameters求交致cell mass失控。leaf minentropy与mixed marginal cap分工，inverse-polynomial pair mass要由exponential/superpolynomial error支付。",
+        "possible_bridge": "π/Q(Z)构造可建立同一candidate determinant的budget表：nominal rank、integer entry height、每column支持、quadratic occupancy、analytic determinant exponent分别跟随每个操作；选参数时先锁定结构成本再选放大量，防止把O(n)当o(N)或拿两套不同minor的好处相乘。",
+        "missing_step": "这只是一种证明组织及量化接口；本文没有π的height-to-denominator或real determinant formula。必须对实际矩阵给出有效不等式并同时满足nonzero integer及analytic smallness，参数循环检查不能代替缺失的数学桥。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/02-geometry.tex",
+            "line": 116,
+            "label": "O(n) versus o(N)"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/06-collision.tex",
+            "line": 136,
+            "label": "fixed parameter-pair pruning before averaging"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/06-collision.tex",
+            "line": 181,
+            "label": "conditional image minentropy in retained cell"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/14-parameters.tex",
+            "line": 124,
+            "label": "acyclic dependency order"
+          },
+          {
+            "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/14-parameters.tex",
+            "line": 396,
+            "label": "probability scales and later analytic choices"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "本收据为精确checkpoint：15个text blobs完整读，229242 bytes/5126 lines；另外5个body blobs共141663 bytes/2939 lines只已fetch和SHA核验，未读。status必须保持partial_body_read，source_closure_complete=false，直到新的实际阅读收据覆盖09–13全部行。",
+      "完整读取源码与独立证明验证不同；此次没有独立证明主定理、编译PDF、逐页视觉核验、Lean核验或外部文献验证。paper.pdf binary未读。",
+      "所有algebra/rank在F2；probability/density/entropy为real。把F2 rank和symmetry误当real/integer rank、把modprime nonzero误当real quantitative estimate均无根据。",
+      "可依赖unit内部两个endpoints；仅不同units独立。joint conditioning、同一个leaf的uniform重权、把leaf joint cap当mixed marginal cap、对所有opposite parameters求intersection等均不在已读论证许可内。",
+      "O(n)系数在M0前固定且N=M0n，故不能直接叫o(N)。later fixed tests只改n onset，不能反向改h、pins、J。inverse-polynomial compatibility需要专门overlap支，普通positive-limit只覆盖另一部分。",
+      "precision targets remains π BA/nonBA及q²|π−p/q|未证明；本文没有同一非零整数determinant的analytic smallness，亦未给Q(Z) row-rank/common-basis、columnheight与nonadditive quadratic occupancy所需桥接。construction_ideas均有条件，远接口继续保留。"
+    ],
+    "scope_note": "Pin4eaee87548250b2682affda7d05d947c05554bae，README链接paper.pdf，actual root为build/main.tex；输入闭包含preamble、16个section/appendix文件（01-history在intro嵌入）、references.bib及intro嵌入TikZ，共20 text blobs370905bytes8065lines。全部blob已按Git原始字节hash核对；15个文件分块untruncated阅读完成，其余09–13精确列入unread_files。阅读闭包未完成，不能加full label。",
+    "source_mapping": {
+      "pdf_readme_link": "paper.pdf",
+      "actual_main": "build/main.tex",
+      "nested_inputs": {
+        "build/sections/01-introduction.tex": [
+          "sections/01-history"
+        ]
+      },
+      "bibliography": "build/sources/references.bib",
+      "embedded_figure": {
+        "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/01-introduction.tex",
+        "lines": [
+          103,
+          125
+        ],
+        "label": "fig:four-holes",
+        "read": true
+      },
+      "unmapped_inputs": [],
+      "all_text_blobs_mapped": true
+    },
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "/workspace/scratch/66870cb2f937/research/openai-math-corpus-2026-11-01/full-reading/batch_22/byte_audit.json",
+      "terminal_LF_corrections": 20,
+      "text_file_count": 20,
+      "source_bytes": 370905,
+      "source_lines": 8065,
+      "read_text_file_count": 15,
+      "read_source_bytes": 229242,
+      "read_source_lines": 5126,
+      "body_content_changes": false,
+      "correction_note": "apply_patch appended one additional terminal LF to each fetched source; removed exactly that byte only when SHA of shortened bytes equaled pinned original blob SHA. All20 original sizes and Git blob SHAs restored."
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "position": 43,
+    "readme": "README.md",
+    "pdf_path": "preprints/A-Linear-Clock-for-Random-Walk-on-Tree-Weighted-Planar-Maps-October-5-2026/linear-clock-random-walk-tree-weighted-planar-maps.pdf",
+    "actual_main": "build/paper.tex",
+    "directory_tree_sha": "a70cd66127f2fe4aa7cfca2239beb5fe1eb7decb",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      "README.md",
+      "build/bibliography.tex",
+      "build/paper.tex",
+      "build/sections/01-history.tex",
+      "build/sections/01-introduction.tex",
+      "build/sections/02-inputs.tex",
+      "build/sections/03-nondegeneration.tex",
+      "build/sections/04-energy.tex",
+      "build/sections/05-sphere.tex",
+      "build/sections/06-green.tex",
+      "build/sections/07-dynamics.tex"
+    ],
+    "include_edges": [
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/01-introduction",
+        "resolved": "build/sections/01-introduction.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/02-inputs",
+        "resolved": "build/sections/02-inputs.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/03-nondegeneration",
+        "resolved": "build/sections/03-nondegeneration.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/04-energy",
+        "resolved": "build/sections/04-energy.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/05-sphere",
+        "resolved": "build/sections/05-sphere.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/06-green",
+        "resolved": "build/sections/06-green.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/07-dynamics",
+        "resolved": "build/sections/07-dynamics.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "bibliography",
+        "resolved": "build/bibliography.tex"
+      },
+      {
+        "from_file": "build/sections/01-introduction.tex",
+        "input": "sections/01-history",
+        "resolved": "build/sections/01-history.tex"
+      }
+    ],
+    "unread_files": [],
+    "inline_figures_read": true,
+    "exclusions": [
+      "The PDF binary renders the mapped text closure and is not counted as another source-body read."
+    ],
+    "independent_proof_verification": false
+  },
+  {
+    "position": 45,
+    "readme": "README.md",
+    "pdf_path": "preprints/An-infinite-finitely-presented-periodic-group-September-23-2026/paper.pdf",
+    "actual_main": "build/paper.tex",
+    "directory_tree_sha": "d7405d130b128f90296dcaa26ce92bac88a1a176",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      "README.md",
+      "build/figures/encoded-block.tex",
+      "build/paper.tex",
+      "build/references.tex",
+      "build/sections/cancellation.tex",
+      "build/sections/finite-presentation.tex",
+      "build/sections/finite-rules.tex",
+      "build/sections/kernel-torsion.tex",
+      "build/sections/stability.tex"
+    ],
+    "include_edges": [
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/finite-rules",
+        "resolved": "build/sections/finite-rules.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/cancellation",
+        "resolved": "build/sections/cancellation.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/finite-presentation",
+        "resolved": "build/sections/finite-presentation.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/stability",
+        "resolved": "build/sections/stability.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "sections/kernel-torsion",
+        "resolved": "build/sections/kernel-torsion.tex"
+      },
+      {
+        "from_file": "build/paper.tex",
+        "input": "references",
+        "resolved": "build/references.tex"
+      },
+      {
+        "from_file": "build/sections/finite-rules.tex",
+        "input": "figures/encoded-block",
+        "resolved": "build/figures/encoded-block.tex"
+      }
+    ],
+    "unread_files": [],
+    "inline_figures_read": true,
+    "exclusions": [
+      "The PDF binary renders the mapped text closure and is not counted as another source-body read."
+    ],
+    "independent_proof_verification": false
+  }
+]

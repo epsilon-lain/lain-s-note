@@ -194,7 +194,9 @@
       }
     ],
     "reading_is_not_independent_validation": true,
-    "cached_sources_git_sha_verified": true
+    "cached_sources_git_sha_verified": true,
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 11,
@@ -371,7 +373,9 @@
       "Any proposed arithmetic bridge is speculative; no Diophantine property of pi follows."
     ],
     "reading_is_not_independent_validation": true,
-    "cached_sources_git_sha_verified": true
+    "cached_sources_git_sha_verified": true,
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 12,
@@ -629,6 +633,8 @@
       }
     ],
     "reading_is_not_independent_validation": true,
-    "cached_sources_git_sha_verified": true
+    "cached_sources_git_sha_verified": true,
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   }
 ]

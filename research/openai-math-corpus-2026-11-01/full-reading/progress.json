@@ -3,11 +3,11 @@
   "catalogued_manuscripts": 721,
   "supplementary_uncatalogued_directories": 30,
   "status_counts": {
-    "full_body_read": 36,
-    "not_started": 685
+    "full_body_read": 54,
+    "not_started": 667
   },
-  "source_lines_read": 165412,
-  "source_lines_listed": 165412,
+  "source_lines_read": 250849,
+  "source_lines_listed": 250849,
   "disciplines_in_queue": 17,
   "disciplines_with_body_reading": 17,
   "ordering": "round_robin_disciplines_then_catalogue_order_no_relevance_filter",

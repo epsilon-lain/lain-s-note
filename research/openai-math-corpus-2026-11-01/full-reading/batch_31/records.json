@@ -1,0 +1,484 @@
+[
+  {
+    "position": 48,
+    "family_id": "305",
+    "title": "A marked tensor obstruction to four-dimensional disk embedding",
+    "pdf_path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/paper.pdf",
+    "directory_tree_sha": "c9abcb8695adb9c8978c8e1577b29d85c115a8b1",
+    "status": "full_body_read",
+    "repository": "openai/math",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "read_date": "2026-11-01",
+    "main_source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/README.md",
+        "sha": "f8b54e594ee78f7fcee2d537f8253746b9affd0b",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/README.md",
+        "source_bytes": 676,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/appendices/formal-trace-comparison.tex",
+        "sha": "3d1c445c72471a0dd048261c4522534c626939b1",
+        "total_lines": 370,
+        "read_ranges": [
+          [
+            1,
+            370
+          ]
+        ],
+        "role": "appendix",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/appendices/formal-trace-comparison.tex",
+        "source_bytes": 17465,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-rim-collar.tex",
+        "sha": "3ae770e58aa6727e781a240ce8e411a3a590bbe8",
+        "total_lines": 57,
+        "read_ranges": [
+          [
+            1,
+            57
+          ]
+        ],
+        "role": "figure_text",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/figures/geometry-rim-collar.tex",
+        "source_bytes": 2417,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-sheets.tex",
+        "sha": "7530756173f293b272adcaf15b52fd7a3faef4ec",
+        "total_lines": 52,
+        "read_ranges": [
+          [
+            1,
+            52
+          ]
+        ],
+        "role": "figure_text",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/figures/geometry-sheets.tex",
+        "source_bytes": 2169,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "sha": "5772dbbe678b502f235255e6f61f776ef6a073ba",
+        "total_lines": 117,
+        "read_ranges": [
+          [
+            1,
+            117
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/paper.tex",
+        "source_bytes": 4220,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/references.bib",
+        "sha": "296a8996b2e3a707aec9fe01aa783809d2a5c547",
+        "total_lines": 190,
+        "read_ranges": [
+          [
+            1,
+            190
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/references.bib",
+        "source_bytes": 6899,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/00-introduction.tex",
+        "sha": "487d7350cd1b086eda3802fcee6789ad92afd8ce",
+        "total_lines": 275,
+        "read_ranges": [
+          [
+            1,
+            275
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/00-introduction.tex",
+        "source_bytes": 15437,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/01-geometry.tex",
+        "sha": "f2d21b06c7cf0db1fe46eff7fc692fd32141c1ae",
+        "total_lines": 744,
+        "read_ranges": [
+          [
+            1,
+            744
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/01-geometry.tex",
+        "source_bytes": 38058,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+        "sha": "d090f81c804bb314f77c6fc9862da0074c49ddcc",
+        "total_lines": 585,
+        "read_ranges": [
+          [
+            1,
+            585
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/02-tensor.tex",
+        "source_bytes": 25670,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/03-edge-germs.tex",
+        "sha": "3a5457f08e3348fe10801576eacc157769dfa95e",
+        "total_lines": 506,
+        "read_ranges": [
+          [
+            1,
+            506
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/03-edge-germs.tex",
+        "source_bytes": 20180,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex",
+        "sha": "0fcdc0eb17bc8bea3bd5c13d61a59eb655633432",
+        "total_lines": 515,
+        "read_ranges": [
+          [
+            1,
+            515
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/04-algebraicity.tex",
+        "source_bytes": 23623,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04a-formal-comparison.tex",
+        "sha": "aa96b8f33916706a2daa6a3ccc81bf52068c49c6",
+        "total_lines": 70,
+        "read_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/04a-formal-comparison.tex",
+        "source_bytes": 3110,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+        "sha": "fc79e334422188d99ca066a811877b82301cb71f",
+        "total_lines": 873,
+        "read_ranges": [
+          [
+            1,
+            873
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/05-vertices.tex",
+        "source_bytes": 42129,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      },
+      {
+        "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/06-conclusion.tex",
+        "sha": "9ec16bd9c6165b5b4662995b7397c223d13d0605",
+        "total_lines": 54,
+        "read_ranges": [
+          [
+            1,
+            54
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_25/48/build/sections/06-conclusion.tex",
+        "source_bytes": 2752,
+        "cache_git_blob_sha_verified": true,
+        "final_newline_preserved": true
+      }
+    ],
+    "include_edges": [
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/00-introduction.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/01-geometry.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/03-edge-germs.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/06-conclusion.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/appendices/formal-trace-comparison.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "kind": "bibliography",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/references.bib"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/01-geometry.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-rim-collar.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/01-geometry.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-sheets.tex"
+      },
+      {
+        "source": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex",
+        "kind": "input",
+        "target": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04a-formal-comparison.tex"
+      }
+    ],
+    "unread_files": [],
+    "unmapped_local_text_files": [],
+    "external_tex_infrastructure": [
+      "glyphtounicode (standard TeX glyph-to-Unicode data; no local mathematical body)"
+    ],
+    "sections_read": [
+      "README 与 build/paper.tex 全部宏、主源输入、标题及结构；00-introduction 全文、主定理与完整依赖说明。",
+      "01-geometry 1–744：有限三槽法则、plumbing、标记厚化/帧匹配、外部盘及代数对偶球、逐层群环交点消去、连通树切割、奇偶商、周边上同调；两幅 TikZ 全部源码与图注。",
+      "02-tensor 1–585：张量障碍完整假设、Artin/有限特征下降、Frobenius 截断、图 Thom 形式和配对、实际边界、两级同调、核支撑/兼容投影、三参数提升的全部证明。",
+      "03-edge-germs 1–506：边界 dg 代数与配对、切片递推、中心/仿射曲率=梯度理想、Chern–Simons 边界项、基点规范、holonomy 与一阶系数。",
+      "04-algebraicity 1–515 与递归输入 04a-formal-comparison 1–70：穿孔填充、移位 Lagrangian/Darboux 图、保留迹的模型、任意收缩转移、Cartan 平方 Jacobian 误差、固定临界商的流、holonomy 对数多项式化。",
+      "05-vertices 1–873：限制同构、有限额外字母背景、固定残差商上的切片/提升、Stokes 平方误差和梯度满列秩、两种精确校正、先重定心再 Laurent 扩张、独立共轭全三重理想、最终图及全部接口核对。",
+      "06-conclusion 1–54：固定盘问题反证与 surgery/s-cobordism 声明范围。",
+      "appendices/formal-trace-comparison 1–370：目标 nerve cocycle、完整闭形式类、derived 系数显式比较及中心过滤、mixed cocycle 相容、source evaluation 与相对积分全部五步。",
+      "references.bib 1–190 全部条目；未读取其中引用文献正文。"
+    ],
+    "claim_as_stated": "原稿声称反驳无 good-group 限制的四维 disk-embedding 猜想：存在紧连通定向光滑四流形及适当浸入盘 fi、带帧浸入球 gi，满足群环交数 λ(fi,gj)=δij、含对角的 λ(gi,gj)=0 和 reduced μ(gi)=0，却不存在保持边界映射与诱导边界法帧的两两不交局部平坦替代盘；不要求替代盘保持相对同伦类。其结论未另外声称普通/simple surgery sequence 或五维 s-cobordism 的独立反例。",
+    "proof_architecture": [
+      "在未知切割与斜率前，固定 m≥5、p≥9 的 plumbing、全部有序三端口/独立共轭/符号 Brunnian grope 法则。去掉底面，在外部 E 中构造固定盘族；未用下层 ε 副本间比较，而固定 ε、用上层未使用 cap 杀死 z-loop 后消去 η 副本的群环标签。单独嵌入与帧计算给所有代数对偶条件。",
+      "假设这一个盘族有带规定边界法帧的替代盘，即压缩底面得到不交盘。向 Cayley 树延伸等变映射，在避开局部平坦盘处作光滑连通切割。奇偶商给两顶点 2m 边，上同调限制同构迫使一条原坐标斜率消失；恰 m 活动边。",
+      "每条边用特定边界 dg 代数和 Chern–Simons 函数构造中心/仿射势；Bianchi、收缩及完美配对证明真实曲率理想等于内部梯度理想，保留边界交换式和全部幂零。基点规范识别完整表示变形商，并跟踪 beta holonomy 与一阶系数。",
+      "穿孔填充通过 shifted symplectic/Lagrangian intersection 与代数 Darboux 图提供代数中心势。附录比较完整相对闭形式，任意收缩转移给既定势的 Hamiltonian 恒等式；Cartan 计算使势差落 J²，再用 id mod J 的流消去，保留基点 holonomy 标记。",
+      "两顶点切片用固定残差列表：Stokes 给总势∈I²，H² 限制单射与边配对给梯度矩阵满列秩。精确校正保持商与切向；九个近恒等共轭的 Ad 算子张成 End(sl2)，独立作用与 Nakayama 将法则首项升级为所有三重乘积在 I 中。先在 sigma-adic 环重定心，再扩到 C((sigma))。",
+      "把 holonomy 对数换成二次矩阵多项式后，源图误差∈参数理想·I³，梯度变化∈参数理想·I²；有限幂零校正保留整个 square-free 参数立方体。得到分块代数 Fi、bi、互补图、精确零值与源/目标真实三重梯度理想条件。",
+      "有限张量定理先 Artin 近似精确图/成员系统并降到大特征，再取 zν^p 截断。互补图 Thom 形式有 det(M)^p 非零配对。目标三重关系限制 Koszul 类支撑；兼容同伦投影给至少三因子同时在乘法核和诱导 de Rham 核；三独立参数提升与源三重实际边界使每项配对零，矛盾。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "用固定残差列表和同一个满列秩梯度矩阵，将平方理想误差校正为精确零，并保持整个残差商不变。",
+        "precise_hypotheses": "完备 Noether 局部 Q-代数；固定有限列表 r、I=(r)；S(H)∈I²；(∂hS)(H)=Mr 且 M 有单位满列秩子式。初始版本还要求 I⊂m²、Hessian∈m；重定心后的版本要求误差∈J I²，J 是完整方零参数代数中的幂零理想。",
+        "mechanism": "选单位子式的逆解线性校正 δH∈I；Taylor 余项提高 m 阶，或在完整参数环中提高 J 阶。保持 r 为参数域上的原函数，梯度矩阵保留同一个可逆子式。校正固定 H mod I 与相应标记；不要求 r 正则或无协同关系。",
+        "possible_bridge": "条件性接口：若实际行/列展开的代数约束可写成固定有限残差列表，且某个连续辅助参数模型的同一候选矩阵满足上述梯度恢复条件，可尝试把“模约束成立”的候选变成精确可行构造。必须把行秩 Q(Z)、共同基标记、实际列选择和完整列高+二次占用成本同时作为需保存的数据。",
+        "missing_step": "当前没有这样的算术势函数、梯度恢复矩阵或将形式辅助坐标校正还原为合法整数行/列选择的机制。形式同构不自动保留系数高度、清分母成本或解析小量；它既不保证同一个整数行列式非零，也不闭合 q²|π−p/q|。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+            "line": 348,
+            "label": "lem:vertex-offshell-identities"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+            "line": 422,
+            "label": "lem:vertex-correction"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+            "line": 746,
+            "label": "lem:tensor-nilpotent-correction"
+          }
+        ]
+      },
+      {
+        "idea": "代数化时保留整个临界商及其标记，先把误差压到 Jacobian 理想平方，再用固定商的坐标流消去。",
+        "precise_hypotheses": "两个最小完备模型上的严格闭 (-1)-移位二形式在完整闭形式复形中同伦；Qh=0、Qq∈(h)²；两势函数有相容 Hamiltonian 恒等式。由此差值在 J²；f∈(h)³ 时可用系数属于 J 的形式向量场。",
+        "mechanism": "完整 Cartan 展开给 f−f′=−Σ I^jψ_j/j!∈J²。形式流使 (f+e)∘Φ=f，且 Φ=id mod J。代数临界图中的有限 holonomy 矩阵条目因此仍对应完整、可能非约化的商，而不仅是闭点或根理想。",
+        "possible_bridge": "条件性接口：未来若用坐标替换、局部模型或代数近似简化实际展开矩阵，应把指定行列式/选基证人作为标记函数保存在真实商中；检查方案是否保持 nilpotent 与混合系数。可把“只保持零集合”的操作明确排除在精确秩与消去证书之外。",
+        "missing_step": "尚未给本项目构造此类闭移位形式、临界势函数或 J² 误差。即使形式坐标变换固定一个商，算术归一化后的行列式值与系数高度可能改变；还需证明同一整数行列式的清分母和解析上界。外部 Darboux/转移结果的适用性未在本次独立核验。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex",
+            "line": 355,
+            "label": "lem:cartan-jacobian-square"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex",
+            "line": 414,
+            "label": "lem:jacobian-square-flow"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/04-algebraicity.tex",
+            "line": 455,
+            "label": "thm:edge-algebraicity"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/appendices/formal-trace-comparison.tex",
+            "line": 248,
+            "label": "full mixed-cocycle comparison"
+          }
+        ]
+      },
+      {
+        "idea": "用每组三因子的实际理想关系限制张量支撑，再通过兼容投影与独立参数提升处理带符号相消。",
+        "precise_hypotheses": "分离代数势函数 Fi(hi)、bi(hi)，至少 m=5 个活动块，完整 T=K[ti]/(ti²) 保留混合单项式；两图中心切空间互补且势函数精确为零；所有源 ti tj tk 与目标 bi bj bk 在相应实际梯度理想中。",
+        "mechanism": "特征 p 截断后图 Thom 形式配对非零；Koszul 同调按块分解。所有三重乘法核条件使目标类落入至多两个因子在 ker Bi 外的张量和。即使 ker Bi 不是 δi 子复形，也可选同伦投影把它送入 ker Bi∩kerδi；至少三个因子遂有独立一阶提升，源三重关系使每项配对为零。",
+        "possible_bridge": "条件性接口：将实际展开按行类型或占用类别分块时，可寻找“所有局部三重障碍给全局支撑限制”的精确线性代数模型，尝试在同调/商空间先消除相消，而不把非零问题简化成正权计数。若能把存活展开与共同基证人对应，支撑限制可能强化 n_a≤r_a 的容量条件。",
+        "missing_step": "未发现算术展开具有 Fi、bi 的分离梯度结构、互补图或全三重实际理想关系；二次占用成本 cΣn_a² 本身不是该张量关系。把形式支撑结论接回 Q(Z) 行秩、同一个非零行列式和足够大的高度收益仍需新证明；有限特征非零不提供复数点的解析小量。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 15,
+            "label": "thm:tensor-obstruction"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 340,
+            "label": "lem:tensor-membership-boundary"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 416,
+            "label": "lem:tensor-kernel-support"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 435,
+            "label": "lem:tensor-kernel-projection"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 521,
+            "label": "three-parameter lift proof"
+          }
+        ]
+      },
+      {
+        "idea": "预先固定有限且可分离系数的独立测试族，之后的几何/基选择只决定使用哪一部分，不改变测试族。",
+        "precise_hypotheses": "三槽 Brunnian 法则在删除任一变量时恒等，首项为非零三线性双括号；三槽可独立施加一个张成 End(g) 的有限算子族；高阶项属于 mJ，J 为三槽坐标乘积理想；局部环 Noether。",
+        "mechanism": "九个 Ad(exp(aσe)exp(bσf))，a,b∈{0,1,2}，向量化行列式为 512σ^18。独立作用在三槽后，首项标量测试张成所有三重坐标乘积。所有高阶项在 mJ，用 Nakayama 将首项覆盖升级成 J⊂实际法则理想。几何端在未知未来斜率前安装所有有序端口三元组、符号和独立共轭。",
+        "possible_bridge": "条件性接口：可为潜在的行类型/共同基选择预先建立一个有限系数检测族，以统一检验所有指定展开张量的首个非零分量。选择后才形成的约束必须来自同一固定族；若可在 Q(Z) 上给出可逆检测矩阵，可得到精确的系数恢复证书。",
+        "missing_step": "本项目尚无 Brunnian 型实际法则理想，也未证明形式局部环的 Nakayama 恢复适用于增长矩阵族。检测矩阵的逆可能产生很大分母；512σ^18 是源机制的代数非零证书，不能忽略其逆成本或改作 π 的小量。仍需把检测与同一选列的列高+二次占用预算联立。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/01-geometry.tex",
+            "line": 85,
+            "label": "finite preinstalled law family"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+            "line": 593,
+            "label": "lem:vertex-adjoint-span"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/05-vertices.tex",
+            "line": 617,
+            "label": "lem:vertex-triple-ideals"
+          }
+        ]
+      },
+      {
+        "idea": "把形式非零证书降到有限截断复形时，逐一保存坐标变换、实际边界见证和横截配对，避免依赖非平坦基变换后的同调交换。",
+        "precise_hypotheses": "固定分块代数 germ，形式图/成员关系可由有限多项式系统表达且不含未知图函数的导数；Artin 保持有限切向 jet；有限呈示与指定单位可下降到有限生成 Z-代数；在 p>2 特征将每个内部坐标截为 zν^p=0。",
+        "mechanism": "Frobenius 使含幂零常位移的形式坐标变换保存截断理想；顶系数积分消灭恰当形式。互补图配对为 det(M)^p≠0。三参数特化作用于已给出的实际边界等式，故不需要声称同调与非平坦特化交换。",
+        "possible_bridge": "条件性接口：若未来为增长算术矩阵构造局部代数非零证书，可把所有成员见证和指定可逆子式一起有限呈示，再设计模素数截断检查。审查时应把“边界/线性组合等式可特化”与“同调自动交换”严格分开。",
+        "missing_step": "此处 Artin 与 spreading out 为存在性步骤，无有效高度、素数界或分母界；不能直接给本项目的渐近估计。即使得到模 p 非零证书，也必须恢复同一整数行列式，并独立证明归一化后的复数解析上界足以与整性冲突。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 117,
+            "label": "lem:tensor-reduction"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 247,
+            "label": "lem:tensor-frobenius"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 288,
+            "label": "lem:tensor-graph-form"
+          },
+          {
+            "path": "preprints/A-marked-tensor-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/02-tensor.tex",
+            "line": 549,
+            "label": "actual boundary specialization"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "本记录是逐行完整正文首读，不是独立证明正确性认证；没有运行 Lean、重做全套几何或 derived-stack 证明、验证引用文献定理的全部适用性。",
+      "来源闭包以 pinned directory tree、递归 input/bibliography 与14个缓存文本的精确 Git blob SHA 核对；未读取 paper.pdf 排版页面。图示以源码及完整图注读取，不视为四维实际嵌入投影。",
+      "外部输入包括 Freedman/Quinn/good-group disk 文献、PTVV、Calaque、BBJ、Getzler/Dupont、Artin；参考条目已读但这些外部正文未读，不能将其核验计入本篇覆盖。",
+      "本篇对原稿的“反驳”主张以 claim_as_stated 登记；阅读≠独立有效性。其 geometric conclusion 不自动推出独立表述的 surgery 或 s-cobordism 反例。",
+      "真实理想与根理想、完整方零变量环与把所有混合项杀掉的环、marked based holonomy 与共轭类必须区分；原稿没有假定残差正则、临界点孤立或残差商对参数平坦。",
+      "Artin、有限特征特化、形式流和 Laurent 系数提供存在性而非有效算术高度界。所有构造迁移均为条件性候选；π 的 BA/nonBA 与 q²|π−p/q| 问题仍未解决，同一整数行列式的非零/解析小量及列高+二次占用成本缺口仍在。"
+    ],
+    "scope_note": "完整读取 pinned README、build/paper.tex、全部递归输入正文、04a 比较陈述、正式比较附录、两幅 TikZ 源码/图注及全部 bibliography：14个文本、4426行、204805字节。每个缓存按包含末尾换行的原字节重算 Git blob SHA-1，均匹配 round03_trees.json 的队列48目录树 c9abcb8695adb9c8978c8e1577b29d85c115a8b1。所有本地数学输入已闭合；glyphtounicode 是外部标准 TeX 编码基础设施，目录唯一未缓存 blob 是成品 paper.pdf。没有未读数学源文件、未映射文本或截断区间；不宣称 PDF 页面检查及外部参考证明读取。",
+    "independent_proof_verification": false,
+    "pdf_rendering_read": false,
+    "external_reference_bodies_read": false
+  }
+]

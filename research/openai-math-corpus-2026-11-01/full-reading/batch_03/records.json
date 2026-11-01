@@ -209,7 +209,9 @@
         "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/07-three-dimensions.tex"
       }
     ],
-    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7"
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7",
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 8,
@@ -371,7 +373,9 @@
         "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/positivity.tex"
       }
     ],
-    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8"
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8",
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   },
   {
     "position": 9,
@@ -534,6 +538,8 @@
         "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/tightness.tex"
       }
     ],
-    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9"
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9",
+    "source_mapping_complete": true,
+    "source_mapping_flag_note": "Round03 schema clarification only: the original scope_note already explicitly documents the mapped main/body/include closure. No read range, reading status, or theorem-verification claim was added."
   }
 ]

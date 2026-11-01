@@ -76,7 +76,8 @@ def validate_record(record,by_position):
                              read_lines=count,read_ranges=merged))
     total=sum(f['total_lines'] for f in coverage)
     read=sum(f['read_lines'] for f in coverage)
-    full=(bool(coverage) and read==total and record.get('source_closure_complete') is True
+    full=(bool(coverage) and read==total and record.get('source_mapping_complete') is True
+          and record.get('source_closure_complete') is True
           and not record.get('unread_files'))
     if record['status']=='full_body_read' and not full:
         raise ValueError(f"Unsupported full-body label at position{p['position']}")

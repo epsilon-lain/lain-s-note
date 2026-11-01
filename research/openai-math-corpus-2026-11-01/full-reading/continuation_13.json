@@ -1,0 +1,351 @@
+{
+  "position": 41,
+  "reader": "root_round03_41_rest",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "source_files": [
+    {
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/09-histograms.tex",
+      "sha": "f38c13fc50a33a751722218c6271db9bd2710d90",
+      "total_lines": 928,
+      "read_ranges": [
+        [
+          1,
+          928
+        ]
+      ],
+      "reading_chunk_ranges": [
+        [
+          1,
+          190
+        ],
+        [
+          191,
+          400
+        ],
+        [
+          401,
+          620
+        ],
+        [
+          621,
+          800
+        ],
+        [
+          801,
+          928
+        ]
+      ],
+      "source_bytes": 45604,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/09-histograms.tex",
+      "cache_git_blob_sha_verified": true,
+      "total_lines_verified": true
+    },
+    {
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/10-product-tests.tex",
+      "sha": "47a433dc0913018c06d08e09249144777152035e",
+      "total_lines": 382,
+      "read_ranges": [
+        [
+          1,
+          382
+        ]
+      ],
+      "reading_chunk_ranges": [
+        [
+          1,
+          200
+        ],
+        [
+          201,
+          382
+        ]
+      ],
+      "source_bytes": 19327,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/10-product-tests.tex",
+      "cache_git_blob_sha_verified": true,
+      "total_lines_verified": true
+    },
+    {
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/11-common-limit.tex",
+      "sha": "ebe1c6b2dc5eea6639502f3920d5304bd3604522",
+      "total_lines": 582,
+      "read_ranges": [
+        [
+          1,
+          582
+        ]
+      ],
+      "reading_chunk_ranges": [
+        [
+          1,
+          200
+        ],
+        [
+          201,
+          400
+        ],
+        [
+          401,
+          582
+        ]
+      ],
+      "source_bytes": 28632,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/11-common-limit.tex",
+      "cache_git_blob_sha_verified": true,
+      "total_lines_verified": true
+    },
+    {
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/12-status-span.tex",
+      "sha": "d5478451087ee1caac50b3ce3f39f08df15260cb",
+      "total_lines": 567,
+      "read_ranges": [
+        [
+          1,
+          567
+        ]
+      ],
+      "reading_chunk_ranges": [
+        [
+          1,
+          200
+        ],
+        [
+          201,
+          400
+        ],
+        [
+          401,
+          567
+        ]
+      ],
+      "source_bytes": 27338,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/12-status-span.tex",
+      "cache_git_blob_sha_verified": true,
+      "total_lines_verified": true
+    },
+    {
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/13-rare-overlap.tex",
+      "sha": "26c5da67411fcf66eb37f93635ad1023cea22ce7",
+      "total_lines": 480,
+      "read_ranges": [
+        [
+          1,
+          480
+        ]
+      ],
+      "reading_chunk_ranges": [
+        [
+          1,
+          180
+        ],
+        [
+          181,
+          360
+        ],
+        [
+          361,
+          480
+        ]
+      ],
+      "source_bytes": 20762,
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round03_22/41/build/sections/13-rare-overlap.tex",
+      "cache_git_blob_sha_verified": true,
+      "total_lines_verified": true
+    }
+  ],
+  "read_source_lines": 2939,
+  "read_source_bytes": 141663,
+  "sections_read": [
+    "09-histograms.tex 1–928: full query/test/flag definitions; Gram and many-query comparisons; entropy/refinement proof of all-filter leaf nets; mixed-law typicality; binary mixing; small-cell generic base-status positivity and all remarks.",
+    "10-product-tests.tex 1–382: full weak product theorem, twisted regularity, four-corner terminal remainder proof, recursive tolerance allocation, actual/reference comparisons, factorized integration and filter-class limitation.",
+    "11-common-limit.tex 1–582: full numerical options and successful-query format; adaptive own-leaf-net covariance projection; stored conditional-law common signature model; truncation/zero-product transfer; density identification and limiting overlap obstruction.",
+    "12-status-span.tex 1–567: full available-generator definition, scalar duality, frequent-obstruction global-prediction extraction including finite-key transfer, predicted scalar compatibility, deletion-stable fresh lists of length at most seven, and positive-mass overlap proof.",
+    "13-rare-overlap.tex 1–480: full inverse-polynomial branch, uniform large-set hit proof under polynomial restriction, original-leaf superlevel nets, independent-family exceptional estimate, Ω(N^-4) overlap bound, raw supersaturation completion and stated graph theorem completion."
+  ],
+  "claim_as_stated": "These sections claim to finish raw supersaturation uniformly over admissible unit laws: positive-mass options have subsequential positive constant overlap, while the exact zero-class rare alternative has expected overlap Ω(N^-4). Collision then yields four-hole probability at least 2^(-(k_max+.03)N-o(N)), larger than 2^(-100gN) since k_max=56(g-1). Applying the earlier raw-to-graph proposition yields arbitrarily large m=2^(C0*g*N) sampled-position graphs with alpha≤2 and cm<m/100. This records the manuscript claim and is not independent validation.",
+  "proof_architecture": [
+    "Leaf exponential joint caps yield bounded coarse entropy, uniform integrability and own-leaf all-filter L1 nets; mixed subexponential marginal caps separately yield common-test typicality and common-key base-status positivity.",
+    "Twisted finite regularity plus common four-copy tests establishes both reference and actual-query weak product comparison. Binary mixing evaluates the structured unary sum with the permitted successful-query filters.",
+    "Covariance-based common projections preserve vanishing overlaps even when each own-leaf family member is chosen using the leaf pair. Stored conditional laws preserve conditional orientation independence; uniform integrability upgrades truncated zero products to full limiting zero products.",
+    "The full limiting density is kappa times an average of products of unary status densities. The resulting obstruction is contradicted by scalar duality: no prediction rules out frequent dual relations; prepared predicted compatibility annihilates every dual target. Stable spans realize solutions with one to seven fresh-label generators per edge.",
+    "Rare compatibility of mass Ω(N^-4) is handled separately. Polynomial bad-event restriction preserves mixed caps and forces a superpolynomial hit estimate; original-leaf all-filter nets provide finite large B-sets before the independent A-draw. Removing o(N^-4) pair mass leaves constant overlap per compatible pair and hence Ω(N^-4) expectation.",
+    "The two branches feed the earlier collision proposition with all retention costs charged; their exponent margin closes the stated raw-supersaturation contradiction and then invokes the earlier graph reduction."
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Separate leaf compactness from mixed-law typicality, then build common projections before adaptive witness selection.",
+      "precise_hypotheses": "Normalized original leaves have the exponential joint cap; the mixed law additionally retains subexponential marginal caps. Each own-leaf density family has bounded L1 nets, filters are unnormalized, and the two leaves are independent before pair-dependent usability and admissibility choices. Truncation height is fixed before projection accuracy.",
+      "mechanism": "Many-query Fourier bounds give bounded coarse entropy and all-filter nets on each leaf. A covariance operator built from each own-leaf net has bounded trace. Quantizing its large eigenfunctions produces a deterministic common partition. Independence controls the sum of squared projection errors for every pair of net representatives, so either selected member may depend on both leaves without rebuilding its net using the opposite leaf. Uniform integrability then passes truncated zero products to full densities.",
+      "possible_bridge": "Conditional interface for Q(Z): if candidate coefficient or minor data admit bounded-complexity families and an independently sampled pair representation, construct one common finite observable before selecting compatible candidates. This could retain pair-dependent constraints while making limiting overlap claims reviewable.",
+      "missing_step": "No arithmetic candidate family, covariance trace bound, independent representation, or common-basis preservation is established here. Quadratic occupancy is a coupled cost and cannot be replaced by sums of marginal costs. The construction does not provide the same integer determinant with both nonzero and analytic smallness.",
+      "source_anchors": [
+        {
+          "path": "build/sections/09-histograms.tex",
+          "line": 215,
+          "label": "lem:histogram-many-queries"
+        },
+        {
+          "path": "build/sections/09-histograms.tex",
+          "line": 344,
+          "label": "proof of lem:histogram-control"
+        },
+        {
+          "path": "build/sections/11-common-limit.tex",
+          "line": 132,
+          "label": "lem:limit-global-projection"
+        },
+        {
+          "path": "build/sections/11-common-limit.tex",
+          "line": 375,
+          "label": "lem:limit-zero-product"
+        }
+      ]
+    },
+    {
+      "idea": "Use a four-copy test to transfer weak product approximation uniformly over allowed adaptive unary weights.",
+      "precise_hypotheses": "Bounded common global tuple-key test, distinct labels at each endpoint, finite available Gram twists, raw frame comparisons, mixed joint and marginal caps, and successful queries containing only unary status weights, specified Gram/L,R bits, and orientation-only filters. The reference and actual-query comparisons are both needed.",
+      "mechanism": "Finite twisted regularity gives a bounded structured sum plus small twisted-cut remainders. Two Cauchy-Schwarz steps remove arbitrary orientation-dependent unary weights and produce a common four-corner test. Typicality compares this test with its raw mean; a Gram-character classification bounds either nonzero same-side-copy interactions by Walsh rank or remaining quadrant interactions by the twisted cut norm. Recursion ends at unary factors; on the Gram-zero reference all twists equal one.",
+      "possible_bridge": "Conditional interface: for an explicitly defined arithmetic witness functional, seek a small common test algebra whose error is controlled after adaptive but separately acting row/column choices. A multi-copy moment can expose dependence lost by inspecting unary marginals.",
+      "missing_step": "This is weak testing error, not L1 approximation, and it allows no arbitrary new joint input filter. Determinant integrality, height growth, full row rank of Q(Z), common bases, analytic smallness, and nonlinear occupancy need their own simultaneous estimates. F2 Walsh rank is not an estimate for the real absolute value of an integer determinant.",
+      "source_anchors": [
+        {
+          "path": "build/sections/10-product-tests.tex",
+          "line": 19,
+          "label": "thm:weak-product"
+        },
+        {
+          "path": "build/sections/10-product-tests.tex",
+          "line": 140,
+          "label": "lem:product-terminal-remainder"
+        },
+        {
+          "path": "build/sections/10-product-tests.tex",
+          "line": 170,
+          "label": "eq:product-four-corner"
+        },
+        {
+          "path": "build/sections/10-product-tests.tex",
+          "line": 366,
+          "label": "rem:weak-product-filter-class"
+        },
+        {
+          "path": "build/sections/11-common-limit.tex",
+          "line": 452,
+          "label": "lem:limit-density"
+        }
+      ]
+    },
+    {
+      "idea": "Convert frequently recurring dual obstructions into one shared predictor, rather than permitting a new predictor for each local pair.",
+      "precise_hypotheses": "Binary edge generator spans surject onto the full base status space; generic role/basis assignments have positive density on every common-key signature; bounded exclusion sets leave a common generic label; only finitely many coefficient and status formats are possible. Prediction must be a global function of actual keys common across retained units.",
+      "mechanism": "A scalar obstruction has nonzero coupled weights. Conditional independence of the two status draws at the same signature forces agreeing bits to be deterministic. Generic positivity makes a deterministic opposite-side affine expression unique even as exclusions vary. At most 32 pairs of offsets remain after fixing one opposite array. Positive pair mass therefore yields a fixed shared offset on positive unit mass. Cylinder approximations and strict-error events transfer the limiting function back to genuine finite-key predictors.",
+      "possible_bridge": "Conditional rank interface: classify recurring annihilator obstructions to Q(Z) by a bounded family of common functionals before concluding that rank deficiency is structural. This may distinguish an actual shared obstruction from unrelated pair-specific failures.",
+      "missing_step": "The source works over F2 with fixed finite metadata. An arithmetic analogue needs uniform coefficient-height and denominator bounds, a valid finite classification of annihilators, and proof that the same candidate common basis survives. Frequency alone gives neither an integer nonzero minor nor its analytic smallness, and no claim about π BA/nonBA follows.",
+      "source_anchors": [
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 100,
+          "label": "lem:status-duality"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 145,
+          "label": "lem:status-global-prediction"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 193,
+          "label": "bounded and unique opposite offsets"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 230,
+          "label": "finite-key transfer of common prediction"
+        }
+      ]
+    },
+    {
+      "idea": "Stabilize spans under bounded support deletion, then lift a target with one generator and at most two short kernel corrections.",
+      "precise_hypotheses": "For each of four binary edge spans V, the base projection is onto and its kernel has dimension at most two. Every base vector admits a single-generator generic lift with fresh labels. Mandatory exclusions and prediction exceptions fit a fixed label budget, and scalar solvability survives the stated further exclusions.",
+      "mechanism": "Whenever deleting at most 100 labels shrinks an edge span, make the deletion. Since only the kernel dimensions can fall, at most eight dimension losses occur over four edges. In the stabilized spans, label-disjoint words of length at most three span the kernel: compare two lifts through a fresh third lift, and enforce additivity with lifts of b,c,b+c. One base lift plus at most two three-generator kernel words realizes any target in a nonempty list of at most seven, retaining positive-overlap certificates and distinct labels.",
+      "possible_bridge": "Conditional construction interface for a common-basis search: after proving a target projection is onto, isolate a small defect kernel and realize corrections through fresh support rather than allowing support conflicts to accumulate. A deletion-stable certificate set can make a bounded support budget explicit.",
+      "missing_step": "No surjective integer-lattice projection or bounded defect kernel for Q(Z) is supplied. The F2 identity b+c+(b+c)=0 and bounded word lengths do not bound integer coefficients, denominators, lattice indices, column heights, or nonadditive quadratic occupancy. Any analogue must retain the actual determinant witness and common basis.",
+      "source_anchors": [
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 51,
+          "label": "eq:status-full-projection"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 415,
+          "label": "stable spans and fresh short lists"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 425,
+          "label": "lem:fresh-lists"
+        },
+        {
+          "path": "build/sections/12-status-span.tex",
+          "line": 460,
+          "label": "eq:status-short-kernel"
+        }
+      ]
+    },
+    {
+      "idea": "Protect an inverse-polynomial compatibility event by proving smaller exceptional errors before restricting to it.",
+      "precise_hypotheses": "The rare branch has exact prediction p_i=T(lambda_i,.)+a, pinned compatibility of original leaf pairs of mass at least c0 N^-4, separate admissibility filters of mass at least a0, and generic base queries with no additional p-status filter. Mixed caps survive polynomial-mass law restriction; original prepared leaves separately retain their histogram caps.",
+      "mechanism": "If a deterministic reference set of fixed positive measure had polynomially many bad orientations, restrict to them; the mixed caps survive and limit density identification with unary densities at least beta contradicts the proposed small hit mass. This gives a superpolynomial exceptional probability uniformly per prescribed set. On each B-leaf, all-filter nets yield finitely many large superlevel sets before the independent A-leaf is drawn. Apply the hit bound to that predetermined family, discard o(N^-4) pair mass, then use A small-set control to remove the part where the selected B-density is low. The remaining expected overlap is at least c0*t*A0*N^-4/16.",
+      "possible_bridge": "Conditional arithmetic interface: if full-rank/common-basis candidates occupy only an inverse-polynomial fraction, first obtain an exceptional-set estimate below that fraction and a bounded opposite-side candidate family. Then a coupled height or analytic estimate may be intersected without incorrectly treating conditioning as independence.",
+      "missing_step": "No such arithmetic large-set hit estimate, original-family compactness, or exact prediction identity has been proved. A rare feasible determinant must also satisfy the analytic estimate, column-height bound and true quadratic occupancy bound simultaneously. The source cannot supply these by analogy; π BA/nonBA and q²|π-p/q| remain unresolved.",
+      "source_anchors": [
+        {
+          "path": "build/sections/13-rare-overlap.tex",
+          "line": 73,
+          "label": "lem:rare-large-set-hit"
+        },
+        {
+          "path": "build/sections/13-rare-overlap.tex",
+          "line": 216,
+          "label": "rem:rare-restriction-caps"
+        },
+        {
+          "path": "build/sections/13-rare-overlap.tex",
+          "line": 235,
+          "label": "lem:rare-superlevel-nets"
+        },
+        {
+          "path": "build/sections/13-rare-overlap.tex",
+          "line": 385,
+          "label": "eq:rare-independent-net-error"
+        },
+        {
+          "path": "build/sections/13-rare-overlap.tex",
+          "line": 427,
+          "label": "eq:rare-overlap-bound"
+        }
+      ]
+    }
+  ],
+  "scope_note": "Fresh continuation for queue position 41 only: every line of the five and only five previously unread cached body files 09–13 was read in the explicitly listed untruncated chunks. All five Git blob SHAs and total_lines were independently recomputed from the unchanged cache and match batch_22/records.json. This adds 141663 bytes / 2939 lines; union with the base receipt covers its declared 20-file, 370905-byte, 8065-line source closure. The base record is not modified here. Source reading is not independent proof validation; the PDF binary was neither read nor compiled/rendered.",
+  "limits": [
+    "Full source coverage is a report of reading, not independent verification of the Hadwiger counterexample claim, raw supersaturation, imported lemmas, or cited dependencies. No PDF compilation, visual page check, formal proof verification, or external literature validation was performed.",
+    "Leaf joint caps do not imply mixed marginal caps or the converse. Polynomial restriction preserves mixed caps but need not preserve caps for each normalized old leaf. Rare-overlap nets are used on original prepared leaves only.",
+    "Common-test typicality has a test-dependent exceptional set, not simultaneous control over every test. Generic base-status positivity applies to common global key cells, not arbitrary input-and-key cells. Countable limiting cylinder inequalities do not assert finite-n simultaneous positivity for all measurable cells.",
+    "Weak product comparison is weak testing error rather than L1 error. Its filter class is unary orientation-dependent input weights, specified binary Gram/L,R conditions, and orientation-only filters. An unprescribed joint input predicate is not permitted.",
+    "Conditional orientation laws are stored through the limit; unflagged base arrays are iid only after averaging the leaf-pair record. Leaves are independent before pair-dependent restrictions. No conditional independence after a joint compatibility event is assumed.",
+    "All algebra, status spans, and rank arguments here are over F2. Positivity, probability, entropy, and Hilbert-space density controls are real. These distinctions cannot be erased in an integer determinant application.",
+    "The rare branch needs its own superpolynomial exceptional control because Ω(N^-4) compatibility can disappear in a positive-mass common limit. The positive-overlap branch alone cannot cover it.",
+    "No conclusion on π BA/nonBA or q²|π-p/q| is obtained. An arithmetic transfer must prove nonzero and analytic smallness for the same integer determinant, together with Q(Z) row rank, a candidate common basis, column-height control and nonadditive quadratic occupancy. Every construction idea states unproved bridge requirements."
+  ],
+  "source_byte_audit": {
+    "files_verified": 5,
+    "source_bytes": 141663,
+    "source_lines": 2939,
+    "all_git_blob_sha_match_base": true,
+    "all_total_lines_match_base": true,
+    "source_content_changed": false
+  },
+  "independent_proof_verification": false
+}
