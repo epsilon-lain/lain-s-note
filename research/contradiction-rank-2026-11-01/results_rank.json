@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "exhaustive_matrices": 180,
+  "full_rank": 171,
+  "rank_deficient": 9,
+  "exact_rank_area_formulas": 24,
+  "cost_bound_example": {
+    "old": "67/80",
+    "new": "9/16",
+    "difference": "11/40"
+  },
+  "worst_case_sharpness": {
+    "selected": [
+      4,
+      5
+    ],
+    "cost": "9/5"
+  },
+  "scope": "Finite Q-matrix certificates; asymptotic interpolation theorem is not numerically certified."
+}

@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "exact_determinant_checks": 6,
+  "cases": [
+    {
+      "dimension": 2,
+      "H": 4,
+      "weights": [
+        "1",
+        "1"
+      ],
+      "diagonal_centers": false,
+      "centers": [
+        "2",
+        "3/2"
+      ],
+      "rows": 12,
+      "determinant": "256",
+      "predicted_abs": "256",
+      "exponent": 8,
+      "column_cost": "12",
+      "row_cost": "4",
+      "exact_cost_gap": "8",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 2
+    },
+    {
+      "dimension": 2,
+      "H": 4,
+      "weights": [
+        "1",
+        "1"
+      ],
+      "diagonal_centers": true,
+      "centers": [
+        "3",
+        "3"
+      ],
+      "rows": 12,
+      "determinant": "6561",
+      "predicted_abs": "6561",
+      "exponent": 8,
+      "column_cost": "12",
+      "row_cost": "4",
+      "exact_cost_gap": "8",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 2
+    },
+    {
+      "dimension": 2,
+      "H": 7,
+      "weights": [
+        "1",
+        "2"
+      ],
+      "diagonal_centers": false,
+      "centers": [
+        "2",
+        "3/2"
+      ],
+      "rows": 26,
+      "determinant": "33554432",
+      "predicted_abs": "33554432",
+      "exponent": 25,
+      "column_cost": "41",
+      "row_cost": "16",
+      "exact_cost_gap": "25",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 2
+    },
+    {
+      "dimension": 2,
+      "H": 7,
+      "weights": [
+        "1",
+        "2"
+      ],
+      "diagonal_centers": true,
+      "centers": [
+        "3",
+        "3"
+      ],
+      "rows": 26,
+      "determinant": "847288609443",
+      "predicted_abs": "847288609443",
+      "exponent": 25,
+      "column_cost": "41",
+      "row_cost": "16",
+      "exact_cost_gap": "25",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 2
+    },
+    {
+      "dimension": 3,
+      "H": 4,
+      "weights": [
+        "1",
+        "1",
+        "1"
+      ],
+      "diagonal_centers": false,
+      "centers": [
+        "2",
+        "3/2",
+        "4/3"
+      ],
+      "rows": 14,
+      "determinant": "512",
+      "predicted_abs": "512",
+      "exponent": 9,
+      "column_cost": "15",
+      "row_cost": "6",
+      "exact_cost_gap": "9",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 4
+    },
+    {
+      "dimension": 3,
+      "H": 4,
+      "weights": [
+        "1",
+        "1",
+        "1"
+      ],
+      "diagonal_centers": true,
+      "centers": [
+        "3",
+        "3",
+        "3"
+      ],
+      "rows": 14,
+      "determinant": "19683",
+      "predicted_abs": "19683",
+      "exponent": 9,
+      "column_cost": "15",
+      "row_cost": "6",
+      "exact_cost_gap": "9",
+      "all_columns_in_budget": true,
+      "transverse_derivative_rows": 4
+    }
+  ],
+  "scope": "Actual finite coefficient matrices; theorem proof is in hermite.md; no pi approximation conclusion, no external weight-threshold certification."
+}

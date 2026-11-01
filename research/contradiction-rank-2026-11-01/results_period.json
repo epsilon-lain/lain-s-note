@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "sympy_version": "1.14.0",
+  "no_shift_rank": 3,
+  "row_count": 4,
+  "enumerated_selections": 16,
+  "zero_vector_determinants": 12,
+  "minimum_surviving_degree": 1,
+  "reconstructed_determinant": "-2*r2*(r1 - r2)",
+  "actual_full_packet_columns": 10,
+  "cheapest_columns": [
+    [
+      0,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      1,
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      0,
+      [
+        0,
+        1
+      ]
+    ],
+    [
+      1,
+      [
+        0,
+        1
+      ]
+    ]
+  ],
+  "cheapest_total_horizontal_cost": "2",
+  "cheapest_pure_period_rank": 4,
+  "cheapest_pure_period_determinant": "Z**2",
+  "independent_derivative_checks": 48,
+  "nonzero_terms": [
+    {
+      "selection": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "vector_determinant": "-2*Z",
+      "scalar": "-Z + r1",
+      "degree_cost": 1
+    },
+    {
+      "selection": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "vector_determinant": "-2",
+      "scalar": "(-Z + r1)*(-Z + r2)",
+      "degree_cost": 2
+    },
+    {
+      "selection": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "vector_determinant": "2*Z",
+      "scalar": "-Z + r2",
+      "degree_cost": 1
+    },
+    {
+      "selection": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "vector_determinant": "2",
+      "scalar": "(-Z + r2)**2",
+      "degree_cost": 2
+    }
+  ],
+  "scope": "Exact finite polynomial identities; no pi asymptotic claim."
+}
