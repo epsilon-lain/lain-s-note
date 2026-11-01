@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "arithmetic": "exact Fraction determinant elimination",
+  "cases": [
+    {
+      "H": 8,
+      "K": 2,
+      "theta": "1/3",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "log",
+      "matrix_size": 10,
+      "B_s": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 4,
+      "determinant_denominator_digits": 3
+    },
+    {
+      "H": 8,
+      "K": 2,
+      "theta": "1/3",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "arbitrary_zero_constant",
+      "matrix_size": 10,
+      "B_s": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 4,
+      "determinant_denominator_digits": 3
+    },
+    {
+      "H": 12,
+      "K": 2,
+      "theta": "1/3",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "log",
+      "matrix_size": 18,
+      "B_s": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 8,
+      "determinant_denominator_digits": 5
+    },
+    {
+      "H": 12,
+      "K": 2,
+      "theta": "1/3",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "arbitrary_zero_constant",
+      "matrix_size": 18,
+      "B_s": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 8,
+      "determinant_denominator_digits": 5
+    },
+    {
+      "H": 16,
+      "K": 3,
+      "theta": "1/4",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "log",
+      "matrix_size": 36,
+      "B_s": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 29,
+      "determinant_denominator_digits": 13
+    },
+    {
+      "H": 16,
+      "K": 3,
+      "theta": "1/4",
+      "w0": "1",
+      "v0": "2",
+      "w1": "2",
+      "r_formal_placeholder": "3/2",
+      "curve": "arbitrary_zero_constant",
+      "matrix_size": 36,
+      "B_s": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 29,
+      "determinant_denominator_digits": 13
+    },
+    {
+      "H": 8,
+      "K": 2,
+      "theta": "1/4",
+      "w0": "1/4",
+      "v0": "1",
+      "w1": "1",
+      "r_formal_placeholder": "3/2",
+      "curve": "log",
+      "matrix_size": 24,
+      "B_s": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 10,
+      "determinant_denominator_digits": 7
+    },
+    {
+      "H": 8,
+      "K": 2,
+      "theta": "1/4",
+      "w0": "1/4",
+      "v0": "1",
+      "w1": "1",
+      "r_formal_placeholder": "3/2",
+      "curve": "arbitrary_zero_constant",
+      "matrix_size": 24,
+      "B_s": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_matches_exact_product": true,
+      "determinant_numerator_digits": 10,
+      "determinant_denominator_digits": 7
+    }
+  ],
+  "scope": "Checks raw monomial matrices and exact product formulas. The infinite-H claim is proved in the accompanying note; no inference about pi badly approximable."
+}

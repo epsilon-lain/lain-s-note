@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "source_upload_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "verification_outputs": {
+    "explicit_period_minor_verification.json": "passed",
+    "mixed/mixed_columns_verification.json": "passed",
+    "finite/verification.json": "passed"
+  },
+  "scope": "Explicit infinite-H common-minor theorem in the stated m=1 regime; conditional full-rank mixed-column lemma; exact finite positive and rank-deficient examples. No conclusion about pi badly approximable.",
+  "files": {
+    "README.md": "fce9575eac56cc65cd9320770cf883189c7ce3f0f97179942537242616a8c6fd",
+    "explicit_period_minor_verification.json": "06a674070c60c8a9dd572165220a5e7f1a46a72ec12030bb654b209ec6d032b3",
+    "finite/RESULT.md": "606e7600c56102490c30c7330e5f25ceb8ec2de640df637886548f8ca5f092cc",
+    "finite/experiment.json": "f68da939382c1dbb53ca709bc237027857e47739dc9c88d25aa0e02ba579d29b",
+    "finite/experiment.py": "206874b61b4b39b28f2117fa3e503bfe82ecfcc8e10dbd6bf49fbb4013f0ae7e",
+    "finite/verification.json": "5b18c6942fdb233f64a32aba36ebfb14145be0ab29a86dc9d6d829832a91eccd",
+    "finite/verify.py": "ec576750cf65dbbd781ad960572c34af75599038427a57e17a356909692091fc",
+    "mixed/COMMON_MIXED_COLUMNS.md": "79b36b8081b6b266025b2d44e8d6c4e6d1a8f775f8758db79bed79eae6252dfd",
+    "mixed/mixed_columns_verification.json": "ab8be32ef78fd91d00f1e4c6aada351d33c299bcbcd2d6b004ce31e1d8c8f000",
+    "mixed/verify_mixed_columns.py": "f46c0e85338ac159ab7f6c5f9a7c1430ec312f3319c593e566bf0f8d54d47639",
+    "support_rank_constraints.md": "6bacf681898d3a2eaa0bb8b98ee918aa1f024d279859681aa10920fa7041239e",
+    "verify_explicit_period_minor.py": "3fbd63d20b612a7c70acc85be58a0ccdb49f4b444a827522d0ca123bccb3dcab"
+  }
+}
