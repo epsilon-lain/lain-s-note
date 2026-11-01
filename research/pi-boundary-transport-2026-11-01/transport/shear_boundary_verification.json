@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "packets": [
+    {
+      "m": 1,
+      "v0": 1,
+      "b": [
+        3
+      ],
+      "H": 7,
+      "ambient_rows": 28,
+      "source_rows": 12,
+      "outside_rows": 16,
+      "det_internal_transport": "1"
+    },
+    {
+      "m": 2,
+      "v0": 1,
+      "b": [
+        3,
+        5
+      ],
+      "H": 7,
+      "ambient_rows": 84,
+      "source_rows": 14,
+      "outside_rows": 70,
+      "det_internal_transport": "1"
+    },
+    {
+      "m": 2,
+      "v0": 1,
+      "b": [
+        1,
+        3
+      ],
+      "H": 5,
+      "ambient_rows": 35,
+      "source_rows": 18,
+      "outside_rows": 17,
+      "det_internal_transport": "1"
+    },
+    {
+      "m": 1,
+      "v0": 2,
+      "b": [
+        2
+      ],
+      "H": 9,
+      "ambient_rows": 15,
+      "source_rows": 15,
+      "outside_rows": 0,
+      "det_internal_transport": "1"
+    }
+  ],
+  "boundary_coefficient_checks": 1478,
+  "one_dimensional_closed_form_checks": 21,
+  "zero_cost_cancellation_checks": 14,
+  "direct_polynomial_substitution_entry_checks": 5535,
+  "direct_local_exponential_entry_checks": 5535,
+  "raw_minor_prefactor_certificates": [
+    {
+      "surrogate_omega": "3",
+      "lambda": "-1/11",
+      "scaling_exponent": 6,
+      "det_actual": "15390000/161051",
+      "det_corrected_period": "16929/100"
+    },
+    {
+      "surrogate_omega": "3",
+      "lambda": "1/7",
+      "scaling_exponent": 6,
+      "det_actual": "5640192/16807",
+      "det_corrected_period": "9639/64"
+    },
+    {
+      "surrogate_omega": "3",
+      "lambda": "1/1000",
+      "scaling_exponent": 6,
+      "det_actual": "162892946107134243/1000000000000000",
+      "det_corrected_period": "162243000/1002001"
+    },
+    {
+      "surrogate_omega": "6",
+      "lambda": "-1/11",
+      "scaling_exponent": 6,
+      "det_actual": "635040000/161051",
+      "det_corrected_period": "174636/25"
+    },
+    {
+      "surrogate_omega": "6",
+      "lambda": "1/7",
+      "scaling_exponent": 6,
+      "det_actual": "217645056/16807",
+      "det_corrected_period": "23247/4"
+    },
+    {
+      "surrogate_omega": "6",
+      "lambda": "1/1000",
+      "scaling_exponent": 6,
+      "det_actual": "203555189269174743/31250000000000",
+      "det_corrected_period": "6487776000/1002001"
+    }
+  ],
+  "positive_series_bound_checks": 100,
+  "scope": "Exact rational identities and analytic-majorant spot checks; no periodicity assertion at surrogate nodes, no high-dimensional determinant estimate or pi approximation conclusion."
+}

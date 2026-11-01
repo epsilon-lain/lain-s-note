@@ -1,0 +1,370 @@
+{
+  "status": "passed",
+  "compatible_column_determinants": [
+    {
+      "n": 1,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 1,
+      "r": "6",
+      "determinant": "6"
+    },
+    {
+      "n": 1,
+      "r": "601/100",
+      "determinant": "601/100"
+    },
+    {
+      "n": 1,
+      "r": "-7/3",
+      "determinant": "-7/3"
+    },
+    {
+      "n": 2,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 2,
+      "r": "6",
+      "determinant": "36"
+    },
+    {
+      "n": 2,
+      "r": "601/100",
+      "determinant": "361201/10000"
+    },
+    {
+      "n": 2,
+      "r": "-7/3",
+      "determinant": "49/9"
+    },
+    {
+      "n": 3,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 3,
+      "r": "6",
+      "determinant": "216"
+    },
+    {
+      "n": 3,
+      "r": "601/100",
+      "determinant": "217081801/1000000"
+    },
+    {
+      "n": 3,
+      "r": "-7/3",
+      "determinant": "-343/27"
+    },
+    {
+      "n": 4,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 4,
+      "r": "6",
+      "determinant": "1296"
+    },
+    {
+      "n": 4,
+      "r": "601/100",
+      "determinant": "130466162401/100000000"
+    },
+    {
+      "n": 4,
+      "r": "-7/3",
+      "determinant": "2401/81"
+    },
+    {
+      "n": 5,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 5,
+      "r": "6",
+      "determinant": "7776"
+    },
+    {
+      "n": 5,
+      "r": "601/100",
+      "determinant": "78410163603001/10000000000"
+    },
+    {
+      "n": 5,
+      "r": "-7/3",
+      "determinant": "-16807/243"
+    },
+    {
+      "n": 6,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 6,
+      "r": "6",
+      "determinant": "46656"
+    },
+    {
+      "n": 6,
+      "r": "601/100",
+      "determinant": "47124508325403601/1000000000000"
+    },
+    {
+      "n": 6,
+      "r": "-7/3",
+      "determinant": "117649/729"
+    },
+    {
+      "n": 7,
+      "r": "0",
+      "determinant": "0"
+    },
+    {
+      "n": 7,
+      "r": "6",
+      "determinant": "279936"
+    },
+    {
+      "n": 7,
+      "r": "601/100",
+      "determinant": "28321829503567564201/100000000000000"
+    },
+    {
+      "n": 7,
+      "r": "-7/3",
+      "determinant": "-823543/2187"
+    }
+  ],
+  "boundary_budget_checks": {
+    "boundary_coefficients": 1058,
+    "nonzero_coefficients": 996,
+    "row_sum_bounds": 134
+  },
+  "simplex_gap_checks": [
+    {
+      "coordinates": 1,
+      "H": 1,
+      "rows": 1,
+      "normalized_mean_gap": "1"
+    },
+    {
+      "coordinates": 1,
+      "H": 2,
+      "rows": 2,
+      "normalized_mean_gap": "3/4"
+    },
+    {
+      "coordinates": 1,
+      "H": 3,
+      "rows": 3,
+      "normalized_mean_gap": "2/3"
+    },
+    {
+      "coordinates": 1,
+      "H": 4,
+      "rows": 4,
+      "normalized_mean_gap": "5/8"
+    },
+    {
+      "coordinates": 1,
+      "H": 5,
+      "rows": 5,
+      "normalized_mean_gap": "3/5"
+    },
+    {
+      "coordinates": 1,
+      "H": 6,
+      "rows": 6,
+      "normalized_mean_gap": "7/12"
+    },
+    {
+      "coordinates": 1,
+      "H": 7,
+      "rows": 7,
+      "normalized_mean_gap": "4/7"
+    },
+    {
+      "coordinates": 1,
+      "H": 8,
+      "rows": 8,
+      "normalized_mean_gap": "9/16"
+    },
+    {
+      "coordinates": 1,
+      "H": 9,
+      "rows": 9,
+      "normalized_mean_gap": "5/9"
+    },
+    {
+      "coordinates": 2,
+      "H": 1,
+      "rows": 1,
+      "normalized_mean_gap": "1"
+    },
+    {
+      "coordinates": 2,
+      "H": 2,
+      "rows": 3,
+      "normalized_mean_gap": "2/3"
+    },
+    {
+      "coordinates": 2,
+      "H": 3,
+      "rows": 6,
+      "normalized_mean_gap": "5/9"
+    },
+    {
+      "coordinates": 2,
+      "H": 4,
+      "rows": 10,
+      "normalized_mean_gap": "1/2"
+    },
+    {
+      "coordinates": 2,
+      "H": 5,
+      "rows": 15,
+      "normalized_mean_gap": "7/15"
+    },
+    {
+      "coordinates": 2,
+      "H": 6,
+      "rows": 21,
+      "normalized_mean_gap": "4/9"
+    },
+    {
+      "coordinates": 2,
+      "H": 7,
+      "rows": 28,
+      "normalized_mean_gap": "3/7"
+    },
+    {
+      "coordinates": 2,
+      "H": 8,
+      "rows": 36,
+      "normalized_mean_gap": "5/12"
+    },
+    {
+      "coordinates": 2,
+      "H": 9,
+      "rows": 45,
+      "normalized_mean_gap": "11/27"
+    },
+    {
+      "coordinates": 3,
+      "H": 1,
+      "rows": 1,
+      "normalized_mean_gap": "1"
+    },
+    {
+      "coordinates": 3,
+      "H": 2,
+      "rows": 4,
+      "normalized_mean_gap": "5/8"
+    },
+    {
+      "coordinates": 3,
+      "H": 3,
+      "rows": 10,
+      "normalized_mean_gap": "1/2"
+    },
+    {
+      "coordinates": 3,
+      "H": 4,
+      "rows": 20,
+      "normalized_mean_gap": "7/16"
+    },
+    {
+      "coordinates": 3,
+      "H": 5,
+      "rows": 35,
+      "normalized_mean_gap": "2/5"
+    },
+    {
+      "coordinates": 3,
+      "H": 6,
+      "rows": 56,
+      "normalized_mean_gap": "3/8"
+    },
+    {
+      "coordinates": 3,
+      "H": 7,
+      "rows": 84,
+      "normalized_mean_gap": "5/14"
+    },
+    {
+      "coordinates": 3,
+      "H": 8,
+      "rows": 120,
+      "normalized_mean_gap": "11/32"
+    },
+    {
+      "coordinates": 3,
+      "H": 9,
+      "rows": 165,
+      "normalized_mean_gap": "1/3"
+    },
+    {
+      "coordinates": 4,
+      "H": 1,
+      "rows": 1,
+      "normalized_mean_gap": "1"
+    },
+    {
+      "coordinates": 4,
+      "H": 2,
+      "rows": 5,
+      "normalized_mean_gap": "3/5"
+    },
+    {
+      "coordinates": 4,
+      "H": 3,
+      "rows": 15,
+      "normalized_mean_gap": "7/15"
+    },
+    {
+      "coordinates": 4,
+      "H": 4,
+      "rows": 35,
+      "normalized_mean_gap": "2/5"
+    },
+    {
+      "coordinates": 4,
+      "H": 5,
+      "rows": 70,
+      "normalized_mean_gap": "9/25"
+    },
+    {
+      "coordinates": 4,
+      "H": 6,
+      "rows": 126,
+      "normalized_mean_gap": "1/3"
+    },
+    {
+      "coordinates": 4,
+      "H": 7,
+      "rows": 210,
+      "normalized_mean_gap": "11/35"
+    },
+    {
+      "coordinates": 4,
+      "H": 8,
+      "rows": 330,
+      "normalized_mean_gap": "3/10"
+    },
+    {
+      "coordinates": 4,
+      "H": 9,
+      "rows": 495,
+      "normalized_mean_gap": "13/45"
+    }
+  ],
+  "differential_coefficient_identities": 3375,
+  "scope": "Exact rational finite identities and coefficient bounds. No pi approximation property, high-dimensional threshold, or uniform mixed-minor estimate is certified."
+}

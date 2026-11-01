@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "commands": [
+    "python3 transport/verify_shear_boundary.py",
+    "python3 budget/verify_budget_compatibility.py",
+    "python3 obstruction/verify_gram_displacement.py",
+    "python3 obstruction/verify_review.py"
+  ],
+  "all_exit_codes": 0,
+  "reports": [
+    "transport/shear_boundary_verification.json",
+    "budget/budget_compatibility_verification.json",
+    "obstruction/RESULTS.json",
+    "obstruction/review_verification.json"
+  ],
+  "scope": "Exact finite algebraic and Gaussian-rational checks accompany written proofs. No asymptotic mixed-minor bound, interpolation theorem verification, or bad-approximability conclusion.",
+  "files": {
+    "README.md": "90d7b59b9ee11cccc064e35823bc37bae80cdfb744de1ad1c17cf9b3e27db338",
+    "budget/BOUNDARY_BUDGET.md": "80ae399e4d511325c32182ffdb96967016e90ef70c31d91e5008c3394e0343e9",
+    "budget/COMPATIBLE_COLUMNS.md": "1e467a18bc66369ee6fb7245e11e827d2af37bbe9acb86d49999bc8308049370",
+    "budget/budget_compatibility_verification.json": "a5378aca6248156570164e97b182719c1577374e50cd32777c7f59203063175d",
+    "budget/verify_budget_compatibility.py": "63af916483cefb30f6315a050a4ef3725cc13bca35437c016416df5edfe62977",
+    "obstruction/GRAM_DISPLACEMENT_OBSTRUCTION.md": "50b94e920fb8a2834809a9503177fa03a8b1731da61cf5da9753290e33a91fe4",
+    "obstruction/RESULTS.json": "b672d1c4284564922c0727af0abd0d22b17c6604ddc3e8569779feda00d8a8d8",
+    "obstruction/REVIEW.md": "53151e215638cf13c3162ea1f5e3eed991be2c0ef7ee5c47e14ace3b8a85715f",
+    "obstruction/review_verification.json": "5d8c8a153bb281d04cd8dcc618144a48660657a1e9be89f1ab1c22e5d1236df5",
+    "obstruction/verify_gram_displacement.py": "94b0e117f3b7394399c4808cb0106cc613513b6a425d61fc7cf9fa261ab4b580",
+    "obstruction/verify_review.py": "c2685ae1d43aa0bb0dfc44196131a1832d7b899e6b253a0e77a804764ada2eac",
+    "transport/SHEAR_BOUNDARY_IDENTITY.md": "8ab46cc6ca24292c5c07dd749e9ee5e997ea6ecb571910b66ef8121a61c204cf",
+    "transport/shear_boundary_verification.json": "bb6115e454fadccd7719ee1d04b2f63dff636b6b1bba9e5973e92ecb7e660c70",
+    "transport/verify_shear_boundary.py": "2b31170382160f4cbc2c679189d5cb69107565def28982884ccd060ed5c2abbe"
+  }
+}

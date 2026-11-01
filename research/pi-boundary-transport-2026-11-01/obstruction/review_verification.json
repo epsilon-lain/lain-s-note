@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "outside_coefficient_checks": 315,
+  "row_sum_checks": 56,
+  "compatible_column_cases": [
+    {
+      "n": 1,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 1,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 1,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 2,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 2,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 2,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 3,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 3,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 3,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 4,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 4,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 4,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 5,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 5,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 5,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 6,
+      "r_real": "0",
+      "r_imag": "0",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 6,
+      "r_real": "2/3",
+      "r_imag": "-1/7",
+      "determinant_equals_r_power_n": true
+    },
+    {
+      "n": 6,
+      "r_real": "0",
+      "r_imag": "601/100",
+      "determinant_equals_r_power_n": true
+    }
+  ],
+  "scope": "Finite exact identities, not a high-dimensional determinant bound."
+}

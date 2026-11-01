@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scope": "kernel-only rational imaginary base; no exp(6i)=1 assertion",
+  "base_omega": "6i",
+  "shift_delta": "i/100",
+  "radius": "20",
+  "transverse_types": [
+    0,
+    1
+  ],
+  "cases": [
+    {
+      "jets_per_node": 1,
+      "rows": 2,
+      "gram_determinant": "901/9100",
+      "zero_gram_determinant": "9/91",
+      "selected_minor_modulus_squared": "1/10000",
+      "gram_ratio_lower_bound": "91/90000",
+      "gram_ratio_lower_bound_approx": 0.001011111111111111,
+      "actual_gram_ratio_approx": 1.001111111111111,
+      "ordinary_and_log_jet_checks": true
+    },
+    {
+      "jets_per_node": 2,
+      "rows": 4,
+      "gram_determinant": "242629/274299844000000",
+      "zero_gram_determinant": "6561/10971993760000",
+      "selected_minor_modulus_squared": "1/16000000000000",
+      "gram_ratio_lower_bound": "68574961/656100000000",
+      "gram_ratio_lower_bound_approx": 0.00010451906873952142,
+      "actual_gram_ratio_approx": 1.4792196311537875,
+      "ordinary_and_log_jet_checks": true
+    },
+    {
+      "jets_per_node": 3,
+      "rows": 6,
+      "gram_determinant": "19347554897389/175280046133161333145600000000000000",
+      "zero_gram_determinant": "387420489/1752800461331613331456000000000000",
+      "selected_minor_modulus_squared": "1/4096000000000000000000000000",
+      "gram_ratio_lower_bound": "427929800129788411/387420489000000000000",
+      "gram_ratio_lower_bound_approx": 0.0011045616127178767,
+      "actual_gram_ratio_approx": 499.394209824277,
+      "ordinary_and_log_jet_checks": true
+    },
+    {
+      "jets_per_node": 4,
+      "rows": 8,
+      "gram_determinant": "407653434327832753201621/9275176480027522405535601388815804006400000000000000000000000000",
+      "zero_gram_determinant": "1853020188851841/371007059201100896221424055552632160256000000000000000000000000",
+      "selected_minor_modulus_squared": "1/167772160000000000000000000000000000000000000000",
+      "gram_ratio_lower_bound": "22113743972843938840712550613441/18530201888518410000000000000000",
+      "gram_ratio_lower_bound_approx": 1.193389262884715,
+      "actual_gram_ratio_approx": 8799762.393963357,
+      "ordinary_and_log_jet_checks": true
+    }
+  ]
+}
