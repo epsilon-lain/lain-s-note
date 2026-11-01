@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "requested_focus": "π rational approximation construction principles and own explanatory models",
+  "sequential_full_corpus": {
+    "status": "paused_by_user",
+    "last_contiguous_position": 54,
+    "next_if_resumed": 55
+  },
+  "focused_manuscript": {
+    "family_id": "017",
+    "queue_position": 521,
+    "pinned_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_lines": 1878,
+    "full_mathematical_source_read": true,
+    "independent_proof_verification": false
+  },
+  "evidence": "pinned_source_manifest.json",
+  "external_scope": "See scope.json,classical_coverage.json and integral_mechanism.md; partial/access-blocked coverage remains explicit."
+}

@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "labs": [
+    {
+      "script": "check_classical_models.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "classical_model_checks.json",
+      "output_sha256": "9580facfe1216025f476157d30fdd4e2373a0c59d1bb8fc574e1052618c75b19"
+    },
+    {
+      "script": "core_models.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "results_core_models.json",
+      "output_sha256": "8fb5f90e43d7bed775be8c67c93bb95396254d52f2459ce0e503688a583b5427"
+    },
+    {
+      "script": "integral_lab.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "integral_lab_results.json",
+      "output_sha256": "8de64885c49f6006de8b0c9c6009e88cbb22fd49cbc581ba8eacbb07f1d4af36"
+    },
+    {
+      "script": "interpolation_lab.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "interpolation_lab_results.json",
+      "output_sha256": "3cc9b5a08abf6d2fa567b4c050a303517d399f769421a7dfe5d701d32acb0276"
+    },
+    {
+      "script": "parameter_lab.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "results_parameters.json",
+      "output_sha256": "152d79f7a1830ebeafd0e08f8a8a4d103684d0bf2a7c9d8fc880bbc3ea4932ff"
+    },
+    {
+      "script": "period_lab.py",
+      "status": "passed",
+      "exit_code": 0,
+      "output": "results_period_lab.json",
+      "output_sha256": "09928932d3056ba52f0660e64d9d7fe608f2bce8d3431008637e6dcd5b4aa17c"
+    }
+  ],
+  "source_audit": {
+    "pin": "4eaee87548250b2682affda7d05d947c05554bae",
+    "status": "passed",
+    "records": [
+      {
+        "path": "README.md",
+        "git_blob_sha": "f5b171d49b516bc8891745f8b9c847e09be6306a",
+        "size": 550,
+        "lines": 18,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/main.tex",
+        "git_blob_sha": "fe28ac589090c44a8877aa326b60e753c863fa24",
+        "size": 12659,
+        "lines": 264,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/references.bib",
+        "git_blob_sha": "7e0930ea5fea9d94e18c3b1b21ac0fd62cf4c367",
+        "size": 8718,
+        "lines": 269,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/conclusion.tex",
+        "git_blob_sha": "1577b7461538faa5b6a23850ebb7dd66f01825d7",
+        "size": 6177,
+        "lines": 156,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/determinant.tex",
+        "git_blob_sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+        "size": 14595,
+        "lines": 432,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/interpolation.tex",
+        "git_blob_sha": "69dd30eac65dd0817226970299e4100e15e9ec0b",
+        "size": 26655,
+        "lines": 584,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/series.tex",
+        "git_blob_sha": "dbffc2bed293c8d0b59d2ac16f82cc78590dad68",
+        "size": 5720,
+        "lines": 155,
+        "matches_pinned_closure": true
+      }
+    ],
+    "missing": [],
+    "scope": "Byte identity only; no theorem or Lean verification."
+  },
+  "scope": "Finite exact identities and stated numerical checks; no independent certification of mu(pi)=2 or pi BA/nonBA."
+}

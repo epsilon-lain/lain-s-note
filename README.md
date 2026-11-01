@@ -8,4 +8,6 @@
 
 - [OpenAI 数学语料接入与第二轮分析（2026-11-01）](research/openai-math-corpus-2026-11-01/README.md)：完整固定版本子模块、721 篇可检索目录、重点论文工具迁移与验证。
 
-- [全库逐篇正文阅读与台账（2026-11-01）](research/openai-math-corpus-2026-11-01/full-reading/README.md)：按17学科轮转，全721篇保留；累计54篇正文首读完成，尚余667篇，下一断点第55项。
+- [全库逐篇正文阅读与台账（2026-11-01）](research/openai-math-corpus-2026-11-01/full-reading/README.md)：按17学科轮转，全721篇保留；55篇已有正文首读记录；全库顺序轮转暂停于第54项，已转入π定向研究。
+
+- [π论文的构造原理与可运行解释模型（2026-11-01）](research/pi-construction-mechanisms-2026-11-01/README.md)：重点重建插值秩、精确周期、Taylor碰撞、积分对称与清分母成本；附删除实验、精确模型及ν=2的参数障碍。未证明π坏逼近或非坏逼近。

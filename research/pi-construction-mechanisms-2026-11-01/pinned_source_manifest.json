@@ -1,0 +1,103 @@
+{
+  "upstream_repository": "openai/math",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "directory": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/",
+  "source_files": [
+    {
+      "path": "README.md",
+      "sha": "f5b171d49b516bc8891745f8b9c847e09be6306a",
+      "size": 550,
+      "total_lines": 18,
+      "read_ranges": [
+        [
+          1,
+          18
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/README.md"
+    },
+    {
+      "path": "build/main.tex",
+      "sha": "fe28ac589090c44a8877aa326b60e753c863fa24",
+      "size": 12659,
+      "total_lines": 264,
+      "read_ranges": [
+        [
+          1,
+          264
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex"
+    },
+    {
+      "path": "build/references.bib",
+      "sha": "7e0930ea5fea9d94e18c3b1b21ac0fd62cf4c367",
+      "size": 8718,
+      "total_lines": 269,
+      "read_ranges": [
+        [
+          1,
+          269
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/references.bib"
+    },
+    {
+      "path": "build/sections/conclusion.tex",
+      "sha": "1577b7461538faa5b6a23850ebb7dd66f01825d7",
+      "size": 6177,
+      "total_lines": 156,
+      "read_ranges": [
+        [
+          1,
+          156
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/conclusion.tex"
+    },
+    {
+      "path": "build/sections/determinant.tex",
+      "sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+      "size": 14595,
+      "total_lines": 432,
+      "read_ranges": [
+        [
+          1,
+          432
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex"
+    },
+    {
+      "path": "build/sections/interpolation.tex",
+      "sha": "69dd30eac65dd0817226970299e4100e15e9ec0b",
+      "size": 26655,
+      "total_lines": 584,
+      "read_ranges": [
+        [
+          1,
+          584
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex"
+    },
+    {
+      "path": "build/sections/series.tex",
+      "sha": "dbffc2bed293c8d0b59d2ac16f82cc78590dad68",
+      "size": 5720,
+      "total_lines": 155,
+      "read_ranges": [
+        [
+          1,
+          155
+        ]
+      ],
+      "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/series.tex"
+    }
+  ],
+  "source_mapping_complete": true,
+  "source_closure_complete": true,
+  "full_mathematical_source_read": true,
+  "independent_proof_verification": false,
+  "scope": "Complete pinned source reading and mechanism reconstruction; external algebraic-geometric inputs and Lean import closure not independently verified."
+}

@@ -1,6 +1,6 @@
 # 全库正文阅读台账
 
-目录稿件721；全文首读54；部分正文0；受阻0；未开始667。
+目录稿件721；全文首读55；部分正文0；受阻0；未开始666。
 
 完整首读只表示已读相应正文与附录，不表示论文主张已独立证明。
 
@@ -526,7 +526,7 @@
 | 518 | 222 | Probability and statistical mechanics | [The spherical perceptron with bi-orthogonally invariant disorder](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-spherical-perceptron-with-bi-orthogonally-invariant-disorder-September-24-2026/The-spherical-perceptron-with-bi-orthogonally-invariant-disorder-September-24-2026.pdf) | 未开始 | — |
 | 519 | 271 | Mathematical physics | [Bloch's Law for Finite-Range Heisenberg Ferromagnets in Three Dimensions](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Blochs-Law-for-Finite-Range-Heisenberg-Ferromagnets-in-Three-Dimensions-October-5-2026/bloch-law-heisenberg.pdf) | 未开始 | — |
 | 520 | 356 | Differential geometry | [Gigli’s distributional curvature characterization of Alexandrov spaces](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Giglis-distributional-curvature-characterization-of-Alexandrov-spaces-September-24-2026/main.pdf) | 未开始 | — |
-| 521 | 017 | Number theory | [The irrationality exponent of pi is 2](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf) | 未开始 | — |
+| 521 | 017 | Number theory | [The irrationality exponent of pi is 2](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf) | 正文首读完成 | 1878/1878 |
 | 522 | 042 | Algebraic and complex geometry | [Every complex K3 surface is Oka](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Every-complex-K3-surface-is-Oka-September-23-2026/paper.pdf) | 未开始 | — |
 | 523 | 124 | Theoretical computer science | [A Polynomial-Time Algorithm for Three-Machine Unit-Job Scheduling](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/A-polynomial-time-algorithm-for-three-machine-unit-job-scheduling-September-24-2026/paper.pdf) | 未开始 | — |
 | 524 | 184 | Combinatorics | [A logarithmic independence bound for clique-free graphs](https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/A-Logarithmic-Independence-Bound-for-Clique-Free-Graphs-September-25-2026/paper.pdf) | 未开始 | — |

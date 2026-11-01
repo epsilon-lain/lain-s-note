@@ -1,0 +1,555 @@
+{
+  "upstream_repository": "https://github.com/openai/math",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "scope_definition": "Real-pi Diophantine approximation, irrationality exponents/measures, and associated Flint Hills constructions; excludes incidental constant pi, Pi product notation, and homotopy pi.",
+  "catalogued_manuscripts": 721,
+  "inventory_directories": 751,
+  "uncatalogued_directories": 30,
+  "inventory_partition_check": true,
+  "coverage": {
+    "catalogue": "All 721 titles, abstracts, family descriptions screened; 32 broad keyword candidates manually classified. This is metadata topical screening, not full-text reading of 721 papers.",
+    "extras": "All 30 uncatalogued directory names screened; no direct real-pi-approximation candidate. Bodies of those 30 directories not read in this task.",
+    "included": "One identified manuscript/directory, family 017; no additional revision identified from pinned metadata. Supporting external references separately examined."
+  },
+  "broad_keyword_candidate_count": 32,
+  "classified_candidates": [
+    {
+      "family_id": "017",
+      "title": "The irrationality exponent of pi is 2",
+      "directory": "The-irrationality-exponent-of-pi-is-2-September-24-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "classification": "included: main subject is real-pi irrationality exponent and Flint Hills convergence"
+    },
+    {
+      "family_id": "023",
+      "title": "An unconditional first moment for cubic Gauss sums",
+      "directory": "An-unconditional-first-moment-for-cubic-Gauss-sums-September-25-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/An-unconditional-first-moment-for-cubic-Gauss-sums-September-25-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "090",
+      "title": "A sharp Fourier certificate for planar circle packing",
+      "directory": "A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "096",
+      "title": "The Gaussian propeller bound in every dimension",
+      "directory": "The-Gaussian-Propeller-Bound-in-Every-Dimension-September-24-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Gaussian-Propeller-Bound-in-Every-Dimension-September-24-2026/main.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "135",
+      "title": "Homogeneous depth-five lower bounds for iterated matrix multiplication",
+      "directory": "Homogeneous-depth-five-lower-bounds-for-iterated-matrix-multiplication-September-25-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Homogeneous-depth-five-lower-bounds-for-iterated-matrix-multiplication-September-25-2026/Homogeneous-depth-five-lower-bounds-for-iterated-matrix-multiplication-September-25-2026.pdf",
+      "classification": "excluded: Pi is product-gate notation"
+    },
+    {
+      "family_id": "150",
+      "title": "Weak mixing of triangular billiards with an irrational angle",
+      "directory": "Weak-mixing-of-triangular-billiards-with-an-irrational-angle-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Weak-mixing-of-triangular-billiards-with-an-irrational-angle-October-5-2026/weak-mixing-triangular-billiards.pdf",
+      "classification": "excluded: irrational billiard angles relative to pi; no approximation theorem for the constant pi"
+    },
+    {
+      "family_id": "150",
+      "title": "Ergodicity of triangular billiards with an irrational angle",
+      "directory": "Ergodicity-of-triangular-billiards-with-an-irrational-angle-September-25-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Ergodicity-of-triangular-billiards-with-an-irrational-angle-September-25-2026/Ergodicity-of-triangular-billiards-with-an-irrational-angle-September-25-2026.pdf",
+      "classification": "excluded: irrational billiard angles relative to pi; no approximation theorem for the constant pi"
+    },
+    {
+      "family_id": "215",
+      "title": "The canonical massive continuum limit of the two-dimensional O(3) model",
+      "directory": "The-canonical-massive-continuum-limit-of-the-two-dimensional-O3-model-October-4-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-canonical-massive-continuum-limit-of-the-two-dimensional-O3-model-October-4-2026/massive-continuum-o3.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "215",
+      "title": "An Isolated Particle Pole for the Two-Dimensional O(3) Spin Field",
+      "directory": "An-Isolated-Particle-Pole-for-the-Two-Dimensional-O3-Spin-Field-October-4-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/An-Isolated-Particle-Pole-for-the-Two-Dimensional-O3-Spin-Field-October-4-2026/o3-particle-pole.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "215",
+      "title": "Exact mass asymptotics for the two-dimensional O(4) lattice model",
+      "directory": "Exact-mass-asymptotics-for-the-two-dimensional-O4-lattice-model-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Exact-mass-asymptotics-for-the-two-dimensional-O4-lattice-model-October-5-2026/exact-mass-o4.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "215",
+      "title": "Sharp mass bounds for the two-dimensional O(4) model",
+      "directory": "Sharp-mass-bounds-for-the-two-dimensional-O4-model-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Sharp-mass-bounds-for-the-two-dimensional-O4-model-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "215",
+      "title": "Exponential decay in two-dimensional classical O(n) models",
+      "directory": "Exponential-decay-in-two-dimensional-classical-On-models-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Exponential-decay-in-two-dimensional-classical-On-models-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "216",
+      "title": "The Critical Spin Field of the Planar XY Model",
+      "directory": "The-Critical-Spin-Field-of-the-Planar-XY-Model-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Critical-Spin-Field-of-the-Planar-XY-Model-October-5-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "216",
+      "title": "BKT universality for height and planar spin fields",
+      "directory": "BKT-universality-for-height-and-planar-spin-fields-September-24-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/BKT-universality-for-height-and-planar-spin-fields-September-24-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Square-lattice FK interfaces and nested loops for 1 <= q < 4",
+      "directory": "Square-lattice-FK-interfaces-and-nested-loops-for-1-leq-q-lt-4-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Square-lattice-FK-interfaces-and-nested-loops-for-1-leq-q-lt-4-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Self-dual random-cluster interfaces below one",
+      "directory": "Self-dual-random-cluster-interfaces-below-one-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Self-dual-random-cluster-interfaces-below-one-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Quenched SLE Universality for Weakly Disordered FK–Ising Interfaces",
+      "directory": "Quenched-SLE-Universality-for-Weakly-Disordered-FK-Ising-Interfaces-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Quenched-SLE-Universality-for-Weakly-Disordered-FK-Ising-Interfaces-October-5-2026/quenched-fk-ising.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Thermal FK–Ising interfaces and massive SLE",
+      "directory": "Thermal-FK-Ising-interfaces-and-massive-SLE-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Thermal-FK-Ising-interfaces-and-massive-SLE-October-5-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Natural Occupation Measures for Critical Square-Lattice FK Interfaces",
+      "directory": "Natural-Occupation-Measures-for-Critical-Square-Lattice-FK-Interfaces-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Natural-Occupation-Measures-for-Critical-Square-Lattice-FK-Interfaces-October-5-2026/natural-occupation-measures-critical-square-lattice-fk-interfaces.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "223",
+      "title": "Conformal Limits of Critical Square-Lattice Random-Cluster Interfaces",
+      "directory": "Conformal-Limits-of-Critical-Square-Lattice-Random-Cluster-Interfaces-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Conformal-Limits-of-Critical-Square-Lattice-Random-Cluster-Interfaces-October-5-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "225",
+      "title": "The Gaussian free field limit of the balanced six-vertex model with variance multiplier 1/arcsin(c/2)",
+      "directory": "The-Gaussian-free-field-limit-of-the-balanced-six-vertex-model-with-variance-multiplier-1-over-arcsin-c-over-2-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Gaussian-free-field-limit-of-the-balanced-six-vertex-model-with-variance-multiplier-1-over-arcsin-c-over-2-September-23-2026/The-Gaussian-free-field-limit-of-the-balanced-six-vertex-model-with-variance-multiplier-1-over-arcsin-c-over-2-September-23-2026.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "254",
+      "title": "Harmonic heights and the Artin K(pi,1) conjecture",
+      "directory": "Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Harmonic-heights-and-the-Artin-K-pi-1-conjecture-September-23-2026/paper.pdf",
+      "classification": "excluded: pi denotes homotopy/fundamental-group notation"
+    },
+    {
+      "family_id": "254",
+      "title": "An Artin group with no geometric CAT(0) action",
+      "directory": "An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/An-Artin-group-with-no-geometric-CAT-0-action-September-23-2026/paper.pdf",
+      "classification": "excluded: pi denotes homotopy/fundamental-group notation"
+    },
+    {
+      "family_id": "254",
+      "title": "Parabolic intersections in Artin groups",
+      "directory": "Parabolic-intersections-in-Artin-groups-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Parabolic-intersections-in-Artin-groups-September-23-2026/paper.pdf",
+      "classification": "excluded: pi denotes homotopy/fundamental-group notation"
+    },
+    {
+      "family_id": "260",
+      "title": "The Kerr–Newman Penrose Inequality for Axisymmetric Electrovacuum Exteriors",
+      "directory": "The-Kerr-Newman-Penrose-Inequality-for-Axisymmetric-Electrovacuum-Exteriors-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Kerr-Newman-Penrose-Inequality-for-Axisymmetric-Electrovacuum-Exteriors-October-5-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "263",
+      "title": "Generalized outer-electron radii of neutral Coulomb atoms",
+      "directory": "Generalized-outer-electron-radii-of-neutral-Coulomb-atoms-September-24-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Generalized-outer-electron-radii-of-neutral-Coulomb-atoms-September-24-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "267",
+      "title": "Quantum Depletion and Momentum Distribution in the Dilute Hard-Sphere Bose Gas",
+      "directory": "Quantum-Depletion-and-Momentum-Distribution-in-the-Dilute-Hard-Sphere-Bose-Gas-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Quantum-Depletion-and-Momentum-Distribution-in-the-Dilute-Hard-Sphere-Bose-Gas-October-5-2026/Quantum-Depletion-in-the-Dilute-Hard-Sphere-Bose-Gas.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "267",
+      "title": "Quantum Depletion for Fixed Bounded Repulsive Potentials",
+      "directory": "Quantum-Depletion-for-Fixed-Bounded-Repulsive-Potentials-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Quantum-Depletion-for-Fixed-Bounded-Repulsive-Potentials-October-5-2026/fixed-repulsion-quantum-depletion.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "271",
+      "title": "The first lattice correction to Bloch's law",
+      "directory": "The-first-lattice-correction-to-Blochs-law-October-5-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-first-lattice-correction-to-Blochs-law-October-5-2026/first-lattice-correction-bloch-law.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "318",
+      "title": "A rational obstruction to strong chromatic splitting at height three",
+      "directory": "A-rational-obstruction-to-strong-chromatic-splitting-at-height-three-September-25-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/A-rational-obstruction-to-strong-chromatic-splitting-at-height-three-September-25-2026/paper.pdf",
+      "classification": "excluded: pi denotes homotopy/fundamental-group notation"
+    },
+    {
+      "family_id": "343",
+      "title": "Symplectic Ball Packings in Higher Dimensions",
+      "directory": "Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Symplectic-Ball-Packings-in-Higher-Dimensions-September-23-2026/paper.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    },
+    {
+      "family_id": "354",
+      "title": "The Isoperimetric Conjecture for the Cubic Flat Three-Torus",
+      "directory": "The-Isoperimetric-Conjecture-for-the-Cubic-Flat-Three-Torus-September-24-2026",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-Isoperimetric-Conjecture-for-the-Cubic-Flat-Three-Torus-September-24-2026/article.pdf",
+      "classification": "excluded: pi occurs as a geometric, analytic, or physical constant, not as the subject of rational approximation"
+    }
+  ],
+  "included_preprints": [
+    {
+      "family_id": "017",
+      "family_title": "The irrationality exponent of π is 2.",
+      "category": "Number theory",
+      "title": "The irrationality exponent of pi is 2",
+      "abstract": "We prove the conjecture that the irrationality exponent of π is 2. As a consequence, the classical Flint–Hills series $`\\sum_{n\\ge1}1/(n^3\\sin^2 n)`$ converges, with angles in radians.",
+      "abstract_upstream_markup": "We prove the conjecture that the irrationality exponent of <i>π</i> is 2. As a consequence, the classical Flint–Hills series $`\\sum_{n\\ge1}1/(n^3\\sin^2 n)`$ converges, with angles in radians.",
+      "family_claim_description": "Proves that the irrationality exponent of π is exactly 2: for every ε > 0 and all sufficiently large denominators q, every rational $`p/q`$ satisfies $`|\\pi-p/q|\\ge q^{-2-\\varepsilon}`$. This also proves convergence of the Flint–Hills series $`\\sum_{n\\ge1}1/(n^3\\sin^2 n)`$, with angles in radians. ([Lean](lean/docs/017.md))",
+      "pdf_path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "directory": "The-irrationality-exponent-of-pi-is-2-September-24-2026",
+      "directory_tree_sha": "4106358e62a32a70848eb7bef2fb668a62e2c0ce",
+      "directory_url": "https://github.com/openai/math/tree/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026",
+      "formalization_source_listed": false,
+      "family_lean_scope_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/017.md",
+      "upstream_note": "",
+      "screening_tags": [
+        "diophantine"
+      ],
+      "review_status": "catalogue_metadata_only"
+    }
+  ],
+  "uncatalogued_name_screen": [
+    {
+      "directory": "A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-September-24-2026",
+      "tree_sha": "745858c44787a71a7c4b2d63d6e72df100db131f",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-September-30-2026",
+      "tree_sha": "9d4c0f808a41f01a76cf84e52c84042734bed4e4",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026",
+      "tree_sha": "605be0eadefa964d097d5772bbed9127fc47bf69",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026",
+      "tree_sha": "47411ad00d49e991d4ae05001186764a61393a1b",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-5-2026",
+      "tree_sha": "987b0b014854314020edd9cfee43d11d1c8cdaee",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-September-23-2026",
+      "tree_sha": "35da71ea66a06d8864f1621a693f7dc5fec06a2e",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-3-2026",
+      "tree_sha": "702b0295a52d2a37ebefd9860e94c217cb39a06e",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-5-2026",
+      "tree_sha": "226050e9c84e86a9df3e7d156f9b2ab8a95a4af7",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Fontaine-Mazur-modularity-at-the-prime-2-September-23-2026",
+      "tree_sha": "0ee45180189a3993a01e33c1936e427d0c5166eb",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-September-25-2026",
+      "tree_sha": "e6f3ed0f69de2a24cf8ead1fc9dbe3a27ec311c4",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-September-23-2026",
+      "tree_sha": "60dfee294fd2705ef92c7db5ed247dd0609a43d5",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Hilberts-tenth-problem-over-the-rational-numbers-September-24-2026",
+      "tree_sha": "8c182acceb70e6fc422e1de2d20c492a551c6b04",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Incompressible-Box-Transport-and-Finite-Computation-September-27-2026",
+      "tree_sha": "01d334b9517b0eadc85ad1d8d93cd24823af33a3",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-4-2026",
+      "tree_sha": "bcc78e9ab80114e83470c27b81ded21960c83888",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Milnes-rationality-conjecture-for-abelian-varieties-September-23-2026",
+      "tree_sha": "a7e118c6ff4181e61ffec880fe0c16eeaddf2667",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-4-2026",
+      "tree_sha": "4167640abca1b450f536c03d7c6a654040154120",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Taming-implies-compatibility-on-four-manifolds-September-23-2026",
+      "tree_sha": "1482e92ff4ea679f0091a20f11a1d20ec0f38701",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "tree_sha": "3a10e635939a92452f60f37751627a943485965a",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-5-2026",
+      "tree_sha": "0b8b444ea1fc7f7d923116601171da5ada7fa2e4",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-September-25-2026",
+      "tree_sha": "6b395f2f6dd2620f2e3136ccbcd6dd06db475489",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-Selmer-converse-for-elliptic-curves-at-every-prime-September-24-2026",
+      "tree_sha": "ef0def2702287c25b240c17554f8b9cf0daa514e",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-September-25-2026",
+      "tree_sha": "12b976db46a75e8e31fbcb847fde3ee07cec6b20",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-September-23-2026",
+      "tree_sha": "653cef75f640d36f5f0fd11393c7ea78a43397bb",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-p-adic-section-conjecture-September-24-2026",
+      "tree_sha": "285b580d29e4a75a6f8ff712f79033004fb99ef4",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-rational-Hodge-conjecture-for-CM-abelian-varieties-September-30-2026",
+      "tree_sha": "67e2c753c186c1fe4c601e91284504b164e390a6",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026",
+      "tree_sha": "6106bf84c83dc8ddf93038f795d4844f00ac749f",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-September-24-2026",
+      "tree_sha": "7f698cc72f855c328578d5c35495401a52772ccf",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-September-25-2026",
+      "tree_sha": "7217417dee441515ee7f688edb90ae5f515d4d61",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Unrestricted-pro-modularity-at-the-prime-two-October-4-2026",
+      "tree_sha": "b7b61ec7def2d9523bc76d1d72e74611b6c9eb62",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    },
+    {
+      "directory": "Weil-classes-and-Hodge-classes-on-abelian-powers-September-30-2026",
+      "tree_sha": "d700d23b34a3fdd2731ae66aef0f06525daee022",
+      "catalogued": false,
+      "classification": "No name-level indication of pi approximation or Flint Hills; full text not screened"
+    }
+  ],
+  "lean": {
+    "scope_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/017.md",
+    "scope_description": "Selected comparator statement: eventual q^(-nu) lower bounds for every nu>2, and exact supremum characterization; Flint Hills not in selected comparator statement.",
+    "comparator_statement_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/ComparatorChallenges/PiExponent.lean",
+    "comparator_config_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/ComparatorChallenges/PiExponent.json",
+    "solution_module": "OAI.NumberTheory.PiExponent.Main",
+    "solution_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/OAI/NumberTheory/PiExponent/Main.lean",
+    "source_observation": "Comparator target contains sorry as a challenge placeholder. Adjacent JSON names actual solution; Main.lean contains proof terms for exponent statement and flint_hills_summable and imports geometry/analytic dependencies.",
+    "inspection": "Scope doc, comparator target/config, Main.lean, and two direct Main imports read. Full transitive import closure not independently audited.",
+    "verification_run": false,
+    "formalization_yaml_direct_paper_entry": false
+  },
+  "external_reference_coverage": [
+    {
+      "key": "Alekseyev2011",
+      "version": "1104.5100v1",
+      "url": "https://arxiv.org/html/1104.5100v1",
+      "pdf_url": "https://arxiv.org/pdf/1104.5100v1",
+      "pdf_pages": 5,
+      "read": "Full five-page paper; core theorem/proof pp2–4",
+      "status": "Threshold necessity and older weaker sufficiency; not a proof of Flint Hills convergence"
+    },
+    {
+      "key": "Meiburg2022",
+      "version": "2208.13356v1",
+      "url": "https://arxiv.org/html/2208.13356v1",
+      "pdf_url": "https://arxiv.org/pdf/2208.13356v1",
+      "pdf_pages": 12,
+      "read": "Full twelve-page paper; spacing proof pp7–9, refined summation pp9–10, critical divergent construction pp10–11",
+      "status": "Strict converse mu(pi)<5/2; equality remains outside criterion"
+    },
+    {
+      "key": "Dan2026",
+      "version": "2609.12338v1",
+      "url": "https://arxiv.org/html/2609.12338v1",
+      "pdf_url": "https://arxiv.org/pdf/2609.12338v1",
+      "pdf_pages": 18,
+      "read": "Claim-relevant Sections2–5 and start6 read: reduction pp3–5, dimension p6, critical examples pp7–8; later Hausdorff gauge proofs not fully audited",
+      "status": "Generalized series and critical examples; explicitly leaves classical pi point undecided"
+    },
+    {
+      "key": "LopezZapata2026",
+      "version": "2603.09719v5",
+      "url": "https://arxiv.org/html/2603.09719v5",
+      "pdf_url": "https://arxiv.org/pdf/2603.09719v5",
+      "pdf_pages": 9,
+      "read": "Sections1–3 proofs pp1–4 and later result statements; core criterion and block argument checked",
+      "status": "Exact CF criterion; does not settle the specific pi sequence; misattributes strict sufficiency to Alekseyev instead of Meiburg in introduction"
+    },
+    {
+      "key": "Carella2022",
+      "version": "1902.08817v10",
+      "url": "https://arxiv.org/html/1902.08817v10",
+      "pdf_url": "https://arxiv.org/pdf/1902.08817v10",
+      "pdf_pages": 35,
+      "read": "Sections1–8 proof routes: pp3–14; Flint statements in Sections10,12 located. Not every later statement independently checked",
+      "status": "Claims mu(pi)=2; displayed first-proof lower bound unsupported, kernel interior bound invalid, bounded-partial-quotient proof has explicit sign/cancellation obstruction"
+    },
+    {
+      "key": "MantzakourasLopezZapata2025",
+      "version": "2502.03474v2 withdrawal; v1 original inspected",
+      "url": "https://arxiv.org/abs/2502.03474v2",
+      "pdf_url": "https://arxiv.org/pdf/2502.03474v1",
+      "pdf_pages": 70,
+      "read": "Official v2 withdrawal notice; original v1 pp2,13–16,24–27,38–42 claim pathways selectively read; not all70pages",
+      "status": "Withdrawn 2026-09-14; not an accepted bound or convergence result"
+    }
+  ],
+  "source_cache_sha256": {
+    "Alekseyev2011.txt": "8bf3df7d1bb5f62cd32c955965d8757220b98c017530636987ddf7f13a016e86",
+    "Meiburg2022.html": "22e809e0c42f9450b06d51913d0371def6fa14d06d111a4fedcd23f40658d030",
+    "Alekseyev2011.pdf.txt": "38e78c85f873c1f8437728041835eb969c5ebe84f448dab8c0b18de155f60942",
+    "Meiburg2022.pdf": "a082b6da509e2d9cf307e5779f7092d6a0f6dbae79c86850794e4ddcbe5bb7e0",
+    "Carella2022.html": "cfd441331dbc88cfe76513db0d5593b2c8b9ebe03f698e58fefdd7d0a1df07b4",
+    "Dan2026.pdf": "ffb86a8c1bbf1756a51d3ecaccd3fc1f56c919f666f97adf223b8ab6f6c01141",
+    "Mantzakouras2025-v1.pdf.txt": "23f9db813fd8afad9ec2459230e4f6b72c874b212be19cca2cb15f658f42b63a",
+    "lean017.txt": "a738f64b79494db1ed2deacb26a8c0a2c0babe85c8153f75bcba388bc46a534c",
+    "Dan2026.pdf.txt": "d19c4650ce89368f1ce758166652af3ab9688debcf450c5954d16b327526bc07",
+    "LopezZapata2026.txt": "8cb5b7c2509e91a0779f94d5987993cec4c850eea10d92fafc71ad88ef3d80a7",
+    "InterpolationConsequence.lean": "bc8340ce571af1f2e329272c98acae65c9b7274f4847a861beefe459b0089ad0",
+    "PiExponent.json": "f9323596bc7e8603e45d125bd3e6e5dc37440647d07bb1b67e6e0f08748c61a6",
+    "LopezZapata2026.html": "dfb7b091524a06bd3648af4619aff825e51f7604ccf8b1d276c3f0d8d9525937",
+    "retrieval.json": "40f09c9f3109013960d7186d0065b2ade18145f471e2af45236b24b55e51781c",
+    "Meiburg2022.txt": "d4ba1d3102deb97b4a0df95d2d6d442d50ee7197cc12f72d66cd3c023ba0aa36",
+    "LopezZapata2026.pdf.txt": "40b549e04a07c0144e5561125670b4325ee2687eb1100ee0d8b5c5d2fb787444",
+    "Alekseyev2011.html": "122f5c9752121f693ddb51f31b74ab911cd892cd1c760da3d4f4bfc747a4a7be",
+    "Dan2026.readable.txt": "1683747f702f4ce0349adec25d44de227039df840224ec2f151d23155b43a027",
+    "Alekseyev2011.pdf": "1cb8745ac1a847eaaff20cd9f7be6ce6bbb3c1448599288cbacc2148c12448d3",
+    "AdmissibleMatrixGeometry.lean": "a045e7184909542f1871b66ee54e297070a62614d0b31b5ad9e96bb0d080e894",
+    "LopezZapata2026.pdf": "7e42185e5467d69f9c312cbf73b4c9bba4fe326158b9bf76d2623f8d3541ae3f",
+    "Mantzakouras2025.readable.txt": "87114100e367022bc6661ce69fe81e1f03a6f887bd34acf8cfe56f89bc56a08b",
+    "Alekseyev2011.readable.txt": "0fd1291e2546d36e59aa9560b8829cac90b1945c7360f2973ff3d8081d391145",
+    "pdf_retrieval.json": "28a5553d300303a3d0e72377c42290d6f81018e5e000b859578bc96a142a4210",
+    "Dan2026.txt": "869f5b88f157fc50ee2ea71243927cecc0ce73876b4fb7345ce4fe6d2ae75b98",
+    "Dan2026.html": "fa6de3344ba1cf41372be132da9b20ab2b1e156f4fdd2668a69c886d6578eb9c",
+    "Mantzakouras2025.txt": "26411d1b97d1ce516220c92acc384ac72577b506a7ee48f0d4aa063cd47d139a",
+    "Main.lean": "e01aae291f80fbf10e247bfc168ad1f01d66b1b837e2989f0917838fe9567bff",
+    "Carella2022.readable.txt": "2e36671dd5097b78b9561b5fc310ec5129b04d97553bdbd7c1788ba748fdcea9",
+    "Meiburg2022.pdf.txt": "6ee3d70f359c31cb206d21c3afc129d476c51a26c489a1964802f5a2c1a1e4ce",
+    "Carella2022.pdf": "3cff06faa0413859dfc0639f0b90d36d4db906e4de6b2a78af487ab0f13fb46c",
+    "PiExponent.txt": "6b50d65255870bd4e482b2e552640febe791397577bb7a87a8783c5544bd0b03",
+    "Meiburg2022.readable.txt": "15729cf936a822c16af55a7fbfa1289128cd7dfd1c23d41ae1d8e8e19e06e4a3",
+    "Carella2022.pdf.txt": "470acefad53ef6658d436a860a685fc179b9be1e8fe0deca415df04664d25583",
+    "Mantzakouras2025.html": "661313e691de2de842fcdabca6d352a2056272450ae7beb9ac74b3ff5849440b",
+    "LopezZapata2026.readable.txt": "cbbeb52dd5504d82f0fc6809c55078c48d8c8d0bac5e0d81daa07a8fc6d80e9b",
+    "Mantzakouras2025-v1.pdf": "c50538580a24408f95c9f47a106cbc7144edd8c584d2f97753a9c2caa0aa3196",
+    "Carella2022.txt": "2cc3677f4fef4e3eef73312818ada7210c11ed20f790350cd0e95c6d828f2f84"
+  },
+  "no_full_reading_ledger_changes": true
+}

@@ -158,6 +158,10 @@ def build():
                                                     if r['read_source_lines']>0}),
                  ordering='round_robin_disciplines_then_catalogue_order_no_relevance_filter',
                  scope='Reported complete source reading does not certify theorem correctness or cited dependencies.')
+    mode_file=ROOT/'reading_mode.json'
+    if mode_file.exists():
+        # Queue order and the user's current selection policy are distinct.
+        summary['reading_mode']=json.loads(mode_file.read_text())
     (ROOT/'ledger.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'progress.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     lines=['# 全库正文阅读台账','',

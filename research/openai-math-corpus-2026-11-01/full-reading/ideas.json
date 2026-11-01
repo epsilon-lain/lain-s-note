@@ -5051,5 +5051,65 @@
         ]
       }
     ]
+  },
+  {
+    "position": 521,
+    "family_id": "017",
+    "title": "The irrationality exponent of pi is 2",
+    "reading_status": "full_body_read",
+    "construction_ideas": [
+      {
+        "idea": "Model the anti-concentration dichotomy as occupancy versus displacement cost for the same determinant.",
+        "premises": "Exact column-independent row expansion, groupwise repeated-vector cancellation, full-simplex category counts and a separately nonzero minor.",
+        "mechanism": "Within a group of n_a rows, distinct Taylor degrees cost at least n_a(n_a−1)/2; escaping many small-index groups instead costs approximation-error powers.",
+        "possible_interface": "A concrete target for previous common-basis/height models; new six-row exact lab reconstructs all125 choices rather than selecting one surviving term.",
+        "missing_bridge": "Finite examples and conditional budgets do not give an endpoint inequality for π. Any changed row selection must preserve the same integer nonzero witness and all costs.",
+        "source_anchors": [
+          {
+            "path": "build/sections/determinant.tex",
+            "line": 270,
+            "label": "det:collision"
+          },
+          {
+            "path": "build/sections/determinant.tex",
+            "line": 345,
+            "label": "det:comparison"
+          }
+        ]
+      },
+      {
+        "idea": "Use hypothesis deletion to identify which part of interpolation actually creates rank.",
+        "premises": "Finite weighted coefficient map at the source logarithmic substitutions; exact rational rank calculation.",
+        "mechanism": "A10-column9-row example has rank7; both volume inequalities also fail without separated weights. The residue obstruction explains why the logarithmic frame and separation address the missing rank.",
+        "possible_interface": "Require actual rank certificates instead of coefficient counts when proposing a new arithmetic model.",
+        "missing_bridge": "The finite tests do not establish asymptotic jet generation; the general passage still depends on the stated algebraic-geometric inputs.",
+        "source_anchors": [
+          {
+            "path": "build/sections/interpolation.tex",
+            "line": 24,
+            "label": "geom:interpolation"
+          },
+          {
+            "path": "build/sections/interpolation.tex",
+            "line": 340,
+            "label": "geom:log-differential"
+          }
+        ]
+      },
+      {
+        "idea": "Separate fixed extra exponent from slowly vanishing denominator-square constants.",
+        "premises": "The original coordinated budget requires A²<θ and ν(A−θ)>1−θ.",
+        "mechanism": "Atν=2 the idealized gain is2A−θ−1<−(1−A)²; κ→0 supplies only log(1/κ)/logq, which may tend to0.",
+        "possible_interface": "An exact diagnostic for why the current exponent construction does not decide the BA/nonBA endpoint.",
+        "missing_bridge": "It only excludes this parameter architecture at the endpoint, not all possible constructions and not either arithmetic property ofπ.",
+        "source_anchors": [
+          {
+            "path": "build/sections/conclusion.tex",
+            "line": 9,
+            "label": "par:inequalities"
+          }
+        ]
+      }
+    ]
   }
 ]

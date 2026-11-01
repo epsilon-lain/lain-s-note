@@ -1,0 +1,884 @@
+{
+  "scope": "Exact parameter-budget audit only; conditional on interpolation and hypothetical unbounded good denominators",
+  "pinned_upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "numeric_display": "Exact rational comparisons precede display; upper/lower bound strings are rounded outward. Other decimal strings are diagnostics.",
+  "checks": {
+    "exact_power_enclosure_crosschecks": 35,
+    "ln2_interval": [
+      "0.6931471805599453094172321214581765680755",
+      "0.6931471805599453094172321214581765680756"
+    ],
+    "precision_decimal_places": 90
+  },
+  "source_byte_audit": [
+    {
+      "path": "build/main.tex",
+      "git_blob_sha": "fe28ac589090c44a8877aa326b60e753c863fa24",
+      "size": 12659,
+      "lines": 264,
+      "matches_pinned_closure": true
+    },
+    {
+      "path": "build/sections/conclusion.tex",
+      "git_blob_sha": "1577b7461538faa5b6a23850ebb7dd66f01825d7",
+      "size": 6177,
+      "lines": 156,
+      "matches_pinned_closure": true
+    },
+    {
+      "path": "build/sections/determinant.tex",
+      "git_blob_sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+      "size": 14595,
+      "lines": 432,
+      "matches_pinned_closure": true
+    },
+    {
+      "path": "build/sections/interpolation.tex",
+      "git_blob_sha": "69dd30eac65dd0817226970299e4100e15e9ec0b",
+      "size": 26655,
+      "lines": 584,
+      "matches_pinned_closure": true
+    },
+    {
+      "path": "build/sections/series.tex",
+      "git_blob_sha": "dbffc2bed293c8d0b59d2ac16f82cc78590dad68",
+      "size": 5720,
+      "lines": 155,
+      "matches_pinned_closure": true
+    }
+  ],
+  "certificates": [
+    {
+      "nu": "3",
+      "status": "certified_parameter_budget_with_conditional_threshold_policy",
+      "base_parameters_exact": {
+        "nu": "3",
+        "b": "7/12",
+        "delta": "12/49",
+        "theta": "37/49",
+        "A": "6/7",
+        "B": "63/73",
+        "C": "511/444",
+        "g0": "3/49",
+        "eta": "1/84",
+        "g": "3/98",
+        "eps0": "3/196"
+      },
+      "F0_integer": 589,
+      "dimension_m": 2967,
+      "first_monotone_dimension": 294,
+      "exact_large_data": {
+        "K": "floor(C**m)",
+        "w0": "B**(-m)",
+        "v0": "2*K*(theta/B)**m",
+        "row_column_volume_ratio": "1/2"
+      },
+      "natural_log_C_power_interval": [
+        "416.99709739798020",
+        "416.99709739798021"
+      ],
+      "common_minimum_weight_W": 1789770,
+      "sigma_exact": "1/35616",
+      "certified_bounds": {
+        "nu_over_F0_upper": "0.0050933786078098472",
+        "dimension_error_upper": "0.0050995761217044188",
+        "dimension_error_target": "0.0051020408163265306",
+        "weight_error_upper": "0.0051020364554508084",
+        "total_error_upper": "0.015294991184965075",
+        "epsilon0": "0.015306122448979592",
+        "gap_g": "0.030612244897959184",
+        "collision_cL_lower": "2.5841760118484762",
+        "signed_margin_Phi_lower": "0.015317253712994109",
+        "normalized_budget_upper": "0.49963637870885910"
+      },
+      "threshold_policy": {
+        "C_star": "2*m!*(((m+2)/sigma)**m)",
+        "M_previous": "max(1,v0,w_(i-1)/theta), omitting last entry at i=1",
+        "T_i": "max(W, 2*C_star*theta**(-m)*max(1,v0/w0)*(M_previous**m))",
+        "choice": "Under the contradictory hypothesis choose a good q_i with ceil(log(q_i))>T_i, then set w_i=ceil(log(q_i)); choose p_i accordingly. No actual q_i is supplied."
+      },
+      "ablation_m": [
+        {
+          "m": 1,
+          "conservative_dimension_error_lower": "1722.4172209120101",
+          "dimension_error_upper": "1722.4172209120102",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "0.0000061817492558499688",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 10,
+          "conservative_dimension_error_lower": "15326.210843724312",
+          "dimension_error_upper": "15326.210843724313",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "0.0000011951681370206359",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 100,
+          "conservative_dimension_error_lower": "81411.705418242438",
+          "dimension_error_upper": "81411.705418242439",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "2.4060432209455774E-7",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 296,
+          "conservative_dimension_error_lower": "61478.999470739984",
+          "dimension_error_upper": "61478.999470739985",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "3.1182162171316355E-7",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1000,
+          "conservative_dimension_error_lower": "1538.6805821444926",
+          "dimension_error_upper": "1538.6805821444927",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "0.000011303730331811286",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1483,
+          "conservative_dimension_error_lower": "78.845840193852895",
+          "dimension_error_upper": "78.845840193852896",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "0.00020609397904038206",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 2966,
+          "conservative_dimension_error_lower": "0.0051335000003878243",
+          "dimension_error_upper": "0.0051335000003878244",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "2.5674616309157570",
+          "dimension_error_ok": false,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 2967,
+          "conservative_dimension_error_lower": "0.0050995761217044187",
+          "dimension_error_upper": "0.0050995761217044188",
+          "dimension_error_target": "0.0051020408163265306",
+          "collision_cL_lower": "2.5841760118484762",
+          "dimension_error_ok": true,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": false,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": true
+        }
+      ],
+      "not_certified": [
+        "existence of any actual good pi approximants",
+        "truth of separated-weight interpolation",
+        "a finite H or a nonzero finite determinant",
+        "an effective Q(nu)",
+        "bad approximability of pi"
+      ]
+    },
+    {
+      "nu": "5/2",
+      "status": "certified_parameter_budget_with_conditional_threshold_policy",
+      "base_parameters_exact": {
+        "nu": "5/2",
+        "b": "11/20",
+        "delta": "20/121",
+        "theta": "101/121",
+        "A": "10/11",
+        "B": "2015/2211",
+        "C": "2211/2020",
+        "g0": "5/242",
+        "eta": "1/220",
+        "g": "5/484",
+        "eps0": "5/968"
+      },
+      "F0_integer": 1453,
+      "dimension_m": 9519,
+      "first_monotone_dimension": 806,
+      "exact_large_data": {
+        "K": "floor(C**m)",
+        "w0": "B**(-m)",
+        "v0": "2*K*(theta/B)**m",
+        "row_column_volume_ratio": "1/2"
+      },
+      "natural_log_C_power_interval": [
+        "860.01680980964230",
+        "860.01680980964231"
+      ],
+      "common_minimum_weight_W": 16379569,
+      "sigma_exact": "1/114240",
+      "certified_bounds": {
+        "nu_over_F0_upper": "0.0017205781142463868",
+        "dimension_error_upper": "0.0017216183720989595",
+        "dimension_error_target": "0.0017217630853994490",
+        "weight_error_upper": "0.0017217629157712610",
+        "total_error_upper": "0.0051639594021166072",
+        "epsilon0": "0.0051652892561983471",
+        "gap_g": "0.010330578512396694",
+        "collision_cL_lower": "3.5090379909595216",
+        "signed_margin_Phi_lower": "0.0051666191102800870",
+        "normalized_budget_upper": "0.49987127012488758"
+      },
+      "threshold_policy": {
+        "C_star": "2*m!*(((m+2)/sigma)**m)",
+        "M_previous": "max(1,v0,w_(i-1)/theta), omitting last entry at i=1",
+        "T_i": "max(W, 2*C_star*theta**(-m)*max(1,v0/w0)*(M_previous**m))",
+        "choice": "Under the contradictory hypothesis choose a good q_i with ceil(log(q_i))>T_i, then set w_i=ceil(log(q_i)); choose p_i accordingly. No actual q_i is supplied."
+      },
+      "ablation_m": [
+        {
+          "m": 1,
+          "conservative_dimension_error_lower": "4119.6355381260064",
+          "dimension_error_upper": "4119.6355381260065",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "8.9730297943925118E-7",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 10,
+          "conservative_dimension_error_lower": "39388.754972255920",
+          "dimension_error_upper": "39388.754972255921",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "1.6683507380968566E-7",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 100,
+          "conservative_dimension_error_lower": "313728.33750160232",
+          "dimension_error_upper": "313728.33750160233",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "2.2723124306862804E-8",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 951,
+          "conservative_dimension_error_lower": "354438.60030561743",
+          "dimension_error_upper": "354438.60030561744",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "1.9969884860652618E-8",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1000,
+          "conservative_dimension_error_lower": "329680.73263606762",
+          "dimension_error_upper": "329680.73263606763",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "2.1451076494250586E-8",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 4759,
+          "conservative_dimension_error_lower": "128.62026754743635",
+          "dimension_error_upper": "128.62026754743636",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "0.000051311075323239578",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 9518,
+          "conservative_dimension_error_lower": "0.0017257517839687741",
+          "dimension_error_upper": "0.0017257517839687742",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "3.5006984210817564",
+          "dimension_error_ok": false,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 9519,
+          "conservative_dimension_error_lower": "0.0017216183720989594",
+          "dimension_error_upper": "0.0017216183720989595",
+          "dimension_error_target": "0.0017217630853994490",
+          "collision_cL_lower": "3.5090379909595216",
+          "dimension_error_ok": true,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": false,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": true
+        }
+      ],
+      "not_certified": [
+        "existence of any actual good pi approximants",
+        "truth of separated-weight interpolation",
+        "a finite H or a nonzero finite determinant",
+        "an effective Q(nu)",
+        "bad approximability of pi"
+      ]
+    },
+    {
+      "nu": "21/10",
+      "status": "certified_parameter_budget_with_conditional_threshold_policy",
+      "base_parameters_exact": {
+        "nu": "21/10",
+        "b": "43/84",
+        "delta": "84/1849",
+        "theta": "1765/1849",
+        "A": "42/43",
+        "B": "148239/151747",
+        "C": "151747/148260",
+        "g0": "21/18490",
+        "eta": "1/3612",
+        "g": "21/36980",
+        "eps0": "21/73960"
+      },
+      "F0_integer": 22189,
+      "dimension_m": 230289,
+      "first_monotone_dimension": 14118,
+      "exact_large_data": {
+        "K": "floor(C**m)",
+        "w0": "B**(-m)",
+        "v0": "2*K*(theta/B)**m",
+        "row_column_volume_ratio": "1/2"
+      },
+      "natural_log_C_power_interval": [
+        "5353.5677988326958",
+        "5353.5677988326959"
+      ],
+      "common_minimum_weight_W": 6860722952,
+      "sigma_exact": "1/2763480",
+      "certified_bounds": {
+        "nu_over_F0_upper": "0.000094641489026094011",
+        "dimension_error_upper": "0.000094641305201599198",
+        "dimension_error_target": "0.000094645754461871282",
+        "weight_error_upper": "0.000094645754436652825",
+        "total_error_upper": "0.00028392854866434604",
+        "epsilon0": "0.00028393726338561385",
+        "gap_g": "0.00056787452677122769",
+        "collision_cL_lower": "4.2575226254611018",
+        "signed_margin_Phi_lower": "0.00028394597810688165",
+        "normalized_budget_upper": "0.49998465379083412"
+      },
+      "threshold_policy": {
+        "C_star": "2*m!*(((m+2)/sigma)**m)",
+        "M_previous": "max(1,v0,w_(i-1)/theta), omitting last entry at i=1",
+        "T_i": "max(W, 2*C_star*theta**(-m)*max(1,v0/w0)*(M_previous**m))",
+        "choice": "Under the contradictory hypothesis choose a good q_i with ceil(log(q_i))>T_i, then set w_i=ceil(log(q_i)); choose p_i accordingly. No actual q_i is supplied."
+      },
+      "ablation_m": [
+        {
+          "m": 1,
+          "conservative_dimension_error_lower": "61613.624133566087",
+          "dimension_error_upper": "61613.624133566088",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "3.3210202442694973E-9",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 10,
+          "conservative_dimension_error_lower": "614439.61442199304",
+          "dimension_error_upper": "614439.61442199305",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "6.0459226180564168E-10",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 100,
+          "conservative_dimension_error_lower": "6065616.3375145980",
+          "dimension_error_upper": "6065616.3375145981",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "6.6691641069924132E-11",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1000,
+          "conservative_dimension_error_lower": "53391223.093693911",
+          "dimension_error_upper": "53391223.093693912",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "7.6442306929559762E-12",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 23028,
+          "conservative_dimension_error_lower": "54176789.739415200",
+          "dimension_error_upper": "54176789.739415201",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "7.5305854571188850E-12",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 115144,
+          "conservative_dimension_error_lower": "579.01184582022838",
+          "dimension_error_upper": "579.01184582022839",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "7.0074526118914937E-7",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 230288,
+          "conservative_dimension_error_lower": "0.000094654308959305411",
+          "dimension_error_upper": "0.000094654308959305412",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "4.2569379766195056",
+          "dimension_error_ok": false,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 230289,
+          "conservative_dimension_error_lower": "0.000094641305201599197",
+          "dimension_error_upper": "0.000094641305201599198",
+          "dimension_error_target": "0.000094645754461871282",
+          "collision_cL_lower": "4.2575226254611018",
+          "dimension_error_ok": true,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": false,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": true
+        }
+      ],
+      "not_certified": [
+        "existence of any actual good pi approximants",
+        "truth of separated-weight interpolation",
+        "a finite H or a nonzero finite determinant",
+        "an effective Q(nu)",
+        "bad approximability of pi"
+      ]
+    },
+    {
+      "nu": "201/100",
+      "status": "certified_parameter_budget_with_conditional_threshold_policy",
+      "base_parameters_exact": {
+        "nu": "201/100",
+        "b": "403/804",
+        "delta": "804/162409",
+        "theta": "161605/162409",
+        "A": "402/403",
+        "B": "129930219/130253227",
+        "C": "130253227/129930420",
+        "g0": "201/16240900",
+        "eta": "1/324012",
+        "g": "201/32481800",
+        "eps0": "201/64963600"
+      },
+      "F0_integer": 1948909,
+      "dimension_m": 30062190,
+      "first_monotone_dimension": 1292838,
+      "exact_large_data": {
+        "K": "floor(C**m)",
+        "w0": "B**(-m)",
+        "v0": "2*K*(theta/B)**m",
+        "row_column_volume_ratio": "1/2"
+      },
+      "natural_log_C_power_interval": [
+        "74595.697758310756",
+        "74595.697758310757"
+      ],
+      "common_minimum_weight_W": 80961589089884,
+      "sigma_exact": "1/360746292",
+      "certified_bounds": {
+        "nu_over_F0_upper": "0.0000010313462557769501",
+        "dimension_error_upper": "0.0000010313466531149307",
+        "dimension_error_target": "0.0000010313467849688133",
+        "weight_error_upper": "0.0000010313467849687972",
+        "total_error_upper": "0.0000030940396938606779",
+        "epsilon0": "0.0000030940403549064399",
+        "gap_g": "0.0000061880807098128798",
+        "collision_cL_lower": "4.3230661922100899",
+        "signed_margin_Phi_lower": "0.0000030940410159522019",
+        "normalized_budget_upper": "0.49999989317434710"
+      },
+      "threshold_policy": {
+        "C_star": "2*m!*(((m+2)/sigma)**m)",
+        "M_previous": "max(1,v0,w_(i-1)/theta), omitting last entry at i=1",
+        "T_i": "max(W, 2*C_star*theta**(-m)*max(1,v0/w0)*(M_previous**m))",
+        "choice": "Under the contradictory hypothesis choose a good q_i with ceil(log(q_i))>T_i, then set w_i=ceil(log(q_i)); choose p_i accordingly. No actual q_i is supplied."
+      },
+      "ablation_m": [
+        {
+          "m": 1,
+          "conservative_dimension_error_lower": "5403616.1410052810",
+          "dimension_error_upper": "5403616.1410052811",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "4.1265200580767141E-13",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 10,
+          "conservative_dimension_error_lower": "54034496.610876537",
+          "dimension_error_upper": "54034496.610876538",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "7.5028682026804752E-14",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 100,
+          "conservative_dimension_error_lower": "540268827.14012810",
+          "dimension_error_upper": "540268827.14012811",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "8.1725783949450777E-15",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1000,
+          "conservative_dimension_error_lower": "5395170467.4736567",
+          "dimension_error_upper": "5395170467.4736568",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "8.2575469954000131E-16",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 3006219,
+          "conservative_dimension_error_lower": "155227381790.32776",
+          "dimension_error_upper": "155227381790.32777",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "2.8728466712294714E-17",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 15031095,
+          "conservative_dimension_error_lower": "6471.7413296933349",
+          "dimension_error_upper": "6471.7413296933350",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "6.8900480576523915E-10",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 30062189,
+          "conservative_dimension_error_lower": "0.0000010313482142946568",
+          "dimension_error_upper": "0.0000010313482142946569",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "4.3230596482987364",
+          "dimension_error_ok": false,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 30062190,
+          "conservative_dimension_error_lower": "0.0000010313466531149306",
+          "dimension_error_upper": "0.0000010313466531149307",
+          "dimension_error_target": "0.0000010313467849688133",
+          "collision_cL_lower": "4.3230661922100899",
+          "dimension_error_ok": true,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": false,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": true
+        }
+      ],
+      "not_certified": [
+        "existence of any actual good pi approximants",
+        "truth of separated-weight interpolation",
+        "a finite H or a nonzero finite determinant",
+        "an effective Q(nu)",
+        "bad approximability of pi"
+      ]
+    },
+    {
+      "nu": "2001/1000",
+      "status": "certified_parameter_budget_with_conditional_threshold_policy",
+      "base_parameters_exact": {
+        "nu": "2001/1000",
+        "b": "4003/8004",
+        "delta": "8004/16024009",
+        "theta": "16016005/16024009",
+        "A": "4002/4003",
+        "B": "128192102019/128224132027",
+        "C": "128224132027/128192104020",
+        "g0": "2001/16024009000",
+        "eta": "1/32040012",
+        "g": "2001/32048018000",
+        "eps0": "2001/64096036000"
+      },
+      "F0_integer": 192288109,
+      "dimension_m": 3879337218,
+      "first_monotone_dimension": 128128038,
+      "exact_large_data": {
+        "K": "floor(C**m)",
+        "w0": "B**(-m)",
+        "v0": "2*K*(theta/B)**m",
+        "row_column_volume_ratio": "1/2"
+      },
+      "natural_log_C_power_interval": [
+        "969107.43356238125",
+        "969107.43356238126"
+      ],
+      "common_minimum_weight_W": 1033776336334496816,
+      "sigma_exact": "1/46552046628",
+      "certified_bounds": {
+        "nu_over_F0_upper": "1.0406259702725560E-8",
+        "dimension_error_upper": "1.0406259663720358E-8",
+        "dimension_error_target": "1.0406259756843621E-8",
+        "weight_error_upper": "1.0406259756843622E-8",
+        "total_error_upper": "3.1218779123289538E-8",
+        "epsilon0": "3.1218779270530864E-8",
+        "gap_g": "6.2437558541061728E-8",
+        "collision_cL_lower": "4.3240641137543745",
+        "signed_margin_Phi_lower": "3.1218779417772190E-8",
+        "normalized_budget_upper": "0.49999999764178278"
+      },
+      "threshold_policy": {
+        "C_star": "2*m!*(((m+2)/sigma)**m)",
+        "M_previous": "max(1,v0,w_(i-1)/theta), omitting last entry at i=1",
+        "T_i": "max(W, 2*C_star*theta**(-m)*max(1,v0/w0)*(M_previous**m))",
+        "choice": "Under the contradictory hypothesis choose a good q_i with ceil(log(q_i))>T_i, then set w_i=ceil(log(q_i)); choose p_i accordingly. No actual q_i is supplied."
+      },
+      "ablation_m": [
+        {
+          "m": 1,
+          "conservative_dimension_error_lower": "533135935.49858302",
+          "dimension_error_upper": "533135935.49858303",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "4.2200747632220739E-17",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 10,
+          "conservative_dimension_error_lower": "5331357693.5361213",
+          "dimension_error_upper": "5331357693.5361214",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "7.6728642837765505E-18",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 100,
+          "conservative_dimension_error_lower": "53313501125.636474",
+          "dimension_error_upper": "53313501125.636475",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "8.3565966032316281E-19",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1000,
+          "conservative_dimension_error_lower": "533127520676.94924",
+          "dimension_error_upper": "533127520676.94925",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "8.4318492919855084E-20",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 387933721,
+          "conservative_dimension_error_lower": "485026360908819.98",
+          "dimension_error_upper": "485026360908819.99",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "9.2773202302214081E-23",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 1939668609,
+          "conservative_dimension_error_lower": "73352.520349905147",
+          "dimension_error_upper": "73352.520349905148",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "6.1344037726485275E-13",
+          "dimension_error_ok": false,
+          "collision_ok": false,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": true,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 3879337217,
+          "conservative_dimension_error_lower": "1.0406259823473206E-8",
+          "dimension_error_upper": "1.0406259823473207E-8",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "4.3240640473730286",
+          "dimension_error_ok": false,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": true,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": false
+        },
+        {
+          "m": 3879337218,
+          "conservative_dimension_error_lower": "1.0406259663720357E-8",
+          "dimension_error_upper": "1.0406259663720358E-8",
+          "dimension_error_target": "1.0406259756843621E-8",
+          "collision_cL_lower": "4.3240641137543745",
+          "dimension_error_ok": true,
+          "collision_ok": true,
+          "conservative_dimension_failure_certified": false,
+          "conservative_collision_failure_certified": false,
+          "floor_comparison_valid": true,
+          "both_certified": true
+        }
+      ],
+      "not_certified": [
+        "existence of any actual good pi approximants",
+        "truth of separated-weight interpolation",
+        "a finite H or a nonzero finite determinant",
+        "an effective Q(nu)",
+        "bad approximability of pi"
+      ]
+    },
+    {
+      "nu": "2",
+      "status": "structurally_infeasible_in_this_budget",
+      "reason": "nu=2: 2A-theta-1 < -(1-A)^2 < 0 when A^2<theta; nu<2 is even worse"
+    },
+    {
+      "nu": "199/100",
+      "status": "structurally_infeasible_in_this_budget",
+      "reason": "nu=2: 2A-theta-1 < -(1-A)^2 < 0 when A^2<theta; nu<2 is even worse"
+    }
+  ],
+  "endpoint_model": {
+    "kappa_definition": "q**2 * abs(pi-p/q)",
+    "extra_exponent_definition": "s=log(1/kappa)/log(q)",
+    "fixed_nu_hypothesis": "kappa<=q**(-(nu-2)), so s>=nu-2>0",
+    "slow_decay_example": "kappa=1/log(q) tends to zero but s=log(log(q))/log(q) tends to zero",
+    "obstruction": "A**2<theta and nu=2 imply g0<-(1-A)**2<0 even before eta and error costs"
+  }
+}

@@ -24501,8 +24501,192 @@
     "pdf_path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
     "directory": "The-irrationality-exponent-of-pi-is-2-September-24-2026",
     "directory_tree_sha": "4106358e62a32a70848eb7bef2fb668a62e2c0ce",
-    "status": "not_started",
-    "record": null
+    "status": "full_body_read",
+    "record": {
+      "position": 521,
+      "family_id": "017",
+      "title": "The irrationality exponent of pi is 2",
+      "pdf_path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/paper.pdf",
+      "status": "full_body_read",
+      "main_source": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+      "source_mapping_complete": true,
+      "source_closure_complete": true,
+      "source_files": [
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/README.md",
+          "sha": "f5b171d49b516bc8891745f8b9c847e09be6306a",
+          "total_lines": 18,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/README.md",
+          "read_lines": 18,
+          "read_ranges": [
+            [
+              1,
+              18
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+          "sha": "fe28ac589090c44a8877aa326b60e753c863fa24",
+          "total_lines": 264,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/main.tex",
+          "read_lines": 264,
+          "read_ranges": [
+            [
+              1,
+              264
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/references.bib",
+          "sha": "7e0930ea5fea9d94e18c3b1b21ac0fd62cf4c367",
+          "total_lines": 269,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/references.bib",
+          "read_lines": 269,
+          "read_ranges": [
+            [
+              1,
+              269
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/conclusion.tex",
+          "sha": "1577b7461538faa5b6a23850ebb7dd66f01825d7",
+          "total_lines": 156,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/conclusion.tex",
+          "read_lines": 156,
+          "read_ranges": [
+            [
+              1,
+              156
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+          "sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+          "total_lines": 432,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/determinant.tex",
+          "read_lines": 432,
+          "read_ranges": [
+            [
+              1,
+              432
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+          "sha": "69dd30eac65dd0817226970299e4100e15e9ec0b",
+          "total_lines": 584,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/interpolation.tex",
+          "read_lines": 584,
+          "read_ranges": [
+            [
+              1,
+              584
+            ]
+          ]
+        },
+        {
+          "path": "preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/series.tex",
+          "sha": "dbffc2bed293c8d0b59d2ac16f82cc78590dad68",
+          "total_lines": 155,
+          "source_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/The-irrationality-exponent-of-pi-is-2-September-24-2026/build/sections/series.tex",
+          "read_lines": 155,
+          "read_ranges": [
+            [
+              1,
+              155
+            ]
+          ]
+        }
+      ],
+      "unread_files": [],
+      "sections_read": [
+        "README and complete root introduction/macros",
+        "Every line of interpolation.tex including local multiplicity, curve inequality and blowup passage",
+        "Every line of determinant.tex including arithmetic bound, exact row translation and collision dichotomy",
+        "Complete conclusion.tex parameter proof",
+        "Complete series.tex spacing and generalized convergence proof",
+        "Full references.bib"
+      ],
+      "claim_as_stated": "The manuscript claims μ(π)=2: for every fixed ν>2, all sufficiently large integer denominators q and all integer p satisfy |π−p/q|≥q^(−ν). It also claims convergence of Flint–Hills and the stated generalized sine-denominator criterion. It does not claim a uniform positive c/q² bound.",
+      "proof_architecture": [
+        "Center-independent successively separated weighted interpolation supplies a nonzero full-row minor at rational approximate-period centers.",
+        "Truncated logarithms preserve the local weighted filtration and make entries Gaussian rational. Column/row denominator clearing gives a lower bound.",
+        "Translate the SAME rows to exact logarithmic periods. Within each transverse group, repeated Taylor degrees annihilate coefficient determinants and force quadratic collision saving.",
+        "Every expansion term either has many small transverse indices and large collisions, or many large indices and high powers of approximation errors. Full-simplex counts and coordinated high-dimensional parameters make both beat arithmetic costs.",
+        "Fix ν, dimension, weights, denominators and centers before the final polynomial-degree limit. A separate spacing argument converts the irrationality bound into sine-series convergence."
+      ],
+      "construction_ideas": [
+        {
+          "idea": "Model the anti-concentration dichotomy as occupancy versus displacement cost for the same determinant.",
+          "premises": "Exact column-independent row expansion, groupwise repeated-vector cancellation, full-simplex category counts and a separately nonzero minor.",
+          "mechanism": "Within a group of n_a rows, distinct Taylor degrees cost at least n_a(n_a−1)/2; escaping many small-index groups instead costs approximation-error powers.",
+          "possible_interface": "A concrete target for previous common-basis/height models; new six-row exact lab reconstructs all125 choices rather than selecting one surviving term.",
+          "missing_bridge": "Finite examples and conditional budgets do not give an endpoint inequality for π. Any changed row selection must preserve the same integer nonzero witness and all costs.",
+          "source_anchors": [
+            {
+              "path": "build/sections/determinant.tex",
+              "line": 270,
+              "label": "det:collision"
+            },
+            {
+              "path": "build/sections/determinant.tex",
+              "line": 345,
+              "label": "det:comparison"
+            }
+          ]
+        },
+        {
+          "idea": "Use hypothesis deletion to identify which part of interpolation actually creates rank.",
+          "premises": "Finite weighted coefficient map at the source logarithmic substitutions; exact rational rank calculation.",
+          "mechanism": "A10-column9-row example has rank7; both volume inequalities also fail without separated weights. The residue obstruction explains why the logarithmic frame and separation address the missing rank.",
+          "possible_interface": "Require actual rank certificates instead of coefficient counts when proposing a new arithmetic model.",
+          "missing_bridge": "The finite tests do not establish asymptotic jet generation; the general passage still depends on the stated algebraic-geometric inputs.",
+          "source_anchors": [
+            {
+              "path": "build/sections/interpolation.tex",
+              "line": 24,
+              "label": "geom:interpolation"
+            },
+            {
+              "path": "build/sections/interpolation.tex",
+              "line": 340,
+              "label": "geom:log-differential"
+            }
+          ]
+        },
+        {
+          "idea": "Separate fixed extra exponent from slowly vanishing denominator-square constants.",
+          "premises": "The original coordinated budget requires A²<θ and ν(A−θ)>1−θ.",
+          "mechanism": "Atν=2 the idealized gain is2A−θ−1<−(1−A)²; κ→0 supplies only log(1/κ)/logq, which may tend to0.",
+          "possible_interface": "An exact diagnostic for why the current exponent construction does not decide the BA/nonBA endpoint.",
+          "missing_bridge": "It only excludes this parameter architecture at the endpoint, not all possible constructions and not either arithmetic property ofπ.",
+          "source_anchors": [
+            {
+              "path": "build/sections/conclusion.tex",
+              "line": 9,
+              "label": "par:inequalities"
+            }
+          ]
+        }
+      ],
+      "limits": [
+        "Complete source reading and exact finite-model checks are not independent verification of the whole claimed theorem.",
+        "Standard but substantive algebraic-geometric inputs, all external quoted proofs and Lean transitive import closure/kernel execution were not independently established here.",
+        "No effective final H or Q(ν), and no actual family of hypothetical exceptionally good approximants, was computed.",
+        "Neitherπ bad approximability nor its negation was proved."
+      ],
+      "scope_note": "Focused complete reading at the user-requested change of scope: all seven exact-SHA text files,1878lines. A separate six-branch mechanism investigation is recorded in research/pi-construction-mechanisms-2026-11-01. Sequential full-corpus reading is paused at contiguous position54; this focused017 reading is at queue position521 and does not imply positions55–520 were read.",
+      "read_source_lines": 1878,
+      "listed_source_lines": 1878,
+      "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+      "independent_proof_verification": false
+    }
   },
   {
     "position": 522,

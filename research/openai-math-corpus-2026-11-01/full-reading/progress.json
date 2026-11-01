@@ -3,13 +3,24 @@
   "catalogued_manuscripts": 721,
   "supplementary_uncatalogued_directories": 30,
   "status_counts": {
-    "full_body_read": 54,
-    "not_started": 667
+    "full_body_read": 55,
+    "not_started": 666
   },
-  "source_lines_read": 250849,
-  "source_lines_listed": 250849,
+  "source_lines_read": 252727,
+  "source_lines_listed": 252727,
   "disciplines_in_queue": 17,
   "disciplines_with_body_reading": 17,
   "ordering": "round_robin_disciplines_then_catalogue_order_no_relevance_filter",
-  "scope": "Reported complete source reading does not certify theorem correctness or cited dependencies."
+  "scope": "Reported complete source reading does not certify theorem correctness or cited dependencies.",
+  "reading_mode": {
+    "date": "2026-11-01",
+    "sequential_full_corpus_status": "paused_by_user",
+    "last_contiguous_complete_position": 54,
+    "next_sequential_position_if_resumed": 55,
+    "current_focus": "pi_related_construction_principles_and_explanatory_models",
+    "focused_positions": [
+      521
+    ],
+    "focus_notes": "../../pi-construction-mechanisms-2026-11-01/README.md"
+  }
 }

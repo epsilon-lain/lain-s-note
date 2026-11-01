@@ -1,0 +1,572 @@
+{
+  "niven": [
+    {
+      "a": 3,
+      "b": 1,
+      "n": 1,
+      "endpoint_derivatives": [
+        0,
+        3,
+        -2
+      ],
+      "F0": 2,
+      "Fp0": 3,
+      "closed_period_integer": 4,
+      "actual_boundary_expression": "-3*sin(3) - 2*cos(3) + 2",
+      "actual_integral_numeric": "3.55662496902128924824091118104",
+      "period_defect_numeric": "0.443375030978710751759088818962",
+      "numerical_scope": "80-digit quadrature check; not interval certification"
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "n": 4,
+      "endpoint_derivatives": [
+        0,
+        0,
+        0,
+        0,
+        81,
+        -540,
+        1620,
+        -2520,
+        1680
+      ],
+      "F0": 141,
+      "Fp0": 1980,
+      "closed_period_integer": 282,
+      "actual_boundary_expression": "-1980*sin(3) - 141*cos(3) + 141",
+      "actual_integral_numeric": "1.17132606212570971581705449705",
+      "period_defect_numeric": "280.828673937874290284182945503",
+      "numerical_scope": "80-digit quadrature check; not interval certification"
+    },
+    {
+      "a": 22,
+      "b": 7,
+      "n": 1,
+      "endpoint_derivatives": [
+        0,
+        22,
+        -14
+      ],
+      "F0": 14,
+      "Fp0": 22,
+      "closed_period_integer": 28,
+      "actual_boundary_expression": "-22*sin(22/7) - 14*cos(22/7) + 14",
+      "actual_integral_numeric": "28.0278075639380424205646280657",
+      "period_defect_numeric": "-0.0278075639380424205646280656563",
+      "numerical_scope": "80-digit quadrature check; not interval certification"
+    },
+    {
+      "a": 22,
+      "b": 7,
+      "n": 4,
+      "endpoint_derivatives": [
+        0,
+        0,
+        0,
+        0,
+        234256,
+        -1490720,
+        4268880,
+        -6338640,
+        4033680
+      ],
+      "F0": -944,
+      "Fp0": 4847920,
+      "closed_period_integer": -1888,
+      "actual_boundary_expression": "-944 + 944*cos(22/7) - 4847920*sin(22/7)",
+      "actual_integral_numeric": "4242.14193005130515598964133966",
+      "period_defect_numeric": "-6130.14193005130515598964133966",
+      "numerical_scope": "80-digit quadrature check; not interval certification"
+    },
+    {
+      "a": 355,
+      "b": 113,
+      "n": 2,
+      "endpoint_derivatives": [
+        0,
+        0,
+        126025,
+        -240690,
+        153228
+      ],
+      "F0": 27203,
+      "Fp0": 240690,
+      "closed_period_integer": 54406,
+      "actual_boundary_expression": "-240690*sin(355/113) - 27203*cos(355/113) + 27203",
+      "actual_integral_numeric": "54406.0642074716975083172316944",
+      "period_defect_numeric": "-0.0642074716975083172316944011162",
+      "numerical_scope": "80-digit quadrature check; not interval certification"
+    }
+  ],
+  "continued_fractions": [
+    {
+      "kind": "bounded",
+      "definition": "[1;1,1,...]",
+      "rows": [
+        {
+          "n": 1,
+          "a_next": 1,
+          "p": "2",
+          "q": "1",
+          "normalized_error_lower": "1/3",
+          "normalized_error_upper": "1/2",
+          "upper_decimal": 0.5
+        },
+        {
+          "n": 2,
+          "a_next": 1,
+          "p": "3",
+          "q": "2",
+          "normalized_error_lower": "2/5",
+          "normalized_error_upper": "2/3",
+          "upper_decimal": 0.6666666666666666
+        },
+        {
+          "n": 3,
+          "a_next": 1,
+          "p": "5",
+          "q": "3",
+          "normalized_error_lower": "3/8",
+          "normalized_error_upper": "3/5",
+          "upper_decimal": 0.6
+        },
+        {
+          "n": 4,
+          "a_next": 1,
+          "p": "8",
+          "q": "5",
+          "normalized_error_lower": "5/13",
+          "normalized_error_upper": "5/8",
+          "upper_decimal": 0.625
+        },
+        {
+          "n": 5,
+          "a_next": 1,
+          "p": "13",
+          "q": "8",
+          "normalized_error_lower": "8/21",
+          "normalized_error_upper": "8/13",
+          "upper_decimal": 0.6153846153846154
+        },
+        {
+          "n": 6,
+          "a_next": 1,
+          "p": "21",
+          "q": "13",
+          "normalized_error_lower": "13/34",
+          "normalized_error_upper": "13/21",
+          "upper_decimal": 0.6190476190476191
+        },
+        {
+          "n": 7,
+          "a_next": 1,
+          "p": "34",
+          "q": "21",
+          "normalized_error_lower": "21/55",
+          "normalized_error_upper": "21/34",
+          "upper_decimal": 0.6176470588235294
+        },
+        {
+          "n": 8,
+          "a_next": 1,
+          "p": "55",
+          "q": "34",
+          "normalized_error_lower": "34/89",
+          "normalized_error_upper": "34/55",
+          "upper_decimal": 0.6181818181818182
+        },
+        {
+          "n": 9,
+          "a_next": 1,
+          "p": "89",
+          "q": "55",
+          "normalized_error_lower": "55/144",
+          "normalized_error_upper": "55/89",
+          "upper_decimal": 0.6179775280898876
+        },
+        {
+          "n": 10,
+          "a_next": 1,
+          "p": "144",
+          "q": "89",
+          "normalized_error_lower": "89/233",
+          "normalized_error_upper": "89/144",
+          "upper_decimal": 0.6180555555555556
+        },
+        {
+          "n": 11,
+          "a_next": 1,
+          "p": "233",
+          "q": "144",
+          "normalized_error_lower": "144/377",
+          "normalized_error_upper": "144/233",
+          "upper_decimal": 0.6180257510729614
+        },
+        {
+          "n": 12,
+          "a_next": 1,
+          "p": "377",
+          "q": "233",
+          "normalized_error_lower": "233/610",
+          "normalized_error_upper": "233/377",
+          "upper_decimal": 0.6180371352785146
+        },
+        {
+          "n": 13,
+          "a_next": 1,
+          "p": "610",
+          "q": "377",
+          "normalized_error_lower": "377/987",
+          "normalized_error_upper": "377/610",
+          "upper_decimal": 0.6180327868852459
+        },
+        {
+          "n": 14,
+          "a_next": 1,
+          "p": "987",
+          "q": "610",
+          "normalized_error_lower": "610/1597",
+          "normalized_error_upper": "610/987",
+          "upper_decimal": 0.6180344478216818
+        },
+        {
+          "n": 15,
+          "a_next": 1,
+          "p": "1597",
+          "q": "987",
+          "normalized_error_lower": "987/2584",
+          "normalized_error_upper": "987/1597",
+          "upper_decimal": 0.6180338134001252
+        },
+        {
+          "n": 16,
+          "a_next": 1,
+          "p": "2584",
+          "q": "1597",
+          "normalized_error_lower": "1597/4181",
+          "normalized_error_upper": "1597/2584",
+          "upper_decimal": 0.6180340557275542
+        },
+        {
+          "n": 17,
+          "a_next": 1,
+          "p": "4181",
+          "q": "2584",
+          "normalized_error_lower": "2584/6765",
+          "normalized_error_upper": "2584/4181",
+          "upper_decimal": 0.6180339631667066
+        },
+        {
+          "n": 18,
+          "a_next": 1,
+          "p": "6765",
+          "q": "4181",
+          "normalized_error_lower": "4181/10946",
+          "normalized_error_upper": "4181/6765",
+          "upper_decimal": 0.6180339985218034
+        },
+        {
+          "n": 19,
+          "a_next": 1,
+          "p": "10946",
+          "q": "6765",
+          "normalized_error_lower": "6765/17711",
+          "normalized_error_upper": "6765/10946",
+          "upper_decimal": 0.618033985017358
+        },
+        {
+          "n": 20,
+          "a_next": 1,
+          "p": "17711",
+          "q": "10946",
+          "normalized_error_lower": "10946/28657",
+          "normalized_error_upper": "10946/17711",
+          "upper_decimal": 0.6180339901755971
+        },
+        {
+          "n": 21,
+          "a_next": 1,
+          "p": "28657",
+          "q": "17711",
+          "normalized_error_lower": "17711/46368",
+          "normalized_error_upper": "17711/28657",
+          "upper_decimal": 0.6180339882053251
+        },
+        {
+          "n": 22,
+          "a_next": 1,
+          "p": "46368",
+          "q": "28657",
+          "normalized_error_lower": "28657/75025",
+          "normalized_error_upper": "28657/46368",
+          "upper_decimal": 0.618033988957902
+        },
+        {
+          "n": 23,
+          "a_next": 1,
+          "p": "75025",
+          "q": "46368",
+          "normalized_error_lower": "46368/121393",
+          "normalized_error_upper": "46368/75025",
+          "upper_decimal": 0.6180339886704432
+        },
+        {
+          "n": 24,
+          "a_next": 1,
+          "p": "121393",
+          "q": "75025",
+          "normalized_error_lower": "75025/196418",
+          "normalized_error_upper": "75025/121393",
+          "upper_decimal": 0.6180339887802427
+        },
+        {
+          "n": 25,
+          "a_next": 1,
+          "p": "196418",
+          "q": "121393",
+          "normalized_error_lower": "121393/317811",
+          "normalized_error_upper": "121393/196418",
+          "upper_decimal": 0.618033988738303
+        }
+      ],
+      "scope": "Exact intervals for the infinite continued fraction; these are not pi data."
+    },
+    {
+      "kind": "unbounded",
+      "definition": "[0;1,2,3,...]",
+      "rows": [
+        {
+          "n": 1,
+          "a_next": 2,
+          "p": "1",
+          "q": "1",
+          "normalized_error_lower": "1/4",
+          "normalized_error_upper": "1/3",
+          "upper_decimal": 0.3333333333333333
+        },
+        {
+          "n": 2,
+          "a_next": 3,
+          "p": "2",
+          "q": "3",
+          "normalized_error_lower": "3/13",
+          "normalized_error_upper": "3/10",
+          "upper_decimal": 0.3
+        },
+        {
+          "n": 3,
+          "a_next": 4,
+          "p": "7",
+          "q": "10",
+          "normalized_error_lower": "10/53",
+          "normalized_error_upper": "10/43",
+          "upper_decimal": 0.23255813953488372
+        },
+        {
+          "n": 4,
+          "a_next": 5,
+          "p": "30",
+          "q": "43",
+          "normalized_error_lower": "43/268",
+          "normalized_error_upper": "43/225",
+          "upper_decimal": 0.19111111111111112
+        },
+        {
+          "n": 5,
+          "a_next": 6,
+          "p": "157",
+          "q": "225",
+          "normalized_error_lower": "225/1618",
+          "normalized_error_upper": "225/1393",
+          "upper_decimal": 0.1615218951902369
+        },
+        {
+          "n": 6,
+          "a_next": 7,
+          "p": "972",
+          "q": "1393",
+          "normalized_error_lower": "1393/11369",
+          "normalized_error_upper": "1393/9976",
+          "upper_decimal": 0.13963512429831595
+        },
+        {
+          "n": 7,
+          "a_next": 8,
+          "p": "6961",
+          "q": "9976",
+          "normalized_error_lower": "9976/91177",
+          "normalized_error_upper": "9976/81201",
+          "upper_decimal": 0.12285562985677516
+        },
+        {
+          "n": 8,
+          "a_next": 9,
+          "p": "56660",
+          "q": "81201",
+          "normalized_error_lower": "81201/821986",
+          "normalized_error_upper": "81201/740785",
+          "upper_decimal": 0.10961480051566919
+        },
+        {
+          "n": 9,
+          "a_next": 10,
+          "p": "516901",
+          "q": "740785",
+          "normalized_error_lower": "740785/8229836",
+          "normalized_error_upper": "740785/7489051",
+          "upper_decimal": 0.0989157371207647
+        },
+        {
+          "n": 10,
+          "a_next": 11,
+          "p": "5225670",
+          "q": "7489051",
+          "normalized_error_lower": "7489051/90609397",
+          "normalized_error_upper": "7489051/83120346",
+          "upper_decimal": 0.09009889107054488
+        },
+        {
+          "n": 11,
+          "a_next": 12,
+          "p": "57999271",
+          "q": "83120346",
+          "normalized_error_lower": "83120346/1088053549",
+          "normalized_error_upper": "83120346/1004933203",
+          "upper_decimal": 0.08271230938719416
+        },
+        {
+          "n": 12,
+          "a_next": 13,
+          "p": "701216922",
+          "q": "1004933203",
+          "normalized_error_lower": "1004933203/14152185188",
+          "normalized_error_upper": "1004933203/13147251985",
+          "upper_decimal": 0.07643674922687656
+        },
+        {
+          "n": 13,
+          "a_next": 14,
+          "p": "9173819257",
+          "q": "13147251985",
+          "normalized_error_lower": "13147251985/198213712978",
+          "normalized_error_upper": "13147251985/185066460993",
+          "upper_decimal": 0.07104070567112257
+        },
+        {
+          "n": 14,
+          "a_next": 15,
+          "p": "129134686520",
+          "q": "185066460993",
+          "normalized_error_lower": "185066460993/2974210627873",
+          "normalized_error_upper": "185066460993/2789144166880",
+          "upper_decimal": 0.06635241849116015
+        },
+        {
+          "n": 15,
+          "a_next": 16,
+          "p": "1946194117057",
+          "q": "2789144166880",
+          "normalized_error_lower": "2789144166880/47600517297953",
+          "normalized_error_upper": "2789144166880/44811373131073",
+          "upper_decimal": 0.06224188129030927
+        },
+        {
+          "n": 16,
+          "a_next": 17,
+          "p": "31268240559432",
+          "q": "44811373131073",
+          "normalized_error_lower": "44811373131073/809393860526194",
+          "normalized_error_upper": "44811373131073/764582487395121",
+          "upper_decimal": 0.058608945234597525
+        },
+        {
+          "n": 17,
+          "a_next": 18,
+          "p": "533506283627401",
+          "q": "764582487395121",
+          "normalized_error_lower": "764582487395121/14571878633638372",
+          "normalized_error_upper": "764582487395121/13807296146243251",
+          "upper_decimal": 0.05537525083092767
+        },
+        {
+          "n": 18,
+          "a_next": 19,
+          "p": "9634381345852650",
+          "q": "13807296146243251",
+          "normalized_error_lower": "13807296146243251/276910505412260141",
+          "normalized_error_upper": "13807296146243251/263103209266016890",
+          "upper_decimal": 0.05247863066650414
+        },
+        {
+          "n": 19,
+          "a_next": 20,
+          "p": "183586751854827751",
+          "q": "263103209266016890",
+          "normalized_error_lower": "263103209266016890/5538974690732597941",
+          "normalized_error_upper": "263103209266016890/5275871481466581051",
+          "upper_decimal": 0.04986914677324167
+        },
+        {
+          "n": 20,
+          "a_next": 21,
+          "p": "3681369418442407670",
+          "q": "5275871481466581051",
+          "normalized_error_lower": "5275871481466581051/116332275801530800012",
+          "normalized_error_upper": "5275871481466581051/111056404320064218961",
+          "upper_decimal": 0.04750623355553216
+        },
+        {
+          "n": 21,
+          "a_next": 22,
+          "p": "77492344539145388821",
+          "q": "111056404320064218961",
+          "normalized_error_lower": "111056404320064218961/2559573170842943617154",
+          "normalized_error_upper": "111056404320064218961/2448516766522879398193",
+          "upper_decimal": 0.04535660357260882
+        },
+        {
+          "n": 22,
+          "a_next": 23,
+          "p": "1708512949279640961732",
+          "q": "2448516766522879398193",
+          "normalized_error_lower": "2448516766522879398193/58875458800869169775593",
+          "normalized_error_upper": "2448516766522879398193/56426942034346290377400",
+          "upper_decimal": 0.043392689347448624
+        },
+        {
+          "n": 23,
+          "a_next": 24,
+          "p": "39373290177970887508657",
+          "q": "56426942034346290377400",
+          "normalized_error_lower": "56426942034346290377400/1413122067625180138833193",
+          "normalized_error_upper": "56426942034346290377400/1356695125590833848455793",
+          "upper_decimal": 0.041591468097722135
+        },
+        {
+          "n": 24,
+          "a_next": 25,
+          "p": "946667477220580941169500",
+          "q": "1356695125590833848455793",
+          "normalized_error_lower": "1356695125590833848455793/35330500207396026350228018",
+          "normalized_error_upper": "1356695125590833848455793/33973805081805192501772225",
+          "upper_decimal": 0.03993356417757919
+        },
+        {
+          "n": 25,
+          "a_next": 26,
+          "p": "23706060220692494416746157",
+          "q": "33973805081805192501772225",
+          "normalized_error_lower": "33973805081805192501772225/918649432334331031396305868",
+          "normalized_error_upper": "33973805081805192501772225/884675627252525838894533643",
+          "upper_decimal": 0.03840255573369329
+        }
+      ],
+      "scope": "Exact intervals for the infinite continued fraction; these are not pi data."
+    }
+  ],
+  "endpoint_identity": "2A-(A^2+d)-1=-(1-A)^2-d < 0 for 0<A<1,d>0",
+  "exact_checks": "polynomial ODE, endpoint integrality/symmetry, CF determinant and Mobius interval identities",
+  "limitation": "No independent proof of the OpenAI interpolation theorem, irrationality exponent of pi, or pi BA/nonBA."
+}

@@ -1,0 +1,28 @@
+{
+  "type_I_zero_order": 3,
+  "type_I_coefficients_z3_to_z7": [
+    "1/6",
+    "1/12",
+    "1/40",
+    "1/180",
+    "1/1008"
+  ],
+  "residue_remainders": [
+    "x*log(x) - 2*x + log(x) + 2",
+    "x - log(x) - 1"
+  ],
+  "residue_coefficient_determinant": "-(x - 1)**2",
+  "determinant_at_i": "2*I",
+  "type_II_normalized_denominator_solution": {
+    "q1": "0",
+    "q2": "-1/3"
+  },
+  "type_II_remainders_through_x7": [
+    "16*x**7/35 - x**6/2 + 8*x**5/15 - x**4/2",
+    "-16*x**7/35 - x**6/2 - 8*x**5/15 - x**4/2"
+  ],
+  "collision_determinant": "epsilon*(exp(epsilon) - 1)**2",
+  "collision_zero_order": 3,
+  "denominator_penalty_derivative": "(alpha + beta)/(alpha - delta)**2",
+  "scope": "Exact finite identities only; no proof or computational validation of mu(pi)=2."
+}
