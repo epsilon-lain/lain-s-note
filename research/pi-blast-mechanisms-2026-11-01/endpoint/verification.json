@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational intervals",
+  "cases": [
+    {
+      "epsilon": "1",
+      "theta": "37/49",
+      "A": "6/7",
+      "B": "63/73",
+      "C": "511/444",
+      "eta": "1/84",
+      "strict_r_less_than_epsilon_h_over_2": true,
+      "required_w_star_threshold_interval_display": [
+        "233.535511237795757",
+        "233.535511237795758"
+      ],
+      "threshold_greater_than_2_epsilon_power_minus_3": true
+    },
+    {
+      "epsilon": "1/2",
+      "theta": "101/121",
+      "A": "10/11",
+      "B": "2015/2211",
+      "C": "2211/2020",
+      "eta": "1/220",
+      "strict_r_less_than_epsilon_h_over_2": true,
+      "required_w_star_threshold_interval_display": [
+        "1823.08018627532866",
+        "1823.08018627532867"
+      ],
+      "threshold_greater_than_2_epsilon_power_minus_3": true
+    },
+    {
+      "epsilon": "1/10",
+      "theta": "1765/1849",
+      "A": "42/43",
+      "B": "148239/151747",
+      "C": "151747/148260",
+      "eta": "1/3612",
+      "strict_r_less_than_epsilon_h_over_2": true,
+      "required_w_star_threshold_interval_display": [
+        "269502.659300970642",
+        "269502.659300970643"
+      ],
+      "threshold_greater_than_2_epsilon_power_minus_3": true
+    },
+    {
+      "epsilon": "1/100",
+      "theta": "161605/162409",
+      "A": "402/403",
+      "B": "129930219/130253227",
+      "C": "130253227/129930420",
+      "eta": "1/324012",
+      "strict_r_less_than_epsilon_h_over_2": true,
+      "required_w_star_threshold_interval_display": [
+        "393532711.814834043",
+        "393532711.814834044"
+      ],
+      "threshold_greater_than_2_epsilon_power_minus_3": true
+    }
+  ],
+  "scope": "Checks admissible sample parameter families and constants; the universal theorem is the analytic proof in the accompanying note.",
+  "pi_badly_approximable_decided": false
+}

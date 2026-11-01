@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "proof_scope": "No decision of pi badly approximable; no new pi approximation record.",
+  "finite_checks": {
+    "discrete_assignment_verification.json": "passed",
+    "local_amplifier/verification.json": "passed",
+    "endpoint/verification.json": "passed",
+    "countermodels/verification.json": "passed"
+  },
+  "analytical_review": [
+    "Local unimodular identity and permanent-record counterexample",
+    "Constant-gain bound, including ceiling correction",
+    "Row-coordinate matching construction and nonzero-scalar repair; no claim of nonzero determinant",
+    "Finite-prefix countermodels and certificate transfer"
+  ],
+  "uploaded_manuscript_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "new_file_hashes": {
+    "README.md": "13a3fd801456d28d1b6e639b9aae161d327ea03b25e85863d1a56516c529baaf",
+    "ROW_CONSTRAINT_ENDPOINT.md": "860804bc826665148a6b9824303fd8d17c876972ae637c5e76ef07f84a55209e",
+    "countermodels/finite_resolution_countermodel.md": "93d7b5240398c31c188449010dea1c1db60d753a9bcb105ee882928c1238e56d",
+    "countermodels/verification.json": "71b0c9216ffc8f767cdb032146a50740eda01c3eee433c3ff2d5e1eeb66c9fb0",
+    "countermodels/verify_countermodel.py": "786627fbcda1224871be68a4b9266cf95ca194661ba2a1b706356cd4ef0c9167",
+    "discrete_assignment_verification.json": "669ac7818d84f4d2857ac965e6ae2cbe666c0108ab9a9f80f324f7a1481037af",
+    "endpoint/CONSTANT_GAIN_OBSTRUCTION.md": "54778a9c76024a09d67d7af647cf8a6c1377f3ec79891bb44b352ae2ba827b37",
+    "endpoint/verification.json": "74647487572dc52dadb8c842cf59906317dd2e7fb160d79ba34ff5b0376fb328",
+    "endpoint/verify.py": "c727a8174f6a70b5f3e4c1628a1635109a0f1b2df4c205f11aaf2f24ca78e35e",
+    "local_amplifier/RESULT.md": "e7242c5fb3c33a5557e1c562bab9921d3a903bf8a25b3b371c87e604e3b5ab9d",
+    "local_amplifier/verification.json": "bda7b5432f267ee9d0f52265a702068e55145245918de7f290178aa31fa2a418",
+    "local_amplifier/verify.py": "5866e054100d986384aeafd15ce85709d5ded1c5c9273b782a5eea803dc46985",
+    "verify_discrete_assignment.py": "489d405b86a41f4a18df623e4cde1ce375a8ac5e4df0261558bdb3337cfccdd3"
+  }
+}

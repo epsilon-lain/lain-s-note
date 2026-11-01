@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "pi_prefix": [
+    3,
+    7,
+    15,
+    1,
+    292,
+    1,
+    1,
+    1,
+    2,
+    1,
+    3,
+    1,
+    14
+  ],
+  "cylinder_lower": "80143857/25510582",
+  "cylinder_upper": "85563208/27235615",
+  "cylinder_width": "1/694796389777930",
+  "shared_decimal_prefix_10_places": "31415926535",
+  "finite_profile_denominator_bound": 113,
+  "all_nearest_numerators_fixed": true,
+  "all_quality_rankings_fixed": true,
+  "rational_thresholds": [
+    "1/2",
+    "1/10",
+    "1/100",
+    "1/1000"
+  ],
+  "all_threshold_decisions_fixed": true,
+  "best_visible_fraction": "355/113",
+  "sparse_tail_spikes": [
+    {
+      "j": 1,
+      "convergent_index": 13,
+      "denominator": "27235615",
+      "quality_strict_lower": "27235615/107217427",
+      "quality_strict_upper": "27235615/79981812"
+    },
+    {
+      "j": 2,
+      "convergent_index": 15,
+      "denominator": "107217427",
+      "quality_strict_lower": "107217427/508851520",
+      "quality_strict_upper": "107217427/401634093"
+    },
+    {
+      "j": 3,
+      "convergent_index": 19,
+      "denominator": "1419337133",
+      "quality_strict_lower": "1419337133/8007171278",
+      "quality_strict_upper": "1419337133/6587834145"
+    },
+    {
+      "j": 4,
+      "convergent_index": 27,
+      "denominator": "156795899774",
+      "quality_strict_lower": "156795899774/1037771939593",
+      "quality_strict_upper": "156795899774/880976039819"
+    },
+    {
+      "j": 5,
+      "convergent_index": 43,
+      "denominator": "965168850163493",
+      "quality_strict_lower": "965168850163493/7352689389648839",
+      "quality_strict_upper": "965168850163493/6387520539485346"
+    },
+    {
+      "j": 6,
+      "convergent_index": 75,
+      "denominator": "15213370381586540117531",
+      "quality_strict_lower": "15213370381586540117531/131109343031954750930042",
+      "quality_strict_upper": "15213370381586540117531/115895972650368210812511"
+    },
+    {
+      "j": 7,
+      "convergent_index": 139,
+      "denominator": "1329441816227349092080482578379722555",
+      "quality_strict_lower": "1329441816227349092080482578379722555/12786616574540035071747661247649338068",
+      "quality_strict_upper": "1329441816227349092080482578379722555/11457174758312685979667178669269615513"
+    },
+    {
+      "j": 8,
+      "convergent_index": 267,
+      "denominator": "3090931677414388389322687727931753266581599840450910059338086508",
+      "quality_strict_lower": "3090931677414388389322687727931753266581599840450910059338086508/32819617607689701619106286336036636332832062098940682677725333829",
+      "quality_strict_upper": "3090931677414388389322687727931753266581599840450910059338086508/29728685930275313229783598608104883066250462258489772618387247321"
+    }
+  ],
+  "scope": "Finite exact cylinder checks. Infinite BA/non-BA and mu=2 claims rely on the proof, not these checks.",
+  "existing_certificate_transfer": {
+    "source_filename": "results_q_10pow5000.json",
+    "source_sha256": "02b78817fd880e081f59da14745d7198f304471cc30ed2f34cd9990f61dca1ef",
+    "certified_prefix_length": 11747,
+    "maximum_prefix_partial_quotient": 20776,
+    "last_denominator_digits": 5998,
+    "cylinder_diameter_denominator_digits": 11995,
+    "strict_target_distance_bound": "10^-11994",
+    "normalized_quality_error_bound_for_q_at_most_10pow5000": "10^-1994",
+    "rational_side_comparisons_preserved_to_denominator": "10^5000",
+    "nearest_grid_numerators_preserved_to_denominator": "10^5000/2",
+    "entire_quality_order_and_four_thresholds_preserved_to_denominator": "10^2498",
+    "dependency": "Uses the independently verified earlier pi certificate; does not re-prove that source certificate."
+  }
+}
