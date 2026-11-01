@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "labs": [
+    {
+      "script": "quantization_lab.py",
+      "result": "results_quantization.json",
+      "exit_code": 0,
+      "script_sha256": "3342cef0f83cf11891e7b1adc320a03916d6539a988d54d9d50458f2defed9c3",
+      "result_sha256": "bec446922ffe3a76a22d7c091730d4b8ef8eaa27a3d85ade0fc5711f1acafef7"
+    },
+    {
+      "script": "mechanism_lab.py",
+      "result": "mechanism_results.json",
+      "exit_code": 0,
+      "script_sha256": "d33b81e9415a899489e16a6182c1598abb4e2513d81ec83c7456b48faa34918b",
+      "result_sha256": "7f850af4e433f743f3484dc2ba5871eca4218f4fe3f589b9adb6afeddb6c5566"
+    }
+  ],
+  "figure": {
+    "path": "resolution_controls.png",
+    "sha256": "9cf82c559811b3b7af13acd797f22e4c56307d173a6a44f7c1980fd59cbb613f"
+  },
+  "scope": "Exact finite controls only; no physical field or pi endpoint theorem.",
+  "python": "3.12.14"
+}
