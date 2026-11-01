@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "labs": [
+    {
+      "script": "kernel_lab.py",
+      "result": "kernel_results.json",
+      "exit_code": 0,
+      "script_sha256": "da5ae5ee99c17ceb6ee77bcbdcc187ebfe9ef1ef942ad374a94b84c7dc5bb103",
+      "result_sha256": "a0220cb18b4ae071de777a8dde9bc39506ecddacc620f14d2b4ca1d6adc5900f"
+    },
+    {
+      "script": "arithmetic_interface_lab.py",
+      "result": "arithmetic_interface_results.json",
+      "exit_code": 0,
+      "script_sha256": "e067a1efdd91bde29545eb104d1cd9b7f722d0087026079dfef2964b27bf6946",
+      "result_sha256": "ec77b9ff25730f6b9152b5275da872540caf15792e323592688d019bba0b050e"
+    },
+    {
+      "script": "limit_audit_lab.py",
+      "result": "limit_audit_results.json",
+      "exit_code": 0,
+      "script_sha256": "0564f030e471d0631942edccfba16f7a4267d9cbfbf0aa8e5fa0908fac06e8ba",
+      "result_sha256": "c8da1f3ebba4f7f850585fd1e53b7a9ee351adb35ff1b621cb240f34a66a03a5"
+    },
+    {
+      "script": "pi_transfer_lab.py",
+      "result": "pi_transfer_results.json",
+      "exit_code": 0,
+      "script_sha256": "796174b99733e5ac64b4733b4c53ee16ad905570bdab3958fa30191263cfa0bd",
+      "result_sha256": "cc2a6b9169d34b53f5f1b9e081deb57f191c15acc3b1d2a4961d2a0216689723"
+    }
+  ],
+  "figure": {
+    "path": "infinite_controls.png",
+    "sha256": "c9a11bb6c81429c21572f4f4be566543dce76ab6ad337cec49155bd77de0c0d8"
+  },
+  "scope": "Exact finite interfaces and explicit infinite proofs; no new pi approximation theorem.",
+  "python": "3.12.14"
+}

@@ -1,0 +1,257 @@
+{
+  "status": "passed",
+  "scope": "Exact checks of coherent infinite embeddings and finite arithmetic costs.\n\nNo inference about pi's infinite Diophantine approximation tail is made.\n",
+  "exact_chord_checks": 243,
+  "relative_tail_checks": 972,
+  "exact_series_splits": 15,
+  "tail_constants": [
+    {
+      "r": "1/2",
+      "m": 0,
+      "C_squared": "1088/3375",
+      "relative_tail_constant_squared": "4352/3375"
+    },
+    {
+      "r": "1/2",
+      "m": 1,
+      "C_squared": "1088/3375",
+      "relative_tail_constant_squared": "977/3375"
+    },
+    {
+      "r": "1/2",
+      "m": 2,
+      "C_squared": "1088/3375",
+      "relative_tail_constant_squared": "533/13500"
+    },
+    {
+      "r": "1/2",
+      "m": 4,
+      "C_squared": "1088/3375",
+      "relative_tail_constant_squared": "181/432000"
+    },
+    {
+      "r": "1/2",
+      "m": 8,
+      "C_squared": "1088/3375",
+      "relative_tail_constant_squared": "1157/56623104000"
+    },
+    {
+      "r": "1",
+      "m": 0,
+      "C_squared": "20/27",
+      "relative_tail_constant_squared": "80/27"
+    },
+    {
+      "r": "1",
+      "m": 1,
+      "C_squared": "20/27",
+      "relative_tail_constant_squared": "53/27"
+    },
+    {
+      "r": "1",
+      "m": 2,
+      "C_squared": "20/27",
+      "relative_tail_constant_squared": "26/27"
+    },
+    {
+      "r": "1",
+      "m": 4,
+      "C_squared": "20/27",
+      "relative_tail_constant_squared": "65/432"
+    },
+    {
+      "r": "1",
+      "m": 8,
+      "C_squared": "20/27",
+      "relative_tail_constant_squared": "197/110592"
+    },
+    {
+      "r": "3/2",
+      "m": 0,
+      "C_squared": "1600/343",
+      "relative_tail_constant_squared": "6400/343"
+    },
+    {
+      "r": "3/2",
+      "m": 1,
+      "C_squared": "1600/343",
+      "relative_tail_constant_squared": "6057/343"
+    },
+    {
+      "r": "3/2",
+      "m": 2,
+      "C_squared": "1600/343",
+      "relative_tail_constant_squared": "21141/1372"
+    },
+    {
+      "r": "3/2",
+      "m": 4,
+      "C_squared": "1600/343",
+      "relative_tail_constant_squared": "426465/43904"
+    },
+    {
+      "r": "3/2",
+      "m": 8,
+      "C_squared": "1600/343",
+      "relative_tail_constant_squared": "14334558093/5754585088"
+    }
+  ],
+  "denominator_checks": [
+    {
+      "candidate": "22/7",
+      "m": 1,
+      "base": "1/14",
+      "minimum_common_denominator": 14
+    },
+    {
+      "candidate": "22/7",
+      "m": 2,
+      "base": "1/14",
+      "minimum_common_denominator": 196
+    },
+    {
+      "candidate": "22/7",
+      "m": 3,
+      "base": "1/14",
+      "minimum_common_denominator": 2744
+    },
+    {
+      "candidate": "22/7",
+      "m": 5,
+      "base": "1/14",
+      "minimum_common_denominator": 537824
+    },
+    {
+      "candidate": "22/7",
+      "m": 8,
+      "base": "1/14",
+      "minimum_common_denominator": 1475789056
+    },
+    {
+      "candidate": "355/113",
+      "m": 1,
+      "base": "8/113",
+      "minimum_common_denominator": 113
+    },
+    {
+      "candidate": "355/113",
+      "m": 2,
+      "base": "8/113",
+      "minimum_common_denominator": 12769
+    },
+    {
+      "candidate": "355/113",
+      "m": 3,
+      "base": "8/113",
+      "minimum_common_denominator": 1442897
+    },
+    {
+      "candidate": "355/113",
+      "m": 5,
+      "base": "8/113",
+      "minimum_common_denominator": 18424351793
+    },
+    {
+      "candidate": "355/113",
+      "m": 8,
+      "base": "8/113",
+      "minimum_common_denominator": 26584441929064321
+    },
+    {
+      "candidate": "3",
+      "m": 1,
+      "base": "0",
+      "minimum_common_denominator": 1
+    },
+    {
+      "candidate": "3",
+      "m": 2,
+      "base": "0",
+      "minimum_common_denominator": 1
+    },
+    {
+      "candidate": "3",
+      "m": 3,
+      "base": "0",
+      "minimum_common_denominator": 1
+    },
+    {
+      "candidate": "3",
+      "m": 5,
+      "base": "0",
+      "minimum_common_denominator": 1
+    },
+    {
+      "candidate": "3",
+      "m": 8,
+      "base": "0",
+      "minimum_common_denominator": 1
+    },
+    {
+      "candidate": "10/3",
+      "m": 1,
+      "base": "1/6",
+      "minimum_common_denominator": 6
+    },
+    {
+      "candidate": "10/3",
+      "m": 2,
+      "base": "1/6",
+      "minimum_common_denominator": 36
+    },
+    {
+      "candidate": "10/3",
+      "m": 3,
+      "base": "1/6",
+      "minimum_common_denominator": 216
+    },
+    {
+      "candidate": "10/3",
+      "m": 5,
+      "base": "1/6",
+      "minimum_common_denominator": 7776
+    },
+    {
+      "candidate": "10/3",
+      "m": 8,
+      "base": "1/6",
+      "minimum_common_denominator": 1679616
+    }
+  ],
+  "reflection_checks": 150,
+  "observation_lipschitz_checks": 100,
+  "all_denominator_lipschitz_squared": "272/3375",
+  "weighting_alone_produces_small_coordinates": [
+    {
+      "q": 1,
+      "universal_coordinate_upper": "1/8",
+      "q_squared_times_upper": "1/8"
+    },
+    {
+      "q": 2,
+      "universal_coordinate_upper": "1/32",
+      "q_squared_times_upper": "1/8"
+    },
+    {
+      "q": 4,
+      "universal_coordinate_upper": "1/512",
+      "q_squared_times_upper": "1/32"
+    },
+    {
+      "q": 8,
+      "universal_coordinate_upper": "1/131072",
+      "q_squared_times_upper": "1/2048"
+    },
+    {
+      "q": 16,
+      "universal_coordinate_upper": "1/8589934592",
+      "q_squared_times_upper": "1/33554432"
+    },
+    {
+      "q": 32,
+      "universal_coordinate_upper": "1/36893488147419103232",
+      "q_squared_times_upper": "1/36028797018963968"
+    }
+  ],
+  "pi_badly_approximable_conclusion": "not_established"
+}

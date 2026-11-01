@@ -1,0 +1,334 @@
+{
+  "status": "passed",
+  "finite_sections": [
+    {
+      "m": 1,
+      "finite_determinant": "1/4",
+      "smallest_eigenvalue": "1/4",
+      "condition_number": 1,
+      "determinant_denominator": 4,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "1",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1"
+    },
+    {
+      "m": 2,
+      "finite_determinant": "1/16",
+      "smallest_eigenvalue": "1/16",
+      "condition_number": 16,
+      "determinant_denominator": 16,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "4",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/2"
+    },
+    {
+      "m": 3,
+      "finite_determinant": "1/64",
+      "smallest_eigenvalue": "1/64",
+      "condition_number": 64,
+      "determinant_denominator": 64,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "64",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/4"
+    },
+    {
+      "m": 4,
+      "finite_determinant": "1/256",
+      "smallest_eigenvalue": "1/256",
+      "condition_number": 256,
+      "determinant_denominator": 256,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "4096",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/8"
+    },
+    {
+      "m": 5,
+      "finite_determinant": "1/1024",
+      "smallest_eigenvalue": "1/1024",
+      "condition_number": 1024,
+      "determinant_denominator": 1024,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "1048576",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/16"
+    },
+    {
+      "m": 6,
+      "finite_determinant": "1/4096",
+      "smallest_eigenvalue": "1/4096",
+      "condition_number": 4096,
+      "determinant_denominator": 4096,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "1073741824",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/32"
+    },
+    {
+      "m": 7,
+      "finite_determinant": "1/16384",
+      "smallest_eigenvalue": "1/16384",
+      "condition_number": 16384,
+      "determinant_denominator": 16384,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "4398046511104",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/64"
+    },
+    {
+      "m": 8,
+      "finite_determinant": "1/65536",
+      "smallest_eigenvalue": "1/65536",
+      "condition_number": 65536,
+      "determinant_denominator": 65536,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "72057594037927936",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/128"
+    },
+    {
+      "m": 9,
+      "finite_determinant": "1/262144",
+      "smallest_eigenvalue": "1/262144",
+      "condition_number": 262144,
+      "determinant_denominator": 262144,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "4722366482869645213696",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/256"
+    },
+    {
+      "m": 10,
+      "finite_determinant": "1/1048576",
+      "smallest_eigenvalue": "1/1048576",
+      "condition_number": 1048576,
+      "determinant_denominator": 1048576,
+      "cleared_determinant": "1",
+      "entrywise_integer_matrix_determinant": "1237940039285380274899124224",
+      "exact_eigenvector_verified": true,
+      "previous_leading_block_preserved": true,
+      "operator_norm_tail_bound": "1/512"
+    }
+  ],
+  "finite_margin_arithmetic_checks": [
+    {
+      "k": 1,
+      "strict_finite_margin": "1/2"
+    },
+    {
+      "k": 2,
+      "strict_finite_margin": "1/4"
+    },
+    {
+      "k": 3,
+      "strict_finite_margin": "1/6"
+    },
+    {
+      "k": 4,
+      "strict_finite_margin": "1/8"
+    },
+    {
+      "k": 5,
+      "strict_finite_margin": "1/10"
+    },
+    {
+      "k": 6,
+      "strict_finite_margin": "1/12"
+    },
+    {
+      "k": 7,
+      "strict_finite_margin": "1/14"
+    },
+    {
+      "k": 8,
+      "strict_finite_margin": "1/16"
+    },
+    {
+      "k": 9,
+      "strict_finite_margin": "1/18"
+    },
+    {
+      "k": 10,
+      "strict_finite_margin": "1/20"
+    },
+    {
+      "k": 11,
+      "strict_finite_margin": "1/22"
+    },
+    {
+      "k": 12,
+      "strict_finite_margin": "1/24"
+    },
+    {
+      "k": 13,
+      "strict_finite_margin": "1/26"
+    },
+    {
+      "k": 14,
+      "strict_finite_margin": "1/28"
+    },
+    {
+      "k": 15,
+      "strict_finite_margin": "1/30"
+    },
+    {
+      "k": 16,
+      "strict_finite_margin": "1/32"
+    },
+    {
+      "k": 17,
+      "strict_finite_margin": "1/34"
+    },
+    {
+      "k": 18,
+      "strict_finite_margin": "1/36"
+    },
+    {
+      "k": 19,
+      "strict_finite_margin": "1/38"
+    },
+    {
+      "k": 20,
+      "strict_finite_margin": "1/40"
+    },
+    {
+      "k": 21,
+      "strict_finite_margin": "1/42"
+    },
+    {
+      "k": 22,
+      "strict_finite_margin": "1/44"
+    },
+    {
+      "k": 23,
+      "strict_finite_margin": "1/46"
+    },
+    {
+      "k": 24,
+      "strict_finite_margin": "1/48"
+    },
+    {
+      "k": 25,
+      "strict_finite_margin": "1/50"
+    },
+    {
+      "k": 26,
+      "strict_finite_margin": "1/52"
+    },
+    {
+      "k": 27,
+      "strict_finite_margin": "1/54"
+    },
+    {
+      "k": 28,
+      "strict_finite_margin": "1/56"
+    },
+    {
+      "k": 29,
+      "strict_finite_margin": "1/58"
+    },
+    {
+      "k": 30,
+      "strict_finite_margin": "1/60"
+    }
+  ],
+  "fixed_prefix_bounds": [
+    {
+      "theta": "1/4",
+      "m": 1,
+      "w1_over_v0": "100",
+      "strict_lower_required": "2",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/4",
+      "m": 5,
+      "w1_over_v0": "100",
+      "strict_lower_required": "14/3",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/4",
+      "m": 20,
+      "w1_over_v0": "100",
+      "strict_lower_required": "44/3",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/4",
+      "m": 100,
+      "w1_over_v0": "100",
+      "strict_lower_required": "68",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/2",
+      "m": 1,
+      "w1_over_v0": "100",
+      "strict_lower_required": "6",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/2",
+      "m": 5,
+      "w1_over_v0": "100",
+      "strict_lower_required": "14",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/2",
+      "m": 20,
+      "w1_over_v0": "100",
+      "strict_lower_required": "44",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "1/2",
+      "m": 100,
+      "w1_over_v0": "100",
+      "strict_lower_required": "204",
+      "this_necessary_condition_satisfied": false
+    },
+    {
+      "theta": "3/4",
+      "m": 1,
+      "w1_over_v0": "100",
+      "strict_lower_required": "18",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "3/4",
+      "m": 5,
+      "w1_over_v0": "100",
+      "strict_lower_required": "42",
+      "this_necessary_condition_satisfied": true
+    },
+    {
+      "theta": "3/4",
+      "m": 20,
+      "w1_over_v0": "100",
+      "strict_lower_required": "132",
+      "this_necessary_condition_satisfied": false
+    },
+    {
+      "theta": "3/4",
+      "m": 100,
+      "w1_over_v0": "100",
+      "strict_lower_required": "612",
+      "this_necessary_condition_satisfied": false
+    }
+  ],
+  "scope": "Exact finite controls for the stated general proofs; no pi tail conclusion."
+}
