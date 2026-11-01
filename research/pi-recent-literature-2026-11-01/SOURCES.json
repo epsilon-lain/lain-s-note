@@ -1,0 +1,33 @@
+{
+  "retrieved": "2026-11-01",
+  "sources": [
+    {
+      "title": "Accurate determinant computation of Cauchy-polynomial matrices",
+      "url": "https://doi.org/10.1007/s11075-025-02188-5",
+      "online": "2025-07-29",
+      "issue": "2026",
+      "read": "Sections 2,6 (Theorem 7),7-8"
+    },
+    {
+      "title": "Arithmetic holonomy bounds and effective Diophantine approximation",
+      "url": "https://math.uchicago.edu/~fcale/papers/ICM.pdf",
+      "arxiv": "2510.04156",
+      "submitted": "2025-10-05",
+      "published": "2026-07",
+      "read": "Sections 2.1,2.2, pi-application paragraphs of Section 3"
+    },
+    {
+      "title": "Simply interpolating and Carleson sequences for Hardy spaces in the polydisc",
+      "url": "https://doi.org/10.1007/s12220-025-02155-5",
+      "online": "2025-08-18",
+      "read": "Theorem 1.1, Sections 2,4, Section 6 outline"
+    },
+    {
+      "title": "Numerical Fredholm Determinants for Matrix-Valued Kernels on the Real Line",
+      "url": "https://doi.org/10.1007/s00020-026-02864-8",
+      "online": "2026-08-23",
+      "read": "Sections 3-4 and Sections 5-6 framework"
+    }
+  ],
+  "scope": "Targeted reading; not independent proof verification or completed method transfer"
+}
