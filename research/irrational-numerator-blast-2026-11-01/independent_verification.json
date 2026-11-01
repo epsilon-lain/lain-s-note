@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "input_file": "results_q_10pow5000.json",
+  "input_sha256": "02b78817fd880e081f59da14745d7198f304471cc30ed2f34cd9990f61dca1ef",
+  "full_pi_interval_independently_certified": true,
+  "full_pi_interval_method": "Exact Fraction binary sums and adjacent alternating partial sums; generated interval contains the independently constructed Machin interval.",
+  "full_pi_interval_exact_atan_terms": {
+    "at_1_over_5": 8581,
+    "at_1_over_239": 2522
+  },
+  "binary_sum_vs_direct_fraction_checks": 18,
+  "independently_rebuilt_cf_count": 11747,
+  "independently_checked_convergents": 9758,
+  "winner_convergent_index": 430,
+  "winner_denominator_digits": 216,
+  "global_quality_record_count": 5,
+  "positive_quality_record_count": 6,
+  "scientific_and_fixed_interval_displays_checked": true,
+  "winner_local_cancellation": {
+    "convergent_index": 430,
+    "coefficient": 4,
+    "identity": "beta_n = a_n*beta_(n-1) + beta_(n-2)",
+    "signs": [
+      1,
+      -1,
+      1
+    ]
+  },
+  "winner_quality_thresholds": "1/21000 < K < 1/20000, certified by exact integer comparisons.",
+  "global_coverage_condition": "All convergents up to Q checked and best K strictly below 1/2; Legendre excludes a better nonconvergent.",
+  "small_exhaustive_max_q": 10000,
+  "small_exhaustive_records": [
+    [
+      3,
+      1
+    ],
+    [
+      22,
+      7
+    ],
+    [
+      355,
+      113
+    ]
+  ],
+  "small_pi_enclosure_method": "Independent Fraction sums of adjacent alternating arctangent partial sums: 70 terms at 1/5, 25 at 1/239.",
+  "leibniz_family_exact_cases": 1000,
+  "leibniz_checks": [
+    "v3",
+    "v5",
+    "coprime reduced pair",
+    "quadratic denominator lower bound",
+    "derived beta and K lower bounds"
+  ],
+  "seed_bridge_checks": "All saved records, all tested Leibniz pairs, all primitive p,q in [1,100]^2, exact named examples and residual signs.",
+  "scope": "Finite certificate audit and finite checks of general identities; no proof of an infinite subsequence with K tending to zero."
+}
