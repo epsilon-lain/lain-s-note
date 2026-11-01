@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "counts": {
+    "independent_exhaustive_optima": 80,
+    "quadratic_identities": 88,
+    "no_move_certificates": 6,
+    "strictly_better_upward_transport": 2,
+    "rational_continuum_formula_checks": 80,
+    "illustrative_parameter_checks_not_a_proof": 576
+  },
+  "finite_examples": [
+    {
+      "dimension": 1,
+      "B": 1,
+      "mass": 6,
+      "before": "31/3",
+      "optimum": "31/3",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 1,
+      "B": 3,
+      "mass": 18,
+      "before": "45",
+      "optimum": "45",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 1,
+      "B": 6,
+      "mass": 36,
+      "before": "132",
+      "optimum": "132",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 1,
+      "B": 12,
+      "mass": 72,
+      "before": "432",
+      "optimum": "401",
+      "gap": "-31",
+      "squared": "29",
+      "drift": "-60"
+    },
+    {
+      "dimension": 2,
+      "B": 1,
+      "mass": 10,
+      "before": "70/3",
+      "optimum": "70/3",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 2,
+      "B": 3,
+      "mass": 30,
+      "before": "90",
+      "optimum": "90",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 2,
+      "B": 6,
+      "mass": 60,
+      "before": "240",
+      "optimum": "240",
+      "gap": "0",
+      "squared": "0",
+      "drift": "0"
+    },
+    {
+      "dimension": 2,
+      "B": 12,
+      "mass": 120,
+      "before": "720",
+      "optimum": "660",
+      "gap": "-60",
+      "squared": "60",
+      "drift": "-120"
+    }
+  ],
+  "rational_continuum_examples": [
+    {
+      "m": 2,
+      "theta": "1/3",
+      "k": "1",
+      "gamma": "1/2",
+      "alpha": "1/24",
+      "exact_value": "1/48"
+    },
+    {
+      "m": 2,
+      "theta": "1/3",
+      "k": "1",
+      "gamma": "1",
+      "alpha": "1/3",
+      "exact_value": "1/6"
+    },
+    {
+      "m": 2,
+      "theta": "1/3",
+      "k": "1",
+      "gamma": "3/2",
+      "alpha": "9/8",
+      "exact_value": "5/12"
+    },
+    {
+      "m": 2,
+      "theta": "1/3",
+      "k": "1",
+      "gamma": "2",
+      "alpha": "8/3",
+      "exact_value": "2/3"
+    }
+  ],
+  "largest_illustrative_gap": -0.28076377695294114,
+  "scope": "Finite convex transport and standalone continuum theorem; not a pi approximation proof, not a Lean check."
+}
