@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "integer_generating_coefficients_checked": 639,
+  "exact_rational_truncations_with_tail_bound": 81,
+  "positive_integer_compositions_checked": 4095,
+  "rational_radius_ratios": [
+    "1/2",
+    "7/100",
+    "2/3"
+  ],
+  "pi_upper_bound_positive_integral": "integral_0^1 x^4(1-x)^4/(1+x^2) dx = 22/7 - pi > 0",
+  "log_two_rational_upper": "25/36",
+  "disk_bound_centers_checked": 100,
+  "old_collision_coefficient": "ln(2)/4",
+  "new_collision_coefficient_at_R_14K": "ln(2)/2",
+  "new_holomorphic_error": "max(14K/w0, ln(28K)/w_min) + ln(2)/v0",
+  "radius_objective_derivative_checks": 16,
+  "radius_optimized_family_checks": [
+    {
+      "m": 8,
+      "K": 8,
+      "stationary_ratio_d_over_A": "1/7",
+      "gain_upper_bound": "213270921216/965009442943"
+    },
+    {
+      "m": 10,
+      "K": 13,
+      "stationary_ratio_d_over_A": "256/1183",
+      "gain_upper_bound": "38388765818880/163086595857367"
+    },
+    {
+      "m": 16,
+      "K": 66,
+      "stationary_ratio_d_over_A": "4096/7623",
+      "gain_upper_bound": "183405184823876124672/787187848663701751903"
+    },
+    {
+      "m": 24,
+      "K": 542,
+      "stationary_ratio_d_over_A": "1048576/514087",
+      "gain_upper_bound": "118291308638645576070561005568/642133311352880316608797312063"
+    },
+    {
+      "m": 32,
+      "K": 4427,
+      "stationary_ratio_d_over_A": "1073741824/137188303",
+      "gain_upper_bound": "67817463347339034588955782460792111104/523807869048002546094002506312012987423"
+    },
+    {
+      "m": 40,
+      "K": 36118,
+      "stationary_ratio_d_over_A": "68719476736/2282892367",
+      "gain_upper_bound": "36450334885633343974452337764373056794897940480/427286170684000700535096398249705405191927721983"
+    },
+    {
+      "m": 64,
+      "K": 19605347,
+      "stationary_ratio_d_over_A": "4611686018427387904/2690587416932863",
+      "gain_upper_bound": "4636298724664993320593611815049856184611977307834624550104613217420443648/231931262617590349750170496581078596247069080244868976718486110225380520863"
+    },
+    {
+      "m": 80,
+      "K": 1304572395,
+      "stationary_ratio_d_over_A": "302231454903657293676544/11913363936572252175",
+      "gain_upper_bound": "1071473317157112228353040577866964006420218229077975833665382893888771046346894789794856960/154330914334570566091101893077198034363817854434330914972586315300897919359104891543181522783"
+    },
+    {
+      "m": 100,
+      "K": 247933511096,
+      "stationary_ratio_d_over_A": "4951760157141521099596496896/6723393460480195091383",
+      "gain_upper_bound": "5134714420364902116021322262935684687699961433494145499878051557440180499846751582834175756440519720190554931200/2933053436272745507143599222641345456170470195496055380227819704597485741908325087667251939257998919167338995703183"
+    }
+  ],
+  "radius_gain_uniform_bound": "-7(39/50)^m <= G_m <= (62m/1183)(12/13)^m",
+  "scope": "Exact combinatorial checks, not a validation of manuscript interpolation thresholds or a result on pi bad approximability."
+}

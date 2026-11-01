@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "source_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "prior_checkpoint": "649e8a2d0e023d9f6463f2bd900653cbe57c1576",
+  "commands": [
+    "python3 cancellation/verify_tail_cancellation.py",
+    "python3 collision/verify_sharp_collision.py",
+    "python3 quality/verify_quality_criterion.py",
+    "python3 order/verify.py"
+  ],
+  "checks": {
+    "tail": "four exact matrix identities and minors, two scope counterexamples, 552 Gaussian-scaled entries",
+    "collision": "639 coefficients, 81 rational truncations, 4095 compositions, 16 derivative checks and 9 radius-family instances",
+    "quality": "8 lattice counts, 660 scalar prefactors, 35 anchors, 4 mean-quality normalizations and synthetic m=500 comparison",
+    "order": "4 named minors, 32 further minors, 125 complete assignments in genuine cancellation example and exact rank filtration"
+  },
+  "review_files": [
+    "review/REVIEW.md",
+    "review/REVIEW_EXTENSION.md"
+  ],
+  "scope": [
+    "Full-packet tail identity is unconditional finite algebra; arbitrary sparse source packets are excluded",
+    "Arithmetic and analytic estimates retain all displayed hypotheses and nonzero determinant requirements",
+    "High-dimensional nonzero existence and shell construction remain conditional on manuscript Theorem 2.1",
+    "No independent validation of that theorem or of the full manuscript",
+    "No proof of pi bad or nonbad approximability; no new rational approximation record",
+    "Scalar lower bounds do not lower-bound accompanying test determinants",
+    "Actual-quality tuple assumptions are conditional; illustrative parameter example is synthetic",
+    "Dimension, weights, and Cauchy radius fixed before each H limit",
+    "Radius optimization excludes only rescue by this score and majorant; no unrestricted H-dependent radius or other regrouping excluded",
+    "Coalescence at center separation zero is not vanishing at approximation error zero"
+  ],
+  "format_checks": "No invalid control characters; local Markdown links resolve; verification outputs report passed",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7731,
+      "sha256": "b817d9d4b56d388524a50330bff3278fc80548955af1bfea5eca5206a16aca09"
+    },
+    {
+      "path": "cancellation/TAIL_CANCELLATION.md",
+      "bytes": 11693,
+      "sha256": "8d8d822ddd83c2a8c3f91e16f914dec3028ec6dd04e42a4d087313fd37d82294"
+    },
+    {
+      "path": "cancellation/tail_cancellation_verification.json",
+      "bytes": 3475,
+      "sha256": "37182abc865a3821f9ede9405238ab5d290923b8301493533c4e718ea4a291f6"
+    },
+    {
+      "path": "cancellation/verify_tail_cancellation.py",
+      "bytes": 10185,
+      "sha256": "26a3ea92bd3d68a05a10ce06be4e843a0af8489564c9fe7a813e4dc12a3f3065"
+    },
+    {
+      "path": "collision/SHARP_COLLISION.md",
+      "bytes": 8403,
+      "sha256": "bc79cc79db9c4a25798fc8204d1004f5fefe543a52f9521ecdb00fa716ae47de"
+    },
+    {
+      "path": "collision/sharp_collision_verification.json",
+      "bytes": 3002,
+      "sha256": "8fd0627b8e216622ecfa9951665c59e2f73502a90ddeb60fc57af70a90abf893"
+    },
+    {
+      "path": "collision/verify_sharp_collision.py",
+      "bytes": 6991,
+      "sha256": "cb2615c178fbd6ce2a99dcae67d655494557a18fd674ecb67339ac1afad41cf9"
+    },
+    {
+      "path": "order/COALESCENCE_AND_CANCELLATION.md",
+      "bytes": 8686,
+      "sha256": "71eab52e589064c7ce0627603557e4f1c3c7ca799a4d62791a1485c96def377c"
+    },
+    {
+      "path": "order/verification.json",
+      "bytes": 3992,
+      "sha256": "c845990f9eb5ee822e762d904ee6bc99a89d304873f4a60c7ba5480100d80f4d"
+    },
+    {
+      "path": "order/verify.py",
+      "bytes": 7111,
+      "sha256": "de2c4fea1f4790bd848b9fd29ab2e88d52e9298527ae5f1e72399ca4ec541772"
+    },
+    {
+      "path": "quality/EXACT_QUALITY_CRITERION.md",
+      "bytes": 12447,
+      "sha256": "1384e498434279a847b4f0fa173608ab161fad0303566c7a689d4c67b01d5080"
+    },
+    {
+      "path": "quality/quality_verification.json",
+      "bytes": 6618,
+      "sha256": "0c014fad31ba1a1a21489cc280353597e3821b8927e27d1d58eeebc413b31893"
+    },
+    {
+      "path": "quality/verify_quality_criterion.py",
+      "bytes": 6975,
+      "sha256": "073f4231890d5bb8b40bab86fca8eb305eaa63b5998433076a1cbf70753110d1"
+    },
+    {
+      "path": "review/REVIEW.md",
+      "bytes": 9191,
+      "sha256": "4bcb4a0ca2b34f34c889f591d1325c28956fd66d68f6894eb165d2ad5d5376af"
+    },
+    {
+      "path": "review/REVIEW_EXTENSION.md",
+      "bytes": 9532,
+      "sha256": "0bdce946072f023540693b8197e36f0db05770143626b027284f69c45dbff496"
+    }
+  ]
+}
