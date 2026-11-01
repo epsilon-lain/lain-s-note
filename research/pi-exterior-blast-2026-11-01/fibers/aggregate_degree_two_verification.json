@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "prime": 65537,
+  "formal_period": 1,
+  "normalization": "each source row multiplied by s!",
+  "source_period_determinant_residue": 21281,
+  "active_first_order_boundary_rows": 44,
+  "trace_inverse_boundary": 65531,
+  "trace_inverse_boundary_squared": 6,
+  "degree_two_relative_coefficient": 15,
+  "eta2_zeta1_2_coefficient_residue": 57067,
+  "independent_low_rank_coefficient": 15,
+  "scope": "The fully aggregated eta^2*zeta_1^2 coefficient is a nonzero polynomial in the period and hence nonzero at 2*pi*i by known transcendence. No lower bound for its value and no claim about cancellation at specified nonzero zeta_2 or in eta=1 full determinant."
+}

@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "commands_in_valid_order": [
+    "python3 exterior/verify_exterior_transport.py",
+    "python3 alternating/verify_alternating_support.py",
+    "python3 packing/verify_bucket_packing.py",
+    "python3 fibers/verify_fiber_actual_period.py",
+    "python3 exterior/verify_full_packet_review.py",
+    "python3 fibers/verify_aggregate_degree_two.py",
+    "python3 exterior/verify_aggregate_coefficient.py"
+  ],
+  "all_exit_codes": 0,
+  "reports": [
+    "exterior/exterior_transport_verification.json",
+    "alternating/alternating_support_verification.json",
+    "packing/bucket_packing_verification.json",
+    "fibers/fiber_actual_period_verification.json",
+    "exterior/full_packet_review_verification.json",
+    "fibers/aggregate_degree_two_verification.json",
+    "exterior/aggregate_coefficient_verification.json"
+  ],
+  "independent_aggregate_coefficient": 57067,
+  "prime": 65537,
+  "scope": "Exact algebraic proofs and finite certificates. Actual-period nonvanishing uses known pi transcendence. No size lower bound, full error-vector evaluation, or bad-approximability result.",
+  "files": {
+    "README.md": "777f36f762665d0394c660f2d44d8613ee857dd83ae9316a3a22ec72f19d4154",
+    "alternating/ALTERNATING_BOUNDARY_SUPPORT.md": "b47099b226028c3e01682704d96ce42b4902d319b0e9b19e083ee12735413060",
+    "alternating/REVIEW_OF_EXTERIOR_TRANSPORT.md": "1fe01151067727651e8727b761074a4838eeff8cb2aeb70e11d50e80bb1f6c3c",
+    "alternating/alternating_support_verification.json": "325daf46d17838cfa0bcf1625943630bb3e2566d326307e390fa3e5bcc67dbd8",
+    "alternating/verify_alternating_support.py": "d9875766011707aaa97779c4428ab35446c24ead394820845f93ad955fe4e384",
+    "exterior/EXTERIOR_TRANSPORT.md": "5b28aaa6a21562bbdd0867897c319f2a2ec11551750350ec96a881290332ea84",
+    "exterior/REVIEW.md": "9b8d254865067583e0e0ec01c24f4a2d987e0a2f7128b1bddae2c0c9e1ad9604",
+    "exterior/aggregate_coefficient_verification.json": "281e308588c1ae89da803a391491ef5210099573521fd821df248c30a4a46ff5",
+    "exterior/exterior_transport_verification.json": "6722715b318903ce980051d420d32f2dafd8d63be2acce5282fa63aed271a450",
+    "exterior/full_packet_review_verification.json": "2fff1991ceff2ad86aca7884c5090d5df29fa760de381d36304dca382793ee46",
+    "exterior/verify_aggregate_coefficient.py": "3c7085fece31fc4d3fd50d41f00fdd4bf4f1c3c7777f071d36a0b3668f69fa48",
+    "exterior/verify_exterior_transport.py": "46c6990c8b1071a0e4bb9ad3cd3eb204044dd2c4ea7912e0b56d126aeee8ddb6",
+    "exterior/verify_full_packet_review.py": "dfec107618a09b82b1cecc6b9cf9059e649714aa392132a7a5e3dd7de02eabb9",
+    "fibers/FIBER_ESCAPE_AND_ACTUAL_PERIOD.md": "85370ad4b3bd285a27716b9c8fdab294ca34d29fed3b67f9fb05fc5ee1b9321b",
+    "fibers/aggregate_degree_two_verification.json": "c1992550c853b0d82bbad19593fa60e23a264f4638d5eedc66cefcb0776df8b7",
+    "fibers/fiber_actual_period_verification.json": "e42c26106d4b0fc85bcfb7389027b310a05aa8580d49d080100bca45096c0ab8",
+    "fibers/verify_aggregate_degree_two.py": "c98235f1f1fa35bd6d2e4646d92e21177b334f7a8ee9187ff87fae688db967df",
+    "fibers/verify_fiber_actual_period.py": "3e3d4ff8dfe162cc4d3a5449fd58e238e69d8e63630c4ff348e4100df370d524",
+    "packing/BUCKET_BASE_PACKING.md": "986786e82233531bf00a82a9139ffce04f603606b8a30cb417e085ba2423c81c",
+    "packing/SOURCES.json": "31840d3e82d557042b3de9fdb42863f845c4c69db3f73feae8c6b45d85e3077e",
+    "packing/bucket_packing_verification.json": "ffc1d3ea0150f1ecec737410bffd0d267364719494debd957f0435206d676a07",
+    "packing/verify_bucket_packing.py": "4696e92c68deb6d7887e030791cd1945a5a542c19a1253bc1b11a1a96574ccdc"
+  }
+}

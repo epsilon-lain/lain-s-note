@@ -1,0 +1,13 @@
+{
+  "source": [
+    {
+      "title": "MIT 18.438 Advanced Combinatorial Optimization, Lecture 13",
+      "lecturer": "Michel X. Goemans",
+      "scribe": "Alan Deckelbaum",
+      "date": "2009-10-29",
+      "url": "https://math.mit.edu/~goemans/18438F09/lec13.pdf",
+      "read_scope": "Theorem 4 and preceding matroid-union rank formula; pages 3-4 of the PDF",
+      "used_for": "Standard disjoint-base packing criterion; the volume and polynomial-footprint derivations are proved in the note."
+    }
+  ]
+}

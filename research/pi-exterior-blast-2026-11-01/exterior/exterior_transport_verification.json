@@ -1,0 +1,1184 @@
+{
+  "status": "passed",
+  "one_dimensional": {
+    "Pascal_minor_cases": 1013,
+    "quadratic_partial_boundary_cases": 1013,
+    "sharp_minimum_cases": 115
+  },
+  "rounded_grids": {
+    "rounded_grid_cases": 80,
+    "integer_affine_cases": 40,
+    "records": [
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 2,
+        "size": 3,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 2,
+        "size": 3,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 2,
+        "size": 3,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 2,
+        "size": 3,
+        "dilation": "2",
+        "coefficient": "4",
+        "total_error_exponent": [
+          1,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 3,
+        "size": 6,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          6
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 3,
+        "size": 6,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          6
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 3,
+        "size": 6,
+        "dilation": "3/2",
+        "coefficient": "9",
+        "total_error_exponent": [
+          1,
+          7
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 3,
+        "size": 6,
+        "dilation": "2",
+        "coefficient": "256",
+        "total_error_exponent": [
+          4,
+          10
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 4,
+        "size": 10,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          10
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 4,
+        "size": 10,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          10
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 4,
+        "size": 10,
+        "dilation": "3/2",
+        "coefficient": "324",
+        "total_error_exponent": [
+          3,
+          13
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 4,
+        "size": 10,
+        "dilation": "2",
+        "coefficient": "1048576",
+        "total_error_exponent": [
+          10,
+          20
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 5,
+        "size": 15,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          15
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 5,
+        "size": 15,
+        "dilation": "5/4",
+        "coefficient": "25",
+        "total_error_exponent": [
+          1,
+          16
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 5,
+        "size": 15,
+        "dilation": "3/2",
+        "coefficient": "656100",
+        "total_error_exponent": [
+          7,
+          22
+        ]
+      },
+      {
+        "costs": [
+          1,
+          1
+        ],
+        "cut": 5,
+        "size": 15,
+        "dilation": "2",
+        "coefficient": "1099511627776",
+        "total_error_exponent": [
+          20,
+          35
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "2",
+        "coefficient": "2",
+        "total_error_exponent": [
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "3/2",
+        "coefficient": "3",
+        "total_error_exponent": [
+          1,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "2",
+        "coefficient": "16",
+        "total_error_exponent": [
+          3,
+          5
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 4,
+        "size": 6,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          6
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 4,
+        "size": 6,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          6
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 4,
+        "size": 6,
+        "dilation": "3/2",
+        "coefficient": "6",
+        "total_error_exponent": [
+          2,
+          6
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 4,
+        "size": 6,
+        "dilation": "2",
+        "coefficient": "512",
+        "total_error_exponent": [
+          7,
+          8
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 5,
+        "size": 9,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          9
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 5,
+        "size": 9,
+        "dilation": "5/4",
+        "coefficient": "5",
+        "total_error_exponent": [
+          1,
+          9
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 5,
+        "size": 9,
+        "dilation": "3/2",
+        "coefficient": "405",
+        "total_error_exponent": [
+          5,
+          10
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2
+        ],
+        "cut": 5,
+        "size": 9,
+        "dilation": "2",
+        "coefficient": "262144",
+        "total_error_exponent": [
+          13,
+          14
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 1,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 1,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 1,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 1,
+        "dilation": "2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 2,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 2,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 2,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 2,
+        "dilation": "2",
+        "coefficient": "2",
+        "total_error_exponent": [
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 3,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 3,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 3,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          3
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 3,
+        "dilation": "2",
+        "coefficient": "4",
+        "total_error_exponent": [
+          1,
+          4
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 4,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 4,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 4,
+        "dilation": "3/2",
+        "coefficient": "3",
+        "total_error_exponent": [
+          1,
+          4
+        ]
+      },
+      {
+        "costs": [
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 4,
+        "dilation": "2",
+        "coefficient": "16",
+        "total_error_exponent": [
+          3,
+          5
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 1,
+        "size": 1,
+        "dilation": "2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "3/2",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 2,
+        "size": 2,
+        "dilation": "2",
+        "coefficient": "2",
+        "total_error_exponent": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4,
+          8
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          4,
+          8
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "3/2",
+        "coefficient": "3",
+        "total_error_exponent": [
+          1,
+          4,
+          8
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 3,
+        "size": 4,
+        "dilation": "2",
+        "coefficient": "16",
+        "total_error_exponent": [
+          3,
+          5,
+          8
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 7,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          7,
+          14
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 7,
+        "dilation": "5/4",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          7,
+          14
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 7,
+        "dilation": "3/2",
+        "coefficient": "6",
+        "total_error_exponent": [
+          2,
+          7,
+          14
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 4,
+        "size": 7,
+        "dilation": "2",
+        "coefficient": "1024",
+        "total_error_exponent": [
+          7,
+          9,
+          15
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 11,
+        "dilation": "1",
+        "coefficient": "1",
+        "total_error_exponent": [
+          0,
+          11,
+          22
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 11,
+        "dilation": "5/4",
+        "coefficient": "5",
+        "total_error_exponent": [
+          1,
+          11,
+          22
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 11,
+        "dilation": "3/2",
+        "coefficient": "405",
+        "total_error_exponent": [
+          5,
+          12,
+          22
+        ]
+      },
+      {
+        "costs": [
+          1,
+          2,
+          3
+        ],
+        "cut": 5,
+        "size": 11,
+        "dilation": "2",
+        "coefficient": "2097152",
+        "total_error_exponent": [
+          14,
+          16,
+          24
+        ]
+      }
+    ]
+  },
+  "grouping": {
+    "grouped_packet_cases": 24,
+    "cardinality_mismatch_cases": 1,
+    "source_rows": 16
+  },
+  "counterexamples": {
+    "nonzero_assignments_cancel": true,
+    "shell_shadow_counterexample": true
+  },
+  "scope": "Exact transport coefficients, quadratic error-order laws and lattice interpolation determinants only. No nonvanishing or size bound for the actual period mixed minors is established."
+}
