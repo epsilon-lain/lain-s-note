@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "source_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "conditional_inputs": [
+    "Uploaded manuscript Theorem 2.1 for both original K-center and auxiliary K=1 packets",
+    "Known transcendence of pi",
+    "Previously proved common bounded mixed-column lemma"
+  ],
+  "verification_commands": [
+    "python3 construction/verify_shell_specialization.py",
+    "python3 finite/verify.py",
+    "python3 capacity/verify_diagonal_capacity.py"
+  ],
+  "verification_results": {
+    "shell": "passed; six exact rational parameter cases and two finite formal-period rank examples",
+    "finite": "passed; four global optima within the fixed anchor, a>=beta, ell=s, d=k=0 class, and an explicit smallest witness",
+    "capacity": "passed; 169 individual capacities and 1170 identities"
+  },
+  "scope": [
+    "No independent verification of manuscript Theorem 2.1",
+    "No conclusion on pi bad approximability",
+    "No new rational approximation record",
+    "No contradiction to the manuscript nu>2 parameter gap",
+    "No lower bound on actual scalar magnitudes; extra approximation quality and cancellation remain available",
+    "Dimension and weights fixed before H tends to infinity; column mixing is an explicit extension",
+    "Finite examples do not verify unknown successive weight thresholds"
+  ],
+  "local_markdown_links": "checked; all target files exist",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7350,
+      "sha256": "d3db426951198e2c1c6b498ac68dd87cb5bed9212911a0b1880b117ecd0838c4"
+    },
+    {
+      "path": "capacity/DIAGONAL_QUOTIENT_CAPACITY.md",
+      "bytes": 4965,
+      "sha256": "d5d5b78a8a601cbf490e7885f3b5f840fc2da06e73bb62d379811580e2490c77"
+    },
+    {
+      "path": "capacity/diagonal_capacity_verification.json",
+      "bytes": 504,
+      "sha256": "de94151fd30cf322c07d6d2fae9962495fe92df311d40034177137a5523ec587"
+    },
+    {
+      "path": "capacity/verify_diagonal_capacity.py",
+      "bytes": 3318,
+      "sha256": "a7e795f68492a73e0ff45a327dd3413f0cdcdc0728a62a908d30a95bdd8944c8"
+    },
+    {
+      "path": "construction/SPARSE_SHELL_SPECIALIZATION.md",
+      "bytes": 11551,
+      "sha256": "af90ef9821d9486637037836988779573260d661896817f1f9007fa1a1d65ab2"
+    },
+    {
+      "path": "construction/shell_specialization_verification.json",
+      "bytes": 18623,
+      "sha256": "f25feaa29dc4e2479f503592474cd1716c2dbd6d08535c3dd3c428b4c9fa5df4"
+    },
+    {
+      "path": "construction/verify_shell_specialization.py",
+      "bytes": 7777,
+      "sha256": "089cbf921b997b632484494f9bc10424c355dda787888d64a304736cfa5d446d"
+    },
+    {
+      "path": "finite/RESULT.md",
+      "bytes": 7296,
+      "sha256": "b5d8e2d2a754db142761570c6a8ad3b8adbb3c7bea2be8ec09800e9e55694215"
+    },
+    {
+      "path": "finite/SIMPLE_OPTIMUM.md",
+      "bytes": 5580,
+      "sha256": "4d8320d9d8115939e8729b95e936bb67bdabdc5165225fbb7740d104fb025f33"
+    },
+    {
+      "path": "finite/matrix_core.py",
+      "bytes": 2356,
+      "sha256": "dfb5a8609de002d739274d902a9a27c21a383cdc9a2337a5134697196290d8d8"
+    },
+    {
+      "path": "finite/optimal_fixtures.json",
+      "bytes": 76731,
+      "sha256": "26d334ad1239b18586d177aadeeca482d809532a648dd6ff758048decc26dff4"
+    },
+    {
+      "path": "finite/optimize.py",
+      "bytes": 7119,
+      "sha256": "7ecf59bbc2d0c09adc8a443150c9a7ba0221d0eab0fb6f8415d2c1b5bccb9bbc"
+    },
+    {
+      "path": "finite/verification.json",
+      "bytes": 8015,
+      "sha256": "61090d77802beefad3f98c16d048baff385ff6675702a1df82a41ce135cd0c04"
+    },
+    {
+      "path": "finite/verify.py",
+      "bytes": 12020,
+      "sha256": "6d64562f3391cfb392aff686d70297b3dee4929084179557dfa2e8c44572118c"
+    },
+    {
+      "path": "review/SHELL_CONSTRUCTION_REVIEW.md",
+      "bytes": 11416,
+      "sha256": "aac70b167924e5ae79c9b548f87cb782255305bc9806f2c3aa33ceefa381cd87"
+    }
+  ]
+}

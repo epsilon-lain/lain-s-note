@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "L_H": 3380,
+  "D_H": 5151,
+  "K_L_H": 6760,
+  "forced_rank_defect_at_least": 1609,
+  "single_time_rows": 26,
+  "single_time_capacity": 101,
+  "individual_types_checked": 169,
+  "all_individual_type_capacities_pass": true,
+  "zero_type": {
+    "a": [
+      0,
+      0
+    ],
+    "n": 1000,
+    "capacity": 5151
+  },
+  "row_sum_binomial_identities_checked": 1170,
+  "source_numerical_volume_conditions_pass": true,
+  "source_separated_weight_thresholds_asserted": false
+}
