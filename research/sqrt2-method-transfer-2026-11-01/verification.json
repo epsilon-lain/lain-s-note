@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "purpose": "Audit direct transfers of the actual interpolation/translation/collision pipeline.",
+  "paper_numeric_hypotheses": {
+    "m": 1,
+    "K": 1,
+    "theta": "1/10",
+    "w0": "1",
+    "v0": "1/5",
+    "K_theta_power_m": "1/10",
+    "K_w0_over_v0_theta_power_m": "1/2"
+  },
+  "finite_matrix_checks": [
+    {
+      "H": 20,
+      "w1": 1,
+      "domain_monomials": 231,
+      "full_target_jet_count": 150,
+      "pure_t_target_count": 100,
+      "sqrt_restriction_exact_rank": 41,
+      "logarithmic_pure_t_rank": 100,
+      "modular_prime": 1000003,
+      "scope": "The log check concerns only the pure-t projection, not full multivariate surjectivity."
+    },
+    {
+      "H": 40,
+      "w1": 2,
+      "domain_monomials": 441,
+      "full_target_jet_count": 300,
+      "pure_t_target_count": 200,
+      "sqrt_restriction_exact_rank": 80,
+      "logarithmic_pure_t_rank": 200,
+      "modular_prime": 1000003,
+      "scope": "The log check concerns only the pure-t projection, not full multivariate surjectivity."
+    }
+  ],
+  "large_weight_count_only": {
+    "H": 2000,
+    "w1": 100,
+    "domain_monomials": 21021,
+    "full_target_jet_count": 15000,
+    "pure_t_target_count": 10000,
+    "sqrt_rank_upper_bound": 4001
+  },
+  "repeated_degree_coefficient_determinant": {
+    "expression": "exp(-sqrt(2))-1",
+    "strict_rational_interval": [
+      "-4/5",
+      "-3/4"
+    ],
+    "zero": false,
+    "reason": "After compensating for a nonperiodic translation, coefficient rows depend on the center j."
+  },
+  "uniform_obstruction": "For every integer w1>=1 and every integer H>=w1, pure-t image rank is 2H-w1+2, while the requested pure-t target has dimension 5H.",
+  "section4_parameter_examples": {
+    "nu": "3",
+    "theta": "9/10",
+    "A": "47/50",
+    "B": "377/400",
+    "C": "21/20",
+    "eta": "1/1000",
+    "cases": [
+      {
+        "m": 30,
+        "K": 4,
+        "v0_over_w0": "42391158275216203514294433201/125000000000000000000000000000",
+        "below_algebraic_curve_necessary_ratio": true
+      },
+      {
+        "m": 100,
+        "K": 131,
+        "v0_over_w0": "34795432542739594783380353186687131114629582297594678972669319987821116308070585972264395574764131/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "below_algebraic_curve_necessary_ratio": true
+      }
+    ],
+    "scope": "These examples check Lemma 4.1 numerical conditions and interpolation ratios, not all later determinant inequalities.",
+    "asymptotic_obstruction": "v0/w0 = 2*floor(C^m)*theta^m <= 2*(C*theta)^m tends to zero. A square-root-curve pure-t projection requires v0/w0 >= 1/2 when wi >= w0/2."
+  },
+  "not_claimed": [
+    "An error in the original logarithmic interpolation theorem.",
+    "Impossibility of every modified migration to sqrt(2).",
+    "A completed proof of mu(sqrt(2))=2 using the original pipeline."
+  ]
+}
