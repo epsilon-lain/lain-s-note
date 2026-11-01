@@ -1,0 +1,324 @@
+{
+  "kind": "rational_finite_transport_toys_not_pi_data",
+  "c0": "1/6",
+  "d": "1/60",
+  "selected_alphas": [
+    [
+      1
+    ]
+  ],
+  "candidate_targets": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      2
+    ]
+  ],
+  "demand": [
+    {
+      "j": 0,
+      "beta": [
+        0
+      ],
+      "multiplicity": 2
+    },
+    {
+      "j": 1,
+      "beta": [
+        0
+      ],
+      "multiplicity": 2
+    },
+    {
+      "j": 2,
+      "beta": [
+        0
+      ],
+      "multiplicity": 2
+    }
+  ],
+  "lambda_by_j": {
+    "0": [
+      "0/1"
+    ],
+    "1": [
+      "0/1"
+    ],
+    "2": [
+      "1/2"
+    ]
+  },
+  "ablation_results": [
+    {
+      "name": "all_information",
+      "minimum_saving": "101/30",
+      "bruteforce_assignments": 16,
+      "occupancies": [
+        {
+          "a": [
+            0
+          ],
+          "n": 4
+        },
+        {
+          "a": [
+            1
+          ],
+          "n": 2
+        }
+      ],
+      "allocation": [
+        {
+          "j": 0,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 2
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 2
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 2
+        }
+      ],
+      "saving_lost_against_all_information": "0/1"
+    },
+    {
+      "name": "delete_j_zero_constraint",
+      "minimum_saving": "61/20",
+      "bruteforce_assignments": 64,
+      "occupancies": [
+        {
+          "a": [
+            0
+          ],
+          "n": 3
+        },
+        {
+          "a": [
+            1
+          ],
+          "n": 3
+        }
+      ],
+      "allocation": [
+        {
+          "j": 0,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 2
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 1
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 1
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 2
+        }
+      ],
+      "saving_lost_against_all_information": "19/60"
+    },
+    {
+      "name": "delete_selected_column_domain",
+      "minimum_saving": "29/10",
+      "bruteforce_assignments": 81,
+      "occupancies": [
+        {
+          "a": [
+            0
+          ],
+          "n": 3
+        },
+        {
+          "a": [
+            1
+          ],
+          "n": 2
+        },
+        {
+          "a": [
+            2
+          ],
+          "n": 1
+        }
+      ],
+      "allocation": [
+        {
+          "j": 0,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 2
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 1
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            2
+          ],
+          "n": 1
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 1
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 1
+        }
+      ],
+      "saving_lost_against_all_information": "7/15"
+    },
+    {
+      "name": "replace_heterogeneous_lambda_by_coordinate_minimum",
+      "minimum_saving": "61/20",
+      "bruteforce_assignments": 16,
+      "occupancies": [
+        {
+          "a": [
+            0
+          ],
+          "n": 3
+        },
+        {
+          "a": [
+            1
+          ],
+          "n": 3
+        }
+      ],
+      "allocation": [
+        {
+          "j": 0,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 2
+        },
+        {
+          "j": 1,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 2
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            0
+          ],
+          "n": 1
+        },
+        {
+          "j": 2,
+          "beta": [
+            0
+          ],
+          "a": [
+            1
+          ],
+          "n": 1
+        }
+      ],
+      "saving_lost_against_all_information": "19/60"
+    }
+  ],
+  "two_coordinate_crosscheck": {
+    "minimum_saving": "3221/4862",
+    "enumerated_assignments": 15
+  },
+  "same_minor_budget_interface_arithmetic_crosscheck": "5543/2310",
+  "bruteforce_crosschecks_passed": 5,
+  "boundaries": [
+    "Every lambda,d,c0 is an input requiring independent analytic certification.",
+    "All supplies and targets in this file are finite toys, not data from pi approximants.",
+    "Selected-domain admissibility and the j=0 zero rule are retained separately.",
+    "Actual coefficient determinants can still vanish within the relaxed feasible set.",
+    "A positive toy comparison does not certify a nonzero minor, analytic bounds or pi property."
+  ]
+}

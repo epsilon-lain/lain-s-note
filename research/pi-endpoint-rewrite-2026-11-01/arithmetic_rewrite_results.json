@@ -1,0 +1,343 @@
+{
+  "status": "passed",
+  "scope": "Exact same-minor checks of row/column denominator allocation.\n\nFinite algebra only. The examples do not certify the interpolation theorem,\nlarge-H estimates, or a Diophantine property of pi.\n",
+  "source_audit": {
+    "pin": "4eaee87548250b2682affda7d05d947c05554bae",
+    "status": "passed",
+    "records": [
+      {
+        "path": "build/sections/determinant.tex",
+        "git_blob_sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+        "size": 14595,
+        "lines": 432,
+        "matches_pinned_closure": true
+      }
+    ],
+    "missing": [],
+    "scope": "Byte identity only; no theorem or Lean verification."
+  },
+  "examples": [
+    {
+      "H": 12,
+      "w0": 4,
+      "v0": 4,
+      "weights": [
+        2
+      ],
+      "theta": "1/3",
+      "F0": 7,
+      "K": 2,
+      "p": [
+        22
+      ],
+      "q": [
+        7
+      ],
+      "T": [
+        4
+      ],
+      "L": [
+        6
+      ],
+      "full_shape": [
+        10,
+        16
+      ],
+      "chosen_columns": [
+        [
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          [
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            2
+          ]
+        ],
+        [
+          1,
+          [
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3
+          ]
+        ],
+        [
+          1,
+          [
+            3
+          ]
+        ]
+      ],
+      "full_rows": [
+        [
+          0,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          2,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          2,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            1
+          ]
+        ]
+      ],
+      "determinant": "618121839509504*I/40353607",
+      "nonnegative_degree_differences": [
+        9
+      ],
+      "support_matching": {
+        "0": 0,
+        "1": 1,
+        "6": 2,
+        "5": 3,
+        "9": 4,
+        "3": 5,
+        "2": 6,
+        "4": 7,
+        "8": 8,
+        "7": 9
+      },
+      "all_scaled_entries_gaussian_integers": true,
+      "allocated_clearing_factor": "406671383849472",
+      "allocated_cleared_determinant": "6229243989537570422784*I",
+      "source_clearing_factor": "1972229193877287885845937041414256770975558743288184832",
+      "factor_saving": "4849687664788584363858837602739217760256",
+      "derivative_checks": 88,
+      "chi": "13/60",
+      "bbar": "1/15",
+      "zeta": "4/15",
+      "weighted_degree_cost": "3/20",
+      "finite_full_row_rank_verified": true,
+      "asymptotic_separation_or_pi_theorem_claim": false
+    },
+    {
+      "H": 8,
+      "w0": 2,
+      "v0": 4,
+      "weights": [
+        2
+      ],
+      "theta": "1/3",
+      "F0": 7,
+      "K": 2,
+      "p": [
+        22
+      ],
+      "q": [
+        7
+      ],
+      "T": [
+        4
+      ],
+      "L": [
+        6
+      ],
+      "full_shape": [
+        6,
+        15
+      ],
+      "chosen_columns": [
+        [
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          [
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            3
+          ]
+        ]
+      ],
+      "full_rows": [
+        [
+          0,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            1
+          ]
+        ]
+      ],
+      "determinant": "-164916224*I/16807",
+      "nonnegative_degree_differences": [
+        5
+      ],
+      "support_matching": {
+        "0": 0,
+        "1": 1,
+        "5": 2,
+        "2": 3,
+        "4": 4,
+        "3": 5
+      },
+      "all_scaled_entries_gaussian_integers": true,
+      "allocated_clearing_factor": "130691232",
+      "allocated_cleared_determinant": "-1282388557824*I",
+      "source_clearing_factor": "79637975153171415171072",
+      "factor_saving": "609359740010496",
+      "derivative_checks": 32,
+      "chi": "7/24",
+      "bbar": "1/12",
+      "zeta": "1/12",
+      "weighted_degree_cost": "5/24",
+      "finite_full_row_rank_verified": true,
+      "asymptotic_separation_or_pi_theorem_claim": false
+    }
+  ]
+}

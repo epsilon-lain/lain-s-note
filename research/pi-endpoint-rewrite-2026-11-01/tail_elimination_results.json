@@ -1,0 +1,217 @@
+{
+  "parameters": {
+    "H": 10,
+    "w0": 1,
+    "w1": 1,
+    "theta": "1/4",
+    "v0": 2,
+    "v1": 4,
+    "T": 3,
+    "F0": 5,
+    "centers": [
+      "0",
+      "44*I/7"
+    ]
+  },
+  "rows": 18,
+  "columns": 66,
+  "tail_series_through_maximum_row_t_order": [
+    "0",
+    "0",
+    "0",
+    "-1/3",
+    "1/4"
+  ],
+  "nonidentity_U_entries": [
+    {
+      "output": [
+        0,
+        3,
+        0
+      ],
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "value": "-1/3"
+    },
+    {
+      "output": [
+        0,
+        4,
+        0
+      ],
+      "input": [
+        0,
+        0,
+        1
+      ],
+      "value": "1/4"
+    },
+    {
+      "output": [
+        0,
+        4,
+        0
+      ],
+      "input": [
+        0,
+        1,
+        1
+      ],
+      "value": "-1/3"
+    },
+    {
+      "output": [
+        1,
+        3,
+        0
+      ],
+      "input": [
+        1,
+        0,
+        1
+      ],
+      "value": "-1/3"
+    },
+    {
+      "output": [
+        1,
+        4,
+        0
+      ],
+      "input": [
+        1,
+        0,
+        1
+      ],
+      "value": "1/4"
+    },
+    {
+      "output": [
+        1,
+        4,
+        0
+      ],
+      "input": [
+        1,
+        1,
+        1
+      ],
+      "value": "-1/3"
+    }
+  ],
+  "U_determinant": "1",
+  "U_is_unit_lower_triangular_after_weight_ordering": true,
+  "direct_matrix_identity_A_G_equals_U_A_log": true,
+  "selected_column_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21,
+    22
+  ],
+  "selected_columns": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "same_nonzero_minor_G": "3317750146456487008259612151506704175590385558664274509824*I/378818692265664781682717625943",
+  "same_nonzero_minor_log": "3317750146456487008259612151506704175590385558664274509824*I/378818692265664781682717625943",
+  "full_row_rank": 18,
+  "ablation_missing_other_rows": {
+    "P": "Y^3+X",
+    "row": [
+      0,
+      3,
+      0
+    ],
+    "G_value": "1",
+    "log_value": "4/3",
+    "equal": false
+  },
+  "scope": "Exact algebraic packet identity; not a proof of asymptotic interpolation or pi approximation"
+}

@@ -1,0 +1,205 @@
+{
+  "kind": "finite_relaxation_not_a_pi_proof",
+  "collision_constant": "1/6",
+  "bruteforce_crosschecks": [
+    {
+      "weights": [
+        1
+      ],
+      "H": 2,
+      "minimum": "5/6"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 3,
+      "minimum": "1/1"
+    },
+    {
+      "weights": [
+        1,
+        2
+      ],
+      "H": 3,
+      "minimum": "5/6"
+    }
+  ],
+  "examples": [
+    {
+      "H": 4,
+      "M": 12,
+      "weighted_beta_sum": 4,
+      "minimum_joint_saving": "40/3",
+      "normalized_joint_saving": "5/18",
+      "main_arithmetic_budget": 44,
+      "gap_before_all_errors": "-92/3",
+      "occupancies": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "n": 8
+        },
+        {
+          "a": [
+            1,
+            0
+          ],
+          "n": 4
+        }
+      ]
+    },
+    {
+      "H": 6,
+      "M": 24,
+      "weighted_beta_sum": 16,
+      "minimum_joint_saving": "112/3",
+      "normalized_joint_saving": "7/27",
+      "main_arithmetic_budget": 128,
+      "gap_before_all_errors": "-272/3",
+      "occupancies": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "n": 12
+        },
+        {
+          "a": [
+            1,
+            0
+          ],
+          "n": 8
+        },
+        {
+          "a": [
+            2,
+            0
+          ],
+          "n": 4
+        }
+      ]
+    },
+    {
+      "H": 8,
+      "M": 44,
+      "weighted_beta_sum": 52,
+      "minimum_joint_saving": "248/3",
+      "normalized_joint_saving": "31/132",
+      "main_arithmetic_budget": 300,
+      "gap_before_all_errors": "-652/3",
+      "occupancies": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "n": 16
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "n": 4
+        },
+        {
+          "a": [
+            1,
+            0
+          ],
+          "n": 12
+        },
+        {
+          "a": [
+            2,
+            0
+          ],
+          "n": 8
+        },
+        {
+          "a": [
+            3,
+            0
+          ],
+          "n": 4
+        }
+      ]
+    },
+    {
+      "H": 10,
+      "M": 72,
+      "weighted_beta_sum": 120,
+      "minimum_joint_saving": "160/1",
+      "normalized_joint_saving": "2/9",
+      "main_arithmetic_budget": 600,
+      "gap_before_all_errors": "-440/1",
+      "occupancies": [
+        {
+          "a": [
+            0,
+            0
+          ],
+          "n": 20
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "n": 8
+        },
+        {
+          "a": [
+            1,
+            0
+          ],
+          "n": 16
+        },
+        {
+          "a": [
+            1,
+            1
+          ],
+          "n": 4
+        },
+        {
+          "a": [
+            2,
+            0
+          ],
+          "n": 12
+        },
+        {
+          "a": [
+            3,
+            0
+          ],
+          "n": 8
+        },
+        {
+          "a": [
+            4,
+            0
+          ],
+          "n": 4
+        }
+      ]
+    }
+  ],
+  "two_alternative_no_go_bounds": {
+    "L_upper_strict": "1/9",
+    "cL_upper_strict": "1/36",
+    "cL_divided_by_exact_main_arithmetic_cost_upper_strict": "1/8"
+  },
+  "scope": [
+    "All actual nonzero translated terms satisfy these relaxed index constraints.",
+    "Some relaxed assignments can be zero determinants or absent actual scalars.",
+    "Finite margins omit translation, analytic, arithmetic and limiting errors.",
+    "Interpolation separation and full rank are not asserted for toy weights.",
+    "Supply an independently valid same-minor arithmetic budget before comparing."
+  ]
+}

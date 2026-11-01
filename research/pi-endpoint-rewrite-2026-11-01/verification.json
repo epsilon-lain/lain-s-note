@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "labs": [
+    {
+      "script": "arithmetic_rewrite_lab.py",
+      "exit_code": 0,
+      "output": "arithmetic_rewrite_results.json",
+      "script_sha256": "aa08fd55c3dc2295c5dfc4fa53054c76c45b39d7f280656c715b3ca2af711a25",
+      "output_sha256": "9ef5233bef787738fe61e42dbf246c4296a9d551c9f76b89c5e1cf851f790cf8",
+      "json_valid": true
+    },
+    {
+      "script": "selected_columns_lab.py",
+      "exit_code": 0,
+      "output": "selected_columns_results.json",
+      "script_sha256": "da3ddf9b685be7108126c853650a9c17dfce36b66875c65be0163d369e396fd2",
+      "output_sha256": "e32ecdceec5ed02e81c6b83f416faeaf7dc122cf939ab654b8ca46a0a1373fa6",
+      "json_valid": true
+    },
+    {
+      "script": "tail_elimination_lab.py",
+      "exit_code": 0,
+      "output": "tail_elimination_results.json",
+      "script_sha256": "4cabd5cd5c5fe498d5d83b9d08e335ec18b19525ed967e1f2615e14c927b9887",
+      "output_sha256": "0982076ce808f64c39cd18e35734fdc345f8e7579e9cf5eddb474a6d3b946194",
+      "json_valid": true
+    },
+    {
+      "script": "exact_cauchy_lab.py",
+      "exit_code": 0,
+      "output": "results_cauchy.json",
+      "script_sha256": "039a8e5d319ea14cbcd4b16fce5899a293601d853ac4836bb0698bebd12d0c1d",
+      "output_sha256": "f314799f04d8260a6a76fea19354a9c5b9dfeda227adce476b44237fe45ff64b",
+      "json_valid": true
+    },
+    {
+      "script": "exact_budget_lab.py",
+      "exit_code": 0,
+      "output": "results_adaptive_budget.json",
+      "script_sha256": "39f92bd9f58956cec6db0f4ae6b90d13d7502fd1342122665a6c24fd1176b8b7",
+      "output_sha256": "5af01350424595991b32cbbecc299f5aa6f1fb9285806dd9e0ddafead1c4b0b1",
+      "json_valid": true
+    },
+    {
+      "script": "collision_transport_lab.py",
+      "exit_code": 0,
+      "output": "collision_transport_results.json",
+      "script_sha256": "fa79aa8073d3fcdf9a0094eef4b5e6b2ab889c4d690b4673392b996b62bc7824",
+      "output_sha256": "fb46d29831d53031a17332b4a501e17b1a673e73407bf98e9512adb5239cbbb3",
+      "json_valid": true
+    },
+    {
+      "script": "refined_transport_lab.py",
+      "exit_code": 0,
+      "output": "refined_transport_results.json",
+      "script_sha256": "d9a260bddba8a3c43bb817ebeb68273365a9b0e2391bc3094dbbb3c8d2741f98",
+      "output_sha256": "d962591352f891bcbab41533bff510b735ad4e9e3632dc033a04af7e276bc751",
+      "json_valid": true
+    }
+  ],
+  "source_audit": {
+    "pin": "4eaee87548250b2682affda7d05d947c05554bae",
+    "status": "passed",
+    "records": [
+      {
+        "path": "README.md",
+        "git_blob_sha": "f5b171d49b516bc8891745f8b9c847e09be6306a",
+        "size": 550,
+        "lines": 18,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/main.tex",
+        "git_blob_sha": "fe28ac589090c44a8877aa326b60e753c863fa24",
+        "size": 12659,
+        "lines": 264,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/references.bib",
+        "git_blob_sha": "7e0930ea5fea9d94e18c3b1b21ac0fd62cf4c367",
+        "size": 8718,
+        "lines": 269,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/conclusion.tex",
+        "git_blob_sha": "1577b7461538faa5b6a23850ebb7dd66f01825d7",
+        "size": 6177,
+        "lines": 156,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/determinant.tex",
+        "git_blob_sha": "8da644f464222a8ebcd8a46e1d6e3bf6975c916f",
+        "size": 14595,
+        "lines": 432,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/interpolation.tex",
+        "git_blob_sha": "69dd30eac65dd0817226970299e4100e15e9ec0b",
+        "size": 26655,
+        "lines": 584,
+        "matches_pinned_closure": true
+      },
+      {
+        "path": "build/sections/series.tex",
+        "git_blob_sha": "dbffc2bed293c8d0b59d2ac16f82cc78590dad68",
+        "size": 5720,
+        "lines": 155,
+        "matches_pinned_closure": true
+      }
+    ],
+    "missing": [],
+    "scope": "Byte identity only; no theorem or Lean verification."
+  },
+  "scope": "Finite algebra, optimization and formula checks only; no independent pi theorem, Lean kernel, or endpoint conclusion.",
+  "dependencies": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "source_dependency": "../pi-construction-mechanisms-2026-11-01/source_support.py"
+}

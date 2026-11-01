@@ -1,0 +1,687 @@
+{
+  "status": "passed",
+  "scope": "exact algebra and finite illustrative checks; theorem proof in adaptive_budget.md",
+  "square_identity": true,
+  "distribution_mean_symbolic_m": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "one_plus_2_over_m_power_samples": [
+    {
+      "m": 1,
+      "less_than_9": true
+    },
+    {
+      "m": 2,
+      "less_than_9": true
+    },
+    {
+      "m": 3,
+      "less_than_9": true
+    },
+    {
+      "m": 4,
+      "less_than_9": true
+    },
+    {
+      "m": 5,
+      "less_than_9": true
+    },
+    {
+      "m": 6,
+      "less_than_9": true
+    },
+    {
+      "m": 7,
+      "less_than_9": true
+    },
+    {
+      "m": 8,
+      "less_than_9": true
+    },
+    {
+      "m": 9,
+      "less_than_9": true
+    },
+    {
+      "m": 10,
+      "less_than_9": true
+    },
+    {
+      "m": 11,
+      "less_than_9": true
+    },
+    {
+      "m": 12,
+      "less_than_9": true
+    },
+    {
+      "m": 13,
+      "less_than_9": true
+    },
+    {
+      "m": 14,
+      "less_than_9": true
+    },
+    {
+      "m": 15,
+      "less_than_9": true
+    },
+    {
+      "m": 16,
+      "less_than_9": true
+    },
+    {
+      "m": 17,
+      "less_than_9": true
+    },
+    {
+      "m": 18,
+      "less_than_9": true
+    },
+    {
+      "m": 19,
+      "less_than_9": true
+    },
+    {
+      "m": 20,
+      "less_than_9": true
+    },
+    {
+      "m": 21,
+      "less_than_9": true
+    },
+    {
+      "m": 22,
+      "less_than_9": true
+    },
+    {
+      "m": 23,
+      "less_than_9": true
+    },
+    {
+      "m": 24,
+      "less_than_9": true
+    },
+    {
+      "m": 25,
+      "less_than_9": true
+    },
+    {
+      "m": 26,
+      "less_than_9": true
+    },
+    {
+      "m": 27,
+      "less_than_9": true
+    },
+    {
+      "m": 28,
+      "less_than_9": true
+    },
+    {
+      "m": 29,
+      "less_than_9": true
+    },
+    {
+      "m": 30,
+      "less_than_9": true
+    },
+    {
+      "m": 31,
+      "less_than_9": true
+    },
+    {
+      "m": 32,
+      "less_than_9": true
+    },
+    {
+      "m": 33,
+      "less_than_9": true
+    },
+    {
+      "m": 34,
+      "less_than_9": true
+    },
+    {
+      "m": 35,
+      "less_than_9": true
+    },
+    {
+      "m": 36,
+      "less_than_9": true
+    },
+    {
+      "m": 37,
+      "less_than_9": true
+    },
+    {
+      "m": 38,
+      "less_than_9": true
+    },
+    {
+      "m": 39,
+      "less_than_9": true
+    },
+    {
+      "m": 40,
+      "less_than_9": true
+    },
+    {
+      "m": 41,
+      "less_than_9": true
+    },
+    {
+      "m": 42,
+      "less_than_9": true
+    },
+    {
+      "m": 43,
+      "less_than_9": true
+    },
+    {
+      "m": 44,
+      "less_than_9": true
+    },
+    {
+      "m": 45,
+      "less_than_9": true
+    },
+    {
+      "m": 46,
+      "less_than_9": true
+    },
+    {
+      "m": 47,
+      "less_than_9": true
+    },
+    {
+      "m": 48,
+      "less_than_9": true
+    },
+    {
+      "m": 49,
+      "less_than_9": true
+    },
+    {
+      "m": 50,
+      "less_than_9": true
+    },
+    {
+      "m": 51,
+      "less_than_9": true
+    },
+    {
+      "m": 52,
+      "less_than_9": true
+    },
+    {
+      "m": 53,
+      "less_than_9": true
+    },
+    {
+      "m": 54,
+      "less_than_9": true
+    },
+    {
+      "m": 55,
+      "less_than_9": true
+    },
+    {
+      "m": 56,
+      "less_than_9": true
+    },
+    {
+      "m": 57,
+      "less_than_9": true
+    },
+    {
+      "m": 58,
+      "less_than_9": true
+    },
+    {
+      "m": 59,
+      "less_than_9": true
+    },
+    {
+      "m": 60,
+      "less_than_9": true
+    },
+    {
+      "m": 61,
+      "less_than_9": true
+    },
+    {
+      "m": 62,
+      "less_than_9": true
+    },
+    {
+      "m": 63,
+      "less_than_9": true
+    },
+    {
+      "m": 64,
+      "less_than_9": true
+    },
+    {
+      "m": 65,
+      "less_than_9": true
+    },
+    {
+      "m": 66,
+      "less_than_9": true
+    },
+    {
+      "m": 67,
+      "less_than_9": true
+    },
+    {
+      "m": 68,
+      "less_than_9": true
+    },
+    {
+      "m": 69,
+      "less_than_9": true
+    },
+    {
+      "m": 70,
+      "less_than_9": true
+    },
+    {
+      "m": 71,
+      "less_than_9": true
+    },
+    {
+      "m": 72,
+      "less_than_9": true
+    },
+    {
+      "m": 73,
+      "less_than_9": true
+    },
+    {
+      "m": 74,
+      "less_than_9": true
+    },
+    {
+      "m": 75,
+      "less_than_9": true
+    },
+    {
+      "m": 76,
+      "less_than_9": true
+    },
+    {
+      "m": 77,
+      "less_than_9": true
+    },
+    {
+      "m": 78,
+      "less_than_9": true
+    },
+    {
+      "m": 79,
+      "less_than_9": true
+    },
+    {
+      "m": 80,
+      "less_than_9": true
+    }
+  ],
+  "row_mean_finite_examples": [
+    {
+      "m": 1,
+      "H": 10,
+      "row_count": 30,
+      "b_H": {
+        "numerator": 2,
+        "denominator": 15
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 6
+      }
+    },
+    {
+      "m": 1,
+      "H": 20,
+      "row_count": 110,
+      "b_H": {
+        "numerator": 3,
+        "denominator": 20
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 6
+      }
+    },
+    {
+      "m": 1,
+      "H": 40,
+      "row_count": 420,
+      "b_H": {
+        "numerator": 19,
+        "denominator": 120
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 6
+      }
+    },
+    {
+      "m": 2,
+      "H": 10,
+      "row_count": 70,
+      "b_H": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 4
+      }
+    },
+    {
+      "m": 2,
+      "H": 20,
+      "row_count": 440,
+      "b_H": {
+        "numerator": 9,
+        "denominator": 40
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 4
+      }
+    },
+    {
+      "m": 2,
+      "H": 40,
+      "row_count": 3080,
+      "b_H": {
+        "numerator": 19,
+        "denominator": 80
+      },
+      "limit": {
+        "numerator": 1,
+        "denominator": 4
+      }
+    },
+    {
+      "m": 3,
+      "H": 10,
+      "row_count": 140,
+      "b_H": {
+        "numerator": 6,
+        "denominator": 25
+      },
+      "limit": {
+        "numerator": 3,
+        "denominator": 10
+      }
+    },
+    {
+      "m": 3,
+      "H": 20,
+      "row_count": 1430,
+      "b_H": {
+        "numerator": 27,
+        "denominator": 100
+      },
+      "limit": {
+        "numerator": 3,
+        "denominator": 10
+      }
+    },
+    {
+      "m": 3,
+      "H": 40,
+      "row_count": 17710,
+      "b_H": {
+        "numerator": 57,
+        "denominator": 200
+      },
+      "limit": {
+        "numerator": 3,
+        "denominator": 10
+      }
+    }
+  ],
+  "least_cost_column_finite_examples": [
+    {
+      "m": 1,
+      "H": 10,
+      "all_columns": 66,
+      "selected": 33,
+      "chi_H": {
+        "numerator": 37,
+        "denominator": 330
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "1/2 * (1/4)^(1/1)"
+    },
+    {
+      "m": 1,
+      "H": 20,
+      "all_columns": 231,
+      "selected": 115,
+      "chi_H": {
+        "numerator": 71,
+        "denominator": 575
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "1/2 * (1/4)^(1/1)"
+    },
+    {
+      "m": 1,
+      "H": 30,
+      "all_columns": 496,
+      "selected": 248,
+      "chi_H": {
+        "numerator": 319,
+        "denominator": 2480
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "1/2 * (1/4)^(1/1)"
+    },
+    {
+      "m": 2,
+      "H": 10,
+      "all_columns": 286,
+      "selected": 143,
+      "chi_H": {
+        "numerator": 40,
+        "denominator": 143
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "2/3 * (1/6)^(1/2)"
+    },
+    {
+      "m": 2,
+      "H": 20,
+      "all_columns": 1771,
+      "selected": 885,
+      "chi_H": {
+        "numerator": 87,
+        "denominator": 295
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "2/3 * (1/6)^(1/2)"
+    },
+    {
+      "m": 2,
+      "H": 30,
+      "all_columns": 5456,
+      "selected": 2728,
+      "chi_H": {
+        "numerator": 205,
+        "denominator": 682
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "2/3 * (1/6)^(1/2)"
+    },
+    {
+      "m": 3,
+      "H": 10,
+      "all_columns": 1001,
+      "selected": 500,
+      "chi_H": {
+        "numerator": 249,
+        "denominator": 625
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "3/4 * (1/8)^(1/3)"
+    },
+    {
+      "m": 3,
+      "H": 20,
+      "all_columns": 10626,
+      "selected": 5313,
+      "chi_H": {
+        "numerator": 105,
+        "denominator": 253
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "3/4 * (1/8)^(1/3)"
+    },
+    {
+      "m": 3,
+      "H": 30,
+      "all_columns": 46376,
+      "selected": 23188,
+      "chi_H": {
+        "numerator": 12204,
+        "denominator": 28985
+      },
+      "asymptotic_rho": "1/2",
+      "asymptotic_lower_bound_formula": "3/4 * (1/8)^(1/3)"
+    }
+  ],
+  "necessary_dimension_bounds": [
+    {
+      "nu": {
+        "numerator": 3,
+        "denominator": 1
+      },
+      "necessary_strict_m_lower_bound": {
+        "numerator": 48,
+        "denominator": 1
+      },
+      "interpretation": "necessary only, not feasible dimension"
+    },
+    {
+      "nu": {
+        "numerator": 5,
+        "denominator": 2
+      },
+      "necessary_strict_m_lower_bound": {
+        "numerator": 144,
+        "denominator": 1
+      },
+      "interpretation": "necessary only, not feasible dimension"
+    },
+    {
+      "nu": {
+        "numerator": 21,
+        "denominator": 10
+      },
+      "necessary_strict_m_lower_bound": {
+        "numerator": 2640,
+        "denominator": 1
+      },
+      "interpretation": "necessary only, not feasible dimension"
+    },
+    {
+      "nu": {
+        "numerator": 201,
+        "denominator": 100
+      },
+      "necessary_strict_m_lower_bound": {
+        "numerator": 242400,
+        "denominator": 1
+      },
+      "interpretation": "necessary only, not feasible dimension"
+    },
+    {
+      "nu": {
+        "numerator": 2001,
+        "denominator": 1000
+      },
+      "necessary_strict_m_lower_bound": {
+        "numerator": 24024000,
+        "denominator": 1
+      },
+      "interpretation": "necessary only, not feasible dimension"
+    }
+  ],
+  "necessary_screen_examples": [
+    {
+      "nu": {
+        "numerator": 21,
+        "denominator": 10
+      },
+      "m": 100,
+      "passes_relaxed_necessary_screen": false,
+      "comparison_arithmetic": "exact Fraction",
+      "R": {
+        "numerator": 441,
+        "denominator": 440
+      }
+    },
+    {
+      "nu": {
+        "numerator": 21,
+        "denominator": 10
+      },
+      "m": 1000,
+      "passes_relaxed_necessary_screen": false,
+      "comparison_arithmetic": "exact Fraction",
+      "R": {
+        "numerator": 441,
+        "denominator": 440
+      }
+    },
+    {
+      "nu": {
+        "numerator": 21,
+        "denominator": 10
+      },
+      "m": 3000,
+      "passes_relaxed_necessary_screen": false,
+      "comparison_arithmetic": "exact Fraction",
+      "R": {
+        "numerator": 441,
+        "denominator": 440
+      }
+    },
+    {
+      "nu": {
+        "numerator": 21,
+        "denominator": 10
+      },
+      "m": 10000,
+      "passes_relaxed_necessary_screen": true,
+      "comparison_arithmetic": "exact Fraction",
+      "R": {
+        "numerator": 441,
+        "denominator": 440
+      }
+    }
+  ],
+  "slow_kappa_model": {
+    "hypotheses": [
+      "h_i=ln(1/kappa_i)<=ln(w_i)",
+      "positive integer w_i strictly increasing",
+      "s=min_i h_i/w_i"
+    ],
+    "analytic_conclusion": "m*s^2<1, contradicting necessary m*s^2>24*(1+s)",
+    "not_a_claim_about_pi": true,
+    "pooled_exponent_only": true
+  }
+}

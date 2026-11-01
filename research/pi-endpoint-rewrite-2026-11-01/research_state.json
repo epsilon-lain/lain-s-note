@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "task": "Understand and rewrite the actual pi017 construction; identify quantitative obstacles rather than blame proof by contradiction",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "prior_repo_commit": "dc7f7d112123356456a090b538f44fe570ee425b",
+  "independently_rederived": [
+    "Row/column allocation of logarithm and rational-center denominators",
+    "Nonnegative per-coordinate total degree differences from a nonzero matching",
+    "Unit triangular full-jet substitution preserves the same determinant exactly",
+    "Full distinct-Taylor-degree geometric sum",
+    "Actual selected-column and full-row moment costs",
+    "Explicit finite residual and joint same-minor comparison criterion"
+  ],
+  "finite_laboratories": 7,
+  "verification": "verification.json",
+  "unresolved": "No positive asymptotic joint margin has been established for the endpoint pi approximation hypothesis",
+  "source_theorem_independently_certified": false,
+  "lean_kernel_run": false,
+  "pi_badly_approximable_conclusion": "not_established",
+  "pi_not_badly_approximable_conclusion": "not_established",
+  "sequential_corpus_reading": "remains_paused_by_user",
+  "next_mathematical_target": "Jointly bound the degree profile of one nonzero column basis and the asymptotic minimum of its constrained transport gain"
+}

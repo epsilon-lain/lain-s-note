@@ -1,0 +1,2199 @@
+{
+  "scope": "Exact combinatorial and finite supporting checks; not a pi theorem certificate.",
+  "formal_series_checks": [
+    {
+      "n": 0,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 1,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 2,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 3,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 4,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 5,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 6,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 7,
+      "coefficients_checked": 81,
+      "passed": true
+    },
+    {
+      "n": 8,
+      "coefficients_checked": 81,
+      "passed": true
+    }
+  ],
+  "rational_sum_checks": [
+    {
+      "gamma": "1/10",
+      "n": 1,
+      "full_sum": "10/9",
+      "finite_degree_sum": "11111111111111111/10000000000000000",
+      "tail_union_bound": "1/90000000000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/10",
+      "n": 2,
+      "full_sum": "200/891",
+      "finite_degree_sum": "1122334455667788877665544332211/5000000000000000000000000000000",
+      "tail_union_bound": "1/40500000000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/10",
+      "n": 3,
+      "full_sum": "2000/296703",
+      "finite_degree_sum": "3370373740744107373366632625892259262629633/500000000000000000000000000000000000000000000",
+      "tail_union_bound": "1/24300000000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/10",
+      "n": 4,
+      "full_sum": "80000/2966733297",
+      "finite_degree_sum": "33707108118252561952487500598245080471080848858959633/1250000000000000000000000000000000000000000000000000000000",
+      "tail_union_bound": "1/16402500000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/10",
+      "n": 5,
+      "full_sum": "4000000/296670362966703",
+      "finite_degree_sum": "3370744519270111825285820392408907261174714182233074822259633/250000000000000000000000000000000000000000000000000000000000000000000",
+      "tail_union_bound": "1/11809800000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/10",
+      "n": 6,
+      "full_sum": "80000000/98890022098780011099",
+      "finite_degree_sum": "10112243670043893286192937034687899010245926070841771166003365778899/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "tail_union_bound": "1/8857350000000000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 1,
+      "full_sum": "2",
+      "finite_degree_sum": "131071/65536",
+      "tail_union_bound": "1/65536",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 2,
+      "full_sum": "8/3",
+      "finite_degree_sum": "2863245995/1073741824",
+      "tail_union_bound": "1/16384",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 3,
+      "full_sum": "16/7",
+      "finite_degree_sum": "40208563507785/17592186044416",
+      "tail_union_bound": "3/16384",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 4,
+      "full_sum": "128/105",
+      "finite_degree_sum": "43915793063202777/36028797018963968",
+      "tail_union_bound": "1/2048",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 5,
+      "full_sum": "256/651",
+      "finite_degree_sum": "58018429190434507485/147573952589676412928",
+      "tail_union_bound": "5/4096",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "1/2",
+      "n": 6,
+      "full_sum": "1024/13671",
+      "finite_degree_sum": "11313593692134728959575/151115727451828646838272",
+      "tail_union_bound": "3/1024",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 1,
+      "full_sum": "5/2",
+      "finite_degree_sum": "381405156481/152587890625",
+      "tail_union_bound": "129140163/305175781250",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 2,
+      "full_sum": "75/16",
+      "finite_degree_sum": "21818021272340564603184/4656612873077392578125",
+      "tail_union_bound": "129140163/61035156250",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 3,
+      "full_sum": "10125/1568",
+      "finite_degree_sum": "183357579660631781909820271887888/28421709430404007434844970703125",
+      "tail_union_bound": "387420489/48828125000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 4,
+      "full_sum": "1366875/213248",
+      "finite_degree_sum": "222005288144398853235088642351790114299296/34694469519536141888238489627838134765625",
+      "tail_union_bound": "129140163/4882812500",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 5,
+      "full_sum": "2767921875/614580736",
+      "finite_degree_sum": "7606709462268568357802158872465330330571645765536/1694065894508600678136645001359283924102783203125",
+      "tail_union_bound": "129140163/1562500000",
+      "exact_checks_passed": true
+    },
+    {
+      "gamma": "3/5",
+      "n": 6,
+      "full_sum": "10089075234375/4577397321728",
+      "finite_degree_sum": "181375384503980763374457906040034501825753957090681434752/82718061255302767487140869206996285356581211090087890625",
+      "tail_union_bound": "387420489/1562500000",
+      "exact_checks_passed": true
+    }
+  ],
+  "finite_supporting_inequalities": [
+    {
+      "m": 1,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 2,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 3,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 4,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 5,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 6,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 7,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 8,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 9,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 10,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 11,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 12,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 13,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 14,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 15,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 16,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 17,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 18,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 19,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 20,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 21,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 22,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 23,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 24,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 25,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 26,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 27,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 28,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 29,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 30,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 31,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 32,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 33,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 34,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 35,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 36,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 37,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 38,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 39,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 40,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 41,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 42,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 43,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 44,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 45,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 46,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 47,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 48,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 49,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 50,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 51,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 52,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 53,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 54,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 55,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 56,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 57,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 58,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 59,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 60,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 61,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 62,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 63,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 64,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 65,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 66,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 67,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 68,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 69,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 70,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 71,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 72,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 73,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 74,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 75,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 76,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 77,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 78,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 79,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 80,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 81,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 82,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 83,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 84,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 85,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 86,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 87,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 88,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 89,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 90,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 91,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 92,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 93,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 94,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 95,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 96,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 97,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 98,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 99,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 100,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 101,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 102,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 103,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 104,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 105,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 106,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 107,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 108,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 109,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 110,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 111,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 112,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 113,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 114,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 115,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 116,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 117,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 118,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 119,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 120,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 121,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 122,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 123,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 124,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 125,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 126,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 127,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 128,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 129,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 130,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 131,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 132,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 133,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 134,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 135,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 136,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 137,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 138,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 139,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 140,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 141,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 142,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 143,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 144,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 145,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 146,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 147,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 148,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 149,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 150,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 151,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 152,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 153,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 154,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 155,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 156,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 157,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 158,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 159,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 160,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 161,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 162,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 163,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 164,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 165,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 166,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 167,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 168,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 169,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 170,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 171,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 172,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 173,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 174,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 175,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 176,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 177,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 178,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 179,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 180,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 181,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 182,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 183,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 184,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 185,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 186,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 187,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 188,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 189,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 190,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 191,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 192,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 193,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 194,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 195,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 196,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 197,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 198,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 199,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 200,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 201,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 202,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 203,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 204,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 205,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 206,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 207,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 208,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 209,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 210,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 211,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 212,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 213,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 214,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 215,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 216,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 217,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 218,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 219,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 220,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 221,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 222,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 223,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 224,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 225,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 226,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 227,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 228,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 229,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 230,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 231,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 232,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 233,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 234,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 235,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 236,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 237,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 238,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 239,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 240,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 241,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 242,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 243,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 244,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 245,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 246,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 247,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 248,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 249,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 250,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 251,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 252,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 253,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 254,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 255,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 256,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 257,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 258,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 259,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 260,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 261,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 262,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 263,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 264,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 265,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 266,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 267,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 268,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 269,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 270,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 271,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 272,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 273,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 274,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 275,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 276,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 277,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 278,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 279,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 280,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 281,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 282,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 283,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 284,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 285,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 286,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 287,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 288,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 289,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 290,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 291,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 292,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 293,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 294,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 295,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 296,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 297,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 298,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 299,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 300,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 301,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 302,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 303,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 304,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 305,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 306,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 307,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 308,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 309,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 310,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 311,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 312,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 313,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 314,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 315,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 316,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 317,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 318,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 319,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 320,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 321,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 322,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 323,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 324,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 325,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 326,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 327,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 328,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 329,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 330,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 331,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 332,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 333,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 334,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 335,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 336,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 337,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 338,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 339,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 340,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 341,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 342,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 343,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 344,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 345,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 346,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 347,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 348,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 349,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 350,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 351,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 352,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 353,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 354,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 355,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 356,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 357,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 358,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 359,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 360,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 361,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 362,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 363,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 364,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 365,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 366,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 367,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 368,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 369,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 370,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 371,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 372,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 373,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 374,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 375,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 376,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 377,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 378,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 379,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 380,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 381,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 382,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 383,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 384,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 385,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 386,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 387,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 388,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 389,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 390,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 391,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 392,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 393,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 394,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 395,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 396,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 397,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 398,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 399,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 400,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 401,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 402,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 403,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 404,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 405,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 406,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 407,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 408,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 409,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 410,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 411,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 412,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 413,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 414,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 415,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 416,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 417,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 418,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 419,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 420,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 421,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 422,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 423,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 424,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 425,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 426,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 427,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 428,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 429,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 430,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 431,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 432,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 433,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 434,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 435,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 436,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 437,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 438,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 439,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 440,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 441,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 442,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 443,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 444,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 445,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 446,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 447,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 448,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 449,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 450,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 451,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 452,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 453,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 454,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 455,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 456,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 457,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 458,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 459,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 460,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 461,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 462,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 463,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 464,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 465,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 466,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 467,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 468,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 469,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 470,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 471,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 472,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 473,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 474,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 475,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 476,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 477,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 478,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 479,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 480,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 481,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 482,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 483,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 484,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 485,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 486,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 487,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 488,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 489,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 490,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 491,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 492,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 493,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 494,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 495,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 496,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 497,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 498,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 499,
+      "integer_inequalities_passed": true
+    },
+    {
+      "m": 500,
+      "integer_inequalities_passed": true
+    }
+  ],
+  "all_passed": true
+}
