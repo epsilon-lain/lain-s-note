@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "verification_commands": [
+    {
+      "command": "python verify_positive_fraction.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"exhaustive_target_set_checks\": 175,\n  \"nonzero_fiber_determinant_checks\": 12,\n  \"complete_packet_cases\": 12\n}\n"
+    },
+    {
+      "command": "python verify_rank_filtration.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"determinant_jet_reductions\": 6,\n  \"boundary_support_checks\": 348,\n  \"exact_cauchy_rank_blocks\": 864,\n  \"small_height_cap_changes\": 3,\n  \"rank_counts\": 15,\n  \"scope\": \"Exact finite rank and formal truncated determinant identities. Infinite ratios follow from the written piecewise-integral proof, not the displayed finite counts. Rank of coefficient transport is not automatically rank on compatible period columns; no norm or approximation theorem is certified.\"\n}\n"
+    },
+    {
+      "command": "python verify_bulk_transport.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"prime\": 65537,\n  \"image_of_i\": 256,\n  \"source_rows\": 156,\n  \"ambient_columns\": 242,\n  \"packed_buckets\": [\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19\n  ],\n  \"rows_in_packed_buckets\": 66,\n  \"changed_rows\": 51,\n  \"outside_rows\": 33,\n  \"period_target_factorial_scaled_determinant_mod_p\": 9333,\n  \"rational_source_factorial_scaled_determinant_mod_p\": 44706,\n  \"period_target_normalized_determinant_mod_p\": 50847,\n  \"rational_source_normalized_determinant_mod_p\": 41347,\n  \"normalized_transport_integer_coefficient\": \"1152921504606846976\",\n  \"error_exponent\": [\n    93,\n    0\n  ],\n  \"transport_monomial_convention\": \"integer_coefficient * (-zeta)^error_exponent\",\n  \"factorial_scaled_transport_factor\": \"244700631116555052896811803058644962853240026453348162262689382400000000000000000000\",\n  \"factorial_scaled_transport_integer_coefficient\": \"282120619805143688902964758175275033502027868936714990926910223185709498936747622400000000000000000000\",\n  \"scope\": \"One complete finite packet. A nonzero formal-period polynomial has nonzero value at 2*pi*i by known transcendence. Neither magnitude, a full aggregate coefficient, nor an asymptotic family of full-rank bulk packets is certified.\"\n}\n"
+    },
+    {
+      "command": "python verify_bulk_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"prime\": 65537,\n  \"image_of_i\": 256,\n  \"source_rows\": 156,\n  \"ambient_columns\": 242,\n  \"packed_buckets\": [\n    8,\n    9,\n    10,\n    11,\n    12,\n    13,\n    14,\n    15,\n    16,\n    17,\n    18,\n    19\n  ],\n  \"changed_rows\": 51,\n  \"packed_rows\": 66,\n  \"outside_rows\": 33,\n  \"period_target_rank_at_formal_period_1\": 156,\n  \"period_target_factorial_scaled_determinant_mod_p\": 9333,\n  \"rational_source_factorial_scaled_determinant_mod_p\": 44706,\n  \"normalized_transport_integer_coefficient\": \"1152921504606846976\",\n  \"normalized_transport_monomial\": \"2^60 * (-zeta_1)^93\",\n  \"error_exponent\": [\n    93,\n    0\n  ],\n  \"scaled_to_normalized_transport_factor\": \"244700631116555052896811803058644962853240026453348162262689382400000000000000000000\",\n  \"factorial_scaled_transport_integer_coefficient\": \"282120619805143688902964758175275033502027868936714990926910223185709498936747622400000000000000000000\",\n  \"scope\": \"One fixed complete H=20 packet on common raw columns. Transcendence promotes the nonzero formal-period polynomial to the actual period, but supplies neither magnitude nor an asymptotic family of compatible full-rank packed packets. A nonzero individual target-set term does not prove that the full eta^33 zeta_1^93 coefficient survives summation.\"\n}\n"
+    },
+    {
+      "command": "python verify_period_obstruction.py",
+      "exit_code": 0,
+      "stdout": "PASS: all local packing constraints and bucket minors; no zero target row\nPASS: normalized complete transport coefficient = zeta^6\nPASS: exact source minor = -9216 Z^5 (9 exact evaluations)\nPASS: exact target 8-row minor = 16 Z^4 (6 exact evaluations)\nPASS: two exact polynomial row relations; source rank 10, target rank 8 for Z != 0\n"
+    }
+  ],
+  "scope": "Exact finite computations and independent written proof reviews. Finite samples do not prove asymptotics; written fixed-parameter proofs provide those. No proof of pi bad approximability, no new pi approximation record, no independent verification of the uploaded manuscript's Theorem 2.1.",
+  "independent_bulk_crosscheck": {
+    "status": "passed",
+    "matching_fields": [
+      "selected_column_indices",
+      "selected_raw_columns",
+      "normalized_transport_integer_coefficient",
+      "error_exponent",
+      "period_target_factorial_scaled_determinant_mod_p",
+      "rational_source_factorial_scaled_determinant_mod_p",
+      "factorial_scaled_transport_integer_coefficient",
+      "factorial ratio"
+    ]
+  },
+  "local_markdown_links": {
+    "status": "passed",
+    "count": 10
+  },
+  "sha256": {
+    "BOUNDARY_RANK_FILTRATION.md": "05197f8bb0406b3af4717e7a34385dc19b1b9ea49540fab31870e79b0c24acd1",
+    "BULK_PERIOD_CERTIFICATE.md": "0042ac4eb129fe4625ee3d0d5abf2ff1e675d2761819d8a0a0bf64e033f81040",
+    "EXTERIOR_SUM_ENVELOPE.md": "437602126eda8f01041c97e166edd6bd70a955d36ead592a06073514d32495bb",
+    "INDEPENDENT_RANK_REVIEW.md": "62be5aca71ffc5701c91050ec686dd3513e2ed876327a849b45fb8a112562c59",
+    "INDEPENDENT_REVIEW.md": "fede9bcece2d5d8b0b47a52234d712c606568b79a6968c5c6e1a7c494679fdf4",
+    "PERIOD_GLUING_OBSTRUCTION.md": "fa709c23b2cf81e73c93b95aa71748bef5eb5578cb22f2bf4d293afbe32976db",
+    "POSITIVE_FRACTION_LAW.md": "7bbbd9e8aeceec927530e8c3cb76541a6f43c3d2f8e24f6aa842eb536c578abc",
+    "README.md": "f5393ba54645f4f2a3aa7f4912b9db3c126473663f3b16ff598e6d908bad7bbd",
+    "bulk_review_verification.json": "570106450a0ff52b9c0072b2162bc399ad561eb0b7c86dadd1b35b66dbc0dde5",
+    "bulk_transport_verification.json": "b726552e0ff596a2156f3ce0700188cbb264299a6f82585c7729564c49056410",
+    "positive_fraction_verification.json": "b97cc3bfdc1fdfd4f366927c500d88ddd80f8e09165f88e5627ce4d45def1192",
+    "rank_filtration_verification.json": "5fc915b2605042b78bbbba2b8cafdc3f89ea100ae01089bf8c57d9183027d9a9",
+    "verify_bulk_review.py": "3d2c3be0455100f9387f668d4a21a223e3ea70f9b3e39b1bf2cf32dbe418907c",
+    "verify_bulk_transport.py": "ae965e0ff2432ae693a6f5b4c6f93f00b89b6be7e7826882f20a75da3d6160ca",
+    "verify_period_obstruction.py": "e06d6763ebec5e7de0a66f9fe6c0ec34c013c54d1cdcad4afc16b8bfa1eae7fe",
+    "verify_positive_fraction.py": "123d2cb2fedabdb94319af612f68058f904dcdea0b529eaaeec50fbd3dc9e35e",
+    "verify_rank_filtration.py": "1a48b5e0a651f364bc01af0e8e5b1c358297862006e48b79381e90b2e022d3a0"
+  }
+}

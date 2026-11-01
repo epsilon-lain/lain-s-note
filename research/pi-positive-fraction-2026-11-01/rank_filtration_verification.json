@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "determinant_jet_reductions": [
+    {
+      "m": 1,
+      "H": 4,
+      "D": 1,
+      "source_rows": 5,
+      "strip_rows": 3,
+      "eta_values": 2
+    },
+    {
+      "m": 1,
+      "H": 4,
+      "D": 2,
+      "source_rows": 5,
+      "strip_rows": 5,
+      "eta_values": 3
+    },
+    {
+      "m": 1,
+      "H": 4,
+      "D": 3,
+      "source_rows": 5,
+      "strip_rows": 5,
+      "eta_values": 4
+    },
+    {
+      "m": 2,
+      "H": 4,
+      "D": 1,
+      "source_rows": 7,
+      "strip_rows": 5,
+      "eta_values": 2
+    },
+    {
+      "m": 2,
+      "H": 4,
+      "D": 2,
+      "source_rows": 7,
+      "strip_rows": 7,
+      "eta_values": 3
+    },
+    {
+      "m": 2,
+      "H": 4,
+      "D": 3,
+      "source_rows": 7,
+      "strip_rows": 7,
+      "eta_values": 4
+    }
+  ],
+  "boundary_support_checks": 348,
+  "exact_cauchy_rank_blocks": 864,
+  "small_height_cap_changes": 3,
+  "rank_counts": [
+    {
+      "v0": 1,
+      "v1": 3,
+      "H": 100,
+      "source_rows_per_center": 1717,
+      "boundary_rank_per_center": 858,
+      "ratio": "858/1717",
+      "proved_limit": "1/2"
+    },
+    {
+      "v0": 1,
+      "v1": 3,
+      "H": 400,
+      "source_rows_per_center": 26867,
+      "boundary_rank_per_center": 13433,
+      "ratio": "13433/26867",
+      "proved_limit": "1/2"
+    },
+    {
+      "v0": 1,
+      "v1": 3,
+      "H": 1600,
+      "source_rows_per_center": 427467,
+      "boundary_rank_per_center": 213733,
+      "ratio": "213733/427467",
+      "proved_limit": "1/2"
+    },
+    {
+      "v0": 2,
+      "v1": 5,
+      "H": 100,
+      "source_rows_per_center": 530,
+      "boundary_rank_per_center": 227,
+      "ratio": "227/530",
+      "proved_limit": "3/7"
+    },
+    {
+      "v0": 2,
+      "v1": 5,
+      "H": 400,
+      "source_rows_per_center": 8120,
+      "boundary_rank_per_center": 3480,
+      "ratio": "3/7",
+      "proved_limit": "3/7"
+    },
+    {
+      "v0": 2,
+      "v1": 5,
+      "H": 1600,
+      "source_rows_per_center": 128480,
+      "boundary_rank_per_center": 55063,
+      "ratio": "55063/128480",
+      "proved_limit": "3/7"
+    },
+    {
+      "v0": 1,
+      "v1": 10,
+      "H": 100,
+      "source_rows_per_center": 550,
+      "boundary_rank_per_center": 450,
+      "ratio": "9/11",
+      "proved_limit": "9/11"
+    },
+    {
+      "v0": 1,
+      "v1": 10,
+      "H": 400,
+      "source_rows_per_center": 8200,
+      "boundary_rank_per_center": 6711,
+      "ratio": "6711/8200",
+      "proved_limit": "9/11"
+    },
+    {
+      "v0": 1,
+      "v1": 10,
+      "H": 1600,
+      "source_rows_per_center": 128800,
+      "boundary_rank_per_center": 105384,
+      "ratio": "13173/16100",
+      "proved_limit": "9/11"
+    },
+    {
+      "v0": 3,
+      "v1": 4,
+      "H": 100,
+      "source_rows_per_center": 442,
+      "boundary_rank_per_center": 63,
+      "ratio": "63/442",
+      "proved_limit": "1/7"
+    },
+    {
+      "v0": 3,
+      "v1": 4,
+      "H": 400,
+      "source_rows_per_center": 6767,
+      "boundary_rank_per_center": 967,
+      "ratio": "967/6767",
+      "proved_limit": "1/7"
+    },
+    {
+      "v0": 3,
+      "v1": 4,
+      "H": 1600,
+      "source_rows_per_center": 107067,
+      "boundary_rank_per_center": 15296,
+      "ratio": "15296/107067",
+      "proved_limit": "1/7"
+    },
+    {
+      "v0": 1,
+      "v1": 101,
+      "H": 100,
+      "source_rows_per_center": 100,
+      "boundary_rank_per_center": 99,
+      "ratio": "99/100",
+      "proved_limit": "50/51"
+    },
+    {
+      "v0": 1,
+      "v1": 101,
+      "H": 400,
+      "source_rows_per_center": 994,
+      "boundary_rank_per_center": 978,
+      "ratio": "489/497",
+      "proved_limit": "50/51"
+    },
+    {
+      "v0": 1,
+      "v1": 101,
+      "H": 1600,
+      "source_rows_per_center": 13480,
+      "boundary_rank_per_center": 13224,
+      "ratio": "1653/1685",
+      "proved_limit": "50/51"
+    }
+  ],
+  "scope": "Exact finite rank and formal truncated determinant identities. Infinite ratios follow from the written piecewise-integral proof, not the displayed finite counts. Rank of coefficient transport is not automatically rank on compatible period columns; no norm or approximation theorem is certified."
+}
