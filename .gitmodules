@@ -1,0 +1,3 @@
+[submodule "external/openai-math"]
+	path = external/openai-math
+	url = https://github.com/openai/math.git

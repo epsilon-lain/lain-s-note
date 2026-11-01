@@ -1,0 +1,250 @@
+{
+  "status": "passed",
+  "sympy_version": "1.14.0",
+  "exact_capacity_cases": 6,
+  "zero_shift_example": {
+    "rows": 4,
+    "capacity": 3,
+    "excluded": true
+  },
+  "cases": [
+    {
+      "columns": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "a": [
+        0,
+        0
+      ],
+      "capacity": 3,
+      "jet_cutoff": 3,
+      "signature_rank": 3,
+      "closure_jet_determinant": "1"
+    },
+    {
+      "columns": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "a": [
+        1,
+        0
+      ],
+      "capacity": 1,
+      "jet_cutoff": 1,
+      "signature_rank": 1,
+      "closure_jet_determinant": "1"
+    },
+    {
+      "columns": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            1,
+            0
+          ]
+        ]
+      ],
+      "a": [
+        0,
+        1
+      ],
+      "capacity": 2,
+      "jet_cutoff": 2,
+      "signature_rank": 2,
+      "closure_jet_determinant": "1"
+    },
+    {
+      "columns": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            2
+          ]
+        ]
+      ],
+      "a": [
+        0,
+        0
+      ],
+      "capacity": 4,
+      "jet_cutoff": 6,
+      "signature_rank": 4,
+      "closure_jet_determinant": "1/8640"
+    },
+    {
+      "columns": [
+        [
+          0,
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            0
+          ]
+        ]
+      ],
+      "a": [
+        1,
+        0
+      ],
+      "capacity": 2,
+      "jet_cutoff": 5,
+      "signature_rank": 2,
+      "closure_jet_determinant": "4/9"
+    },
+    {
+      "columns": [
+        [
+          0,
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            2,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      ],
+      "a": [
+        0,
+        0,
+        0
+      ],
+      "capacity": 2,
+      "jet_cutoff": 6,
+      "signature_rank": 2,
+      "closure_jet_determinant": "1/8640"
+    }
+  ],
+  "scope": "Exact necessary capacities and finite jet saturation; not sufficient independence, not an asymptotic lower displacement."
+}

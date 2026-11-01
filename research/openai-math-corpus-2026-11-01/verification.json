@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "manuscripts": 721,
+  "families": 373,
+  "preprint_directories": 751,
+  "uncatalogued_directories": 30,
+  "snapshot_hashes_checked": 6,
+  "edge_case_pdf_paths_checked": 2,
+  "offline_search_queries": 2,
+  "scope": "Metadata and exact snapshot integrity. Full submodule download/Lean proofs were not run here."
+}

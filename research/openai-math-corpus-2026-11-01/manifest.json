@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/openai/math",
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "upstream_license": "Apache-2.0",
+  "user_count_reference": 772,
+  "catalogued_manuscripts": 721,
+  "result_families": 373,
+  "preprint_directories": 751,
+  "uncatalogued_directories": 30,
+  "formalization_source_listed": 175,
+  "families_with_lean_scope": 245,
+  "snapshot_date": "2026-11-01",
+  "verification_note": "Upstream catalogue and formalization links are metadata, not independent proof verification.",
+  "snapshot_sha256": {
+    "CONTENTS.md": "7eb5780d3514642d6788e1369c741045a2f0b1f57ca9c83dbe0ea748f8f7b978",
+    "LICENSE": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+    "formalization.yaml": "5824dbefe5666fffaa9ea9467445b373f03a9d1e9ad71577f3914953019011cd",
+    "history.md": "346c1611bf3a5f5d37b6a5b5cdb63a2efc9dfa216a1989d70c0b23cd3b4ec1cd",
+    "overview.tex": "0721b84f2fab1f87b87a854b324b1e0d18a234b2e11e14e04819c975806ed666",
+    "preprint_inventory.json": "9ff8a4df368fdce7609253a4a3b308bd74e825ab478b821d23fad53915269b96"
+  },
+  "category_counts": {
+    "Algebra": 29,
+    "Algebraic and complex geometry": 86,
+    "Combinatorics": 50,
+    "Convex and metric geometry": 30,
+    "Differential geometry": 49,
+    "Dynamical systems and ergodic theory": 19,
+    "Functional analysis": 19,
+    "Group theory": 22,
+    "Mathematical logic": 8,
+    "Mathematical physics": 59,
+    "Number theory": 58,
+    "Operator algebras": 31,
+    "Partial differential equations": 29,
+    "Probability and statistical mechanics": 105,
+    "Real and complex analysis": 27,
+    "Theoretical computer science": 74,
+    "Topology": 26
+  },
+  "screening_tag_counts": {
+    "diophantine": 56,
+    "determinant_rank": 65,
+    "matroid_optimization": 32,
+    "dynamics": 14,
+    "arithmetic_sum": 28
+  }
+}
