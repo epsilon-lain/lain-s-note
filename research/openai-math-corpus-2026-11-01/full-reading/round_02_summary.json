@@ -1,0 +1,27 @@
+{
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "round": 2,
+  "queue_positions": [
+    19,
+    36
+  ],
+  "new_complete_manuscripts": 18,
+  "total_complete_manuscripts": 36,
+  "remaining_catalogue_manuscripts": 685,
+  "supplementary_directories_pending": 30,
+  "round_source_files": 229,
+  "round_source_lines_read": 91947,
+  "disciplines_in_round": 17,
+  "source_audit": {
+    "status": "passed",
+    "counts": {
+      "source_files": 438,
+      "passed": 438
+    },
+    "failures": [],
+    "scope": "Exact source-byte and line-count audit; no independent theorem verification."
+  },
+  "next_position": 37,
+  "next_title": "Brennan's conjecture and sharp inverse-square integral means",
+  "scope": "All authored mathematical bodies and appendices first-read; not independent theorem validation."
+}

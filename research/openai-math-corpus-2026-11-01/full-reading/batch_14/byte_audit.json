@@ -1,0 +1,263 @@
+[
+  {
+    "position": 30,
+    "path": "README.md",
+    "sha": "a172dc6154226e28fabbf5a036152715131e5c6b",
+    "bytes": 743,
+    "total_lines": 18,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/figures/moving-band.tex",
+    "sha": "14060081949a3621316b7565944c8d2471b6a232",
+    "bytes": 967,
+    "total_lines": 20,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/paper.tex",
+    "sha": "a028b57ab5d6c09c89f3cbc763155a1ffe81bd55",
+    "bytes": 843,
+    "total_lines": 30,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/preamble.tex",
+    "sha": "585f413df0b23ac58da22643876c40d83942d3ad",
+    "bytes": 2458,
+    "total_lines": 70,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/references.bib",
+    "sha": "3f91865d1e1fdb0cbe49f8753b299106631514f0",
+    "bytes": 15951,
+    "total_lines": 356,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/conclusion.tex",
+    "sha": "54b0ee7f1c8ca4aa4024903aac5710a703085348",
+    "bytes": 1101,
+    "total_lines": 32,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/expansion.tex",
+    "sha": "777ff8b63e0fcd1a404fbfb8436816230f3b3257",
+    "bytes": 26409,
+    "total_lines": 622,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/geometry.tex",
+    "sha": "4f951ddd05c9a438f1e32268e8330499cf6a738c",
+    "bytes": 48975,
+    "total_lines": 968,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/introduction.tex",
+    "sha": "5200f8e0e4fdce54a91022504b512420d013a9ef",
+    "bytes": 9550,
+    "total_lines": 176,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/nilpotent.tex",
+    "sha": "402dc4364a5e0612c0a8282921325dfbbc65b970",
+    "bytes": 41397,
+    "total_lines": 992,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/pruning.tex",
+    "sha": "140a85f05149b175ae1115f4b3e7ae2c98b936e1",
+    "bytes": 16685,
+    "total_lines": 364,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/sampling.tex",
+    "sha": "c2e5f8409f2b7db06cdd724de7f89d14921a3fce",
+    "bytes": 48007,
+    "total_lines": 1046,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/scalar.tex",
+    "sha": "70f0463cdf27feee6ff15c10b5c7a317ef17885a",
+    "bytes": 7083,
+    "total_lines": 188,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/setup.tex",
+    "sha": "75722b65a329f33d473a8df43773c76a47d6a4be",
+    "bytes": 6435,
+    "total_lines": 155,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/spectral.tex",
+    "sha": "441a9568eb0d321751bcdbace3a38bd4678951e0",
+    "bytes": 34329,
+    "total_lines": 802,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 30,
+    "path": "build/sections/tower.tex",
+    "sha": "bb9f3803f9d14bc1413d5eca3ebfa3e6c3340b81",
+    "bytes": 19144,
+    "total_lines": 392,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "README.md",
+    "sha": "63fb5f618eec2459d38853ae0cc864f8b5c494cc",
+    "bytes": 635,
+    "total_lines": 18,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/main.tex",
+    "sha": "40418f8c28a4aa9df16ee8bb65a8b281dd88bf15",
+    "bytes": 2076,
+    "total_lines": 61,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/references.bib",
+    "sha": "31b51b8ff4c3cacf4548a182a8289faba3f001df",
+    "bytes": 7960,
+    "total_lines": 226,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/branches.tex",
+    "sha": "77e67d2f07c73fda3a585cb77d79d612e529e2e4",
+    "bytes": 9309,
+    "total_lines": 211,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/evaluation.tex",
+    "sha": "9003b2820167ded2f4d9d5e88c1f610b10b87bb0",
+    "bytes": 6873,
+    "total_lines": 162,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/exact-pairs.tex",
+    "sha": "0690c530fab858e42db8fc22fc9d5e3e860da3f7",
+    "bytes": 19124,
+    "total_lines": 405,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/introduction.tex",
+    "sha": "2e6504cbbdc06113a63b022d01a08e1b1bd61238",
+    "bytes": 9246,
+    "total_lines": 171,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/models.tex",
+    "sha": "3047cad3322c22f6bb71dec4ee11ef78bbf5db3d",
+    "bytes": 9724,
+    "total_lines": 197,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/norming.tex",
+    "sha": "4e24c073b27588309924b7fa9d64f769e28b0afa",
+    "bytes": 19779,
+    "total_lines": 464,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/paths.tex",
+    "sha": "917d9cb9a4371bc39586b2ca04b77f48c182d232",
+    "bytes": 17178,
+    "total_lines": 360,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/positive.tex",
+    "sha": "d08c2b6968a27de70df01cba71a70638bd5f7062",
+    "bytes": 16263,
+    "total_lines": 341,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/predual.tex",
+    "sha": "3ed3966ce8648fe1f40c2da1f22b310f98e5d534",
+    "bytes": 11555,
+    "total_lines": 272,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  },
+  {
+    "position": 32,
+    "path": "build/sections/scalar-fields.tex",
+    "sha": "8517ba487e678f414cf728cae93a2f603bd78eae",
+    "bytes": 6941,
+    "total_lines": 161,
+    "cache_git_blob_sha_verified": true,
+    "normalization": "none"
+  }
+]

@@ -23,7 +23,7 @@ def main():
     index={}
     for root in args.cache_root:
         for path in root.rglob('*'):
-            if path.is_file() and path.suffix in {'.tex','.bib','.md'} and 'fullread_' in str(path):
+            if path.is_file() and path.suffix in {'.tex','.bib','.md'}:
                 data=path.read_bytes();index.setdefault(blob(data),[]).append(data)
     records=json.loads((ROOT/'ledger.json').read_text())
     counts=Counter();failures=[]

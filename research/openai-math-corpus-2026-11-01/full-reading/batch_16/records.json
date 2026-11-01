@@ -1,0 +1,493 @@
+[
+  {
+    "position": 29,
+    "family_id": "260",
+    "title": "A Charged Reduction of the Spacetime Penrose Inequality in Spatial Dimensions at Least Four",
+    "pdf_path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/paper.pdf",
+    "directory_tree_sha": "87861a2d7ddf95d41b9dc8d0b7461093e3c63566",
+    "status": "full_body_read",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "main_source": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/paper.tex",
+    "source_files": [
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/README.md",
+        "sha": "14941d9b61ad7dd8b82f640bed328c8647516500",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/README.md",
+        "source_bytes": 803,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/figures/boundary-recovery.tex",
+        "sha": "955fb98394fa26421057e7bd0edd1021a3f1f05b",
+        "total_lines": 70,
+        "read_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/figures/boundary-recovery.tex",
+        "source_bytes": 3258,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/figures/height-bands.tex",
+        "sha": "a07469a8cd27057976f6b1d172d313ed37582f6b",
+        "total_lines": 68,
+        "read_ranges": [
+          [
+            1,
+            68
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/figures/height-bands.tex",
+        "source_bytes": 3144,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/paper.tex",
+        "sha": "31e44b45ee9f054f60aea7815a0210dfe6f09feb",
+        "total_lines": 42,
+        "read_ranges": [
+          [
+            1,
+            42
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/paper.tex",
+        "source_bytes": 1865,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/preamble.tex",
+        "sha": "758c0c8e272802476fed48398fe701fc7d8d1f5d",
+        "total_lines": 83,
+        "read_ranges": [
+          [
+            1,
+            83
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/preamble.tex",
+        "source_bytes": 3370,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/references.bib",
+        "sha": "3adf1e57508a600cafa43fa5683f5b0cc3aba8e9",
+        "total_lines": 409,
+        "read_ranges": [
+          [
+            1,
+            409
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/references.bib",
+        "source_bytes": 13590,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/00-introduction.tex",
+        "sha": "64bf7c84f53fe61d5891bf5c3b115b0c897fcf46",
+        "total_lines": 23,
+        "read_ranges": [
+          [
+            1,
+            23
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/00-introduction.tex",
+        "source_bytes": 6223,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/01-statements.tex",
+        "sha": "d10cafb1cfd94a9fe6601130542d0321f92e849d",
+        "total_lines": 234,
+        "read_ranges": [
+          [
+            1,
+            234
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/01-statements.tex",
+        "source_bytes": 13795,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+        "sha": "76d248e8ff1e1e001795bf8bf8d2936e09ca1ab5",
+        "total_lines": 986,
+        "read_ranges": [
+          [
+            1,
+            986
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/02-preparation.tex",
+        "source_bytes": 41943,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/03-filled-system.tex",
+        "sha": "c0d3f81b6b9bcfc7f16f6a007d8dc25021ddc89f",
+        "total_lines": 864,
+        "read_ranges": [
+          [
+            1,
+            864
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/03-filled-system.tex",
+        "source_bytes": 34246,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/04-elliptic.tex",
+        "sha": "0def56837a6a6d056dac15b13ab44800eb27973f",
+        "total_lines": 997,
+        "read_ranges": [
+          [
+            1,
+            997
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/04-elliptic.tex",
+        "source_bytes": 42094,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/05-flux-conversion.tex",
+        "sha": "3dcfb4ee603d5b684f94c09be9097ddcdb81b625",
+        "total_lines": 811,
+        "read_ranges": [
+          [
+            1,
+            811
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/05-flux-conversion.tex",
+        "source_bytes": 34408,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/06-original-variation.tex",
+        "sha": "1147a550af48df83c4f84ed64c4aaf697e53ec68",
+        "total_lines": 583,
+        "read_ranges": [
+          [
+            1,
+            583
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/06-original-variation.tex",
+        "source_bytes": 27528,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+        "sha": "df61fddd4c024a284aa6ebfe472fd3951aa0626d",
+        "total_lines": 1344,
+        "read_ranges": [
+          [
+            1,
+            1344
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/07-singular-multipliers.tex",
+        "source_bytes": 61336,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/08-stationary-rigidity.tex",
+        "sha": "6b8cd0a77e418773d866b77cd5a5a469693fee70",
+        "total_lines": 997,
+        "read_ranges": [
+          [
+            1,
+            997
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/08-stationary-rigidity.tex",
+        "source_bytes": 39389,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/09-vacuum-uniqueness.tex",
+        "sha": "d730b0bfcf8e46000951f0493f47dfa8cf8d8e5e",
+        "total_lines": 666,
+        "read_ranges": [
+          [
+            1,
+            666
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/09-vacuum-uniqueness.tex",
+        "source_bytes": 29603,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/10-recovery-sharpness.tex",
+        "sha": "616dcaa90e00e7be137bce29a7d84c18ede8b4f7",
+        "total_lines": 424,
+        "read_ranges": [
+          [
+            1,
+            424
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/scratch/source_context/round02_group3/29/build/sections/10-recovery-sharpness.tex",
+        "source_bytes": 18181,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README; root paper.tex and preamble",
+      "Introduction and precise data, full-cut conventions, exact neutral premise, statements",
+      "02 preparation complete: positive area, conformal strictification, compact moment inverses, end gluing/bending/rest, area comparison and endpoint argument",
+      "03 filled scalar system complete: implicit t/Z/f system, exact curvature identity, coercivity, floor exclusion, graph Sobolev and high-level Moser estimates",
+      "04 elliptic construction complete: rank-one gradient estimate including reflected boundary flux correction, coupled regularity, continuation, mass cost, height barriers, charged region",
+      "05 flux conversion complete: smooth optimal profiles, bounded-flux solve, conformal mass decrement, arctan pure-trace late plateau, regular cut, exact neutral-premise checks and parameter optimization; height-bands figure",
+      "06 original-data variational identity complete: full area-envelope derivative, strict active-ray separation, measure multipliers, normal-motion trace tests, distributional KID and Hessian PSD source regularity",
+      "07 singular multipliers complete: full leaf pushforward measure; atomic jump implies totally geodesic; common three-Jacobi field; exact PSD trace reversal after mollification; weak focusing; zero capacity/cone subsolution/reciprocal Jacobi blowup; BV diffuse-zero exclusion; countable uniform curvature/removable singularities; outermost exclusion; stationary Einstein-Maxwell fields/global potential/boundary laws",
+      "08 electric transport and complete vacuum base complete: boundary alignment, volume-preserving flow boundary-hit argument, Killing identities, logarithmic zero-set energy and twist cutoffs, global charged polynomial, regular base attachment, explicit charged-to-vacuum transform, zero-charge Ricci-flat circle completion/splitting contradiction",
+      "09 vacuum doubling complete: harmonic coordinates from O2 tail, missing metric monopole, compact-source W2,s inverse and conformal correction/mass identity, nonnegative mass from already completed numerical theorem, two-sided zero-mass variation, Sobolev/harmonic-coordinate removability, compactified double and round seam",
+      "10 original-data recovery and sharpness complete: global primitive only after uniqueness, signed electric flux/radial integration, original spacelike graph and future normal, ingoing/Kruskal boundary extensions, proper embedding, static and compact radial nonstatic purely electric examples; complete boundary-recovery figure",
+      "All 409 bibliography lines read; no separate appendix environment or additional repository body input occurs in paper.tex/preamble/sections/figure closure"
+    ],
+    "claim_as_stated": "稿件以精确展示的中性伴随定理为前提：该输入只适用于强衰减、未来俘获边界、正full-cut包围面积和未来类时ADM向量。对每个n≥4、单端定向完整光滑纯电外部初值(g,K,E)，在q>(n−2)/2的O2/O1衰减、约束能动量可积、有限ADM/电荷通量、charged DEC、div_g E=0，以及各边界分量可独立选择未来/过去俘获号条件下，稿件主张0<a≤Area(S)与ADM能量严格大于|P|，并令m=(E_ADM²−|P|²)^(1/2), X_A=(a/ω)^((n−2)/(n−1))后得m≥|Q|及X_A≤m+sqrt(m²−Q²)。多分量允许带异号分量电通量；多项式m≥(X_A+Q²/X_A)/2仅在X_A>|Q|外支声称。若边界连通、未来边际、对所有full cuts外面积最小、没有内部光滑完整包围的弱未来俘获面，且m>|Q|并在外支等号，则全部原始g,K,E连同边界整体嵌入质量m、带符号电荷Q的Reissner–Nordström–Tangherlini外部和正规未来视界延拓，原始物质密度为零；嵌入切片的诱导磁二形式为零。边界为逐条视界生成线恰交一次的完整截面或分岔球。静态及紧支撑径向时间扰动的K非零纯电切片提供sharp例。此处记录作者所述结论，不据源码首读认证成立。",
+    "proof_architecture": [
+      "先以从一个边界disk通到唯一坐标端的固定宽度管构造闭(n−1)-form，所有full cuts积分皆为1且comass有界，得到不依赖约束或极小面存在性的a>0。保留α=i_E dV_g，故每一full cut的带符号总通量固定。正共形end increase只加能量不加动量、不减面积；先建立未来类时情形，随后令增加后的不变量质量趋零以排除原来的非类时端点。",
+      "通过decaying nonlinear Neumann严格方向同时严格化charged DEC与各自俘获号；用紧支撑Bogovskii对称原函数消掉gluing cutoff线性误差，模掉affine/Killing矩。匹配中性Schwarzschild–Tangherlini boosted vacuum plane的ADM向量，积性小误差与可积源使矩为o(L^(2−n))；在真空模型上缓慢弯到静态切片，再以U≥1的共形因子支付电场/annular亏损。径向压缩diffeomorphism比较所有full-cut infima，避免选取极小面；准备后的动量为零、能量趋原始m。",
+      "不在填充内部要求能量条件。长product collars长度O(N)按原边界号取K=−ε_a L0 g，α仅向内固定collar延拓且允许源。隐式Z=t+(2k)^−1 log(1+l(t)²|∇f|²)，联立F=ηf、divV=uΞ。精确curvature identity分离非负二次余项T；完成平方给polynomial-in-N coercivity及N无损的梯度项。以floor penalty排除t=−ε，graph Sobolev/Moser和固定指数seed得到Z≤P_N及|f|+|∇f|≤exp(P_N)。",
+      "rank-one trace operator的轴是∇f，另一系数χ仅measurable时仍证明Cα梯度与Hessian Morrey增长：Cordes扰动、反射边界后的精确normal flux correction、gradient drop或affine entry；只freeze轴，轴向导数满足divergence equation而不经典微分χ。第二方程以指数变换控制natural quadratic gradient growth，再Schauder/bootstrap。trial trace唯一解和Leray–Schauder moving-domain degree、floor exclusion/exhaustion得光滑解；f指数衰减，t,Z有all-order r^(2−n)尾。",
+      "penalty band的负质量只为P_N(ell+ell²/η)=P_N(ell+ell^(1/2))→0，η=ell^(3/2)。height barriers将原边界与低height exterior分离，在该原始无源区域g_b≥g且R_gb/2≥c_n²|α|²，保留正matter余量与T梯度项。第二bounded-divergence-flux方程kΔB0(y)=div(H0(y)E_b)在整个填充上解，lower floor y0=log(1−s²)/(k−1)与bounded profiles给γ=e^(2y)g_b的非负标量曲率、面积保留e^(ky0)、精确能量减H0(0)|Q|/k。profile smoothing极限H0(0)→ks。",
+      "用H=tan((arctan M)χ_h)使|H′|/(1+H²)不依赖任意有限plateau M，先固定N、两次scalar solves和regular height cut，再选M使所有新边界严格未来俘获；pure trace tensor以保留曲率支付DEC。逐项检查exact neutral input，包括若辅助能量≤0则另以end increase产生任意小正能量、与固定正面积矛盾。按N→∞、ε↓0、profile tolerance↓0得到E_*≥s|Q|+(1−s²)X_*/2，再prepare limit及优化s，外支和内支分别处理。",
+      "等号从原始数据变分。filled finite-perimeter envelope等于full smooth-cut infimum，a′_+=min_F a′_F；active-ray约束除以正decay weight、用strict direction使one-point compactification可分离。Hahn–Banach/Riesz给π、约束与边界measure，不要求constraint-map满射。normal-motion jets推出π所选自由sheet的H=tr_tan K=0。moment给sym∇X=−uK、Hess u=B+正normal-normal sheet measure；parametrix和semiconvexity给u局部Lipschitz、X为C1,1。",
+      "高维singular frontier不被略去。middle-box全leaf pushforward保留inner box每一source；atomic normal derivative jump与tangential averaging逼A=0。nonatom support给全连通regular component共同正Jacobi场，兼解minimal/future/past三个算子。真实metric adjoint的PSD Hessian source先mollify后以g(x)trace reverse，保持exact positivity而不引入无界measure commutator，获得weak null focusing。capacity-zero cutoffs、nonflat cone上的bounded Δz≥|A|²z消失、reciprocal Jacobi decay使Q±/φ在regular点取得最大，给|A|≤|K|。1D BV level locality独立剔除u=0叶上的diffuse质量；countable incidence cover固定例外集，uniform curvature使singularities可移，outermost条件排除所有内部sheet，故π=δ_S。",
+      "无interior multiplier后closed first-jet system使u,X光滑并延至S，end prototypes把常数规范到ADM rest vector；u≥|X|和first-jet唯一性排除内部u=0。所有紧支撑closed电flux-form变分（含非exact cohomology测试）以de Rham duality给全局dp=(k−1)uE♭，不预设simple connectivity；独立closed magnetic 2-form变分给d(i_Xα)=0及Maxwell equations。boundary law X=uν、∂νu+K(X,ν)=κ>0和cH=2L+*u给边界lapse二分、W=u²−|X|²在deleted collar正及end趋1。",
+      "boundary null focusing给p在S常数及X∧E=0；divergence-free E-flow的tube volume=dt×transverse flux使compact trapped trajectories几乎处处有限时间撞边界，再transport alignment到全局。Killing current在未知W=0处用log-energy和transverse cutoff控制而得twist为零，不预设zero-set规则。Q≠0时global smooth divergence current证明W=(1−p/p_b)(1−p_b p), 0<|p_b|<1，排除内部W零；显式λ0=λ/(1−p_b p),h0=(1−p_b p)^(2/(k−1))h_s化到vacuum。Q=0时先得E=0，再以完整Ricci-flat circle bolt extension、两端产生line的splitting与R^n volume growth矛盾排除zero frontier。",
+      "vacuum uniqueness只用原O2尾：建harmonic end coordinates并升级方程，gcheck的r^(2−n)monopole由harmonic gauge消掉。conformal doubling有zero-mass retained end、另一端compactifies到W2,s点(s>n/2)。固定compact-source Laplace inverse和Neumann correction精确控制smoothing/variation后的mass；已完成numerical theorem经Green pole小黑洞推出smooth scalar-flat nonnegative mass。对两种符号compact metric variations先各自smooth-limit再微分得到Ric=0；harmonic coordinate Sobolev bootstrap移去粗点，Bishop–Gromov equality得整double为Euclidean。seam全为round sphere，exterior harmonic Dirichlet problem给Schwarzschild base。",
+      "只在global round uniqueness后推出base simply connected并取A_s=dΦ，原slice为T=−Φ；signed Maxwell flux与radial scalar ODE恢复RNT(m,Q)，而非替换原slice。正boundary lapse时logΦ与tortoise log相消使ingoing v光滑，得到完整future horizon section；zero lapse时Φ光滑并用Kruskal得到bifurcation sphere。proper injective immersion给全球embedding并恢复future normal、K、signed normalized E和零induced magnetic 2-form。最后直接检验static和紧支撑radial-time非static例的all hypotheses、calibrated full-area与正round expansions。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "先固定一个对整个可行对象守恒的有界证人，再进行所有变形和取infimum。",
+        "precise_hypotheses": "原空间定向、完整、一个坐标端且紧补集，边界非空；full cut计整个intrinsic boundary及所有接触部分。一个固定宽度tube从边界disk通到end，支撑在横截面内部的非负unit-integral density生成closed (n−1)-form β且comass有界。α=i_E dV_g在原exterior闭；比较变形固定α。",
+        "mechanism": "Stokes使每个full cut满足∫Γβ=1，故AreaΓ≥1/||β||∞；另有∫Γα=ωQ。由二次型metric comparison即可同时比较所有候选面积并取infimum，无需选择或正则化某个极小面。",
+        "possible_bridge": "对π项目可尝试构造对每个共同basis/row transversal都相同的离散守恒量或校准线性functional，将非零证人与列cost施加于同一完整选择对象；full-cut约定提醒不能删去边界/接触式的必要选项后宣称约束已满足。",
+        "missing_step": "需实际建立候选family上的同一整数/有理functional及统一dual norm；此几何flux不是Q(Z)行rank或determinant，面积正性也不推出任何低height nonzero minor。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+            "line": 25,
+            "label": "prep:positive-area"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+            "line": 857,
+            "label": "global area metric comparison"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/10-recovery-sharpness.tex",
+            "line": 370,
+            "label": "calibrating angular projection"
+          }
+        ]
+      },
+      {
+        "idea": "把局部修复拆成可紧支撑求逆的部分与有限维obstruction moments，先精确匹配守恒通量再处理小余项。",
+        "precise_hypotheses": "固定annulus的nested support regions；scalar source零constant/affine moments，vector source零translation/rotation moments；Bogovskii compact divergence inverse可两次放大support并gain Sobolev derivative。end有q>(n−2)/2的O2 metric/O1 K及可积physical sources，model matching同一ADM向量。",
+        "mechanism": "scalar两次divergence primitive再symmetrize解double divergence；vector原primitive的antisymmetric mean由rotation moments消失，再构造divergence-free correction令其symmetric。固定Gram-dual bump投影有限obstruction；integrability只需∫_{r<4L}r|F|=o(L)，无需center-of-mass/angular momentum limit，使rescaled moments=o(L^(2−n))。",
+        "possible_bridge": "可在integer/rational matrix construction先找局部exchange/repair operator的cokernel，将row-sum/column-load等不可动方向显式投影成有限moments；在同一basis witness上先匹配这些moments，再修cost residual。跨域亦可用于divergence constraints和network flow守恒修补。",
+        "missing_step": "smooth real compact inverses不保整性或分母高度；当前Q(Z)还需证明离散repair像空间、代价范数与不破坏rank的条件。o(L^(2−n))渐近也不能替代明确有限N且整数det非零的定量证书。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+            "line": 240,
+            "label": "prep:compact-inverses"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+            "line": 343,
+            "label": "fixed Gram-dual moment projections"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/02-preparation.tex",
+            "line": 699,
+            "label": "cutoff moments and integrable-source argument"
+          }
+        ]
+      },
+      {
+        "idea": "用有界角变量参数化任意大late target，使导数相对二次预算的比值统一有界。",
+        "precise_hypotheses": "positive curvature margin c*>0及保留t/y gradient squares只在fixed height band可用；height gradient η/l≤ell^(1/2)→0；pure trace tensor−aγ的energy有nk a²/2而momentum为k da；k≥3给strict quadratic slack d_k≥3。固定smooth band cutoffχ_h。",
+        "mechanism": "取H=tan((arctan M)χ_h)，则任意有限M≥0都有|H′|/(1+H²)≤(π/2)||χ_h′||∞。N只需让small height gradient支付该统一比值；之后已解scalar system、选regular cut、看到其finite mean curvature，才选M足够大。没有反向依赖或重复消耗gradient square。",
+        "possible_bridge": "这是适用于其他非线性budget构造的具体技巧：若local transition cost是ε|target′|、可用budget为a+b target²，先转为arctan target完成fixed-scale选择，允许最终目标在后阶段任意增大。π项目可探索对column load的quadratic occupancy budget建立类似饱和参数，分离cost控制与稍后避零需求。",
+        "missing_step": "大M依赖连续smooth profile，未给离散rounding或integer height控制；当前列cost若随M同步放大，未必存在独立正slack。必须先证明同一transversal上预算确为a+bH²且无double spending。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/05-flux-conversion.tex",
+            "line": 541,
+            "label": "flux:trace-tensor"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/05-flux-conversion.tex",
+            "line": 585,
+            "label": "dimension slack and gradient budget"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/05-flux-conversion.tex",
+            "line": 615,
+            "label": "arctan ramp uniformity"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/05-flux-conversion.tex",
+            "line": 651,
+            "label": "late plateau after regular cut"
+          }
+        ]
+      },
+      {
+        "idea": "对singular PSD defect先平滑其未变换形式，再做随点的正性保持代数运算。",
+        "precise_hypotheses": "u Lipschitz、X C1,1、u≥a>0的compact patch；Hess u=B(u,X,∇X)+M，M为positive-semidefinite tensor measure，真实metric-adjoint lower B无du项；fixed smooth g，positive mollifier。first KID residual的smooth-coefficient commutator在C1为O(ε)。",
+        "mechanism": "先在Lebesgue-density coordinates convolve M得Mε(x)≥0，再以当前g(x)计算Pε=(tr_g(x)Mε)g(x)−Mε≥0。即使||Mε||发散仍是exact PSD；避免先trace reverse再mollify产生variable metric×unbounded measure的commutator。其余C1 KID residual控制non-Hessian terms，得到one-sided null curvature/focusing。",
+        "possible_bridge": "对Gram/projector或occupancy convex relaxation若出现measure-valued PSD defects，可以尝试沿这一路径保存正性，而把可估计commutators只放在bounded coefficients。也适用于matrix-valued weak-limit constraints或distributional stress estimates。",
+        "missing_step": "需先构造保留same determinant/common-basis约束的PSD表示；Q(Z)一般矩阵本身无此正性。可积weak-limit defect与整数nonzero determinant之间没有现成接口，且source对真实adjoint的特殊结构不可抽象成任意B。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 329,
+            "label": "explicit lower Hessian has no du"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 357,
+            "label": "mollifier residual"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 394,
+            "label": "mollify un-trace-reversed PSD source"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 417,
+            "label": "one-sided null Ricci"
+          }
+        ]
+      },
+      {
+        "idea": "把atomic、nonatomic和zero-state defects分别处理，利用injective fiber evaluation防止投影制造隐藏atoms。",
+        "precise_hypotheses": "compact minimizing family的noncrossing smooth graph patches；每个graph leaf在任一base y的height evaluation injective。u≥0 Lipschitz、line derivative BV，∂t²u=b dy dt+dy∫w(leaf,y)δ_fleaf(y)dλ，w有uniform positive lower bound；b在{u=0}a.e.消失。",
+        "mechanism": "middle box纳入每个能贡献inner box的frontier，pushforward到完整可分C∞ graph space。atoms给normal derivative jump再tangential average逼A=0；nonatomic部分在injective evaluation后仍atomless。BV diffuse derivative不charge precise derivative level0，而u的zero set在非jump点强制该precise level0；Tonelli与每个相交leaf的strictly positive mass（不需uniform margin）消去zero-lapse nonatomic mass。",
+        "possible_bridge": "对共同basis/occupancy随机化方案，若极限witness分布有退化支持，可先区分真实atoms与diffuse部分，并证明投影到列load/选择坐标不会合并不同witness造成假atoms。更远可用于lamination/source disintegration、obstacle variational multipliers和零态mass排除。",
+        "missing_step": "injective leaf evaluation来自强不交叉regularity，任意transversal→column histogram通常多对一，故不能原样移用；BV level locality需要一维primitive及positive density disintegration，当前整数矩阵family尚无这种结构。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 53,
+            "label": "complete local leaf measure"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 117,
+            "label": "atomic jump identity"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 764,
+            "label": "var:diffuse-zero-mass"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/07-singular-multipliers.tex",
+            "line": 801,
+            "label": "BV precise-level locality and injective nonatom pushforward"
+          }
+        ]
+      },
+      {
+        "idea": "用守恒flow的有限体积排除大多数永不触边的轨迹，再以连续性将almost-everywhere boundary information推广。",
+        "precise_hypotheses": "E smooth且div E=0，global potential dp=(k−1)uE♭，u>0；p在唯一end趋0，boundary p为一个常数。regular level patch p=p0≠0，沿sgn(p0)E的p严格单调，轨迹全在fixed compact finite-volume region。transport law L_E(X∧E)=0且alignment已在boundary成立。",
+        "mechanism": "flow tube map因strict potential monotonicity而injective，volume exactly dt×transverse flux。∫patch T(y)dflux≤Vol(compact)<∞，故flux-a.e. trajectory在有限时间hits boundary；smooth ODE uniqueness排除有限时间停在interior或E零点。transport回regular patch，再由positive smooth flux density和continuity扩大全patch及p=0极限。",
+        "possible_bridge": "可在有限状态或continuous candidate dynamics设计strictly monotone potential、守恒stationary measure与有限总资源，推出positive-measure trajectories必须触达good boundary，继而传播结构。若用于common-basis exchange dynamics，可寻找守恒权重加严格cost potential来排除永久bad trajectories。",
+        "missing_step": "finite discrete exchange flow可能有cycles/absorbing bad states，且非均匀stationary weights不等于volume preservation；仍需construct exact transport identity、bounded residence resource和同一candidate的nonzero determinant保持。该结论不直接给effective hitting-time upper bound对每条轨迹。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/08-stationary-rigidity.tex",
+            "line": 124,
+            "label": "electric transport identity"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/08-stationary-rigidity.tex",
+            "line": 138,
+            "label": "flow-time/finite-volume argument"
+          }
+        ]
+      },
+      {
+        "idea": "把global equality information留在原对象上；辅助近似只证明numerical inequality，最后用两侧可修复variation读出刚性。",
+        "precise_hypotheses": "nonextremal outer branch给strict positive area coefficient c；enclosing-area envelope的minimizer family compact且right derivative为min；严格可行方向覆盖active constraints及compactified infinity。后期rough scalar-flat zero-mass metric有固定compact-source inverse、W2,s(s>n/2)小扰动conformal correction和连续mass formula。",
+        "mechanism": "先对原data做正measure separation而不要求constraint-map surjectivity，再分析真实Hessian defect。对rough zero-mass metric，固定reference inverse和support K，对每个正负t先smooth/correct并取mass limit得到E_t≥0；只有之后在t=0微分，任意compact tensor H给∫Ric:H=0。不把辅助metrics的near equality当作原data equality。",
+        "possible_bridge": "π项目若rank与smallness通过不同relaxations得出，需让共同整数determinant witness始终承载最终论证。可将连续近似用于证明成本bound，但若要rigidity/避零，回到原candidate space的两侧variation或精确algebraic certificate；固定inverse/support的做法有助于保持同一常数与同一目标。",
+        "missing_step": "该文依赖PDE compactness、strict direction及nonextremal c>0；integer feasible set无任意两侧smooth variation，determinant非零是open/algebraic而非Ricci型Euler方程。须另建允许的离散exchange与完整same-witness预算。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/06-original-variation.tex",
+            "line": 4,
+            "label": "equality variation on original data"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/06-original-variation.tex",
+            "line": 284,
+            "label": "measure separation without surjectivity"
+          },
+          {
+            "path": "preprints/A-Charged-Reduction-of-the-Spacetime-Penrose-Inequality-in-Spatial-Dimensions-at-Least-Four-October-5-2026/build/sections/09-vacuum-uniqueness.tex",
+            "line": 428,
+            "label": "same reference inverse; fixed-t smoothing then two-sided derivative"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "最关键的外部前提是Theorem neutral-input（01 lines111–141）；本篇不独立重证neutral spacetime Penrose theorem，三维charged伴随稿仅为methodological precedent，不是本篇输入。完整读本篇不等于已读这些伴随稿或其外部论证。",
+      "numerical theorem仅n≥4、单端、compact remaining topology、指定O2/O1弱衰减与integrability/finite flux、纯电divE=0、charged DEC、非空光滑mixed-sign trapped boundary。临时compact magnetic extension只对strict future-timelike、strict trapping和strict margin类成立，无magnetic endpoint或equality theorem。",
+      "包围面积为所有full enclosing cuts的infimum，每个分量及与边界coincident部分均计；不能替换成relative frontier、删去component、预设存在smooth minimizer。高维singular frontiers的消除只属于等号分析，非初始smoothness假设。",
+      "charged polynomial mass rearrangement仅X_A>|Q|；若0<X_A≤|Q|，所述结论是m≥|Q|，不能自动声称整支polynomial bound。",
+      "rigidity另要求connected future marginal outer-area-minimizing horizon、无内部smooth full weakly future trapped enclosing surface、m>|Q|和outer-branch equality；不分类extremal或disconnected equality，不断言S背后。generic boosted charged slice可能有induced magnetic two-form，故不属于所分类纯电slice；例子用compact radial time perturbations。",
+      "多重参数取序及polynomial/exponential constants不可混用：fixed-N elliptic constants任意大不进入N→∞ mass estimate；late plateau在两scalar solves和regular cut之后取；s endpoints不需uniform profile estimate；rough-mass variation先对每个fixed t smoothing-limit再微分。",
+      "所有construction ideas为带前提的迁移候选。几何flux、real-analytic/PDE inverse、positive measure和continuous variation都未自动保整数、分母高度、Q(Z)row rank、common basis或同一个determinant的非零与smallness；未据本篇得到π的BA/nonBA结论。",
+      "本任务仅完整源码首读和字节/范围audit；未独立逐步核验证明、未浏览或核验bibliography文献、未编译并逐页对照PDF、未运行任何数值/形式化验证。"
+    ],
+    "scope_note": "完整首读固定提交openai/math@4eaee87548250b2682affda7d05d947c05554bae中queue29的README、root实际主文件build/paper.tex、preamble、00–10全部11个正文节（无独立附录）、两个正文input的TikZ图全部源码及caption、409行references.bib，共17个文本文件8,619行374,776字节。每个源缓存均重新计算Git blob SHA、byte length和line count并与round02_group3/manifest.json核对；目录身份与queue及pinned preprint_inventory一致。paper.tex递归repository正文输入全部映射并逐行读完；preamble的glyphtounicode是TeX发行版字形辅助输入，不是仓库数学正文。没有从缓存存在或SHA通过推断已读，完整区间在相应untruncated阅读调用后才登记；scope不含被引用外部论文的正文。full_body_read只表示此源码闭包首读，不认证条件neutral输入或本文所有主张正确。"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "position": 22,
+    "source_blobs": 15,
+    "read_lines": 2946,
+    "all_blob_shas_verified": true,
+    "all_lines_covered": true,
+    "unresolved_includes": [],
+    "source_closure_complete": true
+  },
+  {
+    "position": 31,
+    "source_blobs": 13,
+    "read_lines": 4446,
+    "all_blob_shas_verified": true,
+    "all_lines_covered": true,
+    "unresolved_includes": [],
+    "source_closure_complete": true
+  }
+]

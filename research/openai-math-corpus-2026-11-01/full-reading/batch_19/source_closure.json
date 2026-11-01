@@ -1,0 +1,91 @@
+{
+  "position": 27,
+  "main_source": "preprints/Eventual-Categoricity-for-Abstract-Elementary-Classes-September-24-2026/build/main.tex",
+  "source_mapping_complete": true,
+  "source_closure_complete": true,
+  "unread_files": [],
+  "source_include_edges": [
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/01-introduction.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/02-reduction-orders.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/03-reversal.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/04-diagrams.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/05-working-schemes.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/06-calculus.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/07-isolation.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/08-marked-increments.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/09-marked-boundaries.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/10-geometry.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/11-geometric-systems.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/12-geometric-boundaries.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/13-uniform-closure.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "input",
+      "to": "build/sections/14-cardinal-transfer.tex"
+    },
+    {
+      "from": "build/sections/01-introduction.tex",
+      "kind": "input",
+      "to": "build/figures/proof-route.tex"
+    },
+    {
+      "from": "build/main.tex",
+      "kind": "bibliography",
+      "to": "build/references.bib"
+    }
+  ],
+  "bibliography_style_formatting_dependency": "alpha-linked; not a body input; absent from directory tree",
+  "appendix_inputs": []
+}

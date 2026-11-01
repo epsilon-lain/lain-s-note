@@ -1,0 +1,653 @@
+[
+  {
+    "position": 35,
+    "family_id": "002",
+    "title": "The Selmer converse for elliptic curves at every prime",
+    "pdf_path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/main.pdf",
+    "directory_tree_sha": "963c61e950f08f4f55576651f7995711596635b8",
+    "status": "full_body_read",
+    "main_source": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/README.md",
+        "sha": "24cd43c4e157a19abc0fe0f3bb726e232ba08bdf",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/README.md",
+        "source_bytes": 823,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/figures/proof-roadmap.tex",
+        "sha": "c94e666064af6f5d5ee6774b40a9f8e6d964f258",
+        "total_lines": 36,
+        "read_ranges": [
+          [
+            1,
+            36
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            36
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/figures/proof-roadmap.tex",
+        "source_bytes": 1367,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/main.tex",
+        "sha": "e4e93d8d7c3f37597dbf4a07e6191fec354ee7e0",
+        "total_lines": 33,
+        "read_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            33
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/main.tex",
+        "source_bytes": 1272,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/preamble.tex",
+        "sha": "925770f98abadbf7e47b6469132c69ca13163313",
+        "total_lines": 82,
+        "read_ranges": [
+          [
+            1,
+            82
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            82
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/preamble.tex",
+        "source_bytes": 3018,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/references.bib",
+        "sha": "9c22b522fae2c7da602ed7c0b6285ff65c6a4f99",
+        "total_lines": 1070,
+        "read_ranges": [
+          [
+            1,
+            1070
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            270
+          ],
+          [
+            271,
+            540
+          ],
+          [
+            541,
+            810
+          ],
+          [
+            811,
+            1070
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/references.bib",
+        "source_bytes": 39342,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/01-introduction.tex",
+        "sha": "553f4809afa0d22a18a5e1943281717a27fac579",
+        "total_lines": 269,
+        "read_ranges": [
+          [
+            1,
+            269
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            269
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/01-introduction.tex",
+        "source_bytes": 13616,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/02-reduction.tex",
+        "sha": "97cd246b01da88c5dd7dff3157f3cfa6de55eb3c",
+        "total_lines": 257,
+        "read_ranges": [
+          [
+            1,
+            257
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            257
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/02-reduction.tex",
+        "source_bytes": 11190,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+        "sha": "3a470bea011ef58bb809dcf05c2772a75bb9f482",
+        "total_lines": 868,
+        "read_ranges": [
+          [
+            1,
+            868
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            225
+          ],
+          [
+            226,
+            455
+          ],
+          [
+            456,
+            680
+          ],
+          [
+            681,
+            868
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/03-tame-deformation.tex",
+        "source_bytes": 40549,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/04-theta-construction.tex",
+        "sha": "10275cc56c67e2962b8d4ff1c1afde750ed9fa0f",
+        "total_lines": 687,
+        "read_ranges": [
+          [
+            1,
+            687
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            230
+          ],
+          [
+            231,
+            460
+          ],
+          [
+            461,
+            687
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/04-theta-construction.tex",
+        "source_bytes": 36982,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/05-constant-terms.tex",
+        "sha": "981dd32f50a8de88c5a00a9a89e220bc52dc5c28",
+        "total_lines": 722,
+        "read_ranges": [
+          [
+            1,
+            722
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            240
+          ],
+          [
+            241,
+            480
+          ],
+          [
+            481,
+            722
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/05-constant-terms.tex",
+        "source_bytes": 36866,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/06-nonconstant-coefficient.tex",
+        "sha": "d1a65fb32e37bacf2d830ec9649040f073a73df1",
+        "total_lines": 553,
+        "read_ranges": [
+          [
+            1,
+            553
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            200
+          ],
+          [
+            201,
+            400
+          ],
+          [
+            401,
+            553
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/06-nonconstant-coefficient.tex",
+        "source_bytes": 29869,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/07-cusp-lifting.tex",
+        "sha": "a59eb973dc61f41d95a40946cfd604f18a78bf24",
+        "total_lines": 634,
+        "read_ranges": [
+          [
+            1,
+            634
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            220
+          ],
+          [
+            221,
+            435
+          ],
+          [
+            436,
+            634
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/07-cusp-lifting.tex",
+        "source_bytes": 30577,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/08-galois-parameters.tex",
+        "sha": "3cc282bebd4c4ab10a4ad9c0568db4ea0f092a87",
+        "total_lines": 717,
+        "read_ranges": [
+          [
+            1,
+            717
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            240
+          ],
+          [
+            241,
+            480
+          ],
+          [
+            481,
+            717
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/08-galois-parameters.tex",
+        "source_bytes": 32691,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+        "sha": "14ef9dd6fe63bc07b6b5bade596ba6528c607dd2",
+        "total_lines": 609,
+        "read_ranges": [
+          [
+            1,
+            609
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            210
+          ],
+          [
+            211,
+            420
+          ],
+          [
+            421,
+            609
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/09-extension-extraction.tex",
+        "source_bytes": 29509,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-nonstandard-transfer.tex",
+        "sha": "eb2792056b6ea6dfbe8501f64beac23f358ecce7",
+        "total_lines": 484,
+        "read_ranges": [
+          [
+            1,
+            484
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            245
+          ],
+          [
+            246,
+            484
+          ]
+        ],
+        "role": "appendix",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/10-nonstandard-transfer.tex",
+        "source_bytes": 22053,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-sylvester-cube-sums.tex",
+        "sha": "dda04adaf165cd489194ab199310dee699f3fe68",
+        "total_lines": 118,
+        "read_ranges": [
+          [
+            1,
+            118
+          ]
+        ],
+        "reading_chunk_ranges": [
+          [
+            1,
+            118
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/10-sylvester-cube-sums.tex",
+        "source_bytes": 4537,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README版本说明、actual main、全部preamble；introduction的精确主张、历史与证明roadmap图的节点/箭头/图注。",
+      "Arithmetic reduction：full p-power Selmer与compact rational Selmer；2-converse和analytic twist density外部输入；D,D′/K,F,L选择、root signs、两条Selmer line和Heegner reduction；全部character、valuation和measure约定。",
+      "Tame deformation：base Greenberg空间、controlled tame primes、每个序列上的admissible bounded cochains、specialization与t-division、cup-primitive修正、Heisenberg commutator obstruction、exact Artin length≤2、uniform local logarithm、weighted Heegner traces的1或3阶消失。",
+      "Holomorphic theta family：Hermitian/skew-Hermitian spaces、Fock权(m,m,1;−1)、literal monomial-dual/divided-power integral lattice、split p/q pivot tests、两个U算子、uniform unary moments的完整Igusa square/saturation证明和mixed Fourier–Jacobi integrality。",
+      "Constant terms：binary scalar multiplicity、raw toric periods、inverse Katz primitive与任意reduction的abelian log比较；Rallis/Waldspurger bilinear square比较、matrix/toric functional equations、p-factor与q原始Gauss/Euler因子的清分母、archimedean factorial cancellation、全cusp projected test控制、fixed Artin inverse与square-root coefficient induction。",
+      "Positive Fourier–Jacobi coefficient：norm-one orbit unfolding、两个unary characters分别的root sign、外部characteristic-zero simultaneous nonvanishing、compatible degree discs、moving unit-cut Euler factors避零；fixed-place spanning、bounded-denominator replacements和final binary Hecke controls。",
+      "Cusp lifting：actual J-level的canonical ordinary branch、finite étale boundary covers、positive coefficient base change、same dual-Fock functor、Hasse延拓与升权、Serre–Tate root trace normalization、augmentation content cancellation及full Artin Hecke-order factorization。",
+      "Characteristic-zero parameters：Labesse单一simultaneous transfer、逐real-factor holomorphic discrete-series sign、Arthur-block convention、parity-corrected algebraicity、RACSD Galois input、实际direct-sum表示、two Hodge–Newton contacts、binary separation resultants与actual inertia、Steinberg rank控制、uniform nilpotent annihilation。",
+      "Extension extraction：uniform module generators、ultraproduct/localization/henselization、faithful reduced ambient matrix algebra、2+1+1 corners、finite-value admissibility、corner determinant identities、cyclotomic corner elimination、no stable y-line的weight-sum contradiction、Fitting zero与full-Artin Greenberg lower bound≥b。",
+      "Sylvester application：paired 3-isogeny descents保留Sha terms从而得到full Selmer corank≤1，root sign选择rank one与rational cube sum。",
+      "Appendix全484行：isogenous global tori的normalized centralizer factor与degree lattice correction、coroot covolumes、common definable matching base、compatible differential-form measures、discriminant removal、finite stable recursion及change-of-characteristic transfer。全部1070行bibliography，含各引用版本/locator。"
+    ],
+    "claim_as_stated": "对任意椭圆曲线A₀/ℚ、任意素数p及r∈{0,1}，若带全部局部Kummer条件的full p-power Selmer群的ℤp-corank为r，则ord_{s=1}L(A₀,s)=rankℤA₀(ℚ)=r，且整个Tate–Shafarevich群有限；不限制reduction、CM、残余表示、rational torsion或isogeny。应用：每个素数ℓ≡4,7,8 mod 9的X³+Y³=ℓZ³都有analytic/Mordell–Weil rank one、有限Sha，因而ℓ是两个有理立方之和。主张不包括refined BSD leading coefficient。",
+    "proof_architecture": [
+      "稿件将p=2交给同collection的外部2-converse；奇p以外部analytic twist-density的zero-density exceptional set在positive-density congruence classes中选D,D′。K imaginary、F real、L biquadratic CM且L/F所有finite places unramified、p全split、无额外根单位并排除A₀的CM field。parity给原曲线root sign，三条低analytic-rank twists经Gross–Zagier–Kolyvagin得到两条K-Selmer line；证明conductor-one Heegner trace y非torsion即可。",
+      "在任意reduction的p-adic Tate representation V上，local Kummer line自正交，H¹ local为hyperbolic plane，away-p rational local cohomology为零。Poitou–Tate与conjugation使one-sided Greenberg base group在nonzero-localization情形为零；唯一strict情形是r=1且Selmer line a处处局部零，Greenberg base为〈a,h〉、相反condition为〈a,hᶜ〉。辅助twist summand始终为零。",
+      "选split moving primes qᵢ和ring-class cyclic p-quotients ℓᵢ，nᵢ→∞，ℓᵢᶜ=−ℓᵢ、在固定S局部为零，vₚ(qᵢ−1)−nᵢ有界，p-adic ring-class local degrees的p-part有界。Frobenius趋γ，ε(γ)=1、det(V(γ)−1)≠0、C(γ)非root of unity且γ杀固定S-unit radicals。Lie quotient separation和Chebotarev用于同时满足条件。",
+      "将(1+t)^ℓᵢ在固定b截断并以p-adic ultralimit定义ψ∈R_b=k[t]/tᵇ。admissible cochains必须有单一uniform denominator，且identity在每个Galois-element sequence成立，等价uniform increasing precision。specialization回到固定Galois cohomology，t coefficient sequence在cochain level精确，local zero/Kummer conditions可bounded correction后除以t。",
+      "strict时first-order lift需δx′=−ηℓᵢ∪x。以opposite local class d、δu=x∪d构造Hγ的corrected primitive。global reciprocity使任何lift的Hγ(x,d)=0。在V-kernel上的独立translations a,d⁻生成Heisenberg commutator σ，u(σ)≠0而V、C、ε及S-unit radicals在σ上不变；改γ→γσᵐ可使Hγ在两组base中成为[[0,κ],[−κ,0]]、κ≠0。故无非零base class能lift到order two。exact Selmer-cone sequence迭代将全部高阶cohomology挤到最后t-layer，length≤2且t杀之；non-strict始终length 0。取b*=3或1。",
+      "y torsion使raw weighted Heegner Kummer trace的augmentation=(a_q−2)y为零。strict时第一次除t的specialization在conjugation下anti-invariant却Selmer line invariant，故零；再除t所得base line处处local zero。借bounded p-part的unramified local degree和uniform Néron/formal logarithm估计，weighted local Heegner logs在t^{b*}前系数均趋零，高阶固定截断仍有下valuation界。",
+      "构造source compact U(2)、target两个real places均U(3,1)的holomorphic theta。Fock minors给(m,m,1;−1)，系数用Γ^{m−1}(∧²H)的literal dual monomial lattice；split pivot tests在p给U₂=U₃=p²，q使用full compact equivariance抵消varying character，避免除以ring-class order。unary moments先逐scalar group coefficient建立square的common Igusa ring、compatible cusp expansion norm与least-denominator saturation，再取scalar平方根成bounded position measure；mixed expansions继承uniform denominators。",
+      "constant coefficient是binary lift的共同scalar S。multiplicity-one论证与local intertwiners将其平方同两个raw toric periods P₀²P₁²比较；p处两个functional equations的gamma orientation相同而完全抵消，q处保留完整raw Gauss/Euler factor并先在group algebra清分母。P₀的inverse Katz derivative经共同primitive/path integration等于Heegner logs，包含bad reduction。augmentation非零且valuation有界的clearing factor在固定Artin ring有bounded inverse；从S²在t^{2b*}前趋零及所有系数bounded，用偶次系数归纳得S在t^{b*}前趋零。",
+      "另用norm-one positive Fourier–Jacobi orbit、固定非零stabilizer period与两个unary periods给非constant coefficient的augmentation valuation上界。两条unary root signs分别为+1，外部characteristic-zero nonvanishing选固定finite characters；在d₁+d₂=−1的compatible discs同时避开两个period及moving Euler factors的零点。fixed-place local spanning用非零minor/Cramer rule得到bounded replacement，保留p/q tests及所需binary/Steinberg controls。",
+      "target ordinary PEL几何独立于A₀ reduction。actual J-level的canonical branch仅给multiplicative flag/frame及finite étale boundary covers；同一integral divided-power bundle的positive Jacobi coefficients经ample abelian vanishing/base change lifting。Hasse powers在ordinary frames为1，升到λ′=(m+H,m+H,1+H;−1−H)后由Serre vanishing lift成genuine cusp forms。Serre–Tate root trace给integral normalized U₂,U₃且comparison value均1。nonconstant augmentation content用固定bC precision loss取消任意Hecke polynomial relation，得到full Artin ring的Hecke-order map。",
+      "Labesse transfer通过每个real factor的individual holomorphic pseudocoefficient sign property产生同一Arthur parameter，保持full infinitesimal character与所有split finite local data。将cuspidal factors作parity-corrected regular algebraic conjugate-self-dual twists后用外部Galois输入，再按Arthur shifted copies作实际direct sum，得4维ρᶜ≅ρ∨ε⁻³与Hodge weights。两个unit operators给Hodge–Newton contacts和2⊂3⊂4 flags；binary resultants排除head/final linkages，direct-sum structure补足monodromy domination，得到actual inertia identity；(3,1) parahoric给Steinberg inertia rank≤1。bounded local allocation filtrations使Hecke nilpotents被固定power resultant杀死，precision只损固定常数。",
+      "用uniform pro-p generators、degree-eight matrix PI与Shirshov height将Bᵢ=Tᵢ[ρᵢ]压成uniformly finite module generators。ultraproduct/localization/henselization构造finite T-algebra B及faithful reduced ambient ring，limiting trace分成f=V(−2)ψ±、x=ε⁻¹、y=ε⁻²，lift rank-one idempotents并得到2+1+1 corner modules。finite-value admissibility把任意B→M₄(R_b) map还原为bounded finite-stage cochains；local rank conditions改写为corner determinant identities以在quotient中存活。",
+      "先将D_xy/(D_xfD_fy)的dual注入cyclotomic H¹，并以p-local splitting、binary/Steinberg inertia和CM biquadratic unit-rank-one local-log injectivity证明它为零，得D_xy=D_xfD_fy。若D_fy在任一ambient field为零，则y-line globally stable；actual algebraic rank-one constituent由unitary bounds有conjugate weight sum3，而residual y=ε⁻²有sum4，在同一固定local unit pair上形成不可消失unit矛盾。故D_fy每个field非零，annihilator/Fitt₀为零。",
+      "对M=D_fy⊗R_b取dual，crossing cycle和D_xy factorization确保三角algebra map；common-kernel corner minors在整个Artin ring上给conjugate p-place split，得到Hom(M,R_b)↪同一admissible Greenberg module。Fitt₀(M)=0及R_b elementary divisors给dual length≥b，与upper bound0<1或≤2<3矛盾，故y非torsion并结束主张。Sylvester应用用成对3-isogeny descent的Sha kernels a,b相消得到s₃≤(1−a−b)+(a+b)=1，再由root sign−1取rank1。",
+      "独立appendix计算isogenous tori必须比较的组合cη(T)/|π₀(T̂^Γ)|，其中function-field degree index I(T)不可遗漏；split degree-one place使I=1。随后把fixed nonstandard weighted orbital-integral pairs放在同一definable root-data/outer-action/regular-parameter space，选compatible Lie differential frames，清ambient volumes和共同Levi square-root discriminant，再以constructible function零性作change-of-characteristic transfer。正文的Labesse simple trace-formula route明确不使用weighted fundamental lemma。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "保留整个nilpotent Artin parameter，用length比较记录在specialization中消失的信息。",
+        "precise_hypotheses": "固定R_b=k[t]/tᵇ；bounded finite-stage cochain identities须在每个argument sequence成立；coefficient reduction/t multiplication给exact complexes且local conditions可bounded division。若base维数d且所有非零base class的order-two lift受nondegenerate obstruction排除，则高阶H¹被t杀、length≤d。另一个构造必须映入这个同一module并给length≥b>d。",
+        "mechanism": "稿件选择b=3以超过strict base维数2，first-order obstruction与exact coefficient sequence把全部cohomology压至last layer；full-Artin Galois corner/Fitting计算则保留至少b的长度。单看t=0或各character specialization不足以区分两边。",
+        "possible_bridge": "对π项目，试把Q(Z)的row-transversal rank和quadratic occupancy约束编码进一个固定阶t-family。可先测试候选minor在t-adic filtration中的leading coefficient和first-order obstruction，再比较一个统一integer determinant对象允许的vanishing order与构造强迫的order。更广是deformation/obstruction理论与离散rank persistence的接口。",
+        "missing_step": "当前没有Q(Z)的exact Artin cochain/module模型，更没有同一个可清分母integer determinant的upper/lower length比较。rank over k(t)、finite character pointwise nonvanishing或某阶t coefficient非零都不能自动给所需integer determinant非零或解析smallness；height与quadratic occupancy必须重新定量证明。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+            "line": 271,
+            "label": "def:admissible; lem:admissible-specialization"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+            "line": 623,
+            "label": "prop:green-length"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 527,
+            "label": "prop:extension-extraction"
+          }
+        ]
+      },
+      {
+        "idea": "在full algebra先清分母，再固定阶截断；用augmentation内容统一控制逆和取消。",
+        "precise_hypotheses": "D_i(t)在固定tᵇ截断内所有coefficients valuation有共同下界，且constant coefficient非零、valuation有共同上界。有限stage group relation被替换后仅误差p^{n_i−c_b}，n_i→∞。若integral a(t)的vₚ(a(0))≤C，则a r∈pᴹR_b推出r∈p^{M−bC}R_b，独立于finite coefficient extension。",
+        "mechanism": "以D⁻¹=d₀⁻¹∑_{j<b}(−d₀⁻¹(D−d₀))ʲ作有限幂级数，损失只依赖b和constant valuation。稿件在q处从完整raw factor H_q清Euler denominator，拒绝单独除q−1、Gauss sums或growing character projector；随后同一个bounded inverse处理constant terms和全部Hecke relations。",
+        "possible_bridge": "π的determinant/row operations若引入scale-dependent rational factors，可先在共同polynomial/group algebra保留清分母identity，再以某个augmentation minor提供bounded cancellation。它可作为height账本：将固定truncation损失与随dimension/column height增长的损失明确分开，也可迁移至p-adic interpolation及symbolic certificates。",
+        "missing_step": "π目标主要是Archimedean small integer determinant，本lemma只给p-adic precision而非real absolute value。必须找到同一个实际对象、证常数项的uniform valuation上界，并把局部逆损失与global denominator/height相乘；一般nonzero augmentation不保证Archimedean inverse小。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/05-constant-terms.tex",
+            "line": 496,
+            "label": "raw-q-factor; cleared-q-factor"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/05-constant-terms.tex",
+            "line": 659,
+            "label": "bounded-artin-inverse"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/07-cusp-lifting.tex",
+            "line": 527,
+            "label": "lem:artin-content-cancellation"
+          }
+        ]
+      },
+      {
+        "idea": "用literal dual monomial/divided-power lattice避免在高次表示中偷偷引入factorial。",
+        "precise_hypotheses": "W finite locally free integral module；coefficient lattice定义为Γᵈ(W)=(Symᵈ(W∨))∨，与input polynomial monomials literal pairing1。所有frame changes和diagonal pullback均在此同一functor中记录；不得以rational Γᵈ≅Symᵈ替换而忽略factorials。",
+        "mechanism": "稿件Fock input是Symᵈ((∧²H)∨)，theta coefficient array为其integral dual。monomial extraction不乘binomial/factorial；diag(c₁,c₂,c₃)在dual coefficient上的action为∏(c_ic_j)^{a_ij}。同一lattice贯穿theta estimates、Hasse cusp lifting及normalized trace，避免weight增长造成不可控denominator。",
+        "possible_bridge": "Q(Z)以derivatives、binomial coefficients、symmetric tensors或polynomial evaluation构行时，可先选整数valued/binomial或dual monomial basis并准确记录pairing。适当基可能把由高阶微分产生的factorial height从每列估计中移除，从而使column-height与quadratic occupancy账本更紧。此处接口是integral representation theory与integer determinant设计。",
+        "missing_step": "换basis可能把factorial转移到determinant的index或denominator而非真正省去。须证明Q(Z)新basis的整性、满row rank和row-transversal非零minor，并逐项计算basis-change determinant；本稿的special dual functor不能直接证明π构造的height收益。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/04-theta-construction.tex",
+            "line": 126,
+            "label": "eq:dual-fock-lattice"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/07-cusp-lifting.tex",
+            "line": 174,
+            "label": "lem:dual-fock-functor"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/07-cusp-lifting.tex",
+            "line": 434,
+            "label": "same lattice in normalized trace"
+          }
+        ]
+      },
+      {
+        "idea": "把易在quotient后丢失的subspace信息先改写为corner minors的polynomial identities。",
+        "precise_hypotheses": "一个finite algebra faithfully嵌入M_n(ℛ)，ℛ reduced且field evaluations检测零；有rank-one idempotents和相容matrix units。stacked local matrices有共同kernel/quotient；所选minor的row/column surplus只剩一条u←y path，其余为diagonal cycles。competing-column minor在residue非零从而在目标Artin ring为unit。",
+        "mechanism": "determinant每个monomial的directed graph分解成surplus path与cycles，故minor本身是intrinsic corner element。fieldwise common-kernel导致此element为零，algebra quotient后identity仍存活；再invert competing minor重建common eigenline，且覆盖nilpotent coefficients。",
+        "possible_bridge": "π项目可将一个有约束行列式的nonvanishing证书写成Plücker/minor identity，再研究在projection、row selection、column compression、quotient lattice后哪些identities和pivot units仍存活。对于row-transversal满秩，显式记录一个surviving pivot minor比只记录某个ambient rank更便于和column cost联用。更广泛是quiver/corner algebra与matroid certificates的接口。",
+        "missing_step": "Q(Z)尚无上述idempotent corner algebra或unit competing minor。fieldwise rank不保证integral primitive minor，quotient后可能全部nonzero minors被large index消去。必须给实际row-transversal、整数index与height预算；本方法只提示可审核证书的形式。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 238,
+            "label": "lem:corner-minors"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 299,
+            "label": "cyclotomic local splitting"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 562,
+            "label": "full-Artin common-kernel splitting"
+          }
+        ]
+      },
+      {
+        "idea": "用annihilator/Fitting ideal把每个field的非零对象提升为truncated ring的总length下界。",
+        "precise_hypotheses": "T↪ℛ faithful，ℛ reduced；finite T-module D在每个ambient field evaluation的image非零，故Ann_T(D)=0并有Fitt₀,T(D)=0。base change到R_b=k[t]/tᵇ，得到finite M；还需dual Hom_Rb(M,R_b)注入目标约束空间。",
+        "mechanism": "R_b上M=⊕R_b/(t^{a_j})，Fitt₀(M)=(t^{∑a_j})=0迫∑a_j≥b；R_b self-dual的每个cyclic summand与dual等长，故获得dual length≥b。它允许多个短torsion summands共同贡献，不要求直接找一个free rank-one summand。",
+        "possible_bridge": "对带occupancy限制的row选择可尝试以cokernel/presentation module记录所有可用minor的ideal，用Fitting ideal将跨参数nonzero rank证书汇总，再同容量上界比较。可能的远接口是commutative algebra support与combinatorial matching/row-transversal obstruction，而非从单个generic rank跳到整数非零。",
+        "missing_step": "Fitt零不自动给某个指定minor非零，也不控制Archimedean size或integer lattice index。π项目需构造finite presentation对应Q(Z)的真正允许行、证明base-change后的约束兼容并取得定量minor，而不是仅generic support。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 390,
+            "label": "lem:no-stable-y-line"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 505,
+            "label": "cor:fitting-vanishing"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+            "line": 584,
+            "label": "Fitting elementary-divisor length"
+          }
+        ]
+      },
+      {
+        "idea": "在保持全部primary invariants不变的kernel里，用commutator只改变secondary obstruction。",
+        "precise_hypotheses": "两独立cocycles a,d在representation kernel N_V上成为translations，joint image spans V⊕V；δu=a∪d且Weil pairing nondegenerate。commutator σ=[g,g′]在translations、V、所有one-dimensional characters和radical Kummer homomorphisms上为零，但u(σ)=−e(a(g),d(g′))+e(a(g′),d(g))可非零。",
+        "mechanism": "选σ使primitive central coordinate非零，改γ→γσᵐ即保持Euler determinant、tame-prime约束及denominator bounds，同时以linear m改变obstruction。只需避开一个值就把零obstruction改成非零。此为Heisenberg central extension的可控自由度。",
+        "possible_bridge": "π构造若存在preserve row-sums、column occupancy、norm或低阶moments的elementary operations，可寻找其commutator，使全部预算不变但改变某个higher-order determinant coefficient。远接口是noncommutative control/bracket generation与受约束离散优化；这比任意perturbation更有机会保住quadratic occupancy。",
+        "missing_step": "目前未给Q(Z)可用的noncommuting operations、真实secondary cocycle或可控integral cost。一般commutator会增大entries、破坏row-transversal结构，且若目标仅线性invariant它可能也完全不变；须算明确实例，不能由类比宣称可修复determinant为非零。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+            "line": 402,
+            "label": "corrected-primitive; obstruction-pairing"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+            "line": 546,
+            "label": "construct nonzero obstruction"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+            "line": 576,
+            "label": "heisenberg-commutator"
+          }
+        ]
+      },
+      {
+        "idea": "跨rational equivalence比较时保留组合不变量与lattice index，避免分拆后逐项误认相等。",
+        "precise_hypotheses": "Function-field tori T₁,T₂的rational character Galois modules同构，Lie algebras由指定ℓ同构且local measures相容。normalized factor应为cη(T)/b(T)，其比例等于degree-image lattice index I(T₁)/I(T₂)；若各自在degree-one place split，饱和invariant character lattice使I=1。",
+        "mechanism": "相同rational Artin L-data与compatible top forms给相同global scalar，但Tamagawa quotient仍带degree index。component-group和Sha factors需在同一组合里抵消；isogeny不等于integral torus isomorphism。appendix随后也只在共同parameter/frame space清除相同非零measure/discriminant factors后transfer。",
+        "possible_bridge": "Q(Z)在rational row/column compression、basis identification或symmetry quotient下，rank保持不代表integer determinant或height保持。可同时追踪covolume/index与analytic normalization，寻找最终真正不变的乘积/比值，减少把两个独立估计应用于不同determinant的风险；接口是adelic measures与integer lattice covolumes。",
+        "missing_step": "稿件torus formula不提供π矩阵的index formula。需对每个rational transformation明确写整格image、saturation、determinant/index及height effect；不能从rational row-rank充分推出primitive integer minor或零额外cost。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-nonstandard-transfer.tex",
+            "line": 24,
+            "label": "lem:global-torus-factor"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-nonstandard-transfer.tex",
+            "line": 113,
+            "label": "degree correction and explicit normalized factor"
+          },
+          {
+            "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-nonstandard-transfer.tex",
+            "line": 150,
+            "label": "isogeny rather than integral torus identification"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "这是固定提交源码闭包的完整首读记录，不是独立数学证明核验、同行评议、Lean认证或对定理正确性的背书。未编译/逐页视觉对照PDF；PDF本身未读，源码全部已读。",
+      "正文明确把unrestricted 2-converse和analytic twist-density引用为外部established inputs，且引用同collection的另一稿件；本次没有回读或验证该稿件。Gross–Zagier–Kolyvagin、duality、theta/period formulas、PEL geometry、Labesse transfer、RACSD Galois input、BHTY nonvanishing等外部证明也均未核验。bibliography全读仅表示读了文献记录、版本和locator。",
+      "主张仅是full p-power Selmer corank 0或1的converse及Sha finiteness，不是任意rank BSD，也不计算refined leading coefficient。奇p construction使用p>2、p全split的辅助fields和character branches；不可将其tame-cochain或parity分解无条件套到p=2。",
+      "admissibility要求对每个元素序列的identity和uniformly bounded denominators；对固定Galois elements逐点成立、每个finite-order character分别成立或coefficient fields的非紧union都不足以替代。uniform finite-generator、local polynomial-identity和all-sequence arguments是重要接口，未独立重证。",
+      "strict case upper bound、Heegner log三阶消失和Galois lower bound必须使用同一reselected tame character及同一b*=3。first-order obstruction和log vanishing是不同论证；不能把其中之一当作另一个。",
+      "正文控制的是target PEL ordinary locus和两个normalized parabolic units，不要求椭圆曲线ordinary。local-global input仅monodromy domination，稿件另用actual direct-sum Arthur construction及allocation separation控制actual inertia；不能擅自将domination换成full local compatibility。",
+      "clearing factors的bounded inverse只在固定Artin truncation成立，不能推出full growing group ring有bounded inverse，亦不能除以growing character projectors或raw group order。literal monomial-dual lattice、measure conventions、root reciprocity方向都要持续一致。",
+      "appendix的global torus comparison与fixed-root-data change-of-characteristic transfer有独立假设，包括sufficiently large residue characteristic及positive-characteristic WFL输入；它不构成引用几何定理的新证明，也不扩大正文all-p主张的验证范围。正文simultaneous transfer注明Labesse路线不使用weighted fundamental lemma。",
+      "所有π/Q(Z)/row-transversal/column-height/quadratic-occupancy桥接均为speculative construction interfaces；本文没有给出π近似的具体非零整数determinant、所需real smallness或BA/nonBA结论。"
+    ],
+    "scope_note": "全读固定commit 4eaee87548250b2682affda7d05d947c05554bae下README、actual main、preamble、11个section/appendix输入、嵌入roadmap图和references.bib；共16个text blobs、334261 bytes、7160 lines。所有源码字节的Git blob SHA及size已对pinned recursive tree逐项重算一致。按正文顺序分块读取，每块输出未截断；input/bibliography闭包完整，source_closure_complete只指此源码阅读闭包。未读外部引用作品的证明、未验证PDF/Lean或主定理。",
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "/workspace/scratch/66870cb2f937/research/openai-math-corpus-2026-11-01/full-reading/batch_18/byte_audit.json",
+      "terminal_LF_corrections": 0,
+      "text_file_count": 16,
+      "source_bytes": 334261,
+      "source_lines": 7160,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes",
+      "body_content_changes": false
+    }
+  }
+]

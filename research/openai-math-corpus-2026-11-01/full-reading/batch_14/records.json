@@ -1,0 +1,1009 @@
+[
+  {
+    "position": 30,
+    "family_id": "285",
+    "title": "A torsion-free counterexample to the Kadison–Kaplansky projection conjecture",
+    "pdf_path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "24da1a2404ef2939571e64abf12333ad90295ffc",
+    "source_files": [
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/README.md",
+        "sha": "a172dc6154226e28fabbf5a036152715131e5c6b",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/README.md",
+        "source_bytes": 743,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            18
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/figures/moving-band.tex",
+        "sha": "14060081949a3621316b7565944c8d2471b6a232",
+        "total_lines": 20,
+        "read_ranges": [
+          [
+            1,
+            20
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/figures/moving-band.tex",
+        "source_bytes": 967,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            20
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/paper.tex",
+        "sha": "a028b57ab5d6c09c89f3cbc763155a1ffe81bd55",
+        "total_lines": 30,
+        "read_ranges": [
+          [
+            1,
+            30
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/paper.tex",
+        "source_bytes": 843,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            30
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/preamble.tex",
+        "sha": "585f413df0b23ac58da22643876c40d83942d3ad",
+        "total_lines": 70,
+        "read_ranges": [
+          [
+            1,
+            70
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/preamble.tex",
+        "source_bytes": 2458,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            70
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/references.bib",
+        "sha": "3f91865d1e1fdb0cbe49f8753b299106631514f0",
+        "total_lines": 356,
+        "read_ranges": [
+          [
+            1,
+            356
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/references.bib",
+        "source_bytes": 15951,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            356
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/conclusion.tex",
+        "sha": "54b0ee7f1c8ca4aa4024903aac5710a703085348",
+        "total_lines": 32,
+        "read_ranges": [
+          [
+            1,
+            32
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/conclusion.tex",
+        "source_bytes": 1101,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            32
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/expansion.tex",
+        "sha": "777ff8b63e0fcd1a404fbfb8436816230f3b3257",
+        "total_lines": 622,
+        "read_ranges": [
+          [
+            1,
+            622
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/expansion.tex",
+        "source_bytes": 26409,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            320
+          ],
+          [
+            321,
+            622
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/geometry.tex",
+        "sha": "4f951ddd05c9a438f1e32268e8330499cf6a738c",
+        "total_lines": 968,
+        "read_ranges": [
+          [
+            1,
+            968
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/geometry.tex",
+        "source_bytes": 48975,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            330
+          ],
+          [
+            331,
+            650
+          ],
+          [
+            651,
+            968
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/introduction.tex",
+        "sha": "5200f8e0e4fdce54a91022504b512420d013a9ef",
+        "total_lines": 176,
+        "read_ranges": [
+          [
+            1,
+            176
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/introduction.tex",
+        "source_bytes": 9550,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            176
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/nilpotent.tex",
+        "sha": "402dc4364a5e0612c0a8282921325dfbbc65b970",
+        "total_lines": 992,
+        "read_ranges": [
+          [
+            1,
+            992
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/nilpotent.tex",
+        "source_bytes": 41397,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            330
+          ],
+          [
+            331,
+            660
+          ],
+          [
+            661,
+            992
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/pruning.tex",
+        "sha": "140a85f05149b175ae1115f4b3e7ae2c98b936e1",
+        "total_lines": 364,
+        "read_ranges": [
+          [
+            1,
+            364
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/pruning.tex",
+        "source_bytes": 16685,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            364
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/sampling.tex",
+        "sha": "c2e5f8409f2b7db06cdd724de7f89d14921a3fce",
+        "total_lines": 1046,
+        "read_ranges": [
+          [
+            1,
+            1046
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/sampling.tex",
+        "source_bytes": 48007,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            350
+          ],
+          [
+            351,
+            700
+          ],
+          [
+            701,
+            1046
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/scalar.tex",
+        "sha": "70f0463cdf27feee6ff15c10b5c7a317ef17885a",
+        "total_lines": 188,
+        "read_ranges": [
+          [
+            1,
+            188
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/scalar.tex",
+        "source_bytes": 7083,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            188
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/setup.tex",
+        "sha": "75722b65a329f33d473a8df43773c76a47d6a4be",
+        "total_lines": 155,
+        "read_ranges": [
+          [
+            1,
+            155
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/setup.tex",
+        "source_bytes": 6435,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            155
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/spectral.tex",
+        "sha": "441a9568eb0d321751bcdbace3a38bd4678951e0",
+        "total_lines": 802,
+        "read_ranges": [
+          [
+            1,
+            802
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/spectral.tex",
+        "source_bytes": 34329,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            400
+          ],
+          [
+            401,
+            802
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/tower.tex",
+        "sha": "bb9f3803f9d14bc1413d5eca3ebfa3e6c3340b81",
+        "total_lines": 392,
+        "read_ranges": [
+          [
+            1,
+            392
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/30/build/sections/tower.tex",
+        "source_bytes": 19144,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            392
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "mapping_evidence": "Pinned recursive tree is untruncated. README links paper.pdf; root title and abstract agree. Root recursively includes preamble, all eleven section files, one figure, and references.bib; all sixteen authored text blobs were read without truncation. No further local body or appendix inputs occur.",
+    "sections_read": [
+      "README, root paper.tex and full preamble",
+      "Introduction, scalar compression and all parameter conventions",
+      "Tower bit-streams, field coefficients, spill maps, gated triangular rules, independent cluster matchings",
+      "Full mean Fourier expansion calculation, terminal partial blocks, connected-cut local lemma and realized Cheeger gap",
+      "Full prefix recovery and gate/height/short-cycle pruning",
+      "All geometric diagram reductions, embeddings, short chain fillings, thin triangles, simultaneous overlap balls, cycle directness, forest, exact incidences, stabilizers and torsion exclusion",
+      "All nilpotent word detection, affine central product, Fourier trace, Schwartz idempotents, lattice limits, absorption, windows and weighted trace",
+      "All regular-norm finite tests, empirical lists, masks, subgroup factorization, edge distributions, girth and centered-moment simultaneous realization",
+      "Full compression/contour perturbation, localization, Cayley band and all-copy equivariant trace proof",
+      "Completion, moving-band figure source, complete bibliography; no separate appendices"
+    ],
+    "claim_as_stated": "The manuscript claims a finitely generated torsion-free discrete group G_proj with a scalar projection e in C*_r(G_proj) whose canonical trace lies strictly between 0 and 1/2. It first constructs a finite self-adjoint group-algebra matrix T over G_base with a separated nonempty upper band and a projection p0 of small unnormalized matrix trace; then G_proj=G_base*F_N and an explicit free row compress p0 to scalar e with exactly the same trace. It also claims [p0] lies outside the coefficient-free reduced assembly image. This is a report of claims, not a verification.",
+    "proof_architecture": [
+      "Fix one eventual finite ell: d=2^(4ell), D=d^2, bit blocks s=10ell,r=7ell and layer sizes |A_i|=d2^H_i, |B_i|=2^H_i. Field multiplication with distinct slot coefficients recovers blocks from two evaluations. Auxiliary tower Y0 opens each current gate for expansion; universal gated tower Y# supports global word recovery.",
+      "Conditional Fourier orthogonality turns collision multiplicity bounds (10^-3 full blocks, .55 partial blocks) into a mean incidence gap. Four causal bands plus a terminal orthogonal estimate are uniform in height. Independent final matchings have exponential cut tails; a connected-cut dependency graph and asymmetric local lemma avoid the total vertex-count factor. Weighted Cheeger converts the realized cut bound to chi=1/800.",
+      "Delete rare closed gates, zero windows that could conceal smaller layers, and short cyclic paths. The surviving Y agrees in the two towers, removes o(1) of every side/layer, and long oriented words locate paths globally. Constant spaces lose at most sqrt(epsilon_ell).",
+      "Assuming cover girth at C_*H_i/log d, minimal plane diagrams and long-word recovery force short arcs and at least twenty incidences per bounded face. Euler counting proves component embeddings. Cone-chain fillings give explicit thin triangles; a fixed common root then confines every earlier overlap with a copy to one finite tree ball. Cycle spaces split as an algebraic direct sum of copy cycles, yielding a residual forest and an acyclic cone complex. Torsion-free deck stabilizers plus the periodic F_p[C_p] resolution exclude group torsion.",
+      "A high-girth support of total length O(g) has bounded Betti rank; collapsing a spanning tree reduces short holonomy to a bounded-length nontrivial pivot word. A fixed upper-unitriangular dimension detects it by a nonzero polynomial of total degree <=m-1. An integer affine nilpotent central product retains this quotient and provides graded coordinates.",
+      "A coefficient-to-Schwartz-kernel bijection supplies continuous twisted convolution idempotents. Weighted rectangular Riemann sums control both coefficient l1 defect (operator correction) and relative l2 defect (nonzero projection and identity trace). A finite magnetic representation shifts the second effective twist t to t-delta, with exact unnormalized multiplicity N. Product fibers have trace <=CN t^nf(delta-t)^nf. A moving two-layer logarithmic window makes this small against exponential geometric weights at both endpoints.",
+      "Compact templates and Fourier masks are realized by one independent voltage/weight draw per edge. Graded Følner boxes test the full regular norm in polynomial finite dimension. Ordinary empirical lists below a cutoff and a shared congruence-coset list above it keep the weight alphabet finite and o(dD). Wide independent matrix entries and Schwartz–Zippel enforce girth; centered moments kill singleton edges and bounded-cycle-rank walk encoding bounds the surviving terms. The same draws satisfy both requirements, uniformly across countably many layers.",
+      "Compression and contour bounds preserve the model upper band in the actual cover, with exactly equal equivariant fiber traces. Width-one resolvent propagation yields exponentially decreasing layer trace; it is the total projection trace, not the layer dimension, which multiplies this bound. Weighted size S tends to zero.",
+      "Trim copies to disjoint domains; Hilbert–Schmidt mass in each finite ball is <=S, and the unused forest adjacency has norm O(sqrt(|S_alphabet|/(dD)))=o(1). This transports a nonempty spectral band to finite Cayley T. For trace, use all indexed copies and their exact incidence bijection. The equivariant analysis map xi -> (E_Q xi|Q)_Q is bounded despite the nonequivariant trimming. Its kernel has a strict quadratic-form upper bound; hence global upper space injects into a small equivariant complement, giving 0<tau_N(p0)<=S<1/2.",
+      "For scalar compression, free normal forms split inputs of the row U into noncancelling disjoint outputs and cancelling inputs/outputs. Projection pointwise bounds pay each cancelling part by a=tau_N(p0), giving ||Uxi|| >=(sqrt(1-a)-sqrt(a))||xi|| on p0. Polar normalization gives scalar e=(Up0)(p0U*Up0)^-1(Up0)* with trace exactly a."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Use one finite random assignment for simultaneous exact nonvanishing and analytic approximation.",
+        "precise_hypotheses": "A true nonzero polynomial rank/determinant certificate for each forbidden event; independent finite coordinate sets with a quantified minimum width; separately a centered-moment bound for the analytic error; the sum of all failure probabilities must be <1 under the same unconditioned draw.",
+        "mechanism": "The girth tests use fixed-degree polynomial zeros while norm tests kill singleton edge occurrences in even moments. Neither event conditions on final weights being nonzero; both success requirements concern the same actual voltages and weights.",
+        "possible_bridge": "For a fixed candidate column set of Q(Z), attempt to certify both row-rank conditions by explicit nonzero minor polynomials and bound the determinant/column cost under the same finite integer draw. A common successful evaluation could avoid selecting one minor for rank and another for smallness.",
+        "missing_step": "The paper does not prove any Q(Z) minor polynomial is nonzero or any low-cost common basis exists. All parameter interval sizes affect integer height and quadratic occupancy, and all denominators must be paid. A probabilistic existence certificate is useful only after these costs are quantified.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/sampling.tex",
+            "line": 740,
+            "label": "Girth with the same independent edge draws"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/sampling.tex",
+            "line": 986,
+            "label": "sam:block-probability"
+          }
+        ]
+      },
+      {
+        "idea": "Bound support complexity before applying a fixed-dimensional algebraic detector.",
+        "precise_hypotheses": "A finite connected metric support with length <=Cg and girth >g; a nonempty cyclically nonbacktracking walk of length <=Cg. For unitriangular detection one must retain a genuinely nontrivial free word after tree collapse.",
+        "mechanism": "A g/10-net bounds b1 by B(C); a spanning tree retains all short arcs, so only O(CB(C)) pivot crossings survive. Magnus truncation detects that bounded word in fixed unitriangular dimension; weighted upper-entry degree <=m-1 stays independent of original walk length.",
+        "possible_bridge": "If the supports behind Q(Z) dependencies have a comparable gap/complexity restriction, collapse acyclic or redundant portions and express nonvanishing using boundedly many pivot coordinates. The goal would be a degree bound governed by intrinsic dependency complexity rather than ambient matrix size.",
+        "missing_step": "No graph with the required girth/length ratio has been attached to Q(Z). A bounded pivot word certificate is not a determinant-rank certificate; collapsing a tree may also change the actual column costs. Those identifications need new proofs.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/nilpotent.tex",
+            "line": 20,
+            "label": "nil:rank"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/nilpotent.tex",
+            "line": 64,
+            "label": "nil:word"
+          }
+        ]
+      },
+      {
+        "idea": "Replace a global obstruction count by connected obstructions with local dependencies.",
+        "precise_hypotheses": "A bad event for a disconnected set decomposes additively into connected bad pieces; variables influencing an event have uniformly bounded support diameter; event probabilities decrease exponentially in support size faster than connected-set/dependency counts grow.",
+        "mechanism": "Only connected cuts are tested. A z-set has <=zQ^(2m) neighboring m-set events; weights exp(-a|Z|) yield a dependency sum <=|Z| and permit the asymmetric local lemma without any height/vertex-count factor.",
+        "possible_bridge": "Model rank failures or forbidden occupancy patterns as minimal connected dependency witnesses on a column-interaction graph. If the witness events are local and have strong tails, a common feasible low-cost assignment might exist even when a union bound over all row subsets fails.",
+        "missing_step": "Matroid rank failures generally involve global linear dependencies and may not be local or additive. One must prove the witness decomposition and independence graph for the actual entries; the analogy alone supplies neither common-base existence nor its cost.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/expansion.tex",
+            "line": 466,
+            "label": "exp:dependency-count"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/expansion.tex",
+            "line": 484,
+            "label": "exp:dependency-sum"
+          }
+        ]
+      },
+      {
+        "idea": "Pay overlap loss by an explicit weighted incidence sum, then prove injectivity into a small auxiliary space.",
+        "precise_hypotheses": "Local projections with known diagonal masses e_v; a canonical all-copy incidence count; each overlap lies in a finite ball whose cardinality is bounded by a weight of each represented layer; disjoint retained domains; a strict local/global quadratic-form separation.",
+        "mechanism": "Cauchy–Schwarz introduces |B(Q)|, which is explicitly retained in S=sum_i w_i sum_v e_v. The all-copy analysis operator is equivariant even though the domain assignment is not. A kernel form bound makes the global upper space inject into a complement of size <=sum_v e_v.",
+        "possible_bridge": "For a family of proposed row-rank witnesses, try an explicit analysis/restriction map into small local certificates while counting every repeated column incidence and every overlap multiplier. This may clarify exactly which resource measure controls a shared witness.",
+        "missing_step": "Von Neumann trace dimension is not ordinary finite rank or a bound on an integer determinant. A finite-dimensional analogue must establish injectivity and keep singular-value/denominator losses. Weighted counting cannot discard quadratic column occupancy.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/spectral.tex",
+            "line": 611,
+            "label": "spec:all-copy-cut-loss"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/spectral.tex",
+            "line": 659,
+            "label": "spec:analysis-operator"
+          }
+        ]
+      },
+      {
+        "idea": "Use separate norms to certify approximation and nontriviality, preserving exact multiplicity.",
+        "precise_hypotheses": "A self-adjoint approximate idempotent K with coefficient l1 defect o(1), l2 size comparable to sqrt(nu), and relative l2 defect o(sqrt(nu)); a trace on projection columns. Any auxiliary representation multiplicity is tracked without normalization.",
+        "mechanism": "l1 gives a spectral gap and correction to p; relative l2 contradicts p=0. The inequality p<=4K^2 bounds trace by the same l2 mass. Finite magnetic absorption has exactly N copies and fixes the identity block, so its unnormalized factor cannot be omitted.",
+        "possible_bridge": "Keep separate certificates for algebraic nonvanishing and analytic smallness of the same proposed integer determinant, and explicitly count auxiliary-index multiplicities in any norm conversion. This is especially relevant if tensoring or replication appears to improve cost.",
+        "missing_step": "Projection correction and small trace do not supply a small nonzero integer determinant. The pi project still needs a common concrete minor, integer normalization, and all amplification/denominator factors in its numerical bound.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/nilpotent.tex",
+            "line": 594,
+            "label": "nil:defects"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/nilpotent.tex",
+            "line": 798,
+            "label": "nil:absorption"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/spectral.tex",
+            "line": 328,
+            "label": "spec:layer-trace"
+          }
+        ]
+      },
+      {
+        "idea": "Recover unknown data from two evaluations with a common nuisance term, then prune rare aliases.",
+        "precise_hypotheses": "Evaluations Q_a=v+lambda_a u+known spill, with lambda_a-lambda_b invertible for distinct slots; causal keys use only already recovered blocks; aliasing from padding can be recognized by explicit zero windows with summable probabilities.",
+        "mechanism": "Subtract evaluations to cancel v, invert the coefficient difference, and recover u then v block by block. Gates ensure higher rules vanish on padded streams. Deleting rare all-zero windows makes a recovered padded prefix determine the layer as well.",
+        "possible_bridge": "Seek differences of Q(Z) rows or evaluations that cancel shared large terms and give triangular block recovery; explicitly identify and remove parameter values causing aliases, while preserving a quantified low-height supply.",
+        "missing_step": "Distinct finite-field slot coefficients and random binary stream budgets are special construction freedoms absent from the current pi matrix. Rational/integer inversion may increase denominators; exceptional-value deletion needs an actual count and cost estimate.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/pruning.tex",
+            "line": 56,
+            "label": "prune:block-inversion"
+          },
+          {
+            "path": "preprints/A-Torsion-Free-Counterexample-to-the-Kadison-Kaplansky-Projection-Conjecture-September-23-2026/build/sections/pruning.tex",
+            "line": 221,
+            "label": "prune:separation-budget"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "First-pass reading only; no independent proof or validity verification, compilation, spectral computation, or external reference audit.",
+      "The manuscript makes a major counterexample claim; the record reports the source architecture without endorsing the claim.",
+      "The construction uses infinite graphical relations but one final finite ell, not a limit group/projection. Finite alphabet and unnormalized N multiplicity are essential.",
+      "Schwartz–Zippel requires genuine nonzero polynomial certificates; moment bounds and genericity cannot replace this.",
+      "The prospective pi interfaces are speculative. No common basis, low quadratic occupancy, nonzero Q(Z) minor, or determinant <1 has been obtained."
+    ],
+    "scope_note": "All authored mathematical text and support sources in this pinned directory were read in full, including the single included figure and complete bibliography. No PDF page-layout comparison or independent verification of cited work. Source bytes match every pinned Git blob SHA exactly."
+  },
+  {
+    "position": 32,
+    "family_id": "323",
+    "title": "Relative independence of the separable quotient problem",
+    "pdf_path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "762c4ec6f7dd7839d5f7e3020d84acc7211db2f8",
+    "source_files": [
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/README.md",
+        "sha": "63fb5f618eec2459d38853ae0cc864f8b5c494cc",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/README.md",
+        "source_bytes": 635,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            18
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/main.tex",
+        "sha": "40418f8c28a4aa9df16ee8bb65a8b281dd88bf15",
+        "total_lines": 61,
+        "read_ranges": [
+          [
+            1,
+            61
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/main.tex",
+        "source_bytes": 2076,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            61
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/references.bib",
+        "sha": "31b51b8ff4c3cacf4548a182a8289faba3f001df",
+        "total_lines": 226,
+        "read_ranges": [
+          [
+            1,
+            226
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/references.bib",
+        "source_bytes": 7960,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            226
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/branches.tex",
+        "sha": "77e67d2f07c73fda3a585cb77d79d612e529e2e4",
+        "total_lines": 211,
+        "read_ranges": [
+          [
+            1,
+            211
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/branches.tex",
+        "source_bytes": 9309,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            211
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/evaluation.tex",
+        "sha": "9003b2820167ded2f4d9d5e88c1f610b10b87bb0",
+        "total_lines": 162,
+        "read_ranges": [
+          [
+            1,
+            162
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/evaluation.tex",
+        "source_bytes": 6873,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            162
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/exact-pairs.tex",
+        "sha": "0690c530fab858e42db8fc22fc9d5e3e860da3f7",
+        "total_lines": 405,
+        "read_ranges": [
+          [
+            1,
+            405
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/exact-pairs.tex",
+        "source_bytes": 19124,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            230
+          ],
+          [
+            231,
+            405
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/introduction.tex",
+        "sha": "2e6504cbbdc06113a63b022d01a08e1b1bd61238",
+        "total_lines": 171,
+        "read_ranges": [
+          [
+            1,
+            171
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/introduction.tex",
+        "source_bytes": 9246,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            171
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/models.tex",
+        "sha": "3047cad3322c22f6bb71dec4ee11ef78bbf5db3d",
+        "total_lines": 197,
+        "read_ranges": [
+          [
+            1,
+            197
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/models.tex",
+        "source_bytes": 9724,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            197
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/norming.tex",
+        "sha": "4e24c073b27588309924b7fa9d64f769e28b0afa",
+        "total_lines": 464,
+        "read_ranges": [
+          [
+            1,
+            464
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/norming.tex",
+        "source_bytes": 19779,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            250
+          ],
+          [
+            251,
+            464
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/paths.tex",
+        "sha": "917d9cb9a4371bc39586b2ca04b77f48c182d232",
+        "total_lines": 360,
+        "read_ranges": [
+          [
+            1,
+            360
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/paths.tex",
+        "source_bytes": 17178,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            200
+          ],
+          [
+            201,
+            360
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/positive.tex",
+        "sha": "d08c2b6968a27de70df01cba71a70638bd5f7062",
+        "total_lines": 341,
+        "read_ranges": [
+          [
+            1,
+            341
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/positive.tex",
+        "source_bytes": 16263,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            341
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/predual.tex",
+        "sha": "3ed3966ce8648fe1f40c2da1f22b310f98e5d534",
+        "total_lines": 272,
+        "read_ranges": [
+          [
+            1,
+            272
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/predual.tex",
+        "source_bytes": 11555,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            272
+          ]
+        ]
+      },
+      {
+        "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/scalar-fields.tex",
+        "sha": "8517ba487e678f414cf728cae93a2f603bd78eae",
+        "total_lines": 161,
+        "read_ranges": [
+          [
+            1,
+            161
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/32/build/sections/scalar-fields.tex",
+        "source_bytes": 6941,
+        "cache_git_blob_sha_verified": true,
+        "role": "body_or_supporting_text",
+        "read_chunks": [
+          [
+            1,
+            161
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "mapping_evidence": "The pinned recursive directory tree is untruncated. README links paper.pdf; main.tex title agrees and includes exactly ten section files plus references.bib. All thirteen authored text blobs were read in full. The glyph-to-Unicode cmex input is a standard TeX infrastructure input, not an unresolved authored mathematical body or appendix source.",
+    "sections_read": [
+      "README and complete root main.tex, including abstract and all input declarations",
+      "Introduction and exact real/complex independence statements",
+      "Full prefix-normer/evaluation-image quotient criterion and strictly singular selection lemma",
+      "All real-valued-measure density, transfinite pointwise-null family, Borel coding, ordered sampling and unconditional-sequence proof",
+      "Complete real/complex positive transfer, finite-sum counterexample transfer and complexification",
+      "All parameter choices, coherent finite closures, position coding, pure/mixed Type I/II operations, norm/projection/coordinate bounds, coordinate predual proof",
+      "Infinite path limits, shared-weight rigidity, complete weak-Cauchy block proof including compact pointwise closure and measure representation",
+      "Complete prescribed-weight exact-pair construction: spread blocks, windows, four-hit Ramsey argument, recursive incidence charges and finite-depth estimate",
+      "All arbitrary-subspace reduction, perturbative block lifting, binary-tree separation",
+      "Full quotient-map perturbation, CH path labeling, B adjoint range, changed predual and quotient obstruction",
+      "All set-theoretic forcing models, scalar/density consistency bounds, and complete bibliography; inline TikZ figure read in predual.tex"
+    ],
+    "claim_as_stated": "For each field R,C, the manuscript claims that ZFC proves: a real-valued measurable continuum (a c-additive probability on all subsets, additive for disjoint families of size strictly less than c, vanishing on singletons) implies every infinite-dimensional Banach space has a separable infinite-dimensional quotient; CH implies failure, with counterexamples of norm density aleph_1. Consequently the unrestricted assertion is independent of ZFC relative to Con(ZFC+measurable cardinal), while the assertion restricted to density exactly aleph_1 is independent relative to Con(ZFC) alone. The negative model consistency needs only Con(ZFC). These are source claims, not independently verified theorems in this reading.",
+    "proof_architecture": [
+      "Use one common analytic criterion: a quotient exists iff some closed infinite-dimensional F in X* has norm-separable evaluation image R_F(X); F may be chosen separable. Construct an exactly annihilating basic sequence with finite prefix half-normers, use its coefficient-functional span Z, and prove R_G* bounded below to obtain actual surjectivity, not merely dense range.",
+      "For the positive real implication, failure of a quotient and Dvoretzky rows force R_E(B_X) to have full continuum norm density for every separable infinite-dimensional E in X*. The c-additive full-power-set measure simultaneously sums evaluations over any smaller dense set; such summability would instead yield a quotient. Regularity then gives a separated set and Hahn–Banach functionals annihilating successive initial spans, producing a seminormalized pointwise-almost-everywhere-null family.",
+      "No l1 in E allows Odell–Rosenthal sequential bidual codes in the Polish space E^N. The pointwise limit-evaluation function is Borel, so cross evaluations vanish by ordinary Borel Fubini after pushforward. Ordered power-set measures are kept in one fixed integration order. Finite suppression inequalities hold almost surely for every rational coefficient pattern; a prefix invariant preserving all future conull sections selects one infinite unconditional basic sequence. The cited Hagler–Johnson consequence contradicts failure of a quotient.",
+      "For positive real-to-complex transfer, the real witness is transported to (X*)_R. If projection iE -> (X*)_R/E is not strictly singular, a closed complex span has bounded real coordinate projections; otherwise construct complex basic f_n and summable approximants g_n to if_n in E. A compact real correction transfers separable evaluations. The negative transfer separately uses the finite-real-direct-sum lemma then complexification.",
+      "Build a real coordinate space E on omega_1 split into countably many unbounded colors. Pure family k has s_k=k+2, r=s_k prime and q between the next conjugate and r; a mixed family handles color escape. Choose L_j,m_j with small summable theta_j=L_j^(1/r)/m_j, growing L_j/m_j, and depth margins exploiting 1/q prime <1/s.",
+      "Coherent finite ordinal closures encode rational support arrays by order positions. A countable injective code assigns each next path weight from its uncropped history. Type I uses <=L_j successive children scaled by 1/m_j; Type II combines cropped paths with l_q coefficients and disjoint active weights. Norm/projection contractivity and pure coordinate l_s upper bounds follow. A transfinite prefix argument proves E=X0* for coordinate predual X0; bounded prefixes failing to be Cauchy would be detected by arbitrarily large pure or mixed averages.",
+      "Different actual infinite paths have only finitely many common weights, so finite collections have disjoint-weight tails with l_q upper bounds modulo X0. In a block sequence, only finitely many paths can exceed a fixed threshold, giving a subsequence convergent on all actual paths. Then classify compact pointwise limits of normers: finite chains have only one potentially infinite piece, infinite chains stabilize to actual paths using a common coordinate and closure coherence. Summing distinct oscillating weights gives D <=(sum 1/m_j)D< D/8, forcing zero oscillation. Riesz–Markov plus bounded convergence extends this from the norming closure to the full block dual.",
+      "For any prescribed weight J and any block tail, obtain ||y||<=500 and phi_J(y)>=1/2. Spread blocks by a record-growth argument, then take differences of weak-Cauchy blocks to get weakly null windows. Ramsey thinning forbids four repeated hits of one path. A norming-tree recursion charges high tails, at most eight marked indices per path, and low boundary incidences sum_i d_ji<=2L_j. Singleton descent contracts by sum theta_j<1/8. Stop at depth d_J and pay finite exceptional nodes with the strict exponent margin, obtaining ||sum_(i<=L_J)x_i||<=500L_J/m_J.",
+      "Reduce an arbitrary infinite-dimensional F to a least ordinal segment where projection is bounded below; pass to one pure color if possible, otherwise all colors are strictly singular. Select successive blocks by small-restriction lemmas and a summably small perturbation, with an exact lift identity for supported paths. A breadth-first binary tree carries prescribed-weight vector/functional pairs. Different branches evaluate differently on one node while cross evaluations vanish, yielding continuum many uniformly separated restrictions on F.",
+      "Under CH label all actual paths by distinct coordinates of the next color. Path-coset l_q bounds and coordinate l_s bounds define a small B:E* -> W=E*/X0, with B*(W*) contained in the canonical image J_E(E) and closure B(X0)=V the path-coset span. For X=ker(Q-B), a geometric-series lift makes Q-B onto; its adjoint annihilator is a graph over X0 perpendicular, so X* is isomorphic to E. A norm<1 quotient argument gives closure B(X)=V. Every separable infinite-dimensional F in E has separable coordinate evaluations but nonseparable path evaluations; modding out the former and using density of BX makes all X evaluations nonseparable, excluding every separable quotient.",
+      "A measurable cardinal starts real-valued measurable; the cited Solovay measure-algebra preservation theorem and kappa random reals give real-valued measurable continuum with Choice. CH is relatively consistent via constructibility. At density aleph_1, MA_(aleph_1) implies b>aleph_1 via sigma-centered eventual-domination forcing, and the cited Saxon–Sanchez Ruiz density criterion gives the positive side in an MA+c=aleph_2 model. This lowers that restricted consistency requirement to Con(ZFC)."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Separate sparse boundary incidence from recursively contracted bulk, with a strict exponent margin.",
+        "precise_hypotheses": "At each recursive node, child assignments are disjoint within one weight group, while overlaps across groups are explicitly summed. Boundary incidences satisfy sum_i d_ji<=2L_j; each path has at most eight marked columns. The contraction c0=sum theta_j<1/8 is uniform, and 1/q prime <1/s leaves a growth margin after all fixed finite-depth factors are paid.",
+        "mechanism": "The proof continues only singleton low-weight interactions. Small l_r charges contract level by level; marked and boundary charges are paid in l1 at <=(1+B_J)^d nodes. Parameters force the fixed finite-depth price times 1+B_J+L_J^(1/q prime) below L_J/m_J.",
+        "possible_bridge": "For the pi column-cost problem, attempt a decomposition of the actual row/column incidence system into recursively spread bulk and bounded multiplicity boundary columns. An explicit incidence lemma may produce a tighter quadratic-occupancy cost than counting every interaction independently.",
+        "missing_step": "The norming trees have designed succession and disjoint active weights; Q(Z) has not been shown to admit them. An l_r recursion does not itself control sum_j occupancy_j^2, rank, or a common row basis. The strict exponent inequality must be rederived for the actual determinant cost, including any fixed analytic term.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/exact-pairs.tex",
+            "line": 304,
+            "label": "pair:incidence"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/exact-pairs.tex",
+            "line": 286,
+            "label": "pair:marked"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/exact-pairs.tex",
+            "line": 363,
+            "label": "pair:small-total"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/norming.tex",
+            "line": 119,
+            "label": "ch:parameter-depth"
+          }
+        ]
+      },
+      {
+        "idea": "Demand a witness at any prescribed future weight and in any surviving tail.",
+        "precise_hypotheses": "Every admissible infinite block sequence, every tail and every integer J admit a finite y and Type I phi_J with ||y||<=500 and phi_J(y)>=1/2. Supports of phi_J remain in the block range, and the coding rule fixes the next J before the next block is chosen.",
+        "mechanism": "This quantified extension lemma lets each binary-tree child satisfy a weight already prescribed by its parent code. Breadth-first disjoint supports make cross evaluations exactly zero, so divergence gives separated functionals on the same bounded node witness.",
+        "possible_bridge": "A useful common-basis strategy would prove an analogous robust extension lemma: after finitely many column/height choices are frozen, any next required pivot or signature can still be realized in an allowed tail at a uniform occupancy cost. Such a lemma could support simultaneous construction instead of repeatedly reselecting an unrelated minor.",
+        "missing_step": "No robust extension theorem is known for the present two row-rank constraints. The ability to choose an arbitrary block in an infinite Banach-space tail is a special freedom, and its uniform norm500 says nothing about integer coefficient height.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/exact-pairs.tex",
+            "line": 17,
+            "label": "pair:exact"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/branches.tex",
+            "line": 154,
+            "label": "branch:node-pair"
+          }
+        ]
+      },
+      {
+        "idea": "Use exact annihilation to stabilize prefix rank before adding summably small errors.",
+        "precise_hypotheses": "Seminormalized f_n have finite actual half-normers D_m for each prefix span, and all later f_n vanish exactly on D_m. This gives prefix projection norm<=2 and coefficient bound4/a. Any perturbation is then summable relative to that proven coefficient bound.",
+        "mechanism": "Equality of full-vector and prefix evaluations on D_m proves basic independence and controlled projections. In strictly singular selection or arbitrary-subspace lifting, the coefficient bound turns sum_n||error_n|| into an operator-norm perturbation bound; the exact support/lift identities are retained separately.",
+        "possible_bridge": "For a finite rational row/column construction, seek genuine prefix pivot normers or an explicit controlled left inverse before perturbing entries to make them small. Quantify the error relative to the smallest singular value of that same block, preserving rank of the same candidate minor.",
+        "missing_step": "Finite normers and real perturbations need not be rational or integral, and a uniform coefficient bound in a designed norm is not a height bound in the natural pi norm. A second row system still needs its own simultaneous certificate; rational approximation and denominator growth must be paid.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/evaluation.tex",
+            "line": 15,
+            "label": "ev:prefix"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/evaluation.tex",
+            "line": 132,
+            "label": "ev:small"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/branches.tex",
+            "line": 23,
+            "label": "branch:lift-identity"
+          }
+        ]
+      },
+      {
+        "idea": "Compressed codes identify actual objects only after a shared anchor makes their coordinate systems agree.",
+        "precise_hypotheses": "Two ordered finite closures have the same metadata index and a common actual coordinate alpha; coherence makes their initial segments through alpha identical. Equality of rational arrays at order positions is known, and the object being identified is supported strictly before alpha.",
+        "mechanism": "Position code equality by itself does not identify ordinal support. The shared anchor upgrades equality of relative arrays to equality of actual finite pieces. Repeated anchored prefix identities prove that infinitely many shared weights force two paths to be the same actual path.",
+        "possible_bridge": "When comparing formal coefficient templates, minors, or rank witnesses, record both the compressed algebraic pattern and the actual column embedding. A common anchored support identity may prevent accidentally transferring a nonzero certificate from one column set to another.",
+        "missing_step": "This is a structural auditing principle, not an arithmetic construction. No low-cost anchor or compatible embedding of the two Q(Z) row systems has been proved; mere matching of coefficient patterns remains insufficient.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/norming.tex",
+            "line": 157,
+            "label": "ch:closures"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/paths.tex",
+            "line": 31,
+            "label": "path:rigidity"
+          }
+        ]
+      },
+      {
+        "idea": "Small graph perturbations can change one quotient interface while retaining an exact dual realization.",
+        "precise_hypotheses": "E=Y* isometrically; Q:E* ->W=E*/Y; B has norm<=1/10, B*(W*) lies inside J_E(E), and B(E*) lies in closure B(Y). All three hypotheses are required. Then X=ker(Q-B) has X* isomorphic to E and closure B(X)=closure B(Y).",
+        "mechanism": "A geometric-series lifting argument makes Q-B onto. Its annihilator is the graph Q*w*-B*w* over Y perpendicular with correction in J_E(E), yielding the same dual. A norm<1 argument forces the required dense image on the new kernel.",
+        "possible_bridge": "An abstract prototype for choosing a small rational graph correction to satisfy a desired evaluation/quotient constraint while preserving a controlled underlying linear object. A finite-dimensional version might parameterize admissible rank-preserving corrections more systematically.",
+        "missing_step": "The original mechanism is infinite-dimensional, depends on canonical adjoint range and density, and uses CH only to label all paths. It does not preserve integer determinants or column costs. An arithmetic finite model and a simultaneous two-rank/height analysis would be wholly new work.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/predual.tex",
+            "line": 17,
+            "label": "twist:lemma"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/predual.tex",
+            "line": 135,
+            "label": "twist:properties"
+          }
+        ]
+      },
+      {
+        "idea": "Preserve all future feasibility conditions in the prefix invariant of a selection argument.",
+        "precise_hypotheses": "For every n there is a full-measure set G_n of good finite tuples, under compatible ordered iterated measures; countably many conull sections can be intersected. Cross-evaluation interchange is justified through Borel coding on Polish spaces, not by arbitrary power-set Fubini.",
+        "mechanism": "After choosing a prefix p, retain lambda_(n-|p|)((G_n)_p)=1 for every future n. Almost every next coordinate preserves all these conditions at once, so one infinite sequence satisfies every finite suppression inequality. Independence of the preliminary marginal row choices was unnecessary.",
+        "possible_bridge": "When making a finite sequence of determinant choices, formulate the invariant as the existence or quantitative size of completions satisfying every remaining rank/cost test. This could expose why locally successful choices fail to extend to a common basis.",
+        "missing_step": "Conull uncountable selections provide no small integer point, and future good sets may contain no arithmetic candidate. A finite integer analogue needs explicit completion counts/probabilities and a cost budget; elapsed genericity or set-theoretic consistency cannot replace them.",
+        "source_anchors": [
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/positive.tex",
+            "line": 178,
+            "label": "pos:sampling"
+          },
+          {
+            "path": "preprints/Relative-independence-of-the-separable-quotient-problem-September-23-2026/build/sections/positive.tex",
+            "line": 285,
+            "label": "pos:prefix-invariant"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "Full-source first-pass reading only; no independent validation of the major independence/counterexample claim, forcing theorem, or cited Banach-space inputs.",
+      "The positive measure is on the full power set, has strict <c additivity, and the Fubini step is justified through Borel pushforwards; ordinary nonatomic probability or informal arbitrary-product Fubini does not reproduce the argument.",
+      "The negative construction uses actual uncropped paths and metadata. Equal positional codes alone do not identify actual ordinal supports.",
+      "All arithmetic interfaces are speculative. Infinite tails, CH labeling, uncountable separation, density and real norm perturbations provide no low-height integer witness or same-minor determinant bound.",
+      "No Q(Z) common basis, nonzero/small same integer determinant, or improvement of the current quadratic-occupancy threshold is claimed."
+    ],
+    "scope_note": "All thirteen authored text sources, including the inline figure and bibliography, were read through their final lines; the pinned recursive closure is complete. The system glyph-to-Unicode input is TeX infrastructure. No PDF layout/compilation audit, external reference rereading, or validity verification. All cached source bytes exactly match the expected pinned Git blob SHA."
+  }
+]

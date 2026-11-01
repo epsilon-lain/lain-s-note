@@ -1,0 +1,732 @@
+[
+  {
+    "position": 22,
+    "family_id": "102",
+    "title": "A Direct Proof of Optimal Max-Cut Hardness",
+    "pdf_path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "dae0fbab0e5c9a2cc40fb49bc5389b8ba63c89fb",
+    "source_files": [
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/README.md",
+        "sha": "f9bf72074ec79d4842c0caa58a2e62e297bcedde",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/README.md",
+        "source_bytes": 570,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/figures/complementary-traversals.tex",
+        "sha": "11017874e3387a3d5b444540717f066a7ea20f37",
+        "total_lines": 20,
+        "read_ranges": [
+          [
+            1,
+            20
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/figures/complementary-traversals.tex",
+        "source_bytes": 901,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/main.tex",
+        "sha": "d551e94cdd005d9a9d5e28f21af89dc7dcb01875",
+        "total_lines": 72,
+        "read_ranges": [
+          [
+            1,
+            72
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/main.tex",
+        "source_bytes": 2235,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/references.bib",
+        "sha": "fd031e2ecfaa247cd24a9ca92f0af243f48fc41f",
+        "total_lines": 214,
+        "read_ranges": [
+          [
+            1,
+            214
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/references.bib",
+        "source_bytes": 7652,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/affine_games.tex",
+        "sha": "24d1a6f8f4f87d6f5c32378bdc47ffdcbaa36742",
+        "total_lines": 572,
+        "read_ranges": [
+          [
+            1,
+            572
+          ]
+        ],
+        "role": "appendix",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/affine_games.tex",
+        "source_bytes": 25947,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/conclusion.tex",
+        "sha": "6615e1fc027ef6e4259ac4e7c0cebbff72fdc6f7",
+        "total_lines": 89,
+        "read_ranges": [
+          [
+            1,
+            89
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/conclusion.tex",
+        "source_bytes": 4006,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/decoding.tex",
+        "sha": "5b7df77154f0d6bf1ea5de6ff0963bc986eef61e",
+        "total_lines": 374,
+        "read_ranges": [
+          [
+            1,
+            374
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/decoding.tex",
+        "source_bytes": 16201,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/extraction.tex",
+        "sha": "27bf71cd2de73cc01667dc24a80022f171b89b7f",
+        "total_lines": 298,
+        "read_ranges": [
+          [
+            1,
+            298
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/extraction.tex",
+        "source_bytes": 13086,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/hashing.tex",
+        "sha": "34989ab979e68b6812853d56ca74dc28147455f0",
+        "total_lines": 251,
+        "read_ranges": [
+          [
+            1,
+            251
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/hashing.tex",
+        "source_bytes": 9533,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/introduction.tex",
+        "sha": "912186f714f2465079c48e9d1555bd904afa97d2",
+        "total_lines": 207,
+        "read_ranges": [
+          [
+            1,
+            207
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/introduction.tex",
+        "source_bytes": 11627,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/preliminaries.tex",
+        "sha": "ee8ed4c83d3747376c34f05afeecdd7223656691",
+        "total_lines": 171,
+        "read_ranges": [
+          [
+            1,
+            171
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/preliminaries.tex",
+        "source_bytes": 6723,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/reduction.tex",
+        "sha": "90a415cd0dedb79349e73858c0d17612fa4b44da",
+        "total_lines": 169,
+        "read_ranges": [
+          [
+            1,
+            169
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/reduction.tex",
+        "source_bytes": 7356,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/tree.tex",
+        "sha": "953231fb9500d562a87808ae644a811d1f5d760d",
+        "total_lines": 162,
+        "read_ranges": [
+          [
+            1,
+            162
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/tree.tex",
+        "source_bytes": 7041,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/tree_fourier.tex",
+        "sha": "2c5dffec582858770004c4e85973a7ed1dace00e",
+        "total_lines": 239,
+        "read_ranges": [
+          [
+            1,
+            239
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/tree_fourier.tex",
+        "source_bytes": 10239,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/unweighted.tex",
+        "sha": "0ebb36f5c68940903ad2fa4104b105362ca3b521",
+        "total_lines": 90,
+        "read_ranges": [
+          [
+            1,
+            90
+          ]
+        ],
+        "role": "appendix",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/22/build/sections/unweighted.tex",
+        "source_bytes": 3905,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "terminal_LF_handling": "apply_patch terminal LF stripped only when removal exactly matched pinned Git blob SHA"
+    },
+    "sections_read": [
+      "Introduction and exact weighted/unweighted hardness statements",
+      "Affine-row labels, both Fourier conventions, cutoff Majority Is Stablest, affine-game quantifiers",
+      "Tree code, complementary traversals and exact dictator correlation",
+      "Max-Cut test, completeness and odd/even stability identity",
+      "Row symmetries, unsplit projection telescoping and free-shift coordinates",
+      "Full vector-valued affine hashing proof with two truncations and fourth moment",
+      "All four dimension-independent extraction steps",
+      "Full hidden-coordinate decoding, unsmoothing, total variation planting, restriction mass and both endpoint strategies",
+      "Parameter ordering, effective rational weighted construction and final ratio gap",
+      "Appendix A: affine folded game, validity conditioning, completed tables, invariant lists, quotient-list decoder, soundness/completeness quantifiers and effectivity",
+      "Appendix B: deterministic finite-field rectangle construction converting weights and loops to simple unweighted graphs",
+      "Included complementary-traversal TikZ figure and complete references"
+    ],
+    "claim_as_stated": "For every fixed alpha with alpha_GW < alpha <=1, approximating Max-Cut within alpha is NP-hard even for simple unweighted graphs. More precisely, for fixed rational 0<t<1 and 0<epsilon<(t-B(t))/4, B(t)=2 arcsin(t)/pi, distinguishing rational-edge-distribution graphs with value >=(1+t)/2-epsilon from value <=(1+B(t))/2+epsilon is NP-hard. The claimed result is unconditional; Unique Games is historical context, while the argument uses the published imperfect-completeness 2-to-1 game construction and Majority Is Stablest.",
+    "proof_architecture": [
+      "Derive a source game with surjective binary affine projections of fiber size two and quantifier order forall soundness b, exists alphabet n(b), forall completeness error a. Appendix A repairs validity sampling by conditioning, completes linear tables, proves an invariant-list statement respecting the equation span, and uses tagged quotient lists to keep the second-player loss independent of the repetition ambient dimension.",
+      "Represent each source label by a long-code dictator generated by a 2s-ary tree. Gate monomials select one child in every pair; the random slice exploration selects both children of one pair. Their exact-one intersection makes every monomial acquire precisely one t factor. Row smoothing gives correlation t r^(2d), d=s^m.",
+      "For an arbitrary cut, split even and odd parts. After conditional edge averaging and row noise, the odd part is balanced on the selected slice tables. The cut equals one half plus half odd stability minus half even stability; exceeding the soundness threshold therefore exceeds the Gaussian B(t) threshold.",
+      "Majority Is Stablest supplies a low-degree influential entry. Word-preserving row symmetries impose a common child-pair Fourier sum; smoothing and depth averaging make the local unsplit projection cheap. Gate parity forces the odd common sum to be an actual evaluation label. Free generator shifts turn coefficients into translated table arrays.",
+      "A Hilbert-vector affine hashing lemma, proved by Fourier inversion, two truncations, pair/triple independence and a fourth-moment common-character identity, shows diffuse label masses cannot cause a large maximum entry influence. This yields a label with conditional mass >=theta on an event of probability >=p*, independent of alphabet dimension.",
+      "Remove smoothing by convexity. Plant zero coefficient blocks in a uniform hidden product coordinate, using the binomial density Z/(Tp0) to bound total variation. That coordinate permits the left endpoint to lift the fixed context without seeing the unknown projection. Only 2s free shifts cross a codimension-one restriction, at mass loss 2^(2s); randomized compatible labelers yield source value >=2^(-2s)p*theta/2.",
+      "Choose parameters (t,epsilon,mu) then (s,m,p*,theta), then b, n, T, and a. The dimension-free loss permits this noncircular order. Enumerate the constant word-generation spaces for an explicit rational graph. A finite-field dot-product graph approximates every intercluster rectangle and hence every cut; deleting loops on the original scale and converting weights gives the simple-unweighted result."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Complementary traversals can force every surviving monomial to meet a chosen test exactly once.",
+        "precise_hypotheses": "A rooted tree with s pairs of children per gate; each monomial uses one child in every pair, while the slice traversal follows both children of one pair. The gate Walsh expansion must preserve this support rule at every reached node.",
+        "mechanism": "Induct from the root: the shared part is exactly one child at each step, so at every slice depth there is exactly one shared gate. Correlation or sign change applied at the slice therefore gives one scalar factor on every monomial rather than a factor depending on occupancy.",
+        "possible_bridge": "When designing selected-row common bases or determinant expansions, seek paired support choices whose transversals meet every surviving permutation in a fixed number of positions. A single controlled entry factor could then be inserted without the usual uncontrolled multiplicity.",
+        "missing_step": "The source is a Boolean tree, not a matrix determinant. One must construct actual row/column supports, prove the desired common-basis/noncancellation statement over Q(Z), and account for integer heights. Exact-one intersection alone does not imply any determinant is nonzero.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/tree.tex",
+            "line": 62,
+            "label": "lem:tree-correlation"
+          }
+        ]
+      },
+      {
+        "idea": "Use weighted growth surplus, rather than counting local bad events independently.",
+        "precise_hypotheses": "Fourier indices satisfy q_v=q_(g0)+q_(g1) for every pair. N_j counts nonzero node indices; a split failure at depth j creates surplus nonzero children. The slice inclusion probability is s^(-j), and smoothing weights are r^(2|C|) with r=1-mu/d.",
+        "mechanism": "B_j <= N_(j+1)-sN_j telescopes after multiplication by s^(-j). The terminal count is |C|, and x exp(-2mu x)<=1/(2e mu) converts its weighted contribution into s/(2e m mu). No union bound proportional to all tree nodes is needed.",
+        "possible_bridge": "For quadratic occupancy or column-height budgets, try a scale-weighted surplus identity in which a local bad signature forces additional future support or rank. Telescoping may charge each obstruction to terminal support only once.",
+        "missing_step": "Needs a genuine monotone branching/rank surplus for the target matrix family; cancellations in determinant or Q(Z) rank do not automatically satisfy this count recurrence.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/tree_fourier.tex",
+            "line": 117,
+            "label": "lem:unsplit"
+          }
+        ]
+      },
+      {
+        "idea": "Dimension-free fourth-moment hashing turns diffuse coefficient mass into a bound on the worst local concentration.",
+        "precise_hypotheses": "c(q,z) belongs to a real Hilbert space, q ranges over H*, z over F_2^s; independent uniform affine shifts L,J_1,...,J_s; w_q=sum_z||c(q,z)||^2 and max_q w_q<=gamma M. Constants depend on desired zeta alone, not dimension H or the Hilbert space.",
+        "mechanism": "Fourier inversion gives samples A_p(L+sum p_g J_g). Two truncations control large m_p and large pointwise A_p. In the nondegenerate fourth moment character orthogonality forces all four q equal, giving sum_q(w_q)^2. Degenerate p configurations cost O(2^(-s)).",
+        "possible_bridge": "A possible interface to quadratic occupancy is to represent crowded row/column signatures by Hilbert-vector coefficient masses, then bound the maximum hash-bin concentration through a collision square-sum instead of paying alphabet size. This could preserve a height budget while selecting a useful signature.",
+        "missing_step": "Target arithmetic coefficients need a valid character action and vector norm, with actual independent shifts; no theorem here controls integer determinant cancellation or supplies a Q(Z)-basis. Translating occupancy into w_q is an unproved design task.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/hashing.tex",
+            "line": 11,
+            "label": "lem:hashing"
+          },
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/hashing.tex",
+            "line": 185,
+            "label": "eq:hashing-common-character"
+          }
+        ]
+      },
+      {
+        "idea": "Localize the comparison to finitely many free coordinates before crossing an unknown quotient.",
+        "precise_hypotheses": "An affine two-to-one projection induces codimension-one row-space inclusion; the context is independent of the hidden marked coordinate because all its linear coefficients there vanish. Only 2s free shifts remain; their Fourier support has a common pair sum. The mark is hidden among T independent candidate coordinates.",
+        "mechanism": "Restriction adds at most 2^(2s) Fourier coefficients per index. Cauchy–Schwarz then costs 2^(2s), independent of the full alphabet dimension. Planting has density Z/(Tp0) and TV <=(1/2)sqrt((1-p0)/(Tp0)).",
+        "possible_bridge": "For selected-row common bases, factor the ambient context from a bounded local block before making a restriction or quotient comparison. A loss depending on the active block rather than total symbolic dimension may avoid circular choices between rank, height and source parameters.",
+        "missing_step": "Requires a concrete locally free block and an applicable restriction identity. Planting increases product size enormously and has no immediate integer-height analogue; the target still needs a same-determinant nonvanishing/upper-bound argument.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/decoding.tex",
+            "line": 119,
+            "label": "lem:planting"
+          },
+          {
+            "path": "preprints/A-Direct-Proof-of-Optimal-Max-Cut-Hardness-September-23-2026/build/sections/decoding.tex",
+            "line": 186,
+            "label": "lem:restriction"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "Reading is not independent validation of the claimed unconditional Max-Cut threshold. In particular, the affine-game derivation invokes substantial external Grassmann agreement, covering and list theorems; their exact hypotheses and the revised quotient-list adaptation were read as stated but not independently verified against those publications.",
+      "Full cached source closure includes both appendices, the included figure and bibliography. No PDF compilation or page-by-page PDF comparison was performed.",
+      "The target pi BA/nonBA problem receives construction interfaces only. None of these mechanisms supplies a nonzero integer determinant of absolute value less than one, a proof of symbolic rank over Q(Z), a selected-row common basis, or a quantitative height inequality.",
+      "The large constants are allowed to be fixed with the approximation gap; polynomial-time statements are asymptotic in the source instance, not practical constructions."
+    ],
+    "scope_note": "Complete nonselective line-by-line source read of README, main, all nine body files, both appendices, embedded figure and references. All fifteen cached source blobs have exact pinned Git blob SHA. Recursive TeX include/bibliography audit resolves every inclusion, and the tree contains no other source appendix. No independent theorem validation is claimed."
+  },
+  {
+    "position": 31,
+    "family_id": "305",
+    "title": "A boundary-only obstruction to four-dimensional disk embedding",
+    "pdf_path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "2c032ef136eb5369bc6dd77b9206eac47efbc655",
+    "source_files": [
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/README.md",
+        "sha": "c25377f9f8cb4994b8690cf711624fd367acd63f",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/README.md",
+        "source_bytes": 676,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-graph.tex",
+        "sha": "5adc1c0758e56430ea1513a69e90b3ce38992ff6",
+        "total_lines": 25,
+        "read_ranges": [
+          [
+            1,
+            25
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/figures/geometry-graph.tex",
+        "source_bytes": 1213,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-ribbon.tex",
+        "sha": "f6eab267eec2dd9990d5336424c800d670f59e6c",
+        "total_lines": 25,
+        "read_ranges": [
+          [
+            1,
+            25
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/figures/geometry-ribbon.tex",
+        "source_bytes": 1052,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/figures/geometry-stages.tex",
+        "sha": "7829bbfe27cf6cc6d827dc8cad22864ae88df801",
+        "total_lines": 38,
+        "read_ranges": [
+          [
+            1,
+            38
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/figures/geometry-stages.tex",
+        "source_bytes": 1711,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/paper.tex",
+        "sha": "bb8157bc7b742874efc57d7d7a3210b880f432b3",
+        "total_lines": 69,
+        "read_ranges": [
+          [
+            1,
+            69
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/paper.tex",
+        "source_bytes": 2518,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/references.bib",
+        "sha": "e81821c72781a5a0ab6cc716269b74ecf1acfb47",
+        "total_lines": 244,
+        "read_ranges": [
+          [
+            1,
+            244
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/references.bib",
+        "source_bytes": 7988,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+        "sha": "275cbf524c642bec16e5d1cc73feb2ea211a8f2e",
+        "total_lines": 724,
+        "read_ranges": [
+          [
+            1,
+            724
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/algebra.tex",
+        "source_bytes": 31371,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/conclusion.tex",
+        "sha": "9c823dc516245baa993c01065219de0fd8a153aa",
+        "total_lines": 30,
+        "read_ranges": [
+          [
+            1,
+            30
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/conclusion.tex",
+        "source_bytes": 1537,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/connections.tex",
+        "sha": "3c27349a7b0c91c02ba4836200bfbd33fa98e013",
+        "total_lines": 919,
+        "read_ranges": [
+          [
+            1,
+            919
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/connections.tex",
+        "source_bytes": 37808,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/deformation.tex",
+        "sha": "2f2c194cf3d1273f4913dca0b7192b0e4577f132",
+        "total_lines": 551,
+        "read_ranges": [
+          [
+            1,
+            551
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/deformation.tex",
+        "source_bytes": 23724,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+        "sha": "2d0b9ff2f211be74be7a5a80f6b2ba61249265d5",
+        "total_lines": 738,
+        "read_ranges": [
+          [
+            1,
+            738
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/frobenius.tex",
+        "source_bytes": 31315,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/geometry.tex",
+        "sha": "50bbc0170b4f1dbd07e6b75c30b57ccc07c1cc46",
+        "total_lines": 762,
+        "read_ranges": [
+          [
+            1,
+            762
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/geometry.tex",
+        "source_bytes": 38182,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/introduction.tex",
+        "sha": "4d76dd856eae01c0c1dac90362daa815f8112b97",
+        "total_lines": 303,
+        "read_ranges": [
+          [
+            1,
+            303
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/31/build/sections/introduction.tex",
+        "source_bytes": 17992,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "terminal_LF_handling": "apply_patch terminal LF stripped only when removal exactly matched pinned Git blob SHA"
+    },
+    "sections_read": [
+      "Introduction: exact boundary-only disc-embedding claim, Wall conventions, goodness/F2 consequence and surgery/s-cobordism conjunction",
+      "Finite geometry: Hopf product-ball gluing, graph/peripheral groups, finite triple-commutator list, full ribbon-framing proof, simultaneous cap/body lanes, exterior, both compressions, exact Wall-label cancellation, topological protected-disc homotopy extension and smooth cuts",
+      "Deformations: paired two-sheeted Mayer–Vietoris maps, torus slopes, internal cohomology directions, finite minimal-defect equation charts including arbitrary GL lifts, based wall restrictions, explicit finite adjoint spanning and Nakayama cubic nilpotence",
+      "Connections: image-idempotent bundle, exact frame/inverse expressions, polarized collar connections, full Chern–Simons variation, derivative-ideal equality via small-extension obstruction, square-ideal value via closed-boundary gluing/Stokes, fixed-ring algebraic control of every gradient jet and both cubic laws",
+      "Algebra: formal-arc detection, complete proof of primitive replacement for arbitrary ideal powers including embedded primary components and shifted Taylor modules, ninth-order preservation, algebraic membership witnesses, one finite coefficient ring, denominator-free remainders, exact formal graph correction, witness transport and positive-characteristic specialization",
+      "Frobenius–Koszul obstruction: coordinate Frobenius quotient and two differentials, normal-cycle and explicit membership primitive, nonzero residue pairing, chain retraction/homotopy, tensor joint-kernel formula, selection of three liftable factors, all eight mixed terms of cycle lift, moving graph and inverse-coordinate Frobenius quotient, same-complex annihilation of a unit pairing",
+      "Final main-theorem assembly; all three included TikZ diagrams and complete bibliography"
+    ],
+    "claim_as_stated": "The paper claims a compact connected oriented smooth four-manifold M and finitely many proper generically immersed discs f_i with mutually disjoint embedded boundary circles, together with individually embedded framed spheres g_i, such that lambda(f_i,g_j)=delta_ij*1 in Z[pi_1(M)], lambda(g_i,g_j)=0 and reduced Wall mu(g_i)=0, yet those boundary circles bound no pairwise disjoint proper locally flat discs. No prospective disc homotopy class, output framing or output dual is required. It deduces that F_2 and every group containing F_2 are not good, without claiming pi_1(M)=F_2, and that unrestricted topological surgery and five-dimensional s-cobordism cannot both hold.",
+    "proof_architecture": [
+      "Build G from a four-dimensional one-handlebody V and d Hopf product balls P_e. Its graph homotopy type retains h_0,h_+,h_- and new q_e loops while killing two end generators per ball; the Hopf collar interchanges longitude and meridian. Embed finite capped stages for every [z_a^c1,[z_b^c2,z_c^c3]], with independent length<=5 conjugators and repetitions. Delete only base tubes to obtain M. Shallow caps give f_r; two ordered compressions of a product torus give individually embedded framed g_r. The unused y-cap kills comparison loops in the actual exterior M, ensuring equal Wall labels and cancellation, not merely opposite signs in the ambient G.",
+      "A hypothetical arbitrary locally flat boundary filling lets the graph map move its protected disc images into the h-subrose, using pi_2(graph)=0 and an ANR neighborhood homotopy extension. Regular levels away from those compact images supply smooth three-dimensional cuts with one torus boundary each. Cutting G gives X, possibly disconnected; the actual filled base relations lie in X_Q. No smoothing or relative-homotopy replacement of the hypothetical discs is used.",
+      "For the adjoint SL_2 local system with diagonal/unipotent reference h-holonomies, the two-sheeted graph cover gives a paired restriction map onto in H1 and an isomorphism in H2. The peripheral slope swap then yields coordinates (a,t), wall coordinates (a_i,y_i), restrictions (a_i,Y_i^+) and (0,Y_i^-), and complementary D-dimensional tangent images of Y(0,t) and its block swap.",
+      "Finite transition-cochain charts retain their full nonreduced triangle-defect ideal r in m². A nonzero functional on r/mr gives a one-dimensional square-zero extension with no flat lift. Independently, the finite conjugator adjoints span End(sl_2): diagonal spectral projectors and upper/lower unipotents provide all matrix units. Leading triple commutators force every scalar cubic end-deviation product to vanish modulo m n³, and Nakayama gives n³=0.",
+      "Construct genuine smooth formal bundles from almost-idempotent block matrices and blend local flat frames. Prescribe wall collars U dtheta+V deta and polarized Chern–Simons potentials P_i of cubic order. Relative duality plus paired H2 detects each minimal defect obstruction, proving the exact derivative ideal (partial_C Psi(a,Y))=r. Comparing connections and gauges separately on the closed boundary, then applying Stokes to curvature squared, gives Psi(a,Y) in r². Polarized torus variation places p_i(Y_i^-) in the end-deviation ideal, so both a-triples and p-triples belong to r.",
+      "Control every gradient jet in one fixed smooth complex algebraic chart via finite sums of smooth fiber coefficients times algebraic scalar coefficients. Formal-arc detection and faithfully flat descent of a whole shifted Taylor tuple replace each formal primitive modulo any wall-ideal power, including embedded components. Ninth-order replacement preserves the derivative ideal and square-value identity. Faithful flatness supplies algebraic coefficients witnessing all memberships.",
+      "Choose one finitely generated Z-subalgebra containing the finitely many algebraic presentations, witnesses, and inverse complementary-tangent determinant. A recursion B=-b-B^T H(a,Y,Bv)B, with positive-order H and v=partial_C Psi(a,Y), corrects Y to Y+Bv so Psi vanishes exactly. It uses no degree denominators and transports gradients by an invertible 1+M, hence both membership families. These data specialize to finite fields of arbitrarily large prime characteristic while the tangent determinant stays a unit.",
+      "In the coordinate Frobenius quotient k[[C]]/(C_nu^ell), use delta=dF wedge and the ordinary differential separately. Complementary zero graphs provide closed normal forms alpha,beta with nonzero socle/residue pairing. The p-triple laws annihilate beta in Koszul cohomology. A tensor-kernel formula gives at least d-2 kernel factors; explicit chain retractions replace them by liftable factors while preserving the pairing with alpha. For d>=5 select three. Over B=k[s1,s2,s3]/(s1²,s2²,s3²), their ordered product yields a cycle kappa_s with all eight mixed terms. The moving graph produces alpha_s in the same Frobenius quotient. The a-triple law yields delta_s eta_s=(s1s2s3)alpha_s, whereas the residue pairing b_s=Res(alpha_s wedge kappa_s) is a unit. The boundary-cycle wedge identity forces 0=(s1s2s3)b_s, contradicting the nonzero squarefree basis monomial. Apply this at d=5 to exclude the proposed filling."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Preserve the entire equation ideal through dual detection of its first minimal layer, rather than only its common zero set.",
+        "precise_hypotheses": "A finite good-cover transition chart has defect r contained in m², with a solved linear-defect projection. Every nonzero lambda on r/mr defines a small extension I=r/s with mI=I²=0 that has no compatible flat lift. Internal wall H1(relative) pairs perfectly with wall H2, and the paired H2 restriction map from the vertex is injective.",
+        "mechanism": "If all candidate gradient generators miss a direction of r/mr, evaluate curvature in the corresponding small extension. All wall pairings vanish, duality kills wall curvature classes, and paired H2 injectivity kills the vertex class. Correcting curvature gives an excluded flat lift. Thus the gradients span r/mr and Nakayama upgrades this to exact ideal equality.",
+        "possible_bridge": "For symbolic rank over Q(Z), distinguish an exact ideal/minor membership certificate from numerical vanishing or equality of radicals. A finite dual functional on a minimal defect layer might expose which row relations or determinant generators a proposed common-basis construction is actually missing.",
+        "missing_step": "The needed cohomological pairings and minimal small-extension obstruction are special hypotheses, not automatic for arbitrary matrix rank ideals. This mechanism supplies neither a selected-row common basis nor a quantitative determinant height bound.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/deformation.tex",
+            "line": 210,
+            "label": "def:equation-chart"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/connections.tex",
+            "line": 297,
+            "label": "conn:derivative-ideal"
+          }
+        ]
+      },
+      {
+        "idea": "Descend a compatible whole Taylor tuple, including embedded components, before replacing a formal construction by algebraic data.",
+        "precise_hypotheses": "A is a local etale chart over C, B its power-series completion, K any ideal. Every first derivative of P lies in KB and has representatives in the same A modulo K^bB for every b. This fixed-ring and every-order requirement is essential; K need not be radical or unmixed.",
+        "mechanism": "Formal arcs first force P to be constant modulo radical K. The finite Taylor target is regarded as an A-module through the Taylor shift, so its entire tuple descends via exact completion and faithful flatness to one algebraic P_q. Differential-power tests at every associated prime, including embedded primes, then put the Taylor kernel inside K^m. Ninth-order replacement gives value error in r³ and derivative error in mr, preserving exact generators by Nakayama.",
+        "possible_bridge": "If a symbolic determinant construction arises first as compatible formal coefficient data, whole-tuple descent suggests a way to retain all shared row relations when seeking algebraic witnesses. It also warns against proving separate coordinate approximations without showing they come from one common matrix or primitive.",
+        "missing_step": "This is an existence/descent statement over C, with no effective order or coefficient-height bound. Arithmetic use would require explicit rationality, quantitative denominators, and preservation of the actual same determinant. Arbitrary formal gradients lacking fixed-ring jets do not qualify.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 160,
+            "label": "alg:replacement"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 251,
+            "label": "alg:descent-sequences"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 278,
+            "label": "alg:differential-order"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 368,
+            "label": "alg:replacement-preserves"
+          }
+        ]
+      },
+      {
+        "idea": "Perform exact correction with a denominator-free recursion while transporting every membership witness and preserving a chosen nonzero determinant.",
+        "precise_hypotheses": "Separated potentials have order>=3; v=partial_C Psi(a,Y) has order>=2; the value satisfies Psi(a,Y)=v^T b v with algebraic b; both cubic-law witnesses are algebraic; and Delta=det[J,sigma J] is nonzero. Finitely many algebraic germs admit etale presentations with unit initial Jacobians.",
+        "mechanism": "Place all germs, membership coefficients and Delta^-1 in one finitely generated Z-algebra R. Binomial monomial remainders give H of positive order without factorial denominators. The contraction B=-b-B^T H(a,Y,Bv)B determines coefficients by ring operations. Ytilde=Y+Bv has unchanged linear part; vtilde=(1+M)v with M positive order, so geometric-series inversion transports both membership families. Reduction mod a large prime retains all exact identities and keeps Delta a unit.",
+        "possible_bridge": "This is a useful interface for symbolic Q(Z) rank and nonvanishing: record a particular nonzero minor, explicitly invert its determinant in a common coefficient ring, and carry exact membership certificates through deformations/specializations. The fixed inverse Jacobian avoids an uncontrolled new family of denominators.",
+        "missing_step": "Keeping a determinant a unit after localization is not making a small nonzero integer determinant. R may contain arbitrary complex constants, and this construction gives no magnitude or height control. A pi argument must supply explicit integer/rational data and a numerical cost budget separately.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 449,
+            "label": "alg:finite-ring"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 484,
+            "label": "alg:remainder"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 529,
+            "label": "alg:formal-data"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 578,
+            "label": "alg:matrix-recursion"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/algebra.tex",
+            "line": 617,
+            "label": "alg:witness-transport"
+          }
+        ]
+      },
+      {
+        "idea": "All triple-product annihilations impose a precise at-most-two-active-factor occupancy rule in a tensor product.",
+        "precise_hypotheses": "Finite-dimensional tensor factors V_i over a field; S_i acts only in factor i and as identity elsewhere; N_i=ker S_i. To make factors deformable, each V_i also carries differential D_i and K_i=N_i intersect D_i^-1(N_i). A distinguished class is D-closed and has a nonzero pairing with an ordinary-closed normal cycle.",
+        "mechanism": "Choose complements V_i=N_i direct-sum M_i. Each triple product S_I is injective on its complementary domain with M_i in all I slots, so intersecting all triple kernels leaves only summands with at most two M-slots. Explicit r_i=1-(D_i h_i+h_i D_i) sends N_i to K_i; the signed tensor homotopy preserves the nonzero pairing. With d>=5 one tensor has three liftable positive factors.",
+        "possible_bridge": "The tensor-kernel identity is a concrete algebraic version of a quadratic occupancy restriction. If determinant/signature data factor into independent row or column blocks, all forbidden triple interactions could force a decomposition with only two active blocks and expose a surviving nonzero transversal.",
+        "missing_step": "Actual row/column determinant interactions need not be independent tensor-factor operators. The tensor decomposition, all triple annihilations and compatible pairing must be proved, not inferred from a combinatorial occupancy slogan. The homotopy is essential: an arbitrary projection need not preserve the nonzero certificate.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 241,
+            "label": "frob:retraction"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 287,
+            "label": "frob:tensor-kernel"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 447,
+            "label": "frob:selected-pair"
+          }
+        ]
+      },
+      {
+        "idea": "Construct nonvanishing and annihilation inside one finite complex, then preserve the exact certificate under deformation.",
+        "precise_hypotheses": "Characteristic ell>2; separated Psi=sum(P_i(a_i,C_i+)-P_i(0,C_i-)); an exact zero graph Y and its swapped graph with complementary tangents; both a-triple and p-triple gradient-ideal memberships; at least five blocks. Work in the same coordinate Frobenius quotient and B=k[s1,s2,s3]/(s1²,s2²,s3²).",
+        "mechanism": "Complementary normal cycles pair to a nonzero socle coefficient. Lift a selected tensor cycle with all eight squarefree mixed terms and move the normal cycle using the same complement matrix. The residue b_s reduces to the fixed nonzero b_0, hence is a unit. Explicit contraction of the membership witnesses gives delta_s eta_s=w alpha_s in that exact complex. Pairing with the actual lifted cycle forces w b_s=0 even though w is a nonzero basis monomial.",
+        "possible_bridge": "The proof discipline closely matches a same-determinant contradiction: maintain one explicit nonzero scalar certificate through every transformation, then show that very scalar must vanish or be annihilated. For the pi target, it suggests recording the chosen minor, the surviving coefficient and every normalization explicitly before comparing arithmetic lower and analytic upper bounds.",
+        "missing_step": "The contradiction is annihilation in a finite ring with nilpotents and uses a unit residue, not an Archimedean smallness estimate. Both cubic memberships are separate required inputs; zero graphs or complementary tangents alone do not imply them. No integer determinant or BA/nonBA estimate follows without an additional arithmetic model.",
+        "source_anchors": [
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 135,
+            "label": "frob:normal-cycle"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 491,
+            "label": "frob:common-complex"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 529,
+            "label": "frob:eight-terms"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 657,
+            "label": "frob:w-primitive"
+          },
+          {
+            "path": "preprints/A-boundary-only-obstruction-to-four-dimensional-disk-embedding-September-24-2026/build/sections/frobenius.tex",
+            "line": 698,
+            "label": "frob:unit-reduction"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "This is a complete reading report of a manuscript claiming a major disproof, not independent validation or acceptance of that disproof. The geometric ribbon/stage construction, exact Wall-label cancellation, forced cut-data implication, minimal-defect/flat-lift comparison, fixed-ring algebraic replacement and finite Frobenius obstruction were all read but not independently audited as mathematical proofs.",
+      "External tools include good-group disc embedding and closure properties, ANR/regular-value theory, Poincare–Lefschetz/de Rham duality, Noetherian completion and faithful flatness, normalization/dimension theorems and differential-power criteria. Their cited statements and hypothesis adaptations were not independently reread against the original publications.",
+      "The paper itself stresses that all finite gradient jets lie in one complex algebraic ring, not that arbitrary parameter integrals are algebraic or that the original Chern–Simons series has coefficients in one finitely generated Z-algebra. Only algebraic replacements and finitely selected witnesses are specialized.",
+      "After formal graph correction no representation or geometric realization is asserted. The original end-holonomy cube law is used before correction, then both membership witnesses are transported algebraically; the two membership laws are distinct hypotheses of the finite obstruction.",
+      "No direct pi rational approximants, selected-row common bases, column-height inequality or small nonzero integer determinant is constructed. The arithmetic interfaces are tentative design transfers; existence of a finite coefficient ring or preservation of a localized unit has no effective height bound.",
+      "No PDF rendering or page-by-page comparison was performed. Source closure has no unresolved includes and no separate appendix; all seven body sections, the three included figures and bibliography were read."
+    ],
+    "scope_note": "Complete nonselective line-by-line source reading of README, build/paper.tex, all seven body sections, all three included TikZ files, and references.bib. All thirteen cached source blobs match exact pinned Git blob SHA. Every TeX include and bibliography reference in the source closure resolves; there is no additional source appendix in the pinned tree. Reading is distinct from theorem validation."
+  }
+]

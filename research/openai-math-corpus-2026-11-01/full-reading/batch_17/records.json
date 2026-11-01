@@ -1,0 +1,220 @@
+[
+  {
+    "position": 36,
+    "family_id": "032",
+    "title": "Weil classes and Hodge classes on abelian powers",
+    "pdf_path": "preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/paper.pdf",
+    "directory_tree_sha": "728add2ee9cd4fae3ec28852cdbdc703731190b4",
+    "status": "full_body_read",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "main_source": "preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/build/paper.tex",
+    "source_files": [
+      {
+        "path": "preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/README.md",
+        "sha": "1c3c96e39209c8887d8717be8e9147e06b177249",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/36/README.md",
+        "source_bytes": 788,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/build/paper.tex",
+        "sha": "d154748feaa7775d2488902ca32f5615e5f4dad6",
+        "total_lines": 8285,
+        "read_ranges": [
+          [
+            1,
+            8285
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group4/36/build/paper.tex",
+        "source_bytes": 367971,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README.md 1\u201321: title/date/citation and version note; paper.tex 1\u201348 preamble, abstract and contents.",
+      "Section 1 Introduction, lines 49\u2013239: exact main statements, prior results, precise external CM input, and proof strategy.",
+      "Section 2 Algebraic supply and invariant tensors, lines 240\u2013804: full CM cohomological supply, rational Hodge lifts, scalar coefficient descent, admissible maps and pairings, determinant factorization/cancellation, Hodge-group tensor stabilizer, toric CM factors, simultaneous all-conjugate balance determinant criterion, and correspondence transfer.",
+      "Section 3 Quadratic actions at every period, lines 805\u20131835: compatible polarization averaging, actual homological Hermitian convention, Weil plane, rational hyperbolicity test, CM elliptic padding/extraction, Albert columns and pairings, two-weight minuscule restriction, small projections/list, graph-link independence, and every balanced-determinant case in both main theorem proofs.",
+      "Section 4 Geometric seed, lines 1836\u20133026: Jacobian/Poincare signs and Abel class; simultaneous torsion orbits; trilinear singular-mark bound and elliptic-star degeneration; finite cohomology/base-change models; polarized compact-type smoothing and determinant theta; flat Abel closure; uniform Picard-twist vanishing; fixed Fourier\u2013Mukai kernel, local Tor/product ideals, rank-8d coherent shifted dual; coherent line-twisted action and finite etale graph quotient.",
+      "Section 5 Hochschild evaluation and invariant obstruction space, lines 3027\u20134831: contraction/jet signs, normalized bar\u2013Koszul HKR, universal first-jet exponential, exact trace/evaluation/contraction identity, raw Hodge/Betti Tate factors; enhanced Fourier\u2013Mukai transport via Serre pairings and shift sign; full local-to-global orbit Ext, invariant Ext\u00b2 dimension 48, contraction rank 48, and exact-rank injection on the entire invariant obstruction group.",
+      "Section 6 Spin character and polarized quadratic seed, lines 4832\u20135705: fixed Fourier matrix/source character, exact finite Clifford identity, actual quadratic endomorphism and ample polarization, hyperbolic homological Gram matrix, ordered stabilizer t\u00b2=det g and pointwise SL\u2086, exterior invariants, nonzero normalized Weil component, and Hodge circle at every compatible marked structure.",
+      "Section 7 Descent and deformation, lines 5706\u20137159: perfect-duality signs; determinant-normalized finite-band twisted descent and full derived Ext/trace comparison; rational character; projective representation and ordinary projective-bundle conversion preserving full obstructions; flat Hodge character and extraction; smooth-projective-germ semiregularity, coefficient obstruction group, square-zero lift/Atiyah and Gauss\u2013Manin identity, character of every infinitesimal lift, compatible Quot maps, Artin approximation, and algebraicity of actual fiber characters.",
+      "Section 8 Algebraicity at every compatible period, lines 7160\u20138026: full connected nine-dimensional marked Weil domain; principal level-4 universal family, seed lattice and polarization; flat descended character; local projective extraction; two algebraic generators of rational Weil plane; proper analytic Hilbert spread with singular/nonreduced parameters, local cycle-class constancy, Baire argument; all hyperbolic rational lattices via isogenies; rescaling generator for every imaginary quadratic field.",
+      "Embedded bibliography and document end, lines 8027\u20138285, read in full."
+    ],
+    "claim_as_stated": "Rational Hodge conjecture in all codimensions on every self-power of (i) a complex abelian sixfold with imaginary-quadratic action and compatible polarization whose actual rational homological Hermitian form is hyperbolic of signature (3,3); (ii) a complex abelian variety of dimension at most five admitting an imaginary-quadratic action. Includes nonsimple varieties and special periods; relies on companion CM Hodge-conjecture theorem.",
+    "proof_architecture": [
+      "Tensor reduction (Section 2): define CM-supply using images of the full cohomology of CM abelian sources under rational algebraic correspondences. Supply is stable under products, contractions and correspondences. Polarizable Hodge splitting produces rational Hodge lifts, and the explicitly external CM Hodge theorem algebraizes them. All-conjugate admissibility algebraizes degree-one maps and pairings.",
+      "All-powers determinant criterion (Section 2): the actual derived Hodge image must contain independent standard Sp/SO/SL blocks, plus a toric CM part. Classical invariant spanning reduces all tensor degrees to pairs, CM embedding lines and determinant lines. Finite commuting 0/1 bidegree projections retain only generators balanced after every scalar conjugation. It suffices to CM-supply their determinant products. Antisymmetrization and diagonal pullback return exterior Hodge classes on every power.",
+      "Supply and actual group (Section 3): a balanced rational Hermitian space is hyperbolic iff its determinant class is (-1)^b. For p,q<=3 in dimension <6, pad by CM elliptic factors of chosen signs and tune one positive rational coefficient to obtain actual rank-six hyperbolic form; invoke the Weil-plane theorem and contract away the auxiliary determinants. Full actual endomorphism algebra gives admissible Albert columns; two circle weights force the small minuscule list, and graph-link exclusions establish independent derived images.",
+      "Special-period balance (Section 3): symplectic cases need pairs only; orthogonal volumes and suitable quadratic-center determinants are supplied. Other odd-rank cases have zero net exponent. For higher centers, Galois permutations of fixed imbalance vectors force equal net exponents, leaving the total E-determinant supplied by the preceding construction. These checks include arbitrary repetitions and tensor degree, including noncentral quadratic actions on repeated isogeny factors.",
+      "Geometric seed (Section 4): a compact-type genus-three degeneration has product-polarized elliptic Jacobian and Abel-star support. A 2x2x2 trilinear singular-mark incidence bound yields vanishing for four or more torsion translates, uniformly over degree-zero twists by proper Picard semicontinuity. Flat product ideals have Tor-free tensor and fixed-kernel base change. The Fourier\u2013Mukai pushforward has fiber amplitude [1,2] and generically absent H\u00b2; its shifted dual is an actual rank-8d coherent perfect sheaf. Convolution transports associative line-twisted finite translations and yields a free graph quotient.",
+      "Full obstruction control (Section 5): formal-diagonal bar/Koszul comparison proves exact raw-Hodge identity sigma\u2218o=c with all factorials/signs fixed. Enhanced convolution/Serre trace transports evaluation and character contraction, retaining the [-3] sign. Orbit-ideal local-to-global derived Ext and movable normal directions give invariant Ext\u00b2 dimension 6+36+6=48. Independent factorwise-imbalance contraction images have ranks 6+36+6=48. Inclusion image(o) in invariants and the exact factorization force equality and trace injectivity on the entire invariant obstruction group, not merely on a selected Hochschild image.",
+      "Nonzero Hodge Weil character (Section 6): finite Clifford matrix-unit/symbol calculation proves the fixed transform intertwines the diagonal spin action with a vector action conjugated by exp(p/2). The concrete quadratic endomorphism and actual ample line give an explicitly hyperbolic homological form. Pointwise stabilizer is SL\u2086; its exterior invariants are polarization powers and the Weil plane. The source secant tensor has nontrivial ordered-stabilizer characters, forcing a nonzero Weil component after normalization. Actual polarized Hodge circles lie in this stabilizer at all compatible marked periods.",
+      "Descent and deformation (Section 7): duality preserves invariant obstruction injection with explicit component signs. Determinant normalization makes a finite mu_r-twisted sheaf on the quotient with full derived Ext equal to invariants upstairs. A finite projective representation extends its projective bundle; an inverse-twisted O(1) yields an ordinary coherent sheaf with the same full Ext\u00b2 and semiregularity. Flat Hodge character is preserved through the bundle and later extracted by normalized hyperplane integration. Coefficient semiregularity kills successive square-zero sheaf obstructions via injective base differentiation and the Gauss\u2013Manin square. Every infinitesimal lift has the prescribed character; compatible quotient sections define a formal Quot section, and Artin approximation produces an analytic flat sheaf with central fiber and therefore correct flat fiber character.",
+      "All compatible periods/lattices (Section 8): projective-bundle operations give local algebraicity of a nonzero rational Weil vector, and a quadratic endomorphism with distinct sixth-power eigenvalues supplies a second basis vector. In the fine level family, countably many fixed-coefficient/Hilbert-polynomial parameter products are proper; cycle classes stay locally constant even on singular/nonreduced parameter spaces. A good spanning locus is open/closed, with closed analytic proper image. Baire and connectedness make one image surject onto the entire marked domain. Hyperbolic rational isometry and lattice denominator clearing induce algebraic isogenies to every target; rescaling the imaginary generator removes the temporary d>=3 restriction."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Use all-conjugate balance as an intersection-of-projections mechanism.",
+        "exact_premises": "A finite spanning list of lines in a scalar extension of a rational pure Hodge structure; each line remains pure after every scalar conjugation. Grouping by conjugate Hodge bidegree gives projections with those lines as simultaneous 0/1 eigenlines, hence commuting even when the list is dependent.",
+        "speculative_interface": "For pi-target determinant arguments, seek a finite candidate-minor family and multiple compatible grading tests so that a rational target survives only candidates passing every test. Requires genuine compatible gradings/projections; does not prove a common row basis or integrality/smallness."
+      },
+      {
+        "idea": "Pad to a solvable ambient determinant problem, then extract by nonzero contractions.",
+        "exact_premises": "Imaginary-quadratic action, signature entries p,q<=3, total dimension below six; CM elliptic lines of either sign and freely positive rational polarization rescaling; actual split-sixfold Weil-plane input and perfect opposite pairings.",
+        "speculative_interface": "A rank problem might admit auxiliary columns making a structured block invertible and an exact Schur-complement/contraction returning a target minor. Need preserve integer lattice and prove the exact same returned minor is nonzero and small; ambient existence alone supplies neither."
+      },
+      {
+        "idea": "Occupancy obstruction via incidence counts rather than a genericity assertion.",
+        "exact_premises": "Nonzero trilinear 2x2x2 tensor and a finite indexed set of projective triples with at most two indices in each coordinate fiber. Its three partial contractions vanish at no more than three indices; degeneration applies with coordinate-injective finite subgroup of at least four elements.",
+        "speculative_interface": "Distant possible interface to quadratic occupancy: classify low-rank degeneracies, identify marked-coordinate fibers, and count necessary incidences. Current lemma concerns trilinear contractions over characteristic zero, not target quadratic height occupancy; an exact encoding would be needed."
+      },
+      {
+        "idea": "Promote a witnessed image to a full obstruction space by exact rank matching.",
+        "exact_premises": "Maps o:U\u2192W and \u03c3:W\u2192T, exact identity \u03c3o=c, proved inclusion image(o)\u2282W_inv, proved dim(W_inv)=48 and rank(c)=48. Therefore image(o)=W_inv, kernels(o)=kernels(c), and \u03c3 is injective on all W_inv. Distinct factorwise Hodge-imbalance summands prove ranks 6+36+6 add without cancellation.",
+        "speculative_interface": "For a target rank argument, a structured witness subspace and exact factorization can certify that no omitted directions remain, provided an independent dimension upper bound matches a demonstrated rank lower bound. This is a linear-algebra template, not itself a Q(Z) rank theorem or a same-minor nonzero/small construction."
+      },
+      {
+        "idea": "Force a nonzero exceptional component by comparing pointwise and ordered stabilizers.",
+        "exact_premises": "An invertible finite transform phi prime intertwines a source diagonal spin action with exp(p/2)\u039brho exp(-p/2). Pointwise stabilizer J=SL\u2086 has invariants only polarization powers and a two-line Weil component; the larger ordered stabilizer has characters t\u00b2,t^-\u00b2 on those lines. The source secant tensor has nonzero square components carrying these nontrivial characters. Normalization N(alpha)=exp(-alpha_1/alpha_0)alpha removes degree-two twists equivariantly.",
+        "speculative_interface": "For a target determinant, find an exact invertible transform and a larger symmetry that fixes every candidate degenerate/small-complexity component but provably moves the original witness. This may force escape/nonvanishing. To reach the pi target one still needs a concrete integer determinant and a quantitative bound for that same determinant; no such transform or bound is supplied here."
+      },
+      {
+        "idea": "Obtain a rational two-vector basis from one nonzero vector by spectral separation.",
+        "exact_premises": "A rational plane splits over an imaginary quadratic field into two conjugate eigenspaces. A nonzero rational vector has both components nonzero. Choose a rational-field endomorphism k=1+tu whose sixth-power eigenvalues are distinct, excluding finitely many rational t; w and k*w have nonzero determinant in that eigenbasis. Clearing the endomorphism denominator makes both operations algebraic.",
+        "speculative_interface": "This is an exact same-witness nonvanishing mechanism: construct a second row/column via an allowed operator with distinct eigenvalues and compute their 2x2 determinant. It could help a common-basis problem only if the target family has such a rational invariant two-plane and allowed operator. No uniform height bound follows from merely avoiding finitely many t, and the target currently lacks those premises."
+      },
+      {
+        "idea": "Propagate a finite-dimensional supply property using countable proper parameter spaces.",
+        "exact_premises": "A smooth projective algebraic family pulled holomorphically to a connected complex manifold; a finite-rank rational local subsystem; its full fiber algebraic on a nonempty analytic open. Fixed rational coefficients and Hilbert polynomials give countably many proper Hilbert products. Universal cycle classes are locally constant; good spanning loci are open/closed and have closed analytic images. Baire forces one image to be the entire domain.",
+        "speculative_interface": "A distant template for converting local realizability into uniform existence when witnesses have proper finite-type parameter spaces and countable complexity labels. For row common bases or bounded-height determinants one must actually construct the proper witness spaces and locally constant rank data. Ordinary nonzero-minor open loci need not be proper or closed, so this argument does not transfer automatically and supplies no explicit height constants."
+      }
+    ],
+    "limits": [
+      "This is a complete source-body reading, not independent mathematical validity certification. The cited literature, correctness of all cited locator statements, and the companion CM theorem were not independently checked.",
+      "The all-powers conclusions explicitly use Theorem 1.1 of the companion The rational Hodge conjecture for CM abelian varieties (October 6, 2026). CM supply concerns full CM cohomology; the external theorem is applied only after rational Hodge lifting.",
+      "The sixfold hypothesis concerns the actual compatible polarization\u2019s rational homological Hermitian form being hyperbolic. Signature (3,3) alone is not substituted. Proper isotypic summands of a hyperbolic form are not presumed hyperbolic; smaller-signature padding uses its separate lemma.",
+      "Dimension <=5 requires an imaginary-quadratic action, although the introduction cites a stronger individual-variety external result. This paper proves all self-powers for its stated families. The saturated A\u00d7M extension is a separate criterion and is not asserted for every special-period datum without its singleton supply premise.",
+      "The geometric Weil-plane treatment follows Markman\u2019s secant-sheaf and spin method and does not claim extension of its period range. Actual derived obstruction groups, coherent actions and perfect traces are retained; ordinary endomorphism-sheaf cohomology is not substituted for derived Ext.",
+      "The deformation theorem is restricted to ordinary coherent sheaves on a smooth projective analytic germ with full selected semiregularity injection and prescribed flat filtered Chern classes. The proof constructs an analytic flat sheaf retaining the central quotient, and Artin approximation need not preserve the entire chosen formal tower.",
+      "Local-to-global spread depends on algebraic projective parameter spaces, countability, locally constant cycle classes, properness and a connected complex-manifold base; it is an existence argument with no explicit effective height, degree or small-parameter bound.",
+      "No direct pi-target contradiction was obtained. The reading supplies no Q(Z) rank theorem, common row basis, quadratic occupancy estimate, or integer determinant simultaneously proved nonzero and below one. Suggested bridges are explicitly speculative and list missing premises.",
+      "The local source closure consists of README and monolithic TeX, including all embedded references; no external cited manuscript was recursively read and no PDF rendering/byte comparison was performed."
+    ],
+    "scope_note": "All 21 README lines and all 8285 monolithic paper.tex lines were actually read sequentially in untruncated chunks, including every proof, the full geometric/deformation continuation, and embedded bibliography. Cached exact bytes match Git blob SHAs in the untruncated recursive directory tree at upstream commit 4eaee87548250b2682affda7d05d947c05554bae. Source mapping and local source closure are complete; this is reading coverage, not independent proof verification. External cited works and PDF rendering are outside this reading.",
+    "repository": "openai/math",
+    "read_date": "2026-11-01",
+    "source_include_edges": [],
+    "mapping_evidence": {
+      "queue": "research/openai-math-corpus-2026-11-01/full-reading/queue.json",
+      "queue_position": 36,
+      "recursive_directory_tree_cache": "source_context/round02_trees.json",
+      "tree_entry_key": "36",
+      "directory_tree_sha": "728add2ee9cd4fae3ec28852cdbdc703731190b4",
+      "tree_truncated": false,
+      "source_inventory": "Recursive directory tree has README.md, build/paper.tex and paper.pdf only. No input/include/includegraphics/external bibliography source dependencies occur in monolithic paper.tex. References are embedded at lines 8027\u20138284.",
+      "pdf_source_mapping": "Unique monolithic build/paper.tex has matching title/date and the bibliography; README links paper.pdf. PDF bytes/rendering were not read."
+    },
+    "source_byte_audit": {
+      "method": "Git blob SHA-1 over exact bytes: sha1(b\"blob \"+decimal_length+b\"\\0\"+bytes), matched to recursive directory-tree blob SHA",
+      "files_verified": 2,
+      "source_bytes": 368759,
+      "source_lines": 8306,
+      "main_source_lines": 8285,
+      "read_chunk_ranges": [
+        [
+          1,
+          330
+        ],
+        [
+          331,
+          800
+        ],
+        [
+          801,
+          1270
+        ],
+        [
+          1271,
+          1750
+        ],
+        [
+          1751,
+          2230
+        ],
+        [
+          2231,
+          2700
+        ],
+        [
+          2701,
+          3170
+        ],
+        [
+          3171,
+          3640
+        ],
+        [
+          3641,
+          4120
+        ],
+        [
+          4121,
+          4610
+        ],
+        [
+          4611,
+          5080
+        ],
+        [
+          5081,
+          5550
+        ],
+        [
+          5551,
+          6010
+        ],
+        [
+          6011,
+          6470
+        ],
+        [
+          6471,
+          6940
+        ],
+        [
+          6941,
+          7410
+        ],
+        [
+          7411,
+          7870
+        ],
+        [
+          7871,
+          8285
+        ]
+      ],
+      "tool_outputs_truncated": false,
+      "readme_read_range": [
+        1,
+        21
+      ]
+    }
+  }
+]

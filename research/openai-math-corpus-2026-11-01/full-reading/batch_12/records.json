@@ -1,0 +1,720 @@
+[
+  {
+    "position": 24,
+    "family_id": "156",
+    "title": "A nine-dimensional counterexample to Borsuk's covering assertion",
+    "pdf_path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "main_source": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "e5a4cdbfe34637541cc0ce3ec6684df2884cc022",
+    "source_files": [
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/README.md",
+        "sha": "0e86c962afd1aed80fdcd9e905dcae1901e1bc97",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/README.md",
+        "source_bytes": 677,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/figures/partner-blocks.tex",
+        "sha": "4f0edf92867d0694abe9b6197fbc862a28837f45",
+        "total_lines": 38,
+        "read_ranges": [
+          [
+            1,
+            38
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/figures/partner-blocks.tex",
+        "source_bytes": 1840,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/figures/partner-links.tex",
+        "sha": "a079792224a7736de2da1322144e24d977144709",
+        "total_lines": 31,
+        "read_ranges": [
+          [
+            1,
+            31
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/figures/partner-links.tex",
+        "source_bytes": 1282,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/figures/six-label-paths.tex",
+        "sha": "9944d53d60d78b25314fbfd2d8759af918468b6a",
+        "total_lines": 45,
+        "read_ranges": [
+          [
+            1,
+            45
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/figures/six-label-paths.tex",
+        "source_bytes": 1889,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/main.tex",
+        "sha": "7f8e2cd358acaaed419d9ea9959e123adee1894e",
+        "total_lines": 29,
+        "read_ranges": [
+          [
+            1,
+            29
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/main.tex",
+        "source_bytes": 827,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/preamble.tex",
+        "sha": "e49fd1bb06ad59b57ac748bc3a518337f4bcd58d",
+        "total_lines": 27,
+        "read_ranges": [
+          [
+            1,
+            27
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/preamble.tex",
+        "source_bytes": 1032,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/references.bib",
+        "sha": "ce92bf89811a95d64bd37339bb6a874dfd5da808",
+        "total_lines": 212,
+        "read_ranges": [
+          [
+            1,
+            212
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/references.bib",
+        "source_bytes": 6303,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/conclusion.tex",
+        "sha": "b396e98c0a26b7d6b5ffa7692f05654ec1b8461b",
+        "total_lines": 58,
+        "read_ranges": [
+          [
+            1,
+            58
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/conclusion.tex",
+        "source_bytes": 2353,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/extension.tex",
+        "sha": "039529b72d230c33ff07444320fba5b190d9fe64",
+        "total_lines": 185,
+        "read_ranges": [
+          [
+            1,
+            185
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/extension.tex",
+        "source_bytes": 8138,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/geometry.tex",
+        "sha": "be19e1b78a734f1615427084a69672370815b4ca",
+        "total_lines": 139,
+        "read_ranges": [
+          [
+            1,
+            139
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/geometry.tex",
+        "source_bytes": 5882,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/introduction.tex",
+        "sha": "3c1266abbd6033bcb5fe2a7d18d3589678bd5d0c",
+        "total_lines": 121,
+        "read_ranges": [
+          [
+            1,
+            121
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/introduction.tex",
+        "source_bytes": 6585,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/six-labels.tex",
+        "sha": "002ebac99b637e96ecbd850f39f9ab6ddae02cf2",
+        "total_lines": 102,
+        "read_ranges": [
+          [
+            1,
+            102
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/six-labels.tex",
+        "source_bytes": 4733,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+        "sha": "6380e0c510183b5548fed3786975ce6a2e71dbad",
+        "total_lines": 216,
+        "read_ranges": [
+          [
+            1,
+            216
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/ten-labels.tex",
+        "source_bytes": 9065,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+        "sha": "b68e9e528ac8218c76adc7734dfdcac158d8edf0",
+        "total_lines": 312,
+        "read_ranges": [
+          [
+            1,
+            312
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/24/build/sections/topology.tex",
+        "source_bytes": 13726,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "source_include_edges": [
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/preamble.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/introduction.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/geometry.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/extension.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/topology.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/six-labels.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/ten-labels.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/conclusion.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "bibliography",
+        "to": "build/references.bib"
+      },
+      {
+        "from": "build/sections/ten-labels.tex",
+        "kind": "input",
+        "to": "build/figures/partner-links.tex"
+      },
+      {
+        "from": "build/sections/ten-labels.tex",
+        "kind": "input",
+        "to": "build/figures/partner-blocks.tex"
+      },
+      {
+        "from": "build/sections/six-labels.tex",
+        "kind": "input",
+        "to": "build/figures/six-label-paths.tex"
+      }
+    ],
+    "sections_read": [
+      "README、main 与 preamble；Introduction 的主定理、历史和证明路线",
+      "From diameter covers to projective maps：projector Frobenius 距离、严格间隙开覆盖、smooth admissible map、support complex",
+      "An extension to symmetric matrices：PSD 积分、子空间相容性、positive/negative spectral support 与 odd norm-sphere map",
+      "The equality case gives a simplicial cycle：标签下界、局部 degree 计数、affine-chart sphere bundle、projective double cover、facet cycle",
+      "Triangle systems on six labels：互补三元组、每边两三角形、五圈 link、受限 link 不同与五标签唯一恢复",
+      "The obstruction on ten labels：facet complement、exchange transport、三角形恰两延拓、edge link 长度 3/4、partner blocks 与最终矛盾",
+      "The diameter obstruction：主定理闭合及 I_s+(1/4)11^T Gram 矩阵的高维扩张",
+      "全部三个内嵌 TikZ 图及完整 references.bib；无附录或剩余正文输入"
+    ],
+    "claim_as_stated": "X={uu^T: u∈R^4, ||u||=1} 位于 trace-one symmetric 4×4 矩阵的九维 Euclidean affine space，在 Frobenius metric 中 diameter=√2，不能由十个 diameter 严格小于 √2 的子集覆盖。因此 Borsuk 覆盖断言在维数九失败；另构造每个 d≥9 的紧反例。文章不确定最小失败维数或 b(X) 的精确值，见证为完整 RP^3 projector image。",
+    "proof_architecture": [
+      "||P_x-P_y||_F²=2−2<u,v>² 将直径对精确等同正交线。严格小直径使任意覆盖可扩大为仍避正交对的相对开覆盖，再由 partition of unity 产生非负、和为一、正交线 support 不交的 smooth f。",
+      "对 PSD Q 定义 E(Q)=k∫||Q^{1/2}u||² f([Q^{1/2}u])dμ；其 coordinate support 恰为 range(Q) 所有线的标签并，sum E=tr Q，且对子空间限制相容。F(A)=E(A+)−E(A−) 无坐标抵消，||F(A)||_1=tr|A|，给 Sym_k trace-norm sphere 到 label ℓ1 sphere 的 odd map。",
+      "Borsuk–Ulam/odd degree 给 m≥N_k=k(k+1)/2；m=N_k 时 odd self-map degree 为一 mod2、surjective，并逼出 support complex 全部边。",
+      "对任意最大 support I，正交补标签下界先给 |I|≤k。规则值 level set L 位于一个 affine projective chart；在 x⊥ 的 symmetric sphere bundle 上比较局部 preimage count 与 F，得到奇数。chart trivialization 使其 projective bundle double-cover class 纯来自 fiber，若 dim L>0 顶维 pullback 消失，degree 为零，矛盾。因此所有 facets 大小 k，局部奇数系数给 facets 总和为 F2 cycle。",
+      "k=3,m=6 时互补 triples 不能同时出现；全部边且每边正偶数 incidence 逼出恰十个三角形、每边恰两次；每点 link 为五圈，任何五标签唯一决定系统，任何两点的三标签受限 links 不同。",
+      "k=4,m=10 时每个 tetrahedron complement 恰带六标签系统。相邻 tetrahedron 的交换 transport 若有三个共同 triangle 延拓会产生不允许的 transposition；故每 triangle 恰两个延拓。长 edge-link 路径同样产生受限 links 相等矛盾，故 links 仅三圈/四圈。",
+      "相邻 facet 的 partner 交换保持 blocks，枚举每 block 恰略一元素的 facets；任意 facet 必在某 block 占至少二点。计数剩余标签迫使 blocks 大小 3,2,2、外部 R 大小三；六标签系统的一条 R-R edge 强迫涉及二元素 block 的 triangle，但该 triangle 仅能有一个 tetrahedral 延拓，与恰两次矛盾。最后用 Gram I_s+(1/4)11^T 添加彼此及距原集合均为 √2 的点推广。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "由非负坐标与正交 support 分离构造不发生抵消的 signed matrix extension。",
+        "precise_hypotheses": "V=R^k,k≥2；smooth f:P(V)→R^m 满足 f_i≥0、Σf_i=1，且 x⊥y⇒S(x)∩S(y)=∅。PSD 延拓必须用 k 倍 rotation-invariant sphere probability integral；对 symmetric A 的 A+、A− spectral ranges 正交。",
+        "mechanism": "积分保 trace、精确保 range 上所有标签的并，并对子空间限制相容。两个正锥输出 supports 不交，因此 subtraction 的 ℓ1 norm 恰为 tr|A|，不是仅有上界；其 nonzero coordinates 还检测输入 nonsingularity。",
+        "possible_bridge": "对 pi 项目可尝试把 candidate row-transversal 的 incidence/signature 数据嵌入 PSD/Gram lifting，让 quadratic occupancy cost 变成 trace/Frobenius quantity，并寻求按 orthogonal blocks 分解后没有 cancellation 的量。该构造也提示对 Q(Z) 的形式秩，先证明精确 support 性质再取范数估计。",
+        "missing_step": "pi 行/列 supports 尚未给满足正交分离的 smooth partition；trace norm identity 不能推出一个指定 integer determinant 非零，Gram lifting 还可能平方 height 或增维。需要独立证明所构造 determinant 与上下界使用的是同一整数。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/extension.tex",
+            "line": 25,
+            "label": "label{lem:positive-extension}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/extension.tex",
+            "line": 112,
+            "label": "label{lem:signed-extension}"
+          }
+        ]
+      },
+      {
+        "idea": "阈值处把全局奇偶 obstruction 提升成每个 maximal support 的纯度及 cycle 系数。",
+        "precise_hypotheses": "k≥3、m=N_k，并有上述 smooth admissible map。对 maximal I，U_I 全部 supports 恰为 I，且落在由某 witness x0 定义的 affine chart；其 orthogonal-complement bundle 在该 chart 平凡。取 f_I 的规则值以及负 orthant 的规则值，局部 source/target 维数均须相等。",
+        "mechanism": "F 的 odd mod2 degree 给 sphere-bundle map 的奇 preimage count；若 level set L 正维，quotient map 拉回 cover class 为 pr_2*u，故顶维 cohomology 为零，得偶 count 矛盾。dim L=0 时每 fiber odd degree 给每 facet 系数一，从而 facets 总和为 cycle。",
+        "possible_bridge": "这是由全局存在性结构推出所有局部候选的强限制的例子；若 Q(Z) 存活 transversals 能成为某个有全局 invariant 的 support complex，可尝试从 equality case 推出统一 occupancy/capacity，而不用逐一枚举。较远的界面是把秩临界情形转为边界闭合约束。",
+        "missing_step": "目前没有与 pi 候选簇对应的 compact manifold、odd map 或 cover class。抽象组合 supports 本身不满足纯度和 cycle 结论，不能把 triangulation vertex bounds 直接套用。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+            "line": 88,
+            "label": "label{thm:equality-complex}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+            "line": 262,
+            "label": "label{eq:cover-class}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/topology.tex",
+            "line": 290,
+            "label": "label{eq:facet-odd-count}"
+          }
+        ]
+      },
+      {
+        "idea": "用相邻候选之间的唯一局部恢复与 exchange holonomy 排除高 multiplicity，并提取不变 blocks。",
+        "precise_hypotheses": "十标签纯三维 complex；facets 的和是 F2 cycle；每 facet complement 的六标签 triangle system 满足互补 triples 恰选一、每 pair 恰两 triangles。五标签 restriction 唯一决定系统，且任意 transposition 不保持系统，并有三标签受限 links 的区分性质。",
+        "mechanism": "沿 facet exchanges transport 六标签系统；三 facet 共 triangle 的闭路产生 transposition，故三角形只能恰两延拓。五点 edge-link 路径产生两个受限 links 相等，故 links 仅三圈/四圈。由此 partner update 保持 blocks，可实现所有每 block 略一元素的 facets，最终 occupancy 强迫矛盾。",
+        "possible_bridge": "对 row-transversals 可定义局部 exchange 图和 signature transport，检查小 exchange 闭路是否迫使一个不允许的 permutation；若成立，可把 surviving minors 的候选分成稳定 blocks，再用每列 quadratic occupancy 的块下界计成本。这一界面不依赖与原定理主题接近。",
+        "missing_step": "必须先证明五标签式的唯一恢复、forbidden automorphism 及 exchange 保存真实 Q(Z) rank；普通 matroid basis exchanges 没有这些刚性。其所得 block cost 也尚不足以构成 integer determinant 的非零/小于一矛盾。",
+        "source_anchors": [
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/six-labels.tex",
+            "line": 44,
+            "label": "label{lem:six-properties}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+            "line": 41,
+            "label": "label{lem:two-tetrahedra}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+            "line": 73,
+            "label": "label{lem:short-links}"
+          },
+          {
+            "path": "preprints/A-nine-dimensional-counterexample-to-Borsuks-covering-assertion-September-23-2026/build/sections/ten-labels.tex",
+            "line": 110,
+            "label": "label{lem:partner-blocks}"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "full_body_read 只说明固定提交完整正文源码首读；未独立验证 topology equality step、局部正则性论证或 finite obstruction 的正确性，未逐篇核验外部引用、未编译核对 PDF。",
+      "见证是完整 compact RP^3 projector set；strict diameter gap 对开覆盖和平滑化是必要输入，任意只排除 individual orthogonal pairs 的着色不自动满足该约化。",
+      "support complex 不是已知 triangulation；facet 纯度、cycle 和 complement system 全由文中 map 推导，不能把外部 triangulation vertex bound 当直接证明。",
+      "本篇不提供 pi 的整数 determinant、Q(Z) 非零 minor、低高度 integer specialization 或可用 analytic smallness bound；以上 bridges 均明确为待构造的接口。"
+    ],
+    "scope_note": "在固定 commit 完整读取 README、main、preamble、七个 body sections、三个递归输入图及 bibliography 共十四个文字文件；按预检 tree 检查所有 source files 并逐个核对 source bytes、Git blob SHA，输入闭包无未读文件、无附录。仅作 source-first reading，不把未验证的新主张报告成已认证结果。"
+  },
+  {
+    "position": 25,
+    "family_id": "194",
+    "title": "Lech's multiplicity conjecture",
+    "pdf_path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "main_source": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "13c4151faad80f6a7837344457b3c7b5577cbdcf",
+    "source_files": [
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/README.md",
+        "sha": "e4d98236a60f407b527da62b2af39c5224025fb6",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/README.md",
+        "source_bytes": 507,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/main.tex",
+        "sha": "a40c47113da99d5837254d9fc863eda3a0a79b9a",
+        "total_lines": 360,
+        "read_ranges": [
+          [
+            1,
+            360
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/main.tex",
+        "source_bytes": 17425,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/references.tex",
+        "sha": "acfdc9a87d4722035e0105d9a8714bdffb519b2a",
+        "total_lines": 193,
+        "read_ranges": [
+          [
+            1,
+            193
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/references.tex",
+        "source_bytes": 7189,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charp.tex",
+        "sha": "80632e458e4d477a38fa3377c33e2e055ad890b4",
+        "total_lines": 313,
+        "read_ranges": [
+          [
+            1,
+            313
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/charp.tex",
+        "source_bytes": 11921,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charzero.tex",
+        "sha": "d15ddc79779fad43d895c03877d32d02e08a2455",
+        "total_lines": 419,
+        "read_ranges": [
+          [
+            1,
+            419
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/charzero.tex",
+        "source_bytes": 18832,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+        "sha": "008d1926ee5e1ed44a6f361eba2e5a42f9c07211",
+        "total_lines": 643,
+        "read_ranges": [
+          [
+            1,
+            330
+          ],
+          [
+            331,
+            643
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/complex.tex",
+        "source_bytes": 28411,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/lengths.tex",
+        "sha": "08e31b855279bcef1e322b9c14ce11d12eb24139",
+        "total_lines": 482,
+        "read_ranges": [
+          [
+            1,
+            482
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/lengths.tex",
+        "source_bytes": 19846,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/mixed.tex",
+        "sha": "30c893f156ac32575ea3e63301d5c019e1411594",
+        "total_lines": 443,
+        "read_ranges": [
+          [
+            1,
+            443
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/mixed.tex",
+        "source_bytes": 18321,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/reductions.tex",
+        "sha": "a702130bc3f68c3709cfaae1665ed84e27de6c86",
+        "total_lines": 367,
+        "read_ranges": [
+          [
+            1,
+            367
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group6/25/build/sections/reductions.tex",
+        "source_bytes": 16678,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "source_include_edges": [
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/complex.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/lengths.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/reductions.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/charp.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/mixed.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/sections/charzero.tex"
+      },
+      {
+        "from": "build/main.tex",
+        "kind": "input",
+        "to": "build/references.tex"
+      }
+    ],
+    "sections_read": [
+      "README；main 内完整 Introduction（历史、Ulrich 限制、uniform estimate、Dutta 后果、三种特征路线及 conventions）与 Proof of the main theorem",
+      "A complex estimate with an additive length：length hypotheses、Koszul acyclicity、non-Noetherian blowup、graded comparison、truncation stable images、Euler comparison、root bundles、sign 及 leading coefficient",
+      "Normalized length algebras：Faltings formalism、uniform annihilation 的 colimit stability、perfection conductor、Hilbert–Kunz quotient/finite module、parameter homology、mixed characteristic perfectoid inputs",
+      "Reductions and a finite free complex：completion/localization/domain/residue field reductions、Cohen factorization、perfect kernel、generic complete intersection/regularity、resolution⊗Koszul",
+      "The characteristic-p argument：Ma Hilbert–Kunz identity、componentwise Frobenius deepening、top-dimensional summation；Dutta multiplicity of arbitrary short complexes over complete domains",
+      "Mixed characteristic：dimension-lowering quotients、parameter-power asymptotics、finite root/Heitmann integral extensions、rank cancellation、mapping-cone power rule、prime filtration、N then q limits 与 coefficient-one summation",
+      "Residue characteristic zero：common-coefficient-field finite-free reduction、finite polynomial certificate、source minors/reduction、target monic initial relations、Artin approximation/étale specialization、contradiction transfer",
+      "完整 references.tex；无附录、无外置图文件或剩余正文输入"
+    ],
+    "claim_as_stated": "任意 nonzero Noetherian local rings 间 flat local homomorphism (R,m)→(S,n) 满足 Hilbert–Samuel multiplicity e(R)≤e(S)，不限维数、residue fields 或 characteristics。另称 complete local domain characteristic p>0 上每个 short finite-free complex F 的 Dutta multiplicity χ∞(F)≥e(R)。关键 uniform complex estimate 适用于可能非 Noetherian 的 length algebra，需明确 length-zero stability、parameter power scaling 及 Koszul length-zero hypotheses。",
+    "proof_architecture": [
+      "抽象 complex theorem：C 上 I=(z1,…,zh)，additive λ 对 common I-power torsion 的 zero-length sums/colimits 稳定，μ=λ(C/I)>0 有限、λ(C/(z^a))=a^hμ、positive Koszul homology length zero。F finite free 长度≤h、off V(I) locally contractible，先由 Koszul splitting 证明 positive H_i length zero、H0 finite。若 alternating rank zero 且 entries∈I^s，得到 λH0≥μs^h(b0−A_hΣb_i/s)。",
+      "blowup Y=Proj Rees(I) 令 L=I OY invertible。parameter-power colengths 逼出 polynomial associated graded 与 gr_I C 逐级 modulo length zero 相同。finite thickenings 本身 Euler 为零，改比较大 level→固定小 level 的 homology images，用 Koszul/ordinary powers cofinality 与 Cech filtration 的 eventual vanishing 将 F 和 F_Y 的 homology lengths 相等。alternating rank zero 再给 vector bundle tensor 的 rank formula。",
+      "将 differential 除以 L^s 得 G_i=O_Y(−is)^bi。用 (P1_Z)^(h−1)→P_Z^(h−1) 的 finite-flat pushforward 构造任意 integer cohomological roots 的 bundle。把 roots 置于 s 倍 ∏(x+i) 导数根附近，使 hyperhomology 仅 degree0 有非零 length；layer Riemann sums 在 i=1,…,h 具有共同 leading term (h−1)!s^h，alternating rank 恰隔离 b0。误差常数只依 h、ranks，不依 C、length 或 extension。",
+      "characteristic p 的 C=D_perf：Cohen–Gabber generically separable normalization 给 finite-root approximants Bq；trace-dual conductor g^(1/q)C⊂Bq 将 quotient kernel 误差压到 O(q^−1)。normalized length 因而等于 Hilbert–Kunz，Roberts Frobenius homology estimate 给参数 Koszul homology length zero。mixed characteristic 则采用明确版本的 CLMST perfectoidization、normalized length、parameter equality 与 primary ideal upper bound。",
+      "通过 completion、Nagata localization、prime filtrations、algebraic residue closure 化到 complete domain source/等维 target。normalization A⊂R 与 A→U→S Cohen factorization 给 T=R⊗A U，e(T)=e(R)，J perfect、P resolution 长 h−d，F=P⊗K(x) 长 h、F0=T、off maximal ideal contractible、alternating rank0；generic local rings char p 为 CI、mixed char 为 regular。",
+      "char p 对 T 每个 top-dimensional component D 施 Frobenius q，把 entries 放入 I^(q−c) 而不增 ranks；uniform lower bound 除 q^h 后得 eHK(H,D)≥e(D)。associativity 和 Ma perfect-ideal HK identity（generic CI colength）将总和识别 e(S)≥e(T)。同一个方法结合 finite-length module comparison 证明 domain short-complex Dutta 下界。",
+      "mixed char 在 component B 中取参数 q-th roots 并用 Heitmann Briançon–Skoda integral extension 使 bD⊂(z)^(q−h)，extension rank r 可增长。q^h μ=r e(B)，lower bound 除 r 后统一。固定 q 的数据下，mapping cone 给 quotient-length N^d power rule，prime filtration 和 dimension-lowering asymptotics 控制 upper bound；先 N→∞、再 q→∞。generic regularity 保证每 top filtration prime 仅属一个 component，故最终 coefficient 精确为一。",
+      "residue char0 先化为同 coefficient field 的 finite-free local map。用 polynomial identities 记录有限 presentations、multiplication/unit、freeness/locality；source presentation 的 (u−r+1)-minors 消失给 generic rank≥r，保留 reduction relation 转为 e(R) 下界；target monic initial relations 保留 leading monomials 给所有 Hilbert-function 及 e(S) 上界。Artin approximation 令有限数据降到 pointed étale neighborhood，再有限生成 Z-algebra 的 closed fiber 特化到 positive char，由 char p case 排除 strict counterexample。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "通过导数根选择权重，使一整组 layer sums 的 leading terms 相同并由 alternating relation 隔离目标项。",
+        "precise_hypotheses": "固定 h≥1；H(x)=∏_{i=1}^h(x+i)，ρ_j 为 H′ 的 h−1 个实根，−j−1<ρ_j<−j。整数 r_j 满足 |r_j−sρ_j|≤1 且 −(j+1)s<r_j<−js；complex ranks b_i 固定并满足 Σ(−1)^i b_i=0。要从 layer sums 得正性仍需文中全部 length/blowup hypotheses。",
+        "mechanism": "P=H′/h 有 ∫_{−i}^0P=(H(0)−H(−i))/h=(h−1)!，对每 i=1,…,h 同值。integer-root bundle 把该 polynomial 实现为 cohomological Euler ranks；Riemann sum error O_h(1/s) 统一，Σ_{i≥1}(−1)^i b_i=−b0 留下目标 b0。",
+        "possible_bridge": "可在 pi determinant 方案的 column-cost/二次 occupancy 最优化中寻找一个 polynomial antiderivative，使不同 signature layers 的主项被精确平衡，避免各层最坏值累加的损失；也可用 rounded roots 保留严格区间和统一 O(1/s) 误差。",
+        "missing_step": "这不是任何 occupancy cost 的通用优化定理。需给真实层积分/和及正确符号正性，证明它们与同一个 integer determinant 上界相关；root-bundle positivity 不能直接搬到任意 row-transversal family。",
+        "source_anchors": [
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 468,
+            "label": "label{lem:complex-root-bundle}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 548,
+            "label": "label{eq:complex-root-positions}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 603,
+            "label": "label{eq:complex-sum-estimate}"
+          }
+        ]
+      },
+      {
+        "idea": "不从 truncation 的数值不变量反推原对象，而从大截断到固定小截断的稳定 images 恢复原 homology。",
+        "precise_hypotheses": "有限长度 F、off V(I) locally contractible；parameter Koszul positive homology λ-zero；λ-zero objects 对固定幂 annihilation 下 sums/filtered colimits 稳定；I^(h(a−1)+1)⊂(z_i^a)⊂I^a。Cech/Koszul filtrations 步数有统一有限上界，足够深 transition 在 associated graded homology 为零。",
+        "mechanism": "一次 transition 降 filtration，一段有限复合杀掉余项；eventual image H(F/J_bF)→H(F/J_aF) 恰 image H(F)，cofinality 转 ordinary powers。与 geometric thickening 的 compatible image comparison 给 λH(F_Y)=λH(F)。反例提示 alternating-rank-zero 下所有单独 F/I^M F 的 Euler 都可为零，不能仅看其值。",
+        "possible_bridge": "pi 的 Q(Z) 形式秩和 specializations 若依赖 finite jets/truncations，可优先追踪 compatible image 或 surviving row-transversal witness，避免把某截断的 rank/计数当作原对象的永久存活证据。这也提示为候选淘汰设计有限步 filtration 证书。",
+        "missing_step": "必须给出实际 compatible maps、finite filtration、eventual image 稳定的定量指数。本文不含 Q(Z) 的族，不提供任何 minor 的非零 witness；truncation homology 的机制也不能自动用于数值 determinant。",
+        "source_anchors": [
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 314,
+            "label": "label{lem:complex-euler-comparison}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 361,
+            "label": "label{eq:complex-geometric-image}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/complex.tex",
+            "line": 408,
+            "label": "label{eq:complex-cofinality}"
+          }
+        ]
+      },
+      {
+        "idea": "让辅助扩张的增长成本精确归一化，并按先固定辅助对象后取内层极限的顺序保 coefficient one。",
+        "precise_hypotheses": "mixed-characteristic component B complete local domain，dim h，algebraically closed residue field；parameter ideal (u) 为 maximal ideal reduction。q>h，z_i^q=u_i，有限 domain extension D/B 满足 bD⊂(z)^(q−h)，r=rank_B D；uniform complex error 常数只依 h 与固定 F ranks。top-dimensional primes Q over J 的 T_Q regular，故每 Q 仅在一个 component。",
+        "mechanism": "q^h e((z),D)=r e(B) 将 extension rank 从 lower bound 抵消。固定 q,D,C,λ 后用 parameter-power N^d rule 和 filtration 取 N→∞ 得不含扩张的 upper bound，随后才 q→∞。唯一 component incidence 使最终 summation 每个 prime occurrence 恰一次，保留 coefficient1。",
+        "possible_bridge": "pi 构造如为保 Q(Z) rank 而引入 roots/finite extensions/denominators，需在开始就列明扩张 degree、height 与 column-cost 的归一化式；若 error 能独立于扩张，才可能在扩张增长时保严格 determinant exponent。候选 row-transversals 的 summation 也要防同一 witness 在多个 signature components 重复计数。",
+        "missing_step": "本文归一化由 multiplicity rank formula 给出，不能替代 pi 的实际 denominator/height 公式。若 determinant rank、列数或常数随 q 增长，uniformity 会失效；还需把 nonzero integer lower bound 与 analytic upper bound作用于同一清分母 determinant。",
+        "source_anchors": [
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/mixed.tex",
+            "line": 255,
+            "label": "label{eq:mixed-mu-normalization}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/mixed.tex",
+            "line": 279,
+            "label": "label{eq:mixed-lower-bound}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/mixed.tex",
+            "line": 404,
+            "label": "label{eq:mixed-uniform-upper-bound}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/mixed.tex",
+            "line": 414,
+            "label": "label{eq:mixed-one-component}"
+          }
+        ]
+      },
+      {
+        "idea": "有限 polynomial certificate 只保留所需方向的不等式：source 的 minors 消失与 target 的 monic initial relations。",
+        "precise_hypotheses": "原 complete local finite-free map 有 common infinite coefficient field L，dim d>0；A0=L[[t]]→R0 finite 且 (t) 为 source reduction；r=e(R0)=rank_A0 R0。保留 finite presentations、algebra tables、unit/relation witnesses、local ideal nilpotence 及 reduction relation；target 选固定 degree-compatible monomial order 和有限 monic homogeneous relations whose leading monomials generate original initial ideal。",
+        "mechanism": "U 的 (u−r+1)-minors 全零在任何解中给 coker generic rank≥r；source reduction 将其转 e(R)≥r。target relations 的 leading coefficient 固定1，特化后 initial ideal只可能增大，standard monomials给每级 Hilbert function 上界 e(S)≤e(S0)。所有 membership 用额外变量记录，得到有限整系数方程，可 Artin/étale 特化。",
+        "possible_bridge": "对 Q(Z) 建模可把结构、capacity 与候选 matrix identities 编成有限 polynomial witnesses，只保持最终矛盾需要的单向界。monic initial relations 的稳定 leading terms 是保留 combinatorial normal forms 的可用设计；为非零 minor 可另加 inverse witness u·minor=1 再分析特化。",
+        "missing_step": "源 theorem 通过 relation-matrix rank 的上界得到 cokernel rank下界；这不同于证明目标 square minor 非零。u·minor=1 只在允许 localization 的域中给 existence，不提供低高度整数解或 |det|<1 的定量 bound。Artin approximation 不保 analytic smallness。",
+        "source_anchors": [
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charzero.tex",
+            "line": 82,
+            "label": "label{lem:charzero-certificate}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charzero.tex",
+            "line": 159,
+            "label": "label{eq:charzero-rank-bound}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charzero.tex",
+            "line": 276,
+            "label": "label{eq:charzero-leading-relations}"
+          },
+          {
+            "path": "preprints/Lechs-multiplicity-conjecture-September-23-2026/build/sections/charzero.tex",
+            "line": 324,
+            "label": "label{lem:charzero-specialization}"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "完整 source-first reading，不是独立正确性审查。Cohen–Gabber、Roberts/Hochster–Huneke estimates、Ma HK identity、CLMST perfectoid length statements、Heitmann integral extension、Artin approximation 等外部输入按本文所述假设和版本记录，未逐篇核对。",
+      "抽象 length theorem 的 hypotheses 强于普通 additivity：共同 annihilating power 下 zero-length sums/colimits、全部 parameter powers 精确 scaling、positive Koszul homology length zero 均为必要已声明输入；辅助 C 无 Noetherian/flatness 假设，文中使用 images/右正合而非擅自 flat tensor。",
+      "uniformity 仅指 numerical error 常数对固定 h/ranks 不依 ring/length/extension；homotopy exponents 和 truncation levels 可依 C,F,V。mixed case 必须先 N-limit，再 q-limit，不能交换。",
+      "Dutta 后果明确为 complete domain characteristic p case，未宣称本文独立解决所有 complete local rings 的全文猜想。",
+      "跨到 pi 的 interfaces 都是 speculative construction ideas；本篇没有产生同一 integer determinant 同时非零且小的最终证书，也没有证明 Q(Z) 指定 minors 存活或控制 quadratic column occupancy 的实际参数。"
+    ],
+    "scope_note": "固定 commit 中 README、main、六个完整 body sections 和 references 共九个文字文件全部首读；main 自带完整 intro 与 assembly，complex.tex 以 1–330、331–643 两个连续未截断 chunks 阅读，其余文件全段未截断。全部 bytes/lines/Git blob SHAs 核对且 recursive inputs 完全闭合；无附录或遗漏正文。未编译核对 PDF、未运行形式化验证。"
+  }
+]

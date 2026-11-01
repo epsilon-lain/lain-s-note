@@ -1,0 +1,16 @@
+[
+  {
+    "position": 30,
+    "text_files": 16,
+    "lines": 6231,
+    "git_blob_sha_verified": true,
+    "read_chunk_coverage_complete": true
+  },
+  {
+    "position": 32,
+    "text_files": 13,
+    "lines": 3049,
+    "git_blob_sha_verified": true,
+    "read_chunk_coverage_complete": true
+  }
+]

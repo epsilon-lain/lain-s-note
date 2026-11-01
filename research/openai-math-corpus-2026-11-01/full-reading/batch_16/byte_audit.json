@@ -1,0 +1,227 @@
+{
+  "position": 29,
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "directory_tree_sha": "87861a2d7ddf95d41b9dc8d0b7461093e3c63566",
+  "files": [
+    {
+      "relative": "README.md",
+      "expected_sha": "14941d9b61ad7dd8b82f640bed328c8647516500",
+      "observed_sha": "14941d9b61ad7dd8b82f640bed328c8647516500",
+      "source_bytes": 803,
+      "total_lines": 18,
+      "verified": true
+    },
+    {
+      "relative": "build/figures/boundary-recovery.tex",
+      "expected_sha": "955fb98394fa26421057e7bd0edd1021a3f1f05b",
+      "observed_sha": "955fb98394fa26421057e7bd0edd1021a3f1f05b",
+      "source_bytes": 3258,
+      "total_lines": 70,
+      "verified": true
+    },
+    {
+      "relative": "build/figures/height-bands.tex",
+      "expected_sha": "a07469a8cd27057976f6b1d172d313ed37582f6b",
+      "observed_sha": "a07469a8cd27057976f6b1d172d313ed37582f6b",
+      "source_bytes": 3144,
+      "total_lines": 68,
+      "verified": true
+    },
+    {
+      "relative": "build/paper.tex",
+      "expected_sha": "31e44b45ee9f054f60aea7815a0210dfe6f09feb",
+      "observed_sha": "31e44b45ee9f054f60aea7815a0210dfe6f09feb",
+      "source_bytes": 1865,
+      "total_lines": 42,
+      "verified": true
+    },
+    {
+      "relative": "build/preamble.tex",
+      "expected_sha": "758c0c8e272802476fed48398fe701fc7d8d1f5d",
+      "observed_sha": "758c0c8e272802476fed48398fe701fc7d8d1f5d",
+      "source_bytes": 3370,
+      "total_lines": 83,
+      "verified": true
+    },
+    {
+      "relative": "build/references.bib",
+      "expected_sha": "3adf1e57508a600cafa43fa5683f5b0cc3aba8e9",
+      "observed_sha": "3adf1e57508a600cafa43fa5683f5b0cc3aba8e9",
+      "source_bytes": 13590,
+      "total_lines": 409,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/00-introduction.tex",
+      "expected_sha": "64bf7c84f53fe61d5891bf5c3b115b0c897fcf46",
+      "observed_sha": "64bf7c84f53fe61d5891bf5c3b115b0c897fcf46",
+      "source_bytes": 6223,
+      "total_lines": 23,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/01-statements.tex",
+      "expected_sha": "d10cafb1cfd94a9fe6601130542d0321f92e849d",
+      "observed_sha": "d10cafb1cfd94a9fe6601130542d0321f92e849d",
+      "source_bytes": 13795,
+      "total_lines": 234,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/02-preparation.tex",
+      "expected_sha": "76d248e8ff1e1e001795bf8bf8d2936e09ca1ab5",
+      "observed_sha": "76d248e8ff1e1e001795bf8bf8d2936e09ca1ab5",
+      "source_bytes": 41943,
+      "total_lines": 986,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/03-filled-system.tex",
+      "expected_sha": "c0d3f81b6b9bcfc7f16f6a007d8dc25021ddc89f",
+      "observed_sha": "c0d3f81b6b9bcfc7f16f6a007d8dc25021ddc89f",
+      "source_bytes": 34246,
+      "total_lines": 864,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/04-elliptic.tex",
+      "expected_sha": "0def56837a6a6d056dac15b13ab44800eb27973f",
+      "observed_sha": "0def56837a6a6d056dac15b13ab44800eb27973f",
+      "source_bytes": 42094,
+      "total_lines": 997,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/05-flux-conversion.tex",
+      "expected_sha": "3dcfb4ee603d5b684f94c09be9097ddcdb81b625",
+      "observed_sha": "3dcfb4ee603d5b684f94c09be9097ddcdb81b625",
+      "source_bytes": 34408,
+      "total_lines": 811,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/06-original-variation.tex",
+      "expected_sha": "1147a550af48df83c4f84ed64c4aaf697e53ec68",
+      "observed_sha": "1147a550af48df83c4f84ed64c4aaf697e53ec68",
+      "source_bytes": 27528,
+      "total_lines": 583,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/07-singular-multipliers.tex",
+      "expected_sha": "df61fddd4c024a284aa6ebfe472fd3951aa0626d",
+      "observed_sha": "df61fddd4c024a284aa6ebfe472fd3951aa0626d",
+      "source_bytes": 61336,
+      "total_lines": 1344,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/08-stationary-rigidity.tex",
+      "expected_sha": "6b8cd0a77e418773d866b77cd5a5a469693fee70",
+      "observed_sha": "6b8cd0a77e418773d866b77cd5a5a469693fee70",
+      "source_bytes": 39389,
+      "total_lines": 997,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/09-vacuum-uniqueness.tex",
+      "expected_sha": "d730b0bfcf8e46000951f0493f47dfa8cf8d8e5e",
+      "observed_sha": "d730b0bfcf8e46000951f0493f47dfa8cf8d8e5e",
+      "source_bytes": 29603,
+      "total_lines": 666,
+      "verified": true
+    },
+    {
+      "relative": "build/sections/10-recovery-sharpness.tex",
+      "expected_sha": "616dcaa90e00e7be137bce29a7d84c18ede8b4f7",
+      "observed_sha": "616dcaa90e00e7be137bce29a7d84c18ede8b4f7",
+      "source_bytes": 18181,
+      "total_lines": 424,
+      "verified": true
+    }
+  ],
+  "total_files": 17,
+  "total_lines": 8619,
+  "source_bytes": 374776,
+  "all_cache_git_blob_shas_match": true,
+  "closure": [
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "preamble.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/00-introduction.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/01-statements.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/02-preparation.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/03-filled-system.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/04-elliptic.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/05-flux-conversion.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/06-original-variation.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/07-singular-multipliers.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/08-stationary-rigidity.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/09-vacuum-uniqueness.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "input",
+      "target": "sections/10-recovery-sharpness.tex"
+    },
+    {
+      "from_path": "paper.tex",
+      "command": "bibliography",
+      "target": "references.bib"
+    },
+    {
+      "from_path": "sections/10-recovery-sharpness.tex",
+      "command": "input",
+      "target": "figures/boundary-recovery.tex"
+    },
+    {
+      "from_path": "sections/05-flux-conversion.tex",
+      "command": "input",
+      "target": "figures/height-bands.tex"
+    }
+  ],
+  "ignored_distribution_inputs": [
+    "glyphtounicode"
+  ]
+}

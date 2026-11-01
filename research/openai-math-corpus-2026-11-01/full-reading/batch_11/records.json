@@ -1,0 +1,702 @@
+[
+  {
+    "position": 23,
+    "family_id": "143",
+    "title": "Two limit cycles for quintic Liénard systems",
+    "pdf_path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/two-limit-cycles-for-quintic-lienard-systems-September-24-2026.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "401f6d86b0924a2a8f5648728783a107864a56c4",
+    "source_files": [
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/README.md",
+        "sha": "f86905d11ccd62b59e1575b77e474bd9dc04741d",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/README.md",
+        "source_bytes": 700,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/figures/half-arcs.tex",
+        "sha": "92b3d631d1bbc190b155373f03e35aa1f2a4025e",
+        "total_lines": 36,
+        "read_ranges": [
+          [
+            1,
+            36
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/figures/half-arcs.tex",
+        "source_bytes": 1690,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/paper.tex",
+        "sha": "cc6bf8141f4e0e1d2524be5497b8d76e55bb631c",
+        "total_lines": 42,
+        "read_ranges": [
+          [
+            1,
+            42
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/paper.tex",
+        "source_bytes": 1445,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/application.tex",
+        "sha": "8c6df4601122b8c2be953b8e0d1d0e74641fb3a3",
+        "total_lines": 248,
+        "read_ranges": [
+          [
+            1,
+            248
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/application.tex",
+        "source_bytes": 9925,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/arcs.tex",
+        "sha": "54e72b66bb3caf6bbad00d30fc3849f7c5ec3134",
+        "total_lines": 629,
+        "read_ranges": [
+          [
+            1,
+            629
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/arcs.tex",
+        "source_bytes": 25505,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/fitting.tex",
+        "sha": "c26d249d214025b4e66ca3e8a072236cd8c585d5",
+        "total_lines": 653,
+        "read_ranges": [
+          [
+            1,
+            653
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/fitting.tex",
+        "source_bytes": 25957,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/introduction.tex",
+        "sha": "cc2673312bd4a5e31104b9ca6ffe40efb9772032",
+        "total_lines": 133,
+        "read_ranges": [
+          [
+            1,
+            133
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/introduction.tex",
+        "source_bytes": 6763,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/model.tex",
+        "sha": "9bd170482cb2aff2314cda463783b514e3a8dca2",
+        "total_lines": 913,
+        "read_ranges": [
+          [
+            1,
+            913
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/model.tex",
+        "source_bytes": 31964,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/references.tex",
+        "sha": "272b3e7e4b8e2d3d1e8eb642ce2b21a8768ebde1",
+        "total_lines": 113,
+        "read_ranges": [
+          [
+            1,
+            113
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/references.tex",
+        "source_bytes": 4348,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/sharpness.tex",
+        "sha": "a202aa553472041ba862e320094f55f4d2ac4bfe",
+        "total_lines": 82,
+        "read_ranges": [
+          [
+            1,
+            82
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/sharpness.tex",
+        "source_bytes": 3197,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/transport.tex",
+        "sha": "d344faebb37f84504514bfef7ca89fcaadef9a20",
+        "total_lines": 399,
+        "read_ranges": [
+          [
+            1,
+            399
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/23/build/sections/transport.tex",
+        "source_bytes": 15572,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "sections_read": [
+      "README、主文件、abstract及所有输入闭包",
+      "Arc coordinates and periodic-orbit matching：全局端点、变分、零宽光滑缩放、非光滑边界延拓、周期轨道匹配",
+      "Quadratic fitting and transport：参考特征线、曲率比较、条件导数严格为正、properness、全局逆及拟合输运",
+      "Differential inequality for quadratic model：W输运、端点代数、Riccati正解、共同projective端点标签、Schwarzian与完整三情形符号证明",
+      "Shape conditions：小宽拟合、三阶导控制、斜率截距、拟合曲率范围",
+      "Quintic upper bound：四个e,c符号情形，包括边界严格间隙、多重孤立根与零区间",
+      "Sharpness：显式小扰动的两条双曲极限环；嵌入图与全部参考文献"
+    ],
+    "claim_as_stated": "对任意实多项式F、deg F≤5，经典Liénard系统ẋ=y−F(x), ẏ=−x在整个平面至多有两个几何不同的孤立周期轨道；无奇偶、系数符号、振幅、双曲性或重数假设。上界可达，因此该类精确最大值为二；这是primitive F的五次情形，等价阻尼F′至多四次且回复力严格为x。",
+    "proof_architecture": [
+      "去掉F(0)，必要时作反射与时间反转使五次系数非负。在两半平面以u=x²/2、y为坐标，得到u_y=φ±(u)−y；两个profile共享偶系数二次部分，奇系数部分符号相反。",
+      "证明任意正基高h、峰值t的arch有唯一两个横截端点；半宽r全局严格参数化峰值，|M|<r、|M_r|<1。以逆支方程dy/du=1/(φ(u)−y)把全部宽导数延续到可能非光滑的u=0。周期轨道与共同开宽区间上Δ=M+−M−的根双射，孤立性也完全对应。",
+      "对每个(r,M,M_r)建立唯一有限二次profile λu+κu²/2拟合。先在固定κ下拟合M，再用曲率比较证明条件宽导数对κ的导数G/P>0，并用单调收敛及两段平均斜率证明κ→±∞时覆盖整个(−1,1)。由P,Q,R,S,G>0得到联合光滑全局逆。",
+      "从精确变分得小宽拟合κ=φ″+(2/7)φ‴r²+O(r³)、λ=φ′−φ‴r⁴/35+O(r⁵)，并推导Pλ_r+Qκ_r=0，Dκ=−(R/G)(λ−φ′)，Dλ−κ=(S/G)(λ−φ′)。",
+      "核心模型不等式(R/G)_r≤0通过W=RS_r−SR_r≥0。对κ>0，用Riccati线性化的正V及一个跨越y=0的正规2×2系统构造两端共同projective标签；Schwarzian链式法则、显式端点代数与三个(m,n,ℓ)情形证明W任何零处向外导数严格正；小宽W>0排除首零。反射处理κ<0，连续性处理κ=0。",
+      "将模型不等式和正核比较输运到一般profile：φ‴>0⇒λ<φ′且κ_r>0；((φ′−d)/u)′>0⇒λ−hκ<d。另证拟合κ位于实际曲率范围内。",
+      "令p=e√u+cu^(3/2)+au^(5/2)、a≥0。e,c均非负时无孤立环；e≥0,c<0时q=κ+−κ−非减，Δ′=AΔ+Bq、B>0，正积分因子后至多两个孤立根；其余两情形给曲率或严格斜率间隙，所有根Δ′>0故至多一根。显式Fε=ε(4x−20x³/3+8x⁵/5)的精确能量商在ε=0的s=1,2有两个单根，由隐函数定理产生内排斥、外吸引两条双曲环。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "把约束拟合拆成条件一维拟合；用Schur补确定剩余方向的符号与非退化。",
+        "precise_hypotheses": "模型H(λ,κ,r)全局光滑；固定r>0有H_λ=P>0，G=H_λH_{κr}−H_κH_{λr}>0；固定M条件下κ的响应达到完整目标范围。",
+        "mechanism": "先解H=M得到λ*(r,M,κ)，再有∂κ(H_r|H=M)=S−RQ/P=G/P>0。局部Jacobian非零不足以给全局拟合，稿件另证properness/全范围才取得全局逆。",
+        "possible_bridge": "对Q(Z)的候选行选择或加权参数构造，可先固定一个可控moment/归一化，研究剩余方向的条件rank或cost响应；Schur补把同一约束上的独立性与剩余响应分开。更广泛适用于受约束逆问题和两参数校准。",
+        "missing_step": "Q(Z)的row-transversal集合是离散的，未给出这样的光滑H或符号固定的2×2minor。即使形式上有Schur补，仍须证明实际存活minor、全局可达及整数高度成本；不能由Jacobian存在推最终π determinant非零。",
+        "source_anchors": [
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/fitting.tex",
+            "line": 289,
+            "label": "fit:conditional-derivative"
+          },
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/fitting.tex",
+            "line": 389,
+            "label": "fit:properness"
+          },
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/fitting.tex",
+            "line": 537,
+            "label": "thm:quadratic-fit"
+          }
+        ]
+      },
+      {
+        "idea": "用正积分因子把复杂匹配差的零点计数化为一个单调障碍函数的符号变化。",
+        "precise_hypotheses": "同一个开区间上Δ∈C¹，Δ′=AΔ+Bq；A,B连续、B>0、q连续非减。",
+        "mechanism": "f=exp(−∫A)Δ满足f′=positive×q，因而先严格下降、可能常值、再严格上升；最多两个孤立根，且正确覆盖多重根及零区间。",
+        "possible_bridge": "若column-cost/quadratic-occupancy优化能导出一个随规模变化的归一化determinant gap，且其导数/差分的符号由单调capacity缺陷控制，可把很多参数区间压缩为有限阈值。此机制也可用于比较两条continuation分支或受约束优化的解数。",
+        "missing_step": "目前未有π近似构造对应的Δ、统一宽区间或单调q；离散差分版本需另证，且零点个数控制不提供所需解析上界强度或整数下界。",
+        "source_anchors": [
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/application.tex",
+            "line": 78,
+            "label": "lem:isolated-zero-count"
+          },
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/application.tex",
+            "line": 123,
+            "label": "Case 2; eq:Delta-transport"
+          }
+        ]
+      },
+      {
+        "idea": "遇到标量化产生的奇点时保留正规一阶系统和共同标签，避免两边比较对象悄然改变。",
+        "precise_hypotheses": "Riccati方程u_y=du+bu²−y在一个紧arch上有有界真实解，b>0；V=exp(−∫(bu+d/2))>0，使(U=uV,V)满足trace-zero正规2×2线性系统；可补成同一fundamental pair。",
+        "mechanism": "消元后的标量U方程在y=0有奇点，但正规系统的同一fundamental basis贯穿它；以f=U1/U2在两端同时定义projective标签，利用f(n(m))=f(−m)与Schwarzian链式法则比较端点。",
+        "possible_bridge": "π的算术下界与解析上界必须作用在同一个非零整数determinant上。若中途使用奇异归一化、局部基、消元或不同特征区间，可保留一个共同原始矩阵/基并记录精确变换，作为跨区间同一性的可审计证书。更一般是数值延拓跨坐标奇点的设计。",
+        "missing_step": "这是对象一致性的结构借鉴，不是π的非零性定理。仍需整数清分母、基变换determinant和定量高度逐项核算；正规系统本身不能提供这些估计。",
+        "source_anchors": [
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/model.tex",
+            "line": 419,
+            "label": "model:positive-V; model:linear-system"
+          },
+          {
+            "path": "preprints/two-limit-cycles-for-quintic-lienard-systems-September-24-2026/build/sections/model.tex",
+            "line": 442,
+            "label": "model:common-label"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "完整正文首读不等于独立证明核验；本文极长的端点代数恒等式、符号分支与外部历史/引用未逐项独立复算或回读。未编译PDF、未作逐页PDF视觉对照。",
+      "主定理只涵盖回复力严格为x、primitive次数≤5的经典Liénard类；不能扩展为任意quintic planar vector field，亦不包括更高次数。",
+      "全局拟合的properness和固定参数偏导(R/G)_r≤0是关键；总特征线导数与固定参数偏导在文中严格区分，迁移时不可互换。",
+      "从h>0的严格不等式不能仅靠极限保留严格性；Case4使用k±→∓∞和沿同一固定峰特征线的导数符号，另行获得边界严格间隙。",
+      "所列跨领域构造想法均为推测性transfer；没有推出π的BA/nonBA或新的整数determinant矛盾。"
+    ],
+    "scope_note": "已完整读过固定提交的README、actual main、七个正文输入、嵌入half-arcs图和references；所有递归输入闭包均已读取。缓存字节对每个Git blob SHA和size精确验证，只在多加终止LF删除后恢复精确SHA时作该修正。full_body_read只记录已读源码闭包，不认证定理正确性。",
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "/workspace/scratch/66870cb2f937/source_context/round02_group5/byte_audit.json",
+      "terminal_LF_corrections": 11,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes",
+      "body_content_changes": false
+    }
+  },
+  {
+    "position": 34,
+    "family_id": "363",
+    "title": "Nonuniqueness with local conservation for the hard-sphere Boltzmann equation",
+    "pdf_path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "d95aec9c002ed31978fe391bac99d96768cb8a79",
+    "source_files": [
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/README.md",
+        "sha": "ad0ee46e306fbc039e4daa29c88215c683bfaa0d",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/README.md",
+        "source_bytes": 728,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/main.tex",
+        "sha": "dbe3edc0260c535db90792deb9b46b2c56876288",
+        "total_lines": 34,
+        "read_ranges": [
+          [
+            1,
+            34
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/main.tex",
+        "source_bytes": 1177,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/01-introduction.tex",
+        "sha": "6719b15488bfa545305891d42a49a32bb6eb572f",
+        "total_lines": 247,
+        "read_ranges": [
+          [
+            1,
+            247
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/01-introduction.tex",
+        "source_bytes": 12097,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/02-framework.tex",
+        "sha": "9a2c579330a633a29ca4cadefceedec87617adbb",
+        "total_lines": 71,
+        "read_ranges": [
+          [
+            1,
+            71
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/02-framework.tex",
+        "source_bytes": 3482,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/03-kernel.tex",
+        "sha": "37ea88724f22e31598ca37f500262ab909f015e3",
+        "total_lines": 648,
+        "read_ranges": [
+          [
+            1,
+            648
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/03-kernel.tex",
+        "source_bytes": 26335,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/04-construction.tex",
+        "sha": "fc9d709ba7ed2d75320fc7a743d61d16460f2d0f",
+        "total_lines": 369,
+        "read_ranges": [
+          [
+            1,
+            369
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/04-construction.tex",
+        "source_bytes": 15311,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/05-cold.tex",
+        "sha": "8cd5bc29675222c134dcb698482ae808e06d1437",
+        "total_lines": 370,
+        "read_ranges": [
+          [
+            1,
+            370
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/05-cold.tex",
+        "source_bytes": 15183,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/06-early.tex",
+        "sha": "0ee41bbe0680d4925e52061d2b3c450f87d99060",
+        "total_lines": 414,
+        "read_ranges": [
+          [
+            1,
+            414
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/06-early.tex",
+        "source_bytes": 17550,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/07-global.tex",
+        "sha": "85b0090544534f92b43667a25495bef56b279cdb",
+        "total_lines": 550,
+        "read_ranges": [
+          [
+            1,
+            550
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/07-global.tex",
+        "source_bytes": 23672,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/08-compactness.tex",
+        "sha": "e8a5e89e97bc73eb2c8b73fbeb43069155ecb7db",
+        "total_lines": 454,
+        "read_ranges": [
+          [
+            1,
+            454
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/08-compactness.tex",
+        "source_bytes": 21193,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/09-dilation.tex",
+        "sha": "8e5cc0cada60cf1b27e4fa3df225abf944b6f148",
+        "total_lines": 537,
+        "read_ranges": [
+          [
+            1,
+            537
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/09-dilation.tex",
+        "source_bytes": 23236,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/10-nonconcentration.tex",
+        "sha": "b42b7739f88f8124d756b8a68c08834c724e8ff0",
+        "total_lines": 1125,
+        "read_ranges": [
+          [
+            1,
+            1125
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/10-nonconcentration.tex",
+        "source_bytes": 46209,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/11-branching.tex",
+        "sha": "2c6f9fae6efc01de55b8afd578a9cdc7c5d61663",
+        "total_lines": 753,
+        "read_ranges": [
+          [
+            1,
+            753
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/11-branching.tex",
+        "source_bytes": 34922,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/12-separation.tex",
+        "sha": "d0eeb8f6c52b16f5b3b85ff1f087f6f3e9f44be3",
+        "total_lines": 163,
+        "read_ranges": [
+          [
+            1,
+            163
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/12-separation.tex",
+        "source_bytes": 7146,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/figures/jet-geometry.tex",
+        "sha": "fec8a948d9f6a88b727f4780eb1302f005ad88a9",
+        "total_lines": 114,
+        "read_ranges": [
+          [
+            1,
+            114
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/figures/jet-geometry.tex",
+        "source_bytes": 5164,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/figures/scales.tex",
+        "sha": "d58fafba4869ead836f22e4712d4a7c8484c246a",
+        "total_lines": 56,
+        "read_ranges": [
+          [
+            1,
+            56
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/figures/scales.tex",
+        "source_bytes": 2592,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/references.bib",
+        "sha": "2f6facbd41221a4191ab616ca7125e472665e2f8",
+        "total_lines": 229,
+        "read_ranges": [
+          [
+            1,
+            229
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/paper/references.bib",
+        "source_bytes": 9038,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/preamble.tex",
+        "sha": "33fd7a24dc159150cb3095b77a03fc483a96e7fe",
+        "total_lines": 45,
+        "read_ranges": [
+          [
+            1,
+            45
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/34/build/preamble.tex",
+        "source_bytes": 1589,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "independent_proof_verification": false,
+    "source_mapping_note": "Main maps exactly to twelve paper/NN files plus preamble and paper/references.bib. Nested figure inputs figures/jet-geometry and figures/scales are uniquely identified in the recursive tree as build/paper/figures/*.tex and were read completely. No compilation was run to verify TeX search-path behavior.",
+    "sections_read": [
+      "README、main、preamble、全部12正文节、两张嵌入TikZ图与全部references.bib",
+      "1 Introduction：hard-sphere normalization、entropy solution/local conservation定义及主定理",
+      "2–3 Coordinates and kernels：rotated lattice、singular H、Carleman coefficient、transverse/axial slices、sheet gain、tightness、compressed parameter maps、hot-hot及small-mass gain",
+      "4–6 Datum/colored equations/cold/early：irrational-axis geometry、annuli/stripes、small entropy bath+hole、finite equations、retirement、barriers及nonmain tails、cap selection和uniform early continuation",
+      "7 Global：flight averaging、positive frequency、retirement summability、small excess mass、uniform nonlinear gain及完整参数顺序",
+      "8 Compactness：small-scale square-envelope、uniform integrability、velocity averaging、same-position products、all-time representative、entropy、strong traces、renormalization与五个local balances",
+      "9 Dilation：mesh、two-stream atomic B、cold survival/Jacobian/stripe averaging、error rates、cold-hot product passage、positive-l endpoint trace及free-core comparison",
+      "10 Nonconcentration：Volterra五次迭代、endpoints紧性、axis marginals、two-axial-gain消失、redundant plane parameters、uniform pullback、analytic five-gain rank与完整nonzero-limit证明",
+      "11 Branching：positive histories、reference retention/Feynman–Kac、three-collision minorization、mixing、robust measurable blocks、parameter choices、late-box access及growth/cap矛盾",
+      "12 Separation：dormant horizon-dilation消失、fixed-horizon diagonal、finite hit horizon与两尺度Jacobian比较"
+    ],
+    "claim_as_stated": "在三维周期hard-sphere Boltzmann方程D_tF=Q(F,F)中，存在一个非负、速度有界支撑、质量/能量/absolute entropy有限的同一初值F0，产生两个不同的global entropy solutions。两解均在C([0,∞);L¹)中，精确满足质量、三动量、动能的局部守恒及初始trace，熵耗散不等式，并在每个有限时间区间上对任意k≥0有∫〈v〉^k(Q+ +Q−)<∞；区别发生在正spacetime-velocity测度集合。",
+    "proof_architecture": [
+      "取旋转轴(1,√2,0)/√3，非零整数m²−2k²给periodic copies的横向间距≥c/(1+|n|)。在几何尺度s_j上放薄横向环与fine opposite stripes，密度K/s、速度宽d_s=d0s¹⁰、轴向sech²profile；总质量O(s²)、entropy O(s²|log s|)可求和。加入近Maxwellian bath，在短轴段周围挖hole；再加入随最小尺度与horizon消失的seed。",
+      "以colored cutoff equations分解每个cold jet、bath和hot，sum始终满足同一cutoff Boltzmann方程。Carleman公式精确系数为2；奇异majorant H=e^(−|v|²)〈v〉^(−100)(1+|vbar|^(−q)),1<q<2，支持uniform sheet、hot-hot、small-mass gain。单cold color被free core+小Gaussian barrier控制；active tubes到L_s=s^(−1/2)前不相交，nonmain tails超多项式小。",
+      "零seed的dormant hot part为O(t^A)。用seed参数连续性，在严格低于cap的参数分支边界选Z(t)≤T^p(t+s_N)且某处达到等号的cap solution。hole附近bath指数小、非main source任意次小；稍晚用thin-tube free-flight crossing把源的path integral做小，统一延续到固定t1并保持hot小。",
+      "全局阶段将每尺度在L_s退休进regular part w。小relative entropy给空间L¹的F−μ缺陷；速度平均free flights及两个分离速度球给t≥t1的collision frequency κ>0，κ独立于bootstrap B。cold因而指数衰减，退休增量s^(−C)e^(−κs^(−1/2))可求和。small-mass gain P(H,j)/H≤ε+C∫j与damped flight averaging将j=(w−μ)+的pointwise mass压小，使P(w,w)≤C5H且C5独立于B；固定B后实现small parameters并严格闭合global bootstrap。",
+      "在有限观测区间，moment envelope≤C(1+Σ1_A_s/(t+s))，disjointness令平方没有跨尺度奇异交项；每尺度∫s²/(t+s)²dt=O(s)可求和。由此同位置pair products和Q±对全部polynomial weights均uniformly integrable。证明L¹ velocity averaging，用强velocity averages+Vitali识别weak pair limit FF*；再传gain/loss、所有时刻entropy、强L¹ path traces和全部local invariant balances。",
+      "在cap hit尺度r_N=t_*+s_N放大，h/(T_N^p r_N)有cap(t+l)H；cold r_Nc弱-*收敛为由annular mesh和stripe平均1/4形成的两束axial atomic medium B。bath、hot self-interaction和源的误差逐项消失。弱-* cold averages乘强L¹ hot averages，得线性极限Dg=2P(B,g)−gν_B；l>0时有seed trace，l=0只在positive times断言。",
+      "证明cap limit不为零：五次positive Volterra iteration把初始小cap外项压低；tails局部化hit endpoints。axial endpoint用first-gain axial interval非原子性与second-gain mismatch令两次gain消失；nonaxial endpoint删去小transverse speeds/小scales/time boundaries后，五次碰撞的20维analytic map到(t5,x5,v5)在一点有rank7，故a.e.full rank。robust C¹ pullback使任意有界measurable masks下五次gain不能隐藏zero-in-measure输入；得到nonzero g，含U=1与l=1边界情形。",
+      "对reference constant two-beam medium构造bounded-speed branching histories：retention≥25/26，Markov flight具有严格正potential；三碰撞给Doeblin minorization，mixing控制平均速度，末段无碰撞给小指定drift。compact finite history tests在仅measurable近常值medium中保持mass multiplication>3。选jet参数使late moving boxes每t→(1+a)t倍增≥3，而cap给O(t⁴)，选(1+a)^4<3；任意nonzero g最终进入box，故其dilated horizon U必须有限。",
+      "固定dormant global limit在horizon T尺度除以T^(p+1)后，off-axis local L¹趋零。假设任意小horizon存在相同cap limit，逐horizon作有限test diagonal选择近似，再取hit尺度nonzero g；U<∞使ρ=r/T→1/U>0，尺度比较给∫hit≤ρ^(−5)∫horizon→0，与g≠0矛盾。选择一条不同cap global limit，旋转回标准torus。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "以一个ambient analytic rank witness证明泛型满秩，再把复杂admissibility masks留在有界密度中。",
+        "precise_hypotheses": "Φ_n→Φ在C¹_loc；Φ是连通open domain上的real-analytic map到R^d；存在一点d×d minor非零，因而rank DΦ=d a.e.。参数密度a_n只需共同compact support和统一L∞界；F_n共同compact support、bounded且依测度→0。",
+        "mechanism": "一个非平凡analytic minor的零集为null；删去critical set小邻域，余下有限regular charts以(Φ,complement coordinates)形成uniformly invertible坐标。change of variables把∫|F_n(Φ_n)a_n|控制为C∥F_n∥₁+小错误。证明不要求mask收敛。稿件在全部碰撞时间相等的ambient点构造rank7 block witness，再转到ordered region，witness无需满足spatial masks。",
+        "possible_bridge": "这是Q(Z) formal row-rank与row-transversal存活之间的有用分工：可在易计算的ambient参数点展示一个非零minor，再单独分析admissible parameter支撑是否有正测度/开放性。也适用于多步控制系统、transport smoothing与带discontinuous selection masks的generic transversality。",
+        "missing_step": "如果row-transversal admissibility落在该minor的零代数簇、只剩离散点或低维集合，ambient a.e.full rank无帮助。需要另证实际选定transversal上的非零与degree/height/整数化；此pullback只给qualitative uniform integrability，没有量化最小minor或低column-cost bound。",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/10-nonconcentration.tex",
+            "line": 765,
+            "label": "nc:uniform-pullback"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/10-nonconcentration.tex",
+            "line": 842,
+            "label": "lem:five-gain-rank"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/10-nonconcentration.tex",
+            "line": 894,
+            "label": "equal-time rank-seven witness"
+          }
+        ]
+      },
+      {
+        "idea": "先证明平方包络可求和，再传同位置二次产品；线性小质量不足以替代二次occupancy预算。",
+        "precise_hypotheses": "尺度s_j几何递减；每时刻A_s两两不交、|A_s(t)|≤Cτs²；各moment R_k≤C(1+Σ1_A_s/(t+s))；去掉小尺度后有固定integrable majorant及velocity tails。",
+        "mechanism": "disjointness消除不同singular scales的交项；每尺度L²成本∫0^τs²/(t+s)²dt≤Cs，故Σsmall s→0。这提供same-position pair products与weighted Q±的uniform integrability，才让强velocity averages/Vitali识别FF*并避免local energy defect。",
+        "possible_bridge": "当前quadratic occupancy和column-cost也需在二次层面核算。可尝试设计按signature/scale分层且支持几乎不交的row blocks，使总二次预算由Σ单块平方控制；若有overlap，则明确把交叉项记入预算。跨领域可用于多尺度concentration compactness和稀疏构造中的非线性极限。",
+        "missing_step": "稿件的支持disjointness是真实几何事实，不可由低总mass或低线性column-cost替代。Q(Z)中仍须定义对应overlap并证明可求和；任何rank损失和整数determinant增长亦需另计。",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/08-compactness.tex",
+            "line": 67,
+            "label": "comp:moment-envelope"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/08-compactness.tex",
+            "line": 81,
+            "label": "comp:annular-square; comp:small-annuli"
+          }
+        ]
+      },
+      {
+        "idea": "用有限生命周期把Diophantine非碰撞窗口与全局构造拼接，退休前几何分离、退休时指数小。",
+        "precise_hypotheses": "period lattice方向来自quadratic irrational，所有非零n满足|nbar|≥c/(1+|n|)；scale-s tube横宽O(s)，寿命L_s=s^(−1/2)；后期统一frequency κ>0使amplitude指数衰减；退休norm仅多项式s^(−C)。",
+        "mechanism": "若两个active periodic tubes相交，则transverse lattice separation≤O(S)，同时|n|≤O(S^(−1/2))，而Diophantine下界≥cS^(1/2)，small S时矛盾。每块只要求分离到寿命结束；退休代价s^(−C)e^(−κL_s)可求和，因此不需永远避免recurrence。",
+        "possible_bridge": "多尺度整数构造可分阶段给每个block一个只在所需height窗口内成立的transversality/不碰撞保证，再将其贡献转入已控制remainder；避免要求一个全局参数永久满足所有强分离。该例也把同一nonzero integer m²−2k²的下界与同一quantity的因式分解精确绑定，符合当前determinant上下界须为同一对象的原则。",
+        "missing_step": "√2的algebraic norm提供已知BA下界；π没有相同代数范数，不能把此例当作π BA证明。迁移需要独立的实际非零integer determinant和准确height-window exponent；退休所需衰减也必须来自目标问题。",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/04-construction.tex",
+            "line": 35,
+            "label": "con:lattice; con:diophantine"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/05-cold.tex",
+            "line": 29,
+            "label": "cold:geometry"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/07-global.tex",
+            "line": 273,
+            "label": "global:retirement"
+          }
+        ]
+      },
+      {
+        "idea": "构造可稳健重复的有限local增长块，最后比较同一量的增长指数与全局预算。",
+        "precise_hypotheses": "非负对象g有positive-history lower representation；bounded-speed finite history blocks把moving box内mass在t→(1+a)t时乘≥3；任意nonzero g有positive mass可进入late box；cap给同一个box mass≤C(1+t)^4；3>(1+a)^4。",
+        "mechanism": "先在常值reference medium给严格余量>8，再删成有限collision counts和compact parameter tests，在measurable perturbation下仍>3。重复时无需显式量化初始positive mass，指数最终战胜任何固定系数，矛盾始终比较同一个M(t)。",
+        "possible_bridge": "对integer determinant构造，可将非零性证书和可迭代height/analytic gain模块分开；若每次扩块能以固定余量改进同一determinant的解析指数，而算术预算增长较慢，就可做有限规模闭合。也用于bootstrap amplification与robust control。",
+        "missing_step": "当前π项目没有该可迭代block或正性representation。交替构造两个不同determinants的上下界无效；必须追踪同一integer determinant、累积清分母与quadratic occupancy，不能只比较形式指数。",
+        "source_anchors": [
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/11-branching.tex",
+            "line": 395,
+            "label": "br:robust-block"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/11-branching.tex",
+            "line": 601,
+            "label": "br:block-growth"
+          },
+          {
+            "path": "preprints/Nonuniqueness-with-local-conservation-for-the-hard-sphere-Boltzmann-equation-October-5-2026/build/paper/11-branching.tex",
+            "line": 738,
+            "label": "growth versus t^4 cap"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "这是完整actual-source首读，不是独立正确性认证；未逐项重做所有kernel uniformity、rank derivative、compactness和branching estimates，未回读外部引用，未编译或逐页核对PDF。",
+      "非唯一性针对spatially inhomogeneous粗糙初值；datum振幅在shrinking spatial scales无界，不能外推至Maxwellian-bounded、strong Sobolev或homogeneous conservative uniqueness类。",
+      "small relative entropy本身没有pointwise控制，也不自动给exact local momentum/energy；文中额外依赖weighted gain/loss uniform integrability、quadratic same-position产品控制及全局continuation。",
+      "nonzero weak blowup limit不能由cap norm达到1自动推出；两次axial gains、五次nonaxial gains和full-rank pullback是独立且实质性的步骤。",
+      "finite hit horizon U<∞实质上保证r/T有正极限；没有这一步，horizon与hit两种归一化不可交换，最后同一对象比较会退化。",
+      "与前稿OpenAIPeriodic的关联按本文表述记录；大量机制本文重现，本文新增贡献主要是globally conservative continuation。外部文献及前稿未在本条阅读闭包内独立核验。",
+      "所列transfer均为跨领域推测；没有据此证明π BA或nonBA，也没有新增最终integer determinant矛盾。"
+    ],
+    "scope_note": "已逐段完整读过固定提交的README、actual main、preamble、12个正文文件、两张输入图和bibliography，共18个文本文件/6197行；无未读正文或附录。35只下载缓存，未计入本batch阅读记录。源码byte SHA/size精确核对，读取未截断；full_body_read仅表示阅读完成。",
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "/workspace/scratch/66870cb2f937/source_context/round02_group5/byte_audit.json",
+      "terminal_LF_corrections": 18,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes",
+      "body_content_changes": false
+    }
+  }
+]

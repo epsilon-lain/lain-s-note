@@ -1,0 +1,864 @@
+[
+  {
+    "position": 26,
+    "family_id": "211",
+    "title": "Spectral convergence for critical FK–Ising planar maps",
+    "pdf_path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/spectral-convergence-critical-fk-ising-planar-maps.pdf",
+    "directory_tree_sha": "4eae14b8378203541ee5790e490841a1e5ec2d63",
+    "status": "full_body_read",
+    "main_source": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "mapping_evidence": "固定提交递归树未截断；README 标题链接指定 PDF，build/paper.tex 标题一致。主文件的 10 个 input（9 个正文节及 bibliography wrapper）、conductivity 节的 figure input 和 bibliography{references} 均解析到同目录树内文件；共14个非PDF文本 blobs全部首读，未发现附录或遗漏的正文输入。未编译或逐页比对 PDF。",
+    "source_files": [
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/README.md",
+        "sha": "63b8eaeb2a452a6620c52fe2f273b8c7711854bb",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/README.md",
+        "source_bytes": 711,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": false
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/figures/mixed-boundary-duality.tex",
+        "sha": "41332d0b46e8637d67c290412f12fbc0fa71177c",
+        "total_lines": 36,
+        "read_ranges": [
+          [
+            1,
+            36
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            36
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/figures/mixed-boundary-duality.tex",
+        "source_bytes": 1423,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/paper.tex",
+        "sha": "4a647d17e1c177773cf07a68ad6e831924787910",
+        "total_lines": 75,
+        "read_ranges": [
+          [
+            1,
+            75
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            75
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/paper.tex",
+        "source_bytes": 2322,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": false
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/references.bib",
+        "sha": "79d4e03316ba4af52cbe0f2c730bc6ff895f3837",
+        "total_lines": 659,
+        "read_ranges": [
+          [
+            1,
+            659
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            350
+          ],
+          [
+            351,
+            659
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/references.bib",
+        "source_bytes": 20804,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/01-introduction.tex",
+        "sha": "18aaa6bbdeeace13775900a36eb03e9bb900e90e",
+        "total_lines": 301,
+        "read_ranges": [
+          [
+            1,
+            301
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            301
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/01-introduction.tex",
+        "source_bytes": 16529,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/02-model-geometry.tex",
+        "sha": "cc4ed48aa8e73cdae00242e2f7330e89ee31a172",
+        "total_lines": 345,
+        "read_ranges": [
+          [
+            1,
+            345
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            345
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/02-model-geometry.tex",
+        "source_bytes": 17176,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/03-locality.tex",
+        "sha": "e8f13f57da3f088a7e4f2079b8501b4f2b404522",
+        "total_lines": 750,
+        "read_ranges": [
+          [
+            1,
+            750
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            380
+          ],
+          [
+            381,
+            750
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/03-locality.tex",
+        "source_bytes": 39764,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/04-network.tex",
+        "sha": "6b69c80ec75b5dae690cc3cb5b61043ac1f945c7",
+        "total_lines": 1089,
+        "read_ranges": [
+          [
+            1,
+            1089
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            365
+          ],
+          [
+            366,
+            730
+          ],
+          [
+            731,
+            1089
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/04-network.tex",
+        "source_bytes": 56302,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/05-compactness.tex",
+        "sha": "e6f9b704bfdcf63ae05ebafeebfb0feb9bd0906e",
+        "total_lines": 1535,
+        "read_ranges": [
+          [
+            1,
+            1535
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            340
+          ],
+          [
+            341,
+            680
+          ],
+          [
+            681,
+            1020
+          ],
+          [
+            1021,
+            1355
+          ],
+          [
+            1356,
+            1535
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/05-compactness.tex",
+        "source_bytes": 73118,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/06-conductivity.tex",
+        "sha": "53690f464eede3ac67164acfe47de76b719c67dd",
+        "total_lines": 1016,
+        "read_ranges": [
+          [
+            1,
+            1016
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            345
+          ],
+          [
+            346,
+            690
+          ],
+          [
+            691,
+            1016
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/06-conductivity.tex",
+        "source_bytes": 51303,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/07-green.tex",
+        "sha": "8a01bba5f4c724169651512f48da920207d6860c",
+        "total_lines": 493,
+        "read_ranges": [
+          [
+            1,
+            493
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            260
+          ],
+          [
+            261,
+            493
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/07-green.tex",
+        "source_bytes": 22342,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/08-continuum.tex",
+        "sha": "e539f450d654754b1186ca9ebeeb6d16ff493a1a",
+        "total_lines": 518,
+        "read_ranges": [
+          [
+            1,
+            518
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            275
+          ],
+          [
+            276,
+            518
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/08-continuum.tex",
+        "source_bytes": 25560,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/09-spectrum.tex",
+        "sha": "41406eed88a30719ad0f5d637cff3154fb783931",
+        "total_lines": 651,
+        "read_ranges": [
+          [
+            1,
+            651
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            330
+          ],
+          [
+            331,
+            651
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/09-spectrum.tex",
+        "source_bytes": 31042,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/references.tex",
+        "sha": "287d10a872c24bd503b875625ddd0b598bdf7cef",
+        "total_lines": 2,
+        "read_ranges": [
+          [
+            1,
+            2
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            2
+          ]
+        ],
+        "role": "bibliography_wrapper",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/26/build/tex/references.tex",
+        "source_bytes": 55,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "sections_read": [
+      "Introduction：精确 FK–Ising 法则、corner stationary law、attempt-rate1 walk、clock n、联合GHP/全部有重数谱/正时间heat trace陈述",
+      "Discrete energy/common geometry：B_n=−2nL_n、unhalved energy、flag surface全 incidence/dual geometry、确定性diameter center、同一sphere/tours/field charts",
+      "Locality：数值 incidence readout 扩张、activated kernels、product与common union兼容、真实高度局部绝对连续、selected-slot entropy/null transfer、deterministic germs",
+      "Network：EL=最小 squared traffic、port resistance、record-low quantile/aligned annuli、edge density budgets、rectifiable cheap flow、primal–dual强迫相交矛盾、cutoffs/circuits/route flows",
+      "Conductivity（编排在compactness节之前）：cell-constrained relaxation、Radon quadratic energy、Sobolev上下界、local tensor germ的确定性/各向同性、same-coordinate primal/dual equal scalars、mixed conductance exact product1、square conductance limit给k=1",
+      "Green：point-current最小化、clipping局部bounds、harmonic compactness、无local energy defect、局部替换保持source/sink以计算unit flux、log singularities、four-point convergence",
+      "Compactness：address code/rank/occupancy输入、fixed-stride truncated packing、one-base wide-range rank credit、acyclic finite views、post-output class anchors的subprobability tight absolute continuity、available circuit flow、all-level weighted selection、reachable-support overlap、parent-child telescope到singleton、threshold本身的sphere transfer",
+      "Continuum：GMC positive/negative moment给uniform ball bounds r^8和r^(1/56)、Sobolev quasi-continuous trace/injectivity、closed LBM half form、double-centered HS Green inverse、compact resolvent/heat/Borel readouts",
+      "Spectrum：两corner orders的measure-preserving匹配、linear finite-rank approximation、bounded energy强compactness、nu_i≥c i^(7/10)、double differences识别centered inverse、归一化爆炸反证控制最大inverse mode、HS收敛、全部谱和heat trace、同一sphere的GHP耦合",
+      "全部figure源码、bibliography wrapper、references.bib；主文无附录"
+    ],
+    "claim_as_stated": "在所述 canonical conformal 与 metric-measure companion、Brownian/LQG输入下，对n-edge critical spherical FK–Ising multimap，包含loops/multiplicities的attempt-rate1全边walk以corner law deg(v)/(2n)为stationary measure。用确定性diameter normalization a_n缩放距离、用n加速时间，metric-measure空间、全部ordered eigenvalues n lambda_n,j（含重数与+infty padding）、heat trace Tr exp(ntL_n)联合收敛至同一个ordinary unit-area sqrt(3)-quantum sphere的intrinsic LQG metric、LBM half-Dirichlet-form spectrum和heat trace；谱topology为逐坐标，heat trace于每个[delta,T]一致。文中证明 conductivity和clock常数均为1；continuum form closable、constants为唯一zero mode、compact resolvent、每个t>0heat trace有限。",
+    "proof_architecture": [
+      "先精确核对能量与测度：raw E=sum_e(df)^2对应B_n=−2nL_n，half continuum form对应A_h=B_h/2；flag surface与全部incidence使primal/dual及corner measure在同一canonical coordinate比较。",
+      "把finite incidence record任意measurable numerical optimization加入companions protected conditional-law array。resampling weights只改macroscopic input而保留conditional output kernel；local AC、subprobability entropy和germ triviality允许在ordinary/sphere/selected views之间转移概率一结论，保留真实高度与单位。",
+      "若raw annulus EL的quantiles坍塌，选record-low subsequence、向后固定offset rows。aligned annuli给density budget；cheap flows的平均arclength非零且绝对连续。tangent crossing germ在各方向/位置确定且处处存在；同一flag sphere上的横向primal与纵向dual families强迫paired edge相交，1≤tau·tau*≤C rho_k→0矛盾。得固定test的正EL、bounded-energy cutoff与bounded squared-traffic circuits。",
+      "用countable cell constrained quadratic infima建立locally-uniform relaxation与uniform recovery，cutoff gluing给Radon quadratic energy。circuits/partitions给Sobolev上下界；polarization得到matrix densityA，local germ+translation+rotation使A=kI。exact FK duality给k_p=k_d；真实primal boundary circuits上的complementary mixed conductances乘积恒为1，其square limits给k_p k_d=1，故k=1。",
+      "point-source voltage用super/sublevel paths与clipped-energy bound取得pole外局部bounds；harmonic compactness和recovery replacement消去energy defect并给harmonicity。改变source值的annular variation精确给flux±1；one-sided singularity bounds排除高阶pole，得到(2pi)^−1 log cross-ratio four-point limit。",
+      "谱compactness需全离散尺度：address graph两色rank对occupancy的charge与entropy count、one-base wide-range credit排除所有尺度rank cycles。acyclic finite view经ordinary completion和post-output anchors的紧绝对连续转移给available circuit flows。weighted-level selection统一所有levels，reachable packing控制支持overlap；cover boundary oscillation与parent-child比较望远镜到singleton，得block error≤C2^(−7j/10)E。把最小充分level作为一个数值readout转移至sphere，避免仅有逐个fixed-level估计。",
+      "quantum area的uniform upper/lower polynomial small-ball bounds构造injective Sobolev trace和closed regular LBM form，double-centered round logarithmic Green kernel是raw form的HS inverse。corner time把离散L2放入同一H；有限cover的priority block averages提供rankO(2^j) linear approximants及strong energy compactness，min–max给nu_n,i≥c i^(7/10)。",
+      "four-point limit只识别kernel的double differences。若最大inverse eigenvalue发散，先除以operator norm，strong compactness+square-summable tail给HS极限norm1，但double differences趋0且double centering使其必0，矛盾。再得未归一化HS convergence。ordered eigenvalues和positive-time uniformly summable heat tails随之收敛；共同coordinate中的distance graph与measure convergence转GHP，最终joint subsequence criterion完成。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "把二次occupancy最小化转为一个显式密度分离证书。",
+        "precise_hypotheses": "有限坐标集E；每个真实可行witness有非负usage vector a_pi；K是其closed convex hull，禁止用未证明可行的signature替代真实witness。",
+        "mechanism": "离原点最近p∈K满足a_pi·p≥||p||²；因此sup_{g≥0}(inf_pi a_pi·g)²/||g||²=min_{t∈K}||t||²。带正权二次cost可对坐标作sqrt(weight)缩放。",
+        "possible_bridge": "把已证明同时满足两个rank条件的真实candidate common bases按column occupancy编码。一个高minimum quadratic occupancy可由p给对所有candidate的线性下界证书；一个低值则给spread usage的fractional distribution，可指导低column-cost抽样。",
+        "missing_step": "必须先证明被优化家族由真实Q(Z)非零minor/common bases组成，且非空；fractional distribution不保证其中某个integer candidate满足所需非线性cost，需rounding或直接平均cost控制。此identity不能弥补generic row rank缺口。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/04-network.tex",
+            "line": 62,
+            "label": "lem:finite-el / eq:el-traffic-identity"
+          }
+        ]
+      },
+      {
+        "idea": "以所有witness对的强迫相交，制造下界1与二次traffic上界的同对象矛盾。",
+        "precise_hypotheses": "两个有限witness families的nonnegative integer usage a,b在同一paired coordinate system满足a·b≥1，对每一对witness成立；各family有固定概率law。",
+        "mechanism": "在固定record后取这两个laws的product，1≤E(a·b)=tau·tau*≤||tau||₂||tau*||₂。无需两种环境或选取机制统计独立，只需最后pathwise product。",
+        "possible_bridge": "当前pi determinant目标也是一条≥1与<1的矛盾。可尝试为同一真实candidate构造两个互补certificate families，其必相交的shared support给integer lower bound，平方occupancy给上界。设计时先固定paired columns和清分母规范，再取product/CS，避免不同candidate或不同normalization间比较。",
+        "missing_step": "paper的交叉来自planar topology和primal/dual paired edges，Q(Z)一般没有此结构。需给实际candidate families的deterministic mandatory-overlap论证；traffic小不代表某一minor非零或小。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/04-network.tex",
+            "line": 871,
+            "label": "prop:edge-quantiles paired-edge Cauchy–Schwarz contradiction"
+          }
+        ]
+      },
+      {
+        "idea": "rank credit必须逐步支付occupancy，而多尺度entropy计算保留所有terminal/decorative成本。",
+        "precise_hypotheses": "两色图的rank定义为vertices−components；base component有rank cycle时e_k≥m_k−D_k，否则≥m_k−1−D_k。地址code概率charge系数theta=7/6>1，code count的leading coefficient为1，terminal/jump/decorative误差可按规定顺序变为o(N)。",
+        "mechanism": "宽区间上累计rank≥occupancy−aN−o(N)，而occupancy≥BN；选B够大让(theta−1)的净credit压过base allowance。通过independent grid partition控制避免把随机cycle event与regular grid无根据相交。",
+        "possible_bridge": "可尝试为Q(Z)候选列supports定义two-rank progress，按signature/address编码并把每次新增occupied column的代价和rank credit对应。若rank gain大于编码entropy，可排除过度集中/过高quadratic occupancy的全部bad candidates，从而产生低cost候选。",
+        "missing_step": "当前须重新证明真正Q(Z)rank或两matroid rank的code charge、count和closure；形式support rank不等于actual symbolic row rank。r² occupancy penalty也不能只靠线性rank credit支付，需保留其真实系数与规模。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/05-compactness.tex",
+            "line": 446,
+            "label": "lem:one-base-credit / eq:one-base-rank"
+          }
+        ]
+      },
+      {
+        "idea": "把全尺度最小充分阈值本身当作一个有限可计算readout，避免由逐个fixed-test bounds误推uniform结论。",
+        "precise_hypotheses": "每个finite graph上有nested blocks，到singleton后projection恒等；某level对所有f的quadratic inequality可由一组有限symmetric matrices的PSD判断。已证明对每条deterministic j0(m)→∞，所有j≥j0(m)的failure概率趋0。",
+        "mechanism": "定义j_m=1+最后一个failure level。上述sequential statement等价地给j_m tight；抽取limit有限后得到一个eventual阈值同时覆盖全部更细levels与全部functions。",
+        "possible_bridge": "对不同候选列数/参数尺度的determinant upper bound，可试把最差normalized Gram/cost inequality或最后失败scale作为统一matrix readout。证明其uniform tight/bounded而非每个固定candidate的渐近，才能把同一个低cost非零candidate交给上下界。",
+        "missing_step": "此是量词与uniformity设计原则；pi需要确定性的explicit threshold与arithmetical height界，probabilistic tightness没有自动提供。不能把paper的spectralcompactness读成Q(Z)row rank。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/05-compactness.tex",
+            "line": 1421,
+            "label": "eq:bilateral-all-level-failure / threshold construction"
+          }
+        ]
+      },
+      {
+        "idea": "以精确互补恒等式固定未知归一化，并显式证明两侧对象在同一coordinate。",
+        "precise_hypotheses": "两种positive scalar limitsk_p,k_d已先证明存在、deterministic、isotropic，且exact dual finite law在共同flag surface与同单位下给k_p=k_d；finite complementary boundary conductances满足C_p C_d=1且可分别取极限。",
+        "mechanism": "先证明scalar形式及其共同coordinate equality，再由product1和positivity得k_p=k_d=1。不能仅凭self-dual模型直接宣称constant1。",
+        "possible_bridge": "pi determinant上界若经过row normalization、basis change、清分母或两种norm，应该寻找一个exact finite identity/校准functional，把unknown scalar/denominator固定到同一integer determinant；互补certificate若存在，可先确定其共同比例再比较上下界。",
+        "missing_step": "尚无Q(Z)中的真实reciprocity或normalization identity；必须逐项追踪basis-change determinants和column costs。定性duality不产生nonzero integer determinant。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/06-conductivity.tex",
+            "line": 694,
+            "label": "lem:mixed-duality / eq:finite-duality"
+          }
+        ]
+      },
+      {
+        "idea": "先去除可控gauge，再用局部混合差分识别完整对象；紧性负责排除隐藏的低模态。",
+        "precise_hypotheses": "k为L² kernel且在每变量均centered；Dk=k(t,s)−k(t,s′)−k(t′,s)+k(t′,s′)。inverse operators另有bounded-energy strong compactness与nu_i≥c i^p,p>1/2。",
+        "mechanism": "double centering使∫∫Dk=k并且||Dk||₂=2||k||₂；a.e.四点观测结合strong compactness和square-summable tails给HS convergence。先归一化爆炸最大inverse mode可排除一个隐藏低eigenvalue。",
+        "possible_bridge": "若Q(Z)有row-only/column-only nuisance terms，可显式投影或用混合差分识别其真正mixed component，再补回constant slots得到bordered matrix。将非零/保秩判据分成quotient部分及有限gauge slots有时能简化actual symbolic rank计算。",
+        "missing_step": "centering会改变matrix rank与determinant；必须精确处理丢失的row/column modes和bordered determinant关系。观测收敛和high-index bound单独都不保证首个mode受控，更不保证当前finite symbolic minor非零。",
+        "source_anchors": [
+          {
+            "path": "preprints/Spectral-convergence-for-critical-FK-Ising-planar-maps-October-5-2026/build/tex/09-spectrum.tex",
+            "line": 282,
+            "label": "eq:double-difference-injective / lem:inverse-kernel-compactness"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "全文结论明确依赖两个companion的encoding/geometric/protected-law/address/finite-view输入及Brownian/LQG/GMC文献；首读未独立检验这些外部定理的假设或证明。",
+      "固定annulus/test的eventual index可依赖sample/test，不能直接作为mesh-scale统一估计；全尺度estimate是compactness节另行address/selected-law论证的产物。",
+      "输出为source-first read，不是对这些重大谱收敛主张的proof certification；未运行formalization、编译TeX、验证references、数值simulation或逐页比对PDF。",
+      "上述pi桥接是带前提的construction启发。paper不涉及pi approximation、不证明Q(Z)generic row rank、candidate common bases或所需整数determinant定量上下界。"
+    ],
+    "scope_note": "完整首读固定提交的README、主TeX全部75行、9正文节全部6698行、included TikZ图36行、references wrapper2行及bib659行；14个文本blobs的全部7488行已按未截断chunks读过。所有缓存git blob SHA逐字节验证；connector加上的单个尾LF仅在删除后恰好重现expected SHA时移除。source mapping与recursive input/bibliography closure完成，无未读正文/附录。full_body_read只表示源码阅读完成，未独立认证证明、未读或逐页核对PDF、未逐篇核验外部引用。"
+  },
+  {
+    "position": 28,
+    "family_id": "247",
+    "title": "An infinite finitely presented residually finite 2-group",
+    "pdf_path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/residually-finite-torsion.pdf",
+    "directory_tree_sha": "99e964d2a063ef702ebf55e123a4da8ba8a3992a",
+    "status": "full_body_read",
+    "main_source": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "mapping_evidence": "固定提交未截断递归树共有11个非PDF文本blobs及指定PDF。README标题链接residually-finite-torsion.pdf，主文件title匹配。main.tex的8个section inputs与references input逐一解析；两幅TikZ图直接嵌入shifts/construction正文，无外置图/附录/其他正文输入。所有11文本文件完整首读；未编译或逐页核对PDF。",
+    "source_files": [
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/README.md",
+        "sha": "46de52c61fcf89ce3e2dafa62f24306752fd12b2",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/README.md",
+        "source_bytes": 668,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": false
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/main.tex",
+        "sha": "a22e6bba1f8d4704a004028850dcef4254024d74",
+        "total_lines": 66,
+        "read_ranges": [
+          [
+            1,
+            66
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            66
+          ]
+        ],
+        "role": "main_and_abstract",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/main.tex",
+        "source_bytes": 2277,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": false
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/references.tex",
+        "sha": "cf7cfd7261210edd77d26b6095a2edc8e968f9e9",
+        "total_lines": 117,
+        "read_ranges": [
+          [
+            1,
+            117
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            117
+          ]
+        ],
+        "role": "bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/references.tex",
+        "source_bytes": 3659,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/construction.tex",
+        "sha": "4b804521002150c62c50b68a9a460b4ce080697d",
+        "total_lines": 95,
+        "read_ranges": [
+          [
+            1,
+            95
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            95
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/construction.tex",
+        "source_bytes": 3844,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/detection.tex",
+        "sha": "d7a827ba29221576b3bb1776b70925699afe383b",
+        "total_lines": 252,
+        "read_ranges": [
+          [
+            1,
+            252
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            252
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/detection.tex",
+        "source_bytes": 10304,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/introduction.tex",
+        "sha": "7eafd5fbf392093f5eaf7873ad890311250dc176",
+        "total_lines": 155,
+        "read_ranges": [
+          [
+            1,
+            155
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            155
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/introduction.tex",
+        "source_bytes": 8040,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/long-entries.tex",
+        "sha": "5898176c974fd5928970208bdb50107cbab06b6c",
+        "total_lines": 228,
+        "read_ranges": [
+          [
+            1,
+            228
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            228
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/long-entries.tex",
+        "source_bytes": 10309,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/ring-phases.tex",
+        "sha": "3efd117f158209e3365fc4d953b6bb64aa53d9d7",
+        "total_lines": 231,
+        "read_ranges": [
+          [
+            1,
+            231
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            231
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/ring-phases.tex",
+        "source_bytes": 9525,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/shifts.tex",
+        "sha": "ba1ee987482758f933f764f5a99698a6b7cce7e5",
+        "total_lines": 360,
+        "read_ranges": [
+          [
+            1,
+            360
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            210
+          ],
+          [
+            211,
+            360
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/shifts.tex",
+        "source_bytes": 15047,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/stability.tex",
+        "sha": "a763f553c71ae5253fa3554f970c6fecc5b8b947",
+        "total_lines": 356,
+        "read_ranges": [
+          [
+            1,
+            356
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            195
+          ],
+          [
+            196,
+            356
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/stability.tex",
+        "source_bytes": 16279,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      },
+      {
+        "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/steinberg.tex",
+        "sha": "cbf9711cd209452384af5434f162f6a376387e7c",
+        "total_lines": 145,
+        "read_ranges": [
+          [
+            1,
+            145
+          ]
+        ],
+        "read_chunks": [
+          [
+            1,
+            145
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_round02_15/28/build/sections/steinberg.tex",
+        "source_bytes": 6152,
+        "cache_git_blob_sha_verified": true,
+        "extra_final_lf_removed_to_match_sha": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "sections_read": [
+      "Introduction：ordinary finite presentation与2-group定义、Burnside背景、stable central kernel检测难点、两种cyclic substitution计算、odd/2-power互质消去、fixed-rank桥接",
+      "Ring/phases：companion matrix-nil graded algebra输入、finite equal-length replacement/zero-rule hierarchy、word-class basis、bounded token decomposition、literal phase backward induction、长不变prefix/suffix证明phase replacement-invariance、phase-mismatch product为0",
+      "Steinberg：完整root relations、faithful outgoing/reverse strips、stable centrality、characteristic2坐标置换的精确group lift、commutator identity",
+      "Shifts：block-root relations与GL(F2)基变换、positive-gap triangular subgroup faithfulness、cyclic-wrap corrections的two-band有限传播（含图）、graded transfer W_z、足够长cyclic shift vanishing、2-power shift triangularization给relative central 2-primary torsion",
+      "Long entries：opposite-root commutator cut movement、长word/zero-rule compatibility、H_i(w)对角correctors、wrong-row abelian exponent2 subgroup的matrix faithfulness与consistent roots normalization",
+      "Detection：tail algebra phase rank-one homomorphism、unused-column strip/basischange/wrong-row去除三步relocation、different-offset根严格commute（含opposite cases）、odd-power identity、degree2M kernel的long-entry normal form、选择L早于long representative的顺序、stable truncation detection",
+      "Stability：finite-rank companion输入、frame stabilizer semidirect groups、corrected root lifts构造universal central extensions、ordered-frame integral complex删除/投影归纳exactness、equivariant double complex与H2 face maps、rank≥12 injectivity",
+      "Construction：finite degree rings上的St12由centrality+Schur+perfectness为finite、commutative natural square给finite-rank separation、ordinary finite presentation及Reidemeister–Schreier、matrix nilpotence与relative central torsion给G的2-power orders（含图）",
+      "main/abstract、README、全部内嵌thebibliography；无附录或未读included body"
+    ],
+    "claim_as_stated": "依赖companion提供的无限ordinary finitely presented graded F2-algebra R=F2⊕I（I matrix-nil，finite-dimensional graded pieces，指定finite local-rule token hierarchy），文中声称Γ=St12(R)由finite degree quotient Steinberg groups分离，因此residually finite。G=ker(Γ→St12(F2))是无限、ordinary finitely presented、residually finite的抽象离散2-group：每个元素有finite 2-power order且orders无统一上界。中间主张包括stable truncation detection及对任意B=F2⊕matrix-nil ideal在n≥12时St_n(B)→St(B) injective。",
+    "proof_architecture": [
+      "companion给matrix-nil graded ring及finite word-rule hierarchy；nonzero replacement classes形成basis。逐层token cuts把高层phase拉回σ_j(w)=L_jσ_{j+1}(U(w))−|prefix|。长word的每次bounded replacement保留一个足够长unchanged prefix/suffix，故phase下降到basisclass；nonzero product必须接合end/start phases。L的hierarchy products为任意大odd数。",
+      "先在stable St(R)中工作；faithful square-zero strips给精确conjugation、stable kernel centrality及坐标置换不改变central element。block roots把matrix substitutions落实为group homomorphism，positive-gap subgroup由gap逐层collection证明faithful，故upper-triangular evaluation只剩diagonal copies。",
+      "graded map a_d→a_dt^d后，cyclic C_b与nilpotent truncated S_b之差的wrap根位于high-to-low disjoint bands。每个rootword factor只把每端移动≤d，b>2(m+1)max(1,d)保持correction strip faithful；matrix image identity迫使correction trivial。relative central z的S_b evaluation由z(0)=1为1，所以W_z(C_b)=1对所有足够大b。b=2-power时C_b−I nilpotent，triangularization与centrality又给W_z(C_b)=z^b，故relative kernel有2-power torsion。",
+      "phase mismatch先控制opposite roots：ca=0时commutator能移动factor cut，得到H_i(w)只依赖long word class、matrix I+wE_ii。wrong-row根及H_i(w)形成abelian exponent2 subgroup；相互entry products为0，wordbasis使matrix map injective，consistent roots normalize该subgroup。",
+      "tail algebra以rank-one phase matricesρ(w)=u_σ v_τ w嵌入Mat_L(R)。把所有u,v集中在一个coordinate的原central word，先添加unused columns（faithful strip清error）、再数值basischange（centrality保持）、最后收集wrong-row factors（faithfulness清error），精确得到phase relocation。C_L evaluation按L个offsets分解，不同offsets因phase-mismatch products为0且opposite case已控制而commute；每个offset是z的coordinate permutation，故W_z(C_L)=z^L。",
+      "若z在所有degree truncations中不可见，grading首先给matrix image I及degree0 reduction1。由一个固定原representative先选足够大的odd L使W_z(C_L)=1；随后选phase threshold和M。degree2M kernel的normal closure借spare coordinate和两faithful strips展开成long-entry roots。对这新representative应用odd-power identity得到z^L=1，与z^(2^a)=1互质，故z=1。",
+      "回到fixed rank：frame stabilizers是E_r与additive strip的semidirect product，其St_r替代版是universal central extension，H2自然识别J_r。ordered frames保留所有orderings，finite labeled matroid complex通过删除label、按prefix filtration和quotient independence归纳在≤m−2 exact。equivariant spectral sequence用perfect stabilizers和相同H2 face maps得H2(E_{m−1})→H2(E_m) iso(m≥13)，因此J stabilization iso、St12 injective。",
+      "B_d=R/R_ge d有限且positive ideal nilpotent；St12(B_d) central kernel使center finite index，Schur定理与perfectness给整个St finite。自然square把stable separation传到fixed-rank finite quotients，无需bottom stabilization injective。Γ无限且ordinary finitely presented；degree0 kernelG finite index，从而无限且finitely presented/residually finite。任意g∈G的matrix image I+A先被2-power杀入J12，再由stable relative2-torsion及injectivity杀掉。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "phase/endpoint labeling将真实乘法改写为稀疏block path，且rank-one评价必须先是代数同态。",
+        "precise_hypotheses": "一个tail algebra有basis words及start/end phases；每个非零product必须τ(w)=σ(w′)，并继承外侧phases。对每phase s选numerical column u_s,row v_s且v_su_s=1。",
+        "mechanism": "ρ(w)=u_σ(w)v_τ(w)w线性扩张为unital algebra homomorphism；zero product直接使coefficient为0，nonzero product由matching middle phase使rank-one中间pairing为1。standard u_s=e_s,v_s=e_s*使entry落在唯一phase block。",
+        "possible_bridge": "可尝试把Q(Z)的真实monomial/column signatures赋予可组合的endpoint labels，构造phase-block sparse linearization，借block path结构隔离一个determinant monomial或证明候选minor的formal noncancellation；只在实际乘法为零/支持确实缺失时使用phase mismatch。",
+        "missing_step": "普通多项式环是domain，residue/degree不匹配不会令product为0，故此paper的zero-product规则不能直接套到Q(Z)。需实际support algebra/quotient及faithful回传；L倍辅助coordinates增加column count和quadratic occupancy，必须计价。",
+        "source_anchors": [
+          {
+            "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/detection.tex",
+            "line": 33,
+            "label": "eq:phase-rank-one / lem:relocation"
+          }
+        ]
+      },
+      {
+        "idea": "让全部修正落在一个可见的square-zero strip中，才能从矩阵identity回推精确对象identity。",
+        "precise_hypotheses": "S,T disjoint coordinate sets；strip roots支持S×T，任意两个entry matrices product为0，root relations使全部roots commute且同坐标coefficients可收集。更一般wrong-row corrections有真实phase-mismatch zero products及basis independence。",
+        "mechanism": "strip map isomorphism到additive matrices；收集一系列conjugation/error时始终证明retained factors normalize strip。最终matrix image I强迫每个独立coefficient=0，error group element=1。",
+        "possible_bridge": "构造pi整数matrix时，可把低rank/辅助修正放入显式upper-right square-zero block，选unipotent row/column operations保持determinant，借block visibility核查清分母及noncancellation；这也提醒actual coefficient kernel不能从support-level矩阵结论被忽略。",
+        "missing_step": "Q(Z)未必容许所需disjoint blocks；添加coordinates会改变size/cost。必须实际证明每步操作det=±1、可逆及height受控；group strip theorem本身不证明common bases或非零minor。",
+        "source_anchors": [
+          {
+            "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/steinberg.tex",
+            "line": 43,
+            "label": "lem:strip; build/sections/long-entries.tex lem:wrong-row"
+          }
+        ]
+      },
+      {
+        "idea": "bounded propagation给cyclic wrap修正的显式隔离阈值。",
+        "precise_hypotheses": "v(t)是m个root factors的word，entries degree≤d、matrix image恒I；在inner size b的cyclic/strictlyupper shift间替换，b>2(m+1)max(1,d)。",
+        "mechanism": "每个wrap factor从末端width d band到起端width d band；每个非wrap block factor的conjugation使每端最多移动d且不重复移动。suffix collection全部error保持在仍disjoint的two bands，故faithful strip和identity image消error。",
+        "possible_bridge": "对于带有限degree/bandwidth的Q(Z)线性化，可先求每步操作的真实support propagation上界，再选足够大padding或cyclic parameter防止wraparound路径相撞；这样能把formal coefficient分离写成显式有限阈值而非generic-position口号。",
+        "missing_step": "paper前提是一个既有matrix identity的rootword，结果不是任意matrix的cyclic/truncated determinants相等。pi仍需实际非零minor；padding b线性依赖m·d可能造成巨大column cost，须重新优化。",
+        "source_anchors": [
+          {
+            "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/shifts.tex",
+            "line": 160,
+            "label": "lem:wrap / eq:strip-enlargement"
+          }
+        ]
+      },
+      {
+        "idea": "两条独立的coprime annihilation约束消除不可见central ambiguity，且参数顺序防止循环。",
+        "precise_hypotheses": "z同时在所有degree truncation kernels中，positive grading分离matrix entries；先由固定原representative得W_z(C_b)=1对所有足够大b，再选odd phase L越过这个固定阈值，最后才以高degree kernel重写z的long-entry representative。relative kernel另有2-power torsion。",
+        "mechanism": "同一homomorphism W_z(C_L)既由原word给1，又由long-entry phase relocation给z^L；与z^(2^a)=1的coprimality推出z=1。关键W_z只依赖element，重写representative不能改变预先chosen阈值。",
+        "possible_bridge": "可在pi determinant方案中明确分离形式对象、representation及参数：先从固定Q(Z)构造决定一个uniform degree/height阈值，再选evaluation prime/modulus/columns，最后允许等价变换。若需消除一个quotient看不见的obstruction，可寻找第二个arithmetically independent certificate而不是默认matrix shadow faithful。",
+        "missing_step": "coprime torsion论证针对group element，不是一般integer determinant上下界；需建立真正的两个约束及同一对象不变性。不能用两个不同候选的nonzero/upper-bound证书拼接。",
+        "source_anchors": [
+          {
+            "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/detection.tex",
+            "line": 227,
+            "label": "thm:detection parameter order / coprime powers"
+          }
+        ]
+      },
+      {
+        "idea": "ordered matroid frames可用删除与prefix过滤建立integral exactness，但两种independence的共同bases需另证。",
+        "precise_hypotheses": "finite labeled nonzero vector collection span dimensionm；labels可对应相同vector但保留distinct，chains是所有ordered linearly independent tuples、alternating deletion，所有orderings独立而非orientation识别。",
+        "mechanism": "删一个label v；relative tuples按v前的prefix length过滤，associated graded suffix是quotient vector space上的ordered independence complex及degree shift。归纳给≤m−2 exact；若v是coloop，prepend v chain homotopy处理剩余case。",
+        "possible_bridge": "Q(Z)的rowrank或候选columns若形成真实linear matroid，可用这种ordered-frame结构组织spare-coordinate/exchange certificates，避免把重复signature occurrences合并导致rank或multiplicity信息丢失。两linear representations若common-basis complex有可证明的相应exactness，或可支持更系统的exchange构造。",
+        "missing_step": "两个matroids的共同independent sets通常不构成matroid；paper的single-linear-matroid exactness不能直接推出common basis存在。必须先证明实际Q(Z)independence及所需intersection条件，且任何extra columns需计columnheight/quadratic occupancy。",
+        "source_anchors": [
+          {
+            "path": "preprints/An-infinite-finitely-presented-residually-finite-2-group-October-5-2026/build/sections/stability.tex",
+            "line": 196,
+            "label": "lem:ordered-frames"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "最根本的infinite finitely presented matrix-nil algebra及其token hierarchy来自companion，本文以明确输入调用；未在本次阅读递归重读companion，外部文献也未逐篇核验。",
+      "所有矩阵coefficient运算处于特定F2非交换ring；phase mismatch令product=0是该word algebra的特殊结构，不能当成Q[Z]或Z中普适性质。",
+      "fixed-rank stability的finite-rank companion输入、universal central extension/homology比较及巨大group existence claim仅按source陈述记录；未独立proof verification。",
+      "未给finite presentation的完整generator/relation列表、任何有效torsion bound或residual-finiteness growth bound；orders unbounded由引用restricted Burnside推得。",
+      "pi bridges为带前提的construction ideas，本文不含pi approximation、Q(Z)generic rowrank、真实candidate common bases或目标integer determinant小于1的定量构造。"
+    ],
+    "scope_note": "固定提交11个非PDF文本blobs共2023行逐行完整首读：README18、main/abstract66、8正文sections1822、references117；包括正文内两TikZ图，无附录。所有缓存git blob SHA逐字节吻合，只有connector多出的单尾LF在删除后恰好复现expected SHA才移除。source mapping与全部input closure完成，无未读正文。此full_body_read仅表示source-first reading，不认证定理成立；未编译、逐页核对PDF、运行Lean或核验外部引用。"
+  }
+]

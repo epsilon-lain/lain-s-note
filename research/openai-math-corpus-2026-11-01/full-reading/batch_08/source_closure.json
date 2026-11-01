@@ -1,0 +1,67 @@
+{
+  "position": 20,
+  "source_mapping_complete": true,
+  "source_closure_complete": true,
+  "included_files": [
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/figures/crossing.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/figures/protrusion.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/references.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/00-introduction.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/01-topology.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/02-transfer.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/03-barriers.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/04-laws.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/05-selection.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/06-streams.tex",
+    "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/07-hyperbolic-surfaces.tex"
+  ],
+  "edges": [
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/00-introduction.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/01-topology.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/02-transfer.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/03-barriers.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/04-laws.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/05-selection.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/06-streams.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/07-hyperbolic-surfaces.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/main.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/references.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/05-selection.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/figures/crossing.tex"
+    },
+    {
+      "from": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/sections/00-introduction.tex",
+      "to": "preprints/Koebes-Circle-Domain-Conjecture-September-23-2026/build/figures/protrusion.tex"
+    }
+  ],
+  "appendix_present": false,
+  "unresolved_inputs": []
+}

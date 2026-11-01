@@ -1,0 +1,225 @@
+[
+  {
+    "position": 19,
+    "family_id": "032",
+    "title": "Algebraic Kuga–Satake correspondences and Hodge conjectures on a K3 quadratic locus",
+    "pdf_path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/paper.pdf",
+    "status": "full_body_read",
+    "main_source": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "bcd86ed1f932263ae0387e15469e1966c7c2e94c",
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "mapping_evidence": "固定提交的递归目录树未截断：README.md、build/paper.tex 与 paper.pdf 是全部三个 blobs。README 标题链接 paper.pdf，源码标题相同；唯一 TeX 为自包含主文件，正文无 input/include、无外部 bibliography 命令，参考文献内嵌。未编译或逐页核对 PDF。",
+    "source_files": [
+      {
+        "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/README.md",
+        "sha": "080907511932a1e3a66cd137613669ce64081126",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/19/README.md",
+        "source_bytes": 778,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+        "sha": "20ec0749de32f6e97cdac6e34fcd0cf2d49bfe6e",
+        "total_lines": 5391,
+        "read_ranges": [
+          [
+            1,
+            5391
+          ]
+        ],
+        "role": "main_body_and_embedded_bibliography",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group1/19/build/paper.tex",
+        "source_bytes": 261060,
+        "cache_git_blob_sha_verified": true,
+        "read_chunks": [
+          [
+            1,
+            650
+          ],
+          [
+            651,
+            1300
+          ],
+          [
+            1301,
+            2000
+          ],
+          [
+            2001,
+            2700
+          ],
+          [
+            2701,
+            3400
+          ],
+          [
+            3401,
+            4100
+          ],
+          [
+            4101,
+            4750
+          ],
+          [
+            4751,
+            5100
+          ],
+          [
+            5101,
+            5391
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "sections_read": [
+      "Introduction：HC/GHC 的全幂全次数陈述、exact j_w(v)(a)=vaw 与 tensor conversion、V_P 及 P 的格嵌入",
+      "Hodge classes and geometric supports from one exact tensor：代数投影、PBW 外幂单射、代数左逆、外幂几何 coniveau、TR/CM endomorphism field、invariant generation、最高权 exterior carriers 与 GHC 全子结构证明",
+      "Abelian double covers and their periods：双覆盖、Y 的 2-elementary lattice、U≃V_P、pullback form 的因子2、eigensheaves、完整 period differential 的 rank6 计算",
+      "Coherent half sums and domination by a product of curves：Gauss pencil genericity、coherent half sums、signed relation 排除、degree8 addition map、even pullback divisor、分开 étale covers、曲线 cohomology injection、ordered generic choices",
+      "Algebraic K3 pencils with controlled compactifications：larger lattice enlargement、finite root monodromy 与 infinity −id、period stack/contraction、原参数曲线 descent、canonical bundle、quadratic pullback 的 uniruledness 和 function-field comparison",
+      "An algebraic comparison by two square substitutions：uniruled H3 splitting、affine derived splitting、invariant-cycle Hodge lift、固定模型和相对 cycle spread、second conic 的 −4 cylinder、coefficient Thom/Leray compatibility、fixed boundary Hodge error 消除、exact Θ_b",
+      "Recovery of the prescribed Kuga–Satake tensor：曲线源、完整 even module 的两个 half-spin orientations、rational Hodge-Hom descent、multiplicity rank-one span、signed flip 与 algebraic realization、Buskin transfer",
+      "Algebraic cycles at every period：proper Hilbert parameter spaces、singular/nonreduced parameters 的 cycle-class constancy、Baire、rational orthogonal density、固定 U_P 全 action 的 every-period extension",
+      "Exact restriction and rational transfer：Picard jump tensor compression、right-factor/polarization/model transport、全 rational quadratic locus、HC/GHC 推论及 Hilbert schemes/twisted sheaf/Bridgeland moduli/birational hyperkähler transfers",
+      "完整内嵌 thebibliography 与 end{document}；无附录、无未读正文输入"
+    ],
+    "claim_as_stated": "对任意光滑射影复 K3 曲面 S，若实际 transcendental quadratic space (T_S,q_cup) 可有理等距嵌入 V_P=U_Q^⊕2⊥〈−1〉^4，则对任意 full even-Clifford realization H1(A,Q)=C+(T_S,q)、任意 rational nonisotropic w 和 rational polarization E，都存在 CH²(S×A×A)_Q 中 cycle，在整个 T_S 上的 full degree-two action 精确为标准 tensor iota_{w,E}；所有 S 的 self-powers、所有次数满足 rational HC 和 GHC。包括每个 ample P-polarized K3（P=U⊕D8(−1)⊕D4(−1)），含所有 Picard jumps。另有一般 exact-tensor criterion：任意 projective K3 只要一个 exact standard even-Clifford tensor 代数，就有相同的全幂 HC/GHC。推论覆盖文中指定 Hilbert schemes、twisted sheaf/Bridgeland moduli 及相应 birational hyperkähler powers。",
+    "proof_architecture": [
+      "先独立建立 exact-tensor criterion：将 j_w 交替复合，F_k(α)(1)=c_k(α)w^k，以 PBW 与 w 可逆证明每一外幂单射；代数 polarization adjoint G_k 使 D_k=G_kF_k 可逆，再以 Cayley–Hamilton polynomial inverse 构造代数 return R_k。",
+      "R_k 的 codimension 给整个 wedge^kT 的 coniveau≥k−1；(1,1) theorem 使 exterior Hodge classes 代数。Zarhin group 与 FFT 利用 metrics、TR relative volume 或 CM standard–dual pairings 得 HC。最高权按列装载 exterior carriers，width≤Hodge-level/2；Galois rationality 使各 embeddings 的宽度取 maximum，ordinary HC algebraizes quotient map，return-support calculation 得 GHC。",
+      "构造 abelian-surface double covers X，resolution quotient Y 给 rank16 anti-invariant lattice V，并剥去8条代数 −4 directions 得 rank8 U。用 determinant/local Hasse invariants 证明 U 在 Y-form 下≃V_P；resolved pullback 到 X 的 form 乘2。theta/logarithmic deformation 与 rank3 tangency pencil、非零 residue pairing4 得六维 period map 满秩。",
+      "Gauss fibers 的4个 opposite pairs 上建 coherent half sums（assignment torsor 的局部 monodromy 固定点使其平凡）；排除所有 signed constant relations。两 parity curves addition 总 degree8，4条分支各 multiplicity≥2 穷尽 degree，F*D=2E。分开因子 étale covers 消除 remaining double-cover character，得 product of curves dominates X 与 U_X 的代数 injection。",
+      "保留更大的 integral V 以控制 −2 vanishing roots，构造 2-elementary overlattice 并嵌入 K3 lattice；period-stack canonical contraction 杀 Weyl inertia，严格处理原 t-line descent 和 Hodge-line character。t=s+u² 后 Hodge line=O(1)，canonical degree−1，BDPP 给 K3 pulled-back threefold uniruled。",
+      "两次 square substitutions：第一步的 uniruled H³ 由 curve H¹(−1) 代数 split，使指定 degree3 Hodge comparison 代数；固定 models、G、relative cycle 后，第二步 s=b+v² 的 conic 两 components 差给 cylinder d，其 transpose d* d=−4id。Thom naturality 与 affine Leray H¹(R³) 保证 comparison 正好作用于 cylinder coefficient。",
+      "边界 isomorphism types 在 b 选择前固定为 H_F。simplicity、nonconstant periods 及 rational injection countability 使 Hom(U_b,H_F)=0（除可数点），从而 localization 的边界 error=0；−1/4 transpose cylinder 返回 exact map U_b→U_X。",
+      "在 full SO(2,6) seed，effective weight-one Lie weights 只容许 trivial/half-spin constituents。full C+ 有各8份 S±；opposite half-spin products 中 standard U 各重数1，rational Hodge-Hom base change 与 rank-one multiplicity maps 加 flip span 全128维 target Hom。divisor correspondences 和 Buskin full rational Hodge isometries 使 prescribed iota 代数。",
+      "固定 local ample-P ball 中 whole rank8 U_P 及 tensor τ；proper Hilbert successful components 的 cycle class 连续常量（包括 singular/nonreduced parameters）。ordered generic seed 避免任何 proposed countable proper images，强迫一个 image 覆盖全 ball。最后用 exact tensor-slot compression 处理 Picard jumps，再 rational orthogonal density/Witt/Buskin 把结果搬到全部 rational embedding locus。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "用 corank-one 扰动的顶次 determinant 系数，把形式保秩问题约化成一个 kernel–cokernel pairing。",
+        "precise_hypotheses": "n×n 矩阵 B 的 rank 为 n−1；选 ker B 的非零 k 与 coker B 的非零 dual functional ℓ。给定同型 source/target 的 A；在适当 bases 中 B 的 (n−1)×(n−1) block 可逆。",
+        "mechanism": "det(A+λB) 的 λ^(n−1) 系数是该非零 block determinant 乘 induced map ker B→coker B，即 nonzero scalar·ℓ(Ak)。本文 A' rank3、kernel 是 skew gradient，residue pairing=4 证明 A_d k 不在 im A'，从而 determinant polynomial 非零。",
+        "possible_bridge": "对 Q(Z) 的候选 surviving square minor，若能设计一个低 columnheight 的 rank-(r−1) leading block B，则只需构造一个受控 corrective column/row A 使 ℓ(Ak)≠0，便得到同一候选的 formal nonzero determinant；这比逐项展开所有 permutation terms 更可检查。",
+        "missing_step": "必须在真实 Q(Z) 的 coefficients/support 中实现 B,A 和非零 pairing；paper 的 residue4 是几何输入，不能直接移植。非零多项式仍需低高度整数评价，且 λ^(r−1)、basis change 和 denominator 的成本必须计入 quadratic occupancy/columnheight。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 1667,
+            "label": "geom:tangency-matrix"
+          },
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 1773,
+            "label": "rank-three pencil determinant argument"
+          }
+        ]
+      },
+      {
+        "idea": "用模2可逆的符号图样构造非零整数 determinant 证书。",
+        "precise_hypotheses": "四条3项 signed relations 可按 omitted index 组织成4×4 integer coefficient matrix，diagonal=0、off-diagonal∈{±1}。",
+        "mechanism": "模2矩阵为 J−I；dimension4 时 (J−I)²=I 于 F2，故 determinant odd、特别非零。本文借此证明该 signed-relations 系统定义 isogeny，移动分支不可能同时满足。",
+        "possible_bridge": "可寻找实际 Q(Z) 候选 minor 的整数/多项式 reduction，在某个固定 prime 的 coefficient/support pattern 上证明 determinant 非零；若同一列集合还满足第二个 rank condition，就获得 common-basis 候选的算术 nonvanishing certificate，供后续解析小量估计作用于同一个 determinant。",
+        "missing_step": "给出 rank certificate 仍不自动产生两套 matroid 的 common basis，也不提供 |det| 上界；所有 prime、specialization、清分母步骤须固定。这个特殊4×4 pattern 不意味着任意 parity pattern 都可逆。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 2010,
+            "label": "geom:relations"
+          }
+        ]
+      },
+      {
+        "idea": "保留 exact algebraic operator，通过外幂乘法恢复全部 rank 信息；避免把一个非零嵌入误当成指定构造。",
+        "precise_hypotheses": "已知完整 map j_w(v)(a)=vaw，Clifford PBW，nonisotropic w 使 right multiplication w^k 可逆；仅有 arbitrary nonzero Hodge embedding 不足。",
+        "mechanism": "alternating composition F_k 满足 F_k(α)(1)=c_k(α)w^k，直接给全部 k 的 injectivity。之后 polarization adjoint G_k 与 polynomial inverse P_k(G_kF_k) 构造一个 exact left inverse。",
+        "possible_bridge": "pi 项目可优先寻找 Q(Z) rows 的 exact functional/operator realization，使 exterior determinant 有可追踪的 evaluation identity；若如此，保秩证明与系数小量估计可共享同一乘法对象。也可把已知满行秩块的 rational retraction 写成显式 adjoint/Gram inverse，检查所有投影前后是否仍是同一个 minor。",
+        "missing_step": "Q(Z) 当前没有现成 Clifford/PBW realization；必须实际定义并证明 faithful evaluation。Gram inverse/Cayley–Hamilton 虽给 rational inverse，却可能大幅增加分母与 height，不能当成低成本 determinant 下界。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 495,
+            "label": "ext:clifford-evaluation"
+          },
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 584,
+            "label": "ext:left-inverse"
+          }
+        ]
+      },
+      {
+        "idea": "多个 embeddings 或正负部分可以共享同一 exterior carrier，成本取最大宽度而非逐项相加。",
+        "precise_hypotheses": "在 direct-sum decomposition V_C=⊕V_σ（或⊕(W_η⊕W_η*)）下，每个 factor 的 highest weight 有 columns；总 exterior degree k_j 为同一 column index 中各 factor column heights 之和。rational simple H 的 Galois orbit 给每个 factor width≤b。",
+        "mechanism": "wedge^(k_j)(⊕V_σ) 包含 ⊗_σ wedge^(h_σj)V_σ；把各 factor 的第j列装入同一 carrier。所需 carrier 数 c=max widths≤b，非 widths sum。CM 正负 columns 同样共享 carrier，保留 central determinant characters。",
+        "possible_bridge": "可启发把多个 signature/support blocks 的第j层同时装载到同一实际 column，而先证明 row-rank 的共同 carrier，再以最大 occupancy 层数估成本；有机会减少把每个 block 成本简单相加的过估计。",
+        "missing_step": "在 pi 的 quadratic occupancy 目标中，合并 column 也可能增加平方代价；只有在 row supports、actual Q(Z) rank 与 capacity permits 时才能共享，必须重新算 Σheight_j²，不能从 representation-theoretic carrier count 直接推低成本。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 945,
+            "label": "ghc:lem:k3-carriers"
+          }
+        ]
+      },
+      {
+        "idea": "严格固定模型、比较 map 与障碍集合，再选择最终参数，防止移动障碍吞掉所有候选。",
+        "precise_hypotheses": "本文先固定 original pencil、first compactifications、relative cycle C 与 good open G；随后 b 变化时 boundary H_F 的 Hodge isomorphism types 固定，U_b 简单且 period nonconstant。",
+        "mechanism": "每个 rational injection U_b→H_F 对应一个固定 filtration，nonconstant period 只在 discrete set 命中；countable rational injections 给可数 exceptional b。先后次序确保 boundary error 可由固定 target 检验。",
+        "possible_bridge": "在参数化 determinant 构造中先冻结真实 minor、所有 transformation/denominator 和有限 forbidden rank polynomials，再对同一整数参数同时做 nonvanishing 与 smallness估计；把依赖参数的坏集合列清，避免最后为每个参数重新定义障碍。",
+        "missing_step": "Baire/complex uncountability 不能保证任何小整数点；可数多个 proper analytic bad sets 甚至能覆盖全部 integers。pi 构造仍须有限化障碍、给 degree/root bounds 和实际 integer evaluation/height estimate。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 2272,
+            "label": "geom:genericity"
+          },
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 3745,
+            "label": "comp:rcomparison"
+          },
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 4080,
+            "label": "comp:fixedtypes"
+          }
+        ]
+      },
+      {
+        "idea": "先在固定ambient空间实现整个 map，再以精确双槽公式压缩到实际存活子空间。",
+        "precise_hypotheses": "i:W_T→W_U 为 polarizable weight-one inclusion，p 为 Hodge retraction；E_T,E_U 为指定 rational polarizations；j:H→End(W_U)。",
+        "mechanism": "第二槽用 b=(E_T^flat)^−1 i^dual E_U^flat，得到 (p⊗b)iota_(j,E_U)=iota_(pji,E_T)。本文先延拓 whole rank8 U_P 的 full degree2 action，再压缩 Picard-jump 的真实 T_S。",
+        "possible_bridge": "Q(Z) 若经历 ambient enlargement、pruning 或 changing row sources，可记录一个 exact inclusion/retraction 及 dual normalization identity，检验 nonzero determinant 与 analytic smallness是否仍作用于同一 surviving map，排除额外目标分量。",
+        "missing_step": "仅有 abstract retraction 不控制 integral lattice 或 common denominator。要用于整数 determinant，p,b 的每项分母/columnheight必须定量，并证明 pruning 后仍有共同列基；这里的几何 tensor identity不直接给该证书。",
+        "source_anchors": [
+          {
+            "path": "preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/build/paper.tex",
+            "line": 5059,
+            "label": "transfer:compression-identity"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "full_body_read 是固定提交源码完整首读，不是独立 theorem validation；未核验各引文定理、未编译 TeX、未逐页比对 PDF。",
+      "主结果的 locus 是 cup-product form 的 rational isometric embedding，不是只比较 dimension、signature 或 arbitrary similarity；X pullback form 的因子2与 Y/K3 form须严格区分。",
+      "一般 criterion 必须有 exact standard even-Clifford tensor j_w(v)(a)=vaw，arbitrary nonzero curve/abelian injection不能取代；seed full SO 与 every-period full ambient action承担不同步骤。",
+      "ordered generic choices、Baire、Hilbert properness、GAGA、Buskin、BDPP、invariant-cycle/weight strictness 等是 substantive inputs。这里记录论文如何使用它们，未独立认证这些应用。",
+      "与 pi integer determinant 的桥接均为construction hypotheses，未产出新 common basis、actual Q(Z) rank certificate、整数非零小量矛盾或可用 columnheight/quadratic occupancy bound。"
+    ],
+    "scope_note": "非选择性读完本篇 README 1–18、唯一 main TeX 1–5391（含所有正文证明和完整内嵌参考文献）；递归树与输入闭包完整，无附录、无额外 body 文件。一次输出尾段发生包装层截断，随后分别重读4751–5100、5101–5391，完整覆盖。Cache bytes 的 Git blob SHA均与固定提交tree吻合。30、32仅做目录preflight，未读body，已交回root重新分配；本record不把它们计为已读。"
+  }
+]

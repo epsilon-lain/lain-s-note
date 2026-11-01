@@ -1,0 +1,140 @@
+{
+  "position": 35,
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "directory_tree_sha": "963c61e950f08f4f55576651f7995711596635b8",
+  "status": "all_cached_files_match_pinned_blob_sha",
+  "all_text_files_read": true,
+  "total_text_bytes": 334261,
+  "total_text_lines": 7160,
+  "files": [
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/README.md",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/README.md",
+      "sha": "24cd43c4e157a19abc0fe0f3bb726e232ba08bdf",
+      "source_bytes": 823,
+      "total_lines": 21,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/figures/proof-roadmap.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/figures/proof-roadmap.tex",
+      "sha": "c94e666064af6f5d5ee6774b40a9f8e6d964f258",
+      "source_bytes": 1367,
+      "total_lines": 36,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/main.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/main.tex",
+      "sha": "e4e93d8d7c3f37597dbf4a07e6191fec354ee7e0",
+      "source_bytes": 1272,
+      "total_lines": 33,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/preamble.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/preamble.tex",
+      "sha": "925770f98abadbf7e47b6469132c69ca13163313",
+      "source_bytes": 3018,
+      "total_lines": 82,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/references.bib",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/references.bib",
+      "sha": "9c22b522fae2c7da602ed7c0b6285ff65c6a4f99",
+      "source_bytes": 39342,
+      "total_lines": 1070,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/01-introduction.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/01-introduction.tex",
+      "sha": "553f4809afa0d22a18a5e1943281717a27fac579",
+      "source_bytes": 13616,
+      "total_lines": 269,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/02-reduction.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/02-reduction.tex",
+      "sha": "97cd246b01da88c5dd7dff3157f3cfa6de55eb3c",
+      "source_bytes": 11190,
+      "total_lines": 257,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/03-tame-deformation.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/03-tame-deformation.tex",
+      "sha": "3a470bea011ef58bb809dcf05c2772a75bb9f482",
+      "source_bytes": 40549,
+      "total_lines": 868,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/04-theta-construction.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/04-theta-construction.tex",
+      "sha": "10275cc56c67e2962b8d4ff1c1afde750ed9fa0f",
+      "source_bytes": 36982,
+      "total_lines": 687,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/05-constant-terms.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/05-constant-terms.tex",
+      "sha": "981dd32f50a8de88c5a00a9a89e220bc52dc5c28",
+      "source_bytes": 36866,
+      "total_lines": 722,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/06-nonconstant-coefficient.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/06-nonconstant-coefficient.tex",
+      "sha": "d1a65fb32e37bacf2d830ec9649040f073a73df1",
+      "source_bytes": 29869,
+      "total_lines": 553,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/07-cusp-lifting.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/07-cusp-lifting.tex",
+      "sha": "a59eb973dc61f41d95a40946cfd604f18a78bf24",
+      "source_bytes": 30577,
+      "total_lines": 634,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/08-galois-parameters.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/08-galois-parameters.tex",
+      "sha": "3cc282bebd4c4ab10a4ad9c0568db4ea0f092a87",
+      "source_bytes": 32691,
+      "total_lines": 717,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/09-extension-extraction.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/09-extension-extraction.tex",
+      "sha": "14ef9dd6fe63bc07b6b5bade596ba6528c607dd2",
+      "source_bytes": 29509,
+      "total_lines": 609,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-nonstandard-transfer.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/10-nonstandard-transfer.tex",
+      "sha": "eb2792056b6ea6dfbe8501f64beac23f358ecce7",
+      "source_bytes": 22053,
+      "total_lines": 484,
+      "cache_git_blob_sha_verified": true
+    },
+    {
+      "path": "preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/build/sections/10-sylvester-cube-sums.tex",
+      "cache_path": "/workspace/scratch/66870cb2f937/source_context/round02_group5/35/build/sections/10-sylvester-cube-sums.tex",
+      "sha": "dda04adaf165cd489194ab199310dee699f3fe68",
+      "source_bytes": 4537,
+      "total_lines": 118,
+      "cache_git_blob_sha_verified": true
+    }
+  ],
+  "excluded_nontext_blob": "main.pdf; source-first full reading, no PDF content claim"
+}

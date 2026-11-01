@@ -1,0 +1,196 @@
+[
+  {
+    "position": 33,
+    "family_id": "334",
+    "pdf_path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/paper.pdf",
+    "title": "A Smooth Metric with No Local Isometric Immersion into Three-Space",
+    "status": "full_body_read",
+    "main_source": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/main.tex",
+    "source_files": [
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/README.md",
+        "sha": "cf7f6b7fbbea8046f286c2556c15f014829daeab",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/figures/accumulation.tex",
+        "sha": "fcf9b8c0c7ead67a1fd6adc61e8b86925520a602",
+        "total_lines": 41,
+        "read_ranges": [
+          [
+            1,
+            41
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/figures/cap.tex",
+        "sha": "d3f827079eb23c353585544267e0331f3e2dc87a",
+        "total_lines": 35,
+        "read_ranges": [
+          [
+            1,
+            35
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/figures/geometry.tex",
+        "sha": "32aad834c2dee0689c15cee57f7797e9d027983f",
+        "total_lines": 37,
+        "read_ranges": [
+          [
+            1,
+            37
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/figures/pulse.tex",
+        "sha": "0950b789c65d851fa8258833643ee372e0422e2a",
+        "total_lines": 30,
+        "read_ranges": [
+          [
+            1,
+            30
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/main.tex",
+        "sha": "25eaea9aa10176cddcb1959f31c823d0b76872e9",
+        "total_lines": 228,
+        "read_ranges": [
+          [
+            1,
+            228
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/references.bib",
+        "sha": "484755d0f358646859ee79fa304adaf9d9dd58cf",
+        "total_lines": 195,
+        "read_ranges": [
+          [
+            1,
+            195
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/sections/assembly.tex",
+        "sha": "1e618144e9745e071dd90e1bf21ca3c4b05393c4",
+        "total_lines": 289,
+        "read_ranges": [
+          [
+            1,
+            289
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/sections/caps.tex",
+        "sha": "faf0980ff6ddf741e5f1c27f5670cf3045c0b939",
+        "total_lines": 484,
+        "read_ranges": [
+          [
+            1,
+            484
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/sections/model.tex",
+        "sha": "64693882b445dc65bdd235f5780b2c175d3bd5fd",
+        "total_lines": 105,
+        "read_ranges": [
+          [
+            1,
+            105
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      },
+      {
+        "path": "preprints/A-Smooth-Metric-with-No-Local-Isometric-Immersion-into-Three-Space-September-24-2026/build/sections/pulse.tex",
+        "sha": "c81fe45a0c4e48441605a3c6feaf204967b9f220",
+        "total_lines": 406,
+        "read_ranges": [
+          [
+            1,
+            406
+          ]
+        ],
+        "role": "body_or_supporting_text"
+      }
+    ],
+    "unread_files": [],
+    "source_mapping_complete": true,
+    "source_closure_complete": true,
+    "sections_read": [
+      "main introduction and conventions",
+      "model patch and Darboux height equation",
+      "all cap regularity proof and weighted multiplier estimate",
+      "all oscillatory pulse, propagation, Taylor comparison and Baire argument",
+      "all smooth assembly, boundary obstruction and flat-jet corollary",
+      "four figure sources and complete bibliography"
+    ],
+    "claim_as_stated": "The manuscript claims a smooth positive metric, flat to all orders relative to the Euclidean metric at the origin, admitting no smooth local isometric immersion into R3 near the origin. Its curvature changes sign; it does not settle either fixed curvature-sign case.",
+    "proof_architecture": [
+      "Use only the necessary Darboux equation for a fixed ambient height; define a whole-square class with E>0, nonzero diagonal Hessian and small mixed-to-diagonal ratio.",
+      "Differentiate before changing to solution-dependent flow coordinates. Curvature commutation contributes a drift; combine directed weights near negative/zero curvature with a weighted elliptic estimate elsewhere to gain derivatives without high-order data on the artificial cap edge.",
+      "Under hypothetical density of a bounded height class, perturb the metric itself in a thin oscillatory strip. Propagate cap data to both strip edges and construct a finite Taylor comparison for the unperturbed metric.",
+      "Pair forcing with the same oscillatory test. Its constant-sign moment is linear in fixed width parameter delta, whereas leading competing terms are quadratic. Fix delta before frequency tau tends to infinity; Baire category excludes all countably bounded classes.",
+      "Place disjoint obstructed patches, in every orientation from a finite net, accumulating around negative disks; let the disks accumulate at the origin. Choose amplitudes stagewise small in every previously listed derivative seminorm.",
+      "A hypothetical local graph immersion has a nonzero rank-one second fundamental form at a disk boundary point. A nearby full patch aligned to its kernel supplies an admissible height forbidden by the patch construction. The summed metric keeps all Euclidean jets at the origin."
+    ],
+    "construction_ideas": [
+      {
+        "mechanism": "Two-scale contradiction with shared leading order",
+        "source": "pulse.tex:moment-error,moment-lower,pulse-choices",
+        "premises": "A forcing moment bounded below by c delta times a common scale, and competing cost bounded above by C delta^2 at that same scale, with c,C independent of sufficiently small fixed delta.",
+        "possible_interface": "Search for a determinant normalization whose desired gain is first order and paid cross-errors are second order in a separately fixed parameter, before sending H or denominator to infinity.",
+        "missing_bridge": "No such determinant estimates have been constructed; the existing fixed analytic cost cannot be discarded or treated as quadratic."
+      },
+      {
+        "mechanism": "Countable local obstructions assembled while preserving every finite regularity requirement",
+        "source": "assembly.tex:tensor-sum,final-metric,flat-jet",
+        "premises": "Disjoint supports, perturbations arbitrarily small in finitely many C^m seminorms, and summable tails for each fixed derivative order.",
+        "possible_interface": "A prototype for preserving earlier finite certificates while adding infinitely many new obstructions or witnesses. Explicitly pay the lambda^(-m-2) rescaling cost at each stage.",
+        "missing_bridge": "Integer coefficients and denominator heights do not admit freely chosen tiny smooth perturbations. C-infinity flat bump freedom also does not hold for the analytic digit-transport functions used in the pi project."
+      },
+      {
+        "mechanism": "Finite orientation net captures an unknown rank-one witness",
+        "source": "assembly.tex proof of Theorem A",
+        "premises": "A genuinely nonzero rank-one form, strict inequalities stable in a neighborhood, and patches at every boundary point in every net direction.",
+        "possible_interface": "Try replacing selection of one unknown pivot/witness by finitely many robust direction tests, while retaining all tests in later extensions.",
+        "missing_bridge": "The rank gap and stability radius may degenerate with matrix height; no H-uniform net or arithmetic height bound is supplied."
+      }
+    ],
+    "limits": [
+      "First-pass source reading, not independent verification of cap estimates or main theorem.",
+      "Referenced external PDE and geometric literature was not independently reread here.",
+      "The source itself reports an unresolved discrepancy between an earlier preprint and later accounts of the smooth local-realizability problem.",
+      "Smooth flatness at a point is not an analytic flatness construction and cannot be transplanted into a fixed integer digit sequence."
+    ],
+    "scope_note": "All authored mathematical text, all four included figure sources and bibliography read in full; no PDF layout audit or Lean run. The system glyph-to-Unicode input is TeX infrastructure, not an unresolved mathematical body include.",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "cache_sha_verification": "All eleven text files byte-exact against pinned tree."
+  }
+]

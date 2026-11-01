@@ -1,0 +1,29 @@
+{
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "positions": [
+    24,
+    25
+  ],
+  "records": [
+    {
+      "position": 24,
+      "source_mapping_complete": true,
+      "source_closure_complete": true,
+      "source_files": 14,
+      "source_bytes": 64332,
+      "source_lines": 1533,
+      "all_cache_git_blob_sha_verified": true,
+      "all_source_read_ranges_complete": true
+    },
+    {
+      "position": 25,
+      "source_mapping_complete": true,
+      "source_closure_complete": true,
+      "source_files": 9,
+      "source_bytes": 139130,
+      "source_lines": 3238,
+      "all_cache_git_blob_sha_verified": true,
+      "all_source_read_ranges_complete": true
+    }
+  ]
+}
