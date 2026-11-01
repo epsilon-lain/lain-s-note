@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "labs": [
+    {
+      "script": "integer_geometry_checks.py",
+      "result": "integer_geometry_results.json",
+      "exit_code": 0,
+      "script_sha256": "85032f8b81342d6a0abc4df538a5f0d6e64a79dcb78f229651ec1b32b5c927c7",
+      "result_sha256": "0bdae2845057d08ad3629044df3c6497f14673dc6eb7ca83bd250237c69ce2f8"
+    },
+    {
+      "script": "rational_lenses_lab.py",
+      "result": "rational_lenses_results.json",
+      "exit_code": 0,
+      "script_sha256": "924d2062a97064b65dd919c29853fe96414e490c9733e12844d147efe1a9c39b",
+      "result_sha256": "b9389af706e620fa885a40b6d0f0c1e72fbb419a85e395b9c2818359a574ba08"
+    },
+    {
+      "script": "denominator_envelope_lab.py",
+      "result": "denominator_envelope_results.json",
+      "exit_code": 0,
+      "script_sha256": "2fabf27f25e89c40ed804cc3e4dd66bcfc230df367054d5275283b39fa4747ce",
+      "result_sha256": "b791cd3a4f3cb68b71d59be49d033a375dcaff5ffd08b023a7c33cf472df522a"
+    },
+    {
+      "script": "model_lab.py",
+      "result": "model_results.json",
+      "exit_code": 0,
+      "script_sha256": "bb39835a2b8c88d229fd9997b9544044fa7c8c5472a810ed42d74c98e3bd3c0c",
+      "result_sha256": "5196f6b4593f1ca643bc41935b84fd8118b3412a3b7adf9fd91e42fa3047e10c"
+    }
+  ],
+  "figures": [
+    {
+      "path": "basins_and_envelope.png",
+      "sha256": "5d323810834c6b9f967afbab6b09bbee842a965b3aec214fbd4d2068f8ee15c6"
+    },
+    {
+      "path": "scale_geometry.png",
+      "sha256": "f57374815cd4d6b001186ce2f65c53a7ca1b80fa336c9de37bc880a253a4ea69"
+    }
+  ],
+  "scope": "Finite exact models and symbolic proofs; no infinite-tail conclusion for pi.",
+  "dependencies": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8"
+  }
+}

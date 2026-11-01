@@ -1,0 +1,419 @@
+{
+  "status": "passed",
+  "scope": "Exact finite checks of two distinct rational observation models.\n\nNo pi digits, floating point rank decisions, or endpoint claims are used.\nAll targets in this script are rational controls. General statements are\nproved in rational_lenses.md; finite checks do not prove them.\n",
+  "nearest_lattice_checks": 252,
+  "greedy_prefix_checks": 192,
+  "same_base_different_models": {
+    "base": "3/2",
+    "lattice": {
+      "k": 2,
+      "point": "3",
+      "distance": "1/7",
+      "reduced_point_denominator": 1,
+      "kappa": "1/7"
+    },
+    "digit_prefix": {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 8,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "513/1792",
+      "nominal_denominator": 6561,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    }
+  },
+  "exact_rational_alignment": {
+    "target": "22/7",
+    "base": "22/21",
+    "k": 3,
+    "point": "22/7",
+    "distance": "0",
+    "reduced_point_denominator": 7,
+    "kappa": "0"
+  },
+  "nonconvex_sublevel_control": {
+    "target": "3",
+    "bases": [
+      "3",
+      "3/2",
+      "9/4"
+    ],
+    "distances": [
+      "0",
+      "0",
+      "3/4"
+    ]
+  },
+  "rational_prefix_series": [
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 1,
+      "digits": [
+        0
+      ],
+      "prefix": "3",
+      "remainder": "3/14",
+      "nominal_denominator": 3,
+      "reduced_denominator": 1,
+      "error": "1/7",
+      "kappa": "1/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 2,
+      "digits": [
+        0,
+        0
+      ],
+      "prefix": "3",
+      "remainder": "9/28",
+      "nominal_denominator": 9,
+      "reduced_denominator": 1,
+      "error": "1/7",
+      "kappa": "1/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 3,
+      "digits": [
+        0,
+        0,
+        0
+      ],
+      "prefix": "3",
+      "remainder": "27/56",
+      "nominal_denominator": 27,
+      "reduced_denominator": 1,
+      "error": "1/7",
+      "kappa": "1/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 4,
+      "digits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "prefix": "3",
+      "remainder": "81/112",
+      "nominal_denominator": 81,
+      "reduced_denominator": 1,
+      "error": "1/7",
+      "kappa": "1/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 5,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "prefix": "761/243",
+      "remainder": "19/224",
+      "nominal_denominator": 243,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 6,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "57/448",
+      "nominal_denominator": 729,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 7,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "171/896",
+      "nominal_denominator": 2187,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 8,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "513/1792",
+      "nominal_denominator": 6561,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 9,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "1539/3584",
+      "nominal_denominator": 19683,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 10,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "4617/7168",
+      "nominal_denominator": 59049,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 11,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "prefix": "761/243",
+      "remainder": "13851/14336",
+      "nominal_denominator": 177147,
+      "reduced_denominator": 243,
+      "error": "19/1701",
+      "kappa": "4617/7"
+    },
+    {
+      "x": "22/7",
+      "b": "3/2",
+      "L": 12,
+      "digits": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "prefix": "1668403/531441",
+      "remainder": "12881/28672",
+      "nominal_denominator": 531441,
+      "reduced_denominator": 531441,
+      "error": "12881/3720087",
+      "kappa": "6845491521/7"
+    }
+  ],
+  "nontermination_control": [
+    {
+      "L": 1,
+      "prefix": "0",
+      "remainder": "1/2",
+      "reduced_denominator": 1
+    },
+    {
+      "L": 2,
+      "prefix": "0",
+      "remainder": "3/4",
+      "reduced_denominator": 1
+    },
+    {
+      "L": 3,
+      "prefix": "8/27",
+      "remainder": "1/8",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 4,
+      "prefix": "8/27",
+      "remainder": "3/16",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 5,
+      "prefix": "8/27",
+      "remainder": "9/32",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 6,
+      "prefix": "8/27",
+      "remainder": "27/64",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 7,
+      "prefix": "8/27",
+      "remainder": "81/128",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 8,
+      "prefix": "8/27",
+      "remainder": "243/256",
+      "reduced_denominator": 27
+    },
+    {
+      "L": 9,
+      "prefix": "6344/19683",
+      "remainder": "217/512",
+      "reduced_denominator": 19683
+    },
+    {
+      "L": 10,
+      "prefix": "6344/19683",
+      "remainder": "651/1024",
+      "reduced_denominator": 19683
+    },
+    {
+      "L": 11,
+      "prefix": "6344/19683",
+      "remainder": "1953/2048",
+      "reduced_denominator": 19683
+    },
+    {
+      "L": 12,
+      "prefix": "175384/531441",
+      "remainder": "1763/4096",
+      "reduced_denominator": 531441
+    },
+    {
+      "L": 13,
+      "prefix": "175384/531441",
+      "remainder": "5289/8192",
+      "reduced_denominator": 531441
+    },
+    {
+      "L": 14,
+      "prefix": "175384/531441",
+      "remainder": "15867/16384",
+      "reduced_denominator": 531441
+    },
+    {
+      "L": 15,
+      "prefix": "4768136/14348907",
+      "remainder": "14833/32768",
+      "reduced_denominator": 14348907
+    },
+    {
+      "L": 16,
+      "prefix": "4768136/14348907",
+      "remainder": "44499/65536",
+      "reduced_denominator": 14348907
+    },
+    {
+      "L": 17,
+      "prefix": "43044296/129140163",
+      "remainder": "2425/131072",
+      "reduced_denominator": 129140163
+    },
+    {
+      "L": 18,
+      "prefix": "43044296/129140163",
+      "remainder": "7275/262144",
+      "reduced_denominator": 129140163
+    },
+    {
+      "L": 19,
+      "prefix": "43044296/129140163",
+      "remainder": "21825/524288",
+      "reduced_denominator": 129140163
+    },
+    {
+      "L": 20,
+      "prefix": "43044296/129140163",
+      "remainder": "65475/1048576",
+      "reduced_denominator": 129140163
+    }
+  ],
+  "nontermination_general_proof_in": "rational_lenses.md",
+  "pi_claim": "none; no pi numerical data in this script"
+}
