@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "confluent_gram_cases": [
+    {
+      "K": 1,
+      "jets_per_center": 1,
+      "rows": 1,
+      "gram_det": "1"
+    },
+    {
+      "K": 1,
+      "jets_per_center": 2,
+      "rows": 2,
+      "gram_det": "1/400"
+    },
+    {
+      "K": 1,
+      "jets_per_center": 3,
+      "rows": 3,
+      "gram_det": "1/64000000"
+    },
+    {
+      "K": 2,
+      "jets_per_center": 1,
+      "rows": 2,
+      "gram_det": "9/391"
+    },
+    {
+      "K": 2,
+      "jets_per_center": 2,
+      "rows": 4,
+      "gram_det": "6561/3739616025760000"
+    },
+    {
+      "K": 2,
+      "jets_per_center": 3,
+      "rows": 6,
+      "gram_det": "387420489/874884584938770822492614656000000000000"
+    },
+    {
+      "K": 3,
+      "jets_per_center": 1,
+      "rows": 3,
+      "gram_det": "72900/1298030461"
+    },
+    {
+      "K": 3,
+      "jets_per_center": 2,
+      "rows": 6,
+      "gram_det": "7060738412025/45421295767447654470146173743662327056"
+    },
+    {
+      "K": 3,
+      "jets_per_center": 3,
+      "rows": 9,
+      "gram_det": "58149737003040059690390169/2742230013586859944294284257519879098945191978313153716539005344963685935520645314248704"
+    }
+  ],
+  "independent_kernel_coefficient_checks": 196,
+  "nonzero_shift_certificates": [
+    {
+      "imaginary_shift": "0",
+      "actual_det": "1296",
+      "actual_det_squared": "1679616",
+      "gram_det": "6561/10971993760000",
+      "coefficient_gram_det": "4240876297445601",
+      "bound_squared_over_actual_squared": "4240876297445601/2808830402560000",
+      "rowwise_bound_squared_over_grouped_bound_squared": "109000000/6561"
+    },
+    {
+      "imaginary_shift": "1/100",
+      "actual_det": "130466162401/100000000",
+      "actual_det_squared": "17021419531644106084801/10000000000000000",
+      "gram_det": "97054745474616020001/109719937600000000000000000000",
+      "coefficient_gram_det": "4240876297445601",
+      "bound_squared_over_actual_squared": "411597169637914786036953189425465601/186758908887541254503214602841760000",
+      "rowwise_bound_squared_over_grouped_bound_squared": "109021803270436032702180109/9705474547461602000100"
+    },
+    {
+      "imaginary_shift": "1/10",
+      "actual_det": "13845841/10000",
+      "actual_det_squared": "191707312997281/100000000",
+      "gram_det": "3342546117/109719937600000000",
+      "coefficient_gram_det": "4240876297445601",
+      "bound_squared_over_actual_squared": "14175324600704130641281317/210341144195253402896656",
+      "rowwise_bound_squared_over_grouped_bound_squared": "111213139291909/334254611700"
+    },
+    {
+      "imaginary_shift": "1/2",
+      "actual_det": "28561/16",
+      "actual_det_squared": "815730721/256",
+      "gram_det": "337386501/175551900160000",
+      "coefficient_gram_det": "4240876297445601",
+      "bound_squared_over_actual_squared": "1430814415169006559232101/559387023790768810000",
+      "rowwise_bound_squared_over_grouped_bound_squared": "112890625/12381156"
+    }
+  ],
+  "log_49_over_22_rational_lower": "7220591694/9021146755",
+  "large_K_phi_14_rational_lower": "42881/38340",
+  "scope": "Exact kernel and grouped Cauchy-Binet checks at rational imaginary nodes; no claim exp(6i)=1, no pi approximation or interpolation-threshold conclusion."
+}

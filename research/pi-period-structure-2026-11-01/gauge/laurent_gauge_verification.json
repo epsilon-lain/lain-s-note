@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "gauge_cases": [
+    {
+      "H": 3,
+      "weights": [
+        1
+      ],
+      "rows": 4,
+      "columns": 10,
+      "gauges": [
+        1,
+        3,
+        6
+      ],
+      "determinant": "1",
+      "entries_checked": 120,
+      "same_minor_and_mixed_minor_unchanged": true
+    },
+    {
+      "H": 4,
+      "weights": [
+        1
+      ],
+      "rows": 12,
+      "columns": 15,
+      "gauges": [
+        1,
+        3,
+        7
+      ],
+      "determinant": "59049",
+      "entries_checked": 540,
+      "same_minor_and_mixed_minor_unchanged": true
+    },
+    {
+      "H": 7,
+      "weights": [
+        2,
+        3
+      ],
+      "rows": 22,
+      "columns": 31,
+      "gauges": [
+        1,
+        3,
+        10
+      ],
+      "determinant": "105468750",
+      "entries_checked": 2046,
+      "same_minor_and_mixed_minor_unchanged": true
+    },
+    {
+      "H": 5,
+      "weights": [
+        1,
+        2
+      ],
+      "rows": 8,
+      "columns": 34,
+      "gauges": [
+        1,
+        3,
+        8
+      ],
+      "determinant": "-625",
+      "entries_checked": 816,
+      "same_minor_and_mixed_minor_unchanged": true
+    }
+  ],
+  "integer_binomial_recurrences": 375,
+  "arithmetic": {
+    "scaled_entries_checked": 1656,
+    "nonreal_entries": 468,
+    "negative_exponent_entries": 1072,
+    "q": [
+      7,
+      13
+    ],
+    "L": [
+      6,
+      60
+    ]
+  },
+  "envelope": {
+    "cases": 36,
+    "column_budget_points": 564,
+    "representative": [
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "14",
+        "b": "1",
+        "gauge": 5,
+        "real_optimum": "4",
+        "finite_exponent": "98"
+      },
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "14",
+        "b": "7",
+        "gauge": 0,
+        "real_optimum": "7",
+        "finite_exponent": "168"
+      },
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "14",
+        "b": "40",
+        "gauge": 0,
+        "real_optimum": "40",
+        "finite_exponent": "960"
+      },
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "30",
+        "b": "1",
+        "gauge": 5,
+        "real_optimum": "8",
+        "finite_exponent": "210"
+      },
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "30",
+        "b": "7",
+        "gauge": 3,
+        "real_optimum": "11",
+        "finite_exponent": "270"
+      },
+      {
+        "H": "24",
+        "w0": "2",
+        "R": "30",
+        "b": "40",
+        "gauge": 0,
+        "real_optimum": "40",
+        "finite_exponent": "960"
+      }
+    ]
+  },
+  "radius_derivative_checks": 84,
+  "sparse_source_counterexample": {
+    "ungauged": 0,
+    "gauge_d_1": -1
+  },
+  "scope": "Exact algebra/envelope checks; no independent source interpolation or pi bad-approximability claim."
+}

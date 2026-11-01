@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-01",
+  "status": "passed",
+  "prior_checkpoint": "3013b1149a756cae6ae83e1a2db45834e94f4456",
+  "source_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "verification_commands": [
+    "python3 diagonal/verify_diagonal_order.py",
+    "python3 gram/verify_grouped_gram.py",
+    "python3 stability/verify_stability.py",
+    "python3 gauge/verify_laurent_gauge.py"
+  ],
+  "result_files": [
+    "diagonal/diagonal_order_verification.json",
+    "gram/grouped_gram_verification.json",
+    "stability/stability_verification.json",
+    "gauge/laurent_gauge_verification.json"
+  ],
+  "independent_review": "review/REVIEW.md",
+  "scope": [
+    "No independent verification of manuscript Theorem 2.1; high-dimensional rank existence remains conditional",
+    "Actual-period diagonal-order theorem explicitly uses known transcendence of pi",
+    "Pure difference factors can reproduce rational spacing; residual factors and directional cancellations are not bounded by that observation",
+    "Coefficient-norm no-closure applies only to the displayed uniform arithmetic comparison",
+    "Hardy Gram retains shift dependence and row correlations, not all original determinant cancellation",
+    "Nonzero-shift Gram numerical example uses rational imaginary surrogate nodes, not an exponential period",
+    "Zero-error Gram formulas cannot be substituted at actual nonzero errors without stability control",
+    "Relative spectral theorem requires same nonsingular original and period column family",
+    "Finite preconditioner certificates use rational-center inverse, distinguished from inverse at true period",
+    "Highdim w_min>=10^12 condition does not replace unknown interpolation thresholds",
+    "Large staircase example uses exact determinant identity, not a materialized huge matrix",
+    "Laurent gauge preserves full source determinants, not arbitrary sparse test determinants; shell rank proof is separately reapplied",
+    "Radius fixed before H; only explicitly controlled integer gauge is allowed to grow with H",
+    "No pi bad-approximability or nonbad-approximability result, no new rational approximation record, no Lean verification"
+  ],
+  "format_validation": "No invalid control characters or missing local Markdown targets; published paths contain no scratch dependencies",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8735,
+      "sha256": "bf47b098e24e7a05527eb0ea7e96911c4275730955e96658a9f5a1a048d23ef4"
+    },
+    {
+      "path": "diagonal/ACTUAL_PERIOD_DIAGONAL_ORDER.md",
+      "bytes": 14955,
+      "sha256": "cf0493b91da1b6acef43b282afd171b9ae4c841c40d2a4afaa325b2fbe224377"
+    },
+    {
+      "path": "diagonal/diagonal_order_verification.json",
+      "bytes": 2118,
+      "sha256": "5568ea6fdae6492f6a1fd7f59e598a000a4f9c2ba7e645eea1817189fcadef07"
+    },
+    {
+      "path": "diagonal/verify_diagonal_order.py",
+      "bytes": 10742,
+      "sha256": "c5ed2e42e0e7b32993c42b774b91c4b431860b8beb74119c20e66e04c53c2b18"
+    },
+    {
+      "path": "gauge/LAURENT_GAUGE.md",
+      "bytes": 9222,
+      "sha256": "da9a6da619200137845152cb99085cece91720af8dede13746489678ea77bfc5"
+    },
+    {
+      "path": "gauge/laurent_gauge_verification.json",
+      "bytes": 2777,
+      "sha256": "feb9bcea14b7d9f4c756f56494c278b93ddca3a20431dded6a41669756a0132e"
+    },
+    {
+      "path": "gauge/verify_laurent_gauge.py",
+      "bytes": 8556,
+      "sha256": "c5416f5fd5e7e71b415d63b0a0172aba4c9f49f9d5bab742b497b15d1d56a890"
+    },
+    {
+      "path": "gram/GROUPED_HARDY_GRAM.md",
+      "bytes": 12186,
+      "sha256": "d38d85b1c95f954a5ae8ffedbe2a9f3182fa57ca97c18c1ed76ab8fc69e334b0"
+    },
+    {
+      "path": "gram/grouped_gram_verification.json",
+      "bytes": 3228,
+      "sha256": "5bf3c650e602b8ec4eb00843f5e3555f79beaefc0351662f76550def1cf30afe"
+    },
+    {
+      "path": "gram/verify_grouped_gram.py",
+      "bytes": 9209,
+      "sha256": "addc566fff47c5d4f256a2d2032aba19a1a6361413a2c35c9e5ae4cb8e0ffc59"
+    },
+    {
+      "path": "review/REVIEW.md",
+      "bytes": 14596,
+      "sha256": "f322114bc5ffc23ad576787195815145a18539df159baa642594f6c5e138c4eb"
+    },
+    {
+      "path": "stability/PERIOD_STABILITY.md",
+      "bytes": 14155,
+      "sha256": "722c1f94c6ef7ba5e3b5e909a471f7b177715ebb051877477e239934dfbc7a51"
+    },
+    {
+      "path": "stability/stability_verification.json",
+      "bytes": 6437,
+      "sha256": "48011b8c3506039ba445598272d070dd9bcc6bcd580656f19bad95b82ed29217"
+    },
+    {
+      "path": "stability/verify_stability.py",
+      "bytes": 11171,
+      "sha256": "6875b2167623a512747e32df56760b800facab767ec153556f97bbffa2a4f98d"
+    }
+  ]
+}

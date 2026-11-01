@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "raw_minor": [
+    {
+      "powers": [
+        1,
+        1
+      ],
+      "coefficient": "-1"
+    },
+    {
+      "powers": [
+        2,
+        0
+      ],
+      "coefficient": "1"
+    }
+  ],
+  "raw_normal_form": [
+    {
+      "powers": [
+        1,
+        1
+      ],
+      "coefficient": "-1"
+    }
+  ],
+  "raw_actual_period_order": 1,
+  "raw_weight_budget": "3",
+  "separated_weight_budget": "5",
+  "normal_factor_minor": [
+    {
+      "powers": [
+        0,
+        4
+      ],
+      "coefficient": "1"
+    },
+    {
+      "powers": [
+        1,
+        3
+      ],
+      "coefficient": "-4"
+    },
+    {
+      "powers": [
+        2,
+        2
+      ],
+      "coefficient": "6"
+    },
+    {
+      "powers": [
+        3,
+        1
+      ],
+      "coefficient": "-4"
+    },
+    {
+      "powers": [
+        4,
+        0
+      ],
+      "coefficient": "1"
+    }
+  ],
+  "normal_factor_order": 4,
+  "normal_factor_weight_budget": "4",
+  "entry_coefficient_norm_checks": 32,
+  "explicit_row_choice_regrouping_checks": 469,
+  "unequal_weight_sharp_bound": "12",
+  "polynomial_order_equivalence_cases": 728,
+  "rational_spacing_examples": [
+    {
+      "fractions": [
+        [
+          3,
+          1
+        ],
+        [
+          22,
+          7
+        ]
+      ],
+      "lcm": 7,
+      "cleared_difference": "1",
+      "absolute_fourth_power_minor": "16/2401"
+    },
+    {
+      "fractions": [
+        [
+          3,
+          1
+        ],
+        [
+          355,
+          113
+        ]
+      ],
+      "lcm": 113,
+      "cleared_difference": "16",
+      "absolute_fourth_power_minor": "1048576/163047361"
+    },
+    {
+      "fractions": [
+        [
+          22,
+          7
+        ],
+        [
+          355,
+          113
+        ]
+      ],
+      "lcm": 791,
+      "cleared_difference": "-1",
+      "absolute_fourth_power_minor": "16/391476713761"
+    }
+  ],
+  "weak_anchor_error_bound_cases": 336,
+  "coefficient_upper_bound_cases": 54,
+  "scope": "Exact actual-diagonal order and finite source-format examples; no interpolation-threshold certification or pi bad-approximability result."
+}

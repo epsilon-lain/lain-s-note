@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "period_certificates": [
+    {
+      "p": 22,
+      "q": 7,
+      "weight": 2,
+      "rows": 4,
+      "H": 8,
+      "eta_upper_simple": "1/100",
+      "eta_exact": "108353916079257371295993718332360534621227675369300602851039820055100860209345756327780457202929699613707060463701610065672964261516027836320519612761729803838033316428905856824669903825470869494855262635197652464711626689232048113601506527084472980033070390875281440204347623045525767199761/46112947738970880976238915273107828429124264100056149081249992584645276959006892448507919380746955338742873263996562669937123900313932633356510872470618652031159379543067543566291385263827501902416871091142867529975107286698996229793023716835060233244086846937648260791320353746414184570312500",
+      "pi_disk_radius_exact": "34409576769060859355240105677934348141787180655955240018696542827504360371161833878485127541364/13606116579061067758011808700434110517365128937204213834591438837448804568453662097454071044921875",
+      "preconditioned_coefficient_norms": [
+        "3568607/3842960",
+        "791987/3842960",
+        "52479/3842960"
+      ],
+      "period_determinant_lower_bound_exceeds_one": true,
+      "source_packet_and_q_weight_checked": true,
+      "approximation_error_below_q_inverse_square": true,
+      "scope": "Finite source-format certificate; no separated-weight threshold asserted."
+    },
+    {
+      "p": 355,
+      "q": 113,
+      "weight": 5,
+      "rows": 4,
+      "H": 20,
+      "eta_upper_simple": "1/100000",
+      "eta_exact": "54217522407652137426842751891729164221713681433860508508212240428453108364180530633376571825851580857945894545329125014781814297561603309022012794227032160124418774116079548442764496096037895852797890399402704251832476682792760800342417129643162661641644340598466533165463494049694391178276799457/109382663845970994262848694161850738950096690740490025509826383978639226532926105142271793088770843838682774875206752456387780714162698869846552835755486307970535118023472599549746287570153728523372128337699592075042966455923418004626960276958939359046369717157545786712091739900643005967140197753906250",
+      "pi_disk_radius_exact": "820295172143461995900884339692620774771717778881026515155385951191416668812343281941970767882/1537491173433900656655334383149054488462259569904076163308832588631714916235263817012310028076171875",
+      "preconditioned_coefficient_norms": [
+        "242064319673/260553662900",
+        "53742767343/260553662900",
+        "3562512693/260553662900"
+      ],
+      "period_determinant_lower_bound_exceeds_one": true,
+      "source_packet_and_q_weight_checked": true,
+      "approximation_error_below_q_inverse_square": true,
+      "scope": "Finite source-format certificate; no separated-weight threshold asserted."
+    }
+  ],
+  "staircase_instability": [
+    {
+      "n": 2,
+      "H": 8,
+      "rows": 24,
+      "determinant_order": 20,
+      "order_per_row": "5/6"
+    },
+    {
+      "n": 3,
+      "H": 12,
+      "rows": 48,
+      "determinant_order": 56,
+      "order_per_row": "7/6"
+    },
+    {
+      "n": 4,
+      "H": 16,
+      "rows": 80,
+      "determinant_order": 120,
+      "order_per_row": "3/2"
+    },
+    {
+      "n": 20,
+      "H": 80,
+      "rows": 1680,
+      "determinant_order": 11480,
+      "order_per_row": "41/6"
+    },
+    {
+      "n": 200,
+      "H": 800,
+      "rows": 160800,
+      "determinant_order": 10746800,
+      "order_per_row": "401/6",
+      "relative_center_change": "1/10",
+      "relative_matrix_perturbation_lower_bound": 100
+    },
+    {
+      "n": 2000,
+      "H": 8000,
+      "rows": 16008000,
+      "determinant_order": 10674668000,
+      "order_per_row": "4001/6",
+      "relative_center_change": "1/100",
+      "relative_matrix_perturbation_lower_bound": 100
+    },
+    {
+      "n": 20000,
+      "H": 80000,
+      "rows": 1600080000,
+      "determinant_order": 10667466680000,
+      "order_per_row": "40001/6",
+      "relative_center_change": "1/1000",
+      "relative_matrix_perturbation_lower_bound": 100
+    }
+  ],
+  "actual_period_instability": {
+    "p": 355,
+    "q": 113,
+    "w0": "1/4",
+    "v0": "1",
+    "w1": 5,
+    "theta": "1/4",
+    "K": 2,
+    "n": 200000000,
+    "H": 4000000000,
+    "rows": 800000004000000000,
+    "determinant_order": 53333333733333334000000000,
+    "relative_center_change_lower": "1/12000000",
+    "binomial_terms_used": 41,
+    "relative_matrix_perturbation_strictly_exceeds": 100,
+    "method": "Exact staircase determinant formula plus Machin interval and finite positive binomial sum; enormous matrix is not materialized."
+  },
+  "highdim_gap_certificates": [
+    {
+      "m": 32,
+      "K": 4427,
+      "w_min_required": 1000000000000,
+      "saving_rational_lower": "1375571056040118671376384/395812094211578369140625",
+      "arithmetic_rational_upper": "427128519732833681719731291331/574180603027343750000000000000",
+      "holomorphic_rational_upper": "3271849386775814144178846/103074125945568084716796875",
+      "gap_rational_lower": "38752574082893258070268995029237/14354515075683593750000000000000",
+      "gap_strictly_exceeds": 2,
+      "unknown_interpolation_thresholds_additionally_required": true
+    },
+    {
+      "m": 40,
+      "K": 36118,
+      "w_min_required": 1000000000000,
+      "saving_rational_lower": "110020531183899045825834123264/9094947017729282379150390625",
+      "arithmetic_rational_upper": "719777755139136237825941156410988399/1130220293998718261718750000000000000",
+      "holomorphic_rational_upper": "2431764146368452953001749985468/164245648193173110485076904296875",
+      "gap_rational_lower": "323390847312423990801557883974277117481/28255507349967956542968750000000000000",
+      "gap_strictly_exceeds": 11,
+      "unknown_interpolation_thresholds_additionally_required": true
+    }
+  ],
+  "identity_type_counts": [
+    {
+      "m": 1,
+      "H": 8,
+      "rows": 24,
+      "sum_n_squared": 320,
+      "normalized": "5/3",
+      "limiting_normalization": "4/3"
+    },
+    {
+      "m": 2,
+      "H": 12,
+      "rows": 136,
+      "sum_n_squared": 2016,
+      "normalized": "21/17",
+      "limiting_normalization": "1"
+    },
+    {
+      "m": 3,
+      "H": 16,
+      "rows": 285,
+      "sum_n_squared": 3645,
+      "normalized": "243/304",
+      "limiting_normalization": "3/5"
+    }
+  ],
+  "scope": "Exact finite stability certificates and count/formula checks; no uniform inverse bound or pi bad-approximability result."
+}
