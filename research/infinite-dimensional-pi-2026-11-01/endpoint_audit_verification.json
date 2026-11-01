@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "code_cells": 6,
+  "results": [
+    {
+      "cell_id": "cell-002",
+      "status": "passed",
+      "stdout": "N= 1 distance= 0.001264489267349618680214 squared tail bound= 0.33333333\nN= 2 distance= 0.001265173697104036162545 squared tail bound= 0.083333333\nN= 4 distance= 0.001265173698861779392017 squared tail bound= 0.0052083333\nN= 8 distance= 0.001265173698861779567657 squared tail bound= 2.0345052e-5\nN= 16 distance= 0.001265173698861779567657 squared tail bound= 3.1044086e-10\n固定前面坐标时，截面距离单调不减：通过。\n"
+    },
+    {
+      "cell_id": "cell-004",
+      "status": "passed",
+      "stdout": "无限级数距离恒等式：符号复核通过。\n22/7: error=0.0012644892673496, infinite distance=0.00021834121066054, ratio=0.172671462145\n355/113: error=2.6676418906242e-7, infinite distance=4.605625417381e-8, ratio=0.172647814295\n103993/33102: error=5.7789063439038e-10, infinite distance=9.9771552039807e-11, ratio=0.172647809295\n"
+    },
+    {
+      "cell_id": "cell-006",
+      "status": "passed",
+      "stdout": "m=2,…,6：行列式与整数分子恒等式精确复核通过。\n包含全部无限坐标的 Gram 恒等式：有理数精确复核通过。\n"
+    },
+    {
+      "cell_id": "cell-009",
+      "status": "passed",
+      "stdout": "原两分支 cL/E 统一上界： 0.0018397031601804292047\n使用精确平均后统一上界： 0.0050008316700771408785\n端点参数冲突的恒等式：通过。\n"
+    },
+    {
+      "cell_id": "cell-011",
+      "status": "passed",
+      "stdout": "epsilon= 1.0 max gap < 0.125 log growth rate < 0.0625\nepsilon= 0.1 max gap < 0.002272727273 log growth rate < 0.001136363636\nepsilon= 0.01 max gap < 2.475247525e-5 log growth rate < 1.237623762e-5\nepsilon= 0.001 max gap < 2.497502498e-7 log growth rate < 1.248751249e-7\n"
+    },
+    {
+      "cell_id": "cell-013",
+      "status": "passed",
+      "stdout": "联合松弛：m=1,…,6，两种支持区间的质量与最小值公式符号复核通过。\n"
+    }
+  ],
+  "scope": "Implementation checks only; general statements rely on proofs in endpoint_audit.md."
+}

@@ -143,3 +143,10 @@
 π 区间来自先前已保存的 Machin 交错级数有理界，本轮再向外舍入为 40 位小数的有理区间后进行高次计算。依赖 Python 标准库，图另需 NumPy/Matplotlib。代码不调用 π 主定理来认证这些有限比较，也没有运行 Lean。
 
 外部来源只用于核对经典公式与背景：本轮读取 DLMF §1.3 中 Vandermonde/Cauchy 行列式相关段落，以及上述算子插值论文第1页的核定义；未将背景阅读扩称为全篇审计。
+
+
+## 本次对话补充：端点审计与无理尾项（2026-11-01）
+
+- [完整端点审计](endpoint_audit.md) 与 [已执行 Notebook](endpoint_audit.ipynb)：补充现有两分支判据的全维数收益／误差比上界、精确平均修正、联合松弛的支持饱和分支及额外常数收益的尾项限制。它与前序 [联合变分研究](../endpoint-joint-bound-2026-10-31/README.md) 有交集，不作为所有结论的首次发现；仅审计原稿现有估计，不排除其他无限维方法。
+- [有理部分、无理尾项与分母成本](rational_irrational_tails.md)：记录本次新想法，证明固定有理平移的性质转移、连续有理平移不变量的限制，以及普通巴塞尔部分和的精确二进制分母下界。未建立 π 的全体有理逼近屏障。
+- 复现本补充：`python3 research/infinite-dimensional-pi-2026-11-01/verify_endpoint_audit.py`（需 sympy、mpmath）；`python3 research/infinite-dimensional-pi-2026-11-01/verify_rational_irrational_tails.py`（Python 标准库）。前者有 6 个已执行代码单元；后者精确核验 256 个巴塞尔前缀及 49 个几何平方和前缀。一般命题依靠笔记中的证明，有限检验不替代证明。

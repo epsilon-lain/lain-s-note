@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "basel_prefixes": 256,
+  "geometric_prefixes": 49,
+  "pi_tail_polynomial_identities": 20,
+  "method": "Exact Fraction arithmetic; analytic tail inequalities proved in the note.",
+  "examples": [
+    {
+      "N": 1,
+      "numerator": "1",
+      "denominator": "1",
+      "v2_denominator": 0,
+      "tail_lower": "1/2",
+      "tail_upper": "1",
+      "denominator_scaled_tail_lower": "1/2"
+    },
+    {
+      "N": 2,
+      "numerator": "5",
+      "denominator": "4",
+      "v2_denominator": 2,
+      "tail_lower": "1/3",
+      "tail_upper": "1/2",
+      "denominator_scaled_tail_lower": "4/3"
+    },
+    {
+      "N": 3,
+      "numerator": "49",
+      "denominator": "36",
+      "v2_denominator": 2,
+      "tail_lower": "1/4",
+      "tail_upper": "1/3",
+      "denominator_scaled_tail_lower": "9"
+    },
+    {
+      "N": 4,
+      "numerator": "205",
+      "denominator": "144",
+      "v2_denominator": 4,
+      "tail_lower": "1/5",
+      "tail_upper": "1/4",
+      "denominator_scaled_tail_lower": "144/5"
+    },
+    {
+      "N": 8,
+      "numerator": "1077749",
+      "denominator": "705600",
+      "v2_denominator": 6,
+      "tail_lower": "1/9",
+      "tail_upper": "1/8",
+      "denominator_scaled_tail_lower": "78400"
+    },
+    {
+      "N": 16,
+      "numerator": "822968714749",
+      "denominator": "519437318400",
+      "v2_denominator": 8,
+      "tail_lower": "1/17",
+      "tail_upper": "1/16",
+      "denominator_scaled_tail_lower": "519437318400/17"
+    },
+    {
+      "N": 32,
+      "numerator": "33659238975573797429256624061",
+      "denominator": "20852386088294732932920960000",
+      "v2_denominator": 10,
+      "tail_lower": "1/33",
+      "tail_upper": "1/32",
+      "denominator_scaled_tail_lower": "631890487524082816149120000"
+    },
+    {
+      "N": 64,
+      "numerator": "41409901935572392721815151397221689468404267553321859",
+      "denominator": "25413727004476294175336659010085214676345183380992000",
+      "v2_denominator": 12,
+      "tail_lower": "1/65",
+      "tail_upper": "1/64",
+      "denominator_scaled_tail_lower": "390980415453481448851333215539772533482233590476800"
+    },
+    {
+      "N": 128,
+      "numerator": "291941532394218885756982342847350121162685167611070858686868173678957591233410303149000422103612048376974176901",
+      "denominator": "178322801737850470006393498873981609046142504141680450154468330853110262927697696141103280465093480061184000000",
+      "v2_denominator": 14,
+      "tail_lower": "1/129",
+      "tail_upper": "1/128",
+      "denominator_scaled_tail_lower": "1382347300293414496173593014526989217411957396447135272515258378706281107966648807295374267171267287296000000"
+    },
+    {
+      "N": 256,
+      "numerator": "3967576234125634328975650682419918312219890419705158672199909218741960929850463443702955479737458623902785158006872963100193212797553080662572690839044355045611963761261313968139271266610037198566631470264862998669727",
+      "denominator": "2417727336254382351488728439039155634297678173092536133523812540401853583172614598647583257933812693681187773331100508816294109053807149756373113643530768668025230534221824355145414820811689770047123867009208934400000",
+      "v2_denominator": 16,
+      "tail_lower": "1/257",
+      "tail_upper": "1/256",
+      "denominator_scaled_tail_lower": "2417727336254382351488728439039155634297678173092536133523812540401853583172614598647583257933812693681187773331100508816294109053807149756373113643530768668025230534221824355145414820811689770047123867009208934400000/257"
+    }
+  ]
+}
