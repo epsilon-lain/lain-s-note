@@ -1,0 +1,634 @@
+[
+  {
+    "position": 10,
+    "family_id": "240",
+    "title": "A CH obstruction to a prescribed categoricity threshold",
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "read_date": "2026-11-01",
+    "pdf_path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/paper.pdf",
+    "directory": "A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026",
+    "directory_tree_sha": "1a8b7dc5275739798dbda04bfc5b2ded58896ef0",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/paper.tex",
+    "source_files": [
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/figures/matrix-decomposition.tex",
+        "sha": "68733f7b9a0aced08c3118b5bf32b2f122e20504",
+        "total_lines": 44,
+        "read_ranges": [
+          [
+            1,
+            44
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/paper.tex",
+        "sha": "d4bf464da2c64743abb52ffa329b1dd9fa22d93a",
+        "total_lines": 20,
+        "read_ranges": [
+          [
+            1,
+            20
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/preamble.tex",
+        "sha": "8f5bc78dd1153c7ba0a3e88fbebbdecb500e1c68",
+        "total_lines": 43,
+        "read_ranges": [
+          [
+            1,
+            43
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/00-introduction.tex",
+        "sha": "275aa3dd7129470e93b516e95a66d36a3308c6f7",
+        "total_lines": 204,
+        "read_ranges": [
+          [
+            1,
+            204
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/01-colors.tex",
+        "sha": "42dc360cf2fd0e050668bc8fa1d0c497291e21a3",
+        "total_lines": 203,
+        "read_ranges": [
+          [
+            1,
+            203
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/02-aec.tex",
+        "sha": "54fb271b66ff210ba303a15860bd89d34b6053ef",
+        "total_lines": 716,
+        "read_ranges": [
+          [
+            1,
+            716
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/03-categoricity.tex",
+        "sha": "9243fee868895b630f8a604b325c393f09ea9250",
+        "total_lines": 627,
+        "read_ranges": [
+          [
+            1,
+            627
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/04-endpoint.tex",
+        "sha": "055faa3eebb2ee16899561871a03077166064356",
+        "total_lines": 365,
+        "read_ranges": [
+          [
+            1,
+            365
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/05-conclusion.tex",
+        "sha": "d08af1587bace67e532ee42371be1dbc47d741b3",
+        "total_lines": 134,
+        "read_ranges": [
+          [
+            1,
+            134
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/sections/06-booleanization.tex",
+        "sha": "c6cd6ea45628c1362057fe3d2939234c73b27af3",
+        "total_lines": 207,
+        "read_ranges": [
+          [
+            1,
+            207
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/README.md",
+        "sha": "ae1595a81401d9827cfdda7410f773b597c224d8",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "sections_read": [
+      "Introduction and exact threshold formulation",
+      "Diagram codes, restrictions, full subsequence tests",
+      "AEC language, representative invariance, strong inclusions, directed unions and smoothness, LS bound",
+      "Endpoint domination functions and compatible membership diagrams",
+      "No fixed pattern, tagged collapse, finite partition and pattern extraction",
+      "Uncountable-base bound, triangular matrix isomorphism, tail categoricity",
+      "Logical scope and failures of joint embedding/amalgamation",
+      "Dense-cosieve obstruction to canonical-point Booleanization"
+    ],
+    "scope_note": "README identifies paper.pdf. Tree and TeX input traversal identify build/paper.tex. All root, preamble, seven body sections and the included matrix figure were read completely. No unresolved body inputs or appendices. Bibliography database was fetched but not read; it is non-body metadata. An initial combined output truncated, so affected sections were subsequently read in full separate ranges.",
+    "claim_as_stated": "Under CH there is a countable finitary relational AEC K with LS(K)=aleph_0, two nonisomorphic models at beth_(omega_2)=h(aleph_0), and categoricity in every mu>=Lambda=beth_((2^(aleph_1))^+). Hence the specified prescribed-threshold transfer formulations are not provable in consistent ZFC; this remains compatible with qualitative eventual categoricity.",
+    "proof_architecture": [
+      "Under CH code countable extensional ordinal-tagged diagrams into S=2^omega/=*, demanding exact restrictions for all subsequences.",
+      "Build row finite-B-support torsors and column finite-omega-support torsors. Allow tuple-dependent countable exceptions in objects, but no exceptions at new coordinates in strong extensions; verify all AEC axioms and LS=aleph_0.",
+      "Use an omega_2-long sequence of functions omega_1->omega_1 increasing modulo countable sets to approximate true ranks on countable closures in V_(omega_2), producing an endpoint model with uncountable base; compare with a countable-base model.",
+      "A fixed valid color at every finite arity yields a coherent direct-limit extensional relation over an arbitrarily large set. Tags below omega_1 collapse it injectively into V_(omega_1), a contradiction.",
+      "Finite partition estimates below strong-limit Lambda and unbounded sample selection produce those fixed colors if the index sort is too large. Countably many witness exceptions leave one coordinate in uncountable B; hence such bases have index size <Lambda.",
+      "For countable B, allocate matrix differences k<=n to row n and n<k to column k. Finite translators then give an isomorphism, proving categoricity at every mu>=Lambda."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Triangular row/column support allocation",
+        "source": "build/sections/03-categoricity.tex cat:triangle-supports; matrix figure",
+        "exact_assumptions": "An arbitrary countable-by-countable F_2 difference matrix with independent finite-support row and column translations and no relations linking tuple fibers.",
+        "mechanism": "Give entry (n,k) to row n for k<=n, otherwise to column k. Every entry is corrected once, every row gets at most n+1 positions, and every column at most k positions.",
+        "possible_speculative_bridge": "Order row/column choices in a determinant construction to allocate dangerous weighted entries or occupancy obligations while leaving each local correction finite and preserving a chosen leading term.",
+        "limits": "Supplies neither height control nor nonzero determinant nor sign control; F_2 translations are much freer than allowed arithmetic row operations."
+      },
+      {
+        "idea": "Finite compatible certificates without a common infinite homogeneous set",
+        "source": "build/sections/03-categoricity.tex cat:finite-patterns and col:pattern-quantifiers",
+        "exact_assumptions": "Palettes <=xi, Lambda strong limit of cofinality >xi, countable tuple exception sets, and an uncountable coordinate base.",
+        "mechanism": "Fix one color per arity from arbitrarily large homogeneous samples; use a different finite witness at each arity, remove only countably many witness exceptions, and evaluate all certificates at one good coordinate.",
+        "possible_speculative_bridge": "For minors over Q(Z), distinguish coherent finite rank certificates from an unjustified demand for one nested infinite family. Restriction-compatible leading terms could allow finite certificates dimension by dimension.",
+        "limits": "Requires a new finite quantitative analogue and compatibility/nonvanishing proof; this cardinal argument has no supplied arithmetic bound."
+      },
+      {
+        "idea": "Exact future-coordinate invariance",
+        "source": "build/sections/02-aec.tex aec:representatives and aec:directed",
+        "exact_assumptions": "Finite translators, old supports remain unchanged, and finitely many subsequences per tuple.",
+        "mechanism": "Global representative changes affect only countably many coordinates, but old changes affect no new coordinate exactly. Select all representatives for one finite tuple in one stage before taking unions.",
+        "possible_speculative_bridge": "Design symbolic row operations supported only on earlier columns, freeze old data, then extend the determinant family without damaging later columns.",
+        "limits": "Approximation errors usually lack exact finite support, so a quantitative replacement is necessary."
+      }
+    ],
+    "limits": [
+      "Reading is not independent validation of the manuscript's claims.",
+      "Any proposed arithmetic bridge is speculative; no Diophantine property of pi follows."
+    ],
+    "source_exclusions": [
+      {
+        "path": "preprints/A-CH-Obstruction-to-a-Prescribed-Categoricity-Threshold-September-24-2026/build/references.bib",
+        "sha": "18ed9786eadaa012994ba198cbd711246c3a52e3",
+        "reason": "Bibliography metadata fetched/cached, not read; not mathematical body."
+      }
+    ],
+    "reading_is_not_independent_validation": true,
+    "cached_sources_git_sha_verified": true
+  },
+  {
+    "position": 11,
+    "family_id": "246",
+    "title": "A Modulus Proof of Cannon's Conjecture",
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "read_date": "2026-11-01",
+    "pdf_path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/paper.pdf",
+    "directory": "A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026",
+    "directory_tree_sha": "8743e3a42d6f3c0d214f94824f5e56299b72a5af",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/main.tex",
+    "source_files": [
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/bibliography.tex",
+        "sha": "fb3fda580f68b6f7948ebc21d3504d52fa4a56d7",
+        "total_lines": 141,
+        "read_ranges": [
+          [
+            1,
+            141
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/figures/level-continuum.tex",
+        "sha": "f53e9c7ec1f27c6ef626204bc79449616136f875",
+        "total_lines": 50,
+        "read_ranges": [
+          [
+            1,
+            50
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/figures/pair-cost.tex",
+        "sha": "a7cb57ad0e155388121ebfdb49040ad878298818",
+        "total_lines": 54,
+        "read_ranges": [
+          [
+            1,
+            54
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/main.tex",
+        "sha": "58bb81a34624fe3e386aa907e3852ba8cf471928",
+        "total_lines": 321,
+        "read_ranges": [
+          [
+            1,
+            321
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/sections/01_geometry.tex",
+        "sha": "fbc44a2fd526b9718d59dae0853e6e440bb00a33",
+        "total_lines": 293,
+        "read_ranges": [
+          [
+            1,
+            293
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/sections/02_scalar.tex",
+        "sha": "2525adfe0a57ce29470d5a8dce9851ac64ca93cd",
+        "total_lines": 494,
+        "read_ranges": [
+          [
+            1,
+            494
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/sections/03_exponential.tex",
+        "sha": "d47792305d95265f0fd40fa20445ca626610f9ff",
+        "total_lines": 328,
+        "read_ranges": [
+          [
+            1,
+            328
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/sections/04_flow.tex",
+        "sha": "15a2c362851b167ee9b7534d26e8a0ecac017661",
+        "total_lines": 463,
+        "read_ranges": [
+          [
+            1,
+            463
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/build/sections/05_pairs.tex",
+        "sha": "604bb21ab4f6dd57762e528f4a76c4ac06efacf9",
+        "total_lines": 356,
+        "read_ranges": [
+          [
+            1,
+            356
+          ]
+        ]
+      },
+      {
+        "path": "preprints/A-Modulus-Proof-of-Cannons-Conjecture-September-23-2026/README.md",
+        "sha": "2659e8811baf8d34ab40825ff47d65373f62685d",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "sections_read": [
+      "Introduction, completion, and consequences",
+      "Geometry: expansions and punctures, prefixes, packing, paths, uniformization criterion, action straightening",
+      "Scalar construction: records, crossing duality, path envelopes, level continua, annular and oscillation estimates, finite-cell comparison",
+      "Exponential records: Holder magnification, diagonalization, transform comparisons, stabilizer directions, second magnification",
+      "Subexponential probability flow, separated capacity, finite patterns, good-mass levels",
+      "Same-depth pair comparison, puncture counting, cost-ball overlap, final contradiction"
+    ],
+    "scope_note": "README identifies paper.pdf. Tree/root traversal identifies build/main.tex. Every root line, five included body sections, two included TeX figures, and included bibliography were read. No unresolved body input or appendix remains.",
+    "claim_as_stated": "Every word-hyperbolic group with boundary homeomorphic to S^2 admits a proper cocompact isometric action on H^3 with finite kernel, including orientation-reversing elements. For torsion-free groups the quotient is a closed hyperbolic three-manifold, with stated virtual fibering/specialness/residual-finiteness consequences.",
+    "proof_architecture": [
+      "Reduce via a cited approximately self-similar sphere criterion to bounded macroscopic combinatorial 2-moduli M(n); boundary uniformization and invariant conformal structures then straighten the action.",
+      "If M is unbounded, take record scales M(N-l)<=lambda^(-l)M(N). Localize crossing modulus to a rectangle and use least-norm incidence-vector duality for dual weights of energy O(1/M(N)).",
+      "Use two path envelopes to obtain separating level continua. Annular estimates yield a nonconstant scalar limit u and finite measure mu controlling squared oscillation; mesh energies vanish after each fixed transform.",
+      "For exponential records, normalized Holder magnification gives a punctured-sphere limit. Finite-cell level comparisons constrain transforms with distinct punctures; a second magnification with two disjoint variation ranges contradicts the constraint.",
+      "For subexponential records, construct a separated tree with nested intervals and both linear and quadratic probability bounds. A capacity estimate and finite squared interval energy force good mass at arbitrarily deep levels, with finitely many target patterns.",
+      "At one depth choose a pattern/probability class. Most puncture pairs are far; each pair must pay positive mu-mass in a cost ball. Quadratically many costs exceed the packing/multiplicity upper bound, closing boundedness of M."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Simultaneous linear/quadratic flow budgets and pair-cost contradiction",
+        "source": "build/sections/04_flow.tex eq:flow; build/sections/05_pairs.tex cost-total-upper/lower",
+        "exact_assumptions": "Packing exponent Q, expansions with two-sided puncture formula, finite measure controlling squared oscillation, nested intervals, separated children, and subexponential modulus growth. Transition bounds p<=a^(-gamma D)t and p<=a^(-D/2)t^2 at bad nodes, p<=a^(tau D)t^2 generally.",
+        "mechanism": "Linear telescoping spreads branch probability; quadratic bounds plus bounded squared interval sum force good nodes. Finite pattern and dyadic classes give many far pairs, while each cost ball is charged only with bounded multiplicity.",
+        "possible_speculative_bridge": "Put a probability flow on choices of weighted columns or surviving monomials. A linear occupancy bound could spread certificates and quadratic energy force structurally good branches; pair counting could make unavoidable costs exceed a global occupancy bound.",
+        "limits": "All source costs are nonnegative. Signed determinant terms need a separate noncancellation lemma, and rank over Q(Z) alone supplies no pair-cost alternative."
+      },
+      {
+        "idea": "Convex duality separating coverage from small energy",
+        "source": "build/sections/02_scalar.tex lem:dual-weights",
+        "exact_assumptions": "Finitely many nonnegative crossing incidence vectors and transverse vectors having inner product >=1 with each crossing vector.",
+        "mechanism": "For the least-norm P in their convex hull, <P,v>>=||P||^2 and primal modulus=||P||^-2; P itself is transverse admissible with reciprocal energy.",
+        "possible_speculative_bridge": "Encode allowed surviving determinant terms as weighted column-incidence vectors and seek a convex certificate minimizing squared column cost while enforcing coverage.",
+        "limits": "Must prove the arithmetic incidence-intersection property and separate algebraic cancellation from positive convex feasibility."
+      },
+      {
+        "idea": "Freeze structural choices before analytic approximation",
+        "source": "build/sections/03_exponential.tex lem:exponential-diagonal; build/sections/05_pairs.tex lem:pair-alternative",
+        "exact_assumptions": "Constants are finite for each fixed group transform/pair and compact region; no uniform rate across all choices is claimed.",
+        "mechanism": "Fix h_j and its normalization first, then choose approximation N_j. Fix the pair and its positive interval before taking N to infinity.",
+        "possible_speculative_bridge": "Freeze a symbolic minor, denominator clearing, and nonzero coefficient before choosing approximation scale at pi; record all dependence before asserting determinant <1.",
+        "limits": "Diagonalization only chooses scales; it does not prove coexistence with the required height and smallness inequalities."
+      }
+    ],
+    "limits": [
+      "Reading is not independent validation of the manuscript's claims.",
+      "Any proposed arithmetic bridge is speculative; no Diophantine property of pi follows."
+    ],
+    "reading_is_not_independent_validation": true,
+    "cached_sources_git_sha_verified": true
+  },
+  {
+    "position": 12,
+    "family_id": "260",
+    "title": "The spacetime Penrose inequality with charge and original-data rigidity",
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "read_date": "2026-11-01",
+    "pdf_path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/paper.pdf",
+    "directory": "The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026",
+    "directory_tree_sha": "3aba272e5d249f9083339a45aa44c4e4fa278896",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/paper.tex",
+    "source_files": [
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/paper.tex",
+        "sha": "d3058443ce950e1319f438f9936fb66a3136c43f",
+        "total_lines": 37,
+        "read_ranges": [
+          [
+            1,
+            37
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/preamble.tex",
+        "sha": "b378402be082a20cb83791819c6c038a7dbfa7e0",
+        "total_lines": 41,
+        "read_ranges": [
+          [
+            1,
+            41
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/a_priori.tex",
+        "sha": "e51e727e18980baeed0b3d6fb6bc12271aa8ab65",
+        "total_lines": 585,
+        "read_ranges": [
+          [
+            1,
+            585
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/comparison.tex",
+        "sha": "f30992d9b26170f9c2b49393619bee9eeb112298",
+        "total_lines": 1119,
+        "read_ranges": [
+          [
+            1,
+            1119
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/cuts.tex",
+        "sha": "bdcde6efdbe243bbccfd553b8fbd519d53974b62",
+        "total_lines": 553,
+        "read_ranges": [
+          [
+            1,
+            553
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/elliptic_solver.tex",
+        "sha": "a06c1a5566d253ad2c220a1d44df3123dc873407",
+        "total_lines": 872,
+        "read_ranges": [
+          [
+            1,
+            872
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/end_preparation.tex",
+        "sha": "8f4cd7aa071fa703ab2022d62365e84d2475b9c0",
+        "total_lines": 884,
+        "read_ranges": [
+          [
+            1,
+            884
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/filled_system.tex",
+        "sha": "741e322e1039b0a0b8ed33d6259704dab6c4eac9",
+        "total_lines": 614,
+        "read_ranges": [
+          [
+            1,
+            614
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/introduction.tex",
+        "sha": "75ff4db567e1368d5abd6ef3c085ccc4eddfaf3f",
+        "total_lines": 128,
+        "read_ranges": [
+          [
+            1,
+            128
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/rigidity.tex",
+        "sha": "8a13c3dad3debc4c38476c32609609322ba592dc",
+        "total_lines": 969,
+        "read_ranges": [
+          [
+            1,
+            969
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/statements.tex",
+        "sha": "cc1d0ab6b51ccc60b6228fec00dce13714c60e86",
+        "total_lines": 202,
+        "read_ranges": [
+          [
+            1,
+            202
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/stationary_region.tex",
+        "sha": "ee609cfc3db7a66ebc0085d9de91a9e02edc7e5c",
+        "total_lines": 1183,
+        "read_ranges": [
+          [
+            1,
+            1183
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/sections/variation.tex",
+        "sha": "41a89add7103f6ff685a70516aea2f40230de24f",
+        "total_lines": 811,
+        "read_ranges": [
+          [
+            1,
+            811
+          ]
+        ]
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/README.md",
+        "sha": "607bef40e6f7a90d6bf0840a889f0279c1504b8b",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ]
+      }
+    ],
+    "unread_files": [],
+    "sections_read": [
+      "Introduction and authors' proof outline",
+      "Initial-data definitions and numerical/rigidity/converse statements",
+      "Full cuts, flux calibration, perimeter minimizers, compactness, directional derivative, compatible planes",
+      "Charge-preserving end preparation, conformal identities, ADM flux, strictification, supported inverses, weak annular replacement and rest preparation",
+      "Filled scalar system, exact curvature identity, polynomial coercivity, stationary-point subtraction, continuation family",
+      "Height/outer slope, floor, high-level moment, graph Sobolev/energy, quantitative distortion",
+      "Elliptic construction: measurable axial coefficient, rough gradient/Hessian estimate, small potential, coupled estimates, unrestricted trace solve, moving-domain degree, normalized physical end",
+      "Charged comparison and full numerical theorem: mass flux cost, height gap, conformal band, flux projection, obstacle exclusion, bounded flux profile/scalar solve, neutral-theorem reduction and branch optimization",
+      "Equality variation: area envelope, positive constraint separation, Gaussian finite-jet tests, compatible sheet trace support, larger obstacle exclusion, smooth causal multipliers, asymptotic normalization, global electromagnetic Killing potentials, original-boundary surface gravity",
+      "Communicating stationary region: exclusion of causal frontiers, all-order curvature/Maxwell jet control, smooth parity, bifurcation attachment, stationary strong end, temporal graph, causal/domain proof, maximal-hypersurface theorem and boundary graph",
+      "Staticity and rigidity: global maximal orbit section, exact magnetic/momentum integral, vanishing aligned matter, invariant ADM mass, normalized electrostatic uniqueness, inverse duality, original future-horizon embedding, converse and static/non-time-symmetric/boosted sharp examples"
+    ],
+    "scope_note": "README identifies paper.pdf. Tree/root traversal identifies build/paper.tex with eleven body inputs. Every root, preamble and all eleven body section lines were read completely in actual input order: 7,920 body lines, 8,016 lines including root/preamble/README. No unresolved body input or appendix remains. The preamble's glyphtounicode.tex is font glyph mapping outside mathematical-body scope; the bibliography database and two schematic PDF figure assets were not read/visually inspected. Complete figure captions and all surrounding mathematical arguments were read. Full_body_read denotes the mathematical text closure, not validation of external cited inputs.",
+    "claim_as_stated": "For smooth connected oriented one-ended complete 3-dimensional exterior data with nonempty compact boundary, g-delta=O_2(r^-q), K=O_1(r^(-1-q)) for q>1/2, source-free E/B=O_1(r^-2), integrable constraint densities, charged matter DEC and weak trapping (fixed future/past sign on each component), E>|P|, invariant m>=Q, and full enclosing-area radius r_A<=m+sqrt(m^2-Q^2). The polynomial mass bound is only asserted for r_A>Q. In the connected outer-area-minimizing outermost future horizon class, m>Q equality identifies original data with a smooth spacelike dyonic RN slice through its future horizon, with the stated converse examples.",
+    "proof_architecture": [
+      "Establish positivity of full-cut area with a bounded-comass closed two-form, identify filled perimeter minimizers, and prove compactness, directional derivatives over all minimizers, and compatible tangent planes.",
+      "Preserve closed flux forms, replace the weak end after removing finite-dimensional adjoint-kernel moments, repair the DEC conformally and bend to a strict rest end with energy tending to invariant mass and enclosing area converging. An energy-raising conformal family excludes a non-timelike ADM endpoint.",
+      "Define coupled height/compression scalars on long fillings. An exact curvature identity admits polynomial square coercivity. Floor exclusion, graph Sobolev/energy estimates and logarithmic iteration bound distortion; a trace-reversed Hessian flux and fixed-axis rough coefficient estimate bootstrap the coupled system. Moving-domain degree and fixed-N exhaustion solve it with normalized end.",
+      "Height separates the filling. A high conformal plateau excludes minimizer contact by a double-exponential lower area cost against an exponential competitor. A bounded scalar flux profile gives an exact ADM energy decrease, with a conformal area floor; a compact pure-trace tensor traps a regular height cut. The cited neutral theorem gives E_*>=sQ+(1-s^2)r_*/2, whose optimization yields both charged branches after ordered limits.",
+      "In equality, separate feasible variations for positive multipliers over all minimizing sheets. Gaussian finite-jet tests and compatible planes exclude larger marginal obstacles; obtain smooth normalized causal lapse/shift, global electromagnetic Killing potentials and original boundary surface gravity. Exclude causal frontiers, attach a smooth bifurcation band using all-order jets/parity, prove causality/communication, and apply the cited maximal-hypersurface theorem.",
+      "On the global maximal orbit section derive integral u'(|K'|^2+2|B'|^2+h_*|X'|^2)=0. This forces staticity and vanishing matter. Identify original invariant mass, apply connected electrostatic uniqueness with normalized lapse/potential, undo duality and recover the original slice smoothly through its future horizon. Verify static, compact non-time-symmetric and boosted sharp examples."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Remove finite-dimensional obstructions before supported inversion",
+        "source": "build/sections/end_preparation.tex en:compact-inverses/en:annular-replacement",
+        "exact_assumptions": "Euclidean scalar operator LH=partial_i partial_j(H_ij-tr(H)delta_ij), momentum Dk=partial_j(k_ij-tr(k)delta_ij), smooth annularly supported sources with zero affine moments or translation/rotation Killing moments; fixed positive bump yields positive-definite Gram matrices.",
+        "mechanism": "Project commutator sources onto bump-weighted adjoint-kernel tests, match moments exactly, then use supported divergence inverses on the remainder. Matching ADM vectors and integrable errors make projection coefficients small.",
+        "possible_speculative_bridge": "Compute symbolic cokernel/nullspace constraints over Q(Z) before optimizing determinant coefficients. Separate exact rank/nonzero-minor obstructions from analytic errors, tracking rational denominator and height costs explicitly.",
+        "limits": "Smooth Sobolev inverses do not provide an integral/rational analogue; projection can destroy arithmetic integrality or smallness."
+      },
+      {
+        "idea": "Weighted block coercivity with parameter dependence tracked",
+        "source": "build/sections/filled_system.tex sy:positive-squares/sy:coercivity; build/sections/a_priori.tex es:distortion",
+        "exact_assumptions": "Rank-one slope axis; transverse eigenvalues one, axial d and chi=2d/(2+pv), 0<=p<=N. Exact square completion has positive residual d(8+v)/(3q^2).",
+        "mechanism": "Retain weighted axial contractions instead of bounding the unweighted Hessian. Coercivity costs only 20(1+N)^2, not reciprocal exponential slope weights. Later exp(P_N) estimates are kept distinct from polynomial losses.",
+        "possible_speculative_bridge": "Use block/Schur-complement normalization for weighted determinant columns while retaining small-direction weights and full symbolic rank; distinguish polynomial/exponential/fixed-parameter constants before an integer <1 contradiction.",
+        "limits": "Quadratic positivity is not determinant noncancellation; the needed arithmetic structure and residual coefficient require new proofs."
+      },
+      {
+        "idea": "Use all optimizers and prove an exact compatibility lemma",
+        "source": "build/sections/cuts.tex ct:area-derivative/ct:compatible-planes",
+        "exact_assumptions": "Smooth compact obstacle, confining one-ended geometry, perimeter submodularity, C^(1,1) regularity, strict BV compactness and continuous plane-measure integrals.",
+        "mechanism": "Area's right derivative is the minimum of first variations over all minimizers. Union/intersection still minimize; transverse tangent planes would create a forbidden corner, so averaged sheet tensors cannot cancel across planes.",
+        "possible_speculative_bridge": "Study the entire finite/compact set of optimal weighted minors or surviving terms and seek an algebraic sign/compatibility lemma before averaging certificates, rather than selecting one optimizer without control.",
+        "limits": "No supplied arithmetic submodularity or regularity analogue; determinants can have cancelling signs despite optimal supports."
+      },
+      {
+        "idea": "An exact nonnegative identity upgrades a weak causal/complementarity constraint to full rigidity",
+        "source": "build/sections/rigidity.tex ri:magnetic-integral, ri:staticity-integral",
+        "exact_assumptions": "A connected bifurcation boundary; global exact magnetic Killing potential constant on that boundary; zero total rotated magnetic flux; a global maximal Cauchy orbit section with positive lapse; aligned residual stress h_* xi-flat tensor xi-flat, h_*>=0 and supported where W=0; decay killing all boundary terms.",
+        "mechanism": "The magnetic-potential integration converts the Poynting contribution into -integral u'|B'|^2. Combining the momentum constraint with sym grad X'=-u'K' gives one integral of three nonnegative terms equal to zero, forcing K'=B'=0 and removing residual stress.",
+        "possible_speculative_bridge": "For a determinant contradiction, look for an exact positive sum-of-squares or Gram identity whose vanishing is equivalent to the problematic symbolic rank defect. If available, an analytic smallness bound could force a discrete nonnegative quantity below its arithmetic gap while avoiding uncontrolled signed-term cancellation.",
+        "limits": "The identity uses topology, global exactness, connected boundary and decay; none has a supplied algebraic substitute. A Gram determinant can square height costs and may worsen the required smallness exponent."
+      }
+    ],
+    "limits": [
+      "Full mathematical-body reading is not independent validation of the manuscript's claims, derivations or imported theorems.",
+      "The numerical comparison depends explicitly on a separately cited neutral enclosing-area theorem. Equality uses maximal-hypersurface and electrostatic uniqueness inputs; those external sources were not separately read in this pass.",
+      "Nondegenerate original-data rigidity requires connected boundary, outer-area-minimization, outermost future marginality and m>Q; no extremal classification or behind-boundary claim is made.",
+      "All arithmetic bridges are speculative; no conclusion that pi is badly approximable or non-badly-approximable follows."
+    ],
+    "source_exclusions": [
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/glyphtounicode.tex",
+        "sha": "3d5f836e59281ce29eb84dde41712eb2b22cd9eb",
+        "reason": "Font glyph mapping; non-mathematical support file."
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/references.bib",
+        "sha": "c1713892361f65969f511019a58a4243372e83ce",
+        "reason": "Bibliography metadata fetched/cached, not read; not mathematical body."
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/figures/height-bands.pdf",
+        "sha": "c0a6e8db4dcd9b86366526f86f35eceb16c550c4",
+        "reason": "Schematic binary figure not inspected; full explanatory caption and surrounding proof read."
+      },
+      {
+        "path": "preprints/The-spacetime-Penrose-inequality-with-charge-and-original-data-rigidity-October-5-2026/build/figures/bifurcation-attachment.pdf",
+        "sha": "f160cd5545e847f2774108095e6a125ec3eb297b",
+        "reason": "Schematic binary figure not inspected; full explanatory caption and surrounding proof read."
+      }
+    ],
+    "reading_is_not_independent_validation": true,
+    "cached_sources_git_sha_verified": true
+  }
+]

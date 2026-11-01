@@ -1,0 +1,845 @@
+[
+  {
+    "position": 16,
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "scope_note": "Read the actual main TeX, every recursively included body and figure TeX file, the cited bibliography file, and the build README at the pinned commit. No appendix is separately included. Full source-body reading is not independent verification of the theorem, its estimates, or the external inputs; Lean scope documentation was not read.",
+    "sections_read": [
+      "Introduction",
+      "Normal geometry and admissible phases",
+      "The primitive metric addition",
+      "Small oscillatory metric increments",
+      "An exact smooth correction",
+      "A velocity circle with controlled turns",
+      "Realizing the primitive metric addition",
+      "Preserving the later boundary conditions",
+      "Global preparation and finite assembly",
+      "Included geometry figure and refs.bib"
+    ],
+    "claim_as_stated": "Every closed smooth Riemannian surface, including disconnected and nonorientable surfaces, admits a C-infinity isometric immersion into Euclidean four-space; self-intersections are allowed and Gaussian curvature is unrestricted.",
+    "proof_architecture": [
+      "Prepare a strictly short spherical immersion lambda I_P with the global negative radial normal. Modify it at the finite set of boundary crossings so the second fundamental form in S^3 vanishes there, with C^2 bounds independent of the number and separation of points.",
+      "Decompose the positive deficit into finitely many rank-one tensors a_j^2 dx_j^2. Perturb disk boundaries and phases using transversality, and use sufficiently many finite cycles so every prescribed intermediate metric has the positive transverse phase-Hessian condition needed for its next addition.",
+      "For each primitive addition use a periodic velocity circle in span(G_y,G_yy)^perp with prescribed mean, exact leading metric, and controlled turns. Orthogonality to G_yy removes the first transverse metric error; a finite triangular periodic expansion removes nonzero modes to a prescribed finite order.",
+      "Construct small oscillatory increments on good phases and all their doubles and pairwise sums/differences. Finite parametrix iterations and finite quadratic-mean substitutions give arbitrary finite accuracy; for a polynomial higher-jet perturbation the exponent p=E+6 is fixed independently of that accuracy.",
+      "Use smoothing of inputs only, add increments to the unsmoothed current map, and exploit the exact quadratic error identity so high derivatives enter linearly. Hold each derivative block until its next controlled norm is bounded, then increase the block; summable tails converge in every C^m norm to the exact metric with small C^2 displacement.",
+      "Use the exact Gauss equation plus the realized yy,xy and scaled xx derivatives to preserve nonvanishing, non-antipodality and both ordered crossing invariants. Glue a preferred normal through the exterior collar and iterate the finite primitive list to reach g exactly."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Choose analytic or combinatorial accuracy after fixing the cost exponent.",
+        "source_premises": [
+          "build/small-modes.tex:68-98,177-258: fixed finite operators polynomial above order two; compact low-jet nondegeneracy margins; smallness eta=tau/s+epsilon tau^(-p); p=E+6 does not depend on requested finite accuracy q.",
+          "build/primitive-realization.tex:312-399: first choose finite expansion order, perturbation exponents and scale hierarchy; choose q_l only after the positive exponent gap is fixed."
+        ],
+        "speculative_interface": "In the BA/nonBA determinant construction, isolate a fixed column-cost/denominator overhead exponent before raising cancellation order. If a symbolic row family over Q(Z) permits arbitrarily high cancellation while the quadratic occupancy and signature-cap overhead stay fixed, choose the cancellation order last to force the real upper bound below 1 for the same nonzero integer minor.",
+        "required_bridge": "A project-specific finite cancellation construction with a cost exponent independent of its accuracy, plus a nonzero symbolic minor and controlled integral specialization. The geometric proposition supplies none of these arithmetic premises."
+      },
+      {
+        "idea": "Carry strict invariants for the whole remaining finite schedule.",
+        "source_premises": [
+          "build/primitive-statement.tex:54-91 lists the exact current-metric, nonzero second-form and boundary/crossing hypotheses.",
+          "build/global-construction.tex:214-262 gives exact cycle identities and preselects all intermediate metrics; geometry-preservation.tex:71-163 chooses thresholds using bounds independent of the later large turn derivative."
+        ],
+        "speculative_interface": "Prepare a finite schedule of determinant row additions or column selections, carrying an explicit rank witness over Q(Z), occupancy capacities, signature caps and an upper-bound budget at every step. Choose any large separation parameter using bounds that do not themselves depend on that parameter. This can expose circular choices before determinant nonvanishing and smallness are combined.",
+        "required_bridge": "Exact project invariants must survive every mutation and refer to the same eventual determinant. Openness of geometric jet conditions is not a substitute for an arithmetic rank or integrality proof."
+      },
+      {
+        "idea": "Use bounded overlap or coloring to keep interaction parameters independent of total family size.",
+        "source_premises": [
+          "build/preliminaries.tex:124-208: phase cells of diameter z^6, O(z^-12) total cells, but a bounded number of support colors and phase weights; only overlapping supports need distinct labels.",
+          "build/preliminaries.tex:68-110: goodness is checked for individual phases, doubles, and all pairwise sums/differences actually arising in quadratic errors."
+        ],
+        "speculative_interface": "If occupancy signatures induce a bounded-degree overlap graph, color the supports or signatures and assign separation weights by color instead of by the total number of columns. This could preserve rank-generic separations while avoiding exponential coefficient height in the number of columns.",
+        "required_bridge": "Prove bounded overlap from the actual signature caps and identify every interaction that occurs in determinant expansion. The paper controls a quadratic metric map; determinant terms may have higher-order interactions, so pairwise control alone is insufficient."
+      }
+    ],
+    "limits": [
+      "This is a smooth geometric construction, not a theorem about Diophantine approximation or pi.",
+      "Reading does not verify the small-increment estimates, smoothing recurrence, circle covariance inverse, finite global preparation, or imported Whitney/Sard inputs.",
+      "The exact correction is globally C^2-small; it need not vanish outside the support disk. Any arithmetic analogue requiring exact support preservation needs an additional argument.",
+      "The transfer ideas do not supply symbolic row rank over Q(Z), integer specialization, determinant nonvanishing, or a bound on the project's quadratic occupancy cost."
+    ],
+    "source_mapping_complete": true,
+    "cache_sha_verification": "All cached text files match the pinned tree Git blob SHA after exact-byte verification.",
+    "family_id": "333",
+    "title": "Smooth isometric immersions of closed surfaces into Euclidean four-space",
+    "pdf_path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/paper.pdf",
+    "directory_tree_sha": "51652bdaebf18d79bcc6043da75d7066323ab2cc",
+    "repository": "openai/math",
+    "pinned_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/paper.pdf",
+    "main_source": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/main.tex",
+    "source_inventory_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/README.md",
+        "sha": "2950f7f1eef186dc6887ea9f3766adb75dba66e7",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/README.md",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/exact-correction.tex",
+        "sha": "f55e04d217d61b0886defccd00e915f8b9380e4e",
+        "total_lines": 403,
+        "read_ranges": [
+          [
+            1,
+            403
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/exact-correction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/figure-geometry.tex",
+        "sha": "8c1b1b78bf7db73607b04090de25d618c54bb6b5",
+        "total_lines": 67,
+        "read_ranges": [
+          [
+            1,
+            67
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/figure-geometry.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/geometry-preservation.tex",
+        "sha": "80bf01715283896dab3282196bba8ac8bb9ee20d",
+        "total_lines": 289,
+        "read_ranges": [
+          [
+            1,
+            289
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/geometry-preservation.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/global-construction.tex",
+        "sha": "c7806f68770775a18faf71a44c635eed7e5f5cec",
+        "total_lines": 375,
+        "read_ranges": [
+          [
+            1,
+            375
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/global-construction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/introduction.tex",
+        "sha": "354a134780fb57012339e6357a0b7047983ff2b4",
+        "total_lines": 152,
+        "read_ranges": [
+          [
+            1,
+            152
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/introduction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/main.tex",
+        "sha": "8ef34d05c7a938c67392edd0fe3b2b16d3564744",
+        "total_lines": 54,
+        "read_ranges": [
+          [
+            1,
+            54
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/main.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/preliminaries.tex",
+        "sha": "0c80b730d90b8d559a56134c53e93a4339745cda",
+        "total_lines": 208,
+        "read_ranges": [
+          [
+            1,
+            208
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/preliminaries.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/primitive-realization.tex",
+        "sha": "ce472200ccc71f9604adb8df5d116c187adfc49c",
+        "total_lines": 446,
+        "read_ranges": [
+          [
+            1,
+            446
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/primitive-realization.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/primitive-statement.tex",
+        "sha": "df00fed30308caf1559771682985326012038240",
+        "total_lines": 147,
+        "read_ranges": [
+          [
+            1,
+            147
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/primitive-statement.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/refs.bib",
+        "sha": "65560ea4bd65a23a7e020bda9a0cde5df79cc8bb",
+        "total_lines": 203,
+        "read_ranges": [
+          [
+            1,
+            203
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/refs.bib",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/small-modes.tex",
+        "sha": "4fb58d1174df5ffaff27ec4ef56d16d20b83b0fb",
+        "total_lines": 433,
+        "read_ranges": [
+          [
+            1,
+            433
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/small-modes.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Smooth-isometric-immersions-of-closed-surfaces-into-Euclidean-four-space-September-23-2026/build/velocity-loop.tex",
+        "sha": "65b6c7001a2a67a08e1a8e733447d5bdefb614a9",
+        "total_lines": 373,
+        "read_ranges": [
+          [
+            1,
+            373
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/16/build/velocity-loop.tex",
+        "retrieval_status": "cached"
+      }
+    ],
+    "unread_files": [],
+    "next_read": null,
+    "lines_read": 3168,
+    "lines_total": 3168,
+    "reading_is_independent_verification": false
+  },
+  {
+    "position": 17,
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "scope_note": "Read main TeX, all ten included body sections, all three recursively included figure/caption sources, references.bib, and the README at the pinned commit. There are no separately included appendices. Reading is not an independent proof check, numerical validation, or inspection of the Lean formalization.",
+    "sections_read": [
+      "Introduction",
+      "The signed momentum estimate and its consequence",
+      "Energy and the retarded force",
+      "Occupation of retarded bins",
+      "Direct bounds for the retarded force",
+      "Signed cancellation along the source trajectories",
+      "Direction changes and improved occupation",
+      "Selecting the signed part of the force",
+      "Closing the signed-increment bootstrap",
+      "Local theory and continuation for finite-energy fields",
+      "All included figure code/captions and references.bib"
+    ],
+    "claim_as_stated": "For arbitrary smooth admissible one-species three-dimensional relativistic Vlasov-Maxwell data with f_0 nonnegative and compactly supported in phase space, E_0,B_0 in C_b-infinity intersect L^2, and both divergence constraints, there is a unique global classical solution, smooth on every finite interval with compact phase-space support. No size or symmetry restrictions are imposed.",
+    "proof_architecture": [
+      "Transport f along the phase-volume-preserving characteristic flow, conserve total energy, and derive the backward-cone energy flux budget. Obtain exact retarded field kernels and their initial-cone boundary terms by changing retarded phase points to initial source labels.",
+      "Assume the signed momentum-increment bootstrap |Delta V_X| <= MP sqrt(I)+AI P^2 log(2+P)/w. Decompose sources by momentum, distance, source/receiver/cone angles; use three exact changes of variables to estimate occupation. Build one joint energy budget E_(p,phi) independent of source angle and distance.",
+      "Combine density and occupation near/far estimates, retaining shared field and particle budgets under summation. Direct absolute-force control loses sqrt(w) only in the narrow source-angle region.",
+      "In that region combine transport and source-acceleration kernels before taking norms. An exact source-trajectory integration by parts produces a total derivative, a less singular geometric residual and a receiver-acceleration coefficient, while explicitly keeping cutoff, time-ramp, projector and initial-cone terms.",
+      "First use signed cancellation and baseline occupation to bound direction changes; only afterward derive improved occupation in a high-momentum intermediate-angle window. Select bins whose direct cost exceeds a summable weight. An unsafe selected receiver coefficient forces exact rational exponent inequalities into that window, where improved occupation contradicts them; the summed coefficient w^(-1/2) cancels the absolute-force loss.",
+      "Restore endpoint ramps with signed increments and close the bootstrap by a strict improvement, choosing eta, M, A and then P_0. Momentum-doubling times have a divergent harmonic lower bound, excluding finite-time blow-up. Supply local uniqueness, smooth persistence and finite-horizon field modification to invoke bounded-momentum continuation for the stated finite-energy initial class."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Charge many bins to one joint resource budget, not one copy of the resource per bin.",
+        "source_premises": [
+          "build/sections/occupation.tex:302-416 defines E_(p,phi), independent of theta,h, with sum_(p,phi) E_(p,phi)<=C from bounded overlap and unique retarded time; the refined occupation bound is M<=C(h k_1/p)(1+(I/lambda)E).",
+          "build/sections/direct.tex:286-309 uses Cauchy-Schwarz against this joint budget to prevent an extra logarithmic factor; selection.tex:272-394 retains the same budget through the spatial transition."
+        ],
+        "speculative_interface": "For the determinant project's quadratic occupancy cost, seek a single measure or counting budget shared by all column signatures, with bounded overlap proved from the signature caps. Keep that budget inside Cauchy-Schwarz or a weighted sum until the last step, instead of applying the total budget separately to every row/signature and paying a spurious multiplicity factor.",
+        "required_bridge": "Define a concrete conserved or combinatorially bounded project resource, prove bounded multiplicity for its signature indicators, and show how it bounds the actual column cost. PDE energy and timelike uniqueness do not transfer automatically."
+      },
+      {
+        "idea": "Use a cheap/expensive decomposition and prove that every expensive unsafe object lies in a region where a stronger bound applies.",
+        "source_premises": [
+          "build/sections/selection.tex:38-103 uses a fixed index selection by min(near,far)>P sqrt(I) W with summable W=(P theta)^(-epsilon) phi^epsilon h^epsilon.",
+          "build/sections/selection.tex:105-270 proves U<=w^(-1/2)W by contradiction: unsafe selected bins are first actual, then in the improved window, then incompatible with the improved occupation inequality. Terminating decimals are exact rational numbers.",
+          "build/sections/direction.tex:211-371 proves the stronger occupation estimate before it is used by that selection."
+        ],
+        "speculative_interface": "In a column selection optimization, split signatures already affordable under the elementary quadratic cost bound from expensive signatures. Express a hypothetical over-budget choice as a finite rational exponent system, show it is forced into a restricted occupancy window, and prove a sharper signature-count bound only there. Exact linear infeasibility certificates could make the exponent logic reviewable.",
+        "required_bridge": "The project's stronger bound must be proved without using the final determinant contradiction, and both selected and unselected contributions must sum for the same minor. A feasible-exponent calculation cannot itself establish row rank or nonzero integer specialization."
+      },
+      {
+        "idea": "Preserve the signed algebraic object until its exact cancellation is exposed.",
+        "source_premises": [
+          "build/sections/cancellation.tex:37-111 combines transport and source-acceleration terms in one exact identity before norms; dropping the transport term loses the cancellation.",
+          "build/sections/cancellation.tex:138-169 differentiates a selected partition only after factoring its common physical multiplier, and compares selected/unselected cutoff derivatives via sum beta_j=1.",
+          "build/sections/closure.tex:21-59 restores endpoints using signed increments rather than the absolute-force estimate."
+        ],
+        "speculative_interface": "For a determinant upper bound, derive row/column subtraction or polynomial identities on the exact determinant first, with the same multiplier and normalization, then apply absolute values. A signature partition may let derivative or error costs cancel across its boundary only if the full partition identity is preserved.",
+        "required_bridge": "An exact determinant identity with all boundary/remainder terms and integral scaling recorded. Generic signed cancellation language cannot justify changing the determinant used for the integer lower bound."
+      }
+    ],
+    "limits": [
+      "The PDE source-label geometry, conserved energy and finite propagation are exact model-specific premises; none gives an arithmetic occupancy estimate without a new bridge.",
+      "Full body reading is not independent validation of the signed identity, selected-bin exponent inequalities, improved occupation proof, or cited continuation criterion.",
+      "The proof's dependency order matters: direction control uses baseline estimates, then improved occupation enters final selection; using improved occupation earlier would be circular.",
+      "No result here establishes anything about pi being BA or nonBA, the symbolic rank over Q(Z), signature-cap feasibility, or the same nonzero integer determinant having upper bound below 1."
+    ],
+    "source_mapping_complete": true,
+    "cache_sha_verification": "All cached text files match the pinned tree Git blob SHA after exact-byte verification.",
+    "family_id": "362",
+    "title": "Global classical solutions of the three-dimensional relativistic Vlasov–Maxwell system",
+    "pdf_path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/paper.pdf",
+    "directory_tree_sha": "17979922620c969bf696bc0925c0fea0a54fe93e",
+    "repository": "openai/math",
+    "pinned_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/paper.pdf",
+    "main_source": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/main.tex",
+    "source_inventory_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/README.md",
+        "sha": "7e49fd43a3e8809ceb9ea5d2e079f6aa51aa929a",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/README.md",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/figures/figure-dependencies-caption.tex",
+        "sha": "8419557536ce92aa7d9026af296651ee32095abc",
+        "total_lines": 7,
+        "read_ranges": [
+          [
+            1,
+            7
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/figures/figure-dependencies-caption.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/figures/figure-dependencies.tex",
+        "sha": "a39849df70b4b9260858de3aefdb12e1f704bab1",
+        "total_lines": 35,
+        "read_ranges": [
+          [
+            1,
+            35
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/figures/figure-dependencies.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/figures/figure-retarded.tex",
+        "sha": "ae3e32ecc022adf88cad75da2cb3281695ff2f80",
+        "total_lines": 63,
+        "read_ranges": [
+          [
+            1,
+            63
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/figures/figure-retarded.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/main.tex",
+        "sha": "1993f13afe4cec701e4f3e1219e229bdec569cbd",
+        "total_lines": 61,
+        "read_ranges": [
+          [
+            1,
+            61
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/main.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/references.bib",
+        "sha": "18bf231baf1bbeb3722da39384920fbdb9a87cbb",
+        "total_lines": 372,
+        "read_ranges": [
+          [
+            1,
+            372
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/references.bib",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/cancellation.tex",
+        "sha": "2383a30b5146f5d20333e99abd76e8f6c6a0ae1f",
+        "total_lines": 382,
+        "read_ranges": [
+          [
+            1,
+            382
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/cancellation.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/closure.tex",
+        "sha": "4a09fd61e4be67f621f69dc43ded71f6f81bd8af",
+        "total_lines": 87,
+        "read_ranges": [
+          [
+            1,
+            87
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/closure.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/continuation.tex",
+        "sha": "4c9820489f365beafd6d298af561a5e09905863f",
+        "total_lines": 490,
+        "read_ranges": [
+          [
+            1,
+            490
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/continuation.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direct.tex",
+        "sha": "dc5b25418bb774b9336f7dbe5614cf16e6bba22e",
+        "total_lines": 428,
+        "read_ranges": [
+          [
+            1,
+            428
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/direct.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/direction.tex",
+        "sha": "f7b4b22cd72b2759b5b16a27388c667aa97cc5ea",
+        "total_lines": 377,
+        "read_ranges": [
+          [
+            1,
+            377
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/direction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/introduction.tex",
+        "sha": "e0ce7bdeff579dddecad7d868a7c38e67c8b9f8e",
+        "total_lines": 227,
+        "read_ranges": [
+          [
+            1,
+            227
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/introduction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/occupation.tex",
+        "sha": "267963c03d2a9f5be4be198169adbbe56fa8f012",
+        "total_lines": 416,
+        "read_ranges": [
+          [
+            1,
+            416
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/occupation.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/retarded.tex",
+        "sha": "055e618757ef9a41ec18dd2ab57c293680c399cb",
+        "total_lines": 428,
+        "read_ranges": [
+          [
+            1,
+            428
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/retarded.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/selection.tex",
+        "sha": "b22e7a3eb9c7fa7916b3ae7dfc99d2d6e8ccf5d5",
+        "total_lines": 488,
+        "read_ranges": [
+          [
+            1,
+            488
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/selection.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Global-classical-solutions-of-the-three-dimensional-relativistic-Vlasov-Maxwell-system-September-23-2026/build/sections/setup.tex",
+        "sha": "0ffe21a3e691e48db0152c4f68051cd8e94a1a72",
+        "total_lines": 140,
+        "read_ranges": [
+          [
+            1,
+            140
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/17/build/sections/setup.tex",
+        "retrieval_status": "cached"
+      }
+    ],
+    "unread_files": [],
+    "next_read": null,
+    "lines_read": 4019,
+    "lines_total": 4019,
+    "reading_is_independent_verification": false
+  },
+  {
+    "position": 18,
+    "status": "partial_body_read",
+    "source_closure_complete": false,
+    "scope_note": "Recursive source inventory and all text sources were fetched and cached at the pinned commit, with Git blob SHA verification. Actually read README, main TeX, and complete sections 01-06 (4,355 body lines). Sections 07-10 and references.tex were downloaded but not read. This is an explicit long-paper continuation checkpoint, not a full-body read. Later proof stages below are marked as the roadmap stated in the read introduction, not inspected proofs.",
+    "sections_read": [
+      "01 Introduction",
+      "02 Arithmetic inputs and exact normalizations",
+      "03 Integral cohomology and determinant comparisons",
+      "04 Auxiliary primes and residual concentration",
+      "05 The single-curve determinant and its central value",
+      "06 The analytic series and the pair comparison"
+    ],
+    "claim_as_stated": "For every elliptic curve E/Q with full q-power Selmer corank zero or one at some prime q, the analytic and Mordell-Weil ranks equal that corank, Sha is finite, and the full BSD leading-term formula holds with all prime factors and no extra reduction, torsion, isogeny, CM or residual-representation hypotheses.",
+    "proof_architecture": [
+      "Read sections 01-02: use the companion unrestricted low-corank converse for rank and whole-Sha finiteness, and a distinct companion two-primary formula for positive rationality and the valuation at 2. Define the odd-prime discrepancy X_p(E); choose two compatible imaginary quadratic fields by the stated twist-density input and derive a full-index real discrepancy identity before valuations.",
+      "Read section 03: construct bounded finite free cochain models with maps, cup products, duality, traces and homotopies marked; retain torsion and derived base change. Establish determinant-volume conventions, line/square switches, exact strict-versus-finite volume comparisons, Kummer Haar factors, and high-character integral division.",
+      "Read section 04: use tame variables and Frobenius evaluations to detect residual classes, choose cup primitives, and obtain necessary first-order lift matrices. Their span contains all required rectangular/square/alternating matrices; parity permits invertible alternating blocks. A full-rank first-order differential gives a nonzero initial term of an actual maximal minor, proving the stated residual determinant tests after finitely many added directions.",
+      "Read section 05: construct integral Siegel classes through a relative homology lattice with primitive period evaluation; calibrate exact dual-exponential coordinates. Line-switch comparisons prove integrality of a normalized coordinate only after separately removing smoothing and fixed Euler divisors. In rank one, a nonzero tame-height direction, cup comparison and exact spectral-height identity determine the central logarithmic coordinate. Integral Poitou-Tate and Haar factors cancel all omitted Euler factors and identify v_p(U(0))=X_p(E)>=0 for non-CM curves.",
+      "Read section 06: construct integral depleted logarithmic primitives on the ordinary modular source (without an ordinary-reduction assumption on E), bounded CM disk measures and exact character/central interpolation. Descend analytic principal ideals; prove vertical analytic primitivity via tame-stalk independence. At high characters, exact local Kummer lines and horizontal square switches preserve determinant valuations and give divisibility. Integral Weierstrass division upgrades this to U_w=B_w/L_w in R with p not dividing U_w; trace identities give exact removal of added tame variables. Horizontal quotient divisors still remain.",
+      "Roadmap only from read section 01; sections 07-10 unread: theta implications at nonaugmentation tests and growing p-level make quotient factors regular; character division identifies quotient ideals and added tame directions exclude simultaneous codimension-one jumps, making the quotients units. Integral specialization at the center yields the pair discrepancy identity; combine with the non-CM one-sided inequality and CM rank-zero input."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Distinguish a span of accessible tests from a single accessible test; turn a full-rank initial term into an actual symbolic minor.",
+        "source_premises": [
+          "build/sections/04-vertical.tex:419-499: detected independent classes and bilinear commutator changes span finite obstruction matrix spaces; the text expressly does not claim every vector of the span is a single Galois evaluation.",
+          "build/sections/04-vertical.tex:501-538: choose a linear combination with zero left kernel; in the minimal model its first-order differential has full column rank, so an actual maximal minor has a nonzero initial term. In the alternating case even dimension is supplied separately by conjugate parity."
+        ],
+        "speculative_interface": "For row rank over Q(Z), formulate accessible formal perturbations and a matrix-valued obstruction to dependencies. Prove that their linear span contains a full-rank matrix, then use the resulting nonzero initial coefficient to certify a specific symbolic maximal minor. Keep the formal deformation variables until nonvanishing is proved, and only afterward seek an integer specialization satisfying the signature caps and cost bound.",
+        "required_bridge": "The project needs genuinely independent variables or an admissible linear-combination realization, a justified first-order rank implication, and a specialization theorem preserving both caps and nonzero minor. A span statement alone does not produce a single allowable column configuration."
+      },
+      {
+        "idea": "Keep exact lattice data through simplification and specialization.",
+        "source_premises": [
+          "build/sections/03-models.tex:47-115 retains maps, homotopies, exact triangles and free models under derived base change without inverting p.",
+          "build/sections/03-models.tex:295-446 gives determinant-volume equalities for unit-volume switches under explicit amplitude, exact duality and local-pairing hypotheses.",
+          "build/sections/03-models.tex:641-651 says specialize with any surviving Gaussian pivots when cohomology dimensions agree; do not keep a rational pivot formula whose denominator vanishes."
+        ],
+        "speculative_interface": "Track the determinant project over an integral polynomial lattice with explicit basis changes and denominator factors. Simplifications used to prove symbolic row rank should be unimodular, or their scaling should be recorded. At specialization choose a surviving minor instead of relying on a rational elimination formula with poles, and ensure the analytic upper estimate applies to that exact integral determinant.",
+        "required_bridge": "Prove the concrete basis changes preserve the project's determinant or its exactly known integer multiple, establish nonvanishing at the chosen integer point, and bound all specialization heights. Derived cohomological base change is not itself a theorem for arbitrary row constructions."
+      },
+      {
+        "idea": "Separate generic or rational comparison from the integrality and unit assertions needed at the center.",
+        "source_premises": [
+          "build/sections/01-introduction.tex:155-167 separates one-sided X_p>=0 from the pair identity requiring a unit.",
+          "build/sections/03-models.tex:557-591: high-character divisibility after inverting p implies integral divisibility only with bounded series and the residual condition L not identically zero modulo (uniformizer,t).",
+          "build/sections/04-vertical.tex:1-9 explains that rationalized character comparisons cannot see a power of p; residual concentration must be established separately.",
+          "build/sections/05-single.tex:404-425,637-738: integrality of the smoothed class does not permit division by its smoothing factor; rectangular classes and character/pole tests separately remove each possible divisor. Lines 1274-1379 compute the central lattice and local Haar factors exactly before reading off the discrepancy."
+        ],
+        "speculative_interface": "Separate three project obligations: symbolic rank over Q(Z), integral specialization of the chosen minor, and a sufficiently small real bound. A rationally nonzero determinant or a comparison valid after denominators are inverted does not establish a nonzero integer lower bound with the claimed normalization. A separate content/denominator certificate can reveal a hidden cost that a generic-rank argument misses.",
+        "required_bridge": "A concrete primitive-content and denominator bound for the actual determinant. The paper's p-adic character-division hypotheses are specific and cannot be assumed for the BA/nonBA construction."
+      }
+    ],
+    "limits": [
+      "Not full body read: sections 07-theta, 08-extraction, 09-unit, 10-center and references.tex remain unread. Their proof architecture is only the introduction roadmap.",
+      "The source claim relies on major companion inputs (low-corank converse, two-primary formula and twist densities); those papers and external references were not independently verified here.",
+      "Reading sections 03-04 does not verify their arithmetic finite-model bounds, abstract evaluation detection, Chebotarev compatibility, lift-test identities, span argument or exact specialization steps.",
+      "The integral determinant parallels are methodological candidates only. No BSD theorem or cohomological rank result supplies the project's symbolic rank, signature-cap feasibility, column-cost bound, or a contradiction for pi."
+    ],
+    "extra_read_ranges": {
+      "build/sections/05-single.tex": [
+        [
+          1,
+          1379
+        ]
+      ],
+      "build/sections/06-pair.tex": [
+        [
+          1,
+          1089
+        ]
+      ]
+    },
+    "source_mapping_complete": true,
+    "cache_sha_verification": "All cached text files match the pinned tree Git blob SHA after exact-byte verification.",
+    "family_id": "002",
+    "title": "Exact Birch–Swinnerton-Dyer Formula from Low Selmer Corank",
+    "pdf_path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/exact-bsd-low-selmer-corank.pdf",
+    "directory_tree_sha": "da0416b0a8cdb6e556bf511df720d0bcfa94bd3c",
+    "repository": "openai/math",
+    "pinned_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/exact-bsd-low-selmer-corank.pdf",
+    "main_source": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/main.tex",
+    "source_inventory_complete": true,
+    "source_files": [
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/README.md",
+        "sha": "7bb2a165d7ca454311a6a9f5b7572eb9292071e0",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/README.md",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/main.tex",
+        "sha": "d75e6042719f28d5014975eb18a195ef3cb10b9e",
+        "total_lines": 82,
+        "read_ranges": [
+          [
+            1,
+            82
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/main.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/references.tex",
+        "sha": "a7d51622016221f621129266ef64ed6903ed2f7b",
+        "total_lines": 230,
+        "read_ranges": [],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/references.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/01-introduction.tex",
+        "sha": "8afa7de5ae4ade572e70565d81d624bd34476c4e",
+        "total_lines": 281,
+        "read_ranges": [
+          [
+            1,
+            281
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/01-introduction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/02-classical.tex",
+        "sha": "723398896911b519a2481fc88126ce7143ab5196",
+        "total_lines": 326,
+        "read_ranges": [
+          [
+            1,
+            326
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/02-classical.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/03-models.tex",
+        "sha": "ad833a56f919bb83b36ef2af3a090a32ef23de03",
+        "total_lines": 651,
+        "read_ranges": [
+          [
+            1,
+            651
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/03-models.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/04-vertical.tex",
+        "sha": "90659b90574242bacb9154e5484a85d57066847d",
+        "total_lines": 629,
+        "read_ranges": [
+          [
+            1,
+            629
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/04-vertical.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/05-single.tex",
+        "sha": "54a0fa6160a9125c3d4bbd09f3123a79b80dd809",
+        "total_lines": 1379,
+        "read_ranges": [
+          [
+            1,
+            1379
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/05-single.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/06-pair.tex",
+        "sha": "464c498dae7e3357257dcf2dd7b53c3e23a7bbac",
+        "total_lines": 1089,
+        "read_ranges": [
+          [
+            1,
+            1089
+          ]
+        ],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/06-pair.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/07-theta.tex",
+        "sha": "76a08c1065b59964f60f9395806a9ef937c16bd9",
+        "total_lines": 1082,
+        "read_ranges": [],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/07-theta.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/08-extraction.tex",
+        "sha": "b2858e5f47069310a766cf403b032704ce5af382",
+        "total_lines": 1033,
+        "read_ranges": [],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/08-extraction.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/09-unit.tex",
+        "sha": "ee25c7a9e7dc38f8f1d298ca0708c80a2d2ccf24",
+        "total_lines": 449,
+        "read_ranges": [],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/09-unit.tex",
+        "retrieval_status": "cached"
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/10-center.tex",
+        "sha": "4ed4109705bcb3a623c587d95baaee4b9db71ac6",
+        "total_lines": 271,
+        "read_ranges": [],
+        "local_cache": "/workspace/scratch/66870cb2f937/scratch/source_context/fullread_06/18/build/sections/10-center.tex",
+        "retrieval_status": "cached"
+      }
+    ],
+    "unread_files": [
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/references.tex",
+        "sha": "a7d51622016221f621129266ef64ed6903ed2f7b",
+        "unread_ranges": [
+          [
+            1,
+            230
+          ]
+        ],
+        "reason": "Downloaded but not read; continuation of a long paper."
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/07-theta.tex",
+        "sha": "76a08c1065b59964f60f9395806a9ef937c16bd9",
+        "unread_ranges": [
+          [
+            1,
+            1082
+          ]
+        ],
+        "reason": "Downloaded but not read; continuation of a long paper."
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/08-extraction.tex",
+        "sha": "b2858e5f47069310a766cf403b032704ce5af382",
+        "unread_ranges": [
+          [
+            1,
+            1033
+          ]
+        ],
+        "reason": "Downloaded but not read; continuation of a long paper."
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/09-unit.tex",
+        "sha": "ee25c7a9e7dc38f8f1d298ca0708c80a2d2ccf24",
+        "unread_ranges": [
+          [
+            1,
+            449
+          ]
+        ],
+        "reason": "Downloaded but not read; continuation of a long paper."
+      },
+      {
+        "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/10-center.tex",
+        "sha": "4ed4109705bcb3a623c587d95baaee4b9db71ac6",
+        "unread_ranges": [
+          [
+            1,
+            271
+          ]
+        ],
+        "reason": "Downloaded but not read; continuation of a long paper."
+      }
+    ],
+    "next_read": {
+      "path": "preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/build/sections/07-theta.tex",
+      "sha": "76a08c1065b59964f60f9395806a9ef937c16bd9",
+      "unread_ranges": [
+        [
+          1,
+          1082
+        ]
+      ],
+      "reason": "Downloaded but not read; continuation of a long paper."
+    },
+    "lines_read": 4458,
+    "lines_total": 7523,
+    "reading_is_independent_verification": false
+  }
+]

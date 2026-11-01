@@ -1,0 +1,540 @@
+[
+  {
+    "position": 13,
+    "pdf_path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/main.tex",
+    "repository": "openai/math",
+    "ref": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/README.md",
+        "sha": "4b7b2eeec6908e58df560289b670264bc3d29381",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/README.md"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/main.tex",
+        "sha": "7286759a9551b174bf6fcc7cc52df3c5b554b133",
+        "total_lines": 77,
+        "read_ranges": [
+          [
+            1,
+            77
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/main.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/references.bib",
+        "sha": "45b8f88232db462759cfafad3f3215fc764e9691",
+        "total_lines": 373,
+        "read_ranges": [
+          [
+            1,
+            373
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/references.bib"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/00_introduction.tex",
+        "sha": "63827a5f65678f9aa878ce0fbcf18da08d344346",
+        "total_lines": 248,
+        "read_ranges": [
+          [
+            1,
+            248
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/00_introduction.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/01_labeling.tex",
+        "sha": "5246d6ff8fb34f974bf1225e3509ca34e2c1c3e5",
+        "total_lines": 734,
+        "read_ranges": [
+          [
+            1,
+            734
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/01_labeling.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/02_expansion.tex",
+        "sha": "e21e0c1074e368fd7b31269b0dcf5a9800845059",
+        "total_lines": 535,
+        "read_ranges": [
+          [
+            1,
+            535
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/02_expansion.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/03_pruning.tex",
+        "sha": "4c2d888c99f7c72791a3ca4fc5963115ff2469b5",
+        "total_lines": 1179,
+        "read_ranges": [
+          [
+            1,
+            1179
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/03_pruning.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/04_analysis.tex",
+        "sha": "2485898ca32e0fbff7a4b8da012670a8b2c77398",
+        "total_lines": 967,
+        "read_ranges": [
+          [
+            1,
+            967
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/04_analysis.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/05_geometry.tex",
+        "sha": "7f5872848efc93f7e26a57db4a25c5bcdb57bb15",
+        "total_lines": 594,
+        "read_ranges": [
+          [
+            1,
+            594
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/05_geometry.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/05b_domains.tex",
+        "sha": "4d404ea94a348ff438c40c4dcc8300efc8843384",
+        "total_lines": 855,
+        "read_ranges": [
+          [
+            1,
+            855
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/05b_domains.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/06_assembly.tex",
+        "sha": "7f7212749e358528872c4bafd89e77acb7e3876d",
+        "total_lines": 834,
+        "read_ranges": [
+          [
+            1,
+            834
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/06_assembly.tex"
+      },
+      {
+        "path": "preprints/A-Torsion-Free-Counterexample-to-Reduced-Baum-Connes-Injectivity-September-23-2026/build/sections/07_completion.tex",
+        "sha": "2afb95836e841d785973e4715edc7172dc8ed697",
+        "total_lines": 200,
+        "read_ranges": [
+          [
+            1,
+            200
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/13/build/sections/07_completion.tex"
+      }
+    ],
+    "unread_files": [],
+    "title": "A torsion-free counterexample to reduced Baum–Connes injectivity",
+    "scope_note": "Full pinned text-source closure read: README, manuscript root, all nine body includes and bibliography, every line (6,614 total). Initial truncated output in completion was repaired by an explicit reread. All cached bytes match their Git blob SHA. Captions were read; the four binary PDF diagrams and rendered paper were not separately inspected. Reading is not independent validation.",
+    "sections_read": [
+      "Introduction, all 248 lines",
+      "A finite alphabet with deterministic recovery, all 734 lines",
+      "Expansion and the sequential probability law, all 535 lines",
+      "Pruning coherent returns and bicycles, all 1179 lines",
+      "Diffuse Heisenberg symbols and voltage approximation, all 967 lines",
+      "The graphical group and its embedded sheets, all 594 lines",
+      "Disjoint domains, cone chains, and an integral detector, all 855 lines",
+      "Realization of the Bott cancellation in the reduced algebra, all 834 lines",
+      "Compatible choices and the conclusion, all 200 lines",
+      "Manuscript root, README, and bibliography"
+    ],
+    "claim_as_stated": "There exist a finitely generated torsion-free discrete group G, an injection i:Z²→G, and c∈H²(BG;Z) with <(Bi)*c,[T²]>=1 while i*(β)=0 in K₀(C*rG), for the rank-zero Bott generator β. Hence the pushed torus Dirac class has infinite order in K₀(BG) but zero coefficient-free reduced assembly image; finite presentation is not claimed.",
+    "proof_architecture": [
+      "Build a finite-alphabet layered graph with two-evaluation finite-field recovery, causally keyed permutation tables and lagged padded-tail gates. A conditional Fourier estimate gives centered mean norm <3/5. Matchings, cut concentration and a local-lemma selection give every undeleted incidence a fixed gap while increasing probabilities of joint current-table tests by at most exp(ε_s k).",
+      "Prune minimal coherent returns and short bicycles. Formal reconstruction fixes all current inputs before exposing tables; a predictable accumulated-rank process charges compatibility bits without conditioning on future minimality. Terminal and branch tests are charged at disjoint updates. Small deletion retains girth and excludes short Heisenberg laws; a Heisenberg law forces a bicycle each of whose edges is traversed at least four times.",
+      "Use compact Bott profiles near the golden-ratio torus coordinate, spread over disjoint Heisenberg translates with tiny trace carriers, and sample a finite Fourier envelope by independent diffuse horizontal coordinates plus bounded matrix weights. Polynomial avoidance gives short voltage girth, while base girth, finite Følner-box norm tests and centered moments give full regular norm approximation under the same independent edge law.",
+      "Private completion and finite diagram curvature embed the voltage cover and Heisenberg subgroup. Fixed-contact polygon bounds permit finite peeling of sheets, direct cycle coordinates and compactness-selected disjoint domains with residual forest. Exact cone chains exclude prime torsion and extend an explicit integral Heisenberg 2-cocycle evaluating −1 on the (z,x) torus.",
+      "Small carrier trace controls trimming and untrimmed synthesis. Finite Cayley formulas, spectral constant extraction and a residual-forest norm bound realize fixed-size Bott families and uniform paths in a norm sequence quotient. Even→odd→positive-even homotopies and finite additivity cancel the root class; supported transport identifies it with the physical torus Bott class. Fixed stabilization and corner normalization recover eventual exact equality in one reduced algebra.",
+      "Choose parameters in a noncircular order and extract a finitely generated subgroup from one finite K-theory witness, retaining the embedded torus. Restrict the negative detector class and pair its line bundle with the torus Dirac class to obtain index 1. Subgroup naturality identifies its reduced assembly with the zero Bott class, producing the claimed infinite-order kernel."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Two observations recover a hidden block, while a strict causal lag keeps the data used for recovery from depending on the block currently being recovered.",
+        "hypotheses": "Two incident coefficients differ in the full finite field, both evaluations are known, keys use only already recovered raw blocks, correction gates read at least five earlier source-block indices, and partial-block truncations are charged by actual codimension rather than assumed injectivity.",
+        "possible_speculative_transfer": "For Q(Z) row transversals, encode signatures so that two column observations reconstruct the row choice. This could make distinct combinatorial witnesses inject into a controlled signature class and prevent counting one capacity multiple times. Any random exposure would need the paper's explicit fresh-variable/lag discipline.",
+        "source": "build/sections/01_labeling.tex:1–734",
+        "transfer_status": "Speculative analogy; no Q(Z) encoding or bound established."
+      },
+      {
+        "idea": "Preserve a small strict exponent margin by counting the actual alphabet, including only finite refinements, rather than replacing it with a coarse word bound.",
+        "hypotheses": "The manuscript has log₂|S|≤1.00005s+O(log s), whereas log₂(q²)=1.0001s; height growth does not enlarge the finite alphabet, and refinement type/weight sets are fixed before s grows.",
+        "possible_speculative_transfer": "In a determinant estimate, separate the growth of the number of row-transversal signatures from the growth of the cost normalizer. Track the exact occupancy/signature count so a narrow exponential improvement survives all finite bookkeeping factors.",
+        "source": "build/sections/01_labeling.tex:607–734 and build/sections/07_completion.tex",
+        "transfer_status": "Speculative counting architecture, not a determinant theorem."
+      },
+      {
+        "idea": "Recover an exact finite witness from an asymptotic quotient before extracting the finite combinatorial structure.",
+        "hypotheses": "Projection matrix size and stabilization are fixed, quotient defects tend to zero, spectral gaps permit cutting near-projections, and both corner products become invertible for polar normalization. Finite polynomial supports then generate a subgroup where norm defects are unchanged under isometric reduced inclusion.",
+        "possible_speculative_transfer": "If an asymptotic relaxation is used for the π determinant program, retain the original integer matrix exactly and extract a single finite witness before asserting an upper/lower contradiction. The operator-algebra stability result does not transfer to determinants without a separate stability-and-integrality argument.",
+        "source": "build/sections/06_assembly.tex:754–834",
+        "transfer_status": "Speculative methodological transfer only."
+      },
+      {
+        "idea": "Accumulate independent compatibility ranks predictably, keeping minimality and survival as final predicates rather than conditioning the random law on them.",
+        "hypotheses": "At every source update t, inputs, keys, rank R_t and number k_t of whole queried tables are measurable before exposure; the conditioned table law is dominated by exp(ε_s k_t) times the product law; different simultaneous tests use distinct table keys; on the desired event ΣR_t≥R and Σk_t≤K.",
+        "possible_speculative_transfer": "For random row transversals or occupancy signatures, expose columns in an order where each new compatibility condition has a genuine fresh rank. A weighted supermartingale then bounds the target class by exp(ε_sK)2^(−R), even if the final object must be minimal or avoid collisions. This is a precise way to avoid counting final structural conditions as free independence.",
+        "source": "build/sections/03_pruning.tex:300–600 and 701–900",
+        "transfer_status": "Potentially useful probability framework; a Q(Z) exposure law and ranks are unproved."
+      },
+      {
+        "idea": "Strengthen ordinary balance by retaining pairwise noncommutative area data, which forces a multiplicity budget on a structural core.",
+        "hypotheses": "A closed reduced edge word is a law under independent Heisenberg edge substitutions. One-variable tests balance every edge; two-variable tests make paired-edge intervals balanced and noncrossing; an innermost interval is supported on edges used at least four times and contains a bicycle.",
+        "possible_speculative_transfer": "If determinant sign/occupancy signatures currently retain only first-order balances, augment them by pairwise incidence or ordering data. A stronger invariant might force repeated use of a small structural core and reduce signature capacity. The Heisenberg law hypothesis is much stronger than an ordinary zero-sum condition and must not be assumed for transversals.",
+        "source": "build/sections/03_pruning.tex:901–1070",
+        "transfer_status": "Speculative signature-design analogy."
+      },
+      {
+        "idea": "Make a Diophantine separation bound come from one explicit nonzero integer norm, and track the companion factor sharply.",
+        "hypotheses": "For α=(√5−1)/2 and its algebraic conjugate α′, (nα−p)(nα′−p)=p²+np−n² is a nonzero integer; for nearest p the conjugate factor has absolute value ≤3|n|. This yields ||nα||≥1/(3|n|).",
+        "possible_speculative_transfer": "This is an exact model of using the same integer quantity for a lower bound ≥1 and an upper factor estimate. In the π program, any proposed analogue must explicitly produce a nonzero integer determinant whose factors or evaluations involve π; algebraic conjugation of π is unavailable, so the golden-ratio argument supplies a test for a missing hypothesis rather than a proof for π.",
+        "source": "build/sections/04_analysis.tex:170–220",
+        "transfer_status": "Relevant exact-integer architecture; no transfer of quadratic BA to π."
+      }
+    ],
+    "limits": [
+      "Full pinned text-source reading is complete; the four binary schematic PDF figures and rendered manuscript were not visually inspected. Their TeX captions were read. Reading is not independent proof verification.",
+      "This is a claimed counterexample involving several novel interfaces: conditional rank counting, full regular norm realization, finite-diagram sheet geometry, degree-two detector extension and reduced quotient membership. No independent correctness conclusion is supplied.",
+      "The cancellation occurs in K-theory and uses C*-norm stability, fixed finite matrix size, and supported functional calculus. It is not an integer determinant identity and gives no BA/non-BA result for π.",
+      "Deterministic recovery requires distinct full finite-field coefficients. Prefix truncation is charged only by codimension bounds; arbitrary truncated differences are not assumed injective.",
+      "The golden-ratio separation uses an algebraic conjugate and a specific nonzero quadratic integer norm. It cannot be applied to π without a different independently proved integer construction.",
+      "Height and accuracy are separate indices; finite type/weight choices precede degree, and fixed b plus fixed matrix sizes give uniform homotopy moduli. Allowing these quantities to vary in the wrong order would invalidate the claimed quotient argument."
+    ]
+  },
+  {
+    "position": 14,
+    "pdf_path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/main.tex",
+    "repository": "openai/math",
+    "ref": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/README.md",
+        "sha": "7691e6da3aa05e11fc6d9f6b988cc3fc8a503c33",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/README.md"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/appendices/duality-signs.tex",
+        "sha": "6a8f77660d9e2cff983bced72fa88331d7101cc5",
+        "total_lines": 226,
+        "read_ranges": [
+          [
+            1,
+            226
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/appendices/duality-signs.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/figures/local-test.tex",
+        "sha": "c5088e1b185b185d4ef11e1436d5b6996716af1b",
+        "total_lines": 32,
+        "read_ranges": [
+          [
+            1,
+            32
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/figures/local-test.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/main.tex",
+        "sha": "6b4a2cc5b5642ab7923b2b2e283fd66e08367346",
+        "total_lines": 111,
+        "read_ranges": [
+          [
+            1,
+            111
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/main.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/references.bib",
+        "sha": "2fd36f654e109aa06b161af858fab53c11014abd",
+        "total_lines": 452,
+        "read_ranges": [
+          [
+            1,
+            452
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/references.bib"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/01-introduction.tex",
+        "sha": "be9139b7ddd39cf81700cf46c9c1fefc79e1bb97",
+        "total_lines": 314,
+        "read_ranges": [
+          [
+            1,
+            314
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/01-introduction.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/02-categories.tex",
+        "sha": "05551cdc6133ad0878b1aa952ef9d49707afb80f",
+        "total_lines": 752,
+        "read_ranges": [
+          [
+            1,
+            752
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/02-categories.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/03-localization.tex",
+        "sha": "693830a9d7d443dfb457de9096147d4f2c54fee6",
+        "total_lines": 472,
+        "read_ranges": [
+          [
+            1,
+            472
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/03-localization.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/04-lattice.tex",
+        "sha": "3dc337ffa8e4b277a6f18bfb0c2a698f6657448f",
+        "total_lines": 529,
+        "read_ranges": [
+          [
+            1,
+            529
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/04-lattice.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/05-local-tests.tex",
+        "sha": "d978916d4b7e1d1784f83a716ce6028f5e2dae21",
+        "total_lines": 538,
+        "read_ranges": [
+          [
+            1,
+            538
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/05-local-tests.tex"
+      },
+      {
+        "path": "preprints/The-Hilbert-Smith-conjecture-in-every-finite-dimension-September-23-2026/build/sections/06-character-classes.tex",
+        "sha": "1a188dce03126ebc4f1d5bc33a1a2c3720bd2d1f",
+        "total_lines": 527,
+        "read_ranges": [
+          [
+            1,
+            527
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/14/build/sections/06-character-classes.tex"
+      }
+    ],
+    "unread_files": [],
+    "title": "The Hilbert–Smith conjecture in every finite dimension",
+    "scope_note": "Full pinned source closure read: README, manuscript root, all six body includes, the duality-sign appendix, included TikZ figure, and bibliography, every source line. The PDF was not separately rendered; reading is not independent proof validation.",
+    "sections_read": [
+      "Introduction",
+      "Compact-source sheaf categories and homotopy invariance",
+      "Localization, germs, and dense subcategories",
+      "A bounded lattice on the test sphere",
+      "Preparing local tests",
+      "Character classes and the contradiction",
+      "Appendix: Duality shifts and the cylinder signs",
+      "Included figure and references"
+    ],
+    "claim_as_stated": "Every locally compact second-countable Hausdorff group acting faithfully and jointly continuously on a connected Hausdorff second-countable finite-dimensional topological manifold without boundary is a Lie group. The central claimed result excludes faithful continuous Z_p actions for every prime and dimension; every such Z_p action therefore factors through a finite quotient.",
+    "proof_architecture": [
+      "Define T(X) from proper continuous images of constants on compact finite polyhedra, together with shifts, cones, and summands; prove Verdier duality on the actual generated categories using simplex generators. A symmetric interval-cone construction proves homotopy invariance of degree-r Witt groups E_r(X).",
+      "Cut off finite source constructions to identify quotient morphisms with germs. Apply integral Witt localization. For a full dense triangulated inclusion, explicitly double a form with a hyperbolic stabilization to build reverse maps whose two composites are multiplication by 2.",
+      "Compare semialgebraic and continuous categories on pole covers of spheres using finite exact diagram chases. Obtain a fixed exponent e_j with e₀=0 and e_j=9e_{j−1}+6. A local signature on a ball for each finite relation proves the semialgebraic rational sphere generator is integral, so the continuous rational line has denominator bounded by L_d=2^{e_d}, fixed before the action partition.",
+      "Assuming a faithful Z_p action, use Newman's rigidity to find a faithful orientation-preserving action in a chart; stabilize to odd d>n. Average a compactly supported pinch to get a fixed degree-one sphere test through the orbit space. Faithfulness supplies p^k local finite-quotient sheets. Rational orbit pullback plus odd-sphere telescopes move a positive-degree multiple of the test into those sheets.",
+      "Partition p-primary characters into m=p^k cyclic classes. Construct their integral Witt classes from α and α(2e_i−1) in a quotient, avoiding splitting quotient idempotents. A matrix congruence proves the sum is 2[A]. Local sheet multipliers make the concentrated classes equal; covariance and homotopy imply the original rational classes are equal after cancelling a nonzero degree scalar.",
+      "The original integral classes remain in the fixed lattice and sum rationally to 4u_d, so each equals (4/m)u_d. Choose m>4L_d to force 0<4L_d/m<1 to be an integer. This excludes Z_p; the classical Hilbert–Smith reduction yields the stated Lie-group theorem."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Prove an integral lattice with a uniform denominator before allowing an arbitrarily fine equal partition.",
+        "hypotheses": "A single rational invariant line Qu is available; integral classes have images in L⁻¹Zu for one L independent of partition size; m classes have equal rational images and fixed nonzero total Cu; choose m>|C|L.",
+        "possible_speculative_transfer": "Seek a signature invariant of the same integer determinant or its row-transversal decomposition whose total is fixed and whose integral lattice spacing is fixed. If row/column symmetry forces arbitrarily many equal rational portions, this yields an arithmetic contradiction without estimating unrelated determinants. Establishing equal portions for Q(Z) is the missing mathematical step.",
+        "source": "build/sections/04-lattice.tex and build/sections/06-character-classes.tex:420–527",
+        "transfer_status": "Concrete obstruction template; its Q(Z) hypotheses remain unproved."
+      },
+      {
+        "idea": "A rational comparison is insufficient when denominators may grow; replace it with bounded integral kernel and cokernel estimates propagated through a finite construction.",
+        "hypotheses": "Comparison maps for local pieces have kernel/cokernel killed by a fixed q; exact five-term diagrams give q³, and open-cover dense comparisons contribute controlled factors 2. There are finitely many cover stages fixed by dimension.",
+        "possible_speculative_transfer": "When passing from a row-transversal integer invariant to a relaxed, averaged, or signature representation, record a fixed denominator loss at each finite step. A rational equivalence alone can hide Z⊂Z[1/2]-type unbounded divisibility, invalidating a final integer lower bound.",
+        "source": "build/sections/03-localization.tex:330–472 and build/sections/04-lattice.tex:68–229",
+        "transfer_status": "Methodological transfer; no such determinant comparison constructed."
+      },
+      {
+        "idea": "Use self-adjoint involutions on an existing object to extract additive pieces without requiring actual image objects for projectors.",
+        "hypotheses": "A finite family of mutually orthogonal self-adjoint idempotents e_i sums to identity; 2e_i−1 is invertible, and a common quotient supports the forms. Integral localization uniquely lifts their sum of forms.",
+        "possible_speculative_transfer": "For signed capacity bookkeeping, seek an exact algebraic identity on the original matrix or form using 2e_i−I, then sum via a single congruence. This may avoid claiming that a coarse signature class comes from an actual independently realizable row transversal. The hypothesis requires genuine operators/projections, not arbitrary buckets.",
+        "source": "build/sections/06-character-classes.tex:205–291",
+        "transfer_status": "Speculative algebraic construction."
+      },
+      {
+        "idea": "Allow a parameter-dependent scalar during a comparison, then cancel it rationally while keeping the original integral witnesses in the original lattice.",
+        "hypotheses": "The transfer D_s acts by multiplication by a nonzero scalar s on a fixed one-dimensional rational invariant. The original z_i are integral before transfer, and L does not depend on s,k,or the test.",
+        "possible_speculative_transfer": "A determinant/occupancy comparison may use an amplification factor depending on a scale only if equality after amplification can be cancelled on a fixed invariant without replacing the original integer witness by one whose denominator budget grows with that scale.",
+        "source": "build/sections/05-local-tests.tex:282–538 and build/sections/06-character-classes.tex:420–488",
+        "transfer_status": "Speculative transfer; exact scalar action would need proof."
+      }
+    ],
+    "limits": [
+      "Full source reading does not establish correctness of the novel generated sheaf categories, duality restrictions, localization, density doubling, or claimed Hilbert–Smith resolution.",
+      "Integrality here is integrality of Witt-group classes with real sheaf coefficients; it is not entrywise integrality of a matrix determinant.",
+      "The fixed denominator depends strongly on the chosen odd sphere dimension. It is fixed before m=p^k, not uniform in dimension.",
+      "The odd-sphere telescope uses d≥3 odd, Serre finiteness, finite nerve approximation, and a positive degree that may depend on k. None of these supply Q(Z) symmetries directly.",
+      "No BA/non-BA assertion or new fact about π is proved by this reading."
+    ]
+  },
+  {
+    "position": 15,
+    "pdf_path": "preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/build/main.tex",
+    "repository": "openai/math",
+    "ref": "4eaee87548250b2682affda7d05d947c05554bae",
+    "source_files": [
+      {
+        "path": "preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/README.md",
+        "sha": "f2911edb8a7a0f0c83f04c874b9cdc0cf3584128",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/15/README.md"
+      },
+      {
+        "path": "preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/build/main.tex",
+        "sha": "ab9bd82b388ec4e55a333d05c61c853b7941798b",
+        "total_lines": 544,
+        "read_ranges": [
+          [
+            1,
+            544
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/15/build/main.tex"
+      },
+      {
+        "path": "preprints/A-positive-solution-to-Tingleys-problem-September-23-2026/build/references.tex",
+        "sha": "796debae8df956385c1aee3398c3d578fda1cdf5",
+        "total_lines": 151,
+        "read_ranges": [
+          [
+            1,
+            151
+          ]
+        ],
+        "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_05/15/build/references.tex"
+      }
+    ],
+    "unread_files": [],
+    "title": "A positive solution to Tingley’s problem",
+    "scope_note": "Full pinned source closure read: README, all 544 lines of the one-file manuscript including embedded chord diagram and fixed-point appendix, and all 151 lines of the references include. Initial output truncation was repaired by explicit line-range rereads. The PDF was not separately rendered; reading is not validation.",
+    "sections_read": [
+      "Introduction",
+      "Supporting functionals and radial contact",
+      "Attaining the maximal defect",
+      "Aligning extremal chords",
+      "The chord contradiction",
+      "The linear extension",
+      "Appendix: The fixed-point ingredients",
+      "References"
+    ],
+    "claim_as_stated": "For any nonzero real Banach spaces X,Y and surjective sphere isometry f:S_X→S_Y, the radial map T(0)=0 and T(x)=||x||f(x/||x||) is the unique surjective real-linear isometric extension. No finite-dimensionality, separability, reflexivity, smoothness, or strict convexity hypothesis is imposed; for complex spaces the claim concerns real linearity.",
+    "proof_architecture": [
+      "Define D_q(x,y)=||f(x)−qf(y)||−||x−qy|| and its absolute supremum M. The defect is uniformly 2-Lipschitz in q, bounded by 2min(q,1−q), and changes sign under inversion. If M>0, choose maximizing sequences and pass to an ultrapower and completion so a positive maximum is attained at one 0<t<1 while every pair/radius retains the bound M.",
+      "Take opposite radial contacts through ty and tf(y) to define a continuous return map g on directions. Equality at maximal defect forces r=u+M, s=p+M, and a common support for v and g(v). Common-support propagation builds a nonempty invariant closed convex set contained in the maximizing directions.",
+      "Show ||g(v)−g(v′)||≤up/(rs)||v−v′|| plus two errors in scalar radii. Since up/(rs)≤(1−M/(1+t))²<1, partition the bounded scalar-radius ranges into finitely many bins to obtain strict contraction of Kuratowski noncompactness. Darbo gives a fixed direction, aligning both extremal chords with p+r=s+u≤2.",
+      "For aligned chords define A=p/d,B=u/d,ε=1−t. Weighted signed defects cancel the same target norm and produce a secant K with ε/p≤φ(v)≤K≤1−B or B. If either A or B exceeds ε, support signs and inverse symmetry give a small radial perturbation that makes the defect exceed M.",
+      "In the remaining regime A,B≤ε, original and inverse secant bounds imply ε≤dA(1−B), ε≤dB(1−A), and ε<1/2. Convexity gives incompatible bounds on the same preserved distance ||y−z||=||f(y)−f(z)||. Thus M=0.",
+      "Zero defect makes the radial map an onto metric isometry. The included Mazur–Ulam midpoint-reflection proof doubles any midpoint error while retaining a uniform bound, forcing additivity and then real homogeneity. The appendix proves the noncompactness lemmas, simplex fixed point via Sperner parity, compact convex fixed point, and Darbo."
+    ],
+    "construction_ideas": [
+      {
+        "idea": "Turn a nonattained extremal defect into an attained one in a larger space while preserving all universal inequalities.",
+        "hypotheses": "The defect is uniformly controlled and continuous in the compact parameter q; the space admits a quotient of bounded sequences, termwise maps preserve the relevant metric relation, and completing the quotient preserves the defect bounds. Choice/free ultrafilters are used.",
+        "possible_speculative_transfer": "For determinant/occupancy extremizers varying with scale, formulate a single normalized defect and identify a compactness or limiting enlargement that retains both upper and lower estimates for the same witness. A limiting real relaxation must subsequently recover a finite integer determinant; an ultrapower alone does not preserve a desired finite arithmetic contradiction.",
+        "source": "build/main.tex:147–199",
+        "transfer_status": "Speculative extremal architecture."
+      },
+      {
+        "idea": "Align the witnesses before comparing their estimates by propagating equality through supports and constructing an invariant convex set.",
+        "hypotheses": "Equality in triangle inequalities supplies common norming functionals; positive convex combinations preserve equality; common-support propagation keeps every direction in the extremal set; a return map has an invariant closed bounded convex domain.",
+        "possible_speculative_transfer": "A π BA/non-BA contradiction needs upper and lower bounds for exactly the same integer determinant. Search for an extremal row transversal on which equality or saturation forces compatible column occupancies and signs, and a return/exchange operation whose fixed configurations align the two bounds. Convexification can lose discrete transversals, so a separate integrality mechanism is necessary.",
+        "source": "build/main.tex:217–294",
+        "transfer_status": "Speculative alignment strategy, not a supplied combinatorial fixed point."
+      },
+      {
+        "idea": "Finite binning can remove bounded nuisance-parameter errors from a contraction of a compactness measure.",
+        "hypotheses": "A uniform contraction coefficient γ<1 exists; all additive errors depend only on finitely many bounded scalar parameters; arbitrarily fine finite partitions make those errors vanish before taking the cover infimum.",
+        "possible_speculative_transfer": "If row-transversal exchange estimates contract a signature discrepancy up to errors controlled by finitely many normalized column-cost parameters, stratify by fine cost bins before taking an asymptotic covering/capacity bound. The required contraction and finite-dimensional nuisance reduction would have to be proved.",
+        "source": "build/main.tex:270–291",
+        "transfer_status": "Speculative counting/compactness transfer."
+      },
+      {
+        "idea": "Cancel an intermediate quantity by a weighted combination, then split into parameter regimes that exhaust all cases.",
+        "hypotheses": "The two estimates genuinely share the same target norm; the weights u,s are positive; sr−up=Md is an exact identity; endpoint radii force one weighted defect to vanish. The inverse configuration preserves the identical global bound.",
+        "possible_speculative_transfer": "When upper/lower determinant bounds involve a common column-cost term, an exact weighted cancellation may expose a single signed defect instead of separately weakening both bounds. Explicitly record which determinant, ordering, and sign convention remain common. The paper's formula is a norm identity, so no determinant inequality follows without a new identity.",
+        "source": "build/main.tex:319–450",
+        "transfer_status": "Speculative analytic architecture."
+      }
+    ],
+    "limits": [
+      "Full source reading does not independently validate the novel alignment, invariant convex set, return-map estimate, or secant contradiction.",
+      "The proof uses real Banach geometry, convexity, supports, arbitrary enlargements, and continuous fixed-point methods. Integer transversals and determinants do not automatically satisfy these hypotheses.",
+      "A sphere isometry supplies exact distance equalities and an inverse with the same defect bound; these are substantial structural hypotheses unavailable from a generic occupancy model.",
+      "Ultrapower attainment and continuous fixed points can discard finite arithmetic information. They cannot by themselves yield a nonzero integer determinant or a BA/non-BA conclusion for π."
+    ]
+  }
+]

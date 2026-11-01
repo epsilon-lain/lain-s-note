@@ -1,0 +1,92 @@
+{
+  "position": 6,
+  "assigned_parts_complete": true,
+  "scope_note": "Continuation reader08: every body line of build/sections/10-terminal.tex (1–1201) and11-counting.tex (1–1032) actually read from the shared pinned-source cache. This record claims completion of these assigned parts only, not the full manuscript and not independent validation. Cache bytes were verified against the recorded Git blob SHAs.",
+  "repository": "openai/math",
+  "ref": "4eaee87548250b2682affda7d05d947c05554bae",
+  "pdf_path": "preprints/uniform-bounds-for-planar-polynomial-limit-cycles-September-24-2026/uniform-bounds-for-planar-polynomial-limit-cycles-September-24-2026.pdf",
+  "source_files": [
+    {
+      "path": "build/sections/10-terminal.tex",
+      "sha": "8481c662a462e843650aea8728bf889e4526815d",
+      "total_lines": 1201,
+      "read_ranges": [
+        [
+          1,
+          1201
+        ]
+      ],
+      "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_02/6/build/sections/10-terminal.tex"
+    },
+    {
+      "path": "build/sections/11-counting.tex",
+      "sha": "a479077ec9a22145ca6eb2d0f9a0611bb2f7157b",
+      "total_lines": 1032,
+      "read_ranges": [
+        [
+          1,
+          1032
+        ]
+      ],
+      "cached_path": "/workspace/scratch/66870cb2f937/source_context/fullread_02/6/build/sections/11-counting.tex"
+    }
+  ],
+  "unread_assigned_ranges": [],
+  "sections_read": [
+    "Terminal passages and their independent arguments: conventions, rational diagonal primitives, nozero/simple boxes, power annuli, logarithmic annuli and resonance, exact endpoint ties, structural ambient extensions, differentiated identities, boundary corners, terminal reduction proof; all1201lines.",
+    "Projection, matching, and the cycle count: admissible open data, differential/algebraic closure, projection count, matching systems, graph/finite-jet lifting, absolute isolated zeros, rotation hyperbolicity and final degree-dependent whole-plane bound; all1032lines."
+  ],
+  "proof_architecture": [
+    "Terminal reduction starts from exact scalar identities of the prior subdivision. Rational diagonal primitives separate resonant and nonresonant monomials using a fixed denominator lattice. Nozero boxes use integrated displacement; simple roots are analytically linearized; annular power/log changes and resonance redoing reduce transfers to ordinary analytic, additive, regular one-rate or mixed packet models.",
+    "Every kernel is defined on independent-argument neighborhoods and matched to actual flow on a regular endpoint graph, including independently proposed mismatched endpoints. Corrected right amplitudes cancel the proposed final state before imposing matching. Exact open identities, implicit derivatives and triangular finite state/jet graphs retain every chain-rule term. Internal subdivisions use one fixed finite K after a sequence regime is chosen and are not new geometric passage types.",
+    "Boundary analysis separates positive-margin completeness from vanishing-margin extension. Three nested boxes and integrated forcing give state room on admitted closures. Bounded normalized ratios/root graphs extend analytically after divisor clearing, with graph Jacobians required nonzero only at the sequence points; any divergent recoverable auxiliary coordinate instead enters the packet flag analysis.",
+    "The projection principle assumes absolute isolated-zero finiteness for every finite differential/algebraic closure system, including added coordinates and specialized parameters. Proper barriers 1+|p|²+|x|²+Σg_j⁻², generic Morse tilts, multiplier equations, Sard/Fubini and induction on parameter dimension convert that hereditary zero property into uniform fiber component counts on full-row-rank charts.",
+    "Finite geometric words produce matching systems with physical endpoints shared by links, one scalar transfer equation per link, regular auxiliary ties and explicit strict margins. At a hyperbolic cycle the transverse cyclic Jacobian has rows dr_(j+1)−h_jdr_j and is invertible because Πh_j≠1; tangential cut positions account for the free dimensions. Analytic continuation shows one regular fiber component cannot contain representations of two different cycles. Absolute zero finiteness for the full closure is then obtained by a bounded analytic-limit alternative or a divergent retestable packet-flag alternative, using earlier primitive/absolute-zero theorems.",
+    "Sum finitely many component bounds over words and maximal-minor charts and add finite boundary exceptions. For a finite collection of possibly nonhyperbolic cycles, rotate V to V+μJV; the transverse parameter derivative satisfies a positive-forcing determinant equation. One common sign yields at least the original total number of hyperbolic cycles, counting two from favored even-order cycles. Affine spatial scaling puts any finite collection into the fixed square; exceeding the uniform bound would give a finite countercollection."
+  ],
+  "construction_ideas": [
+    {
+      "idea": "Distinguish identities on a physical constraint graph from identities of the independently varying ambient kernel before differentiating.",
+      "hypotheses": "An exact rewriting Φ(a)=Ψ(a,G(a)) holds on an open old argument domain, the retained graph E(a,G(a))=0 has nonzero E_y at each point, and derivatives use G_a=−E_y⁻¹E_a. Right-amplitude endpoint corrections preserve the physical mismatch even for proposed nonmatching endpoints.",
+      "possible_speculative_transfer": "For the same-determinant BA/non-BA program, reparameterizing row choices, normalizers or occupancies must preserve the exact determinant identity before applying upper/lower derivatives or limits. Equality only on a tied family does not allow independent partial derivatives to be equated. This can diagnose hidden missing normalization or ratio derivative terms.",
+      "source": "10-terminal.tex:778–946;11-counting.tex:320–439,561–606",
+      "transfer_status": "Methodological transfer; no determinant estimate proved."
+    },
+    {
+      "idea": "A uniform fiber-capacity theorem needs hereditary finiteness under the whole closure, not merely finiteness of isolated points in one original total solution set.",
+      "hypotheses": "Full row rank in fiber variables, explicit positive-margin complete open domains, and finite isolated total zeros for every fixed finite combination of derivatives, algebraic operations, nonzero inverses, added coordinates and parameter specializations. Proper barrier and generic Morse multiplier systems must remain inside that closure.",
+      "possible_speculative_transfer": "If Q(Z) signatures are parameterized by analytic matching equations, component counts could in principle bound distinct row-transversal witnesses uniformly only after these closure hypotheses and a component-injection argument are proved. The manuscript's sin x=0 on0<x<p warning shows why a total-space isolated-zero check alone gives no fiber bound.",
+      "source": "11-counting.tex:1–225",
+      "transfer_status": "Precise conditional counting template; applicability to Q(Z) unproved."
+    },
+    {
+      "idea": "Separate a globally finite geometric alphabet from finite refinements selected only after fixing a limiting test sequence.",
+      "hypotheses": "The base passage words and boundary-event bound are fixed by degree before asymptotic requests. An internal subdivision uses one finite K chosen for one subsequence regime, retains triangular locally unique state and finite-jet graphs, and preserves isolated solutions without entering the base word count.",
+      "possible_speculative_transfer": "For row/signature capacity arguments, distinguish a fixed finite class decomposition from an auxiliary finite factorization used to analyze one extremal sequence. A scale-dependent family of subdivisions cannot silently be counted as one uniformly bounded geometric type.",
+      "source": "10-terminal.tex:926–946,1140–1201;11-counting.tex:305–317,597–606,716–770,994–1012",
+      "transfer_status": "Speculative organization principle."
+    },
+    {
+      "idea": "Preserve pointwise local equivalence at a degenerating boundary by keeping graph equations and clearing denominators rather than asserting a uniform inverse.",
+      "hypotheses": "Every selected sequence point has nonzero graph Jacobians and divisors, but they may vanish at the limiting tuple. Defining kernels/graphs extend analytically after one fixed finite enlargement; finite implicit derivatives are rational expressions in analytic jets, and nonzero restrictions remain on the original domain.",
+      "possible_speculative_transfer": "If determinant witnesses are normalized by costs or minor determinants tending to zero, retain normalization equations and nonzero conditions. Clear denominator powers only for equations; do not replace inequalities by numerator signs without checking denominator signs. An integer nonzero lower bound would be a separate arithmetic input, not a consequence of pointwise analytic equivalence.",
+      "source": "10-terminal.tex:1040–1085;11-counting.tex:607–703,801–835,907–939",
+      "transfer_status": "Methodological transfer and explicit limitation."
+    },
+    {
+      "idea": "A common perturbation can preserve a total count through parity aggregation even when it does not preserve every individual object.",
+      "hypotheses": "For each isolated periodic orbit D_μ≠0 and the zero set is μ=ψ(r)=ar^m+…, so odd m contributes one hyperbolic orbit for either sign and even m contributes two for its favored sign. Disjoint neighborhoods allow one common sufficiently small magnitude μ; max(O+2E_+,O+2E_−)≥O+E_++E_−.",
+      "possible_speculative_transfer": "When a combinatorial perturbation or sign choice splits signatures into two favored classes, prove an aggregate lower count by a two-sign maximum rather than assuming every original witness survives under one sign. This is a useful capacity bookkeeping pattern if multiplicities and disjointness are controlled.",
+      "source": "11-counting.tex:943–995",
+      "transfer_status": "Speculative parity/counting transfer."
+    }
+  ],
+  "limits": [
+    "Only the two assigned sections were read in this continuation. Earlier preparation, flag, packet-calculus, separation and absolute-zero theorems are invoked but were not independently read or validated by this continuation reader.",
+    "The global limit-cycle claim relies on novel earlier packet and retestability results, plus the finite geometric template bound. These sections do not independently establish those inputs.",
+    "The projection count theorem is conditional on a strong hereditary absolute-zero property for all finite differential/algebraic closure systems. It must not be applied from original isolated-zero finiteness alone.",
+    "Positive-margin completeness is weaker than analytic extension when margins vanish; the sections explicitly require a separate boundary-corner proof. Regular graph Jacobians are not claimed uniformly invertible at the limit.",
+    "A finite internal K selected for a test sequence is legitimate for that fixed enlarged system but is not claimed degree-uniform. It must not inflate or replace the fixed geometric word bound.",
+    "No effective B(d), no quantitative determinant/occupancy capacity, and no BA/non-BA claim for π is obtained from this reading."
+  ]
+}

@@ -1,0 +1,913 @@
+[
+  {
+    "position": 1,
+    "family_id": "001",
+    "title": "Milne's rationality conjecture for abelian varieties",
+    "pdf_path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "0336415f6561dd1537c2af2af42908b0843a3586",
+    "source_files": [
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/00_intro.tex",
+        "sha": "c926c1c540c138a4b46274f672fc0f4c43547358",
+        "total_lines": 280,
+        "read_ranges": [
+          [
+            1,
+            280
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/00_intro.tex",
+        "source_bytes": 14472,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/01_preliminaries.tex",
+        "sha": "9d3acf43a4e761d9a1df06f80145976b85d834db",
+        "total_lines": 227,
+        "read_ranges": [
+          [
+            1,
+            227
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/01_preliminaries.tex",
+        "source_bytes": 11069,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/02_transport.tex",
+        "sha": "5a45d2a38794a314bf4584432704a12e37ffb9c4",
+        "total_lines": 814,
+        "read_ranges": [
+          [
+            1,
+            814
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/02_transport.tex",
+        "source_bytes": 37577,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/03_filtration.tex",
+        "sha": "85d69e5ad42e88cef57434146f71ae747dd44e31",
+        "total_lines": 482,
+        "read_ranges": [
+          [
+            1,
+            482
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/03_filtration.tex",
+        "source_bytes": 20696,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/04_weil.tex",
+        "sha": "99f61f696a7e9ac935e0915cea3309d500c3c780",
+        "total_lines": 439,
+        "read_ranges": [
+          [
+            1,
+            439
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/04_weil.tex",
+        "source_bytes": 19948,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/05_reduction.tex",
+        "sha": "fdf72c10b047fdc86f9192781880cfc791c3c9bb",
+        "total_lines": 448,
+        "read_ranges": [
+          [
+            1,
+            448
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/sections/05_reduction.tex",
+        "source_bytes": 19876,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/references.tex",
+        "sha": "aca2d21ca77b497895931a1da82f248f18bc71fb",
+        "total_lines": 274,
+        "read_ranges": [
+          [
+            1,
+            274
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/references.tex",
+        "source_bytes": 11871,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/figures/two-transports.tex",
+        "sha": "11faf2a28398c6684476d42ebe40e756dc98bc1e",
+        "total_lines": 28,
+        "read_ranges": [
+          [
+            1,
+            28
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/figures/two-transports.tex",
+        "source_bytes": 1300,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/README.md",
+        "sha": "d791f0ba50c386b5c0adb5ef76f87ffd83c0f8c9",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/README.md",
+        "source_bytes": 810,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/main.tex",
+        "sha": "e79d6ed2b434f8abf47bee6b9f7efe8123a3aad7",
+        "total_lines": 73,
+        "read_ranges": [
+          [
+            1,
+            73
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/1/main.tex",
+        "source_bytes": 2669,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "scope_note": "完整读过该固定提交中 README、主文件、六个正文节、嵌入图和参考文献表；主文件与递归输入闭包全部解析，无附录、无未读正文。README 无编译命令。这里的 full_body_read 仅为正文源码首读；未逐篇核验引用，未运行 Lean，未编译或逐页核对 PDF，不据此认证定理成立。",
+    "sections_read": [
+      "Introduction（主定理、来历、两种输运、四步概要）",
+      "Comparisons and rational Lefschetz classes（比较、共同有理空间、推拉、指定代数同态提升）",
+      "Transport through Hodge-type integral models（辅助强可容数据、指定可容滤过的实现、共同有理归一化、CM 输运）",
+      "An endomorphism-stable weakly admissible filtration（有界次数避零、拉格朗日横截、最大缺陷、斜率分块、有限局部域下降）",
+      "Balanced Weil classes（正交/可逆二分、除子多项式系数提取、保持除子的提升）",
+      "CM reduction and consequences（幂上的有理幂等元、平衡 Weil 约化、主定理、固定有理 Tate 理论、特殊纤维代数性）",
+      "Included figure two-transports and complete bibliography"
+    ],
+    "claim_as_stated": "对任意在固定 p-adic 位 w 有好约化的 A/Qbar、任意有理 Hodge 类 gamma∈H^{2r}(A(C),Q(r))，及约化 A0 上任意 d-r 个 Cartier 除子，其特殊化与除子乘积在全部 l≠p 的实现及扩标至 Cw 的 crystalline 实现中，迹均为同一个 q∈Q，含 p=2。进一步，结合另文的 CM Hodge 定理，特殊化由一个共同有理代数 cycle 表示；这一加强不是主有理性定理的输入。",
+    "proof_architecture": [
+      "先建立共同有理 Lefschetz 空间的完美配对；用一个可逆有理交数矩阵证明 pushforward 系数在各实现相同，从而配对性质对有理 pullback 封闭。",
+      "将 Hodge datum 扩张为若干原表示副本上的强可容 Hodge-type datum；在特殊纤维以一个真实 quasi-isogeny 输运所有定义张量。用 ample 除子交数比 lambda∈Q× 把局部 similitude lambda_v 同时归一化，再把原 Hodge 类拉回。",
+      "第一种输运选 CM lift；用 CM eigenspace 的所有 Galois 共轭均平衡，把 CM 类拆为幂的有理幂等元因子上平衡 Weil 类的 pullback。",
+      "对平衡 Weil 类考察 Rosati 自伴、E-反线性的有理 endomorphism 空间 U：若 U 无可逆元，非零配对会产生一个 eigenspace 上非退化除子并反推出可逆元，故所有配对为零。",
+      "若 U 有可逆 u，构造保持 E,u、polarization 的弱可容平衡滤过；有界次数避零保证同时横截所有固定系数域子对象，最大超模缺陷把检验约化到 E,u 稳定对象。局部 Shimura 实现给出第二个辅助 lift，指定 projector、E-action、除子随滤过提升。",
+      "在该 lift 的复 Betti 描述中，对 (sum_tau x_tau^2 D_tau)^s 提取纯系数，得到一个有理除子恒等式；在所有实现共同特殊化，再有理 pullback 回原类。附加 CM Hodge 输入给特殊纤维的一个共同代数 cycle。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "把通用非零 minor 的选择与评价点的选择分离：有界次数同时避零。",
+        "precise_hypotheses": "固定离散赋值系数域 K1/K0 为有限扩张，r,b≥1；所有禁用多项式属于同一 K1[X0,...,X_{r-1}]，非零、总次数≤b。取 N>b，B=b sum_{i=0}^{r-1}N^i；若 e 为 K1/K0 分歧指数，取素数 q>max(B,e)，theta^q=p，令 Xi=theta^{N^i}。",
+        "mechanism": "不同多重指标以 N 进制映入不同单变量指数，总次数≤b 的非零多项式变为次数≤B 的非零单变量多项式；[K1(theta):K1]=q>B，故共同非零。可同时处理任意基数的固定域约束。",
+        "possible_bridge": "若存活 row-transversal Q(Z) 对应的若干目标 minors 可先证明是统一次数有界的非零形式，可用幂指数隔离得到一个同时保秩的代数参数点；整系数或有理参数版本可再用根界选择整数 t。它启发先证明形式非零、后计高度的分层设计。",
+        "missing_step": "原引理提供的是高次数代数点，不是低高度整数点。要用于 pi 的整数 determinant 矛盾，必须另给 norm/分母清除与高度成本；指数 N^i 可能令 column-cost 失控。若系数域随 theta 扩张则结论不成立。",
+        "source_anchors": [
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/03_filtration.tex",
+            "line": 88,
+            "label": "label{lem:avoidance}"
+          },
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/03_filtration.tex",
+            "line": 131,
+            "label": "label{lem:lagrangian-intersection}"
+          }
+        ]
+      },
+      {
+        "idea": "以总缺陷的超模性寻找唯一最大的障碍，避免逐个子对象检验。",
+        "precise_hypotheses": "子对象格对交与和封闭；f(P)=t_H(P)-t_N(P) 只取有限多个值，Newton 数在短正合列可加，Hodge 交维数满足 f(P)+f(Q)≤f(P∩Q)+f(P+Q)；给定可逆算子保持滤过及 f。",
+        "mechanism": "所有最大值对象在交与和下封闭，因此存在唯一包含全部最大值对象的最大 Pmax；保持 f 的算子必固定 Pmax。只需在算子稳定子对象上排除正缺陷。",
+        "possible_bridge": "在有限行/列支持集合上，若把容量缺陷写为 modular capacity 减 matroid rank，则超模性给一个 canonical 最大坏集合。可尝试用它压缩 signature capacities 的所有 Hall 型障碍，并检验实际 Q(Z) 存活条件是否容许相同闭包。",
+        "missing_step": "当前 row-transversal 家族未必构成对交/并封闭的格；加入二次 occupancy 代价后必须重新证明所用缺陷的超模方向，不能只沿用线性 rank 的直觉。",
+        "source_anchors": [
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/03_filtration.tex",
+            "line": 228,
+            "label": "label{eq:filtration-supermodularity}"
+          }
+        ]
+      },
+      {
+        "idea": "用一个固定有理配对归一化全部局部对象，始终比较同一个对象。",
+        "precise_hypotheses": "各实现中 a*theta_B=lambda_v theta_*；theta_* 为同一有理 ample 除子，deg(theta_*^D)≠0，a*theta_B 也为有理除子，cycle trace 与有理交数相容。",
+        "mechanism": "lambda_v=deg(a*theta_B theta_*^{D-1})/deg(theta_*^D) 为同一个有理 lambda；再由 untwisted tensor 恢复 twisted 类的共同缩放。",
+        "possible_bridge": "整数 determinant 构造若经历基变换、投影、不同范数或不同局部实现，应先固定同一 rational normalization/清分母因子。可用一个非零有理测试功能校准，防止算术下界与解析上界实际作用于不同缩放的 determinants。",
+        "missing_step": "这里只是精确相容性的设计原则；pi 近似问题仍需真实非零 determinant 及定量共同分母估计。",
+        "source_anchors": [
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/02_transport.tex",
+            "line": 737,
+            "label": "label{eq:transport-rational-similitude}"
+          }
+        ]
+      },
+      {
+        "idea": "用向量值多项式的系数而非单个 eigenspace 的有理下降生成目标空间。",
+        "precise_hypotheses": "E/Q 有限 CM 域；T 为 E-秩 2s 的 rational summand；D=sum_tau D_tau 在每个 eigenspace 非退化；全部 (b*D)^s（b∈E）位于一个共同有理 divisor span。",
+        "mechanism": "P(x)=(sum_tau x_tau^2 D_tau)^s 的 x_tau^{2s} 系数为非零 determinant D_tau^s；对 rational points 的 Zariski 稠密性及 faithful scalar extension 给整个有理 pure determinant 空间的包含。",
+        "possible_bridge": "若可把多个近似线性形式编码成有理向量值多项式，可通过系数提取/有限差分隔离一个特定 transversal 或 signature，而不要求每个嵌入/坐标单独有理。",
+        "missing_step": "Zariski 稠密只给存在；用于整数 determinants 需显式有限评价集、Vandermonde 分母及评价高度，且不能假定 isolated coefficient 自动没有 cancellation。",
+        "source_anchors": [
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/04_weil.tex",
+            "line": 205,
+            "label": "label{lem:weil-divisor-span}"
+          },
+          {
+            "path": "preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/build/sections/04_weil.tex",
+            "line": 240,
+            "label": "label{eq:weil-coefficient-polynomial}"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "这是一轮完整源码阅读，不是独立正确性审查。Deligne/Blasius 比较、Milne Lefschetz 完美配对、Serre–Tate/Tate 提升、Kisin–Zhou 特殊点与 p=2 条款、Pappas–Rapoport period/uniformization 与 Gleason–Lim–Xu 条件均按文中声明作为外部输入，未逐篇回读核验。",
+      "CM 输运及第二次指定滤过输运发生在特殊纤维与增维后的幂上；并无原 generic fiber 到同维 CM variety 的映射，也不推出任意复 abelian variety 的 Hodge conjecture。",
+      "主 rationality theorem 与使用 032 得到的 algebraic specialization 必须区分；两个稿件的交叉后果不能被误当作各自主证明的循环输入。",
+      "避零、系数提取与最大障碍工具不直接给 pi 的 BA 或 nonBA，尤其没有可用的最终 integer determinant 高度/解析指数。"
+    ],
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "byte_audit.json",
+      "terminal_LF_corrections": 10,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes; already correct, unchanged",
+      "body_content_changes": false
+    }
+  },
+  {
+    "position": 2,
+    "family_id": "032",
+    "title": "The rational Hodge conjecture for CM abelian varieties",
+    "pdf_path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "bf0cf5f7483134462156c4431bbe35f42fac920d",
+    "source_files": [
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/preamble.tex",
+        "sha": "000c4b749c19e93ca2d5c281c5abd13c1bbcb048",
+        "total_lines": 66,
+        "read_ranges": [
+          [
+            1,
+            66
+          ]
+        ],
+        "role": "preamble",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/preamble.tex",
+        "source_bytes": 2200,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/01-introduction.tex",
+        "sha": "59602fc8c2d93900eb6e2d8640d9eb8a976c2556",
+        "total_lines": 227,
+        "read_ranges": [
+          [
+            1,
+            227
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/01-introduction.tex",
+        "source_bytes": 11886,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+        "sha": "1eb2662faaf249de7d185aade83e609fb54570e5",
+        "total_lines": 521,
+        "read_ranges": [
+          [
+            1,
+            521
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/02-tensors.tex",
+        "source_bytes": 23859,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/03-surface.tex",
+        "sha": "bd030ababfca7a735ef04f9113db901886a4e79a",
+        "total_lines": 156,
+        "read_ranges": [
+          [
+            1,
+            156
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/03-surface.tex",
+        "source_bytes": 6445,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+        "sha": "a21319f3c8d08880a4732d3e37a18516b8accb98",
+        "total_lines": 1064,
+        "read_ranges": [
+          [
+            1,
+            1064
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/04-theta.tex",
+        "source_bytes": 47792,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05a-moduli.tex",
+        "sha": "b33d87f9f413d4583ecc00a2bf3318b82c23e376",
+        "total_lines": 534,
+        "read_ranges": [
+          [
+            1,
+            534
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/05a-moduli.tex",
+        "source_bytes": 26576,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-frobenius.tex",
+        "sha": "a2ebfa491613f0dd3b0f2ccb6070bba0c7c09a9c",
+        "total_lines": 341,
+        "read_ranges": [
+          [
+            1,
+            341
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/05b-frobenius.tex",
+        "source_bytes": 14859,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-satake-frobenius.tex",
+        "sha": "85f5745559b01729697769dcfa7e59fb0c73b6f8",
+        "total_lines": 383,
+        "read_ranges": [
+          [
+            1,
+            383
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/05b-satake-frobenius.tex",
+        "source_bytes": 17497,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05c-cm-types.tex",
+        "sha": "149401449d2e11de2ae66a8bcc70e172c2cb32a2",
+        "total_lines": 430,
+        "read_ranges": [
+          [
+            1,
+            430
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/05c-cm-types.tex",
+        "source_bytes": 19897,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/06-assembly.tex",
+        "sha": "9a6a3ace17738704e43dca1fdf967a3b8fddd726",
+        "total_lines": 105,
+        "read_ranges": [
+          [
+            1,
+            105
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/06-assembly.tex",
+        "source_bytes": 4344,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/07-consequences.tex",
+        "sha": "bfb22ed6a0bd6048327d3f0ce082dcdd62b08bf4",
+        "total_lines": 335,
+        "read_ranges": [
+          [
+            1,
+            335
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/sections/07-consequences.tex",
+        "source_bytes": 15070,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/references.bib",
+        "sha": "2b38256eb5a02faee7732cc59fcc9c8f3be7fdf4",
+        "total_lines": 448,
+        "read_ranges": [
+          [
+            1,
+            448
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/references.bib",
+        "source_bytes": 14870,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/README.md",
+        "sha": "64bae604ba32d35fa2ab08b1556659cbc42a1b5c",
+        "total_lines": 21,
+        "read_ranges": [
+          [
+            1,
+            21
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/README.md",
+        "source_bytes": 824,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/main.tex",
+        "sha": "05c9c3268d944913eae12c7f7c56d5794f2105a8",
+        "total_lines": 41,
+        "read_ranges": [
+          [
+            1,
+            41
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/2/main.tex",
+        "source_bytes": 1128,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "scope_note": "完整读过 README、主文件、preamble、主文件列入的十个正文 TeX（含所有后果）、完整 references.bib；递归 include 闭包已解决，无附录。04-theta 全部 1064 行分三块读完；其余 body 均逐行输出读过，无正文截断。README 无编译命令。full_body_read 仅为源码首读，不代表 cited results、Lean 或整条证明已独立认证。",
+    "sections_read": [
+      "Introduction",
+      "CM tensors and four-factor relations（scalar descent、degree-one realization、rank-one CM structures、two-row switches、nonzero contractions）",
+      "A surface criterion for the switch（非零 functional 经四个 divisor kernels 变为精确 line vector）",
+      "Theta differentials and a nonzero mixed period（sign/ball、positive Lagrangian、theta covariance、unitary splittings、cotangent spanning、rank-two projection、fixed-input variation）",
+      "Projective ball quotients and a Frobenius identity（full tuple moduli、good ordinary primes、algebraic Hecke action）",
+      "A Frobenius polynomial from ordinary neighbors（全部 branch multiplicities 与 integral Albanese identity）",
+      "CM sources of the theta one-forms / active spherical parameter（inverse Hecke action、radial scalar relation、Satake triple、central finite order）",
+      "From Frobenius slopes to Hodge types / Rational CM sources（filtration-preserving generalized projectors、weight selection、all scalar conjugates）",
+      "Completion of the CM proof",
+      "Generalized Hodge and arithmetic consequences（effective realization、generalized Hodge、Tate、Hodge standard、specialization）",
+      "Complete preamble and bibliography"
+    ],
+    "claim_as_stated": "对每个复 CM abelian variety 及每个 codimension p，CH^p(A)_Q→H^{2p}(A,Q)∩H^{p,p}(A) 满射；包括任意有限积和幂。文中另以此导出 CM varieties 的 generalized Hodge conjecture，以及通过 Milne 定理导出所有有限域 abelian varieties 的 Tate conjecture、任意特征 abelian varieties 的 Hodge standard conjecture。",
+    "proof_architecture": [
+      "把 rational Hodge 类分成 embedding-line exterior monomials；所有 scalar conjugates 的 balance 给 odd sign functions 的总和关系。相同 column sums 的两张 sign-row 表经逐列 two-row switches 相连，故只需四因子 switch v1+v2=v3+v4 的 algebraicity。",
+      "证明 surface criterion：四个 prescribed degree-one CM sources 若在一张 smooth projective surface 上有非零四重 period，则 surface pushforward 给非零 functional；四个 all-conjugate (1,1) divisor kernels 将它转换为所需 exact pure tensor，保留非零系数。",
+      "在 compact arithmetic complex two-ball quotient 上用 rank-one theta Taylor tensors 构造 spanning holomorphic one-forms；rank-two completed theta tensor 的 double alternation 消去 unmixed terms，保留 wedge。固定 rational total space、finite input 和 quotient，只变 compact-place data，以 rational approximation 将非零 self-pairing 延续为两种 sign-pair 的非零 mixed period。",
+      "构造所有分支/连通分量的 projective full-tuple moduli 及 Albanese product；Hecke operators 为代数 endomorphisms。普通点 quotient-neighbor 数数（包括 q 和 q² 重数）给 integral cubic Phi³-D1 Phi²+qD2 Phi-q³D3=0。",
+      "计算 theta inputs 的 inverse spherical action，radial dilation 及 bare rational covariance 给 projective Satake 参数 {q^{1/2},q^{-1/2},e}，所有共轭 |e|=1 且 q-adic valuations=−3v(g)/2。有限阶中心关系控制 scalar b；degree-one Weil weight 从 cubic 的三类 roots 中只留下 bq^{1/2}，其 slope 为 0 或 1。",
+      "Hecke generalized character projectors 保持 Hodge filtration；对 projector 和 complement 的 weak admissibility 逼出纯 Hodge type。所有 scalar conjugates 的 complete CM types 确定 rational Hodge-map spans；在同一 projective cover 上选非零 mixed-period 项，应用 surface criterion，逐次 contraction 回原 variety，最后下降 rational coefficients。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "相同 signature/marginal capacities 之间用局部 two-row switches 建立连通性。",
+        "precise_hypotheses": "两张 p×m 的 ±1 表每列 plus-sign 个数相同；行可扩成 odd sign functions，conjugate columns 取反。每次只交换同一列中两行相反的 entries，并在 conjugate column 交换相反 entries。",
+        "mechanism": "逐列把 (+,−) 与 (−,+) mismatches 配对，每步保总 column sums，得到有限路径；每步只需四-label relation a+b=a'+b'。",
+        "possible_bridge": "对于 surviving transversal Q(Z)，可把同一 signature 的 row assignment 视为固定 marginals 的 fiber。若 admissible assignments 在允许的 swaps 下连通，可由一个 explicit seed determinant 扩展到整个 signature class，或用局部交换说明各 occupancy profile 的最优 column-cost。",
+        "missing_step": "原文是在所有 odd sign functions 的扩大辅助空间中连通；加入禁止边、固定实际行池、rank 约束、quadratic occupancy 后 fiber 可能断开。必须证明每步仍有存活 transversal，并跟踪 determinant 的符号/非零性与高度。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+            "line": 332,
+            "label": "label{prop:switch-reduction}"
+          },
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+            "line": 434,
+            "label": "label{eq:transition-composition}"
+          }
+        ]
+      },
+      {
+        "idea": "使用非零 dual contraction 组合局部证书，保留精确 scalar 与 slot bookkeeping。",
+        "precise_hypotheses": "中间每个 slot 有 opposite embedding lines beta_i、gamma_i，二者互为非零 conjugate scalar multiples；ample polarization ell_i 使 qi=∫ beta_i∧gamma_i∧ell_i^{s−1}≠0。前后 tensors 是各槽纯张量、且已为 algebraic-coefficient cycle spans。",
+        "mechanism": "在 triple product 上 pullback、cup product、乘 polarization 幂再 pushforward，输出 endpoint pure tensor 乘 (−1)^{p(p−1)/2} product qi；codimension 逐项核对，qi∈Qbar× 可以除掉。",
+        "possible_bridge": "若把 row/column block determinants 的外幂证书作为端点，以一个 nondegenerate rational dual pairing 消去辅助 slots，可像 Cauchy–Binet 那样组合局部 rank 证书。明确乘积 scalar 可帮助避免把非零 functional 误当作非零 determinant vector。",
+        "missing_step": "一般 determinant 展开含多项会 cancellation；原文 pure tensor 与 polarization positivity 很强。迁移时需自行找到 rational dual bases、明确 pairing 非零，并把 division 导致的 denominator/height 计入算术下界。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+            "line": 434,
+            "label": "label{eq:transition-composition}"
+          },
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/03-surface.tex",
+            "line": 106,
+            "label": "label{eq:surface-to-tensor}"
+          }
+        ]
+      },
+      {
+        "idea": "固定总解析对象，在分解之间连续移动以保非零，最后才分解与清分母。",
+        "precise_hypotheses": "总 rational Hermitian plane W、symplectic representation、finite theta input phi、compact quotient X 全固定；仅 compact-place positive Lagrangians 在固定 sign multiplicities 内变化；theta series 在紧参数邻域及所有需用导数有统一 Gaussian 控制。",
+        "mechanism": "rank-two total form Xi(phi;t) 在同一 compact X 上 C∞ 连续；初始 ∫xi∧bar(xi)>0，因此足够接近的 rational endpoint t' 仍有非零 mixed pairing。两端才改 rational adapted coordinates 并有限分解为 wedges，再共用 cover。",
+        "possible_bridge": "对 parameterized matrix/determinant D(t)，先固定总函数与解析上界，找一个确定非零 seed，再以连续性选择 rational perturbation；最后以 explicit denominator 把同一个 D(t') 变为整数 determinant。可用于设计 rank-preserving signature switches。",
+        "missing_step": "连续性无显式 tolerance 或 rational height bound；本稿允许 rational approximation 的分母任意大，这在 pi 的算术-解析指数竞争中不能忽略。需要定量 lower margin |D(t0)|、Lipschitz bound 和低高度逼近。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+            "line": 832,
+            "label": "label{prop:theta-top}"
+          },
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+            "line": 955,
+            "label": "label{cor:theta-switch-continuity}"
+          }
+        ]
+      },
+      {
+        "idea": "极端 slope 能推纯类型，前提是 projection 同时保持第二种结构。",
+        "precise_hypotheses": "weakly admissible filtered Frobenius module 的 Hodge indices 仅 0,1；idempotent p 与 Frobenius 可交换且保持 filtration，1−p 也如此；p-image 的所有 slopes 同为 t∈{0,1}。",
+        "mechanism": "p 与 complement 分裂总对象，二者均 tH≤tN，而总和相等，故各自相等；于是 dim F1 为0或全维。原文给不保 filtration 的 slope projector 反例，说明不能仅凭 spectrum 作结论。",
+        "possible_bridge": "在 analytic smallness 与 arithmetic rank 比较中，若用 spectral projector/column block 缩减矩阵，需证明它也保整数格或有理分母结构。可把‘同时保持两种结构的 projector’列为 rank reduction 的必要核对项。",
+        "missing_step": "这不是关于整数 minors 的直接定理；保持 rational subspace 不等于低分母，必须另有 lattice-index 控制。",
+        "source_anchors": [
+          {
+            "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05c-cm-types.tex",
+            "line": 54,
+            "label": "label{lem:filtered-hecke-summands}"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "完整首读不等于论文/证明或 Lean formalization 已核验。未回读 Weil rational covariance、Kudla/unitary splitting、strong approximation、p-adic comparison、Weil weight、Milne 后果等所有外部文献。",
+      "复杂的一致性节点（theta Taylor target 的正负/对偶、bare metaplectic 与 circle splitting、inverse Hecke normalization、q-power Frobenius convention、generic-neighbor multiplicities、fixed quotient 与 fixed finite input）均已在源码中读到其论证；这里只记录作者的论证架构，不把它们宣告为通过独立 audit。",
+      "two-row switch reduction 使用辅助 CM factors 与 nonzero contractions；它没有声称固定原 variety 的 Hodge ring 由 codimension≤2 classes 在 cup product 下生成。",
+      "continuous rational approximation 不给高度；scalar descent 也只给 rational span 的存在。因此这些构造不能直接给 pi 的 BA/nonBA，也未消除当前 same-determinant nonvanishing 与 column/occupancy 成本难点。",
+      "同 001 的交叉特殊化后果被明确置于各自主证明之后；没有借该交叉后果作为本稿主定理输入。"
+    ],
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "byte_audit.json",
+      "terminal_LF_corrections": 14,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes; already correct, unchanged",
+      "body_content_changes": false
+    }
+  },
+  {
+    "position": 3,
+    "family_id": "071",
+    "title": "Removable Boundaries and Rigidity of Circle Domains",
+    "pdf_path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/paper.pdf",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "main_source": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/main.tex",
+    "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "directory_tree_sha": "ba2e4a793d27a940ee293ec0140e0cdfb88670f7",
+    "source_files": [
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/companion-references.tex",
+        "sha": "b435672b1d30579905e1e7e93486e3dd81095e65",
+        "total_lines": 17,
+        "read_ranges": [
+          [
+            1,
+            17
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/companion-references.tex",
+        "source_bytes": 1039,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/introduction.tex",
+        "sha": "0a18f1ff3ff79cdfc887d44283c6140f8a9de1d2",
+        "total_lines": 145,
+        "read_ranges": [
+          [
+            1,
+            145
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/introduction.tex",
+        "source_bytes": 8305,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/preliminaries.tex",
+        "sha": "cbd2e9a6a2f091f45f6821c96405a8764bef10ce",
+        "total_lines": 174,
+        "read_ranges": [
+          [
+            1,
+            174
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/preliminaries.tex",
+        "source_bytes": 8314,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/models.tex",
+        "sha": "8ad07a41b271c6234a0f126e0207914308de3c58",
+        "total_lines": 273,
+        "read_ranges": [
+          [
+            1,
+            273
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/models.tex",
+        "source_bytes": 13090,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/conductivity.tex",
+        "sha": "4163a033c911a6360f14d909afd4c35d09a8483a",
+        "total_lines": 277,
+        "read_ranges": [
+          [
+            1,
+            277
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/conductivity.tex",
+        "source_bytes": 13086,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/sobolev.tex",
+        "sha": "b839a58c0ca25b058ec92ea34cf8a6d199ccffd0",
+        "total_lines": 330,
+        "read_ranges": [
+          [
+            1,
+            330
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/sobolev.tex",
+        "source_bytes": 16149,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/traces.tex",
+        "sha": "e571522a8dccc998adbe098573687a082c926ef3",
+        "total_lines": 343,
+        "read_ranges": [
+          [
+            1,
+            343
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/traces.tex",
+        "source_bytes": 15042,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/rigidity.tex",
+        "sha": "612d8db1a1c410a49658673fd367e13963d2a13f",
+        "total_lines": 193,
+        "read_ranges": [
+          [
+            1,
+            193
+          ]
+        ],
+        "role": "body",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/sections/rigidity.tex",
+        "source_bytes": 9282,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/figures/line-payment.tex",
+        "sha": "249fd0faee4aa6e715bc55dafb7284d7ed8b95ce",
+        "total_lines": 39,
+        "read_ranges": [
+          [
+            1,
+            39
+          ]
+        ],
+        "role": "included_figure",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/figures/line-payment.tex",
+        "source_bytes": 1812,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/references.bib",
+        "sha": "8c3e7ffcfe3fb29c7c6a3ef0b88d3bbefd68bbb3",
+        "total_lines": 189,
+        "read_ranges": [
+          [
+            1,
+            189
+          ]
+        ],
+        "role": "bibliography_or_reference_macros",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/references.bib",
+        "source_bytes": 6223,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/README.md",
+        "sha": "76ed41c0d99b053ef7629926c09c8ddd50dba7cf",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "role": "readme",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/README.md",
+        "source_bytes": 615,
+        "cache_git_blob_sha_verified": true
+      },
+      {
+        "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/main.tex",
+        "sha": "542c691665c513b9f22b5063b41058b3b079f65a",
+        "total_lines": 68,
+        "read_ranges": [
+          [
+            1,
+            68
+          ]
+        ],
+        "role": "main",
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_01/3/main.tex",
+        "source_bytes": 2529,
+        "cache_git_blob_sha_verified": true
+      }
+    ],
+    "unread_files": [],
+    "independent_proof_verification": false,
+    "scope_note": "完整读过 README、main、companion-reference 宏、七个正文节、嵌入 line-payment 图及完整 bibliography；递归 include 审计无 unresolved includes，无附录。README 无编译命令。伴随 Koebe 稿件是被引用的外部定量输入，并非本稿未解析 TeX include；未据此声称其全文也已读。full_body_read 为本稿源码首读，未独立验证外部输入、未编译/逐页检查 PDF。",
+    "sections_read": [
+      "Introduction（精确 rigidity 主张及其与 existence 的区别）",
+      "Contours, ends, and normalization（component quotient、closed graph/collapse、normal family、removable⇒area zero）",
+      "Models retaining finitely many scalar tests（伴随 retained-test 输入、补洞 jump bounds、弱极限精确 trace、smoothing）",
+      "Almost straight coordinates and null trace pairs（conductivity Beltrami deformation、Laurent gain/energy identity、level continua、Sobolev coarea）",
+      "Sobolev extension across removable dust（append separating tests、flattening、priority interpolation、saved margins、projection interval contradiction）",
+      "Null projections of the common point traces（ball synthesis、overlapping masks、residual dust、typical-line compression）",
+      "The length–area argument（slice fibers、tail multiplicity、flux、source/target area、sum-of-squares equality）",
+      "Included figure, companion-reference map and bibliography"
+    ],
+    "claim_as_stated": "若 Omega 为 Riemann sphere 的 circle domain，boundary conformally removable，则任意到另一 circle domain 的 conformal equivalence f 均为一个 Möbius transformation 的限制；补集分量可任意基数，f 的 boundary extension 不是假设。本文只证明 removability→rigidity 方向，并非本稿本身同时证明一般 circle-domain existence 或 He–Schramm 原双向断言。",
+    "proof_architecture": [
+      "以 Moore component quotient 与有限 smooth contour cores 建立任意连通度的 complementary-component correspondence 和 upper semicontinuous closed-graph relation；对源 totally disconnected dust，得到目标 sphere 上连续 inverse collapse。",
+      "引用伴随稿 scalar retained-test theorem：给 pairwise trace images area zero 的有限 tests，在同一 exhaustion 上精确保 core、tail Dirichlet energy 与 holes oscillation 平方和趋零；补 round holes 后控制 distributional jump，在弱极限中以 contours 确认所有 omitted components（含 positive-area point dust）的精确 values。",
+      "在保留 tests 的 models 中近极大化 Laurent coefficient 的实部；以 conductivity k=n on omitted set 的 Beltrami deformation 得 height v，能量误差≤2pi d。level-set/coarea 证明新坐标与旧 tests 的 pair-null compatibility。",
+      "小扰动旧 tests，flatten 非点 hole 的可数 values，priority interpolation 加水平坐标，得到围绕每个 end 的小能量 barriers。逐步保留每个 finite-stage barrier 的严格 margins；极限若有非点分量，其某轴投影包含固定 J，ACL+Cauchy–Schwarz 迫能量≥|J|/(2L)，与 arbitrarily small saved energy 矛盾。故 limit extends homeomorphically，removability 令其为 identity，推出 continuous finite-energy scalar 的 Sobolev extension。",
+      "对一般 circle-domain equivalence，mask 所有 source 或 target 为 disk 的可数对应对；ball-synthesis 的 l2 密度控制允许重叠。剩下 common-point dust 应用 scalar theorem，再对典型轴线压缩 tails，得到 common-point projected trace 长度零。",
+      "轴线 slice estimates 与 tail multiplicity 至多二次计数给 flux 下界；两侧 area 上界相加后化为 ∫(|f'|−1)^2+pi sum(rj−sj)^2≤0。非负性逼 |f'|=1，再由 holomorphy/normalization 推 Möbius。"
+    ],
+    "construction_ideas": [
+      {
+        "idea": "有限阶段保留严格 margin，新增约束时不破坏先前非零证书。",
+        "precise_hypotheses": "每个 stage 只有有限 tests；旧坐标可在 uniform norm 与 gradient L2 norm 中任意小改变；每个 saved barrier 具有 exact 1/0 plateau 的正距离 margins 及 strict energy slack。对 smooth Phi，误差由 M1||grad(A'−A)||2+M2||A'−A||∞||grad A||2 控制。",
+        "mechanism": "为第 k 证书选 tolerance tk>0，后续第 n 阶段误差≤2^{-n-3}min(1,epsilon,t1,...,t_{n−1})/sqrt2，故所有旧证书在后续有限阶段持续成立；只需有限-list models，不假设无限-list model。",
+        "possible_bridge": "构造逐渐扩大 row/column 的 determinant family 时，可给每个已有非零 minor 一个明确 margin 与 perturbation tolerance，并以可求和 errors 加入新 signature constraints，避免每次重选都丢掉旧 nonvanishing。",
+        "missing_step": "整数/有理 rows 的 allowed perturbations 不是任意实 perturbations；应另给 rounding denominator 和 height 预算。分析 norm margin 也不等于 arithmetic lattice margin。",
+        "source_anchors": [
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/sobolev.tex",
+            "line": 220,
+            "label": "label{eq:saved-stability}"
+          },
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/sobolev.tex",
+            "line": 253,
+            "label": "label{eq:first-test-control}"
+          }
+        ]
+      },
+      {
+        "idea": "把一个持续存在的几何障碍转为同一预算的固定正下界。",
+        "precise_hypotheses": "nondegenerate compact component K 有某轴投影含长度 |J|>0；每个 barrier Vnk 为 continuous global W^{1,2}，在 enclosing contour 为1，outside fixed disk DL 为0，支持直径上界2L与阶段无关；且已有能量<k^{-2}。",
+        "mechanism": "对 J 中几乎每条横线，1→0 的变化在长度≤2L 内发生，Cauchy–Schwarz 给该 slice 能量≥1/(2L)，积分得 total≥|J|/(2L)，选 k 立即矛盾。",
+        "possible_bridge": "寻找 determinant 支持/occupancy 上一个稳定的‘投影宽度’或多个强制变化通道，将其转为同一 determinant/向量的能量或最小奇异值下界，再与 column-cost 的 analytic budget 比较。这种 stable obstruction→fixed budget lower bound 结构与目标 same-determinant 矛盾吻合。",
+        "missing_step": "整数 determinant 非零下界天然离散；要得到此型解析下界需一个真实可积或离散 gradient representation，且障碍宽度不能随阶段趋零。这里只是迁移设计，不是已建立的 pi lemma。",
+        "source_anchors": [
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/sobolev.tex",
+            "line": 298,
+            "label": "label{eq:line-payment-sobolev}"
+          },
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/figures/line-payment.tex",
+            "line": 38,
+            "label": "label{fig:line-payment}"
+          }
+        ]
+      },
+      {
+        "idea": "让双侧上界与一个共同下界相消成非负平方和。",
+        "precise_hypotheses": "同一 normalized f 与同一 disk DR，令 M=pi R²，A=∫1，B=∫|f'|²，C=∫|f'|；有 A+pi sum rj²≤M，B+pi sum sj²≤M，且 M≤C+pi sum rjsj；各 radius 为l2故cross-term可和。",
+        "mechanism": "前两式相加再减两倍第三式，得到 ∫(|f'|−1)²+pi sum(rj−sj)²≤0；下界与上界用相同变量、相同 normalizations，所有 defect 必为零。",
+        "possible_bridge": "尝试将 column costs 和 quadratic occupancy 写成两个 quadratic budgets，而 surviving transversal 给相应 bilinear lower bound；若能对完全相同的 determinant factorization 得到这种 polarization identity，可能比逐项粗估 Hadamard 更强。",
+        "missing_step": "必须从实际 determinant 构造证明三个相容 inequalities。纯形式 sum-of-squares 重写不能补 nonvanishing 或提供所需 strict inequality；Q(Z) 的 combinatorial capacities 也未自然产生 rj,sj 型l2向量。",
+        "source_anchors": [
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/rigidity.tex",
+            "line": 146,
+            "label": "label{eq:limiting-flux}"
+          },
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/rigidity.tex",
+            "line": 154,
+            "label": "label{eq:source-area}"
+          },
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/rigidity.tex",
+            "line": 179,
+            "label": "label{eq:nonnegative-rigidity}"
+          }
+        ]
+      },
+      {
+        "idea": "平方和而非总和控制允许无限重叠的局部错误。",
+        "precise_hypotheses": "balls Bj 半径 dj 内存在两两不交 Ej⊂Bj，area(Ej)≥c dj²；aj≥0，sum aj²<∞。则 ||sum (aj/dj)1_Bj||L2≤Cc||(aj)||l2。零半径 component 的 balloons 通过 sum_{i>j}Delta_i²<Delta_j²/2 构造 disjoint residual Ej。",
+        "mechanism": "对非负 dual function g 用 maximal function 点态 average bound、Cauchy–Schwarz 和 Ej disjointness，最后 L2 maximal theorem；无需 balls 自身 disjoint。",
+        "possible_bridge": "对 row/column localization errors，若每个 support 可指定一个占固定比例且彼此不交的 core，可用 square occupancy budget 综合重叠误差，而不付粗糙 overlap-count 因子。",
+        "missing_step": "这是平面 L2 maximal theorem 的具体结构；离散矩阵版本需对应的 bounded maximal/averaging operator 与 core packing。没有这些结构时不能把 l1损失直接改成l2。",
+        "source_anchors": [
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/traces.tex",
+            "line": 11,
+            "label": "label{lem:ball-synthesis}"
+          },
+          {
+            "path": "preprints/Removable-Boundaries-and-Rigidity-of-Circle-Domains-September-23-2026/build/sections/traces.tex",
+            "line": 144,
+            "label": "label{eq:trace-density}"
+          }
+        ]
+      }
+    ],
+    "limits": [
+      "本稿源码闭包已全部读完；伴随《Koebe's Circle-Domain Conjecture》的 Theorem 7.5/Corollary 7.6 retained-test transfer/selection 是关键外部输入，本次任务没有声称已独立回读或验证那篇。此依赖属于 validity boundary，不属于未解析 include。",
+      "未逐篇核验 Moore decomposition、Beltrami solution/regularity、Sobolev coarea precise representative、ACL/one-dimensional area formula、maximal theorem 等外部工具的假设适配。",
+      "rigid⇒removable 方向在引言中明确说已有反例；不能因 family title 而把本文主张扩大为双向 equivalence 或 existence theorem。",
+      "数论迁移目前是构造范式：saved margins、fixed obstruction lower bound、l2 overlap control、sum-of-squares compatibility。尚未给 pi rational approximants、非零 integer determinant、denominator cost 或 BA/nonBA 结论。"
+    ],
+    "source_byte_audit": {
+      "status": "all_cached_files_match_pinned_blob_sha",
+      "audit_record": "byte_audit.json",
+      "terminal_LF_corrections": 12,
+      "line_counts_and_read_ranges": "verified_against_exact_original_bytes; already correct, unchanged",
+      "body_content_changes": false
+    }
+  }
+]

@@ -1,0 +1,539 @@
+[
+  {
+    "position": 7,
+    "family_id": "155",
+    "title": "A translational tile with no fully periodic tiling in dimension three",
+    "main_source": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/paper.tex",
+    "sections_read": [
+      "Introduction (main theorem and background)",
+      "A word rule with no vertical period",
+      "Encoding symbols in a cyclic finite coordinate",
+      "Forcing activity and excluding full periodicity",
+      "A common solution of the tiling equations",
+      "Stacking the system into one tile",
+      "Passing to three-dimensional space",
+      "Proof-route and rigidity figure source",
+      "Bibliography and README"
+    ],
+    "claim_as_stated": "There exists a finite nonempty translational tile T⊂Z^3 admitting tilings but no tiling whose translation set has a finite-index period subgroup. Its unit-cube thickening T+[0,1]^3 tiles R^3 up to null sets but admits no full-rank-lattice-periodic translation set, even with arbitrary real translations.",
+    "proof_architecture": [
+      "Define the two-digit p-adic Sudoku line rule on a strip of width p² (p>200). An exception-free 4×4 square forces a global affine approximation; vertical nonconstancy forces a nonzero row coefficient. Normalize and rescale by p to contradict the smallest positive vertical period. The last-nonzero-p-adic-digit array supplies existence.",
+      "Encode each symbol as dependence of an output function on an input digit. The graph equation, dependence equations, and cycle permutation tests encode every forbidden simultaneous activation using one common translation set. Choose pairwise-coprime finite factors so their product is cyclic.",
+      "Use shift multiplicity μ=1+ω, with a nonconstant joint distribution but uniform one-coordinate marginals. Exact fibre coverage forces activity; for seeds, the mixed-difference histogram equation gives Q(α,ξ)=u(α)+v(ξ), and nonnegative integer counts contradict a_i∤p⁴ when b_i>p⁴. Extract a nonconstant-column Sudoku array from every common solution.",
+      "Construct a single explicit common solution using labelled a_i- and b_i-sized blocks, rotations, and inverse fibre orderings. Two seed regions and one shared cyclic output satisfy both seed tests while activating ordinary symbols from the last-nonzero-digit model.",
+      "Stack the simultaneous equations over a fresh prime cyclic coordinate, partitioned into color classes with full difference sets. Unique coverage forces exactly one contribution of every color, so any periodic stacked tiling descends to a periodic common solution.",
+      "Lift the cyclic quotient to Z³ using two residue transversals differing by one marked point. A large common difference set forces a hypothetical periodic Euclidean assembly onto a translated grid; marked-cell coverage forces kernel invariance, so descent contradicts the quotient obstruction."
+    ],
+    "construction_ideas": [
+      {
+        "principle": "Nonuniform joint counts with uniform marginals",
+        "source": "build/sections/04-activation.tex; build/sections/05-common-solution.tex",
+        "required_assumptions": "One must encode admissibility by exact finite coverage/permutation constraints and retain a common witness for all tests. Joint counts must be nonnegative integers; the marginal orderings must be realizable on auxiliary labels.",
+        "speculative_transfer": "For function-signature capacities on row transversals Q(Z), seek a joint signature budget whose row and column marginals are balanced but whose joint histogram detects a supposedly inactive determinant direction. The paper supplies a concrete 2×2 signed perturbation ω=δ00−δ10−δ01+δ11; a project-specific interpretation and exact-coverage identity would still be required.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Cycle tests turn simultaneous functional dependence into a collision",
+        "source": "build/sections/03-cyclic-encoding.tex",
+        "required_assumptions": "Each coordinate output depends only on its own low input (plus permitted base data), and every relevant finite shift map can be tested. Active labels need witnesses w,w′ differing in one digit.",
+        "speculative_transfer": "Treat a selected row or function-signature coordinate as a channel. If all labels of a forbidden cycle are active, choose shifts that make two global signatures collide; if one is inactive, recover coordinates successively around the broken cycle. This could organize capacity obstructions for surviving transversals, but no such channel decomposition or tiling interpretation has been established for the π project.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Nonnegative integer decomposition converts an averaged identity into divisibility",
+        "source": "build/sections/04-activation.tex (Seed activation)",
+        "required_assumptions": "A bounded integer histogram Q satisfies a zero mixed difference on a product of coprime cyclic groups, so Q=u+v with u,v≥0 integral. One cyclic length b exceeds total mass D.",
+        "speculative_transfer": "If a putative determinant family produces a capacity histogram of total mass D and a separable mixed-difference relation, choose an auxiliary modulus exceeding D to eliminate one summand and force a divisibility obstruction. This requires an exact integer histogram identity; approximate bounds alone do not reproduce the argument.",
+        "status": "speculative_transfer"
+      }
+    ],
+    "limits": [
+      "This is a full source reading, not an independent verification of the theorem or its literature comparisons.",
+      "The construction excludes full periodicity; it does not assert a connected tile or exclude every individual nonzero period.",
+      "Finite exhaustive searches are shown to terminate, but no practical tile-size bound is supplied.",
+      "The cycle construction tests all finite maps of specified types, potentially an enormous family; any application must preserve one common solution across every constraint.",
+      "No construction or Diophantine bound for π follows directly from these tiling arguments."
+    ],
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/paper.pdf",
+    "directory_tree_sha": "19780570ce8e286126430f31f8123eb343a770f4",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "scope_note": "Every line of the repository-local main TeX, its recursively included mathematical body and figure files, and local bibliography has been read. README also read. Full body read means reading coverage, not independent proof verification; cited source papers and the compiled PDF have not been independently audited.",
+    "verification_status": "read_not_independently_verified",
+    "unread_files": [],
+    "source_files": [
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/README.md",
+        "sha": "316393288679a12f8aa98b05b1b7dc0a3816a6c0",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/README.md"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/figures/proof-route.tex",
+        "sha": "7d899dcefd9b6fbd26f6088a8132d819300c419e",
+        "total_lines": 31,
+        "read_ranges": [
+          [
+            1,
+            31
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/figures/proof-route.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/figures/rigidity.tex",
+        "sha": "12b8ec37784bbdc09270cebcff711288e5685d8d",
+        "total_lines": 37,
+        "read_ranges": [
+          [
+            1,
+            37
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/figures/rigidity.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/paper.tex",
+        "sha": "fb07c6e76cc28db9a35b523a08502e44d97e2e9b",
+        "total_lines": 98,
+        "read_ranges": [
+          [
+            1,
+            98
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/paper.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/references.bib",
+        "sha": "61ecb76d8f1c3e50aaf734ef7fff25bcc12c6d00",
+        "total_lines": 117,
+        "read_ranges": [
+          [
+            1,
+            117
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/references.bib"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/01-introduction.tex",
+        "sha": "b510778639b3a7de12ff039e7b2c7008c1f150a6",
+        "total_lines": 97,
+        "read_ranges": [
+          [
+            1,
+            97
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/01-introduction.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/02-word-rule.tex",
+        "sha": "6849f44df8cd847a7585d2dba3d1777e2c38f484",
+        "total_lines": 295,
+        "read_ranges": [
+          [
+            1,
+            295
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/02-word-rule.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/03-cyclic-encoding.tex",
+        "sha": "870142bff4ef71ec9d19007aa283a4fc1fe4cd79",
+        "total_lines": 329,
+        "read_ranges": [
+          [
+            1,
+            329
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/03-cyclic-encoding.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/04-activation.tex",
+        "sha": "bf012d1acd3eab95eb16b0db343e97cce8432e75",
+        "total_lines": 357,
+        "read_ranges": [
+          [
+            1,
+            357
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/04-activation.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/05-common-solution.tex",
+        "sha": "16c924411398e90a98dfae7d5d66d236b56a3bc5",
+        "total_lines": 338,
+        "read_ranges": [
+          [
+            1,
+            338
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/05-common-solution.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/06-stacking.tex",
+        "sha": "f3d57d950997466dc1ab6899242f46b08b2c64c7",
+        "total_lines": 131,
+        "read_ranges": [
+          [
+            1,
+            131
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/06-stacking.tex"
+      },
+      {
+        "path": "preprints/A-translational-tile-with-no-fully-periodic-tiling-in-dimension-three-September-23-2026/build/sections/07-three-dimensions.tex",
+        "sha": "bce164066c28e456fd0584cee14df92a22ac96c4",
+        "total_lines": 400,
+        "read_ranges": [
+          [
+            1,
+            400
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7/build/sections/07-three-dimensions.tex"
+      }
+    ],
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/7"
+  },
+  {
+    "position": 8,
+    "family_id": "193",
+    "title": "Positivity of Serre's Intersection Multiplicity",
+    "main_source": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/paper.tex",
+    "sections_read": [
+      "Introduction, consequences, conventions",
+      "Residue fields and normalized length",
+      "Rational descent with closed supports",
+      "Supported asymptotic complexes",
+      "Proof of strict positivity",
+      "References and README"
+    ],
+    "claim_as_stated": "For a commutative Noetherian regular local ring (R,m) of dimension d, nonzero finitely generated modules M,N with length_R(M⊗_R N)<∞ and dim M+dim N=d have χ^R(M,N)=Σ_i(−1)^i length_R Tor_i^R(M,N)>0, including ramified mixed characteristic.",
+    "proof_architecture": [
+      "Pass by flat residue-field extension and completion to complementary-dimensional complete domain quotients D=R/P and E=R/Q with algebraically closed residue field; prime filtrations and known vanishing discard lower-dimensional factors. Choose regular normalization bases and finite Galois closure domains D′,E′.",
+      "Construct normalized-length algebras C_D,C_E over root towers. Parameter quotients have prescribed positive multiplicity length and positive parameter Koszul homology has length zero. The equal-characteristic construction uses perfection and a trace denominator; mixed characteristic imports precise perfectoid-length results.",
+      "Prove rational K-theory descent with closed support for finite surjections with geometrically transitive group actions, including connective associative coefficients. Compare ordinary and normalized Euler evaluations on base pullbacks, hence on Galois norm sums. The first average expresses |G_D|a_Da_E χ^R(D,E) as Σσ cσ.",
+      "Choose a regular sequence x⊂Q giving parameters on D′ and U=C_D/xC_D of positive finite normalized length. Approximate U by finite B=R/(x)-modules M_n preserving a single annihilator m_B^a and normalized Tor lengths. This common annihilator gives a positive limiting generator density β0(M_n)/s_n.",
+      "Truncate minimal resolutions at degree dim E. Higher ranks are o(s_n); quotient by negligible free sequences makes the truncations supported. Construct nonnegative homology evaluations through supported roofs and idempotent completion, using uniformly supported Koszul lifts rather than raw homology of arbitrary lifts.",
+      "Apply a second Galois norm comparison over E′. Parameter Koszul exactness and nonnegative coefficients force the normalized evaluation into degree zero; minimality gives bσγ≥νσ λ_E(C_E/m_E′C_E)>0. Thus every cσ>0 and the first average proves strict positivity."
+    ],
+    "construction_ideas": [
+      {
+        "principle": "Uniform complexity bounds make positive mass imply positive generator density",
+        "source": "build/sections/positivity.tex (Finite approximations; Positive normalized evaluation)",
+        "required_assumptions": "Approximating finite objects share one fixed annihilator, so one generator carries at most the fixed finite mass length(B/m_B^a). Normalized lengths converge to a positive number, and the relevant quotient residue length is positive.",
+        "speculative_transfer": "For row transversals, replace module generators by signature types or occupied columns, and prove a uniform per-type capacity. Positive total surviving mass would then force a positive density of genuinely distinct types before estimating determinants. The crucial missing assumption is a uniform capacity independent of scale; a growing capacity cannot yield the same strict bound.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Kill negligible ranks only after enforcing uniform support",
+        "source": "build/sections/asymptotic.tex (Nonuniform warning; Supported subquotient; Evaluations)",
+        "required_assumptions": "There is a fixed support/annihilator or a supported lift after a bounded Koszul tensor. Error objects are generated by free sequences of o(s_n) ranks, and nonnegative homology lengths vanish on those errors.",
+        "speculative_transfer": "When discarding low-rank or low-occupancy pieces in determinant constructions, first control their heights, coefficient sizes, or support uniformly. The paper's rank-one resolution of T/(z^n), negligible rank but normalized length one, is a warning that small rank alone does not make arithmetic mass negligible. A π construction would need an explicit bound linking discarded rank and determinant-height contribution.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Compare invariant norm sums when individual evaluations need not agree",
+        "source": "build/sections/descent.tex (Ordinary norm comparison); build/sections/asymptotic.tex (Asymptotic norm comparison)",
+        "required_assumptions": "A finite symmetry group has a rational descent/comparison mechanism, and both additive evaluations agree on the descended base classes. Positivity is independently available for each term of the second evaluation.",
+        "speculative_transfer": "If determinant upper and lower evaluations behave differently under row/signature symmetries, compare complete orbit sums instead of asserting termwise symmetry. A second positive decomposition could then force positivity of the original average. No rational-descent analogue for the current transversal problem has been proved, so this is an architectural template.",
+        "status": "speculative_transfer"
+      }
+    ],
+    "limits": [
+      "Full source reading does not independently verify the new descent and asymptotic-category arguments or their cited inputs.",
+      "The proof imports substantial normalized-length/perfectoid results, regular-base normalization, vanishing, localization, and truncating-invariant theorems; their source papers were not reread in this batch.",
+      "Normalized length may vanish on nonzero modules; termwise nonzero objects cannot be treated as positive without the separate parameter/residue quotient argument.",
+      "Raw homology of an arbitrary lift need not survive the negligible-rank quotient; support can arise only after quotienting, and idempotents need not lift.",
+      "The two comparisons are equalities of conjugate sums; invariance of each normalized-length evaluation is explicitly not assumed.",
+      "The paper's determinant-related language is generic rank and homological algebra; it supplies no direct BA/non-BA criterion for π."
+    ],
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/paper.pdf",
+    "directory_tree_sha": "0bb53357259fc2eb80e1d25d84f1ffa0c8efc514",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "scope_note": "Every line of the repository-local main TeX, its recursively included mathematical body and figure files, and local bibliography has been read. README also read. Full body read means reading coverage, not independent proof verification; cited source papers and the compiled PDF have not been independently audited.",
+    "verification_status": "read_not_independently_verified",
+    "unread_files": [],
+    "source_files": [
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/README.md",
+        "sha": "56e794bf48de6eb127b29e908bdb4b56212b403b",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/README.md"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/paper.tex",
+        "sha": "fd3959c9f33835c5f1aa1c235bdf5057ddc23d17",
+        "total_lines": 53,
+        "read_ranges": [
+          [
+            1,
+            53
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/paper.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/references.tex",
+        "sha": "b8f472b2e128cd7d5b3287a90c69d1b6032b0402",
+        "total_lines": 227,
+        "read_ranges": [
+          [
+            1,
+            227
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/references.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/sections/asymptotic.tex",
+        "sha": "c7bacee58273cee0a1038ac7cd5198bf855f9031",
+        "total_lines": 584,
+        "read_ranges": [
+          [
+            1,
+            584
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/asymptotic.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/sections/descent.tex",
+        "sha": "cc548ab93ea92c27833aaa5f12a6f1be6ed03c67",
+        "total_lines": 532,
+        "read_ranges": [
+          [
+            1,
+            532
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/descent.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/sections/introduction.tex",
+        "sha": "06d6def95bfc89c9a5ce215f450981a01dbc0a6b",
+        "total_lines": 261,
+        "read_ranges": [
+          [
+            1,
+            261
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/introduction.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/sections/lengths.tex",
+        "sha": "750bb4c3ec2d7aeb636ae6959663de1b0a34e4a6",
+        "total_lines": 414,
+        "read_ranges": [
+          [
+            1,
+            414
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/lengths.tex"
+      },
+      {
+        "path": "preprints/Positivity-of-Serres-Intersection-Multiplicity-September-23-2026/build/sections/positivity.tex",
+        "sha": "ae826a88add338546d8c6a8383e888db68f62514",
+        "total_lines": 592,
+        "read_ranges": [
+          [
+            1,
+            592
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8/build/sections/positivity.tex"
+      }
+    ],
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/8"
+  },
+  {
+    "position": 9,
+    "family_id": "211",
+    "title": "Random Walks on Critical FK–Ising Maps and Liouville Brownian Motion",
+    "main_source": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/main.tex",
+    "sections_read": [
+      "Introduction and model",
+      "Energy normalization and the common coupling",
+      "Operators and finite-dimensional laws",
+      "From energy recovery to path tightness",
+      "Cable paths and the joint limit",
+      "References and README"
+    ],
+    "claim_as_stated": "For critical spherical FK–Ising planar maps with n edges, suppose a deterministic metric scale a_n→0 gives the stated GHP metric-measure limit to the ordinary unit-area √3-LQG sphere. Stationary half-edge simple random walks on all map edges, retaining loops and parallel edges, have cable paths accelerated by exactly n converging jointly with that same metric-measure sphere to stationary Liouville Brownian motion with half-energy convention, for every fixed finite number of conditionally independent walks. The proof also relies on the spectral companion's geometric, electrical and inverse-operator inputs.",
+    "proof_architecture": [
+      "Use corner measure μ_n(v)=deg(v)/(2n) and accelerated generator G_n=n(I−P_n) to compute E_n(u,v)=½Σ_e d_eu d_ev exactly. Import a common conformal coordinate, corner-tour Hilbert space, centered inverse convergence, and local unit-conductivity recovery from the spectral companion; align deterministic diameter normalizations.",
+      "Apply continuous functional calculus to the convergent centered inverses K_n=(2G_n)†: positive-time semigroups and resolvents converge in operator norm, with constants and orthogonal complements handled separately. Uniform tour tracking makes multiplication operators converge, identifying finite-dimensional stationary laws.",
+      "Clip and buffer local smooth cutoff recoveries to make global graph test functions uniformly accurate with no excess energy. Resolvent smoothing provides functions in [0,1] with generators uniformly bounded by the smoothing parameter.",
+      "Prove a reversible forward–backward martingale maximal inequality. Combine it with form-norm approximation to obtain errors uniformly small along whole stationary trajectories. Optional sampling of finitely many separating cutoffs gives an Aldous stopping-time increment bound and continuous path tightness.",
+      "Glue every cable graph and limiting metric sphere isometrically into one compact ambient space using vertex bridges of cost δ_n/2+a_n. Remove the exponential attempt clock by a maximal L² bound, retaining loop attempts, and use the continuous-limit path modulus to compare with deterministic acceleration n.",
+      "On each coupled environment obtain finite products of independent conditional walk laws, then use bounded convergence of measurable conditional expectations. A subsequence/further-subsequence argument yields the full joint decorated-GHP limit."
+    ],
+    "construction_ideas": [
+      {
+        "principle": "Upgrade averaged quadratic control to control of one whole object",
+        "source": "build/sections/tightness.tex (Stationary maximal inequality; Resolvent approximation)",
+        "required_assumptions": "A finite reversible Markov chain is started in its stationary law; an approximation has small L² error and Dirichlet energy, and smoothed test functions have a uniform generator bound. The argument does not cover arbitrary starts.",
+        "speculative_transfer": "Build a reversible chain on admissible row transversals, with stationary weight reflecting column cost and quadratic occupancy. If a candidate determinant or signature statistic has a bounded-energy approximation, a maximal estimate could control it throughout a search trajectory, helping certify one consistent transversal across many tests. Such a chain, form estimate, and stationary capacity law remain to be constructed.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Finite-dimensional compatibility is weaker than global consistency; use a compactness/tightness bridge",
+        "source": "build/sections/introduction.tex; build/sections/tightness.tex; build/sections/paths.tex",
+        "required_assumptions": "A compact state space, a separating finite family of cutoffs at each tolerance, stopping-time control, and vanishing jump size. Local/operator limits alone are insufficient.",
+        "speculative_transfer": "Separate proving existence of favorable choices for each finite list of signature constraints from constructing a single surviving transversal satisfying every scale. A project-specific compactness argument would need uniform control of transitions or refinements, analogous to tightness, before passing to an infinite construction.",
+        "status": "speculative_transfer"
+      },
+      {
+        "principle": "Preserve the exact normalization and multiplicities through every representation",
+        "source": "build/sections/inputs.tex (Graph energy); build/sections/paths.tex (Attempt clock)",
+        "required_assumptions": "The stationary measure and transition rates count every original half-edge; parallel edges are separate energy summands, loops add degree/attempts but zero energy. The limiting conductivity is exactly one.",
+        "speculative_transfer": "In determinant lower/upper comparisons, carry row multiplicities, column occupancy and any repeated signature counts in one common measure rather than replacing them by an unweighted proxy. This can expose a missing factor or time/height normalization, although no quantitative π estimate is obtained from the stochastic theorem.",
+        "status": "speculative_transfer"
+      }
+    ],
+    "limits": [
+      "The local body-source closure is fully read, but the substantial spectral companion is imported and has not been reread as part of this article's assignment.",
+      "The theorem has an explicit deterministic metric-measure-limit premise and additional common-coordinate/electrical/inverse-operator inputs; GHP convergence alone is not claimed sufficient.",
+      "The argument assumes stationary starts and does not assert convergence from arbitrary vertices.",
+      "The result retains any fixed finite number of conditionally independent walks, not an unrestricted infinite family at once.",
+      "The exact n clock relies on unit conductivity and the corner measure; changing either normalization changes the statement.",
+      "The standard TeX inputs glyphtounicode and glyphtounicode-cmex are PDF glyph maps, not mathematical body files; they are not repository-local and were not read.",
+      "No random-transversal construction or determinant estimate for π is proved by this reading."
+    ],
+    "repository": "openai/math",
+    "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+    "pdf_path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/fk-ising-walk-limit.pdf",
+    "directory_tree_sha": "9481ae9f046790c1d03f6ade49bea79bce7cdf96",
+    "status": "full_body_read",
+    "source_closure_complete": true,
+    "scope_note": "Every line of the repository-local main TeX, its recursively included mathematical body and figure files, and local bibliography has been read. README also read. Full body read means reading coverage, not independent proof verification; cited source papers and the compiled PDF have not been independently audited.",
+    "verification_status": "read_not_independently_verified",
+    "unread_files": [],
+    "source_files": [
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/README.md",
+        "sha": "32afa905ad7290d082ac38f911a606cc3b19dfbe",
+        "total_lines": 18,
+        "read_ranges": [
+          [
+            1,
+            18
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/README.md"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/main.tex",
+        "sha": "76a0902844ed392b5ad27f8e5672c8ff7adfce6f",
+        "total_lines": 74,
+        "read_ranges": [
+          [
+            1,
+            74
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/main.tex"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/references.bib",
+        "sha": "b0c5207292e6ab8a1b4e71cd5fa0f979b0c6e1a9",
+        "total_lines": 131,
+        "read_ranges": [
+          [
+            1,
+            131
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/references.bib"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/sections/inputs.tex",
+        "sha": "05bf2cf745f6c66df1b27a39d27cd60a710b103e",
+        "total_lines": 277,
+        "read_ranges": [
+          [
+            1,
+            277
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/inputs.tex"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/sections/introduction.tex",
+        "sha": "b5bd2938f4aa46b37e941bdc4617eb51b612b1c0",
+        "total_lines": 165,
+        "read_ranges": [
+          [
+            1,
+            165
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/introduction.tex"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/sections/operators.tex",
+        "sha": "d22c60d6c074c6e9c517e847f9d73809b5723d7e",
+        "total_lines": 91,
+        "read_ranges": [
+          [
+            1,
+            91
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/operators.tex"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/sections/paths.tex",
+        "sha": "91fe692d86bae04ba227a78c6b89a340110e7998",
+        "total_lines": 276,
+        "read_ranges": [
+          [
+            1,
+            276
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/paths.tex"
+      },
+      {
+        "path": "preprints/Random-Walks-on-Critical-FK-Ising-Maps-and-Liouville-Brownian-Motion-October-5-2026/build/sections/tightness.tex",
+        "sha": "66c70b74761af6506ddd8eab9899ce6d5dbf28a4",
+        "total_lines": 255,
+        "read_ranges": [
+          [
+            1,
+            255
+          ]
+        ],
+        "cache_path": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9/build/sections/tightness.tex"
+      }
+    ],
+    "source_cache": "/workspace/scratch/66870cb2f937/source_context/fullread_03/9"
+  }
+]

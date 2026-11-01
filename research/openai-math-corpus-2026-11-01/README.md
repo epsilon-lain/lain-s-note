@@ -2,6 +2,8 @@
 
 2026-11-01。上游：[`openai/math`](https://github.com/openai/math)，固定提交 [`4eaee87548250b2682affda7d05d947c05554bae`](https://github.com/openai/math/commit/4eaee87548250b2682affda7d05d947c05554bae)。
 
+后续已按 lain 的要求启动[全库逐篇正文阅读](full-reading/README.md)，不按当前相关性排除论文；进度与全部待读项见[阅读台账](full-reading/LEDGER.md)。下文保留接入时的第一轮定向筛读记录，不应与后续的正文首读数量混同。
+
 ## 接入内容与数量核对
 
 当前官方 `CONTENTS.md` 和 `overview.tex` 均为 **721 篇稿件、373 个研究主题组**，不是对话中提到的 772 篇。逐条解析得到 721 个不同 PDF 路径；同版本 `preprints` 树共有 751 个目录，其中 30 个未列入当前目录。未列入不自动表示撤稿或无效；本次没有逐个推断其状态。

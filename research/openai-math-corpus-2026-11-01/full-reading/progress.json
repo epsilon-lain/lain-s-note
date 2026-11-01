@@ -1,0 +1,15 @@
+{
+  "upstream_commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "catalogued_manuscripts": 721,
+  "supplementary_uncatalogued_directories": 30,
+  "status_counts": {
+    "full_body_read": 18,
+    "not_started": 703
+  },
+  "source_lines_read": 73465,
+  "source_lines_listed": 73465,
+  "disciplines_in_queue": 17,
+  "disciplines_with_body_reading": 17,
+  "ordering": "round_robin_disciplines_then_catalogue_order_no_relevance_filter",
+  "scope": "Reported complete source reading does not certify theorem correctness or cited dependencies."
+}
