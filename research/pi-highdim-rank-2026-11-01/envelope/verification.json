@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "finite_count_checks": [
+    {
+      "m": 2,
+      "K": 2,
+      "H": 8,
+      "original_rows": 48,
+      "columns": 72,
+      "envelope_rows": 72,
+      "possible_types": 3,
+      "sum_squared_occupancies": 1280,
+      "finite_cauchy_verified": true,
+      "envelope_dimension_count_only": true
+    },
+    {
+      "m": 2,
+      "K": 2,
+      "H": 16,
+      "original_rows": 176,
+      "columns": 378,
+      "envelope_rows": 280,
+      "possible_types": 7,
+      "sum_squared_occupancies": 7936,
+      "finite_cauchy_verified": true,
+      "envelope_dimension_count_only": true
+    },
+    {
+      "m": 2,
+      "K": 2,
+      "H": 24,
+      "original_rows": 432,
+      "columns": 1089,
+      "envelope_rows": 708,
+      "possible_types": 15,
+      "sum_squared_occupancies": 26880,
+      "finite_cauchy_verified": true,
+      "envelope_dimension_count_only": true
+    },
+    {
+      "m": 2,
+      "K": 2,
+      "H": 40,
+      "original_rows": 1504,
+      "columns": 4410,
+      "envelope_rows": 2520,
+      "possible_types": 30,
+      "sum_squared_occupancies": 142336,
+      "finite_cauchy_verified": true,
+      "envelope_dimension_count_only": true
+    }
+  ],
+  "critical_path_checks": [
+    {
+      "m": 3,
+      "K": 2,
+      "v0_over_w0": "1/2",
+      "cost_lower_bound_using_c_gt_1_over_6": "9/500"
+    },
+    {
+      "m": 10,
+      "K": 13,
+      "v0_over_w0": "13/512",
+      "cost_lower_bound_using_c_gt_1_over_6": "2519424/107421875"
+    },
+    {
+      "m": 25,
+      "K": 705,
+      "v0_over_w0": "705/16777216",
+      "cost_lower_bound_using_c_gt_1_over_6": "592297667290202112/3874301910400390625"
+    },
+    {
+      "m": 50,
+      "K": 497929,
+      "v0_over_w0": "497929/562949953421312",
+      "cost_lower_bound_using_c_gt_1_over_6": "11226128853677278620043605561896337408/1509903313490212894976139068603515625"
+    },
+    {
+      "m": 100,
+      "K": 247933511096,
+      "v0_over_w0": "30991688887/79228162514264337593543950336",
+      "cost_lower_bound_using_c_gt_1_over_6": "27221609312502954420695427798252409189047654603039786314294665265395714228224/796749514273221923465845850935614091969938499460113234817981719970703125"
+    }
+  ],
+  "scope": "Finite arithmetic checks support the proved asymptotic envelope restriction. No certification of interpolation thresholds or pi badly approximable."
+}

@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "arithmetic": "exact Fraction logarithmic-tail coefficients",
+  "rigid_cases": [
+    {
+      "H": 5,
+      "weights": [
+        1
+      ],
+      "tail_orders": [
+        3
+      ],
+      "theta": "1/2",
+      "v0": "1",
+      "source_rows": 9,
+      "nonidentity_nonzero_edges": 3,
+      "edges_outside_source_packet": 0,
+      "injective_selections": 1,
+      "nonidentity_injective_selections": 0,
+      "strict_filtration_condition": true
+    },
+    {
+      "H": 8,
+      "weights": [
+        1
+      ],
+      "tail_orders": [
+        3
+      ],
+      "theta": "1/2",
+      "v0": "1",
+      "source_rows": 20,
+      "nonidentity_nonzero_edges": 25,
+      "edges_outside_source_packet": 0,
+      "injective_selections": 1,
+      "nonidentity_injective_selections": 0,
+      "strict_filtration_condition": true
+    },
+    {
+      "H": 6,
+      "weights": [
+        1,
+        2
+      ],
+      "tail_orders": [
+        3,
+        5
+      ],
+      "theta": "1/2",
+      "v0": "1",
+      "source_rows": 14,
+      "nonidentity_nonzero_edges": 8,
+      "edges_outside_source_packet": 0,
+      "injective_selections": 1,
+      "nonidentity_injective_selections": 0,
+      "strict_filtration_condition": true
+    }
+  ],
+  "failure_without_packet_preservation": {
+    "H": 2,
+    "weights": [
+      1
+    ],
+    "tail_orders": [
+      1
+    ],
+    "theta": "1/2",
+    "v0": "1",
+    "source_rows": 2,
+    "nonidentity_nonzero_edges": 1,
+    "edges_outside_source_packet": 1,
+    "injective_selections": 2,
+    "nonidentity_injective_selections": 1,
+    "strict_filtration_condition": false
+  },
+  "scope": "Finite support checks; universal rigidity follows from strict weight descent and finite injectivity. No pi approximation conclusion."
+}

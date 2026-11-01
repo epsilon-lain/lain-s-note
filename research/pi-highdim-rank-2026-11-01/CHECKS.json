@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "date": "2026-11-01",
+  "source_upload_sha256": "9da33449f4d2aed948401fa2e3aa9e01e8bc753708891b37710762cb56c6d1cd",
+  "proof_review": "Anchor rigidity and envelope barrier independently reviewed; radial cost formula independently derived.",
+  "verification_outputs": [
+    "rigidity/anchor_rigidity_verification.json",
+    "envelope/verification.json",
+    "interpolation/radial_parameter_verification.json",
+    "finite/verification.json"
+  ],
+  "relative_document_links_checked": 10,
+  "scope": "Unconditional finite anchor rigidity and envelope certificate restriction; high-dimensional radial existence conditional on source Theorem 2.1; exact finite nonzero minors and a rank-44 certificate. No conclusion about pi badly approximable.",
+  "files": {
+    "README.md": "79c5e9dc61e877bb0de373c750772ff0fb5f7e721e38ab0ab88f3ca1bdb13c37",
+    "envelope/ENVELOPE_BARRIER.md": "037042b52f13e59f48825ea7ac2edb1a066cba029ed6e0f35df1e819316ea880",
+    "envelope/verification.json": "0d658b17b9fe70bb97a6952a331f1d9a51773c95c0c2d23211d0329d3e4814a6",
+    "envelope/verify_envelope.py": "f3fb834806c82c6afdcb5910863fb9ea74c6d3438997fb0a903f5d187f196a1e",
+    "finite/RESULT.md": "16936bf7f9f8b23e7a66eb152674a92cf90b5e3c2010fa84c6eb7cb38677e008",
+    "finite/fixtures.json": "815251d2c68e772c905fc463f28c29079f5134debb5b2d421e4318e8b6e409de",
+    "finite/matrix_core.py": "dfb5a8609de002d739274d902a9a27c21a383cdc9a2337a5134697196290d8d8",
+    "finite/scan_summary.json": "51d550255359b6db914baa8c0d725f494762e5785466e37f6a706a45e7088df2",
+    "finite/search.py": "bafb77efcd1d7297c2d9aff3e8e1cdc06d2862a4ee8335acdb155a4c9aa75610",
+    "finite/verification.json": "ba1db31ac4eacaf0d4462e0121961b614601fc7c187802fecd963e0d451c687f",
+    "finite/verify.py": "87395bb8aa55a566e152288cfd0d050e6fe9b1c6950e7ad4fc14f8afbed744f8",
+    "interpolation/RADIAL_PACKET_EMBEDDING.md": "1b900d360a1a279d3ddab3de8900db07348b460e1041c5606630184e3c2f888f",
+    "interpolation/radial_parameter_verification.json": "de4eb9631740cd67d017684c020c8f94fb279a4a0f1064b44afcaca08259c7fd",
+    "interpolation/verify_radial_parameters.py": "9e30c3c46838891b637ec367d4fba09bc0a71b68bacf4ffb02be6bac8daefc70",
+    "rigidity/ANCHOR_BLOCK_RIGIDITY.md": "acd3ac16fa85c5752330059aaf637c74fb23bc5fd58bd7fe8e60ec2498a2ad9f",
+    "rigidity/anchor_rigidity_verification.json": "41c2df91576a6a1b3c742f0577002cefd5cf5f9dbf8dd9492502cadc4dc0953c",
+    "rigidity/verify_anchor_rigidity.py": "e21a62cb617193e51471780231c47fb25fd24b85c6de73e7ed2ed857cc2d7d80"
+  }
+}

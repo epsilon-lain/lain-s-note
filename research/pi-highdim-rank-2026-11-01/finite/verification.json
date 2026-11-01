@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "modulus": 1000000009,
+  "sqrt_minus_one": 430477711,
+  "positive_certificates": [
+    {
+      "m": 2,
+      "H": 8,
+      "weights": [
+        1,
+        5
+      ],
+      "K": 2,
+      "theta": "1/4",
+      "v0": "1/2",
+      "w0": "1",
+      "rows": 48,
+      "columns": 55,
+      "shifted_rows": 15,
+      "positive_type_steps": 21,
+      "base_cost": [
+        "0",
+        "10/3"
+      ],
+      "new_cost": [
+        "25/192",
+        "33/16"
+      ],
+      "bbar": "1/24",
+      "translated_det_at_W2_mod_prime": 560906229,
+      "original_det_same_columns_mod_prime": 918208015,
+      "cost_strictly_decreases": true,
+      "cost_below_1_minus_bbar": true
+    },
+    {
+      "m": 2,
+      "H": 16,
+      "weights": [
+        1,
+        5
+      ],
+      "K": 2,
+      "theta": "1/3",
+      "v0": "1/2",
+      "w0": "1",
+      "rows": 208,
+      "columns": 262,
+      "shifted_rows": 31,
+      "positive_type_steps": 32,
+      "base_cost": [
+        "0",
+        "37/13"
+      ],
+      "new_cost": [
+        "3/52",
+        "3831/1664"
+      ],
+      "bbar": "5/52",
+      "translated_det_at_W2_mod_prime": 124007649,
+      "original_det_same_columns_mod_prime": 590560636,
+      "cost_strictly_decreases": true,
+      "cost_below_1_minus_bbar": true
+    },
+    {
+      "m": 2,
+      "H": 12,
+      "weights": [
+        2,
+        5
+      ],
+      "K": 2,
+      "theta": "1/4",
+      "v0": "1/2",
+      "w0": "1",
+      "rows": 64,
+      "columns": 73,
+      "shifted_rows": 17,
+      "positive_type_steps": 21,
+      "base_cost": [
+        "0",
+        "10/3"
+      ],
+      "new_cost": [
+        "5/32",
+        "761/384"
+      ],
+      "bbar": "1/24",
+      "translated_det_at_W2_mod_prime": 474622320,
+      "original_det_same_columns_mod_prime": 260523365,
+      "cost_strictly_decreases": true,
+      "cost_below_1_minus_bbar": true
+    },
+    {
+      "m": 3,
+      "H": 8,
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "K": 2,
+      "theta": "1/3",
+      "v0": "1/2",
+      "w0": "1",
+      "rows": 68,
+      "columns": 108,
+      "shifted_rows": 16,
+      "positive_type_steps": 17,
+      "base_cost": [
+        "0",
+        "97/34"
+      ],
+      "new_cost": [
+        "13/136",
+        "551/272"
+      ],
+      "bbar": "13/136",
+      "translated_det_at_W2_mod_prime": 892055641,
+      "original_det_same_columns_mod_prime": 894916979,
+      "cost_strictly_decreases": true,
+      "cost_below_1_minus_bbar": true
+    }
+  ],
+  "unshifted_capacity_failure": {
+    "m": 2,
+    "H": 10,
+    "weights": [
+      2,
+      5
+    ],
+    "theta": "1/4",
+    "v0": "1/2",
+    "w0": "1",
+    "K": 2,
+    "rows": 48,
+    "columns": 49,
+    "pure_a0_rows": 40,
+    "a0_function_dimension": 36,
+    "rank_lower_bound_mod_prime": 44,
+    "rank_upper_bound_analytic": 44,
+    "exact_rank_at_period": 44
+  },
+  "scope": "Finite structural certificates. Actual distinct rational centers and nu=2 error hypotheses verified. Unknown separated-weight thresholds and all-large-H conclusions are not certified."
+}
