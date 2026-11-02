@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "parent_commit": "370339b97a9705f612740e0717d3936ac58e502b",
+  "runtime": "Python 3; standard library only",
+  "verification": [
+    {
+      "command": "python multi-band-budget/verify_multi_band_budget.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python cross-prime-product/verify_common_window_witness.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python midband-arithmetic/verify_edge_midpoint.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python crossprime-review/verify_crossprime_independent.py",
+      "exit_code": 0
+    }
+  ],
+  "review": "Independent proof review and exact finite implementation checks; not external peer review.",
+  "unresolved": [
+    "eventual S(n)<=n/6",
+    "sufficient uniform W(n) upper bound",
+    "exclusion of every successful subsequence in this fixed family",
+    "bad approximability or non-bad-approximability of pi"
+  ],
+  "sha256": {
+    "README.md": "0fc7bd11fbca419d5914c8991ac5d6d6629016a9dad3704ba9b0a761071bba7f",
+    "SOURCES.md": "3c2c5438a8149303b4ea7c1bb790c77e11657b7288e83d10ba5061e99eff5396",
+    "cross-prime-product/COMMON_WINDOW_WITNESS_BARRIER.md": "e6d85b39948bec52b1253da62cebb8244e00fe7f5d2b3fefd4b4566551b4c463",
+    "cross-prime-product/common_window_witness_verification.json": "45710e0a010e60721e58e4769413325b0012342ad71dd69308ffd885b84fc181",
+    "cross-prime-product/verify_common_window_witness.py": "bba6f107f150f2318031785025fe53c21b74bf8c0572d9f83becf43653a1d394",
+    "crossprime-review/INDEPENDENT_CROSSPRIME_REVIEW.md": "4a00b789bfd37b848cde6ace776631e13adc6daced65927f35af5393a01228b1",
+    "crossprime-review/verify_crossprime_independent.json": "34a1eea0a4295620e6956eb821be3c298dc3b3622138013e33fc9f8d00d8c38a",
+    "crossprime-review/verify_crossprime_independent.py": "47f93ac5f9abda78313cf134a9532f66ec52388d93162c4f4c4e8409545dae23",
+    "midband-arithmetic/EDGE_CAPACITY_AND_MIDPOINT.md": "6c45f7e97b0205b48e9201f602213d1ea009e1f09cfb1a877465d83bbb179147",
+    "midband-arithmetic/edge_midpoint_verification.json": "04257e1d7ef2ee225c4f3c23037505ab29427fb02ac4fde2c5843f5889c4f64e",
+    "midband-arithmetic/verify_edge_midpoint.py": "1c03b19dc029a4b3e57612d073cb1acda44676f1a39f7f4d0014996079d283d0",
+    "multi-band-budget/MULTI_BAND_DEFICIT_CERTIFICATE.md": "52134b729b95cf0898ed6065695f92313f244a791ffa8ca053d9cdbe3f68d125",
+    "multi-band-budget/multi_band_verification.json": "aa586da6f87672055bdd5932eeb244df4898ddef408eb68467b95bfe571718ee",
+    "multi-band-budget/verify_multi_band_budget.py": "9e02c0d52c896bde70e4f320081eb3643e62d1a6fb62fc3fa96f7b0cd09df6f1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "limit": 2000,
+  "status": "all exact assertions passed",
+  "edge_prime_pairs_checked": 145035,
+  "odd_primes_with_independent_point_counts": 302,
+  "four_torsion_candidates_checked": 276,
+  "midpoint_trace_zero_primes": [
+    {
+      "p": 31,
+      "n": 46,
+      "residue_mod32": 31
+    },
+    {
+      "p": 223,
+      "n": 334,
+      "residue_mod32": 31
+    },
+    {
+      "p": 383,
+      "n": 574,
+      "residue_mod32": 31
+    },
+    {
+      "p": 479,
+      "n": 718,
+      "residue_mod32": 31
+    }
+  ],
+  "scope": "Finite verification only. No global S(n) bound or mod32 theorem asserted."
+}

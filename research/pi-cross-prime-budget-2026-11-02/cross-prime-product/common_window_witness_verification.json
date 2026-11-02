@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "arithmetic": "Python standard-library exact integers",
+  "maximum_central_index": 300,
+  "maximum_forward_window": 8,
+  "exact_formal_window_coefficient_checks": 2400,
+  "nonzero_y_residue_poles": 80,
+  "collinear_residue_direction_checks": 4840,
+  "linear_witness_odd_divisibility_checks": 2400,
+  "quadratic_witness_odd_divisibility_checks": 2400,
+  "samples": [
+    {
+      "n": 4,
+      "h": 1,
+      "D_h": "5",
+      "central_odd_core": "17",
+      "retained_divisor_for_degree_one": "17",
+      "retained_divisor_for_degree_two": "17"
+    },
+    {
+      "n": 21,
+      "h": 2,
+      "D_h": "506",
+      "central_odd_core": "3155770571",
+      "retained_divisor_for_degree_one": "3155770571",
+      "retained_divisor_for_degree_two": "3155770571"
+    },
+    {
+      "n": 100,
+      "h": 4,
+      "D_h": "110355024",
+      "central_odd_core": "1387766211937745549498618209218661730186435542881823",
+      "retained_divisor_for_degree_one": "1387766211937745549498618209218661730186435542881823",
+      "retained_divisor_for_degree_two": "1387766211937745549498618209218661730186435542881823"
+    },
+    {
+      "n": 300,
+      "h": 8,
+      "D_h": "73892440144232075520",
+      "central_odd_core": "18252851953883225841963405581258029373617181246153323361114966722227395855314330563495265170029425766619610070604827235854219548426012673339995934723680948721",
+      "retained_divisor_for_degree_one": "18252851953883225841963405581258029373617181246153323361114966722227395855314330563495265170029425766619610070604827235854219548426012673339995934723680948721",
+      "retained_divisor_for_degree_two": "18252851953883225841963405581258029373617181246153323361114966722227395855314330563495265170029425766619610070604827235854219548426012673339995934723680948721"
+    }
+  ],
+  "scope": "Finite algebra audits. The written theorem proves the universal generic-window limitation. No S(n) upper bound, no no-go theorem for actual-initial-data arithmetic, and no pi approximation conclusion."
+}
