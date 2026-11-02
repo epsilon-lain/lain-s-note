@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "date": "2026-11-02",
+  "starting_repository_head": "db233082d7ee811cccc8d2cbd376a3daec6b89fb",
+  "fixed_object": "A0=A1=1,B0=0,B1=1; X_(n+1)=(2n+1)X_n+n^2X_(n-1); reduced p_n/q_n=4B_n/A_n",
+  "main_global_lemma_status": "S(n)<=n/6 eventually remains unproved; no exclusion of every successful subsequence follows yet.",
+  "proved_unconditional_structure": [
+    "Exact E*odd(n)*H^2 divides D*P^2*Lodd; strengthened two-layer version retains actual lifts",
+    "J<=2S+o(n) using classical PNT with exact finite signed budget",
+    "Reflected degree k=min(n-p,2p-n-1)<=(n-1)/3",
+    "Exact odd-core height C_k<=(2+sqrt(2))^k and folded edge capacity <=ln(2+sqrt(2))*K(K+1)/2",
+    "Uniform edge contribution o(n) for K=o(sqrt(n)); interior S bound remains open"
+  ],
+  "conditional_implications": [
+    "S(n)<=n/6 eventually would force Q_n>=exp((ln2-2/3+o(1))*n) to infinity",
+    "More generally limsup S(n)/n<ln2/4 is sufficient to exclude this family"
+  ],
+  "commands_run_from_checkpoint": [
+    {
+      "command": "python -B global-s-budget/verify_global_s_budget.py",
+      "exit_code": 0,
+      "summary": "n<=1000: 999 checks each exact divisibility and finite Q floor; 39849 top-half classes"
+    },
+    {
+      "command": "python -B global-s-reflection/verify_reflection_interior.py",
+      "exit_code": 0,
+      "summary": "277048 reflection residues,276746 folds,1001 odd heights,1000 edge product divisibilities"
+    },
+    {
+      "command": "python -B global-s-experiments/scan_global_s_clusters.py --limit 100000 --direct-check-limit 10000",
+      "exit_code": 0,
+      "summary": "Complete finite certification,7026events/6800indices,max3; S<n/6 and unique maxln17/21 atn21; direct10k cross-check"
+    },
+    {
+      "command": "python -B global-s-review/verify_independent_global_s.py",
+      "exit_code": 0,
+      "summary": "499 independent budget checks; unreflected U scan10k; direct A/B modp^2 checks of18 primes in6 triples"
+    }
+  ],
+  "finite_range_only": {
+    "maximum_index": 100000,
+    "unique_maximum_ratio": "ln17/21 at n21",
+    "event_stream_sha256": "4f51a87309af96483f97affe51bbb5734a2ab8bb4039e7a4d8ac8aca60c94f3f",
+    "all_18_primes_in_six_triplets_have_gcd_valuation": 1
+  },
+  "independent_review": "global-s-review/INDEPENDENT_GLOBAL_S_REVIEW.md; research-agent review, not external peer review",
+  "logical_countermodel_scope": "Abstract sparse reflected zero sets in review do not satisfy actual recurrence; not a counterexample to S bound.",
+  "not_claimed": [
+    "Uniform S(n)<=n/6",
+    "Global upper bound3 on cluster size",
+    "Residue31mod32 theorem for midpoint primes",
+    "Family exclusion or pi bad/nonbad approximability",
+    "Improved conservative exponent or a new rational approximation record"
+  ],
+  "manifest_excludes_self": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5875,
+      "sha256": "bbf4bc299f237893d789df852b372f7b32e5f9aa49c7743c757910e237790d73"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3290,
+      "sha256": "1a1ebee8e91d1ed2ce9810a82fd9c36a05397f12ba533e53f960672ea17cdc38"
+    },
+    {
+      "path": "global-s-budget/GLOBAL_FIRST_LAYER_BUDGET.md",
+      "bytes": 8457,
+      "sha256": "42556d4eab45382c192746ea8467727564f47ffc25e628865ada529e41232dad"
+    },
+    {
+      "path": "global-s-budget/global_s_budget_verification.json",
+      "bytes": 19274,
+      "sha256": "fb8ac6c98c94d526a43c8d07f5d823f59b1575b186ef8a0797301118c3ef31da"
+    },
+    {
+      "path": "global-s-budget/verify_global_s_budget.py",
+      "bytes": 5118,
+      "sha256": "561eb6628acf645d97fbbc213518980299dab13a44b567d766e05ac8a7014dc9"
+    },
+    {
+      "path": "global-s-experiments/EXACT_ANOMALY_CLUSTERS.md",
+      "bytes": 6690,
+      "sha256": "4a3e2d164f3fb077a5c44cdbf5388a12bdbb5bbb6c618567f02281e143cf94bd"
+    },
+    {
+      "path": "global-s-experiments/global_s_cluster_checks.json",
+      "bytes": 117950,
+      "sha256": "3578359c611d730a9b126b26f006eeaf05ede13360a967a1b35d637aba9a563f"
+    },
+    {
+      "path": "global-s-experiments/scan_global_s_clusters.py",
+      "bytes": 9969,
+      "sha256": "a030607629315b3dbdfea58b2a52d16fc9189b6b9e4cc5e29e94e4f7cf978d57"
+    },
+    {
+      "path": "global-s-reflection/REFLECTION_AND_INTERIOR_REDUCTION.md",
+      "bytes": 6729,
+      "sha256": "c8a80dccf8af663b5c770408c4aa8fedc3cba16299ebe10fb8a6c2bcc3116c69"
+    },
+    {
+      "path": "global-s-reflection/reflection_interior_verification.json",
+      "bytes": 910,
+      "sha256": "43ee209db3d83a8862bcbd997cb21359ebc76ab9b43c71bfe9873f1bd8315f9c"
+    },
+    {
+      "path": "global-s-reflection/verify_reflection_interior.py",
+      "bytes": 3508,
+      "sha256": "6b57925b2c72201c13626b001fecdee65cced283b4aad066f825f41c8cd0da29"
+    },
+    {
+      "path": "global-s-review/INDEPENDENT_GLOBAL_S_REVIEW.md",
+      "bytes": 7745,
+      "sha256": "80141e5ac012a29e2d59488d3549fae2b710e712b79a219777919b47381b8faf"
+    },
+    {
+      "path": "global-s-review/verify_independent_global_s.json",
+      "bytes": 5296,
+      "sha256": "383d7904616348ecfb23ced6372ebc993a82f62a492c2117c0fa01cdae80d5b0"
+    },
+    {
+      "path": "global-s-review/verify_independent_global_s.py",
+      "bytes": 7560,
+      "sha256": "d3765208ac4b39b8ef999bcb362ea39b50bfa72db5bc7f8046814d1ac53d3663"
+    }
+  ]
+}

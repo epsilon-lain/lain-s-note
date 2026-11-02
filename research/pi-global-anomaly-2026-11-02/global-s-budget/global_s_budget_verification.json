@@ -1,0 +1,1064 @@
+{
+  "status": "passed",
+  "arithmetic": "Python standard-library exact integers and fractions",
+  "maximum_index": 1000,
+  "exact_first_layer_divisibility_checks": 999,
+  "exact_two_layer_divisibility_checks": 999,
+  "exact_finite_quality_budget_floors_checked": 999,
+  "top_half_classification_counts": {
+    "nonexceptional_deficit": 39708,
+    "exceptional_no_positive_excess": 139,
+    "exceptional_positive_excess": 2
+  },
+  "finite_S_less_than_n_over_6_certificates": 1000,
+  "finite_maximum_certificate": {
+    "attained_at_n": 21,
+    "exceptional_prime": 17,
+    "exact_comparison_for_every_index": "P_n^21 <= 17^n",
+    "meaning": "S(n)/n <= ln(17)/21 on the stated finite range"
+  },
+  "nonempty_exceptional_sets": [
+    {
+      "n": 21,
+      "exceptional_primes": [
+        17
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "17"
+    },
+    {
+      "n": 29,
+      "exceptional_primes": [
+        17
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "17"
+    },
+    {
+      "n": 30,
+      "exceptional_primes": [
+        23
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "23"
+    },
+    {
+      "n": 38,
+      "exceptional_primes": [
+        23
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "23"
+    },
+    {
+      "n": 42,
+      "exceptional_primes": [
+        37
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "37"
+    },
+    {
+      "n": 46,
+      "exceptional_primes": [
+        31
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "31"
+    },
+    {
+      "n": 47,
+      "exceptional_primes": [
+        41
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "41"
+    },
+    {
+      "n": 54,
+      "exceptional_primes": [
+        41
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "41"
+    },
+    {
+      "n": 58,
+      "exceptional_primes": [
+        47
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "47"
+    },
+    {
+      "n": 68,
+      "exceptional_primes": [
+        37,
+        41
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "1517"
+    },
+    {
+      "n": 75,
+      "exceptional_primes": [
+        41
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "41"
+    },
+    {
+      "n": 82,
+      "exceptional_primes": [
+        47
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "47"
+    },
+    {
+      "n": 107,
+      "exceptional_primes": [
+        73
+      ],
+      "lifted_primes": [
+        73
+      ],
+      "exceptional_product": "73"
+    },
+    {
+      "n": 111,
+      "exceptional_primes": [
+        73
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "73"
+    },
+    {
+      "n": 117,
+      "exceptional_primes": [
+        97
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "97"
+    },
+    {
+      "n": 118,
+      "exceptional_primes": [
+        103,
+        107
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "11021"
+    },
+    {
+      "n": 126,
+      "exceptional_primes": [
+        97
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "97"
+    },
+    {
+      "n": 139,
+      "exceptional_primes": [
+        107,
+        113
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "12091"
+    },
+    {
+      "n": 164,
+      "exceptional_primes": [
+        97
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "97"
+    },
+    {
+      "n": 166,
+      "exceptional_primes": [
+        127,
+        131
+      ],
+      "lifted_primes": [
+        131
+      ],
+      "exceptional_product": "16637"
+    },
+    {
+      "n": 173,
+      "exceptional_primes": [
+        97
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "97"
+    },
+    {
+      "n": 181,
+      "exceptional_primes": [
+        107
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "107"
+    },
+    {
+      "n": 183,
+      "exceptional_primes": [
+        157
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "157"
+    },
+    {
+      "n": 189,
+      "exceptional_primes": [
+        139
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "139"
+    },
+    {
+      "n": 190,
+      "exceptional_primes": [
+        103
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "103"
+    },
+    {
+      "n": 199,
+      "exceptional_primes": [
+        113,
+        137
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "15481"
+    },
+    {
+      "n": 202,
+      "exceptional_primes": [
+        107,
+        151
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "16157"
+    },
+    {
+      "n": 211,
+      "exceptional_primes": [
+        137
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "137"
+    },
+    {
+      "n": 214,
+      "exceptional_primes": [
+        127
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "127"
+    },
+    {
+      "n": 215,
+      "exceptional_primes": [
+        149
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "149"
+    },
+    {
+      "n": 226,
+      "exceptional_primes": [
+        131
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "131"
+    },
+    {
+      "n": 227,
+      "exceptional_primes": [
+        139
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "139"
+    },
+    {
+      "n": 231,
+      "exceptional_primes": [
+        149
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "149"
+    },
+    {
+      "n": 248,
+      "exceptional_primes": [
+        227
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "227"
+    },
+    {
+      "n": 250,
+      "exceptional_primes": [
+        151
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "151"
+    },
+    {
+      "n": 253,
+      "exceptional_primes": [
+        197
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "197"
+    },
+    {
+      "n": 255,
+      "exceptional_primes": [
+        191
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "191"
+    },
+    {
+      "n": 260,
+      "exceptional_primes": [
+        223
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "223"
+    },
+    {
+      "n": 271,
+      "exceptional_primes": [
+        239
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "239"
+    },
+    {
+      "n": 275,
+      "exceptional_primes": [
+        197
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "197"
+    },
+    {
+      "n": 287,
+      "exceptional_primes": [
+        157
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "157"
+    },
+    {
+      "n": 293,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 294,
+      "exceptional_primes": [
+        229
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "229"
+    },
+    {
+      "n": 299,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 300,
+      "exceptional_primes": [
+        239
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "239"
+    },
+    {
+      "n": 301,
+      "exceptional_primes": [
+        241,
+        271
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "65311"
+    },
+    {
+      "n": 302,
+      "exceptional_primes": [
+        283
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "283"
+    },
+    {
+      "n": 307,
+      "exceptional_primes": [
+        257
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "257"
+    },
+    {
+      "n": 315,
+      "exceptional_primes": [
+        197
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "197"
+    },
+    {
+      "n": 317,
+      "exceptional_primes": [
+        191,
+        251
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "47941"
+    },
+    {
+      "n": 334,
+      "exceptional_primes": [
+        223
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "223"
+    },
+    {
+      "n": 337,
+      "exceptional_primes": [
+        197
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "197"
+    },
+    {
+      "n": 350,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 382,
+      "exceptional_primes": [
+        257
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "257"
+    },
+    {
+      "n": 383,
+      "exceptional_primes": [
+        269
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "269"
+    },
+    {
+      "n": 388,
+      "exceptional_primes": [
+        257
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "257"
+    },
+    {
+      "n": 392,
+      "exceptional_primes": [
+        229
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "229"
+    },
+    {
+      "n": 404,
+      "exceptional_primes": [
+        277,
+        337
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "93349"
+    },
+    {
+      "n": 408,
+      "exceptional_primes": [
+        223
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "223"
+    },
+    {
+      "n": 416,
+      "exceptional_primes": [
+        239
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "239"
+    },
+    {
+      "n": 421,
+      "exceptional_primes": [
+        241
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "241"
+    },
+    {
+      "n": 423,
+      "exceptional_primes": [
+        269
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "269"
+    },
+    {
+      "n": 426,
+      "exceptional_primes": [
+        277
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "277"
+    },
+    {
+      "n": 432,
+      "exceptional_primes": [
+        227
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "227"
+    },
+    {
+      "n": 435,
+      "exceptional_primes": [
+        251
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "251"
+    },
+    {
+      "n": 438,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 445,
+      "exceptional_primes": [
+        239
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "239"
+    },
+    {
+      "n": 463,
+      "exceptional_primes": [
+        257
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "257"
+    },
+    {
+      "n": 472,
+      "exceptional_primes": [
+        349
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "349"
+    },
+    {
+      "n": 475,
+      "exceptional_primes": [
+        457
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "457"
+    },
+    {
+      "n": 478,
+      "exceptional_primes": [
+        401
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "401"
+    },
+    {
+      "n": 489,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 495,
+      "exceptional_primes": [
+        263
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "263"
+    },
+    {
+      "n": 498,
+      "exceptional_primes": [
+        347
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "347"
+    },
+    {
+      "n": 499,
+      "exceptional_primes": [
+        479
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "479"
+    },
+    {
+      "n": 501,
+      "exceptional_primes": [
+        401,
+        457
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "183257"
+    },
+    {
+      "n": 511,
+      "exceptional_primes": [
+        271
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "271"
+    },
+    {
+      "n": 516,
+      "exceptional_primes": [
+        421
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "421"
+    },
+    {
+      "n": 542,
+      "exceptional_primes": [
+        347
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "347"
+    },
+    {
+      "n": 546,
+      "exceptional_primes": [
+        283
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "283"
+    },
+    {
+      "n": 557,
+      "exceptional_primes": [
+        431
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "431"
+    },
+    {
+      "n": 574,
+      "exceptional_primes": [
+        349,
+        383
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "133667"
+    },
+    {
+      "n": 587,
+      "exceptional_primes": [
+        431
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "431"
+    },
+    {
+      "n": 591,
+      "exceptional_primes": [
+        401
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "401"
+    },
+    {
+      "n": 592,
+      "exceptional_primes": [
+        521
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "521"
+    },
+    {
+      "n": 600,
+      "exceptional_primes": [
+        419
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "419"
+    },
+    {
+      "n": 606,
+      "exceptional_primes": [
+        337
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "337"
+    },
+    {
+      "n": 611,
+      "exceptional_primes": [
+        401
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "401"
+    },
+    {
+      "n": 618,
+      "exceptional_primes": [
+        577
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "577"
+    },
+    {
+      "n": 619,
+      "exceptional_primes": [
+        587
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "587"
+    },
+    {
+      "n": 632,
+      "exceptional_primes": [
+        569
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "569"
+    },
+    {
+      "n": 656,
+      "exceptional_primes": [
+        419
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "419"
+    },
+    {
+      "n": 662,
+      "exceptional_primes": [
+        461
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "461"
+    },
+    {
+      "n": 701,
+      "exceptional_primes": [
+        401
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "401"
+    },
+    {
+      "n": 705,
+      "exceptional_primes": [
+        431
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "431"
+    },
+    {
+      "n": 709,
+      "exceptional_primes": [
+        683
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "683"
+    },
+    {
+      "n": 710,
+      "exceptional_primes": [
+        557
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "557"
+    },
+    {
+      "n": 718,
+      "exceptional_primes": [
+        479
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "479"
+    },
+    {
+      "n": 720,
+      "exceptional_primes": [
+        461
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "461"
+    },
+    {
+      "n": 724,
+      "exceptional_primes": [
+        401
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "401"
+    },
+    {
+      "n": 735,
+      "exceptional_primes": [
+        431
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "431"
+    },
+    {
+      "n": 746,
+      "exceptional_primes": [
+        421
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "421"
+    },
+    {
+      "n": 789,
+      "exceptional_primes": [
+        563
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "563"
+    },
+    {
+      "n": 803,
+      "exceptional_primes": [
+        577
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "577"
+    },
+    {
+      "n": 827,
+      "exceptional_primes": [
+        701
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "701"
+    },
+    {
+      "n": 849,
+      "exceptional_primes": [
+        607
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "607"
+    },
+    {
+      "n": 855,
+      "exceptional_primes": [
+        733
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "733"
+    },
+    {
+      "n": 857,
+      "exceptional_primes": [
+        643
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "643"
+    },
+    {
+      "n": 866,
+      "exceptional_primes": [
+        599
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "599"
+    },
+    {
+      "n": 868,
+      "exceptional_primes": [
+        701
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "701"
+    },
+    {
+      "n": 869,
+      "exceptional_primes": [
+        457
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "457"
+    },
+    {
+      "n": 875,
+      "exceptional_primes": [
+        733
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "733"
+    },
+    {
+      "n": 878,
+      "exceptional_primes": [
+        709
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "709"
+    },
+    {
+      "n": 884,
+      "exceptional_primes": [
+        677
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "677"
+    },
+    {
+      "n": 887,
+      "exceptional_primes": [
+        653
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "653"
+    },
+    {
+      "n": 895,
+      "exceptional_primes": [
+        457
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "457"
+    },
+    {
+      "n": 899,
+      "exceptional_primes": [
+        563,
+        827
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "465601"
+    },
+    {
+      "n": 927,
+      "exceptional_primes": [
+        577,
+        829
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "478333"
+    },
+    {
+      "n": 930,
+      "exceptional_primes": [
+        599
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "599"
+    },
+    {
+      "n": 937,
+      "exceptional_primes": [
+        479
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "479"
+    },
+    {
+      "n": 940,
+      "exceptional_primes": [
+        641
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "641"
+    },
+    {
+      "n": 944,
+      "exceptional_primes": [
+        647
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "647"
+    },
+    {
+      "n": 960,
+      "exceptional_primes": [
+        557
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "557"
+    },
+    {
+      "n": 970,
+      "exceptional_primes": [
+        521
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "521"
+    },
+    {
+      "n": 971,
+      "exceptional_primes": [
+        607
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "607"
+    },
+    {
+      "n": 982,
+      "exceptional_primes": [
+        641
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "641"
+    },
+    {
+      "n": 986,
+      "exceptional_primes": [
+        823
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "823"
+    },
+    {
+      "n": 996,
+      "exceptional_primes": [
+        647
+      ],
+      "lifted_primes": [],
+      "exceptional_product": "647"
+    }
+  ],
+  "scope": "The finite range does not prove the global S(n) bound. The exact aggregate divisibility and its PNT consequence are proved in the companion note, not extrapolated."
+}

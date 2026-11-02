@@ -1,0 +1,4743 @@
+{
+  "status": "passed",
+  "limit": 100000,
+  "arithmetic": "Exact residues and integer inequality certificates; floats only in labeled diagnostics",
+  "reflection": "A_r=0 mod p iff A_(p-1-r)=0 mod p for 0<=r<p",
+  "modular_recurrence_steps_with_reflection": 153929125,
+  "independent_direct_scan_through": 10000,
+  "nonempty_indices": 6800,
+  "anomaly_events": 7026,
+  "maximum_cluster_size": 3,
+  "all_S_n_less_than_n_over_6": true,
+  "strict_maximum_ratio": {
+    "index": 21,
+    "primes": [
+      17
+    ],
+    "exact_value": "ln(17)/21",
+    "diagnostic_decimal": 0.1349149211455341
+  },
+  "all_bound_certificate_counts": {
+    "product^6 < 2^n < e^n": 99999,
+    "3^n product^6 < 8^n < (3e)^n": 1
+  },
+  "maximum_certificate_counts": {
+    "product^21 < 2^(4n) < 17^n": 99999,
+    "equality at n=21": 1
+  },
+  "event_stream_format": "Ascending n then ascending p, ASCII n:p followed by newline",
+  "event_stream_sha256": "4f51a87309af96483f97affe51bbb5734a2ab8bb4039e7a4d8ac8aca60c94f3f",
+  "cluster_size_histogram": {
+    "0": 93200,
+    "1": 6580,
+    "2": 214,
+    "3": 6
+  },
+  "event_prime_mod_8_histogram": {
+    "1": 1744,
+    "3": 1683,
+    "5": 1714,
+    "7": 1885
+  },
+  "event_p_over_n_intervals": {
+    "(4/5,9/10]": 1218,
+    "(1/2,2/3]": 2983,
+    "(3/4,4/5]": 648,
+    "(2/3,3/4]": 1224,
+    "(9/10,1)": 953
+  },
+  "midpoint_anomalous_primes": [
+    31,
+    223,
+    383,
+    479,
+    2591,
+    5279,
+    8191,
+    16927,
+    18047,
+    18143,
+    25439,
+    26111,
+    26879,
+    27967,
+    31391,
+    39839,
+    43711,
+    44159,
+    50111,
+    59743,
+    66271
+  ],
+  "midpoint_prime_mod_32_histogram": {
+    "31": 21
+  },
+  "reflection_graph": {
+    "vertices_with_anomalies": 6800,
+    "internal_edges_including_loops": 3004,
+    "components": 3817,
+    "cycle_rank_after_removing_loops": 0,
+    "largest_component_vertex_count": 6,
+    "largest_components": [
+      {
+        "vertices": [
+          29259,
+          34157,
+          39821,
+          42689,
+          43587,
+          46769
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 29259,
+            "anomalous_primes": [
+              21139,
+              23027,
+              25343
+            ],
+            "prime_product": "12336155164279",
+            "S_over_n_diagnostic": 0.0010302319119190096,
+            "p_over_n_diagnostic": [
+              0.7224785536074371,
+              0.7870057076455108,
+              0.8661608393998428
+            ],
+            "offsets_r": [
+              8120,
+              6232,
+              3916
+            ],
+            "reflected_partner_indices": [
+              34157,
+              39821,
+              46769
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 21139,
+                "shifted_factor_mod_p_squared": 78214300,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 23027,
+                "shifted_factor_mod_p_squared": 436568893,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 25343,
+                "shifted_factor_mod_p_squared": 522750061,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 34157,
+            "anomalous_primes": [
+              21139
+            ],
+            "prime_product": "21139",
+            "S_over_n_diagnostic": 0.00029156175760797746,
+            "p_over_n_diagnostic": [
+              0.6188775360833797
+            ],
+            "offsets_r": [
+              13018
+            ],
+            "reflected_partner_indices": [
+              29259
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 21139,
+                "shifted_factor_mod_p_squared": 248932864,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 39821,
+            "anomalous_primes": [
+              23027
+            ],
+            "prime_product": "23027",
+            "S_over_n_diagnostic": 0.00025223933902859347,
+            "p_over_n_diagnostic": [
+              0.5782627256974963
+            ],
+            "offsets_r": [
+              16794
+            ],
+            "reflected_partner_indices": [
+              29259
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 23027,
+                "shifted_factor_mod_p_squared": 126095852,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 42689,
+            "anomalous_primes": [
+              28759
+            ],
+            "prime_product": "28759",
+            "S_over_n_diagnostic": 0.0002405000360916365,
+            "p_over_n_diagnostic": [
+              0.6736864297594228
+            ],
+            "offsets_r": [
+              13930
+            ],
+            "reflected_partner_indices": [
+              43587
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 28759,
+                "shifted_factor_mod_p_squared": 721333238,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 43587,
+            "anomalous_primes": [
+              28759,
+              30119
+            ],
+            "prime_product": "866192321",
+            "S_over_n_diagnostic": 0.0004721503549578393,
+            "p_over_n_diagnostic": [
+              0.6598068231353386,
+              0.6910087870236539
+            ],
+            "offsets_r": [
+              14828,
+              13468
+            ],
+            "reflected_partner_indices": [
+              42689,
+              46769
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 28759,
+                "shifted_factor_mod_p_squared": 404351540,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 30119,
+                "shifted_factor_mod_p_squared": 665900971,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 46769,
+            "anomalous_primes": [
+              25343,
+              30119
+            ],
+            "prime_product": "763305817",
+            "S_over_n_diagnostic": 0.0004373232123328801,
+            "p_over_n_diagnostic": [
+              0.5418760289935641,
+              0.64399495392247
+            ],
+            "offsets_r": [
+              21426,
+              16650
+            ],
+            "reflected_partner_indices": [
+              29259,
+              43587
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 25343,
+                "shifted_factor_mod_p_squared": 78791387,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 30119,
+                "shifted_factor_mod_p_squared": 241885689,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            29259,
+            34157,
+            21139
+          ],
+          [
+            29259,
+            39821,
+            23027
+          ],
+          [
+            29259,
+            46769,
+            25343
+          ],
+          [
+            42689,
+            43587,
+            28759
+          ],
+          [
+            43587,
+            46769,
+            30119
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          40219,
+          44959,
+          48949,
+          61657,
+          73219,
+          86473
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 40219,
+            "anomalous_primes": [
+              28393,
+              29723,
+              37813
+            ],
+            "prime_product": "31911341281007",
+            "S_over_n_diagnostic": 0.0007731167505056146,
+            "p_over_n_diagnostic": [
+              0.7059598697133196,
+              0.7390288172256894,
+              0.9401775280340138
+            ],
+            "offsets_r": [
+              11826,
+              10496,
+              2406
+            ],
+            "reflected_partner_indices": [
+              44959,
+              48949,
+              73219
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 28393,
+                "shifted_factor_mod_p_squared": 784299839,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 29723,
+                "shifted_factor_mod_p_squared": 500238090,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 37813,
+                "shifted_factor_mod_p_squared": 1126184579,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 44959,
+            "anomalous_primes": [
+              28393
+            ],
+            "prime_product": "28393",
+            "S_over_n_diagnostic": 0.00022807219722180538,
+            "p_over_n_diagnostic": [
+              0.6315309504214951
+            ],
+            "offsets_r": [
+              16566
+            ],
+            "reflected_partner_indices": [
+              40219
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 28393,
+                "shifted_factor_mod_p_squared": 724163465,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 48949,
+            "anomalous_primes": [
+              29723
+            ],
+            "prime_product": "29723",
+            "S_over_n_diagnostic": 0.00021041648319401613,
+            "p_over_n_diagnostic": [
+              0.6072238452266645
+            ],
+            "offsets_r": [
+              19226
+            ],
+            "reflected_partner_indices": [
+              40219
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 29723,
+                "shifted_factor_mod_p_squared": 20241363,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 61657,
+            "anomalous_primes": [
+              44959
+            ],
+            "prime_product": "44959",
+            "S_over_n_diagnostic": 0.00017375977167762515,
+            "p_over_n_diagnostic": [
+              0.7291791686264333
+            ],
+            "offsets_r": [
+              16698
+            ],
+            "reflected_partner_indices": [
+              73219
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 44959,
+                "shifted_factor_mod_p_squared": 1668608326,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 73219,
+            "anomalous_primes": [
+              37813,
+              44959,
+              53231
+            ],
+            "prime_product": "90494545359077",
+            "S_over_n_diagnostic": 0.00043890671400241186,
+            "p_over_n_diagnostic": [
+              0.516436990398667,
+              0.6140346085032573,
+              0.7270107485761892
+            ],
+            "offsets_r": [
+              35406,
+              28260,
+              19988
+            ],
+            "reflected_partner_indices": [
+              40219,
+              61657,
+              86473
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 37813,
+                "shifted_factor_mod_p_squared": 1411105534,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 44959,
+                "shifted_factor_mod_p_squared": 904125490,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 53231,
+                "shifted_factor_mod_p_squared": 2169802022,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 86473,
+            "anomalous_primes": [
+              53231
+            ],
+            "prime_product": "53231",
+            "S_over_n_diagnostic": 0.00012584733052385124,
+            "p_over_n_diagnostic": [
+              0.6155794294172747
+            ],
+            "offsets_r": [
+              33242
+            ],
+            "reflected_partner_indices": [
+              73219
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 53231,
+                "shifted_factor_mod_p_squared": 1699239982,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            40219,
+            44959,
+            28393
+          ],
+          [
+            40219,
+            48949,
+            29723
+          ],
+          [
+            40219,
+            73219,
+            37813
+          ],
+          [
+            61657,
+            73219,
+            44959
+          ],
+          [
+            73219,
+            86473,
+            53231
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          22918,
+          29158,
+          40822,
+          50332,
+          78694
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 22918,
+            "anomalous_primes": [
+              17359
+            ],
+            "prime_product": "17359",
+            "S_over_n_diagnostic": 0.00042594756884844,
+            "p_over_n_diagnostic": [
+              0.7574395671524566
+            ],
+            "offsets_r": [
+              5559
+            ],
+            "reflected_partner_indices": [
+              29158
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 17359,
+                "shifted_factor_mod_p_squared": 280469363,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 29158,
+            "anomalous_primes": [
+              17359,
+              23327,
+              26497
+            ],
+            "prime_product": "10729520114321",
+            "S_over_n_diagnostic": 0.0010290150198174015,
+            "p_over_n_diagnostic": [
+              0.5953426160916386,
+              0.8000205775430413,
+              0.9087385966115645
+            ],
+            "offsets_r": [
+              11799,
+              5831,
+              2661
+            ],
+            "reflected_partner_indices": [
+              22918,
+              40822,
+              50332
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 17359,
+                "shifted_factor_mod_p_squared": 258857408,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 23327,
+                "shifted_factor_mod_p_squared": 233643232,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 26497,
+                "shifted_factor_mod_p_squared": 700024243,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 40822,
+            "anomalous_primes": [
+              23327,
+              39839
+            ],
+            "prime_product": "929324353",
+            "S_over_n_diagnostic": 0.0005058539115655888,
+            "p_over_n_diagnostic": [
+              0.571432070942139,
+              0.9759198471412474
+            ],
+            "offsets_r": [
+              17495,
+              983
+            ],
+            "reflected_partner_indices": [
+              29158,
+              78694
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 23327,
+                "shifted_factor_mod_p_squared": 408105865,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 39839,
+                "shifted_factor_mod_p_squared": 240229170,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 50332,
+            "anomalous_primes": [
+              26497
+            ],
+            "prime_product": "26497",
+            "S_over_n_diagnostic": 0.0002023521178975341,
+            "p_over_n_diagnostic": [
+              0.5264444091234205
+            ],
+            "offsets_r": [
+              23835
+            ],
+            "reflected_partner_indices": [
+              29158
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 26497,
+                "shifted_factor_mod_p_squared": 347773125,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 78694,
+            "anomalous_primes": [
+              39839
+            ],
+            "prime_product": "39839",
+            "S_over_n_diagnostic": 0.00013460494587874434,
+            "p_over_n_diagnostic": [
+              0.5062520649604798
+            ],
+            "offsets_r": [
+              38855
+            ],
+            "reflected_partner_indices": [
+              40822
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 39839,
+                "shifted_factor_mod_p_squared": 326759478,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            22918,
+            29158,
+            17359
+          ],
+          [
+            29158,
+            40822,
+            23327
+          ],
+          [
+            29158,
+            50332,
+            26497
+          ],
+          [
+            40822,
+            78694,
+            39839
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          118,
+          190,
+          202,
+          250
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 118,
+            "anomalous_primes": [
+              103,
+              107
+            ],
+            "prime_product": "11021",
+            "S_over_n_diagnostic": 0.07887760866687749,
+            "p_over_n_diagnostic": [
+              0.8728813559322034,
+              0.9067796610169492
+            ],
+            "offsets_r": [
+              15,
+              11
+            ],
+            "reflected_partner_indices": [
+              190,
+              202
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 103,
+                "shifted_factor_mod_p_squared": 6077,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 107,
+                "shifted_factor_mod_p_squared": 9202,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 190,
+            "anomalous_primes": [
+              103
+            ],
+            "prime_product": "103",
+            "S_over_n_diagnostic": 0.024393310464366505,
+            "p_over_n_diagnostic": [
+              0.5421052631578948
+            ],
+            "offsets_r": [
+              87
+            ],
+            "reflected_partner_indices": [
+              118
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 103,
+                "shifted_factor_mod_p_squared": 3399,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 202,
+            "anomalous_primes": [
+              107,
+              151
+            ],
+            "prime_product": "16157",
+            "S_over_n_diagnostic": 0.04797083500632094,
+            "p_over_n_diagnostic": [
+              0.5297029702970297,
+              0.7475247524752475
+            ],
+            "offsets_r": [
+              95,
+              51
+            ],
+            "reflected_partner_indices": [
+              118,
+              250
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 107,
+                "shifted_factor_mod_p_squared": 1819,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 151,
+                "shifted_factor_mod_p_squared": 21140,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 250,
+            "anomalous_primes": [
+              151
+            ],
+            "prime_product": "151",
+            "S_over_n_diagnostic": 0.020069119347259697,
+            "p_over_n_diagnostic": [
+              0.604
+            ],
+            "offsets_r": [
+              99
+            ],
+            "reflected_partner_indices": [
+              202
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 151,
+                "shifted_factor_mod_p_squared": 7701,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            118,
+            190,
+            103
+          ],
+          [
+            118,
+            202,
+            107
+          ],
+          [
+            202,
+            250,
+            151
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          139,
+          181,
+          199,
+          211
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 139,
+            "anomalous_primes": [
+              107,
+              113
+            ],
+            "prime_product": "12091",
+            "S_over_n_diagnostic": 0.06762745793650538,
+            "p_over_n_diagnostic": [
+              0.7697841726618705,
+              0.8129496402877698
+            ],
+            "offsets_r": [
+              32,
+              26
+            ],
+            "reflected_partner_indices": [
+              181,
+              199
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 107,
+                "shifted_factor_mod_p_squared": 8560,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 113,
+                "shifted_factor_mod_p_squared": 11639,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 181,
+            "anomalous_primes": [
+              107
+            ],
+            "prime_product": "107",
+            "S_over_n_diagnostic": 0.025816733892054727,
+            "p_over_n_diagnostic": [
+              0.5911602209944752
+            ],
+            "offsets_r": [
+              74
+            ],
+            "reflected_partner_indices": [
+              139
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 107,
+                "shifted_factor_mod_p_squared": 6527,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 199,
+            "anomalous_primes": [
+              113,
+              137
+            ],
+            "prime_product": "15481",
+            "S_over_n_diagnostic": 0.04847923992231389,
+            "p_over_n_diagnostic": [
+              0.5678391959798995,
+              0.6884422110552764
+            ],
+            "offsets_r": [
+              86,
+              62
+            ],
+            "reflected_partner_indices": [
+              139,
+              211
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 113,
+                "shifted_factor_mod_p_squared": 1356,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 137,
+                "shifted_factor_mod_p_squared": 17262,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 211,
+            "anomalous_primes": [
+              137
+            ],
+            "prime_product": "137",
+            "S_over_n_diagnostic": 0.023317445146104857,
+            "p_over_n_diagnostic": [
+              0.6492890995260664
+            ],
+            "offsets_r": [
+              74
+            ],
+            "reflected_partner_indices": [
+              199
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 137,
+                "shifted_factor_mod_p_squared": 5069,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            139,
+            181,
+            107
+          ],
+          [
+            139,
+            199,
+            113
+          ],
+          [
+            199,
+            211,
+            137
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          2772,
+          4376,
+          5240,
+          5294
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 2772,
+            "anomalous_primes": [
+              2383,
+              2671,
+              2689
+            ],
+            "prime_product": "17115466177",
+            "S_over_n_diagnostic": 0.008500450341442124,
+            "p_over_n_diagnostic": [
+              0.8596681096681097,
+              0.9635642135642135,
+              0.9700577200577201
+            ],
+            "offsets_r": [
+              389,
+              101,
+              83
+            ],
+            "reflected_partner_indices": [
+              4376,
+              5240,
+              5294
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2383,
+                "shifted_factor_mod_p_squared": 3538755,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 2671,
+                "shifted_factor_mod_p_squared": 2697710,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 2689,
+                "shifted_factor_mod_p_squared": 3275202,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 4376,
+            "anomalous_primes": [
+              2383
+            ],
+            "prime_product": "2383",
+            "S_over_n_diagnostic": 0.001776991653815983,
+            "p_over_n_diagnostic": [
+              0.5445612431444241
+            ],
+            "offsets_r": [
+              1993
+            ],
+            "reflected_partner_indices": [
+              2772
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2383,
+                "shifted_factor_mod_p_squared": 3398158,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 5240,
+            "anomalous_primes": [
+              2671
+            ],
+            "prime_product": "2671",
+            "S_over_n_diagnostic": 0.0015057649261660231,
+            "p_over_n_diagnostic": [
+              0.5097328244274809
+            ],
+            "offsets_r": [
+              2569
+            ],
+            "reflected_partner_indices": [
+              2772
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2671,
+                "shifted_factor_mod_p_squared": 5208450,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 5294,
+            "anomalous_primes": [
+              2689
+            ],
+            "prime_product": "2689",
+            "S_over_n_diagnostic": 0.001491674472283503,
+            "p_over_n_diagnostic": [
+              0.5079335096335474
+            ],
+            "offsets_r": [
+              2605
+            ],
+            "reflected_partner_indices": [
+              2772
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2689,
+                "shifted_factor_mod_p_squared": 5345732,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            2772,
+            4376,
+            2383
+          ],
+          [
+            2772,
+            5240,
+            2671
+          ],
+          [
+            2772,
+            5294,
+            2689
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          2980,
+          2998,
+          4198,
+          5878
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 2980,
+            "anomalous_primes": [
+              2953
+            ],
+            "prime_product": "2953",
+            "S_over_n_diagnostic": 0.0026814016381691017,
+            "p_over_n_diagnostic": [
+              0.9909395973154362
+            ],
+            "offsets_r": [
+              27
+            ],
+            "reflected_partner_indices": [
+              5878
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2953,
+                "shifted_factor_mod_p_squared": 6969080,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 2998,
+            "anomalous_primes": [
+              2399
+            ],
+            "prime_product": "2399",
+            "S_over_n_diagnostic": 0.0025959997541159757,
+            "p_over_n_diagnostic": [
+              0.8002001334222815
+            ],
+            "offsets_r": [
+              599
+            ],
+            "reflected_partner_indices": [
+              4198
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2399,
+                "shifted_factor_mod_p_squared": 4601282,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 4198,
+            "anomalous_primes": [
+              2399,
+              3359
+            ],
+            "prime_product": "8058241",
+            "S_over_n_diagnostic": 0.0037880433188308693,
+            "p_over_n_diagnostic": [
+              0.5714626012386851,
+              0.8001429252024773
+            ],
+            "offsets_r": [
+              1799,
+              839
+            ],
+            "reflected_partner_indices": [
+              2998,
+              5878
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2399,
+                "shifted_factor_mod_p_squared": 1093944,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 3359,
+                "shifted_factor_mod_p_squared": 11128367,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 5878,
+            "anomalous_primes": [
+              2953,
+              3359
+            ],
+            "prime_product": "9919127",
+            "S_over_n_diagnostic": 0.002740723965865297,
+            "p_over_n_diagnostic": [
+              0.5023817625042531,
+              0.5714528751275945
+            ],
+            "offsets_r": [
+              2925,
+              2519
+            ],
+            "reflected_partner_indices": [
+              2980,
+              4198
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2953,
+                "shifted_factor_mod_p_squared": 3118368,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 3359,
+                "shifted_factor_mod_p_squared": 10187847,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            2980,
+            5878,
+            2953
+          ],
+          [
+            2998,
+            4198,
+            2399
+          ],
+          [
+            4198,
+            5878,
+            3359
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          4056,
+          4472,
+          5696,
+          7194
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 4056,
+            "anomalous_primes": [
+              2843,
+              3251
+            ],
+            "prime_product": "9242593",
+            "S_over_n_diagnostic": 0.003954470668627936,
+            "p_over_n_diagnostic": [
+              0.7009368836291914,
+              0.8015285996055227
+            ],
+            "offsets_r": [
+              1213,
+              805
+            ],
+            "reflected_partner_indices": [
+              4472,
+              5696
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2843,
+                "shifted_factor_mod_p_squared": 798883,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 3251,
+                "shifted_factor_mod_p_squared": 2181421,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 4472,
+            "anomalous_primes": [
+              2843,
+              3889
+            ],
+            "prime_product": "11056427",
+            "S_over_n_diagnostic": 0.0036266821211553553,
+            "p_over_n_diagnostic": [
+              0.6357334525939177,
+              0.8696332737030411
+            ],
+            "offsets_r": [
+              1629,
+              583
+            ],
+            "reflected_partner_indices": [
+              4056,
+              7194
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 2843,
+                "shifted_factor_mod_p_squared": 8000202,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 3889,
+                "shifted_factor_mod_p_squared": 252785,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 5696,
+            "anomalous_primes": [
+              3251
+            ],
+            "prime_product": "3251",
+            "S_over_n_diagnostic": 0.0014197187360084104,
+            "p_over_n_diagnostic": [
+              0.570751404494382
+            ],
+            "offsets_r": [
+              2445
+            ],
+            "reflected_partner_indices": [
+              4056
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 3251,
+                "shifted_factor_mod_p_squared": 2929151,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 7194,
+            "anomalous_primes": [
+              3889
+            ],
+            "prime_product": "3889",
+            "S_over_n_diagnostic": 0.0011490001854539543,
+            "p_over_n_diagnostic": [
+              0.5405893800389213
+            ],
+            "offsets_r": [
+              3305
+            ],
+            "reflected_partner_indices": [
+              4472
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 3889,
+                "shifted_factor_mod_p_squared": 14525415,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            4056,
+            4472,
+            2843
+          ],
+          [
+            4056,
+            5696,
+            3251
+          ],
+          [
+            4472,
+            7194,
+            3889
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          7663,
+          9559,
+          10963,
+          12817
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 7663,
+            "anomalous_primes": [
+              5741
+            ],
+            "prime_product": "5741",
+            "S_over_n_diagnostic": 0.0011295039397321723,
+            "p_over_n_diagnostic": [
+              0.7491843925355605
+            ],
+            "offsets_r": [
+              1922
+            ],
+            "reflected_partner_indices": [
+              9559
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 5741,
+                "shifted_factor_mod_p_squared": 26603794,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 9559,
+            "anomalous_primes": [
+              5741,
+              6841,
+              7459
+            ],
+            "prime_product": "292946116079",
+            "S_over_n_diagnostic": 0.002762135633945371,
+            "p_over_n_diagnostic": [
+              0.6005858353384245,
+              0.715660633957527,
+              0.7803117480908045
+            ],
+            "offsets_r": [
+              3818,
+              2718,
+              2100
+            ],
+            "reflected_partner_indices": [
+              7663,
+              10963,
+              12817
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 5741,
+                "shifted_factor_mod_p_squared": 24686300,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 6841,
+                "shifted_factor_mod_p_squared": 38904767,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 7459,
+                "shifted_factor_mod_p_squared": 23764374,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 10963,
+            "anomalous_primes": [
+              6841
+            ],
+            "prime_product": "6841",
+            "S_over_n_diagnostic": 0.0008054993340108546,
+            "p_over_n_diagnostic": [
+              0.6240080269999088
+            ],
+            "offsets_r": [
+              4122
+            ],
+            "reflected_partner_indices": [
+              9559
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 6841,
+                "shifted_factor_mod_p_squared": 37714433,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 12817,
+            "anomalous_primes": [
+              7459
+            ],
+            "prime_product": "7459",
+            "S_over_n_diagnostic": 0.0006957304077362225,
+            "p_over_n_diagnostic": [
+              0.5819614574393384
+            ],
+            "offsets_r": [
+              5358
+            ],
+            "reflected_partner_indices": [
+              9559
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 7459,
+                "shifted_factor_mod_p_squared": 5892610,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            7663,
+            9559,
+            5741
+          ],
+          [
+            9559,
+            10963,
+            6841
+          ],
+          [
+            9559,
+            12817,
+            7459
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          42460,
+          45850,
+          68866,
+          79168
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 42460,
+            "anomalous_primes": [
+              29437,
+              40543
+            ],
+            "prime_product": "1193464291",
+            "S_over_n_diagnostic": 0.0004922309487454369,
+            "p_over_n_diagnostic": [
+              0.6932878002826189,
+              0.954851625058879
+            ],
+            "offsets_r": [
+              13023,
+              1917
+            ],
+            "reflected_partner_indices": [
+              45850,
+              79168
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 29437,
+                "shifted_factor_mod_p_squared": 226282219,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 40543,
+                "shifted_factor_mod_p_squared": 370035961,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 45850,
+            "anomalous_primes": [
+              29437,
+              38239
+            ],
+            "prime_product": "1125641443",
+            "S_over_n_diagnostic": 0.00045456093526002856,
+            "p_over_n_diagnostic": [
+              0.6420283533260632,
+              0.8340021810250818
+            ],
+            "offsets_r": [
+              16413,
+              7611
+            ],
+            "reflected_partner_indices": [
+              42460,
+              68866
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 29437,
+                "shifted_factor_mod_p_squared": 862739596,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 38239,
+                "shifted_factor_mod_p_squared": 416690383,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 68866,
+            "anomalous_primes": [
+              38239
+            ],
+            "prime_product": "38239",
+            "S_over_n_diagnostic": 0.0001532194583131849,
+            "p_over_n_diagnostic": [
+              0.5552667499201348
+            ],
+            "offsets_r": [
+              30627
+            ],
+            "reflected_partner_indices": [
+              45850
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 38239,
+                "shifted_factor_mod_p_squared": 731167919,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 79168,
+            "anomalous_primes": [
+              40543
+            ],
+            "prime_product": "40543",
+            "S_over_n_diagnostic": 0.00013402029125725965,
+            "p_over_n_diagnostic": [
+              0.5121134801940178
+            ],
+            "offsets_r": [
+              38625
+            ],
+            "reflected_partner_indices": [
+              42460
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 40543,
+                "shifted_factor_mod_p_squared": 1413815496,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            42460,
+            45850,
+            29437
+          ],
+          [
+            42460,
+            79168,
+            40543
+          ],
+          [
+            45850,
+            68866,
+            38239
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          52174,
+          53158,
+          55630,
+          75892
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 52174,
+            "anomalous_primes": [
+              35111,
+              42689
+            ],
+            "prime_product": "1498853479",
+            "S_over_n_diagnostic": 0.0004049520126012743,
+            "p_over_n_diagnostic": [
+              0.6729597117338137,
+              0.8182044696592172
+            ],
+            "offsets_r": [
+              17063,
+              9485
+            ],
+            "reflected_partner_indices": [
+              53158,
+              75892
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 35111,
+                "shifted_factor_mod_p_squared": 599801213,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 42689,
+                "shifted_factor_mod_p_squared": 687463656,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 53158,
+            "anomalous_primes": [
+              35111,
+              36263
+            ],
+            "prime_product": "1273230193",
+            "S_over_n_diagnostic": 0.0003943869778275012,
+            "p_over_n_diagnostic": [
+              0.6605026524699951,
+              0.6821738966853531
+            ],
+            "offsets_r": [
+              18047,
+              16895
+            ],
+            "reflected_partner_indices": [
+              52174,
+              55630
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 35111,
+                "shifted_factor_mod_p_squared": 694530691,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 36263,
+                "shifted_factor_mod_p_squared": 655272410,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 55630,
+            "anomalous_primes": [
+              36263
+            ],
+            "prime_product": "36263",
+            "S_over_n_diagnostic": 0.00018872107166427189,
+            "p_over_n_diagnostic": [
+              0.6518605069207263
+            ],
+            "offsets_r": [
+              19367
+            ],
+            "reflected_partner_indices": [
+              53158
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 36263,
+                "shifted_factor_mod_p_squared": 621547820,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 75892,
+            "anomalous_primes": [
+              42689
+            ],
+            "prime_product": "42689",
+            "S_over_n_diagnostic": 0.00014048511773030126,
+            "p_over_n_diagnostic": [
+              0.5624967058451483
+            ],
+            "offsets_r": [
+              33203
+            ],
+            "reflected_partner_indices": [
+              52174
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 42689,
+                "shifted_factor_mod_p_squared": 862275111,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            52174,
+            53158,
+            35111
+          ],
+          [
+            52174,
+            75892,
+            42689
+          ],
+          [
+            53158,
+            55630,
+            36263
+          ]
+        ]
+      },
+      {
+        "vertices": [
+          60881,
+          79047,
+          97629
+        ],
+        "anomalies_at_vertices": [
+          {
+            "n": 60881,
+            "anomalous_primes": [
+              46643,
+              52837
+            ],
+            "prime_product": "2464476191",
+            "S_over_n_diagnostic": 0.00035520515634237154,
+            "p_over_n_diagnostic": [
+              0.7661339334110806,
+              0.8678733923555789
+            ],
+            "offsets_r": [
+              14238,
+              8044
+            ],
+            "reflected_partner_indices": [
+              79047,
+              97629
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 46643,
+                "shifted_factor_mod_p_squared": 892000732,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 52837,
+                "shifted_factor_mod_p_squared": 1762008276,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 79047,
+            "anomalous_primes": [
+              46643
+            ],
+            "prime_product": "46643",
+            "S_over_n_diagnostic": 0.00013599855960916616,
+            "p_over_n_diagnostic": [
+              0.590066669196807
+            ],
+            "offsets_r": [
+              32404
+            ],
+            "reflected_partner_indices": [
+              60881
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 46643,
+                "shifted_factor_mod_p_squared": 749226509,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          },
+          {
+            "n": 97629,
+            "anomalous_primes": [
+              52837,
+              96017
+            ],
+            "prime_product": "5073250229",
+            "S_over_n_diagnostic": 0.00022889968677298827,
+            "p_over_n_diagnostic": [
+              0.5412018969773326,
+              0.9834885126345656
+            ],
+            "offsets_r": [
+              44792,
+              1612
+            ],
+            "reflected_partner_indices": [
+              60881,
+              190421
+            ],
+            "exact_top_half_lift_classes": [
+              {
+                "p": 52837,
+                "shifted_factor_mod_p_squared": 1223070876,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              },
+              {
+                "p": 96017,
+                "shifted_factor_mod_p_squared": 4923079641,
+                "gcd_valuation_at_p_by_established_lift_criterion": 1,
+                "positive_excess_beyond_factorial": false
+              }
+            ]
+          }
+        ],
+        "internal_reflection_edges": [
+          [
+            60881,
+            79047,
+            46643
+          ],
+          [
+            60881,
+            97629,
+            52837
+          ]
+        ]
+      }
+    ]
+  },
+  "range_summary": [
+    {
+      "range": [
+        1,
+        100
+      ],
+      "nonempty_indices": 12,
+      "events": 13,
+      "max_cluster_size": 2,
+      "diagnostic_ratio_winner": {
+        "n": 21,
+        "anomalous_primes": [
+          17
+        ],
+        "prime_product": "17",
+        "S_over_n_diagnostic": 0.1349149211455341,
+        "p_over_n_diagnostic": [
+          0.8095238095238095
+        ],
+        "offsets_r": [
+          4
+        ],
+        "reflected_partner_indices": [
+          29
+        ],
+        "exact_top_half_lift_classes": [
+          {
+            "p": 17,
+            "shifted_factor_mod_p_squared": 17,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          }
+        ]
+      }
+    },
+    {
+      "range": [
+        101,
+        1000
+      ],
+      "nonempty_indices": 116,
+      "events": 128,
+      "max_cluster_size": 2,
+      "diagnostic_ratio_winner": {
+        "n": 118,
+        "anomalous_primes": [
+          103,
+          107
+        ],
+        "prime_product": "11021",
+        "S_over_n_diagnostic": 0.07887760866687749,
+        "p_over_n_diagnostic": [
+          0.8728813559322034,
+          0.9067796610169492
+        ],
+        "offsets_r": [
+          15,
+          11
+        ],
+        "reflected_partner_indices": [
+          190,
+          202
+        ],
+        "exact_top_half_lift_classes": [
+          {
+            "p": 103,
+            "shifted_factor_mod_p_squared": 6077,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          },
+          {
+            "p": 107,
+            "shifted_factor_mod_p_squared": 9202,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          }
+        ]
+      }
+    },
+    {
+      "range": [
+        1001,
+        10000
+      ],
+      "nonempty_indices": 783,
+      "events": 816,
+      "max_cluster_size": 3,
+      "diagnostic_ratio_winner": {
+        "n": 1074,
+        "anomalous_primes": [
+          569,
+          811
+        ],
+        "prime_product": "461459",
+        "S_over_n_diagnostic": 0.012143527456463448,
+        "p_over_n_diagnostic": [
+          0.5297951582867784,
+          0.75512104283054
+        ],
+        "offsets_r": [
+          505,
+          263
+        ],
+        "reflected_partner_indices": [
+          632,
+          1358
+        ],
+        "exact_top_half_lift_classes": [
+          {
+            "p": 569,
+            "shifted_factor_mod_p_squared": 119490,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          },
+          {
+            "p": 811,
+            "shifted_factor_mod_p_squared": 30818,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          }
+        ]
+      }
+    },
+    {
+      "range": [
+        10001,
+        50000
+      ],
+      "nonempty_indices": 2784,
+      "events": 2864,
+      "max_cluster_size": 3,
+      "diagnostic_ratio_winner": {
+        "n": 10404,
+        "anomalous_primes": [
+          6947,
+          7549
+        ],
+        "prime_product": "52442903",
+        "S_over_n_diagnostic": 0.001708500151271867,
+        "p_over_n_diagnostic": [
+          0.6677239523260284,
+          0.7255863129565552
+        ],
+        "offsets_r": [
+          3457,
+          2855
+        ],
+        "reflected_partner_indices": [
+          10436,
+          12242
+        ],
+        "exact_top_half_lift_classes": [
+          {
+            "p": 6947,
+            "shifted_factor_mod_p_squared": 25877575,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          },
+          {
+            "p": 7549,
+            "shifted_factor_mod_p_squared": 41451559,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          }
+        ]
+      }
+    },
+    {
+      "range": [
+        50001,
+        100000
+      ],
+      "nonempty_indices": 3105,
+      "events": 3205,
+      "max_cluster_size": 3,
+      "diagnostic_ratio_winner": {
+        "n": 73219,
+        "anomalous_primes": [
+          37813,
+          44959,
+          53231
+        ],
+        "prime_product": "90494545359077",
+        "S_over_n_diagnostic": 0.00043890671400241186,
+        "p_over_n_diagnostic": [
+          0.516436990398667,
+          0.6140346085032573,
+          0.7270107485761892
+        ],
+        "offsets_r": [
+          35406,
+          28260,
+          19988
+        ],
+        "reflected_partner_indices": [
+          40219,
+          61657,
+          86473
+        ],
+        "exact_top_half_lift_classes": [
+          {
+            "p": 37813,
+            "shifted_factor_mod_p_squared": 1411105534,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          },
+          {
+            "p": 44959,
+            "shifted_factor_mod_p_squared": 904125490,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          },
+          {
+            "p": 53231,
+            "shifted_factor_mod_p_squared": 2169802022,
+            "gcd_valuation_at_p_by_established_lift_criterion": 1,
+            "positive_excess_beyond_factorial": false
+          }
+        ]
+      }
+    }
+  ],
+  "top_diagnostic_ratios": [
+    {
+      "n": 21,
+      "anomalous_primes": [
+        17
+      ],
+      "prime_product": "17",
+      "S_over_n_diagnostic": 0.1349149211455341,
+      "p_over_n_diagnostic": [
+        0.8095238095238095
+      ],
+      "offsets_r": [
+        4
+      ],
+      "reflected_partner_indices": [
+        29
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 17,
+          "shifted_factor_mod_p_squared": 17,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "anomalous_primes": [
+        37,
+        41
+      ],
+      "prime_product": "1517",
+      "S_over_n_diagnostic": 0.10771308793159606,
+      "p_over_n_diagnostic": [
+        0.5441176470588235,
+        0.6029411764705882
+      ],
+      "offsets_r": [
+        31,
+        27
+      ],
+      "reflected_partner_indices": [
+        42,
+        54
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 37,
+          "shifted_factor_mod_p_squared": 222,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 41,
+          "shifted_factor_mod_p_squared": 1189,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "anomalous_primes": [
+        23
+      ],
+      "prime_product": "23",
+      "S_over_n_diagnostic": 0.10451647386430499,
+      "p_over_n_diagnostic": [
+        0.7666666666666667
+      ],
+      "offsets_r": [
+        7
+      ],
+      "reflected_partner_indices": [
+        38
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 23,
+          "shifted_factor_mod_p_squared": 437,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "anomalous_primes": [
+        17
+      ],
+      "prime_product": "17",
+      "S_over_n_diagnostic": 0.09769701186400745,
+      "p_over_n_diagnostic": [
+        0.5862068965517241
+      ],
+      "offsets_r": [
+        12
+      ],
+      "reflected_partner_indices": [
+        21
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 17,
+          "shifted_factor_mod_p_squared": 34,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "anomalous_primes": [
+        37
+      ],
+      "prime_product": "37",
+      "S_over_n_diagnostic": 0.08597423601533867,
+      "p_over_n_diagnostic": [
+        0.8809523809523809
+      ],
+      "offsets_r": [
+        5
+      ],
+      "reflected_partner_indices": [
+        68
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 37,
+          "shifted_factor_mod_p_squared": 962,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 38,
+      "anomalous_primes": [
+        23
+      ],
+      "prime_product": "23",
+      "S_over_n_diagnostic": 0.08251300568234604,
+      "p_over_n_diagnostic": [
+        0.6052631578947368
+      ],
+      "offsets_r": [
+        15
+      ],
+      "reflected_partner_indices": [
+        30
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 23,
+          "shifted_factor_mod_p_squared": 276,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "anomalous_primes": [
+        41
+      ],
+      "prime_product": "41",
+      "S_over_n_diagnostic": 0.07901217163200655,
+      "p_over_n_diagnostic": [
+        0.8723404255319149
+      ],
+      "offsets_r": [
+        6
+      ],
+      "reflected_partner_indices": [
+        75
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 41,
+          "shifted_factor_mod_p_squared": 1640,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 118,
+      "anomalous_primes": [
+        103,
+        107
+      ],
+      "prime_product": "11021",
+      "S_over_n_diagnostic": 0.07887760866687749,
+      "p_over_n_diagnostic": [
+        0.8728813559322034,
+        0.9067796610169492
+      ],
+      "offsets_r": [
+        15,
+        11
+      ],
+      "reflected_partner_indices": [
+        190,
+        202
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 103,
+          "shifted_factor_mod_p_squared": 6077,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 9202,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 46,
+      "anomalous_primes": [
+        31
+      ],
+      "prime_product": "31",
+      "S_over_n_diagnostic": 0.0746518957496771,
+      "p_over_n_diagnostic": [
+        0.6739130434782609
+      ],
+      "offsets_r": [
+        15
+      ],
+      "reflected_partner_indices": [
+        46
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 31,
+          "shifted_factor_mod_p_squared": 124,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 54,
+      "anomalous_primes": [
+        41
+      ],
+      "prime_product": "41",
+      "S_over_n_diagnostic": 0.06876985308711682,
+      "p_over_n_diagnostic": [
+        0.7592592592592593
+      ],
+      "offsets_r": [
+        13
+      ],
+      "reflected_partner_indices": [
+        68
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 41,
+          "shifted_factor_mod_p_squared": 451,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 139,
+      "anomalous_primes": [
+        107,
+        113
+      ],
+      "prime_product": "12091",
+      "S_over_n_diagnostic": 0.06762745793650538,
+      "p_over_n_diagnostic": [
+        0.7697841726618705,
+        0.8129496402877698
+      ],
+      "offsets_r": [
+        32,
+        26
+      ],
+      "reflected_partner_indices": [
+        181,
+        199
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 8560,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 113,
+          "shifted_factor_mod_p_squared": 11639,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 58,
+      "anomalous_primes": [
+        47
+      ],
+      "prime_product": "47",
+      "S_over_n_diagnostic": 0.06638185520189756,
+      "p_over_n_diagnostic": [
+        0.8103448275862069
+      ],
+      "offsets_r": [
+        11
+      ],
+      "reflected_partner_indices": [
+        82
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 47,
+          "shifted_factor_mod_p_squared": 1786,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 166,
+      "anomalous_primes": [
+        127,
+        131
+      ],
+      "prime_product": "16637",
+      "S_over_n_diagnostic": 0.05855050849192616,
+      "p_over_n_diagnostic": [
+        0.7650602409638554,
+        0.7891566265060241
+      ],
+      "offsets_r": [
+        39,
+        35
+      ],
+      "reflected_partner_indices": [
+        214,
+        226
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 127,
+          "shifted_factor_mod_p_squared": 635,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 131,
+          "shifted_factor_mod_p_squared": 0,
+          "gcd_valuation_at_p_by_established_lift_criterion": 2,
+          "positive_excess_beyond_factorial": true
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "anomalous_primes": [
+        41
+      ],
+      "prime_product": "41",
+      "S_over_n_diagnostic": 0.0495142942227241,
+      "p_over_n_diagnostic": [
+        0.5466666666666666
+      ],
+      "offsets_r": [
+        34
+      ],
+      "reflected_partner_indices": [
+        47
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 41,
+          "shifted_factor_mod_p_squared": 1312,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 199,
+      "anomalous_primes": [
+        113,
+        137
+      ],
+      "prime_product": "15481",
+      "S_over_n_diagnostic": 0.04847923992231389,
+      "p_over_n_diagnostic": [
+        0.5678391959798995,
+        0.6884422110552764
+      ],
+      "offsets_r": [
+        86,
+        62
+      ],
+      "reflected_partner_indices": [
+        139,
+        211
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 113,
+          "shifted_factor_mod_p_squared": 1356,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 137,
+          "shifted_factor_mod_p_squared": 17262,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 202,
+      "anomalous_primes": [
+        107,
+        151
+      ],
+      "prime_product": "16157",
+      "S_over_n_diagnostic": 0.04797083500632094,
+      "p_over_n_diagnostic": [
+        0.5297029702970297,
+        0.7475247524752475
+      ],
+      "offsets_r": [
+        95,
+        51
+      ],
+      "reflected_partner_indices": [
+        118,
+        250
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 1819,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 151,
+          "shifted_factor_mod_p_squared": 21140,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 82,
+      "anomalous_primes": [
+        47
+      ],
+      "prime_product": "47",
+      "S_over_n_diagnostic": 0.04695301953304949,
+      "p_over_n_diagnostic": [
+        0.573170731707317
+      ],
+      "offsets_r": [
+        35
+      ],
+      "reflected_partner_indices": [
+        58
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 47,
+          "shifted_factor_mod_p_squared": 141,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 107,
+      "anomalous_primes": [
+        73
+      ],
+      "prime_product": "73",
+      "S_over_n_diagnostic": 0.04009775178643356,
+      "p_over_n_diagnostic": [
+        0.6822429906542056
+      ],
+      "offsets_r": [
+        34
+      ],
+      "reflected_partner_indices": [
+        111
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 73,
+          "shifted_factor_mod_p_squared": 0,
+          "gcd_valuation_at_p_by_established_lift_criterion": 2,
+          "positive_excess_beyond_factorial": true
+        }
+      ]
+    },
+    {
+      "n": 117,
+      "anomalous_primes": [
+        97
+      ],
+      "prime_product": "97",
+      "S_over_n_diagnostic": 0.03910009383336225,
+      "p_over_n_diagnostic": [
+        0.8290598290598291
+      ],
+      "offsets_r": [
+        20
+      ],
+      "reflected_partner_indices": [
+        173
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 97,
+          "shifted_factor_mod_p_squared": 485,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 111,
+      "anomalous_primes": [
+        73
+      ],
+      "prime_product": "73",
+      "S_over_n_diagnostic": 0.03865278775809361,
+      "p_over_n_diagnostic": [
+        0.6576576576576577
+      ],
+      "offsets_r": [
+        38
+      ],
+      "reflected_partner_indices": [
+        107
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 73,
+          "shifted_factor_mod_p_squared": 1168,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 301,
+      "anomalous_primes": [
+        241,
+        271
+      ],
+      "prime_product": "65311",
+      "S_over_n_diagnostic": 0.036833607157376595,
+      "p_over_n_diagnostic": [
+        0.8006644518272426,
+        0.9003322259136213
+      ],
+      "offsets_r": [
+        60,
+        30
+      ],
+      "reflected_partner_indices": [
+        421,
+        511
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 241,
+          "shifted_factor_mod_p_squared": 14219,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 271,
+          "shifted_factor_mod_p_squared": 31978,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 126,
+      "anomalous_primes": [
+        97
+      ],
+      "prime_product": "97",
+      "S_over_n_diagnostic": 0.03630722998812209,
+      "p_over_n_diagnostic": [
+        0.7698412698412699
+      ],
+      "offsets_r": [
+        29
+      ],
+      "reflected_partner_indices": [
+        164
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 97,
+          "shifted_factor_mod_p_squared": 2231,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 317,
+      "anomalous_primes": [
+        191,
+        251
+      ],
+      "prime_product": "47941",
+      "S_over_n_diagnostic": 0.03399913680497922,
+      "p_over_n_diagnostic": [
+        0.6025236593059937,
+        0.7917981072555205
+      ],
+      "offsets_r": [
+        126,
+        66
+      ],
+      "reflected_partner_indices": [
+        255,
+        435
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 191,
+          "shifted_factor_mod_p_squared": 33807,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 251,
+          "shifted_factor_mod_p_squared": 4518,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 404,
+      "anomalous_primes": [
+        277,
+        337
+      ],
+      "prime_product": "93349",
+      "S_over_n_diagnostic": 0.02832698127856361,
+      "p_over_n_diagnostic": [
+        0.6856435643564357,
+        0.8341584158415841
+      ],
+      "offsets_r": [
+        127,
+        67
+      ],
+      "reflected_partner_indices": [
+        426,
+        606
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 277,
+          "shifted_factor_mod_p_squared": 63433,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 337,
+          "shifted_factor_mod_p_squared": 112895,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 164,
+      "anomalous_primes": [
+        97
+      ],
+      "prime_product": "97",
+      "S_over_n_diagnostic": 0.02789457913721575,
+      "p_over_n_diagnostic": [
+        0.5914634146341463
+      ],
+      "offsets_r": [
+        67
+      ],
+      "reflected_partner_indices": [
+        126
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 97,
+          "shifted_factor_mod_p_squared": 1649,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 183,
+      "anomalous_primes": [
+        157
+      ],
+      "prime_product": "157",
+      "S_over_n_diagnostic": 0.02762975849917108,
+      "p_over_n_diagnostic": [
+        0.8579234972677595
+      ],
+      "offsets_r": [
+        26
+      ],
+      "reflected_partner_indices": [
+        287
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 157,
+          "shifted_factor_mod_p_squared": 23079,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 173,
+      "anomalous_primes": [
+        97
+      ],
+      "prime_product": "97",
+      "S_over_n_diagnostic": 0.026443416060713196,
+      "p_over_n_diagnostic": [
+        0.5606936416184971
+      ],
+      "offsets_r": [
+        76
+      ],
+      "reflected_partner_indices": [
+        117
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 97,
+          "shifted_factor_mod_p_squared": 1164,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 189,
+      "anomalous_primes": [
+        139
+      ],
+      "prime_product": "139",
+      "S_over_n_diagnostic": 0.026108327688522177,
+      "p_over_n_diagnostic": [
+        0.7354497354497355
+      ],
+      "offsets_r": [
+        50
+      ],
+      "reflected_partner_indices": [
+        227
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 139,
+          "shifted_factor_mod_p_squared": 7089,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 181,
+      "anomalous_primes": [
+        107
+      ],
+      "prime_product": "107",
+      "S_over_n_diagnostic": 0.025816733892054727,
+      "p_over_n_diagnostic": [
+        0.5911602209944752
+      ],
+      "offsets_r": [
+        74
+      ],
+      "reflected_partner_indices": [
+        139
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 6527,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 190,
+      "anomalous_primes": [
+        103
+      ],
+      "prime_product": "103",
+      "S_over_n_diagnostic": 0.024393310464366505,
+      "p_over_n_diagnostic": [
+        0.5421052631578948
+      ],
+      "offsets_r": [
+        87
+      ],
+      "reflected_partner_indices": [
+        118
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 103,
+          "shifted_factor_mod_p_squared": 3399,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    }
+  ],
+  "top_cluster_samples": [
+    {
+      "n": 2772,
+      "anomalous_primes": [
+        2383,
+        2671,
+        2689
+      ],
+      "prime_product": "17115466177",
+      "S_over_n_diagnostic": 0.008500450341442124,
+      "p_over_n_diagnostic": [
+        0.8596681096681097,
+        0.9635642135642135,
+        0.9700577200577201
+      ],
+      "offsets_r": [
+        389,
+        101,
+        83
+      ],
+      "reflected_partner_indices": [
+        4376,
+        5240,
+        5294
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 2383,
+          "shifted_factor_mod_p_squared": 3538755,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 2671,
+          "shifted_factor_mod_p_squared": 2697710,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 2689,
+          "shifted_factor_mod_p_squared": 3275202,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 9559,
+      "anomalous_primes": [
+        5741,
+        6841,
+        7459
+      ],
+      "prime_product": "292946116079",
+      "S_over_n_diagnostic": 0.002762135633945371,
+      "p_over_n_diagnostic": [
+        0.6005858353384245,
+        0.715660633957527,
+        0.7803117480908045
+      ],
+      "offsets_r": [
+        3818,
+        2718,
+        2100
+      ],
+      "reflected_partner_indices": [
+        7663,
+        10963,
+        12817
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 5741,
+          "shifted_factor_mod_p_squared": 24686300,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 6841,
+          "shifted_factor_mod_p_squared": 38904767,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 7459,
+          "shifted_factor_mod_p_squared": 23764374,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 29259,
+      "anomalous_primes": [
+        21139,
+        23027,
+        25343
+      ],
+      "prime_product": "12336155164279",
+      "S_over_n_diagnostic": 0.0010302319119190096,
+      "p_over_n_diagnostic": [
+        0.7224785536074371,
+        0.7870057076455108,
+        0.8661608393998428
+      ],
+      "offsets_r": [
+        8120,
+        6232,
+        3916
+      ],
+      "reflected_partner_indices": [
+        34157,
+        39821,
+        46769
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 21139,
+          "shifted_factor_mod_p_squared": 78214300,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 23027,
+          "shifted_factor_mod_p_squared": 436568893,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 25343,
+          "shifted_factor_mod_p_squared": 522750061,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 29158,
+      "anomalous_primes": [
+        17359,
+        23327,
+        26497
+      ],
+      "prime_product": "10729520114321",
+      "S_over_n_diagnostic": 0.0010290150198174015,
+      "p_over_n_diagnostic": [
+        0.5953426160916386,
+        0.8000205775430413,
+        0.9087385966115645
+      ],
+      "offsets_r": [
+        11799,
+        5831,
+        2661
+      ],
+      "reflected_partner_indices": [
+        22918,
+        40822,
+        50332
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 17359,
+          "shifted_factor_mod_p_squared": 258857408,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 23327,
+          "shifted_factor_mod_p_squared": 233643232,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 26497,
+          "shifted_factor_mod_p_squared": 700024243,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 40219,
+      "anomalous_primes": [
+        28393,
+        29723,
+        37813
+      ],
+      "prime_product": "31911341281007",
+      "S_over_n_diagnostic": 0.0007731167505056146,
+      "p_over_n_diagnostic": [
+        0.7059598697133196,
+        0.7390288172256894,
+        0.9401775280340138
+      ],
+      "offsets_r": [
+        11826,
+        10496,
+        2406
+      ],
+      "reflected_partner_indices": [
+        44959,
+        48949,
+        73219
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 28393,
+          "shifted_factor_mod_p_squared": 784299839,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 29723,
+          "shifted_factor_mod_p_squared": 500238090,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 37813,
+          "shifted_factor_mod_p_squared": 1126184579,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 73219,
+      "anomalous_primes": [
+        37813,
+        44959,
+        53231
+      ],
+      "prime_product": "90494545359077",
+      "S_over_n_diagnostic": 0.00043890671400241186,
+      "p_over_n_diagnostic": [
+        0.516436990398667,
+        0.6140346085032573,
+        0.7270107485761892
+      ],
+      "offsets_r": [
+        35406,
+        28260,
+        19988
+      ],
+      "reflected_partner_indices": [
+        40219,
+        61657,
+        86473
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 37813,
+          "shifted_factor_mod_p_squared": 1411105534,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 44959,
+          "shifted_factor_mod_p_squared": 904125490,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 53231,
+          "shifted_factor_mod_p_squared": 2169802022,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 68,
+      "anomalous_primes": [
+        37,
+        41
+      ],
+      "prime_product": "1517",
+      "S_over_n_diagnostic": 0.10771308793159606,
+      "p_over_n_diagnostic": [
+        0.5441176470588235,
+        0.6029411764705882
+      ],
+      "offsets_r": [
+        31,
+        27
+      ],
+      "reflected_partner_indices": [
+        42,
+        54
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 37,
+          "shifted_factor_mod_p_squared": 222,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 41,
+          "shifted_factor_mod_p_squared": 1189,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 118,
+      "anomalous_primes": [
+        103,
+        107
+      ],
+      "prime_product": "11021",
+      "S_over_n_diagnostic": 0.07887760866687749,
+      "p_over_n_diagnostic": [
+        0.8728813559322034,
+        0.9067796610169492
+      ],
+      "offsets_r": [
+        15,
+        11
+      ],
+      "reflected_partner_indices": [
+        190,
+        202
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 103,
+          "shifted_factor_mod_p_squared": 6077,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 9202,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 139,
+      "anomalous_primes": [
+        107,
+        113
+      ],
+      "prime_product": "12091",
+      "S_over_n_diagnostic": 0.06762745793650538,
+      "p_over_n_diagnostic": [
+        0.7697841726618705,
+        0.8129496402877698
+      ],
+      "offsets_r": [
+        32,
+        26
+      ],
+      "reflected_partner_indices": [
+        181,
+        199
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 8560,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 113,
+          "shifted_factor_mod_p_squared": 11639,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 166,
+      "anomalous_primes": [
+        127,
+        131
+      ],
+      "prime_product": "16637",
+      "S_over_n_diagnostic": 0.05855050849192616,
+      "p_over_n_diagnostic": [
+        0.7650602409638554,
+        0.7891566265060241
+      ],
+      "offsets_r": [
+        39,
+        35
+      ],
+      "reflected_partner_indices": [
+        214,
+        226
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 127,
+          "shifted_factor_mod_p_squared": 635,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 131,
+          "shifted_factor_mod_p_squared": 0,
+          "gcd_valuation_at_p_by_established_lift_criterion": 2,
+          "positive_excess_beyond_factorial": true
+        }
+      ]
+    },
+    {
+      "n": 199,
+      "anomalous_primes": [
+        113,
+        137
+      ],
+      "prime_product": "15481",
+      "S_over_n_diagnostic": 0.04847923992231389,
+      "p_over_n_diagnostic": [
+        0.5678391959798995,
+        0.6884422110552764
+      ],
+      "offsets_r": [
+        86,
+        62
+      ],
+      "reflected_partner_indices": [
+        139,
+        211
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 113,
+          "shifted_factor_mod_p_squared": 1356,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 137,
+          "shifted_factor_mod_p_squared": 17262,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 202,
+      "anomalous_primes": [
+        107,
+        151
+      ],
+      "prime_product": "16157",
+      "S_over_n_diagnostic": 0.04797083500632094,
+      "p_over_n_diagnostic": [
+        0.5297029702970297,
+        0.7475247524752475
+      ],
+      "offsets_r": [
+        95,
+        51
+      ],
+      "reflected_partner_indices": [
+        118,
+        250
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 107,
+          "shifted_factor_mod_p_squared": 1819,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 151,
+          "shifted_factor_mod_p_squared": 21140,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 301,
+      "anomalous_primes": [
+        241,
+        271
+      ],
+      "prime_product": "65311",
+      "S_over_n_diagnostic": 0.036833607157376595,
+      "p_over_n_diagnostic": [
+        0.8006644518272426,
+        0.9003322259136213
+      ],
+      "offsets_r": [
+        60,
+        30
+      ],
+      "reflected_partner_indices": [
+        421,
+        511
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 241,
+          "shifted_factor_mod_p_squared": 14219,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 271,
+          "shifted_factor_mod_p_squared": 31978,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 317,
+      "anomalous_primes": [
+        191,
+        251
+      ],
+      "prime_product": "47941",
+      "S_over_n_diagnostic": 0.03399913680497922,
+      "p_over_n_diagnostic": [
+        0.6025236593059937,
+        0.7917981072555205
+      ],
+      "offsets_r": [
+        126,
+        66
+      ],
+      "reflected_partner_indices": [
+        255,
+        435
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 191,
+          "shifted_factor_mod_p_squared": 33807,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 251,
+          "shifted_factor_mod_p_squared": 4518,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 404,
+      "anomalous_primes": [
+        277,
+        337
+      ],
+      "prime_product": "93349",
+      "S_over_n_diagnostic": 0.02832698127856361,
+      "p_over_n_diagnostic": [
+        0.6856435643564357,
+        0.8341584158415841
+      ],
+      "offsets_r": [
+        127,
+        67
+      ],
+      "reflected_partner_indices": [
+        426,
+        606
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 277,
+          "shifted_factor_mod_p_squared": 63433,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 337,
+          "shifted_factor_mod_p_squared": 112895,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 501,
+      "anomalous_primes": [
+        401,
+        457
+      ],
+      "prime_product": "183257",
+      "S_over_n_diagnostic": 0.024188911812775996,
+      "p_over_n_diagnostic": [
+        0.8003992015968064,
+        0.9121756487025948
+      ],
+      "offsets_r": [
+        100,
+        44
+      ],
+      "reflected_partner_indices": [
+        701,
+        869
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 401,
+          "shifted_factor_mod_p_squared": 144761,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 457,
+          "shifted_factor_mod_p_squared": 85002,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 574,
+      "anomalous_primes": [
+        349,
+        383
+      ],
+      "prime_product": "133667",
+      "S_over_n_diagnostic": 0.020562904026799778,
+      "p_over_n_diagnostic": [
+        0.60801393728223,
+        0.6672473867595818
+      ],
+      "offsets_r": [
+        225,
+        191
+      ],
+      "reflected_partner_indices": [
+        472,
+        574
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 349,
+          "shifted_factor_mod_p_squared": 77478,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 383,
+          "shifted_factor_mod_p_squared": 40981,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 899,
+      "anomalous_primes": [
+        563,
+        827
+      ],
+      "prime_product": "465601",
+      "S_over_n_diagnostic": 0.014517335175932572,
+      "p_over_n_diagnostic": [
+        0.6262513904338154,
+        0.9199110122358176
+      ],
+      "offsets_r": [
+        336,
+        72
+      ],
+      "reflected_partner_indices": [
+        789,
+        1581
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 563,
+          "shifted_factor_mod_p_squared": 74879,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 827,
+          "shifted_factor_mod_p_squared": 576419,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 927,
+      "anomalous_primes": [
+        577,
+        829
+      ],
+      "prime_product": "478333",
+      "S_over_n_diagnostic": 0.01410794220242006,
+      "p_over_n_diagnostic": [
+        0.622437971952535,
+        0.8942826321467098
+      ],
+      "offsets_r": [
+        350,
+        98
+      ],
+      "reflected_partner_indices": [
+        803,
+        1559
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 577,
+          "shifted_factor_mod_p_squared": 120593,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 829,
+          "shifted_factor_mod_p_squared": 24041,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 1074,
+      "anomalous_primes": [
+        569,
+        811
+      ],
+      "prime_product": "461459",
+      "S_over_n_diagnostic": 0.012143527456463448,
+      "p_over_n_diagnostic": [
+        0.5297951582867784,
+        0.75512104283054
+      ],
+      "offsets_r": [
+        505,
+        263
+      ],
+      "reflected_partner_indices": [
+        632,
+        1358
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 569,
+          "shifted_factor_mod_p_squared": 119490,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 811,
+          "shifted_factor_mod_p_squared": 30818,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 1071,
+      "anomalous_primes": [
+        643,
+        653
+      ],
+      "prime_product": "419879",
+      "S_over_n_diagnostic": 0.012089376147071942,
+      "p_over_n_diagnostic": [
+        0.6003734827264239,
+        0.6097105508870215
+      ],
+      "offsets_r": [
+        428,
+        418
+      ],
+      "reflected_partner_indices": [
+        857,
+        887
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 643,
+          "shifted_factor_mod_p_squared": 287421,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 653,
+          "shifted_factor_mod_p_squared": 336295,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 1248,
+      "anomalous_primes": [
+        709,
+        1031
+      ],
+      "prime_product": "730979",
+      "S_over_n_diagnostic": 0.010819022444350231,
+      "p_over_n_diagnostic": [
+        0.5681089743589743,
+        0.8261217948717948
+      ],
+      "offsets_r": [
+        539,
+        217
+      ],
+      "reflected_partner_indices": [
+        878,
+        1844
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 709,
+          "shifted_factor_mod_p_squared": 245314,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 1031,
+          "shifted_factor_mod_p_squared": 253626,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 1544,
+      "anomalous_primes": [
+        863,
+        1201
+      ],
+      "prime_product": "1036463",
+      "S_over_n_diagnostic": 0.0089710650991991,
+      "p_over_n_diagnostic": [
+        0.5589378238341969,
+        0.7778497409326425
+      ],
+      "offsets_r": [
+        681,
+        343
+      ],
+      "reflected_partner_indices": [
+        1044,
+        2058
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 863,
+          "shifted_factor_mod_p_squared": 264078,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 1201,
+          "shifted_factor_mod_p_squared": 289441,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 1669,
+      "anomalous_primes": [
+        1187,
+        1327
+      ],
+      "prime_product": "1575149",
+      "S_over_n_diagnostic": 0.008549946332499626,
+      "p_over_n_diagnostic": [
+        0.7112043139604554,
+        0.7950868783702816
+      ],
+      "offsets_r": [
+        482,
+        342
+      ],
+      "reflected_partner_indices": [
+        1891,
+        2311
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 1187,
+          "shifted_factor_mod_p_squared": 105643,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 1327,
+          "shifted_factor_mod_p_squared": 334404,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 2141,
+      "anomalous_primes": [
+        1721,
+        1979
+      ],
+      "prime_product": "3405859",
+      "S_over_n_diagnostic": 0.007025225474924851,
+      "p_over_n_diagnostic": [
+        0.8038299859878562,
+        0.9243344231667445
+      ],
+      "offsets_r": [
+        420,
+        162
+      ],
+      "reflected_partner_indices": [
+        3021,
+        3795
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 1721,
+          "shifted_factor_mod_p_squared": 1211584,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 1979,
+          "shifted_factor_mod_p_squared": 1038975,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 3417,
+      "anomalous_primes": [
+        2203,
+        3137
+      ],
+      "prime_product": "6910811",
+      "S_over_n_diagnostic": 0.004608895977463571,
+      "p_over_n_diagnostic": [
+        0.6447175885279485,
+        0.9180567749487855
+      ],
+      "offsets_r": [
+        1214,
+        280
+      ],
+      "reflected_partner_indices": [
+        3191,
+        5993
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 2203,
+          "shifted_factor_mod_p_squared": 1315191,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 3137,
+          "shifted_factor_mod_p_squared": 9003190,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 3494,
+      "anomalous_primes": [
+        2293,
+        3361
+      ],
+      "prime_product": "7706773",
+      "S_over_n_diagnostic": 0.00453852607629737,
+      "p_over_n_diagnostic": [
+        0.6562678878076703,
+        0.9619347452776188
+      ],
+      "offsets_r": [
+        1201,
+        133
+      ],
+      "reflected_partner_indices": [
+        3384,
+        6588
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 2293,
+          "shifted_factor_mod_p_squared": 2916696,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 3361,
+          "shifted_factor_mod_p_squared": 9316692,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 4056,
+      "anomalous_primes": [
+        2843,
+        3251
+      ],
+      "prime_product": "9242593",
+      "S_over_n_diagnostic": 0.003954470668627936,
+      "p_over_n_diagnostic": [
+        0.7009368836291914,
+        0.8015285996055227
+      ],
+      "offsets_r": [
+        1213,
+        805
+      ],
+      "reflected_partner_indices": [
+        4472,
+        5696
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 2843,
+          "shifted_factor_mod_p_squared": 798883,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 3251,
+          "shifted_factor_mod_p_squared": 2181421,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 4198,
+      "anomalous_primes": [
+        2399,
+        3359
+      ],
+      "prime_product": "8058241",
+      "S_over_n_diagnostic": 0.0037880433188308693,
+      "p_over_n_diagnostic": [
+        0.5714626012386851,
+        0.8001429252024773
+      ],
+      "offsets_r": [
+        1799,
+        839
+      ],
+      "reflected_partner_indices": [
+        2998,
+        5878
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 2399,
+          "shifted_factor_mod_p_squared": 1093944,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 3359,
+          "shifted_factor_mod_p_squared": 11128367,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    },
+    {
+      "n": 4373,
+      "anomalous_primes": [
+        3343,
+        4363
+      ],
+      "prime_product": "14585509",
+      "S_over_n_diagnostic": 0.003772133331704484,
+      "p_over_n_diagnostic": [
+        0.7644637548593642,
+        0.9977132403384404
+      ],
+      "offsets_r": [
+        1030,
+        10
+      ],
+      "reflected_partner_indices": [
+        5655,
+        8715
+      ],
+      "exact_top_half_lift_classes": [
+        {
+          "p": 3343,
+          "shifted_factor_mod_p_squared": 7795876,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        },
+        {
+          "p": 4363,
+          "shifted_factor_mod_p_squared": 6513959,
+          "gcd_valuation_at_p_by_established_lift_criterion": 1,
+          "positive_excess_beyond_factorial": false
+        }
+      ]
+    }
+  ],
+  "root_heavy_complete_prime_ranges": [
+    {
+      "p": 56807,
+      "lower_roots": [
+        1650,
+        7243,
+        13953,
+        15079,
+        27155
+      ],
+      "visible_roots": [
+        1650,
+        7243,
+        13953,
+        15079,
+        27155,
+        29651,
+        41727,
+        42853
+      ],
+      "full_digit_roots_by_reflection": [
+        1650,
+        7243,
+        13953,
+        15079,
+        27155,
+        29651,
+        41727,
+        42853,
+        49563,
+        55156
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 57713,
+      "lower_roots": [
+        8324,
+        14428,
+        18400,
+        19237
+      ],
+      "visible_roots": [
+        8324,
+        14428,
+        18400,
+        19237,
+        38475,
+        39312
+      ],
+      "full_digit_roots_by_reflection": [
+        8324,
+        14428,
+        18400,
+        19237,
+        38475,
+        39312,
+        43284,
+        49388
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 49727,
+      "lower_roots": [
+        9897,
+        14332,
+        15724,
+        19138
+      ],
+      "visible_roots": [
+        9897,
+        14332,
+        15724,
+        19138,
+        30588,
+        34002,
+        35394,
+        39829
+      ],
+      "full_digit_roots_by_reflection": [
+        9897,
+        14332,
+        15724,
+        19138,
+        30588,
+        34002,
+        35394,
+        39829
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 39679,
+      "lower_roots": [
+        1722,
+        3066,
+        4790,
+        19378
+      ],
+      "visible_roots": [
+        1722,
+        3066,
+        4790,
+        19378,
+        20300,
+        34888,
+        36612,
+        37956
+      ],
+      "full_digit_roots_by_reflection": [
+        1722,
+        3066,
+        4790,
+        19378,
+        20300,
+        34888,
+        36612,
+        37956
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 37273,
+      "lower_roots": [
+        4453,
+        7230,
+        12504,
+        13601
+      ],
+      "visible_roots": [
+        4453,
+        7230,
+        12504,
+        13601,
+        23671,
+        24768,
+        30042,
+        32819
+      ],
+      "full_digit_roots_by_reflection": [
+        4453,
+        7230,
+        12504,
+        13601,
+        23671,
+        24768,
+        30042,
+        32819
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 32251,
+      "lower_roots": [
+        2200,
+        3680,
+        7073,
+        11610
+      ],
+      "visible_roots": [
+        2200,
+        3680,
+        7073,
+        11610,
+        20640,
+        25177,
+        28570,
+        30050
+      ],
+      "full_digit_roots_by_reflection": [
+        2200,
+        3680,
+        7073,
+        11610,
+        20640,
+        25177,
+        28570,
+        30050
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 16229,
+      "lower_roots": [
+        1090,
+        1542,
+        6835,
+        8077
+      ],
+      "visible_roots": [
+        1090,
+        1542,
+        6835,
+        8077,
+        8151,
+        9393,
+        14686,
+        15138
+      ],
+      "full_digit_roots_by_reflection": [
+        1090,
+        1542,
+        6835,
+        8077,
+        8151,
+        9393,
+        14686,
+        15138
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 11717,
+      "lower_roots": [
+        2796,
+        4274,
+        4417,
+        4753
+      ],
+      "visible_roots": [
+        2796,
+        4274,
+        4417,
+        4753,
+        6963,
+        7299,
+        7442,
+        8920
+      ],
+      "full_digit_roots_by_reflection": [
+        2796,
+        4274,
+        4417,
+        4753,
+        6963,
+        7299,
+        7442,
+        8920
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 8753,
+      "lower_roots": [
+        1091,
+        2182,
+        3324,
+        3672
+      ],
+      "visible_roots": [
+        1091,
+        2182,
+        3324,
+        3672,
+        5080,
+        5428,
+        6570,
+        7661
+      ],
+      "full_digit_roots_by_reflection": [
+        1091,
+        2182,
+        3324,
+        3672,
+        5080,
+        5428,
+        6570,
+        7661
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 5683,
+      "lower_roots": [
+        2134,
+        2158,
+        2178,
+        2249
+      ],
+      "visible_roots": [
+        2134,
+        2158,
+        2178,
+        2249,
+        3433,
+        3504,
+        3524,
+        3548
+      ],
+      "full_digit_roots_by_reflection": [
+        2134,
+        2158,
+        2178,
+        2249,
+        3433,
+        3504,
+        3524,
+        3548
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 4391,
+      "lower_roots": [
+        216,
+        258,
+        821,
+        1155
+      ],
+      "visible_roots": [
+        216,
+        258,
+        821,
+        1155,
+        3235,
+        3569,
+        4132,
+        4174
+      ],
+      "full_digit_roots_by_reflection": [
+        216,
+        258,
+        821,
+        1155,
+        3235,
+        3569,
+        4132,
+        4174
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 2777,
+      "lower_roots": [
+        309,
+        551,
+        1286,
+        1382
+      ],
+      "visible_roots": [
+        309,
+        551,
+        1286,
+        1382,
+        1394,
+        1490,
+        2225,
+        2467
+      ],
+      "full_digit_roots_by_reflection": [
+        309,
+        551,
+        1286,
+        1382,
+        1394,
+        1490,
+        2225,
+        2467
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 66361,
+      "lower_roots": [
+        5531,
+        11879,
+        14715
+      ],
+      "visible_roots": [
+        5531,
+        11879,
+        14715
+      ],
+      "full_digit_roots_by_reflection": [
+        5531,
+        11879,
+        14715,
+        51645,
+        54481,
+        60829
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 65963,
+      "lower_roots": [
+        11479,
+        22763,
+        23333
+      ],
+      "visible_roots": [
+        11479,
+        22763,
+        23333
+      ],
+      "full_digit_roots_by_reflection": [
+        11479,
+        22763,
+        23333,
+        42629,
+        43199,
+        54483
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 62869,
+      "lower_roots": [
+        6765,
+        13965,
+        16245
+      ],
+      "visible_roots": [
+        6765,
+        13965,
+        16245
+      ],
+      "full_digit_roots_by_reflection": [
+        6765,
+        13965,
+        16245,
+        46623,
+        48903,
+        56103
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 61781,
+      "lower_roots": [
+        1631,
+        27500,
+        30059
+      ],
+      "visible_roots": [
+        1631,
+        27500,
+        30059,
+        31721,
+        34280
+      ],
+      "full_digit_roots_by_reflection": [
+        1631,
+        27500,
+        30059,
+        31721,
+        34280,
+        60149
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 60497,
+      "lower_roots": [
+        1428,
+        6049,
+        15124
+      ],
+      "visible_roots": [
+        1428,
+        6049,
+        15124
+      ],
+      "full_digit_roots_by_reflection": [
+        1428,
+        6049,
+        15124,
+        45372,
+        54447,
+        59068
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 60331,
+      "lower_roots": [
+        4372,
+        19064,
+        19699
+      ],
+      "visible_roots": [
+        4372,
+        19064,
+        19699
+      ],
+      "full_digit_roots_by_reflection": [
+        4372,
+        19064,
+        19699,
+        40631,
+        41266,
+        55958
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 60251,
+      "lower_roots": [
+        2227,
+        11768,
+        24625
+      ],
+      "visible_roots": [
+        2227,
+        11768,
+        24625,
+        35625
+      ],
+      "full_digit_roots_by_reflection": [
+        2227,
+        11768,
+        24625,
+        35625,
+        48482,
+        58023
+      ],
+      "whole_digit_range_scanned": true
+    },
+    {
+      "p": 59957,
+      "lower_roots": [
+        4644,
+        15238,
+        24582
+      ],
+      "visible_roots": [
+        4644,
+        15238,
+        24582,
+        35374
+      ],
+      "full_digit_roots_by_reflection": [
+        4644,
+        15238,
+        24582,
+        35374,
+        44718,
+        55312
+      ],
+      "whole_digit_range_scanned": true
+    }
+  ],
+  "runtime_seconds_diagnostic": 25.6917953029988,
+  "scope": "Finite exact certification and structural diagnostics only. No eventual S(n)<=n/6 bound, subexponential anomaly product, or global pi approximation conclusion is proved."
+}

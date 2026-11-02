@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "arithmetic": "Exact integers and rationals; no floating logarithms",
+  "finite_aggregate_and_fold": {
+    "maximum_index": 500,
+    "exact_aggregate_divisibilities_each": 499,
+    "exact_finite_quality_bounds": 499,
+    "top_half_valuation_checks": 11070,
+    "reflection_values_modulo_primes_through_199": 4225,
+    "folded_anomaly_checks": 84,
+    "odd_height_bounds": 501,
+    "edge_capacity_checks": 2951
+  },
+  "independent_direct_scan": {
+    "limit": 10000,
+    "method": "Unreflected integral-U modular recurrence",
+    "modular_steps": 2957978,
+    "anomaly_events": 957,
+    "nonempty_indices": 911,
+    "maximum_cluster_size": 3,
+    "S_n_less_than_n_over_6_each_index": 10000,
+    "unique_maximum_ratio": "ln(17)/21 at n=21",
+    "ascending_event_stream_sha256": "5e8f1b64e4f2ddcc58e6a37c057b24af85f86bbe53d4ff76d1b0be76bdd847b5"
+  },
+  "independent_triplet_lifts": {
+    "triples_checked": 6,
+    "prime_pairs_checked": 18,
+    "method": "Direct A,B recurrence modulo p squared; no shifted-transfer verifier imported",
+    "all_gcd_valuations_equal_one": true,
+    "no_positive_excess_among_these_first_layer_clusters": true,
+    "rows": [
+      {
+        "n": 2772,
+        "modular_checks": [
+          {
+            "p": 2383,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 3538755
+          },
+          {
+            "p": 2671,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 2697710
+          },
+          {
+            "p": 2689,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 3955519
+          }
+        ]
+      },
+      {
+        "n": 9559,
+        "modular_checks": [
+          {
+            "p": 5741,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 8272781
+          },
+          {
+            "p": 6841,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 7894514
+          },
+          {
+            "p": 7459,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 23764374
+          }
+        ]
+      },
+      {
+        "n": 29259,
+        "modular_checks": [
+          {
+            "p": 21139,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 78214300
+          },
+          {
+            "p": 23027,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 436568893
+          },
+          {
+            "p": 25343,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 522750061
+          }
+        ]
+      },
+      {
+        "n": 29158,
+        "modular_checks": [
+          {
+            "p": 17359,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 258857408
+          },
+          {
+            "p": 23327,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 233643232
+          },
+          {
+            "p": 26497,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 2066766
+          }
+        ]
+      },
+      {
+        "n": 40219,
+        "modular_checks": [
+          {
+            "p": 28393,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 21862610
+          },
+          {
+            "p": 29723,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 500238090
+          },
+          {
+            "p": 37813,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 303638390
+          }
+        ]
+      },
+      {
+        "n": 73219,
+        "modular_checks": [
+          {
+            "p": 37813,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 18717435
+          },
+          {
+            "p": 44959,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 904125490
+          },
+          {
+            "p": 53231,
+            "v_p_g": 1,
+            "v_p_g_minus_v_p_factorial": 0,
+            "A_n_mod_p_squared": 0,
+            "B_n_mod_p_squared": 2169802022
+          }
+        ]
+      }
+    ]
+  },
+  "scope": "Finite independent audits only. Written arguments prove the all-index budget, reflection and edge capacity. Eventual S(n)<=n/6 is not proved."
+}

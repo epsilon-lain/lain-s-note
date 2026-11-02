@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "prime_limit": 2000,
+  "index_limit": 1000,
+  "full_reflection_residue_checks": 277048,
+  "folding_equivalence_checks": 276746,
+  "odd_core_height_checks": 1001,
+  "edge_product_divisibility_checks": 1000,
+  "anomaly_events_in_finite_index_range": 141,
+  "residue_class_and_parity_examples": [
+    {
+      "p": 17,
+      "zero_degrees": [
+        4,
+        12
+      ]
+    },
+    {
+      "p": 23,
+      "zero_degrees": [
+        7,
+        15
+      ]
+    },
+    {
+      "p": 37,
+      "zero_degrees": [
+        5,
+        31
+      ]
+    },
+    {
+      "p": 41,
+      "zero_degrees": [
+        6,
+        13,
+        27,
+        34
+      ]
+    },
+    {
+      "p": 107,
+      "zero_degrees": [
+        11,
+        32,
+        74,
+        95
+      ]
+    }
+  ],
+  "scope": "Finite exact checks of the displayed structural identities. No uniform moving-diagonal S(n) bound is inferred."
+}
