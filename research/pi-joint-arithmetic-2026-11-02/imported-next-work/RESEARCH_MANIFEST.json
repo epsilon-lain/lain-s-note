@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "repository": "epsilon-lain/lain-s-note",
+  "baseline_commit": "befa7cf7a515a18c3bd00ef17a4c6f53dd9ae6df",
+  "scope": "Original derivations, classical Padé benchmark, exact finite audits and numerical illustrations; no rational approximation theorem.",
+  "files": [
+    {
+      "path": "PI_NEXT_WORK_20261102.md",
+      "sha256": "533a7f5bb15c935dd10c0e1d67036d89c67b20756a5989d1008e8960c7e36f53",
+      "bytes": 8464
+    },
+    {
+      "path": "root_geometry/INDEPENDENT_UNIQUE_ROOT_AUDIT.md",
+      "sha256": "5dc4790a125ff822d8230f0eb3fadc1a1dfd9793fd32fa68de0e70bb840e19db",
+      "bytes": 4109
+    },
+    {
+      "path": "root_geometry/UNIQUE_NEAR_PERIOD_ROOT.md",
+      "sha256": "cfddecac57094b2f0f82e37f31e5a3f0343d5862a906319f048a32ba346f5538",
+      "bytes": 6870
+    },
+    {
+      "path": "root_geometry/UNIQUE_NEAR_PERIOD_ROOT_LATEX.md",
+      "sha256": "61ac72d12413fa82dbcc9c6cfb67a5e42d14a5cde07554e1f696c99ed2ea78bb",
+      "bytes": 6889
+    },
+    {
+      "path": "root_geometry/unique_root_checks.json",
+      "sha256": "29a87bbbdae34992a065db7ddba46beef40d02ca95c9a570893eba231ad52e28",
+      "bytes": 2280
+    },
+    {
+      "path": "root_geometry/verify_unique_root.py",
+      "sha256": "134c8636e6b4001801521dcac54f1e30456e118f6f17479162c25db91b2bf25c",
+      "bytes": 6957
+    },
+    {
+      "path": "arithmetic_route/REFLECTION_HEIGHT.md",
+      "sha256": "dc0ce2886fef64614fe04aa9f97fb23916a6a4891fa96a0ce94efe49066d4614",
+      "bytes": 4255
+    },
+    {
+      "path": "arithmetic_route/factors.json",
+      "sha256": "b938f714fd8f94d695abce6611b70117fed01a73165a6eb4548787052a09504b",
+      "bytes": 3648
+    },
+    {
+      "path": "arithmetic_route/height_verification.json",
+      "sha256": "6d9b1d33624c6f5d5c50fef834d5d67b5bf1840b071eb1052e7ab67b8792033a",
+      "bytes": 1508
+    },
+    {
+      "path": "arithmetic_route/modular_irreducibility.json",
+      "sha256": "5d9de62405bf2fd9e176d7e040287c59b865fefc0a1ea16604d91acd0db943ce",
+      "bytes": 18140
+    },
+    {
+      "path": "arithmetic_route/verify_height.py",
+      "sha256": "707df1481375e0fdb611d233d8d32bc425eb34a0a8f1db94e39e765a14029490",
+      "bytes": 2291
+    },
+    {
+      "path": "arithmetic_route/verify_modular_irreducibility.py",
+      "sha256": "86237395f18260fb9353ba4fdaa68d8bb48f8126df734351201d96411a7f6126",
+      "bytes": 2935
+    },
+    {
+      "path": "literature/INDEPENDENT_PADE_HEIGHT_AUDIT.md",
+      "sha256": "ddfd6b454d1441c0b6eb9e80e3c28c61ad5a6218a89d632c20a270233dcc2fb3",
+      "bytes": 2349
+    },
+    {
+      "path": "literature/PADE_LINEAR_DEGREE_BENCHMARK.md",
+      "sha256": "9a7b634cf741d6bcd9cbe4d635f74c86a6066cf221b6426af485efc41c1ea476",
+      "bytes": 11253
+    },
+    {
+      "path": "literature/verify_pade_benchmark.py",
+      "sha256": "6c505f2375bd8f0089740af3eeb4b1c2ab770ebf3b44649a4f95b9f7335700b7",
+      "bytes": 1437
+    },
+    {
+      "path": "source-audit/nearest_root_scale_verification.json",
+      "sha256": "96db13c16a0c36c3c5f75945d17111a1adfd1d0627989103b56c83b4b569eff9",
+      "bytes": 1490
+    },
+    {
+      "path": "source-audit/period_log_derivative_verification.json",
+      "sha256": "10a0cace10bad644e9ae0853850c92ad6afaf452580f19c733b46b5e0d92f117",
+      "bytes": 733
+    },
+    {
+      "path": "source-audit/verify_nearest_root_scale.py",
+      "sha256": "2a17da22fc20d3f5537786dd0e9fa3e9d8aafbb93de74573c5f589978695403e",
+      "bytes": 7565
+    },
+    {
+      "path": "source-audit/verify_period_log_derivative.py",
+      "sha256": "0ac26697f7f7fd9f6a06572bb11e635b8e036ae551ba18b88e97ec8a84ca4b2d",
+      "bytes": 8681
+    }
+  ]
+}

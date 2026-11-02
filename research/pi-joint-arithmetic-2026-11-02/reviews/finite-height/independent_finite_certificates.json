@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "determinant_evaluations": 330,
+  "reflection_records": [
+    {
+      "n": 4,
+      "sign": "+",
+      "degree": 2,
+      "determinant_evaluations": 7,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "36"
+    },
+    {
+      "n": 4,
+      "sign": "-",
+      "degree": 2,
+      "determinant_evaluations": 7,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "-12"
+    },
+    {
+      "n": 6,
+      "sign": "+",
+      "degree": 6,
+      "determinant_evaluations": 16,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "-43200"
+    },
+    {
+      "n": 6,
+      "sign": "-",
+      "degree": 6,
+      "determinant_evaluations": 16,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "-8640"
+    },
+    {
+      "n": 8,
+      "sign": "+",
+      "degree": 12,
+      "determinant_evaluations": 29,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "-6096384000"
+    },
+    {
+      "n": 8,
+      "sign": "-",
+      "degree": 12,
+      "determinant_evaluations": 29,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "870912000"
+    },
+    {
+      "n": 10,
+      "sign": "+",
+      "degree": 20,
+      "determinant_evaluations": 46,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "199103024332800000"
+    },
+    {
+      "n": 10,
+      "sign": "-",
+      "degree": 20,
+      "determinant_evaluations": 46,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "22122558259200000"
+    },
+    {
+      "n": 12,
+      "sign": "+",
+      "degree": 30,
+      "determinant_evaluations": 67,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "2447847125319753400320000000"
+    },
+    {
+      "n": 12,
+      "sign": "-",
+      "degree": 30,
+      "determinant_evaluations": 67,
+      "coefficient_identity_certified": true,
+      "signed_constant_term": "-222531556847250309120000000"
+    }
+  ],
+  "prime_factorization_certificates": 22,
+  "modular_factors_Rabin_certified": 71,
+  "irreducibility_records": [
+    {
+      "n": 4,
+      "sign": "+",
+      "certificate_primes": [
+        7
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 4,
+      "sign": "-",
+      "certificate_primes": [
+        5
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 6,
+      "sign": "+",
+      "certificate_primes": [
+        7,
+        11
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 6,
+      "sign": "-",
+      "certificate_primes": [
+        7,
+        13
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 8,
+      "sign": "+",
+      "certificate_primes": [
+        11,
+        17
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 8,
+      "sign": "-",
+      "certificate_primes": [
+        11,
+        13
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 10,
+      "sign": "+",
+      "certificate_primes": [
+        11
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 10,
+      "sign": "-",
+      "certificate_primes": [
+        11,
+        13,
+        19,
+        37
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 12,
+      "sign": "+",
+      "certificate_primes": [
+        13,
+        19
+      ],
+      "Q_irreducible_certified": true
+    },
+    {
+      "n": 12,
+      "sign": "-",
+      "certificate_primes": [
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "Q_irreducible_certified": true
+    }
+  ],
+  "arithmetic": "standard-library exact integers and finite-field polynomials",
+  "scope": "Each fixture equals its defining reflection determinant by a polynomial degree bound and enough exact evaluations. All ten stored factors are Q-irreducible. No general-n irreducibility assertion."
+}

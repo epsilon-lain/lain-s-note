@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "source": "/workspace/scratch/443125adbea1/github-preservation-20261101/research/pi-joint-arithmetic-2026-11-02/imported-next-work/root_geometry/verify_unique_root.py",
+  "exact_checks": {
+    "B_recurrence": 1377,
+    "B_endpoint": 81,
+    "geometric_majorant": 1377,
+    "Laguerre_determinants": 49,
+    "mixed_coefficients": 27
+  },
+  "independent_sharpening_checks": {
+    "B_n2_exact_identity": 81,
+    "B_n2_based_geometric_envelope": 1296,
+    "rational_t_values": [
+      "6",
+      "44/7",
+      "7"
+    ],
+    "n_range_inclusive": [
+      4,
+      30
+    ],
+    "status": "PASS"
+  },
+  "numeric_examples_run": false,
+  "scope": "Finite exact algebra checks only; independent analytic review supplies asymptotic conclusions."
+}

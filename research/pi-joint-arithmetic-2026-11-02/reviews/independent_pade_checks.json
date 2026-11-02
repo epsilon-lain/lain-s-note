@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "exact_remainder_series_coefficients": 1333,
+  "coefficient_error_bounds": 1085,
+  "exact_full_denominator_checks": 1890,
+  "m_range": [
+    1,
+    31
+  ],
+  "explicit_local_threshold_verified": 10001,
+  "scope": "Exact finite algebra plus sufficient rational local estimates; no claim that finite tests prove the all-m remainder identity or asymptotic formulas."
+}

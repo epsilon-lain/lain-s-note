@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "pascal_dimensions": [
+    {
+      "n": 4,
+      "c_plus": -3,
+      "c_minus": 1
+    },
+    {
+      "n": 6,
+      "c_plus": 5,
+      "c_minus": -1
+    },
+    {
+      "n": 8,
+      "c_plus": -7,
+      "c_minus": 1
+    },
+    {
+      "n": 10,
+      "c_plus": 9,
+      "c_minus": -1
+    },
+    {
+      "n": 12,
+      "c_plus": -11,
+      "c_minus": 1
+    },
+    {
+      "n": 14,
+      "c_plus": 13,
+      "c_minus": -1
+    },
+    {
+      "n": 16,
+      "c_plus": -15,
+      "c_minus": 1
+    },
+    {
+      "n": 18,
+      "c_plus": 17,
+      "c_minus": -1
+    },
+    {
+      "n": 20,
+      "c_plus": -19,
+      "c_minus": 1
+    },
+    {
+      "n": 22,
+      "c_plus": 21,
+      "c_minus": -1
+    },
+    {
+      "n": 24,
+      "c_plus": -23,
+      "c_minus": 1
+    },
+    {
+      "n": 26,
+      "c_plus": 25,
+      "c_minus": -1
+    },
+    {
+      "n": 28,
+      "c_plus": -27,
+      "c_minus": 1
+    },
+    {
+      "n": 30,
+      "c_plus": 29,
+      "c_minus": -1
+    },
+    {
+      "n": 32,
+      "c_plus": -31,
+      "c_minus": 1
+    },
+    {
+      "n": 34,
+      "c_plus": 33,
+      "c_minus": -1
+    },
+    {
+      "n": 36,
+      "c_plus": -35,
+      "c_minus": 1
+    },
+    {
+      "n": 38,
+      "c_plus": 37,
+      "c_minus": -1
+    },
+    {
+      "n": 40,
+      "c_plus": -39,
+      "c_minus": 1
+    }
+  ],
+  "coefficient_fixtures_checked": [
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "scope": "Finite identities and coefficient checks; general height theorem is analytic."
+}

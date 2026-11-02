@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "all_n_telescoping_polynomial_identities": 2,
+  "families": [
+    {
+      "a": "1",
+      "c": "4",
+      "max_n": 100,
+      "exact_checks": 798
+    },
+    {
+      "a": "5",
+      "c": "1",
+      "max_n": 100,
+      "exact_checks": 798
+    },
+    {
+      "a": "239",
+      "c": "1",
+      "max_n": 100,
+      "exact_checks": 798
+    },
+    {
+      "a": "1/2",
+      "c": "7/3",
+      "max_n": 40,
+      "exact_checks": 318
+    }
+  ],
+  "integer_and_gcd_checks_through_n_100": 704,
+  "pi_interval_width_less_than": "10^(-800)",
+  "scope": "Exact algebra and finite inequalities only. Laplace constants and the general all-n claims are independently derived in INDEPENDENT_JOINT_ARITHMETIC_REVIEW.md. No subsequence or global pi bad-approximability claim."
+}

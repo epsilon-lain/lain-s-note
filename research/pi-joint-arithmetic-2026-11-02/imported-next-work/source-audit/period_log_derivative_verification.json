@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "endpoint_insertion_checks": 27,
+  "vandermonde_monomial_counts": {
+    "2": 3,
+    "3": 19,
+    "4": 201
+  },
+  "endpoint_monomial_integrals": 75,
+  "gamma_product_normalizations": 81,
+  "formal_reflection_moment_checks": 297,
+  "factorial_scale_checks": 29,
+  "epsilon_threshold_m": 10000,
+  "eventual_direction_threshold_n": 10001,
+  "epsilon_rational_majorant": "59983/930000",
+  "epsilon_majorant_strictly_below_one_twelfth": true,
+  "factorial_dominance_induction": true,
+  "scope": "Exact finite normalization and constant certificates. The all-size derivative asymptotic and maximal complex-disk scale are proved analytically in the note. No nearest-root theorem or pi bad-approximability claim."
+}

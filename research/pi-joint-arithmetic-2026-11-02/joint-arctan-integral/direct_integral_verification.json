@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "arithmetic": "Python standard-library exact rationals",
+  "maximum_n": 100,
+  "independent_rational_integral_reductions": 12,
+  "rational_recurrence_checks": 198,
+  "reduced_fraction_and_joint_cost_checks": 101,
+  "integer_wronskian_checks": 100,
+  "adjacent_gcd_product_divisibility_checks": 100,
+  "pi_interval_width_less_than": "1e-520",
+  "finite_best_n": 2,
+  "finite_best_fraction": "3/1",
+  "finite_best_quality": {
+    "lower_scaled_integer": 1415926535,
+    "upper_scaled_integer": 1415926536,
+    "decimal_places": 10
+  },
+  "samples": [
+    {
+      "n": 1,
+      "p": "4",
+      "q": "1",
+      "gcd": "1",
+      "Q": {
+        "lower_scaled_integer": 8584073464,
+        "upper_scaled_integer": 8584073465,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 8584073464,
+        "upper_scaled_integer": 8584073465,
+        "decimal_places": 10
+      },
+      "h_squared": "1"
+    },
+    {
+      "n": 2,
+      "p": "3",
+      "q": "1",
+      "gcd": "4",
+      "Q": {
+        "lower_scaled_integer": 1415926535,
+        "upper_scaled_integer": 1415926536,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 11327412287,
+        "upper_scaled_integer": 11327412288,
+        "decimal_places": 10
+      },
+      "h_squared": "8"
+    },
+    {
+      "n": 4,
+      "p": "160",
+      "q": "51",
+      "gcd": "4",
+      "Q": {
+        "lower_scaled_integer": 112824919870,
+        "upper_scaled_integer": 112824919871,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 12536102207,
+        "upper_scaled_integer": 12536102208,
+        "decimal_places": 10
+      },
+      "h_squared": "1/9"
+    },
+    {
+      "n": 8,
+      "p": "183296",
+      "q": "58345",
+      "gcd": "144",
+      "Q": {
+        "lower_scaled_integer": 130327383215047,
+        "upper_scaled_integer": 130327383215048,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 13298712572,
+        "upper_scaled_integer": 13298712573,
+        "decimal_places": 10
+      },
+      "h_squared": "1/9800"
+    },
+    {
+      "n": 16,
+      "p": "3111643512832",
+      "q": "990466892415",
+      "gcd": "3628800",
+      "Q": {
+        "lower_scaled_integer": 28486848625533365862762,
+        "upper_scaled_integer": 28486848625533365862763,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 13710436089,
+        "upper_scaled_integer": 13710436090,
+        "decimal_places": 10
+      },
+      "h_squared": "1/2077749273600"
+    },
+    {
+      "n": 32,
+      "p": "75529446903693013937121394688",
+      "q": "24041769647439184012627430175",
+      "gcd": "1779483279974400000",
+      "Q": {
+        "lower_scaled_integer": 9513966220578743229623033547067598239585659,
+        "upper_scaled_integer": 9513966220578743229623033547067598239585660,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 13923740246,
+        "upper_scaled_integer": 13923740247,
+        "decimal_places": 10
+      },
+      "h_squared": "1/683290987341241808745954017280000"
+    },
+    {
+      "n": 64,
+      "p": "49658565871021680189297064673937398677999829268060700672",
+      "q": "15806812450455182893621145284198377096825185369685045475",
+      "gcd": "1640849865928598528513141013018890378538909696000000000000",
+      "Q": {
+        "lower_scaled_integer": 1311127303138107014101977039498046867917665882226385814829862725533076245,
+        "upper_scaled_integer": 1311127303138107014101977039498046867917665882226385814829862725533076246,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 14032295845,
+        "upper_scaled_integer": 14032295846,
+        "decimal_places": 10
+      },
+      "h_squared": "1/93436406814484321517630119812235259648923900124591911075840000"
+    },
+    {
+      "n": 100,
+      "p": "949895695467322064178267224007630770898785024144498215980623724957980693148855006153146368",
+      "q": "302361190710675970734642763317044988823491814583306232106762567981422282855138866390525145",
+      "gcd": "3043575791263569038413923039102385111591575487919356101002290509178247864711852851200000000000000000000000",
+      "Q": {
+        "lower_scaled_integer": 132307759747309810179029652842234120045526459794041395620736590822774078070317051368348926515430259336188455687948,
+        "upper_scaled_integer": 132307759747309810179029652842234120045526459794041395620736590822774078070317051368348926515430259336188455687949,
+        "decimal_places": 10
+      },
+      "analytic_normalization_n_ell_squared_error": {
+        "lower_scaled_integer": 14071689663,
+        "upper_scaled_integer": 14071689664,
+        "decimal_places": 10
+      },
+      "h_squared": "1/9402407451826562774225193241148140025894874755075080917716381015717093058934775760172205401147057373184"
+    }
+  ],
+  "scope": "Exact finite algebraic and error certificates. The Laplace asymptotic, gcd threshold equivalence and limiting neighbor bound are proved in the note, not inferred from these samples. No infinite subsequence or pi bad-approximability conclusion."
+}

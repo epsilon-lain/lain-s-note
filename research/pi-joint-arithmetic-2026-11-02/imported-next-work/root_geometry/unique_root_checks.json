@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "exact": {
+    "B_recurrence": 1377,
+    "B_endpoint": 81,
+    "geometric_majorant": 1377,
+    "Laguerre_determinants": 49,
+    "mixed_coefficients": 27
+  },
+  "numeric": [
+    {
+      "n": 4,
+      "imaginary_root": "6.0",
+      "root_offset": "-0.2831853071795865",
+      "offset_over_exact_Newton": "(1.272464301223173 + 3.010130579944021e-179j)",
+      "K_times_distance": "1.476733632039288",
+      "absolute_residual": "0",
+      "scope": "high-precision numerical illustration; not a root isolation proof"
+    },
+    {
+      "n": 6,
+      "imaginary_root": "6.28287192449917626861386150582396927485009202",
+      "root_offset": "-0.0003133826804102083",
+      "offset_over_exact_Newton": "(0.998599614612749 + 4.542257490227472e-175j)",
+      "K_times_distance": "1.31841834846271",
+      "absolute_residual": "3.2775e-174",
+      "scope": "high-precision numerical illustration; not a root isolation proof"
+    },
+    {
+      "n": 8,
+      "imaginary_root": "6.28318523335947346839720265769005042410141355",
+      "root_offset": "-7.382011300852808e-8",
+      "offset_over_exact_Newton": "(0.9991234927828824 - 7.532343021734107e-171j)",
+      "K_times_distance": "1.210795643877875",
+      "absolute_residual": "8.9796e-176",
+      "scope": "high-precision numerical illustration; not a root isolation proof"
+    },
+    {
+      "n": 10,
+      "imaginary_root": "6.28318530717369688220522998321285702032460774",
+      "root_offset": "-5.889594720056783e-12",
+      "offset_over_exact_Newton": "(0.9995763635886684 + 1.543614830940009e-167j)",
+      "K_times_distance": "1.157157413821797",
+      "absolute_residual": "1.3533e-182",
+      "scope": "high-precision numerical illustration; not a root isolation proof"
+    },
+    {
+      "n": 12,
+      "imaginary_root": "6.28318530717958627741100906326234288368525128",
+      "root_offset": "-1.995142777032967e-16",
+      "offset_over_exact_Newton": "(0.9997657305070664 - 4.869565980484023e-162j)",
+      "K_times_distance": "1.125231157446787",
+      "absolute_residual": "4.1139e-196",
+      "scope": "high-precision numerical illustration; not a root isolation proof"
+    }
+  ],
+  "scope": "Finite identity audits and numerical illustrations; all asymptotic root assertions require the proof."
+}

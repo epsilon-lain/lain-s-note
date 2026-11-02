@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-02",
+  "repository": "epsilon-lain/lain-s-note",
+  "baseline_commit": "befa7cf7a515a18c3bd00ef17a4c6f53dd9ae6df",
+  "input_archive_filename": "pi_next_work_20261102.zip",
+  "input_archive_sha256": "45f0f7c529c2002b46214b6158821bdded09995771690f1de5ba47e7efddd5f5",
+  "input_manifest_entries_verified_unchanged": 19,
+  "python_version": "3.12.14",
+  "status": "six packaged standard-library verification entry points passed",
+  "runs": [
+    {
+      "script": "reviews/verify_newton_exact.py",
+      "command": "python -B reviews/verify_newton_exact.py",
+      "exit_code": 0,
+      "seconds": 0.425898516,
+      "stdout_log": "newton.stdout.txt",
+      "result_report": "reviews/newton_exact_check_results.json",
+      "result_status": "PASS",
+      "stdout_sha256": "3253c12e3841a21eb3429a813e2d627769ca0ec013557d43a039147188e23517"
+    },
+    {
+      "script": "reviews/finite-height/independent_finite_certificates.py",
+      "command": "python -B reviews/finite-height/independent_finite_certificates.py",
+      "exit_code": 0,
+      "seconds": 0.128706499,
+      "stdout_log": "finite_height.stdout.txt",
+      "result_report": "reviews/finite-height/independent_finite_certificates.json",
+      "result_status": "passed",
+      "stdout_sha256": "47bf87bef7cf5333ce3b83c63900b87e79ae0f05c4be2a6ddf65e9a40cb81291"
+    },
+    {
+      "script": "reviews/independent_pade_checks.py",
+      "command": "python -B reviews/independent_pade_checks.py",
+      "exit_code": 0,
+      "seconds": 0.121269619,
+      "stdout_log": "pade.stdout.txt",
+      "result_report": "reviews/independent_pade_checks.json",
+      "result_status": "passed",
+      "stdout_sha256": "8baedd9c25b335e4f4d39a6330716ee73dc486e480257c76ce7c559a78e7f2cd"
+    },
+    {
+      "script": "joint-log-pade/verify_legendre_arctan_joint.py",
+      "command": "python -B joint-log-pade/verify_legendre_arctan_joint.py",
+      "exit_code": 0,
+      "seconds": 0.230321773,
+      "stdout_log": "legendre.stdout.txt",
+      "result_report": "joint-log-pade/legendre_arctan_joint_verification.json",
+      "result_status": "passed",
+      "stdout_sha256": "12a6649e243e1167f365afb32e58ed276784d014291ebc4c57181e2be1097d56"
+    },
+    {
+      "script": "joint-arctan-integral/verify_direct_integral.py",
+      "command": "python -B joint-arctan-integral/verify_direct_integral.py",
+      "exit_code": 0,
+      "seconds": 0.033449536,
+      "stdout_log": "direct.stdout.txt",
+      "result_report": "joint-arctan-integral/direct_integral_verification.json",
+      "result_status": "passed",
+      "stdout_sha256": "913f78dbf6079068769e1b1265c9c7a45812a9812dfdb5f39d908d0917364137"
+    },
+    {
+      "script": "reviews/independent_joint_arithmetic_checks.py",
+      "command": "python -B reviews/independent_joint_arithmetic_checks.py",
+      "exit_code": 0,
+      "seconds": 0.726704519,
+      "stdout_log": "joint_review.stdout.txt",
+      "result_report": "reviews/independent_joint_arithmetic_checks.json",
+      "result_status": "passed",
+      "stdout_sha256": "1ba1874c7a995058ae56f425c86fbf05dede0ed37fe598d44dd61d4de970b3b9"
+    }
+  ],
+  "independent_review_files": [
+    "reviews/INDEPENDENT_HEIGHT_PADE_REVIEW.md",
+    "reviews/INDEPENDENT_JOINT_ARITHMETIC_REVIEW.md",
+    "reviews/INDEPENDENT_NEWTON_REVIEW.md",
+    "reviews/finite-height/FINITE_CERTIFICATE_REVIEW.md"
+  ],
+  "review_scope": "Separate research agents derived the arguments and ran exact checks; not external peer review.",
+  "claims": "Imported root/height advances independently audited. New all-n integer linear forms, reduced-denominator gcd threshold, and fixed-gap quality obstructions proved analytically. Infinite sparse success remains unresolved; no pi BA/nonBA result or new rational approximation record.",
+  "range_correction": "Imported Padé benchmark equation (13) requires b>=2 (q>=3); original bytes preserved, correction recorded in SOURCE_AND_SCOPE.md.",
+  "numeric_root_examples_needed_for_proof": false,
+  "relative_markdown_file_links_checked": [
+    {
+      "source": "README.md",
+      "target": "imported-next-work/PI_NEXT_WORK_20261102.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/INDEPENDENT_HEIGHT_PADE_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/INDEPENDENT_NEWTON_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "joint-arctan-integral/DIRECT_INTEGRAL_GCD_THRESHOLD.md"
+    },
+    {
+      "source": "README.md",
+      "target": "reviews/INDEPENDENT_JOINT_ARITHMETIC_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "joint-log-pade/LEGENDRE_ARCTAN_JOINT_COST.md"
+    },
+    {
+      "source": "README.md",
+      "target": "../pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "../pi-endpoint-sensitivity-2026-11-02/period-derivative-scale/PERIOD_LOG_DERIVATIVE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCE_AND_SCOPE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "CHECKS.json"
+    },
+    {
+      "source": "joint-log-pade/LEGENDRE_ARCTAN_JOINT_COST.md",
+      "target": "../joint-arctan-integral/DIRECT_INTEGRAL_GCD_THRESHOLD.md"
+    }
+  ],
+  "sha256": {
+    "README.md": "313a2c9884b0feb5920f795e60eea587277b8734a58cfbd5a8bfd566aa5d5f40",
+    "SOURCE_AND_SCOPE.md": "c8587acd89d96fa9883736789665b6c83fa1ce9ee6a0fa52212f3d86afe65db2",
+    "imported-next-work/PI_NEXT_WORK_20261102.md": "533a7f5bb15c935dd10c0e1d67036d89c67b20756a5989d1008e8960c7e36f53",
+    "imported-next-work/RESEARCH_MANIFEST.json": "81d6afed72c6d888c758a17772870ac3371f5218eb71547974484708c59227e3",
+    "imported-next-work/arithmetic_route/REFLECTION_HEIGHT.md": "dc0ce2886fef64614fe04aa9f97fb23916a6a4891fa96a0ce94efe49066d4614",
+    "imported-next-work/arithmetic_route/factors.json": "b938f714fd8f94d695abce6611b70117fed01a73165a6eb4548787052a09504b",
+    "imported-next-work/arithmetic_route/height_verification.json": "6d9b1d33624c6f5d5c50fef834d5d67b5bf1840b071eb1052e7ab67b8792033a",
+    "imported-next-work/arithmetic_route/modular_irreducibility.json": "5d9de62405bf2fd9e176d7e040287c59b865fefc0a1ea16604d91acd0db943ce",
+    "imported-next-work/arithmetic_route/verify_height.py": "707df1481375e0fdb611d233d8d32bc425eb34a0a8f1db94e39e765a14029490",
+    "imported-next-work/arithmetic_route/verify_modular_irreducibility.py": "86237395f18260fb9353ba4fdaa68d8bb48f8126df734351201d96411a7f6126",
+    "imported-next-work/literature/INDEPENDENT_PADE_HEIGHT_AUDIT.md": "ddfd6b454d1441c0b6eb9e80e3c28c61ad5a6218a89d632c20a270233dcc2fb3",
+    "imported-next-work/literature/PADE_LINEAR_DEGREE_BENCHMARK.md": "9a7b634cf741d6bcd9cbe4d635f74c86a6066cf221b6426af485efc41c1ea476",
+    "imported-next-work/literature/verify_pade_benchmark.py": "6c505f2375bd8f0089740af3eeb4b1c2ab770ebf3b44649a4f95b9f7335700b7",
+    "imported-next-work/root_geometry/INDEPENDENT_UNIQUE_ROOT_AUDIT.md": "5dc4790a125ff822d8230f0eb3fadc1a1dfd9793fd32fa68de0e70bb840e19db",
+    "imported-next-work/root_geometry/UNIQUE_NEAR_PERIOD_ROOT.md": "cfddecac57094b2f0f82e37f31e5a3f0343d5862a906319f048a32ba346f5538",
+    "imported-next-work/root_geometry/UNIQUE_NEAR_PERIOD_ROOT_LATEX.md": "61ac72d12413fa82dbcc9c6cfb67a5e42d14a5cde07554e1f696c99ed2ea78bb",
+    "imported-next-work/root_geometry/unique_root_checks.json": "29a87bbbdae34992a065db7ddba46beef40d02ca95c9a570893eba231ad52e28",
+    "imported-next-work/root_geometry/verify_unique_root.py": "134c8636e6b4001801521dcac54f1e30456e118f6f17479162c25db91b2bf25c",
+    "imported-next-work/source-audit/nearest_root_scale_verification.json": "96db13c16a0c36c3c5f75945d17111a1adfd1d0627989103b56c83b4b569eff9",
+    "imported-next-work/source-audit/period_log_derivative_verification.json": "10a0cace10bad644e9ae0853850c92ad6afaf452580f19c733b46b5e0d92f117",
+    "imported-next-work/source-audit/verify_nearest_root_scale.py": "2a17da22fc20d3f5537786dd0e9fa3e9d8aafbb93de74573c5f589978695403e",
+    "imported-next-work/source-audit/verify_period_log_derivative.py": "0ac26697f7f7fd9f6a06572bb11e635b8e036ae551ba18b88e97ec8a84ca4b2d",
+    "joint-arctan-integral/DIRECT_INTEGRAL_GCD_THRESHOLD.md": "b98fa2f102d74c242a74d71106c5021450434b35f9a569e61385de2e10068427",
+    "joint-arctan-integral/direct_integral_verification.json": "556bc2cf721943744c8971837431912a335d358f157b66d8bb69998f1b409f73",
+    "joint-arctan-integral/verify_direct_integral.py": "247c072c70619f5f62ca79db1468b42be44b6c5d8c4334195d6bb668662c109b",
+    "joint-log-pade/LEGENDRE_ARCTAN_JOINT_COST.md": "0d3d0046f6b885162512c3b4df52f07956b401f3659f19b726efd7ad2a396167",
+    "joint-log-pade/legendre_arctan_joint_verification.json": "b0ab08e31bd9977eab9dca7fd5afb8598ed7c2b97dfb25ba09c30c1819213dd3",
+    "joint-log-pade/verify_legendre_arctan_joint.py": "2a27e947d7cbe3434e6061df81cdcccfff644f87dd5567996e773e98edb57c9e",
+    "reviews/INDEPENDENT_HEIGHT_PADE_REVIEW.md": "1c9907593a450ba00cad6aed0ca4ef0516ab52538714d4158d21860904a291fa",
+    "reviews/INDEPENDENT_JOINT_ARITHMETIC_REVIEW.md": "fe854e328dcad9f1ef99f31e0c8dac8a106db2fe1a804a62b806591c97eafca1",
+    "reviews/INDEPENDENT_NEWTON_REVIEW.md": "3a28c2aa34bbe40e99cf6bbc1d05b69159cc06992fade102d6d245c940d16407",
+    "reviews/finite-height/FINITE_CERTIFICATE_REVIEW.md": "ac428d363f6efd32e42e578281af362ce29f67d7e19ff6c9225c6c0e0a3dd9c8",
+    "reviews/finite-height/independent_finite_certificates.json": "3bc01fa1f49e9521fac81cdc8bcbe9f05a5b1ab769cf7ee09f4bc22d0f801729",
+    "reviews/finite-height/independent_finite_certificates.py": "acc9ec30002aff88d1dda4be57473cc226d155af72e8882e5570b34f679cf26a",
+    "reviews/independent_joint_arithmetic_checks.json": "1ba1874c7a995058ae56f425c86fbf05dede0ed37fe598d44dd61d4de970b3b9",
+    "reviews/independent_joint_arithmetic_checks.py": "0a3175f7092695de6cf7ce1c85056049c49e656eaf2338dc1c147f30ef18477e",
+    "reviews/independent_pade_checks.json": "8baedd9c25b335e4f4d39a6330716ee73dc486e480257c76ce7c559a78e7f2cd",
+    "reviews/independent_pade_checks.py": "8a5523ac3ca05eb7c31e0c07437e228de45a8253170146201b43b1ffe9355606",
+    "reviews/newton_exact_check_results.json": "3253c12e3841a21eb3429a813e2d627769ca0ec013557d43a039147188e23517",
+    "reviews/verify_newton_exact.py": "f4288b46ccb3da6ff4762bad3d293f700d3759b6c6a46abf6710d97f9d6293db"
+  },
+  "manifest_excludes_its_own_checksum": true
+}

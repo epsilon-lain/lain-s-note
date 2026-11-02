@@ -1,0 +1,917 @@
+{
+  "status": "passed",
+  "arithmetic": "exact fractions; Python standard library only",
+  "scope": "All-n joint-quality result is analytic. Finite ranges do not exclude good subsequences or decide pi bad approximability.",
+  "polynomial_checks": {
+    "rodrigues_coefficients": 13,
+    "orthogonality": 78,
+    "squared_norms": 13,
+    "endpoint_real_phase_and_W": 52
+  },
+  "pi_interval": {
+    "lower_integer": "31415926535",
+    "upper_integer": "31415926536",
+    "power_of_ten": -10,
+    "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+  },
+  "interval_provenance": {
+    "atan_1_over_5_terms": 500,
+    "atan_1_over_239_terms": 200,
+    "machin_identity_tangent_checks": "passed"
+  },
+  "families": [
+    {
+      "a": "1",
+      "c": "4",
+      "last_n": 100,
+      "wronskian_reduced_denominator_and_adjacent_quality_checks": 100,
+      "same_parity_reduced_denominator_and_quality_checks": 99,
+      "strict_analytic_error_and_alternating_sign_checks": 101,
+      "unique_minimum_quality_in_checked_range": {
+        "n": 2,
+        "p": "3",
+        "q": "1",
+        "q_digits": 1,
+        "absolute_error": {
+          "lower_integer": "14159265358",
+          "upper_integer": "14159265359",
+          "power_of_ten": -11,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "14159265358",
+          "upper_integer": "14159265359",
+          "power_of_ten": -11,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      "selected_rows": [
+        {
+          "n": 0,
+          "p": "0",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "31415926535",
+            "upper_integer": "31415926536",
+            "power_of_ten": -10,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "31415926535",
+            "upper_integer": "31415926536",
+            "power_of_ten": -10,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 1,
+          "p": "4",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "85840734641",
+            "upper_integer": "85840734642",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "85840734641",
+            "upper_integer": "85840734642",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 2,
+          "p": "3",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "14159265358",
+            "upper_integer": "14159265359",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "14159265358",
+            "upper_integer": "14159265359",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 3,
+          "p": "19",
+          "q": "6",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "25074013076",
+            "upper_integer": "25074013077",
+            "power_of_ten": -12,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "90266447076",
+            "upper_integer": "90266447077",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 5,
+          "p": "1744",
+          "q": "555",
+          "q_digits": 3,
+          "absolute_error": {
+            "lower_integer": "74968875254",
+            "upper_integer": "74968875255",
+            "power_of_ten": -14,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "23092287800",
+            "upper_integer": "23092287801",
+            "power_of_ten": -8,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 10,
+          "p": "4317632",
+          "q": "1374345",
+          "q_digits": 7,
+          "absolute_error": {
+            "lower_integer": "11314325325",
+            "upper_integer": "11314325326",
+            "power_of_ten": -17,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "21370771243",
+            "upper_integer": "21370771244",
+            "power_of_ten": -5,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 20,
+          "p": "4080033616887808",
+          "q": "1298715036217599",
+          "q_digits": 16,
+          "absolute_error": {
+            "lower_integer": "25215316390",
+            "upper_integer": "25215316391",
+            "power_of_ten": -25,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "42529684335",
+            "upper_integer": "42529684336",
+            "power_of_ten": 5,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 50,
+          "p": "645344067088708499084128752426733841265197056",
+          "q": "205419396544391373693847962022223440202351925",
+          "q_digits": 45,
+          "absolute_error": {
+            "lower_integer": "27374460240",
+            "upper_integer": "27374460241",
+            "power_of_ten": -48,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "11551236157",
+            "upper_integer": "11551236158",
+            "power_of_ten": 41,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 100,
+          "p": "949895695467322064178267224007630770898785024144498215980623724957980693148855006153146368",
+          "q": "302361190710675970734642763317044988823491814583306232106762567981422282855138866390525145",
+          "q_digits": 90,
+          "absolute_error": {
+            "lower_integer": "14472155560",
+            "upper_integer": "14472155561",
+            "power_of_ten": -86,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "13230775974",
+            "upper_integer": "13230775975",
+            "power_of_ten": 93,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        }
+      ]
+    },
+    {
+      "a": "5",
+      "c": "1",
+      "last_n": 100,
+      "wronskian_reduced_denominator_and_adjacent_quality_checks": 100,
+      "same_parity_reduced_denominator_and_quality_checks": 99,
+      "strict_analytic_error_and_alternating_sign_checks": 101,
+      "unique_minimum_quality_in_checked_range": {
+        "n": 6,
+        "p": "46991",
+        "q": "238055",
+        "q_digits": 6,
+        "absolute_error": {
+          "lower_integer": "26617350520",
+          "upper_integer": "26617350521",
+          "power_of_ten": -23,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "15084101256",
+          "upper_integer": "15084101257",
+          "power_of_ten": -12,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      "selected_rows": [
+        {
+          "n": 0,
+          "p": "0",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "19739555984",
+            "upper_integer": "19739555985",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "19739555984",
+            "upper_integer": "19739555985",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 1,
+          "p": "1",
+          "q": "5",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "26044401501",
+            "upper_integer": "26044401502",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "65111003752",
+            "upper_integer": "65111003753",
+            "power_of_ten": -12,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 2,
+          "p": "15",
+          "q": "76",
+          "q_digits": 2,
+          "absolute_error": {
+            "lower_integer": "27138797249",
+            "upper_integer": "27138797250",
+            "power_of_ten": -15,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "15675369291",
+            "upper_integer": "15675369292",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 3,
+          "p": "379",
+          "q": "1920",
+          "q_digits": 4,
+          "absolute_error": {
+            "lower_integer": "27348345257",
+            "upper_integer": "27348345258",
+            "power_of_ten": -17,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "10081693995",
+            "upper_integer": "10081693996",
+            "power_of_ten": -10,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 5,
+          "p": "152266",
+          "q": "771375",
+          "q_digits": 6,
+          "absolute_error": {
+            "lower_integer": "26962540933",
+            "upper_integer": "26962540934",
+            "power_of_ten": -21,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "16043234675",
+            "upper_integer": "16043234676",
+            "power_of_ten": -9,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 10,
+          "p": "96227477390",
+          "q": "487485521271",
+          "q_digits": 12,
+          "absolute_error": {
+            "lower_integer": "24954712439",
+            "upper_integer": "24954712440",
+            "power_of_ten": -31,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "59302911038",
+            "upper_integer": "59302911039",
+            "power_of_ten": -8,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 20,
+          "p": "744633673047584296861171550",
+          "q": "3772291907750498021634703959",
+          "q_digits": 28,
+          "absolute_error": {
+            "lower_integer": "20725716131",
+            "upper_integer": "20725716132",
+            "power_of_ten": -51,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "29493080045",
+            "upper_integer": "29493080046",
+            "power_of_ten": 4,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 50,
+          "p": "670530149018177512289823121074613441485251781672311658037773870856308770",
+          "q": "3396885672241642179339708251116445760286627046555497923989618146027285353",
+          "q_digits": 73,
+          "absolute_error": {
+            "lower_integer": "11556899990",
+            "upper_integer": "11556899991",
+            "power_of_ten": -111,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "13335313055",
+            "upper_integer": "13335313056",
+            "power_of_ten": 34,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 100,
+          "p": "2036148554111091019741679673944702366246878268430967665475711115978452297118321932101500355637428749792620413981153862438421976304308666558130396850",
+          "q": "10315067652279418812983925452305073692290453682411549497344277290390553969736983458132790586629839800800916942325415254511916442554516552659783074673",
+          "q_digits": 149,
+          "absolute_error": {
+            "lower_integer": "43248300045",
+            "upper_integer": "43248300046",
+            "power_of_ten": -212,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "46016459678",
+            "upper_integer": "46016459679",
+            "power_of_ten": 84,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        }
+      ]
+    },
+    {
+      "a": "239",
+      "c": "1",
+      "last_n": 100,
+      "wronskian_reduced_denominator_and_adjacent_quality_checks": 100,
+      "same_parity_reduced_denominator_and_quality_checks": 99,
+      "strict_analytic_error_and_alternating_sign_checks": 101,
+      "unique_minimum_quality_in_checked_range": {
+        "n": 1,
+        "p": "1",
+        "q": "239",
+        "q_digits": 3,
+        "absolute_error": {
+          "lower_integer": "24416335317",
+          "upper_integer": "24416335318",
+          "power_of_ten": -18,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "13946854896",
+          "upper_integer": "13946854897",
+          "power_of_ten": -13,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      "selected_rows": [
+        {
+          "n": 0,
+          "p": "0",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "41840760020",
+            "upper_integer": "41840760021",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "41840760020",
+            "upper_integer": "41840760021",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 1,
+          "p": "1",
+          "q": "239",
+          "q_digits": 3,
+          "absolute_error": {
+            "lower_integer": "24416335317",
+            "upper_integer": "24416335318",
+            "power_of_ten": -18,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "13946854896",
+            "upper_integer": "13946854897",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 2,
+          "p": "717",
+          "q": "171364",
+          "q_digits": 6,
+          "absolute_error": {
+            "lower_integer": "11398531968",
+            "upper_integer": "11398531969",
+            "power_of_ten": -23,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "33472496400",
+            "upper_integer": "33472496401",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 3,
+          "p": "856819",
+          "q": "204780936",
+          "q_digits": 9,
+          "absolute_error": {
+            "lower_integer": "51312553397",
+            "upper_integer": "51312553398",
+            "power_of_ten": -29,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "21518038183",
+            "upper_integer": "21518038184",
+            "power_of_ten": -12,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 5,
+          "p": "770849037436",
+          "q": "184233995045445",
+          "q_digits": 15,
+          "absolute_error": {
+            "lower_integer": "10085758151",
+            "upper_integer": "10085758152",
+            "power_of_ten": -39,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "34233246662",
+            "upper_integer": "34233246663",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 10,
+          "p": "578449860851124292717087192",
+          "q": "138250323503754006204409353345",
+          "q_digits": 30,
+          "absolute_error": {
+            "lower_integer": "16549610306",
+            "upper_integer": "16549610307",
+            "power_of_ten": -66,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "31631521649",
+            "upper_integer": "31631521650",
+            "power_of_ten": -8,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 20,
+          "p": "50511278942392335030573559011020846615864538774198368030648",
+          "q": "12072266114990673310605822346562587945742569251507686861365599",
+          "q_digits": 62,
+          "absolute_error": {
+            "lower_integer": "43175013075",
+            "upper_integer": "43175013076",
+            "power_of_ten": -120,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "62923095307",
+            "upper_integer": "62923095308",
+            "power_of_ten": 2,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 50,
+          "p": "6333598951310083430914169047326263683254366235763535588029027549975841782728606971720011196469778882066627666766129799169933046990473308486908075718157389736",
+          "q": "1513738982793212417420546114050001928247106119205734936318322822649510848515831379678080273951179302581170444767290408398539714051444436751188248834592450026925",
+          "q_digits": 160,
+          "absolute_error": {
+            "lower_integer": "74574511996",
+            "upper_integer": "74574511997",
+            "power_of_ten": -281,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "17088046246",
+            "upper_integer": "17088046247",
+            "power_of_ten": 38,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 100,
+          "p": "821002833873932086985573968868677807441228453693157118352646377767437453919062750703679939423274777870879238028373101178597046490306731993128282968128627529644275732409210049775818615368463400533954882631765884007281608135916006664472032000698077746480239211966340590118875040264966839573283471520815933818463848",
+          "q": "196220822343291102778877471567440822215581473082742069523139659240762424457209166337316528722448056407732661937946656570904300192832558192928437105513179904724364309640584965541021092572423244916203414332008813525361772711768659443600774534850381115191066918328075929484404941752735962787302615989819931871528386245",
+          "q_digits": 315,
+          "absolute_error": {
+            "lower_integer": "85247231109",
+            "upper_integer": "85247231110",
+            "power_of_ten": -549,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "32822409885",
+            "upper_integer": "32822409886",
+            "power_of_ten": 80,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        }
+      ]
+    },
+    {
+      "a": "3/2",
+      "c": "2/3",
+      "last_n": 30,
+      "wronskian_reduced_denominator_and_adjacent_quality_checks": 30,
+      "same_parity_reduced_denominator_and_quality_checks": 29,
+      "strict_analytic_error_and_alternating_sign_checks": 31,
+      "unique_minimum_quality_in_checked_range": {
+        "n": 0,
+        "p": "0",
+        "q": "1",
+        "q_digits": 1,
+        "absolute_error": {
+          "lower_integer": "39200173569",
+          "upper_integer": "39200173570",
+          "power_of_ten": -11,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "39200173569",
+          "upper_integer": "39200173570",
+          "power_of_ten": -11,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      "selected_rows": [
+        {
+          "n": 0,
+          "p": "0",
+          "q": "1",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "39200173569",
+            "upper_integer": "39200173570",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "39200173569",
+            "upper_integer": "39200173570",
+            "power_of_ten": -11,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 1,
+          "p": "4",
+          "q": "9",
+          "q_digits": 1,
+          "absolute_error": {
+            "lower_integer": "52442708746",
+            "upper_integer": "52442708747",
+            "power_of_ten": -12,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "42478594084",
+            "upper_integer": "42478594085",
+            "power_of_ten": -10,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 2,
+          "p": "12",
+          "q": "31",
+          "q_digits": 2,
+          "absolute_error": {
+            "lower_integer": "49049615048",
+            "upper_integer": "49049615049",
+            "power_of_ten": -13,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "47136680061",
+            "upper_integer": "47136680062",
+            "power_of_ten": -10,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 3,
+          "p": "604",
+          "q": "1539",
+          "q_digits": 4,
+          "absolute_error": {
+            "lower_integer": "46090237829",
+            "upper_integer": "46090237830",
+            "power_of_ten": -14,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "10916569619",
+            "upper_integer": "10916569620",
+            "power_of_ten": -7,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 5,
+          "p": "416116",
+          "q": "1061505",
+          "q_digits": 7,
+          "absolute_error": {
+            "lower_integer": "39543360538",
+            "upper_integer": "39543360539",
+            "power_of_ten": -16,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "44557176514",
+            "upper_integer": "44557176515",
+            "power_of_ten": -4,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 10,
+          "p": "841261826108",
+          "q": "2146066584795",
+          "q_digits": 13,
+          "absolute_error": {
+            "lower_integer": "26062144460",
+            "upper_integer": "26062144461",
+            "power_of_ten": -21,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "12003185908",
+            "upper_integer": "12003185909",
+            "power_of_ten": 4,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        },
+        {
+          "n": 20,
+          "p": "99616237188030016505826156",
+          "q": "254121928849515828522988567",
+          "q_digits": 27,
+          "absolute_error": {
+            "lower_integer": "11030926570",
+            "upper_integer": "11030926571",
+            "power_of_ten": -31,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          },
+          "normalized_quality": {
+            "lower_integer": "71235467662",
+            "upper_integer": "71235467663",
+            "power_of_ten": 21,
+            "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+          }
+        }
+      ]
+    }
+  ],
+  "same_index_machin": {
+    "last_n": 100,
+    "strict_error_certificates": 100,
+    "unique_minimum_quality_in_checked_range": {
+      "n": 1,
+      "p": "3804",
+      "q": "1195",
+      "q_digits": 4,
+      "absolute_error": {
+        "lower_integer": "41670944736",
+        "upper_integer": "41670944737",
+        "power_of_ten": -12,
+        "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+      },
+      "normalized_quality": {
+        "lower_integer": "59507150857",
+        "upper_integer": "59507150858",
+        "power_of_ten": -6,
+        "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+      }
+    },
+    "selected_rows": [
+      {
+        "n": 1,
+        "p": "3804",
+        "q": "1195",
+        "q_digits": 4,
+        "absolute_error": {
+          "lower_integer": "41670944736",
+          "upper_integer": "41670944737",
+          "power_of_ten": -12,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "59507150857",
+          "upper_integer": "59507150858",
+          "power_of_ten": -6,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 2,
+        "p": "2556837",
+        "q": "813979",
+        "q_digits": 6,
+        "absolute_error": {
+          "lower_integer": "43422075553",
+          "upper_integer": "43422075554",
+          "power_of_ten": -14,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "28769809078",
+          "upper_integer": "28769809079",
+          "power_of_ten": -2,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 3,
+        "p": "1072231967",
+        "q": "341301560",
+        "q_digits": 9,
+        "absolute_error": {
+          "lower_integer": "43757352411",
+          "upper_integer": "43757352412",
+          "power_of_ten": -16,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "50971519836",
+          "upper_integer": "50971519837",
+          "power_of_ten": 1,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 5,
+        "p": "9921393802853930576",
+        "q": "3158077731737336375",
+        "q_digits": 19,
+        "absolute_error": {
+          "lower_integer": "43140065493",
+          "upper_integer": "43140065494",
+          "power_of_ten": -20,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "43025550015",
+          "upper_integer": "43025550016",
+          "power_of_ten": 17,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 10,
+        "p": "1120252562635440192742122383714733456448",
+        "q": "356587465709586798094767522719869589955",
+        "q_digits": 39,
+        "absolute_error": {
+          "lower_integer": "39927539903",
+          "upper_integer": "39927539904",
+          "power_of_ten": -30,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "50769711920",
+          "upper_integer": "50769711921",
+          "power_of_ten": 47,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 20,
+        "p": "49165997604801896625449373421591556217970223431996563506428780641055034309773623296",
+        "q": "15650023101697016484041385087348536347446980137365796537339556291803645950479038963",
+        "q_digits": 83,
+        "absolute_error": {
+          "lower_integer": "33161145810",
+          "upper_integer": "33161145811",
+          "power_of_ten": -50,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "81219347130",
+          "upper_integer": "81219347131",
+          "power_of_ten": 114,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 50,
+        "p": "1390025340008546395048683327284825255627732404748812860145330593922639517106771625497706561744014775202897291834605419936540273297889203308872251676674338628352835289311596088573307508485062719685827942114008236032",
+        "q": "442458807770705332728341731248075622248557115886901242636561989129193375519746401112959818714113660965457722896523942025997493611630272042295957520107873747010250676299923635960855484825161463823555434426767816725",
+        "q_digits": 213,
+        "absolute_error": {
+          "lower_integer": "18491039984",
+          "upper_integer": "18491039985",
+          "power_of_ten": -110,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "36199871362",
+          "upper_integer": "36199871363",
+          "power_of_ten": 315,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      },
+      {
+        "n": 100,
+        "p": "924186580114422329801622822587250655948902142267465990815983842536971484996389660951518854831674568267588038890001308977693408557898170866363125559793903635909997292178657635523168275182344407614211183233512287679786360627636100504969601631640115592588685556335490834470552649907599324781781936015591617671136964791640644561119832892922383322993659814359485026782859603482421903386402241618623554255293983754154030628060790784",
+        "q": "294177725128808510940431431483448778601585919587098608432791043262731257306215842270135593921998141980040725927616735033994397169056035880772937187938181531107893680067822847978204154272808330948217235608470637788389493968506453711850012408607871291924015371192430169278687155753213748053033178129811677745173256019922752277138321870535973179402797568231945821375314766758173214338455994790705002532005465354438290309371163135",
+        "q_digits": 426,
+        "absolute_error": {
+          "lower_integer": "69197280073",
+          "upper_integer": "69197280074",
+          "power_of_ten": -211,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        },
+        "normalized_quality": {
+          "lower_integer": "59883695662",
+          "upper_integer": "59883695663",
+          "power_of_ten": 640,
+          "interpretation": "lower_integer*10^power_of_ten <= value < upper_integer*10^power_of_ten"
+        }
+      }
+    ],
+    "scope": "Same-index Machin combination; no adjacent-product theorem asserted for this combined sequence."
+  }
+}
