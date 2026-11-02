@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "selection": "Minimum exact rational quality-squared upper bound; no pi intervals read.",
+  "per_scale": [
+    {
+      "source": "hilbert_quotient_lift.json",
+      "m": 1,
+      "p": "3",
+      "q": "1",
+      "forced_period_factor": 1,
+      "pi_period": "1",
+      "boundary_period": "-12",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 1,
+      "joint_quality_squared_upper": "29166656/512947435",
+      "certified_quality_below_one": true
+    },
+    {
+      "source": "hilbert_quotient_lift.json",
+      "m": 2,
+      "p": "99",
+      "q": "32",
+      "forced_period_factor": 1,
+      "pi_period": "3",
+      "boundary_period": "-594",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 3,
+      "joint_quality_squared_upper": "38359116424027308032/4366350858338469",
+      "certified_quality_below_one": false
+    },
+    {
+      "source": "hilbert_quotient_lift.json",
+      "m": 3,
+      "p": "353869",
+      "q": "112640",
+      "forced_period_factor": 1,
+      "pi_period": "-660",
+      "boundary_period": "2123214",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 6,
+      "joint_quality_squared_upper": "147330271821038650130432/16209773780213871",
+      "certified_quality_below_one": false
+    },
+    {
+      "source": "hilbert_forced_period_lift.json",
+      "m": 1,
+      "p": "3",
+      "q": "1",
+      "forced_period_factor": 1,
+      "pi_period": "1",
+      "boundary_period": "-12",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 1,
+      "joint_quality_squared_upper": "29166656/512947435",
+      "certified_quality_below_one": true
+    },
+    {
+      "source": "hilbert_forced_period_lift.json",
+      "m": 2,
+      "p": "355",
+      "q": "113",
+      "forced_period_factor": 3,
+      "pi_period": "339",
+      "boundary_period": "-68160",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 3,
+      "joint_quality_squared_upper": "217375834098688/4366350858338469",
+      "certified_quality_below_one": true
+    },
+    {
+      "source": "hilbert_forced_period_lift.json",
+      "m": 3,
+      "p": "87663",
+      "q": "27904",
+      "forced_period_factor": 15,
+      "pi_period": "-1635",
+      "boundary_period": "5259780",
+      "primitive_coordinate_content": 1,
+      "multiplier_content": 1,
+      "common_period_factor": 15,
+      "joint_quality_squared_upper": "71600993169969884757105836032/4207875446604736275744375",
+      "certified_quality_below_one": false
+    }
+  ],
+  "exact_benchmark_certificate": "Q^2 < 217375834098688/4366350858338469 < 1/20",
+  "scope": "A bounded certified construction benchmark; no new approximation record or infinite-sequence quality claim."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "exact rational comparisons",
+  "samples": [
+    {
+      "m": 1,
+      "fraction": "355/113",
+      "l1_quality_upper": "52432/11",
+      "hilbert_quality_squared_upper": "8430400256/102589487",
+      "squared_bound_improvement": "713039327/2579",
+      "displayed_l1_upper": 4766.545454545455,
+      "displayed_hilbert_upper": 9.065101437047039
+    },
+    {
+      "m": 2,
+      "fraction": "3217/1024",
+      "l1_quality_upper": "6249512960/9317",
+      "hilbert_quality_squared_upper": "5163814578408128512/116747349153435",
+      "squared_bound_improvement": "23886766332000/2348231",
+      "displayed_l1_upper": 670764.5121820328,
+      "displayed_hilbert_upper": 210.3109114185344
+    },
+    {
+      "m": 3,
+      "fraction": "1146053/364800",
+      "l1_quality_upper": "27445728116736000/1127357",
+      "hilbert_quality_squared_upper": "1707080280296156939314790400/8598468345552462377",
+      "squared_bound_improvement": "2674849878339329047500/895995193",
+      "displayed_l1_upper": 24345196877.950817,
+      "displayed_hilbert_upper": 14090.176209756512
+    }
+  ],
+  "scope": "Bounds for identical saved multipliers and fractions. Only the certificate improves; candidate quality is unchanged."
+}

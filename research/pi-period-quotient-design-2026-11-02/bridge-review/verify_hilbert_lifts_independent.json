@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "forced_period_congruence": false,
+  "hilbert_period_blocks": 3,
+  "integer_nearest_plane_candidates": 37,
+  "exact_congruence_indices": [],
+  "primitive_forced_candidates": 0,
+  "reproduced": [
+    "Hilbert Gram and Schur metric",
+    "orthogonal zero lengths",
+    "integer lifts and unchanged period pairs",
+    "exact rounding-cost decomposition",
+    "actual reduced q and rational quality intervals",
+    "72/7 joint squared-quality certificate"
+  ],
+  "scope": "Saved-data audit. Completeness of integer kernel bases is supplied by the generator Smith/unimodular proof; no asymptotic quality claim."
+}

@@ -1,0 +1,166 @@
+{
+  "date_utc": "2026-11-02",
+  "base_commit": "c4d1ddfc235c7f32ebb901de78349e54c6bd22a9",
+  "status": "passed",
+  "working_directory": "research/pi-period-quotient-design-2026-11-02",
+  "commands": [
+    {
+      "command": "python period-main-kernel/verify_hilbert_output.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python bridge-review/verify_hilbert_lifts_independent.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python bridge-review/verify_hilbert_lifts_independent.py --forced",
+      "exit_code": 0
+    },
+    {
+      "command": "python bridge-review/verify_symmetric_pairing.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python elliptic-pairing/period_pair_control.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python ramanujan-arithmetic/block_tail_quantization.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python select_by_certificate.py",
+      "exit_code": 0
+    }
+  ],
+  "verification_scope": {
+    "main_saved_output_audits": "77 integer candidates, 60 basis vectors, both forced and unrestricted modes; exact Hilbert Gram, Schur complements, integer rounding costs, congruence indices, actual gcd, rigorous quality certificates.",
+    "certificate_only_selection": "6 unique minima, no pi-quality interval read; forced m=2 benchmark Q^2 < 217375834098688/4366350858338469 < 1/20.",
+    "elliptic_pairing": "4 bounded source budgets and exact integer period convolution/residual checks.",
+    "ramanujan_arithmetic": "N=2..12 bounded controls; published all-index divisibility is explicitly imported.",
+    "generator_scope": "Saved main data were produced in this research session. The listed standard-library commands independently audit the stored outputs; they do not rerun the SymPy main kernel generator.",
+    "final_editorial_review": "Independent root README and selector review passed. Proportional-period wording corrected; postselection regression checks explicitly labeled."
+  },
+  "files_excluding_this_manifest": [
+    {
+      "path": "README.md",
+      "bytes": 7296,
+      "sha256": "be85057df6eb86144c59a4f7654304928eb0a10f3a889c1da34775b2c9ee20ee"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3758,
+      "sha256": "acf845aad248446cafbde214c64f935b7e1c147a655d9ceadc4d723a444d0790"
+    },
+    {
+      "path": "bridge-review/SYMMETRIC_SQUARE_PAIRING_AUDIT.md",
+      "bytes": 11512,
+      "sha256": "693633cb2b4e4144b3544b0947fca9cfc160de91ea89a933190afa118de3081a"
+    },
+    {
+      "path": "bridge-review/verify_forced_hilbert_lifts_independent.json",
+      "bytes": 659,
+      "sha256": "39a783cb0deef7378467bff79701243b0e390107a5a350f010ba08eeabc35db7"
+    },
+    {
+      "path": "bridge-review/verify_hilbert_lifts_independent.json",
+      "bytes": 635,
+      "sha256": "73239a000e93b8d991bad30553a2215d13003684e48ca3c21354ab46a4501be8"
+    },
+    {
+      "path": "bridge-review/verify_hilbert_lifts_independent.py",
+      "bytes": 8224,
+      "sha256": "4b05f23dda3071654217dc88a8fbdf2fd02b3fab4fb3c9cf3802a370561e9e18"
+    },
+    {
+      "path": "bridge-review/verify_symmetric_pairing.json",
+      "bytes": 371,
+      "sha256": "58730e51c6d656372fba45ab8046da36b2c1eda603e3fa01f17c7859f262125a"
+    },
+    {
+      "path": "bridge-review/verify_symmetric_pairing.py",
+      "bytes": 2655,
+      "sha256": "62a9724d13eeab1faa9364bb8a842143bcc1ff527ac051713f7de60bedc205dc"
+    },
+    {
+      "path": "certificate_selected_periods.json",
+      "bytes": 2901,
+      "sha256": "01beb4211f12c42f45341056020b64d41b7953145d008cfdcfda1270337c6f59"
+    },
+    {
+      "path": "elliptic-pairing/INTEGER_QUARTER_PERIOD_PAIR.md",
+      "bytes": 6709,
+      "sha256": "0a6b85d4d328babb52c73d0c65d0bb885fb5ea803ecbf808fab6dc13c9571a6e"
+    },
+    {
+      "path": "elliptic-pairing/period_pair_control.json",
+      "bytes": 33411,
+      "sha256": "208739aaea289c2bf47a08ef502c4b93a1e033a8216ed96a0a7cdfc9c0d0b604"
+    },
+    {
+      "path": "elliptic-pairing/period_pair_control.py",
+      "bytes": 5990,
+      "sha256": "2c161a54cf01f1c9c324772dfadff0405d9450a04f86bc327b0360e69bfc8b26"
+    },
+    {
+      "path": "period-main-kernel/HILBERT_PERIOD_QUOTIENT_AND_LIFTS.md",
+      "bytes": 9921,
+      "sha256": "bdb1b02a4de25cdd20493f6dd480729a051858c065635570f0d6eb92008c7fde"
+    },
+    {
+      "path": "period-main-kernel/hilbert_bound_comparison.json",
+      "bytes": 1223,
+      "sha256": "3c155bacf93bd9bdd6750075a6bf256475b48137c52baeaea923bb988d31e4ed"
+    },
+    {
+      "path": "period-main-kernel/hilbert_forced_period_lift.json",
+      "bytes": 113483,
+      "sha256": "7ee95e52cddfa9bb59f7bfb42a5bc6110f29c2385da53e5b6a35c01c09b32d6b"
+    },
+    {
+      "path": "period-main-kernel/hilbert_output_checks.json",
+      "bytes": 1352,
+      "sha256": "ed4828fb18353d4b11b0610ba87acfa93cc21fa3d10f952c1622f975c419bab5"
+    },
+    {
+      "path": "period-main-kernel/hilbert_quotient_lift.json",
+      "bytes": 104281,
+      "sha256": "fe96b9068e8dfe3ff2abe0c44853e50f3133e51ceec62eda3c3b84bb3a09e22a"
+    },
+    {
+      "path": "period-main-kernel/hilbert_quotient_lift.py",
+      "bytes": 9208,
+      "sha256": "83211f181cf505d0e748c6ed1bb6b9159edc9c6821b47a5253b0f47e5f4eda86"
+    },
+    {
+      "path": "period-main-kernel/quotient_lift.py",
+      "bytes": 7404,
+      "sha256": "f75e424a600b5f8b0f627e566e3acc6235dad06e5c54458c4fbf716df01772d5"
+    },
+    {
+      "path": "period-main-kernel/verify_hilbert_output.py",
+      "bytes": 6323,
+      "sha256": "abba70f17130d6410e5c8ad8fe32d89d9abf858735bf0933cf09df19839be4eb"
+    },
+    {
+      "path": "ramanujan-arithmetic/BLOCK_DIVISOR_AND_TAIL_QUANTIZATION.md",
+      "bytes": 6704,
+      "sha256": "8ebe0156260b7e07b151f1f4fabcf4d54d74c076e0930783d010cc071102dcad"
+    },
+    {
+      "path": "ramanujan-arithmetic/block_tail_quantization.json",
+      "bytes": 48342,
+      "sha256": "d07298681d57c8e2d4560af4553efff4d36a8503cc6dcd1f87ad1e343257d091"
+    },
+    {
+      "path": "ramanujan-arithmetic/block_tail_quantization.py",
+      "bytes": 4925,
+      "sha256": "a5ead2d41beef1b3af1dfd6d519d044662acc5662ccbb15a38d6bfdcb1b7cf89"
+    },
+    {
+      "path": "select_by_certificate.py",
+      "bytes": 2919,
+      "sha256": "2d2fc04a592d4db57cd7ae4277ad6c036760a0fda048d4d5f85a574baf83dfb9"
+    }
+  ]
+}

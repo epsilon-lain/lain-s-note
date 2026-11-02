@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "datasets": [
+    {
+      "filename": "hilbert_quotient_lift.json",
+      "status": "passed",
+      "primitive_basis_checks": 30,
+      "exact_hilbert_lift_checks": 37,
+      "per_m": [
+        {
+          "m": 1,
+          "candidates": 12,
+          "zero_period_rank": 4
+        },
+        {
+          "m": 2,
+          "candidates": 14,
+          "zero_period_rank": 8
+        },
+        {
+          "m": 3,
+          "candidates": 11,
+          "zero_period_rank": 12
+        }
+      ],
+      "scope": "Exact saved-output audit. Schur metrics, integer lift costs, periods, actual gcd and rational quality upper certificates are verified without SymPy."
+    },
+    {
+      "filename": "hilbert_forced_period_lift.json",
+      "status": "passed",
+      "primitive_basis_checks": 30,
+      "exact_hilbert_lift_checks": 40,
+      "per_m": [
+        {
+          "m": 1,
+          "candidates": 12,
+          "zero_period_rank": 4
+        },
+        {
+          "m": 2,
+          "candidates": 14,
+          "zero_period_rank": 8
+        },
+        {
+          "m": 3,
+          "candidates": 14,
+          "zero_period_rank": 12
+        }
+      ],
+      "scope": "Exact saved-output audit. Schur metrics, integer lift costs, periods, actual gcd and rational quality upper certificates are verified without SymPy."
+    }
+  ]
+}

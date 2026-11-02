@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "integer_level_one_terms": 31,
+  "integer_clausen_convolutions": 31,
+  "exact_squared_truncation_defects": 32,
+  "period_normalization": "Canonical log companion has W=1/(z sqrt(1-z)); physical companion introduces1/(2pi i).",
+  "scope": "Exact bounded algebra audits; structural invariants alone supply no denominator or pi-quality theorem."
+}
