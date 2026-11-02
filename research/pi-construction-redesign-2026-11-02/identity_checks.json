@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_symbolic_integral": "113*pi-355",
+  "quality_strict_bounds": [
+    "0.00340631193013",
+    "0.00340631193015"
+  ],
+  "scope": "Known rational recovered by bounded constructive search; no infinite-subsequence theorem."
+}
