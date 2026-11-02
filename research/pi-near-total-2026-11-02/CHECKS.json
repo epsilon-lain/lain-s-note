@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "repository": "epsilon-lain/lain-s-note",
+  "previous_commit": "c333bae58b68ca9edaab985aa618cdf683e21c53",
+  "runs": [
+    {
+      "command": "python verify_time_grade.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"arithmetic\": \"exact rational\",\n  \"formal_center_specializations\": [\n    1,\n    2\n  ],\n  \"cases\": [\n    {\n      \"H\": 4,\n      \"source_rows\": 8,\n      \"outside_rows\": 12,\n      \"time_surplus\": 0,\n      \"spatial_degree\": 4,\n      \"boundary_entry_checks\": 96,\n      \"boundary_rank\": 3,\n      \"nilpotence_index\": 2,\n      \"marker_checks\": 5,\n      \"exhaustive_targets\": {\n        \"all\": 576,\n        \"identity\": 1,\n        \"nonidentity_zero\": 575\n      },\n      \"midpoint_gram_bounds\": [\n        {\n          \"epsilon\": \"1/2\",\n          \"bound_exact\": \"69757167882396771779009603611047201/8589934592000000000000000000000000\",\n          \"bound_decimal\": 8.120803148764741\n        },\n        {\n          \"epsilon\": \"1/4\",\n          \"bound_exact\": \"4740103512986366984238622789807672661527145601/2417851639229258349412352000000000000000000000\",\n          \"bound_decimal\": 1.9604608637184107\n        },\n        {\n          \"epsilon\": \"1/8\",\n          \"bound_exact\": \"1595854952727893468744114546242022878535729757912998504670513/1329227995784915872903807060280344576000000000000000000000000\",\n          \"bound_decimal\": 1.2005878282645808\n        }\n      ]\n    },\n    {\n      \"H\": 8,\n      \"source_rows\": 24,\n      \"outside_rows\": 48,\n      \"time_surplus\": 0,\n      \"spatial_degree\": 20,\n      \"boundary_entry_checks\": 1152,\n      \"boundary_rank\": 11,\n      \"nilpotence_index\": 6,\n      \"marker_checks\": 5\n    }\n  ],\n  \"scope\": \"Finite checks support the written proof. No claim about pi bad approximability.\"\n}\n"
+    },
+    {
+      "command": "python verify_exterior_energy.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"full_packet_models\": 12,\n  \"local_coordinate_entries\": 1215,\n  \"geometric_gram_blocks\": 18,\n  \"weighted_simplex_energy_cases\": 18,\n  \"scope\": \"Exact finite full-jet polynomial kernels and exterior energy. The model has equal source/raw weights, theta=1 and no boundary escape; it is not the critical pi parameter family. Infinite losses and repairs follow from the written formulas.\"\n}\n"
+    },
+    {
+      "command": "python verify_column_cost.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"exhaustive_column_subsets\": 317,\n  \"cheapest_column_cardinalities\": 20,\n  \"packet_counts\": 9,\n  \"degree_checks\": {\n    \"target_column_pairs\": 1120,\n    \"nonzero_joint_terms\": 66,\n    \"residual_degree_factorizations\": 1120\n  },\n  \"half_density_bounds\": 3,\n  \"scope\": \"Exact finite quantiles, degree identities, coefficient factorization and rational enclosing constants. Asymptotics use the written proofs. No actual approximation tuple or pi property is certified.\"\n}\n"
+    },
+    {
+      "command": "python verify_near_total_period_rank.py",
+      "exit_code": 0,
+      "output": "{\"H\": 24, \"K\": 2, \"w0\": 1, \"w1\": 2, \"v0\": 2, \"v1\": 16, \"rational_approximation\": [22, 7], \"source_rows\": 32, \"ambient_columns\": 169, \"outside_rows\": 22, \"outside_fraction\": \"11/16\", \"gamma\": 30, \"normalized_transport_integer_coefficient\": 1}\n{\"basis\": \"raw Y^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 6974, \"rational_source_determinant_mod_prime\": 5673, \"source_time_sum_minus_column_h_sum\": 44, \"transverse_degree_surplus_D\": 62, \"residual_degree_E\": 32, \"time_grade_filter_applies\": false}\n{\"basis\": \"shifted (Y-1)^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 6974, \"rational_source_determinant_mod_prime\": 38901, \"source_time_sum_minus_column_h_sum\": 44, \"transverse_degree_surplus_D\": 62, \"residual_degree_E\": 32, \"time_grade_filter_applies\": true}\n{\"H\": 40, \"K\": 2, \"w0\": 1, \"w1\": 2, \"v0\": 2, \"v1\": 16, \"rational_approximation\": [22, 7], \"source_rows\": 72, \"ambient_columns\": 441, \"outside_rows\": 48, \"outside_fraction\": \"2/3\", \"gamma\": 88, \"normalized_transport_integer_coefficient\": 1}\n{\"basis\": \"raw Y^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 16233, \"rational_source_determinant_mod_prime\": 54224, \"source_time_sum_minus_column_h_sum\": 144, \"transverse_degree_surplus_D\": 170, \"residual_degree_E\": 82, \"time_grade_filter_applies\": false}\n{\"basis\": \"shifted (Y-1)^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 16233, \"rational_source_determinant_mod_prime\": 54224, \"source_time_sum_minus_column_h_sum\": 144, \"transverse_degree_surplus_D\": 170, \"residual_degree_E\": 82, \"time_grade_filter_applies\": true}\n{\"H\": 60, \"K\": 2, \"w0\": 1, \"w1\": 5, \"v0\": 2, \"v1\": 40, \"rational_approximation\": [355, 113], \"source_rows\": 80, \"ambient_columns\": 403, \"outside_rows\": 70, \"outside_fraction\": \"7/8\", \"gamma\": 102, \"normalized_transport_integer_coefficient\": 1}\n{\"basis\": \"raw Y^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 60022, \"rational_source_determinant_mod_prime\": 10964, \"source_time_sum_minus_column_h_sum\": 254, \"transverse_degree_surplus_D\": 170, \"residual_degree_E\": 68, \"time_grade_filter_applies\": false}\n{\"basis\": \"shifted (Y-1)^h X^a\", \"target_period_at_Z1_determinant_mod_prime\": 60022, \"rational_source_determinant_mod_prime\": 28917, \"source_time_sum_minus_column_h_sum\": 254, \"transverse_degree_surplus_D\": 170, \"residual_degree_E\": 68, \"time_grade_filter_applies\": true}\n[\n  {\n    \"w1\": 2,\n    \"H\": 10000,\n    \"rows\": 3130000,\n    \"outside_fraction\": 0.6915361022364217,\n    \"limiting_outside_fraction\": \"56/81\",\n    \"w1_gamma_over_MH\": 0.05127254364217253,\n    \"limiting_w1_gamma_over_MH\": \"112/2187\"\n  },\n  {\n    \"w1\": 5,\n    \"H\": 10000,\n    \"rows\": 1255000,\n    \"outside_fraction\": 0.8615426294820717,\n    \"limiting_outside_fraction\": \"380/441\",\n    \"w1_gamma_over_MH\": 0.06850787410358566,\n    \"limiting_w1_gamma_over_MH\": \"1900/27783\"\n  },\n  {\n    \"w1\": 20,\n    \"H\": 10000,\n    \"rows\": 317520,\n    \"outside_fraction\": 0.9636243386243386,\n    \"limiting_outside_fraction\": \"6320/6561\",\n    \"w1_gamma_over_MH\": 0.07996851851851852,\n    \"limiting_w1_gamma_over_MH\": \"126400/1594323\"\n  },\n  {\n    \"w1\": 100,\n    \"H\": 10000,\n    \"rows\": 67600,\n    \"outside_fraction\": 0.9926923076923077,\n    \"limiting_outside_fraction\": \"159600/160801\",\n    \"w1_gamma_over_MH\": 0.08608076923076922,\n    \"limiting_w1_gamma_over_MH\": \"5320000/64481201\"\n  }\n]\n"
+    }
+  ],
+  "independent_reviews": [
+    "INDEPENDENT_TIME_GRADE_REVIEW.md",
+    "INDEPENDENT_EXTERIOR_ENERGY_REVIEW.md",
+    "INDEPENDENT_COLUMN_COST_REVIEW.md",
+    "INDEPENDENT_NEAR_TOTAL_RANK_REVIEW.md"
+  ],
+  "scope": "Finite exact checks and separate written proofs in their stated parameter regions. No proof or disproof of pi bad approximability, no new approximation record, no independent certification of manuscript Theorem 2.1.",
+  "sha256": {
+    "COLUMN_COST_AND_RESIDUAL_DEGREE.md": "0382b2f70102d2a409d8b114323907c4127f2683aa9a6976a6d88465213b202e",
+    "EXTERIOR_COLUMN_ENERGY.md": "592ed76b39bef3f37b96c70684f9eabe94d5c7adbcb96fd3a62f59ac885d0f79",
+    "INDEPENDENT_COLUMN_COST_REVIEW.md": "74644afddccfd538956deecf9cec7bfe4f92f5f8b1b929991048e9b2681b700e",
+    "INDEPENDENT_EXTERIOR_ENERGY_REVIEW.md": "148cc11e91fb2da0389c191fc5a86e6018d79ad90ad8d676873e0fd07a465585",
+    "INDEPENDENT_NEAR_TOTAL_RANK_REVIEW.md": "22cdb5d0db919f23017773ebbcfa4db7153be975632d552d51f16394105af262",
+    "INDEPENDENT_TIME_GRADE_REVIEW.md": "4276d7779c410bc009975ad810fcbd687f96c423f465005002a78a598aa6d4b5",
+    "NEAR_TOTAL_PERIOD_RANK.md": "33196b9f67330c0ef159a08711e640dc5f251e2103e65b50a109b9d7103c1468",
+    "README.md": "647d39119d2344d2c5d0d0cc4c56df4edcbcd1a751f95917e33bc7edb4edd016",
+    "TIME_GRADE_CANCELLATION.md": "ee761851d5b9825bc827cba8682c9458d6618eb11fbecf13772c9385f49d14f6",
+    "column_cost_verification.json": "c982a4f71ff5144a25117761412fad6aa38cbd5e0be0453f7a89824b23b66c0b",
+    "exterior_energy_verification.json": "0df6e8102522962383dbc312e1e3954df492c5c41908e5c898c3cba31ed6bcd5",
+    "near_total_verification.json": "1c4c67d238306af4a910abd5fb0644436a5876beda72887813ef400c669a9d6a",
+    "time_grade_verification.json": "11266dbb6df1d1d06a5d302a672ed2c7ef316bcca26008a7ff340c1c98a3bb24",
+    "verify_column_cost.py": "16470474f8cb5d1bd7f64f7d36d4d9a4077d9ae027f4dac03545d107c01d54f3",
+    "verify_exterior_energy.py": "ca457b8244761ed668f94d8e6677cf93c037a223996e3338a567ae9db1ce1494",
+    "verify_near_total_period_rank.py": "204089e0d187058ade4eba6e63d1353b8b3b6b44d35776d3aab36baf945afc75",
+    "verify_time_grade.py": "3790be0a1c114f10dc48e256b1b45242166601d523b2633a7c92b345664655ed"
+  }
+}

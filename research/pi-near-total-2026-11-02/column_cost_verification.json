@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "exhaustive_column_subsets": 317,
+  "cheapest_column_cardinalities": 20,
+  "packet_counts": [
+    {
+      "m": 1,
+      "weights": [
+        3
+      ],
+      "H": 40,
+      "source_rows": 154,
+      "all_columns": 301,
+      "finite_density": "22/43",
+      "minimum_column_transverse_mean": "177/1540",
+      "source_transverse_mean": "63/440",
+      "finite_gap": "-87/3080",
+      "proved_limit_mean_interval": [
+        "40102661528000751920515964572533343821/290449168044471487510203331168889208832",
+        "7519249036500140986150759833213176255/54459219008338403906433742337256456192"
+      ]
+    },
+    {
+      "m": 1,
+      "weights": [
+        3
+      ],
+      "H": 80,
+      "source_rows": 574,
+      "all_columns": 1134,
+      "finite_density": "41/81",
+      "minimum_column_transverse_mean": "723/5740",
+      "source_transverse_mean": "507/3280",
+      "finite_gap": "-657/22960",
+      "proved_limit_mean_interval": [
+        "40102661528000751920515964572533343821/290449168044471487510203331168889208832",
+        "7519249036500140986150759833213176255/54459219008338403906433742337256456192"
+      ]
+    },
+    {
+      "m": 1,
+      "weights": [
+        3
+      ],
+      "H": 160,
+      "source_rows": 2214,
+      "all_columns": 4401,
+      "finite_density": "82/163",
+      "minimum_column_transverse_mean": "173/1312",
+      "source_transverse_mean": "1053/6560",
+      "finite_gap": "-47/1640",
+      "proved_limit_mean_interval": [
+        "40102661528000751920515964572533343821/290449168044471487510203331168889208832",
+        "7519249036500140986150759833213176255/54459219008338403906433742337256456192"
+      ]
+    },
+    {
+      "m": 2,
+      "weights": [
+        3,
+        7
+      ],
+      "H": 40,
+      "source_rows": 484,
+      "all_columns": 767,
+      "finite_density": "484/767",
+      "minimum_column_transverse_mean": "1429/4840",
+      "source_transverse_mean": "941/4840",
+      "finite_gap": "61/605",
+      "proved_limit_mean_interval": [
+        "425352958651173079310771515216000712701/1361129467683753853927285406021911052288",
+        "5/16"
+      ]
+    },
+    {
+      "m": 2,
+      "weights": [
+        3,
+        7
+      ],
+      "H": 80,
+      "source_rows": 2872,
+      "all_columns": 5038,
+      "finite_density": "1436/2519",
+      "minimum_column_transverse_mean": "17403/57440",
+      "source_transverse_mean": "317/1436",
+      "finite_gap": "4723/57440",
+      "proved_limit_mean_interval": [
+        "425352958651173079310771515216000712701/1361129467683753853927285406021911052288",
+        "5/16"
+      ]
+    },
+    {
+      "m": 2,
+      "weights": [
+        3,
+        7
+      ],
+      "H": 160,
+      "source_rows": 19456,
+      "all_columns": 36284,
+      "finite_density": "4864/9071",
+      "minimum_column_transverse_mean": "478429/1556480",
+      "source_transverse_mean": "91403/389120",
+      "finite_gap": "112817/1556480",
+      "proved_limit_mean_interval": [
+        "425352958651173079310771515216000712701/1361129467683753853927285406021911052288",
+        "5/16"
+      ]
+    },
+    {
+      "m": 3,
+      "weights": [
+        3,
+        7,
+        15
+      ],
+      "H": 40,
+      "source_rows": 1024,
+      "all_columns": 1031,
+      "finite_density": "1024/1031",
+      "minimum_column_transverse_mean": "20683/40960",
+      "source_transverse_mean": "263/1280",
+      "finite_gap": "12267/40960",
+      "proved_limit_mean_interval": [
+        "398650918918114968051923879176261643853/917564045666474594249484382351665397760",
+        "99662729729528742013277802849872619477/229391011416618648545077273018813644800"
+      ]
+    },
+    {
+      "m": 3,
+      "weights": [
+        3,
+        7,
+        15
+      ],
+      "H": 80,
+      "source_rows": 7632,
+      "all_columns": 9944,
+      "finite_density": "954/1243",
+      "minimum_column_transverse_mean": "140999/305280",
+      "source_transverse_mean": "3139/12720",
+      "finite_gap": "65663/305280",
+      "proved_limit_mean_interval": [
+        "398650918918114968051923879176261643853/917564045666474594249484382351665397760",
+        "99662729729528742013277802849872619477/229391011416618648545077273018813644800"
+      ]
+    },
+    {
+      "m": 3,
+      "weights": [
+        3,
+        7,
+        15
+      ],
+      "H": 160,
+      "source_rows": 76184,
+      "all_columns": 119295,
+      "finite_density": "76184/119295",
+      "minimum_column_transverse_mean": "2720933/6094720",
+      "source_transverse_mean": "82673/304736",
+      "finite_gap": "1067473/6094720",
+      "proved_limit_mean_interval": [
+        "398650918918114968051923879176261643853/917564045666474594249484382351665397760",
+        "99662729729528742013277802849872619477/229391011416618648545077273018813644800"
+      ]
+    }
+  ],
+  "degree_checks": {
+    "target_column_pairs": 1120,
+    "nonzero_joint_terms": 66,
+    "residual_degree_factorizations": 1120
+  },
+  "half_density_bounds": [
+    {
+      "m": 40,
+      "cutoff_interval": [
+        "4424458635655259121/4611686018427387904",
+        "17697834542621036485/18446744073709551616"
+      ],
+      "gap_interval": [
+        "132326421134855794359765185574560342995/292976271359298545867596597142281519104",
+        "2117222738157692708218621469568301530235/4687620341748776730007729298797498466304"
+      ],
+      "certified_lower": "451/1000"
+    },
+    {
+      "m": 80,
+      "cutoff_interval": [
+        "18066117521599174549/18446744073709551616",
+        "9033058760799587275/9223372036854775808"
+      ],
+      "gap_interval": [
+        "2196295024460635152687475177138851974995/4622688574189634800173912924284080095232",
+        "549073756115158787326608467401586768915/1155672143547408698152686963515790983168"
+      ],
+      "certified_lower": "19/40"
+    },
+    {
+      "m": 120,
+      "cutoff_interval": [
+        "18191591906368626039/18446744073709551616",
+        "2273948988296078255/2305843009213693952"
+      ],
+      "gap_interval": [
+        "6670010538893097882579802258923934758585/13802616012890682611470828418720296075264",
+        "104218914670204654170373983750514033545/215665875201416915276770105684872134656"
+      ],
+      "certified_lower": "483/1000"
+    }
+  ],
+  "scope": "Exact finite quantiles, degree identities, coefficient factorization and rational enclosing constants. Asymptotics use the written proofs. No actual approximation tuple or pi property is certified."
+}

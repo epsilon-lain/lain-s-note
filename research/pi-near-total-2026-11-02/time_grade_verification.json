@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational",
+  "formal_center_specializations": [
+    1,
+    2
+  ],
+  "cases": [
+    {
+      "H": 4,
+      "source_rows": 8,
+      "outside_rows": 12,
+      "time_surplus": 0,
+      "spatial_degree": 4,
+      "boundary_entry_checks": 96,
+      "boundary_rank": 3,
+      "nilpotence_index": 2,
+      "marker_checks": 5,
+      "exhaustive_targets": {
+        "all": 576,
+        "identity": 1,
+        "nonidentity_zero": 575
+      },
+      "midpoint_gram_bounds": [
+        {
+          "epsilon": "1/2",
+          "bound_exact": "69757167882396771779009603611047201/8589934592000000000000000000000000",
+          "bound_decimal": 8.120803148764741
+        },
+        {
+          "epsilon": "1/4",
+          "bound_exact": "4740103512986366984238622789807672661527145601/2417851639229258349412352000000000000000000000",
+          "bound_decimal": 1.9604608637184107
+        },
+        {
+          "epsilon": "1/8",
+          "bound_exact": "1595854952727893468744114546242022878535729757912998504670513/1329227995784915872903807060280344576000000000000000000000000",
+          "bound_decimal": 1.2005878282645808
+        }
+      ]
+    },
+    {
+      "H": 8,
+      "source_rows": 24,
+      "outside_rows": 48,
+      "time_surplus": 0,
+      "spatial_degree": 20,
+      "boundary_entry_checks": 1152,
+      "boundary_rank": 11,
+      "nilpotence_index": 6,
+      "marker_checks": 5
+    }
+  ],
+  "scope": "Finite checks support the written proof. No claim about pi bad approximability."
+}

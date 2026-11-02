@@ -1,0 +1,412 @@
+{
+  "status": "passed",
+  "full_packet_models": [
+    {
+      "d": 1,
+      "H": 1,
+      "source_rows": 1,
+      "raw_columns": 2,
+      "finite_full_gram_determinant": "2",
+      "source_total_degree": 0,
+      "sum_time_block_squares": 1,
+      "maximum_allowed_exterior_energy": 1,
+      "crude_thermal_optimal_q": "1/2",
+      "crude_thermal_optimal_squared_bound": "4",
+      "repaired_q": "1/2",
+      "repaired_squared_bound": "4"
+    },
+    {
+      "d": 1,
+      "H": 2,
+      "source_rows": 2,
+      "raw_columns": 3,
+      "finite_full_gram_determinant": "6",
+      "source_total_degree": 1,
+      "sum_time_block_squares": 4,
+      "maximum_allowed_exterior_energy": 3,
+      "crude_thermal_optimal_q": "3/7",
+      "crude_thermal_optimal_squared_bound": "823543/6912",
+      "repaired_q": "1/3",
+      "repaired_squared_bound": "729/16"
+    },
+    {
+      "d": 1,
+      "H": 3,
+      "source_rows": 3,
+      "raw_columns": 4,
+      "finite_full_gram_determinant": "20",
+      "source_total_degree": 3,
+      "sum_time_block_squares": 9,
+      "maximum_allowed_exterior_energy": 6,
+      "crude_thermal_optimal_q": "2/5",
+      "crude_thermal_optimal_squared_bound": "30517578125/1259712",
+      "repaired_q": "1/4",
+      "repaired_squared_bound": "16777216/19683"
+    },
+    {
+      "d": 1,
+      "H": 4,
+      "source_rows": 4,
+      "raw_columns": 5,
+      "finite_full_gram_determinant": "70",
+      "source_total_degree": 6,
+      "sum_time_block_squares": 16,
+      "maximum_allowed_exterior_energy": 10,
+      "crude_thermal_optimal_q": "5/13",
+      "crude_thermal_optimal_squared_bound": "91733330193268616658399616009/2748779069440000000000",
+      "repaired_q": "1/5",
+      "repaired_squared_bound": "95367431640625/4294967296"
+    },
+    {
+      "d": 2,
+      "H": 1,
+      "source_rows": 1,
+      "raw_columns": 3,
+      "finite_full_gram_determinant": "2",
+      "source_total_degree": 0,
+      "sum_time_block_squares": 1,
+      "maximum_allowed_exterior_energy": 1,
+      "crude_thermal_optimal_q": "1/2",
+      "crude_thermal_optimal_squared_bound": "4",
+      "repaired_q": "1/2",
+      "repaired_squared_bound": "4"
+    },
+    {
+      "d": 2,
+      "H": 2,
+      "source_rows": 3,
+      "raw_columns": 6,
+      "finite_full_gram_determinant": "12",
+      "source_total_degree": 2,
+      "sum_time_block_squares": 5,
+      "maximum_allowed_exterior_energy": 6,
+      "crude_thermal_optimal_q": "4/9",
+      "crude_thermal_optimal_squared_bound": "387420489/800000",
+      "repaired_q": "1/3",
+      "repaired_squared_bound": "19683/32"
+    },
+    {
+      "d": 2,
+      "H": 3,
+      "source_rows": 6,
+      "raw_columns": 10,
+      "finite_full_gram_determinant": "240",
+      "source_total_degree": 8,
+      "sum_time_block_squares": 14,
+      "maximum_allowed_exterior_energy": 16,
+      "crude_thermal_optimal_q": "5/12",
+      "crude_thermal_optimal_squared_bound": "79496847203390844133441536/6623272195791015625",
+      "repaired_q": "1/4",
+      "repaired_squared_bound": "17592186044416/4782969"
+    },
+    {
+      "d": 2,
+      "H": 4,
+      "source_rows": 10,
+      "raw_columns": 15,
+      "finite_full_gram_determinant": "16800",
+      "source_total_degree": 20,
+      "sum_time_block_squares": 30,
+      "maximum_allowed_exterior_energy": 34,
+      "crude_thermal_optimal_q": "2/5",
+      "crude_thermal_optimal_squared_bound": "88817841970012523233890533447265625/215892499727278669824",
+      "repaired_q": "1/5",
+      "repaired_squared_bound": "5684341886080801486968994140625/1152921504606846976"
+    },
+    {
+      "d": 3,
+      "H": 1,
+      "source_rows": 1,
+      "raw_columns": 4,
+      "finite_full_gram_determinant": "2",
+      "source_total_degree": 0,
+      "sum_time_block_squares": 1,
+      "maximum_allowed_exterior_energy": 1,
+      "crude_thermal_optimal_q": "1/2",
+      "crude_thermal_optimal_squared_bound": "4",
+      "repaired_q": "1/2",
+      "repaired_squared_bound": "4"
+    },
+    {
+      "d": 3,
+      "H": 2,
+      "source_rows": 4,
+      "raw_columns": 10,
+      "finite_full_gram_determinant": "24",
+      "source_total_degree": 3,
+      "sum_time_block_squares": 6,
+      "maximum_allowed_exterior_energy": 8,
+      "crude_thermal_optimal_q": "5/11",
+      "crude_thermal_optimal_squared_bound": "285311670611/145800000",
+      "repaired_q": "1/3",
+      "repaired_squared_bound": "177147/64"
+    },
+    {
+      "d": 3,
+      "H": 3,
+      "source_rows": 10,
+      "raw_columns": 20,
+      "finite_full_gram_determinant": "5760",
+      "source_total_degree": 15,
+      "sum_time_block_squares": 20,
+      "maximum_allowed_exterior_energy": 30,
+      "crude_thermal_optimal_q": "3/7",
+      "crude_thermal_optimal_squared_bound": "378818692265664781682717625943/15776790092376440832",
+      "repaired_q": "1/4",
+      "repaired_squared_bound": "1180591620717411303424/3486784401"
+    },
+    {
+      "d": 3,
+      "H": 4,
+      "source_rows": 20,
+      "raw_columns": 35,
+      "finite_full_gram_determinant": "96768000",
+      "source_total_degree": 45,
+      "sum_time_block_squares": 50,
+      "maximum_allowed_exterior_energy": 75,
+      "crude_thermal_optimal_q": "7/17",
+      "crude_thermal_optimal_squared_bound": "387398841060856728666481830078934303451511026537231722901062889198807651406663242475428593734254127224657/37881869226566478168271762594300000000000000000000000000000000000000000000000000",
+      "repaired_q": "1/5",
+      "repaired_squared_bound": "82718061255302767487140869206996285356581211090087890625/1267650600228229401496703205376"
+    }
+  ],
+  "local_coordinate_entries": 1215,
+  "geometric_gram_blocks": 18,
+  "weighted_simplex_energy_cases": [
+    {
+      "weights": [
+        1
+      ],
+      "H": 12,
+      "columns": 13,
+      "selected_columns": 7,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 63,
+      "finite_normalized_maximum": "3/4",
+      "proved_limit_for_tail_fraction": "3/4"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 12,
+      "columns": 13,
+      "selected_columns": 4,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 42,
+      "finite_normalized_maximum": "7/8",
+      "proved_limit_for_tail_fraction": "7/8"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 24,
+      "columns": 25,
+      "selected_columns": 13,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 234,
+      "finite_normalized_maximum": "3/4",
+      "proved_limit_for_tail_fraction": "3/4"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 24,
+      "columns": 25,
+      "selected_columns": 7,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 147,
+      "finite_normalized_maximum": "7/8",
+      "proved_limit_for_tail_fraction": "7/8"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 48,
+      "columns": 49,
+      "selected_columns": 25,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 900,
+      "finite_normalized_maximum": "3/4",
+      "proved_limit_for_tail_fraction": "3/4"
+    },
+    {
+      "weights": [
+        1
+      ],
+      "H": 48,
+      "columns": 49,
+      "selected_columns": 13,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 546,
+      "finite_normalized_maximum": "7/8",
+      "proved_limit_for_tail_fraction": "7/8"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 12,
+      "columns": 35,
+      "selected_columns": 26,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 243,
+      "finite_normalized_maximum": "81/104",
+      "proved_limit_for_tail_fraction": "7/9"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 12,
+      "columns": 35,
+      "selected_columns": 17,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 180,
+      "finite_normalized_maximum": "15/17",
+      "proved_limit_for_tail_fraction": "37/42"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 24,
+      "columns": 117,
+      "selected_columns": 87,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 1626,
+      "finite_normalized_maximum": "271/348",
+      "proved_limit_for_tail_fraction": "7/9"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 24,
+      "columns": 117,
+      "selected_columns": 54,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 1143,
+      "finite_normalized_maximum": "127/144",
+      "proved_limit_for_tail_fraction": "37/42"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 48,
+      "columns": 425,
+      "selected_columns": 317,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 11844,
+      "finite_normalized_maximum": "987/1268",
+      "proved_limit_for_tail_fraction": "7/9"
+    },
+    {
+      "weights": [
+        1,
+        3
+      ],
+      "H": 48,
+      "columns": 425,
+      "selected_columns": 191,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 8082,
+      "finite_normalized_maximum": "1347/1528",
+      "proved_limit_for_tail_fraction": "37/42"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 12,
+      "columns": 73,
+      "selected_columns": 60,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 577,
+      "finite_normalized_maximum": "577/720",
+      "proved_limit_for_tail_fraction": "45/56"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 12,
+      "columns": 73,
+      "selected_columns": 42,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 449,
+      "finite_normalized_maximum": "449/504",
+      "proved_limit_for_tail_fraction": "525/592"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 24,
+      "columns": 382,
+      "selected_columns": 322,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 6195,
+      "finite_normalized_maximum": "295/368",
+      "proved_limit_for_tail_fraction": "45/56"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 24,
+      "columns": 382,
+      "selected_columns": 219,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 4669,
+      "finite_normalized_maximum": "4669/5256",
+      "proved_limit_for_tail_fraction": "525/592"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 48,
+      "columns": 2405,
+      "selected_columns": 2062,
+      "cost_cutoff_fraction": "1/2",
+      "exact_maximum_energy": 79432,
+      "finite_normalized_maximum": "9929/12372",
+      "proved_limit_for_tail_fraction": "45/56"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5
+      ],
+      "H": 48,
+      "columns": 2405,
+      "selected_columns": 1383,
+      "cost_cutoff_fraction": "3/4",
+      "exact_maximum_energy": 58923,
+      "finite_normalized_maximum": "6547/7376",
+      "proved_limit_for_tail_fraction": "525/592"
+    }
+  ],
+  "scope": "Exact finite full-jet polynomial kernels and exterior energy. The model has equal source/raw weights, theta=1 and no boundary escape; it is not the critical pi parameter family. Infinite losses and repairs follow from the written formulas."
+}
