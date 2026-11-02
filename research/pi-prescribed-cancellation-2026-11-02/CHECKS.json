@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-02",
+  "input_checkpoint": "db1290c827479ff85beaeca8606e8258d72f0c69",
+  "runtime": "Python3; standard library only",
+  "checks": [
+    {
+      "command": "python constructive-cancellation/verify_cancellation_identity.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-arithmetic/explicit_periods.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-review/audit_rodrigues.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-review/audit_complete_truncation.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python compare_existing_bounds.py",
+      "exit_code": 0
+    }
+  ],
+  "review": "Independent internal proof audit and exact rational checks; not external peer review.",
+  "proven": [
+    "entire rational moment kernel and parameter transfer",
+    "sharper exact positive-kernel norm",
+    "closed base periods",
+    "explicit full-truncation rule K=13m with nonzero pi coefficient for all m",
+    "absolute-error convergence and q_m tending to infinity",
+    "joint bounds retaining reduced denominator and moment denominators"
+  ],
+  "unproved": [
+    "quality q_m^2|pi-p_m/q_m| tending to zero",
+    "required net denominator saving for explicit multiplier family",
+    "bad approximability or non-bad-approximability of pi"
+  ],
+  "sha256": {
+    "README.md": "b3cad949ea1db662acf74f6b42b84fe3ee59a59fe5eff2905c7b65b2d8e8f884",
+    "SOURCES.md": "82502e068575002a67f2027949c528de49eb46ced43b6ffabc510ac6a4c25250",
+    "compare_existing_bounds.py": "a2d5875e899a345f3aa0163bf8f8b69fef8d82ee44b0a73e8b3c438ac4c8b730",
+    "constructive-arithmetic/CLOSED_BASE_PERIODS_AND_K13.md": "d8641e220a7cae9775c688773031a44bf9967c5ff43c5ca05f1955f0137e3bb9",
+    "constructive-arithmetic/EXPLICIT_PERIOD_EXTRACTION_AND_COST.md": "f8e587e2af8d4cea18645503ee89ae0f3a30068de3298f38e3873536340a5690",
+    "constructive-arithmetic/explicit_periods.json": "ef3fe52561586758ea88df5a9639e7ce54b0f5aecb8791ebef9ccdaf80603d04",
+    "constructive-arithmetic/explicit_periods.py": "696c30d35009516cf180671557631bcda6a7875460100bd3bc1c9d3d35d3159a",
+    "constructive-cancellation/RODRIGUES_CANCELLATION_AND_KERNEL_NORM.md": "c48fe338112f54aaa6a5b3127af9f0a1d85ae460d07661cc4773160d45cef275",
+    "constructive-cancellation/verify_cancellation_identity.json": "50734557c0d12b7474a7f083bc6fcb6c5f5a3d62e76f8ccf3adb80a2d0b6028b",
+    "constructive-cancellation/verify_cancellation_identity.py": "5a3a37934084cb0b0476778d6efb36aefd621505672468412f6c8868da8334cd",
+    "constructive-review/COMPLETE_TRUNCATION_GENERATOR.md": "8789958d6aeeda97ca1cc8e2dbb8731b3fed366306548786e59fe150a7a7cbaf",
+    "constructive-review/INDEPENDENT_CONSTRUCTIVE_AUDIT.md": "1e3fae639945c112638bd8dea0b11b6ec39403342aab4cb6a64ec2ffcedc92bb",
+    "constructive-review/audit_complete_truncation.json": "a1787a86a2710b982ed911db56b91b22d699e97fc768bc3b9cb39573662d71fd",
+    "constructive-review/audit_complete_truncation.py": "94ac9dee59cae05fd5b55b3196eeba72b2f1901b325907f57e77cec5b44c434d",
+    "constructive-review/audit_rodrigues.json": "04567efcb046551ab54e4647668343d60b65b20ec83d2176c2579903b29a9862",
+    "constructive-review/audit_rodrigues.py": "8df76f1b75e21521864c5642ab94f47425bbb02803495e0a3e0ffa7b1319ac04",
+    "existing_candidate_bound_comparison.json": "f994cc58e7d593398adffc076ffdcccb45c105bb331687246616864900890e3e"
+  }
+}

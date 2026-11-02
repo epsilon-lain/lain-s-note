@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "scales_checked": [
+    1,
+    2,
+    3
+  ],
+  "rule": "K=13m",
+  "samples": [
+    {
+      "m": 1,
+      "K": 13,
+      "p": "167611796063532136",
+      "q": "53352474510121605",
+      "q_bits": 56,
+      "multiplier_denominator_bits": 71,
+      "alpha": "-392393405863424/75340571907153465",
+      "delta": "-1/192",
+      "absolute_error_upper": "279450772223922454528/2458765490889532858731243",
+      "absolute_error_upper_below_uniform_bound": true,
+      "quality_upper": "1547372609477903317679039993364889600/4782969",
+      "quality_upper_less_than_one": false,
+      "exact_integer_realization_scale": "671338740904510523644800"
+    },
+    {
+      "m": 2,
+      "K": 26,
+      "p": "10306986851826279291233043329013767168",
+      "q": "3280815811380498832553575860871995675",
+      "q_bits": 122,
+      "multiplier_denominator_bits": 141,
+      "alpha": "-827491178350209996786978669056/118629135647684005858410679314251265",
+      "delta": "-1/143360",
+      "absolute_error_upper": "14968851518981033950997179859106035157434368/35903349669091866762856276211852415582605660305365",
+      "absolute_error_upper_below_uniform_bound": true,
+      "quality_upper": "8756402827516108710148667447957376236069435751226740699664165954172676239192489984000/1951230258860988573",
+      "quality_upper_less_than_one": false,
+      "exact_integer_realization_scale": "23672874375389640908957177508844086477502304256000"
+    },
+    {
+      "m": 3,
+      "K": 39,
+      "p": "343228813967523072452140947085995503675330494330871808",
+      "q": "109253124708997106446947852111048527857088353467136715",
+      "q_bits": 177,
+      "multiplier_denominator_bits": 210,
+      "alpha": "-68412425156093879967006777958483005423616/4142732466209982197520869986628811026915910872073",
+      "delta": "-1/60555264",
+      "absolute_error_upper": "3690745173987608658662757099039896725611746959923194127412363264/3016045727386100606771660581153760301659464748595813087275909321930223855",
+      "absolute_error_upper_below_uniform_bound": true,
+      "quality_upper": "5379277809455673443268444526471412910802329950625734378336171027047104626514394592626274169665531590310329803589934865448960/368281667685920378039137737",
+      "quality_upper_less_than_one": false,
+      "exact_integer_realization_scale": "2761925087693249367150541088695459744471685259556424267749793462103834624000"
+    }
+  ],
+  "scope": "Finite exact generator and cost audit. The written proof establishes absolute-error convergence and divergent reduced denominators; neither it nor this finite check establishes quality tending to zero."
+}

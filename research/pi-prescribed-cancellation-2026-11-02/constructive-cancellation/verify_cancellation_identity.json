@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "maximum_family_m": 6,
+  "exact_rational_moment_checks": 292,
+  "shifted_period_identity_checks": 149,
+  "nonzero_period_reduced_fraction_equalities": 149,
+  "constant_kernel_mass_checks": 12,
+  "independent_Fourier_period_checks": 45,
+  "scope": "Exact bounded algebra audit. No quality-zero sequence or asymptotic coefficient bound is inferred."
+}

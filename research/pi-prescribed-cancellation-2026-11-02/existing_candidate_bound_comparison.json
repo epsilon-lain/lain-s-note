@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "new_candidate_searches": 0,
+  "input_commit": "db1290c827479ff85beaeca8606e8258d72f0c69",
+  "source_git_blob": "3cd2fd50b288c470977f776c9c34e6b85c1dccde",
+  "samples": [
+    {
+      "m": 1,
+      "p": 22,
+      "q": 7,
+      "old_quality_upper": "448/27",
+      "sharper_quality_upper": "11/2",
+      "improvement_factor": "896/297",
+      "displayed_new_upper": 5.5,
+      "displayed_improvement": 3.016835016835017
+    },
+    {
+      "m": 2,
+      "p": 355,
+      "q": 113,
+      "old_quality_upper": "101248/729",
+      "sharper_quality_upper": "3729/128",
+      "improvement_factor": "114688/24057",
+      "displayed_new_upper": 29.1328125,
+      "displayed_improvement": 4.767344224134348
+    },
+    {
+      "m": 3,
+      "p": 355,
+      "q": 113,
+      "old_quality_upper": "817216/98415",
+      "sharper_quality_upper": "140459/114688",
+      "improvement_factor": "7340032/1082565",
+      "displayed_new_upper": 1.2247052873883928,
+      "displayed_improvement": 6.780222896546627
+    },
+    {
+      "m": 4,
+      "p": 104348,
+      "q": 33215,
+      "old_quality_upper": "64414779520/1594323",
+      "sharper_quality_upper": "27678225575/6291456",
+      "improvement_factor": "268435456/29229255",
+      "displayed_new_upper": 4399.335475762685,
+      "displayed_improvement": 9.183793976274798
+    },
+    {
+      "m": 5,
+      "p": 1459097,
+      "q": 464445,
+      "old_quality_upper": "10640835404800/3720087",
+      "sharper_quality_upper": "27776321325225/117440512",
+      "improvement_factor": "17179869184/1420541793",
+      "displayed_new_upper": 236513.96653673478,
+      "displayed_improvement": 12.093885071637594
+    },
+    {
+      "m": 6,
+      "p": 85563208,
+      "q": 27235615,
+      "old_quality_upper": "2001514776224184320/8135830269",
+      "sharper_quality_upper": "118253558556214015/7516192768",
+      "improvement_factor": "2199023255552/140633637507",
+      "displayed_new_upper": 15733172.658859355,
+      "displayed_improvement": 15.636538274440525
+    }
+  ],
+  "scope": "All upper bounds are exact rational inequalities; displays are descriptive. No asymptotic height bound or quality-zero conclusion follows."
+}
