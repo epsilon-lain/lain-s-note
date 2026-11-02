@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "max_sequence_index": 600,
+  "counts": {
+    "constant_term": 51,
+    "convolution": 100,
+    "Lucas": 27045,
+    "reflection": 4225,
+    "leading_denominator_residue": 22820,
+    "exact_generic_valuation": 21729,
+    "exceptional_valuation_floor": 1091,
+    "transfer_blocks": 90,
+    "top_half_prime_square": 4180,
+    "annihilation_tail": 18595
+  },
+  "prime_square_examples": [
+    {
+      "p": 17,
+      "r": 4,
+      "n": 21,
+      "A_r_over_p_residue": 12,
+      "D_r_residue": 6,
+      "g_valuation": 1,
+      "factorial_valuation": 1
+    },
+    {
+      "p": 73,
+      "r": 34,
+      "n": 107,
+      "A_r_over_p_residue": 37,
+      "D_r_residue": 36,
+      "g_valuation": 2,
+      "factorial_valuation": 1
+    },
+    {
+      "p": 131,
+      "r": 35,
+      "n": 166,
+      "A_r_over_p_residue": 104,
+      "D_r_residue": 27,
+      "g_valuation": 2,
+      "factorial_valuation": 1
+    }
+  ],
+  "odd_excess_examples_through_500": [
+    {
+      "n": 72,
+      "odd_excess_factor": "17"
+    },
+    {
+      "n": 107,
+      "odd_excess_factor": "73"
+    },
+    {
+      "n": 166,
+      "odd_excess_factor": "131"
+    },
+    {
+      "n": 170,
+      "odd_excess_factor": "41"
+    },
+    {
+      "n": 176,
+      "odd_excess_factor": "23"
+    },
+    {
+      "n": 216,
+      "odd_excess_factor": "17"
+    },
+    {
+      "n": 280,
+      "odd_excess_factor": "41"
+    },
+    {
+      "n": 352,
+      "odd_excess_factor": "23"
+    },
+    {
+      "n": 353,
+      "odd_excess_factor": "151"
+    },
+    {
+      "n": 480,
+      "odd_excess_factor": "31"
+    },
+    {
+      "n": 498,
+      "odd_excess_factor": "41"
+    }
+  ],
+  "scope": "Exact finite audits only; the all-index identities require the proofs in the note. No aggregate gcd growth conclusion."
+}

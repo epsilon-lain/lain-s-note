@@ -1,0 +1,292 @@
+{
+  "status": "PASS",
+  "checked_n": 5000,
+  "all_index_two_adic_checks": 5000,
+  "exact_budget_checks": 10000,
+  "maximum_h_squared": {
+    "n": 2,
+    "numerator": "8",
+    "denominator": "1"
+  },
+  "indices_with_odd_surplus": 41,
+  "all_odd_surpluses": [
+    {
+      "n": 72,
+      "E": "17"
+    },
+    {
+      "n": 107,
+      "E": "73"
+    },
+    {
+      "n": 166,
+      "E": "131"
+    },
+    {
+      "n": 170,
+      "E": "41"
+    },
+    {
+      "n": 176,
+      "E": "23"
+    },
+    {
+      "n": 216,
+      "E": "17"
+    },
+    {
+      "n": 280,
+      "E": "41"
+    },
+    {
+      "n": 352,
+      "E": "23"
+    },
+    {
+      "n": 353,
+      "E": "151"
+    },
+    {
+      "n": 480,
+      "E": "31"
+    },
+    {
+      "n": 498,
+      "E": "41"
+    },
+    {
+      "n": 552,
+      "E": "47"
+    },
+    {
+      "n": 557,
+      "E": "223"
+    },
+    {
+      "n": 560,
+      "E": "41"
+    },
+    {
+      "n": 623,
+      "E": "37"
+    },
+    {
+      "n": 628,
+      "E": "41"
+    },
+    {
+      "n": 651,
+      "E": "113"
+    },
+    {
+      "n": 745,
+      "E": "37"
+    },
+    {
+      "n": 765,
+      "E": "41"
+    },
+    {
+      "n": 915,
+      "E": "41"
+    },
+    {
+      "n": 1052,
+      "E": "41"
+    },
+    {
+      "n": 1120,
+      "E": "41"
+    },
+    {
+      "n": 1144,
+      "E": "241"
+    },
+    {
+      "n": 1182,
+      "E": "41"
+    },
+    {
+      "n": 1224,
+      "E": "17"
+    },
+    {
+      "n": 1400,
+      "E": "41"
+    },
+    {
+      "n": 1510,
+      "E": "41"
+    },
+    {
+      "n": 1588,
+      "E": "421"
+    },
+    {
+      "n": 1654,
+      "E": "191"
+    },
+    {
+      "n": 1656,
+      "E": "47"
+    },
+    {
+      "n": 1679,
+      "E": "107"
+    },
+    {
+      "n": 2524,
+      "E": "17"
+    },
+    {
+      "n": 3296,
+      "E": "23"
+    },
+    {
+      "n": 3580,
+      "E": "23"
+    },
+    {
+      "n": 3658,
+      "E": "149"
+    },
+    {
+      "n": 3753,
+      "E": "223"
+    },
+    {
+      "n": 4048,
+      "E": "23"
+    },
+    {
+      "n": 4108,
+      "E": "157"
+    },
+    {
+      "n": 4508,
+      "E": "239"
+    },
+    {
+      "n": 4762,
+      "E": "2677"
+    },
+    {
+      "n": 4772,
+      "E": "113"
+    }
+  ],
+  "first_odd_surpluses": [
+    {
+      "n": 72,
+      "E": "17"
+    },
+    {
+      "n": 107,
+      "E": "73"
+    },
+    {
+      "n": 166,
+      "E": "131"
+    },
+    {
+      "n": 170,
+      "E": "41"
+    },
+    {
+      "n": 176,
+      "E": "23"
+    },
+    {
+      "n": 216,
+      "E": "17"
+    },
+    {
+      "n": 280,
+      "E": "41"
+    },
+    {
+      "n": 352,
+      "E": "23"
+    },
+    {
+      "n": 353,
+      "E": "151"
+    },
+    {
+      "n": 480,
+      "E": "31"
+    }
+  ],
+  "maximum_observed_log_E_over_n": {
+    "value": 0.04009775178643356,
+    "n": 107,
+    "E": "73"
+  },
+  "maximum_observed_E": {
+    "n": 4762,
+    "E": "2677"
+  },
+  "quality_above_one_half_certified_for_n": [
+    3,
+    5000
+  ],
+  "checkpoints": [
+    {
+      "n": 72,
+      "odd_surplus": "17",
+      "log_h": -78.3649137312652,
+      "v2_g": 36,
+      "v2_factorial": 70,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 107,
+      "odd_surplus": "73",
+      "log_h": -120.72475854395697,
+      "v2_g": 55,
+      "v2_factorial": 102,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 166,
+      "odd_surplus": "131",
+      "log_h": -190.23157959974537,
+      "v2_g": 84,
+      "v2_factorial": 162,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 500,
+      "odd_surplus": "1",
+      "log_h": -656.5862836675251,
+      "v2_g": 250,
+      "v2_factorial": 494,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 1000,
+      "odd_surplus": "1",
+      "log_h": -1329.4034171792582,
+      "v2_g": 500,
+      "v2_factorial": 994,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 2000,
+      "odd_surplus": "1",
+      "log_h": -2646.6666405418127,
+      "v2_g": 1000,
+      "v2_factorial": 1994,
+      "required_compensation_log_slope": 0.34657359027997264
+    },
+    {
+      "n": 5000,
+      "odd_surplus": "1",
+      "log_h": -6700.328537960697,
+      "v2_g": 2500,
+      "v2_factorial": 4995,
+      "required_compensation_log_slope": 0.34657359027997264
+    }
+  ],
+  "scope": "Finite exact verification only. Diagnostic logarithms are floating-point summaries. No infinite odd-surplus bound or assertion about pi follows from the scan."
+}

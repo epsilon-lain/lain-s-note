@@ -1,0 +1,700 @@
+{
+  "status": "PASS",
+  "candidate_count": 115,
+  "max_index": 49870,
+  "combined_events": [],
+  "records": [
+    {
+      "n": 72,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 107,
+      "known_surplus_prime": 73,
+      "odd_excess_factor": "73",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 166,
+      "known_surplus_prime": 131,
+      "odd_excess_factor": "131",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 170,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 176,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 216,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 280,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 352,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 353,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 480,
+      "known_surplus_prime": 31,
+      "odd_excess_factor": "31",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 498,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 552,
+      "known_surplus_prime": 47,
+      "odd_excess_factor": "47",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 557,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 560,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 623,
+      "known_surplus_prime": 37,
+      "odd_excess_factor": "37",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 628,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 651,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 745,
+      "known_surplus_prime": 37,
+      "odd_excess_factor": "37",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 765,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 915,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1052,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1120,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1144,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1182,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1224,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1400,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1510,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1588,
+      "known_surplus_prime": 421,
+      "odd_excess_factor": "421",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1654,
+      "known_surplus_prime": 191,
+      "odd_excess_factor": "191",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1656,
+      "known_surplus_prime": 47,
+      "odd_excess_factor": "47",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 1679,
+      "known_surplus_prime": 107,
+      "odd_excess_factor": "107",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 2524,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 3296,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 3580,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 3658,
+      "known_surplus_prime": 149,
+      "odd_excess_factor": "149",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 3753,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 4048,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 4108,
+      "known_surplus_prime": 157,
+      "odd_excess_factor": "157",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 4508,
+      "known_surplus_prime": 239,
+      "odd_excess_factor": "239",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 4772,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 5221,
+      "known_surplus_prime": 73,
+      "odd_excess_factor": "73",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 5510,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 5785,
+      "known_surplus_prime": 257,
+      "odd_excess_factor": "257",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 5791,
+      "known_surplus_prime": 197,
+      "odd_excess_factor": "197",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 7258,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 7285,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 7498,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 7943,
+      "known_surplus_prime": 283,
+      "odd_excess_factor": "283",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 7996,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 8288,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 8467,
+      "known_surplus_prime": 251,
+      "odd_excess_factor": "251",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 8586,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 8857,
+      "known_surplus_prime": 149,
+      "odd_excess_factor": "149",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 8870,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 9769,
+      "known_surplus_prime": 107,
+      "odd_excess_factor": "107",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 10319,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 11645,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 12117,
+      "known_surplus_prime": 113,
+      "odd_excess_factor": "113",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 12159,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 12481,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 13343,
+      "known_surplus_prime": 149,
+      "odd_excess_factor": "149",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 13452,
+      "known_surplus_prime": 197,
+      "odd_excess_factor": "197",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 14520,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 14950,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 15302,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 15519,
+      "known_surplus_prime": 457,
+      "odd_excess_factor": "457",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 16994,
+      "known_surplus_prime": 131,
+      "odd_excess_factor": "131",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 17025,
+      "known_surplus_prime": 47,
+      "odd_excess_factor": "47",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 18135,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 18261,
+      "known_surplus_prime": 457,
+      "odd_excess_factor": "457",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 18542,
+      "known_surplus_prime": 149,
+      "odd_excess_factor": "149",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 18837,
+      "known_surplus_prime": 431,
+      "odd_excess_factor": "431",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 19170,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 19530,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 20540,
+      "known_surplus_prime": 157,
+      "odd_excess_factor": "157",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 21754,
+      "known_surplus_prime": 401,
+      "odd_excess_factor": "401",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 22188,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 22447,
+      "known_surplus_prime": 151,
+      "odd_excess_factor": "151",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 22523,
+      "known_surplus_prime": 271,
+      "odd_excess_factor": "271",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 23056,
+      "known_surplus_prime": 263,
+      "odd_excess_factor": "263",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 23341,
+      "known_surplus_prime": 37,
+      "odd_excess_factor": "37",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 23678,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 24322,
+      "known_surplus_prime": 421,
+      "odd_excess_factor": "421",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 24864,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 25356,
+      "known_surplus_prime": 197,
+      "odd_excess_factor": "197",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 27311,
+      "known_surplus_prime": 37,
+      "odd_excess_factor": "37",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 27540,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 28317,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 29355,
+      "known_surplus_prime": 23,
+      "odd_excess_factor": "23",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 30619,
+      "known_surplus_prime": 277,
+      "odd_excess_factor": "277",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 32910,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 33017,
+      "known_surplus_prime": 197,
+      "odd_excess_factor": "197",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 33270,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 34402,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 34826,
+      "known_surplus_prime": 191,
+      "odd_excess_factor": "191",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 35721,
+      "known_surplus_prime": 349,
+      "odd_excess_factor": "349",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 37490,
+      "known_surplus_prime": 229,
+      "odd_excess_factor": "229",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 38819,
+      "known_surplus_prime": 401,
+      "odd_excess_factor": "401",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 39945,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 40200,
+      "known_surplus_prime": 401,
+      "odd_excess_factor": "401",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 40215,
+      "known_surplus_prime": 479,
+      "odd_excess_factor": "479",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 41440,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 41498,
+      "known_surplus_prime": 73,
+      "odd_excess_factor": "73",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 42123,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 42282,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 42315,
+      "known_surplus_prime": 401,
+      "odd_excess_factor": "401",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 43560,
+      "known_surplus_prime": 241,
+      "odd_excess_factor": "241",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 45960,
+      "known_surplus_prime": 41,
+      "odd_excess_factor": "41",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 45975,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 46109,
+      "known_surplus_prime": 277,
+      "odd_excess_factor": "277",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 46112,
+      "known_surplus_prime": 263,
+      "odd_excess_factor": "263",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 47859,
+      "known_surplus_prime": 17,
+      "odd_excess_factor": "17",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 49171,
+      "known_surplus_prime": 223,
+      "odd_excess_factor": "223",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 49533,
+      "known_surplus_prime": 401,
+      "odd_excess_factor": "401",
+      "remaining_after_known_prime_powers": "1"
+    },
+    {
+      "n": 49870,
+      "known_surplus_prime": 37,
+      "odd_excess_factor": "37",
+      "remaining_after_known_prime_powers": "1"
+    }
+  ],
+  "seconds": 12.943,
+  "scope": "Complete exact gcd at all indices with a surplus prime<=500 through n50000; does not exclude pairs where both primes exceed500."
+}

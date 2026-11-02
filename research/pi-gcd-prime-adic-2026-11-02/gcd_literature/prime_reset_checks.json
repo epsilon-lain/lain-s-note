@@ -1,0 +1,125 @@
+{
+  "max_n": 2000,
+  "prime_upper": 500,
+  "prime_reset_checks": 86230,
+  "first_block_zero_residues": {
+    "3": [],
+    "5": [],
+    "7": [],
+    "11": [],
+    "13": [],
+    "17": [
+      4,
+      12
+    ],
+    "19": [],
+    "23": [
+      7,
+      15
+    ],
+    "29": [],
+    "31": [
+      15
+    ],
+    "37": [
+      5,
+      31
+    ],
+    "41": [
+      6,
+      13,
+      27,
+      34
+    ],
+    "43": [],
+    "47": [
+      11,
+      35
+    ]
+  },
+  "first_higher_valuation_excess": [
+    [
+      72,
+      [
+        [
+          17,
+          5,
+          4
+        ]
+      ]
+    ],
+    [
+      107,
+      [
+        [
+          73,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      166,
+      [
+        [
+          131,
+          2,
+          1
+        ]
+      ]
+    ],
+    [
+      170,
+      [
+        [
+          41,
+          5,
+          4
+        ]
+      ]
+    ],
+    [
+      176,
+      [
+        [
+          23,
+          8,
+          7
+        ]
+      ]
+    ],
+    [
+      216,
+      [
+        [
+          17,
+          13,
+          12
+        ]
+      ]
+    ],
+    [
+      280,
+      [
+        [
+          41,
+          7,
+          6
+        ]
+      ]
+    ],
+    [
+      352,
+      [
+        [
+          23,
+          16,
+          15
+        ]
+      ]
+    ]
+  ],
+  "higher_valuation_excess_count": 31,
+  "partial_two_adic_theorem_checked": true,
+  "note": "Finite checks audit proved statements; stronger full 2-adic formula remains unproved."
+}

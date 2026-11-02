@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-02",
+  "baseline_commit": "dff048f73da83e63978e1c01576d38ea71af1546",
+  "source_archive_sha256": "c3e64443dbd2d77fa8eca77541097ab210f9dfb3eaf271ed2e0087c808082445",
+  "scope": "All-index two-adic theorem; odd-prime digit and lifting criteria; finite exact experiments. No successful infinite subsequence or pi bad-approximability theorem.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f53eee58970db8f4d6ea72a0e549dc2ec140aeb88e43081ac481d5dfe4afd262",
+      "bytes": 9249
+    },
+    {
+      "path": "gcd_arithmetic/ODD_PRIME_DIGIT_CRITERION.md",
+      "sha256": "25dcb5854e75c7ffc6c0fd891e5da3d60662d238075d7e152c2eb61d4822e459",
+      "bytes": 3999
+    },
+    {
+      "path": "gcd_arithmetic/TWO_ADIC_VALUATION.md",
+      "sha256": "b1a1c12f60c7718d31156fc3a053b09892372b76e34059518d4919e432dd0bd3",
+      "bytes": 5119
+    },
+    {
+      "path": "gcd_arithmetic/gcd_arithmetic_verification.json",
+      "sha256": "202e6ab01d5a1b7a33d89fdbb6d95708ad26148113afbdcb85d939c38c75e833",
+      "bytes": 852
+    },
+    {
+      "path": "gcd_arithmetic/verify_gcd_arithmetic.py",
+      "sha256": "e4c6c035dabebfa54fadd8b463509711f01fcfa7b5a9aaa7487a4aaca067e86e",
+      "bytes": 5336
+    },
+    {
+      "path": "gcd_blocks/PRIME_BLOCKS_AND_LIFTING.md",
+      "sha256": "e25ecce88bf5eb22cb542325a621e6fe12633d89495431eda31a71cd5d6316ed",
+      "bytes": 6588
+    },
+    {
+      "path": "gcd_blocks/prime_block_checks.json",
+      "sha256": "3f98b92e18e41b4cf2cfa15f5f3185172099eff9baa96326dcb573200b4000b1",
+      "bytes": 1771
+    },
+    {
+      "path": "gcd_blocks/verify_prime_blocks.py",
+      "sha256": "74e462a344d204c71f47618fd3fce63fd8b255a703a7a517a2994ee1fe2879ff",
+      "bytes": 4670
+    },
+    {
+      "path": "gcd_literature/PRIME_RESET_AND_FACTORIAL_REDUCTION.md",
+      "sha256": "5e20a63577f284144489761aa483db49130f129547f96e9e2a774b60e1ebba31",
+      "bytes": 9224
+    },
+    {
+      "path": "gcd_literature/prime_reset_checks.json",
+      "sha256": "4320235151ba8383a51258a9f267207d56232dca67d563329398c49ee25c0640",
+      "bytes": 1471
+    },
+    {
+      "path": "gcd_literature/verify_prime_reset.py",
+      "sha256": "48b044857865c1c35b689c6bc8a387d58300fde7e94d5162bca97fdf64c7578d",
+      "bytes": 1727
+    },
+    {
+      "path": "gcd_audit/INDEPENDENT_GCD_BLOCK_AUDIT.md",
+      "sha256": "d2188ae5fd9f2e62a55629c382a356a3e18d66844a7ccc9f2e3b4281dd116241",
+      "bytes": 5642
+    },
+    {
+      "path": "gcd_audit2/INDEPENDENT_TWO_ADIC_AUDIT.md",
+      "sha256": "129b8c2a160a19b3237c7db39ea3ecad9406c436d3987eec145a5619c3358f28",
+      "bytes": 3941
+    },
+    {
+      "path": "gcd_research/global_budget_checks.json",
+      "sha256": "9a323a38b80d9c5aa3b164bd743f282607aa182eaf606d3d24fbe4d5a8ec726d",
+      "bytes": 4442
+    },
+    {
+      "path": "gcd_research/verify_global_budget.py",
+      "sha256": "fa98840e8f81d8096072592ce3586b79fb425c5abf78d0c76b358c4da899d73e",
+      "bytes": 3560
+    },
+    {
+      "path": "gcd_combined/FINITE_COMBINED_SURPLUS_SEARCH.md",
+      "sha256": "5c5ff0e22b4c8a01dee29b94315c19f9fb014ca140f52d5864befe634bced40f",
+      "bytes": 1657
+    },
+    {
+      "path": "gcd_combined/certify_known_candidates.py",
+      "sha256": "fb4e93815291d8ace7691ca6074eea95671985732f7ea6341cca345e9fcfb639",
+      "bytes": 1650
+    },
+    {
+      "path": "gcd_combined/combined_surplus_checks.json",
+      "sha256": "a753b38d33f3b4ad984c61294f085b73d521281e2eafa3ef16138769aae3ad7a",
+      "bytes": 8299
+    },
+    {
+      "path": "gcd_combined/full_candidate_surplus_checks.json",
+      "sha256": "2b01dedc2175c165b737f14cb87d79263a1a3e873b85922ec69f9589d3d727be",
+      "bytes": 17019
+    },
+    {
+      "path": "gcd_combined/scan_combined_surplus.py",
+      "sha256": "1f6b3ebc05d625414ad1cef646fac25f76c159d4a3f93e0d3733f574e3bb75d1",
+      "bytes": 3606
+    }
+  ],
+  "validation": "Exact checks and independent internal reviews are included. General theorems rely on written proofs, not finite scans."
+}
