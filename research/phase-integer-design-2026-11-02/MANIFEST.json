@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "scope": "Constructive synchronization and arithmetic cost tools; no new pi record or absolute quality-zero theorem.",
+  "checks": [
+    "verify_integer_design.py",
+    "denominator/run_design.py",
+    "denominator/fast_channels.py",
+    "denominator/verify_design.py",
+    "gaussian/experiment.py",
+    "gaussian/verify.py",
+    "gaussian/audit_common_denominator.py",
+    "deformation/verify_deformation.py",
+    "certificate/verify_certificate.py"
+  ],
+  "files": [
+    {
+      "path": "GCD_DESIGN.md",
+      "bytes": 3318,
+      "sha256": "79e7789529160e0b60da404e45cbd1197c435f527a10dd4e52b7cc7e619ee8ea"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6941,
+      "sha256": "66483c0aded9ba16f7e330a58a874b093f4680554830b1d3d8dae99387831e5e"
+    },
+    {
+      "path": "certificate/NOTE.md",
+      "bytes": 1831,
+      "sha256": "f2bd006225d5db9d64e006f2841e56fe02bc6fe3d56efab880508365307e61c7"
+    },
+    {
+      "path": "certificate/checks.json",
+      "bytes": 27050,
+      "sha256": "52d4816ce082684d622e6b8b1563ecb6629259fe1d4062bc0857eac11963807c"
+    },
+    {
+      "path": "certificate/verify_certificate.py",
+      "bytes": 3878,
+      "sha256": "76575016967007c4ad11fae1e7a5cd89f5c1d4d389c2c6d9b3199178dfb6a339"
+    },
+    {
+      "path": "deformation/NOTE.md",
+      "bytes": 6485,
+      "sha256": "192c78852d8671dd4a8c8e087f90dfd3f7b880251cd8ba432fe94bbf678042c5"
+    },
+    {
+      "path": "deformation/results.json",
+      "bytes": 50743,
+      "sha256": "e6f414c577af7e9d2da420cd624998513ccea7ba865d61ffb27bb450084d0350"
+    },
+    {
+      "path": "deformation/verify_deformation.py",
+      "bytes": 6897,
+      "sha256": "3f3426ff9b79f25de729cdac85f08eb0ef731ccb26a65c039412aafe3e0dd208"
+    },
+    {
+      "path": "denominator/NOTE.md",
+      "bytes": 8909,
+      "sha256": "217f86cf80bb845e10221e1c80ddf3ba9c17ef1daa031a1dd863228ffa1a1ef0"
+    },
+    {
+      "path": "denominator/fast_channels.json",
+      "bytes": 16847,
+      "sha256": "bee18d9eda65e922b90778b8bd56fe10559d08cb9dc9a516a00368821a1eddee"
+    },
+    {
+      "path": "denominator/fast_channels.py",
+      "bytes": 2095,
+      "sha256": "dad59c26c7ba45f04c71f182e1995f3847bf517e35e4ab85b7531b15ace5b4e6"
+    },
+    {
+      "path": "denominator/results.json",
+      "bytes": 418678,
+      "sha256": "f7ed35122ade8b331564d18eaee6e54eae816a2bd309d289822812c893fd85c2"
+    },
+    {
+      "path": "denominator/run_design.py",
+      "bytes": 7577,
+      "sha256": "d8cf595e515674cae5e2a6d90c2659f3eea06bf25748c3298d1758f08bb147e0"
+    },
+    {
+      "path": "denominator/verification.json",
+      "bytes": 362,
+      "sha256": "5a0679d3d4383e3301203c1770d58038a2d64aacefd4561f3799a1f2345855f4"
+    },
+    {
+      "path": "denominator/verify_design.py",
+      "bytes": 5204,
+      "sha256": "79b773cf72c0343c1a04f8679b9f7f45c1bc8d02f4aa696f18b04920a6c6dea7"
+    },
+    {
+      "path": "gaussian/AUDIT_COMMON_DENOMINATOR.md",
+      "bytes": 3655,
+      "sha256": "b04c546feacbe215c0080f1d2ca1b62842351c6e4fe5223ca979739e64168c45"
+    },
+    {
+      "path": "gaussian/NOTE.md",
+      "bytes": 5529,
+      "sha256": "a4697e358820e05ed6a4216637df7aa4f73fbb5cb1934d50d080998598eb5d22"
+    },
+    {
+      "path": "gaussian/audit_common_denominator.json",
+      "bytes": 1888,
+      "sha256": "abedac6381a95b3f48fd179abf4ac122a1bb0f183465a213bf85947aceed9133"
+    },
+    {
+      "path": "gaussian/audit_common_denominator.py",
+      "bytes": 2251,
+      "sha256": "849084a10745bebf9a20b5e0933bcb1450f7b098136c5fa90d5cb6384840c519"
+    },
+    {
+      "path": "gaussian/experiment.py",
+      "bytes": 4578,
+      "sha256": "d89c1009b97b1a4fccc8136cd90eb03fcc3bca906506c0f8cab2d63d33459c73"
+    },
+    {
+      "path": "gaussian/results.json",
+      "bytes": 239661,
+      "sha256": "76034958f6646576352739266ba89dba9a16f8da2bbc5a338c14f10d1a20b978"
+    },
+    {
+      "path": "gaussian/verification.json",
+      "bytes": 292,
+      "sha256": "29655ff0f4145953f83aa0143ec365eb727ce26921ea56b570a7009bb6404d02"
+    },
+    {
+      "path": "gaussian/verify.py",
+      "bytes": 3568,
+      "sha256": "29ad54a569c03726ef91f712204834425b68577ee3b6fbfddf645965b915b3bb"
+    },
+    {
+      "path": "integer_design_checks.json",
+      "bytes": 323,
+      "sha256": "162f3997694336c7ecdacf545fca02887f144c8051b747ada93a4076b5e13d2b"
+    },
+    {
+      "path": "verify_integer_design.py",
+      "bytes": 2471,
+      "sha256": "2878be3ebbc09a4530bc7992da8fed74d1b61621eaf1c9212c60f599e5f48688"
+    }
+  ]
+}

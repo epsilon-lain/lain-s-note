@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "independent_prime_power_cases": 16,
+  "independent_fast_channel_cases": 10,
+  "universal_quarter_bound_checks": 1000,
+  "independent_high_order_cases": 229,
+  "actual_gcd_and_denominator_replays": 245,
+  "high_order_improved": 181,
+  "high_order_worse": 48,
+  "scope": "Finite exact replay; the infinite theorem is proved in NOTE.md."
+}

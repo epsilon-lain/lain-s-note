@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "independent_candidates": 336,
+  "shared_norm_checks": 336,
+  "actual_gcd_and_denominator_budget_checks": 336,
+  "synchronised_tail_error_bound_certificates": 336,
+  "quality_improvements_over_own_naive_baseline": 1,
+  "all_candidates_worse_than_355_over_113": true
+}

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "limit": 2001,
+  "odd_prime_powers_audited": 323,
+  "exact_denominator_classification": true,
+  "rational_error_bounds_and_actual_quality_ratios": 323,
+  "exceptions": [
+    {
+      "m": 9,
+      "p": 3,
+      "r": 2,
+      "denominator_loss": 3
+    },
+    {
+      "m": 81,
+      "p": 3,
+      "r": 4,
+      "denominator_loss": 3
+    },
+    {
+      "m": 729,
+      "p": 3,
+      "r": 6,
+      "denominator_loss": 3
+    }
+  ],
+  "selected_samples": [
+    {
+      "m": 3,
+      "p": 3,
+      "r": 1,
+      "q_U_bits": 4,
+      "q_V_bits": 4,
+      "denominator_ratio_U_over_V": 1,
+      "relative_quality_upper_bound": "1/35"
+    },
+    {
+      "m": 5,
+      "p": 5,
+      "r": 1,
+      "q_U_bits": 9,
+      "q_V_bits": 9,
+      "denominator_ratio_U_over_V": 1,
+      "relative_quality_upper_bound": "1/99"
+    },
+    {
+      "m": 7,
+      "p": 7,
+      "r": 1,
+      "q_U_bits": 16,
+      "q_V_bits": 16,
+      "denominator_ratio_U_over_V": 1,
+      "relative_quality_upper_bound": "1/195"
+    },
+    {
+      "m": 9,
+      "p": 3,
+      "r": 2,
+      "q_U_bits": 20,
+      "q_V_bits": 18,
+      "denominator_ratio_U_over_V": 3,
+      "relative_quality_upper_bound": "1/323"
+    },
+    {
+      "m": 27,
+      "p": 3,
+      "r": 3,
+      "q_U_bits": 73,
+      "q_V_bits": 73,
+      "denominator_ratio_U_over_V": 1,
+      "relative_quality_upper_bound": "1/2915"
+    },
+    {
+      "m": 81,
+      "p": 3,
+      "r": 4,
+      "q_U_bits": 215,
+      "q_V_bits": 214,
+      "denominator_ratio_U_over_V": 3,
+      "relative_quality_upper_bound": "1/26243"
+    },
+    {
+      "m": 729,
+      "p": 3,
+      "r": 6,
+      "q_U_bits": 2084,
+      "q_V_bits": 2082,
+      "denominator_ratio_U_over_V": 3,
+      "relative_quality_upper_bound": "1/2125763"
+    }
+  ],
+  "scope": "Infinite relative gain theorem audited; no claim that corrected absolute quality tends to zero."
+}

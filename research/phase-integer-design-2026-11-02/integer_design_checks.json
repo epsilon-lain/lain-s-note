@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "quotient_fee_cases": 10160,
+  "targets_per_quotient": 3,
+  "bounded_congruence_cases": 4116,
+  "checks": [
+    "exact_reduced_denominator",
+    "error_and_denominator_joint_identity",
+    "necessary_and_sufficient_modular_solvability",
+    "lattice_index",
+    "bounded_coefficient_solution"
+  ]
+}
