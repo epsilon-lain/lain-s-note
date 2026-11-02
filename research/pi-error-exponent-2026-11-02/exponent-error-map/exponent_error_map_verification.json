@@ -1,0 +1,399 @@
+{
+  "status": "passed",
+  "arithmetic": "Python standard-library exact rational intervals",
+  "maximum_n": 100,
+  "rational_exponent_error_comparisons": 3200,
+  "exact_reduced_cost_threshold_comparisons": 2400,
+  "exact_two_part_gcd_saturation_checks": 100,
+  "exact_convolution_and_odd_deficit_checks": 100,
+  "elementary_lcm_divisibility_checks": 99,
+  "three_quarters_strictly_below_PNT_sufficient_exponent": true,
+  "pi_interval_width_less_than": "1e-520",
+  "Euler_e_interval_width_less_than": "1e-280",
+  "comparison_counts": {
+    "1/10": {
+      "1/2": {
+        "passes": 98,
+        "fails": 2
+      },
+      "3/4": {
+        "passes": 98,
+        "fails": 2
+      },
+      "1": {
+        "passes": 5,
+        "fails": 95
+      },
+      "4/3": {
+        "passes": 0,
+        "fails": 100
+      },
+      "3/2": {
+        "passes": 0,
+        "fails": 100
+      },
+      "2": {
+        "passes": 0,
+        "fails": 100
+      },
+      "5/2": {
+        "passes": 0,
+        "fails": 100
+      },
+      "3": {
+        "passes": 0,
+        "fails": 100
+      }
+    },
+    "1": {
+      "1/2": {
+        "passes": 100,
+        "fails": 0
+      },
+      "3/4": {
+        "passes": 100,
+        "fails": 0
+      },
+      "1": {
+        "passes": 15,
+        "fails": 85
+      },
+      "4/3": {
+        "passes": 6,
+        "fails": 94
+      },
+      "3/2": {
+        "passes": 5,
+        "fails": 95
+      },
+      "2": {
+        "passes": 3,
+        "fails": 97
+      },
+      "5/2": {
+        "passes": 2,
+        "fails": 98
+      },
+      "3": {
+        "passes": 2,
+        "fails": 98
+      }
+    },
+    "10": {
+      "1/2": {
+        "passes": 100,
+        "fails": 0
+      },
+      "3/4": {
+        "passes": 100,
+        "fails": 0
+      },
+      "1": {
+        "passes": 23,
+        "fails": 77
+      },
+      "4/3": {
+        "passes": 8,
+        "fails": 92
+      },
+      "3/2": {
+        "passes": 7,
+        "fails": 93
+      },
+      "2": {
+        "passes": 4,
+        "fails": 96
+      },
+      "5/2": {
+        "passes": 3,
+        "fails": 97
+      },
+      "3": {
+        "passes": 3,
+        "fails": 97
+      }
+    },
+    "Euler e": {
+      "1/2": {
+        "passes": 100,
+        "fails": 0
+      },
+      "3/4": {
+        "passes": 100,
+        "fails": 0
+      },
+      "1": {
+        "passes": 18,
+        "fails": 82
+      },
+      "4/3": {
+        "passes": 6,
+        "fails": 94
+      },
+      "3/2": {
+        "passes": 6,
+        "fails": 94
+      },
+      "2": {
+        "passes": 3,
+        "fails": 97
+      },
+      "5/2": {
+        "passes": 3,
+        "fails": 97
+      },
+      "3": {
+        "passes": 2,
+        "fails": 98
+      }
+    }
+  },
+  "samples": [
+    {
+      "n": 3,
+      "p": "19",
+      "q": "6",
+      "R_numerator": "2",
+      "R_denominator": "3",
+      "two_adic_cost_d": 1,
+      "twice_beta": 5,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "3",
+      "observed_exponent": {
+        "strict_lower": "65/32",
+        "strict_upper": "33/16"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "passes",
+        "3/2": "passes",
+        "2": "passes",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "passes",
+        "3/2": "passes",
+        "2": "passes",
+        "5/2": "passes",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 4,
+      "p": "160",
+      "q": "51",
+      "R_numerator": "1",
+      "R_denominator": "6",
+      "two_adic_cost_d": -1,
+      "twice_beta": 2,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "3",
+      "observed_exponent": {
+        "strict_lower": "11/8",
+        "strict_upper": "45/32"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "passes",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "passes",
+        "3/2": "passes",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 8,
+      "p": "183296",
+      "q": "58345",
+      "R_numerator": "1",
+      "R_denominator": "280",
+      "two_adic_cost_d": -3,
+      "twice_beta": 2,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "35",
+      "observed_exponent": {
+        "strict_lower": "9/8",
+        "strict_upper": "37/32"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "passes",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 16,
+      "p": "3111643512832",
+      "q": "990466892415",
+      "R_numerator": "1",
+      "R_denominator": "5765760",
+      "two_adic_cost_d": -7,
+      "twice_beta": 2,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "45045",
+      "observed_exponent": {
+        "strict_lower": "15/16",
+        "strict_upper": "31/32"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 32,
+      "p": "75529446903693013937121394688",
+      "q": "24041769647439184012627430175",
+      "R_numerator": "1",
+      "R_denominator": "147869238163046400",
+      "two_adic_cost_d": -15,
+      "twice_beta": 2,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "4512611027925",
+      "observed_exponent": {
+        "strict_lower": "13/16",
+        "strict_upper": "27/32"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 64,
+      "p": "49658565871021680189297064673937398677999829268060700672",
+      "q": "15806812450455182893621145284198377096825185369685045475",
+      "R_numerator": "1",
+      "R_denominator": "77330007345964972287126300262400",
+      "two_adic_cost_d": -31,
+      "twice_beta": 2,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "36009590768238982319425",
+      "observed_exponent": {
+        "strict_lower": "27/32",
+        "strict_upper": "7/8"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    },
+    {
+      "n": 100,
+      "p": "949895695467322064178267224007630770898785024144498215980623724957980693148855006153146368",
+      "q": "302361190710675970734642763317044988823491814583306232106762567981422282855138866390525145",
+      "R_numerator": "1",
+      "R_denominator": "30663345303189870275053518895460241748262960989470720",
+      "two_adic_cost_d": -47,
+      "twice_beta": 6,
+      "positive_odd_excess_E": "1",
+      "odd_deficit_D": "217876172592851491139168152922850948615",
+      "observed_exponent": {
+        "strict_lower": "27/32",
+        "strict_upper": "7/8"
+      },
+      "C_1_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      },
+      "Euler_e_results": {
+        "1/2": "passes",
+        "3/4": "passes",
+        "1": "fails",
+        "4/3": "fails",
+        "3/2": "fails",
+        "2": "fails",
+        "5/2": "fails",
+        "3": "fails"
+      }
+    }
+  ],
+  "scope": "Finite exact classifications for the actual reduced sequence. The all-n exponent threshold, constants, and limsup formulas require the analytic proofs, not finite extrapolation. No global irrationality-measure or bad-approximability conclusion."
+}

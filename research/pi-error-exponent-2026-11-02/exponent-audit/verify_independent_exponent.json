@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "maximum_index": 500,
+  "actual_gcd_saturation_checks": 501,
+  "rational_difference_valuation_checks": 500,
+  "negative_difference_indices": [
+    3,
+    4
+  ],
+  "net_odd_and_binary_factorizations": 500,
+  "odd_deficit_lcm_divisibility_checks": 500,
+  "exact_weak_lower_gcd_bounds": 500,
+  "elementary_lcm_halving_divisibilities": 499,
+  "uniform_ell_bounds_in_Qsqrt2": 40,
+  "uniform_real_exponent_bound_checks": 320,
+  "independent_n50000_certificate": {
+    "small_odd_primes": 47,
+    "small_budget_decimal_digits": 188,
+    "dA": -24994,
+    "required_power_of_two": 49989,
+    "necessary_positive_odd_prime_count": 1601,
+    "necessary_large_positive_odd_prime_count": 1561,
+    "previous_integer_fails_each_necessary_test": true
+  },
+  "scope": "Finite exact checks only; the written audit supplies all-index proofs, asymptotic constants, and rate-limit boundary arguments."
+}

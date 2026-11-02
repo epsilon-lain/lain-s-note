@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "manifest_files_verified": 20,
+  "manifest_status": "original input package integrity verified",
+  "original_package_directory": "/workspace/scratch/443125adbea1/prime-adic-input/extracted",
+  "original_manifest_sha256": "2d73ff98cd961814501c1f380ff26d062b7042eec7e9a0a8f65ec45541f8c1a6",
+  "original_package_declared_baseline": "dff048f73da83e63978e1c01576d38ea71af1546",
+  "maximum_saturation_index": 5000,
+  "A_valuation_checks": 5001,
+  "actual_gcd_saturation_checks": 5001,
+  "difference_valuation_checks": 5000,
+  "negative_adjacent_difference_indices": [
+    3,
+    4
+  ],
+  "odd_prime_limit": 199,
+  "shifted_mod_p_squared_equalities": 12540,
+  "exact_top_half_lift_classifications": 4180,
+  "examples": [
+    {
+      "p": 17,
+      "r": 4,
+      "n": 21,
+      "A_r_div_p_mod_p": 12,
+      "D_r_mod_p": 6,
+      "exact_gcd_valuation": 1
+    },
+    {
+      "p": 73,
+      "r": 34,
+      "n": 107,
+      "A_r_div_p_mod_p": 37,
+      "D_r_mod_p": 36,
+      "exact_gcd_valuation": 2
+    },
+    {
+      "p": 131,
+      "r": 35,
+      "n": 166,
+      "A_r_div_p_mod_p": 104,
+      "D_r_mod_p": 27,
+      "exact_gcd_valuation": 2
+    }
+  ],
+  "scope": "Finite exact audits, with optional source-manifest integrity verification. General prime-square lifting and 2-adic saturation follow from the proofs. The n<=50000 partial-prime scan was not rerun; no aggregate odd-prime or global pi conclusion."
+}

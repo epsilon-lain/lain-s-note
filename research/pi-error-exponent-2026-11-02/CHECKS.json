@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "date": "2026-11-02",
+  "repository_parent_at_start": "873b5c24420869a4f1a06b0e7e8c5f64566838a8",
+  "scope": "Fixed reduced Legendre-arctangent sequence only; no global bad-approximability or irrationality-exponent conclusion. Fixed positive C,c independent of n.",
+  "original_archive": {
+    "filename": "pi_gcd_prime_adic_20261102.zip",
+    "sha256": "c3e64443dbd2d77fa8eca77541097ab210f9dfb3eaf271ed2e0087c808082445",
+    "manifest_files_verified": 20
+  },
+  "commands_run_from_checkpoint": [
+    {
+      "command": "python -B exponent-error-map/verify_exponent_error_map.py",
+      "exit_code": 0,
+      "result": "3200 exact rational error classifications, 2400 threshold comparisons, 100 saturation/convolution/deficit checks, 99 lcm divisibility checks"
+    },
+    {
+      "command": "python -B exponent-prime-budget/verify_net_prime_budget.py",
+      "exit_code": 0,
+      "result": "100 signed budgets, saturation and ell bounds; 500 uniform exponent bounds; exact n50000 necessary counts 1601 and 1561"
+    },
+    {
+      "command": "python -B exponent-audit/verify_prime_lift_and_saturation.py",
+      "exit_code": 0,
+      "result": "5001 actual saturation checks, 5000 differences, 12540 mod-p-squared equalities, 4180 lift classifications"
+    },
+    {
+      "command": "python -B exponent-audit/verify_independent_exponent.py",
+      "exit_code": 0,
+      "result": "501 independent saturation, 500 deficit and gcd-bound checks, 499 lcm halving, 320 exponent bounds; independently rebuilt n50000 counts"
+    }
+  ],
+  "new_all_index_results": [
+    "2-adic gcd saturation with sole exception n=3",
+    "Exact C/q^c reduced-cost threshold, sharp asymptotic prefactor and rate-free limsup/liminf formulas",
+    "Explicit signed odd-prime budget necessary and sufficient finite-index bounds",
+    "Necessary simultaneous large-prime density at successful indices when Theta_c>0",
+    "Weak guaranteed exponents c<0.7911979206... using classical PNT, and an elementary weaker alternative"
+  ],
+  "independent_review": "exponent-audit/INDEPENDENT_EXPONENT_REVIEW.md; independent research-agent audit, not external peer review",
+  "not_rerun": "The supplied n<=50000 partial-prime combined scan was not rerun; no all-pair exclusion inferred.",
+  "not_proved": [
+    "An infinite sequence with q^2 error tending to zero",
+    "Subexponential E_n or a global net odd-prime growth bound",
+    "Optimal exponent of this family or any global conclusion about pi bad approximability"
+  ],
+  "manifest_excludes_self": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5312,
+      "sha256": "3cf326f3a74cf506bfbf7ce2c9ae84f7bb7492c94c4a4d27039c1e695c7ada73"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3935,
+      "sha256": "f8e4f4e057c0fd04d53cd40a4fad33cf60ae445a7de63f2f40c778495b6b2722"
+    },
+    {
+      "path": "exponent-audit/INDEPENDENT_EXPONENT_REVIEW.md",
+      "bytes": 11581,
+      "sha256": "aa241f9819478856e18625807fd9ea61f57fe47d739fc481e5559bf504912b0d"
+    },
+    {
+      "path": "exponent-audit/INDEPENDENT_PRIME_LIFT_REVIEW.md",
+      "bytes": 6084,
+      "sha256": "aa114c6665a26399a2d32a96a93d45574e43897371e212adb573122c6d9af697"
+    },
+    {
+      "path": "exponent-audit/TWO_ADIC_GCD_SATURATION.md",
+      "bytes": 4281,
+      "sha256": "93c89637ebeb8f21d41c839f0a98606788faf78fe13acf99e9accc7639ea7463"
+    },
+    {
+      "path": "exponent-audit/original_input_prime_lift_verification.json",
+      "bytes": 1429,
+      "sha256": "8375516902244381f2a24829aa1b376f040191e54a0f2cfdfce7a2673697fc2b"
+    },
+    {
+      "path": "exponent-audit/prime_lift_and_saturation_verification.json",
+      "bytes": 1182,
+      "sha256": "976e743b7e8a734156a5cd4e9e8724f00b478ebcd504bc4e1062e3dd7d09acf9"
+    },
+    {
+      "path": "exponent-audit/verify_independent_exponent.json",
+      "bytes": 911,
+      "sha256": "226d246cbfb36cf3a0177b5bb0a7a04ab114baed185a642e7f5893a4c533e25b"
+    },
+    {
+      "path": "exponent-audit/verify_independent_exponent.py",
+      "bytes": 6535,
+      "sha256": "9e86bcb2cea4ab833fdc18349b604c4bdd6243a7fd0bbffd6be60b6a07312e91"
+    },
+    {
+      "path": "exponent-audit/verify_prime_lift_and_saturation.py",
+      "bytes": 5566,
+      "sha256": "bd4fbed556d13485c14cbc280165a5b8409daecbd04406ae40819d5017f6c6a4"
+    },
+    {
+      "path": "exponent-error-map/REDUCED_DENOMINATOR_EXPONENT_MAP.md",
+      "bytes": 11658,
+      "sha256": "8ed6883dd5e19a30cbb5ccd154b9ddab5e945a6ff2e58ea10a61afefda99bac8"
+    },
+    {
+      "path": "exponent-error-map/exponent_error_map_verification.json",
+      "bytes": 8957,
+      "sha256": "676815947b84e1d45a2fc106bfe6ec9fad37a01f9ebe8101514fa9ff9065fd1a"
+    },
+    {
+      "path": "exponent-error-map/verify_exponent_error_map.py",
+      "bytes": 6777,
+      "sha256": "94f9e61c449427de81b03d8b4aadc56435beeac93a6ce2f434e7b51f4fd84e1a"
+    },
+    {
+      "path": "exponent-prime-budget/NET_PRIME_BUDGET_AND_ERROR_EXPONENT.md",
+      "bytes": 12208,
+      "sha256": "f1123b615858b0fd35cbfdf2b80e80e4caf99a56ce27237ad7f913dd21a747aa"
+    },
+    {
+      "path": "exponent-prime-budget/net_prime_budget_verification.json",
+      "bytes": 7718,
+      "sha256": "daf456459653e872d8b004af530a0c00f533a9372c5b4b0c4559a66c47f0a383"
+    },
+    {
+      "path": "exponent-prime-budget/verify_net_prime_budget.py",
+      "bytes": 10519,
+      "sha256": "f50a8706aaa99768921f5ead4910703fc6dcb29fa915532a48dc1b864bf778ae"
+    }
+  ]
+}
