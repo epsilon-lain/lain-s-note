@@ -1,0 +1,136 @@
+{
+  "date_utc": "2026-11-02",
+  "status": "PASS",
+  "base_commit": "7ff9c3d57c67240ccd29007454eb27ba71f39dcb",
+  "scope": "Observation and construction tools, not a proof of physical number emergence or a new pi approximation theorem.",
+  "verification": {
+    "floating_winding_examples": 120,
+    "aliasing_controls": 15,
+    "exact_rational_winding_examples": 80,
+    "exact_polynomial_contour_examples": 6,
+    "boundary_zero_rejection": true,
+    "exact_spectral_cases": 168,
+    "independent_low_spectrum_pair_checks": 1671,
+    "independent_gram_rows": 22,
+    "gram_generator_m": [
+      1,
+      6
+    ],
+    "fixed_fraction_projection_m": [
+      1,
+      4
+    ]
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10978,
+      "sha256": "b8088db8acfdf43ae97f10820273bb18e9d9783e4712928f7d35c839d09c86e2"
+    },
+    {
+      "path": "constructive/NOTE.md",
+      "bytes": 6988,
+      "sha256": "00acf6f59b80c03dff55717afe8f544732f48883b8d73b9b0b2df0fada2be6b0"
+    },
+    {
+      "path": "constructive/fiber_projection.py",
+      "bytes": 2148,
+      "sha256": "23f8cc14aa837c61fdc52e9c35be678f96c1cc376998d38257eaff5af881a596"
+    },
+    {
+      "path": "constructive/fiber_projection_short_checks.json",
+      "bytes": 3923,
+      "sha256": "68f83ba9d168eb8fcc04ba5382fbd1e4a2cfc3b73f4550b4f79591dc275392b9"
+    },
+    {
+      "path": "constructive/gram_wave.py",
+      "bytes": 4653,
+      "sha256": "a0d7d2433bdcdfeb8a899c9a4e841c78a474f3b1c7f911c8b59ec529c9e46827"
+    },
+    {
+      "path": "constructive/gram_wave_checks.json",
+      "bytes": 36828,
+      "sha256": "39e1eddae75dd95a1b031e82ff6a48599f80b7fcba5b81abc69a36f9846589fd"
+    },
+    {
+      "path": "constructive/support/existing_family_results.json",
+      "bytes": 9302,
+      "sha256": "4841798f080cbf72eb04cf6465fe2b48018511588ec9090a827e0de6932f3fea"
+    },
+    {
+      "path": "constructive/support/integer_kernel.py",
+      "bytes": 983,
+      "sha256": "73b49bc8763d06f29eb0906af28adceaf60e4e97835dd1a66159b1bce7408219"
+    },
+    {
+      "path": "constructive/support/integral_certificate.py",
+      "bytes": 2428,
+      "sha256": "a002f886cedee73e4abc9aba3f8341befd211a45824f9d24cab0be0fffa0e90b"
+    },
+    {
+      "path": "constructive/verify_gram_wave.py",
+      "bytes": 1887,
+      "sha256": "2d117ac73087ef72ea770195e036547803ea9dcb1c5866cb10a8f9665677a1d1"
+    },
+    {
+      "path": "foundations/NOTE.md",
+      "bytes": 15029,
+      "sha256": "5766082fc250a175b7e22dcfe5e0af3b6aded4f8d77a18079fab2b0de8fda09a"
+    },
+    {
+      "path": "foundations/checks.json",
+      "bytes": 15864,
+      "sha256": "f2f1ae966e442912d0afad52d846111b2ecde96a03f457f49cf45e884be76ade"
+    },
+    {
+      "path": "foundations/polynomial_contour_checks.json",
+      "bytes": 2649,
+      "sha256": "bdee478d8a80918363aa02d1fa6558b60e2ecdee6d929150144d2da1c20a5a6f"
+    },
+    {
+      "path": "foundations/rational_polygon_checks.json",
+      "bytes": 15042,
+      "sha256": "56c8fcd7af57ba9ad52a7ab0fa4bb0fec9ed8f6afd5d76396da940374cb9c78c"
+    },
+    {
+      "path": "foundations/verify_polynomial_contour.py",
+      "bytes": 3887,
+      "sha256": "ddd48b72197be768571f16eeffd6568a3485b629b0afbd2b2d4c13b265fee442"
+    },
+    {
+      "path": "foundations/verify_rational_polygon.py",
+      "bytes": 2492,
+      "sha256": "0929ec6839ac83cdb0ecb6c20c061bdf2aecbeb6fa91ec07d75b1efc0b86dd1e"
+    },
+    {
+      "path": "foundations/verify_winding.py",
+      "bytes": 1486,
+      "sha256": "2bd3575692631fe699a819ee20c39064cbd89914c0143fe40b641c2d02205354"
+    },
+    {
+      "path": "spectral-audit/NOTE.md",
+      "bytes": 9744,
+      "sha256": "caa26157d25a01f4e097a18ff6f03a9e56ef2d07b14a5267214f9ad37e1ecc0e"
+    },
+    {
+      "path": "spectral-audit/checks.json",
+      "bytes": 2817,
+      "sha256": "992653855a209a0553618ac596cb8f8ed8b55baa632532518ff0547a4bcd08c0"
+    },
+    {
+      "path": "spectral-audit/verify.py",
+      "bytes": 3386,
+      "sha256": "d103b1264c9f7ad6db7c474f1de21c098a68f67d9b31e0a1c33b6e0b0bf47c70"
+    },
+    {
+      "path": "spectral_certificate.py",
+      "bytes": 5906,
+      "sha256": "fcd015c2cd5df66a3af94e7236e4dad15fb6aff87db38da54ad8cd2842d58082"
+    },
+    {
+      "path": "spectral_checks.json",
+      "bytes": 32619,
+      "sha256": "c2f399d5b5b2958126e29c59fa597c9031a01c832896c1a134556cef6fc6b92c"
+    }
+  ]
+}

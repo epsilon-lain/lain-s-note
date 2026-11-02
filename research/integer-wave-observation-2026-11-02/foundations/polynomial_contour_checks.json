@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "arithmetic": "fractions.Fraction only",
+  "data_driven_root_certificates": 6,
+  "requires_true_boundary_margin": false,
+  "boundary_zero_rejected": true,
+  "examples": [
+    {
+      "certified": true,
+      "N": 32,
+      "eta": "0",
+      "L": "32",
+      "delta": "1/2",
+      "polygon_distance_squared": "36/65",
+      "strict_margin_squared": "79/260",
+      "inside_zero_count": 2,
+      "coefficients": [
+        "1/4",
+        "0",
+        "1"
+      ],
+      "name": "two_inside",
+      "expected": 2
+    },
+    {
+      "certified": true,
+      "N": 32,
+      "eta": "1/1000",
+      "L": "32",
+      "delta": "501/1000",
+      "polygon_distance_squared": "14040009/25380689",
+      "strict_margin_squared": "7669430680311/25380689000000",
+      "inside_zero_count": 2,
+      "coefficients": [
+        "1/4",
+        "0",
+        "1"
+      ],
+      "name": "two_inside",
+      "expected": 2
+    },
+    {
+      "certified": true,
+      "N": 8,
+      "eta": "0",
+      "L": "32",
+      "delta": "2",
+      "polygon_distance_squared": "9",
+      "strict_margin_squared": "5",
+      "inside_zero_count": 0,
+      "coefficients": [
+        "4",
+        "0",
+        "1"
+      ],
+      "name": "zero_inside",
+      "expected": 0
+    },
+    {
+      "certified": true,
+      "N": 8,
+      "eta": "1/1000",
+      "L": "32",
+      "delta": "2001/1000",
+      "polygon_distance_squared": "224910009/25000000",
+      "strict_margin_squared": "1950156/390625",
+      "inside_zero_count": 0,
+      "coefficients": [
+        "4",
+        "0",
+        "1"
+      ],
+      "name": "zero_inside",
+      "expected": 0
+    },
+    {
+      "certified": true,
+      "N": 1024,
+      "eta": "0",
+      "L": "150",
+      "delta": "75/1024",
+      "polygon_distance_squared": "150970369/9664462912",
+      "strict_margin_squared": "1624082840071/158342560350208",
+      "inside_zero_count": 3,
+      "coefficients": [
+        "-1/8",
+        "3/4",
+        "-3/2",
+        "1"
+      ],
+      "name": "triple_inside",
+      "expected": 3
+    },
+    {
+      "certified": true,
+      "N": 1024,
+      "eta": "1/1000",
+      "L": "150",
+      "delta": "9503/128000",
+      "polygon_distance_squared": "1057429881220361/68719476736000000",
+      "strict_margin_squared": "5429238657149/549755813888000",
+      "inside_zero_count": 3,
+      "coefficients": [
+        "-1/8",
+        "3/4",
+        "-3/2",
+        "1"
+      ],
+      "name": "triple_inside",
+      "expected": 3
+    }
+  ],
+  "boundary_case": {
+    "certified": false,
+    "reason": "exact polynomial zero on contour",
+    "N": 8,
+    "coefficients": [
+      "-1",
+      "1"
+    ]
+  }
+}

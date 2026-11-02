@@ -1,0 +1,968 @@
+{
+  "status": "PASS",
+  "certified_margin_examples": 120,
+  "aliasing_examples": 15,
+  "note": "Analytic theorem is proved in NOTE.md; floats only verify examples.",
+  "examples": [
+    {
+      "k": -11,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 36,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 36,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 37,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 45,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 45,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 46,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 140,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 143,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 152,
+      "winding": -11,
+      "expected": -11
+    },
+    {
+      "k": -11,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 140,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -11,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 143,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -11,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 152,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -11,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 36,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -11,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 36,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -11,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 37,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 17,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 17,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 18,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 21,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 21,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 22,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 64,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 66,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 70,
+      "winding": -5,
+      "expected": -5
+    },
+    {
+      "k": -5,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 64,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 66,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 70,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 17,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 17,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -5,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 18,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 14,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 14,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 15,
+      "winding": -1,
+      "expected": -1
+    },
+    {
+      "k": -1,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 14,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 14,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 15,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": -1,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 0,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 14,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 14,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 15,
+      "winding": 1,
+      "expected": 1
+    },
+    {
+      "k": 1,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 14,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 14,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 15,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 1,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 8,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 11,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 11,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 11,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 13,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 13,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 14,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 39,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 40,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 42,
+      "winding": 3,
+      "expected": 3
+    },
+    {
+      "k": 3,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 39,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 40,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 42,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 11,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 11,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 3,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 11,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 27,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 27,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 27,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 33,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 33,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 34,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 102,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 104,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 111,
+      "winding": 8,
+      "expected": 8
+    },
+    {
+      "k": 8,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 102,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 104,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 111,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 27,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 27,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 8,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 27,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 0.0,
+      "noise_bound": 0.0,
+      "N": 55,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.0,
+      "noise_bound": 0.005,
+      "N": 55,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.0,
+      "noise_bound": 0.02,
+      "N": 56,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.2,
+      "noise_bound": 0.0,
+      "N": 68,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.2,
+      "noise_bound": 0.005,
+      "N": 69,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.2,
+      "noise_bound": 0.02,
+      "N": 70,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.75,
+      "noise_bound": 0.0,
+      "N": 215,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.75,
+      "noise_bound": 0.005,
+      "N": 220,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 0.75,
+      "noise_bound": 0.02,
+      "N": 234,
+      "winding": 17,
+      "expected": 17
+    },
+    {
+      "k": 17,
+      "shift": 1.25,
+      "noise_bound": 0.0,
+      "N": 215,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 1.25,
+      "noise_bound": 0.005,
+      "N": 220,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 1.25,
+      "noise_bound": 0.02,
+      "N": 234,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 2.0,
+      "noise_bound": 0.0,
+      "N": 55,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 2.0,
+      "noise_bound": 0.005,
+      "N": 55,
+      "winding": 0,
+      "expected": 0
+    },
+    {
+      "k": 17,
+      "shift": 2.0,
+      "noise_bound": 0.02,
+      "N": 56,
+      "winding": 0,
+      "expected": 0
+    }
+  ]
+}
