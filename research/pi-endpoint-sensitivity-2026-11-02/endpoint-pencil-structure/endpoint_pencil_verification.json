@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "n_matrix_range": [
+    2,
+    7
+  ],
+  "moment_translation": 30,
+  "commutator_inverse_similarity": 30,
+  "raw_moment_determinants": 120,
+  "reciprocal_identity": 120,
+  "self_inversive_identity": 72,
+  "relative_pencil_identity": 72,
+  "relative_determinants_and_trace": 18,
+  "finite_endpoint_root_count_certificates": [
+    {
+      "n": 32,
+      "alpha": "1/2",
+      "threshold_formula": "n^(n/2)",
+      "endpoint_radius_formula": "n^(-n/2)",
+      "certified_root_count_with_algebraic_multiplicity": 0,
+      "last_comparison_numerator_bits": null,
+      "last_comparison_denominator_bits": null,
+      "comparison_is_exact_rational": true
+    },
+    {
+      "n": 64,
+      "alpha": "1/2",
+      "threshold_formula": "n^(n/2)",
+      "endpoint_radius_formula": "n^(-n/2)",
+      "certified_root_count_with_algebraic_multiplicity": 1,
+      "last_comparison_numerator_bits": 29307,
+      "last_comparison_denominator_bits": 30061,
+      "comparison_is_exact_rational": true
+    },
+    {
+      "n": 96,
+      "alpha": "1/2",
+      "threshold_formula": "n^(n/2)",
+      "endpoint_radius_formula": "n^(-n/2)",
+      "certified_root_count_with_algebraic_multiplicity": 3,
+      "last_comparison_numerator_bits": 62961,
+      "last_comparison_denominator_bits": 64038,
+      "comparison_is_exact_rational": true
+    },
+    {
+      "n": 128,
+      "alpha": "1/2",
+      "threshold_formula": "n^(n/2)",
+      "endpoint_radius_formula": "n^(-n/2)",
+      "certified_root_count_with_algebraic_multiplicity": 5,
+      "last_comparison_numerator_bits": 128651,
+      "last_comparison_denominator_bits": 130731,
+      "comparison_is_exact_rational": true
+    }
+  ],
+  "scope": "Exact finite algebraic checks and sufficient endpoint-root counts. The general identities and asymptotic count are proved in the note. Roots are in independent Y at fixed Z=2*pi*i, not zeros in Z and not rational approximants."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "arithmetic": "exact Gaussian rationals",
+  "counts": {
+    "pascal_inverse": 11,
+    "factorial_hankel_factorization": 11,
+    "pascal_frobenius_bound": 11,
+    "hilbert_inverse": 11,
+    "hilbert_inverse_diagonal_bound": 77,
+    "hilbert_determinant": 11,
+    "endpoint_pascal_congruence": 35,
+    "endpoint_determinant": 35,
+    "phase_factorization": 21,
+    "gram_determinant_modulus": 21,
+    "rational_diagonal_bounds": 6237,
+    "sorted_diagonal_bounds": 6237,
+    "exterior_multiplicativity": 18,
+    "determinant_exterior_expansion": 12,
+    "relative_determinant_identity": 4
+  },
+  "scope": "Finite identities checked. Uniform spectral estimates and root counts are proved in the companion note, not inferred numerically."
+}

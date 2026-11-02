@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-02",
+  "repository": "epsilon-lain/lain-s-note",
+  "base_commit": "ab6c34d6f5f18de64fd0743fe997b367fcd9e37f",
+  "python_version": "3.12.14",
+  "status": "all four packaged standard-library verifiers passed",
+  "scope": "Analytic proofs establish the all-size derivative, maximal small-disk, nearest complex-root, singular-value and endpoint-root-count claims. Finite checks audit exact identities and constants. No pi rational approximation record, bad approximability decision or externally peer-reviewed novelty claim.",
+  "proof_inputs": [
+    "research/pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md",
+    "research/pi-local-gram-2026-11-02/next-local-period-sensitivity/LOCAL_PERIOD_DISC.md"
+  ],
+  "runs": [
+    {
+      "script": "endpoint-pencil-structure/verify_endpoint_pencil.py",
+      "command": "python verify_endpoint_pencil.py",
+      "exit_code": 0,
+      "stdout": {
+        "status": "passed",
+        "n_matrix_range": [
+          2,
+          7
+        ],
+        "moment_translation": 30,
+        "commutator_inverse_similarity": 30,
+        "raw_moment_determinants": 120,
+        "reciprocal_identity": 120,
+        "self_inversive_identity": 72,
+        "relative_pencil_identity": 72,
+        "relative_determinants_and_trace": 18,
+        "finite_endpoint_root_count_certificates": [
+          {
+            "n": 32,
+            "alpha": "1/2",
+            "threshold_formula": "n^(n/2)",
+            "endpoint_radius_formula": "n^(-n/2)",
+            "certified_root_count_with_algebraic_multiplicity": 0,
+            "last_comparison_numerator_bits": null,
+            "last_comparison_denominator_bits": null,
+            "comparison_is_exact_rational": true
+          },
+          {
+            "n": 64,
+            "alpha": "1/2",
+            "threshold_formula": "n^(n/2)",
+            "endpoint_radius_formula": "n^(-n/2)",
+            "certified_root_count_with_algebraic_multiplicity": 1,
+            "last_comparison_numerator_bits": 29307,
+            "last_comparison_denominator_bits": 30061,
+            "comparison_is_exact_rational": true
+          },
+          {
+            "n": 96,
+            "alpha": "1/2",
+            "threshold_formula": "n^(n/2)",
+            "endpoint_radius_formula": "n^(-n/2)",
+            "certified_root_count_with_algebraic_multiplicity": 3,
+            "last_comparison_numerator_bits": 62961,
+            "last_comparison_denominator_bits": 64038,
+            "comparison_is_exact_rational": true
+          },
+          {
+            "n": 128,
+            "alpha": "1/2",
+            "threshold_formula": "n^(n/2)",
+            "endpoint_radius_formula": "n^(-n/2)",
+            "certified_root_count_with_algebraic_multiplicity": 5,
+            "last_comparison_numerator_bits": 128651,
+            "last_comparison_denominator_bits": 130731,
+            "comparison_is_exact_rational": true
+          }
+        ],
+        "scope": "Exact finite algebraic checks and sufficient endpoint-root counts. The general identities and asymptotic count are proved in the note. Roots are in independent Y at fixed Z=2*pi*i, not zeros in Z and not rational approximants."
+      }
+    },
+    {
+      "script": "exterior-endpoint-cost/verify_exterior_profile.py",
+      "command": "python verify_exterior_profile.py",
+      "exit_code": 0,
+      "stdout": {
+        "status": "passed",
+        "arithmetic": "exact Gaussian rationals",
+        "counts": {
+          "pascal_inverse": 11,
+          "factorial_hankel_factorization": 11,
+          "pascal_frobenius_bound": 11,
+          "hilbert_inverse": 11,
+          "hilbert_inverse_diagonal_bound": 77,
+          "hilbert_determinant": 11,
+          "endpoint_pascal_congruence": 35,
+          "endpoint_determinant": 35,
+          "phase_factorization": 21,
+          "gram_determinant_modulus": 21,
+          "rational_diagonal_bounds": 6237,
+          "sorted_diagonal_bounds": 6237,
+          "exterior_multiplicativity": 18,
+          "determinant_exterior_expansion": 12,
+          "relative_determinant_identity": 4
+        },
+        "scope": "Finite identities checked. Uniform spectral estimates and root counts are proved in the companion note, not inferred numerically."
+      }
+    },
+    {
+      "script": "period-derivative-scale/verify_period_log_derivative.py",
+      "command": "python verify_period_log_derivative.py",
+      "exit_code": 0,
+      "stdout": {
+        "status": "passed",
+        "endpoint_insertion_checks": 27,
+        "vandermonde_monomial_counts": {
+          "2": 3,
+          "3": 19,
+          "4": 201
+        },
+        "endpoint_monomial_integrals": 75,
+        "gamma_product_normalizations": 81,
+        "formal_reflection_moment_checks": 297,
+        "factorial_scale_checks": 29,
+        "epsilon_threshold_m": 10000,
+        "eventual_direction_threshold_n": 10001,
+        "epsilon_rational_majorant": "59983/930000",
+        "epsilon_majorant_strictly_below_one_twelfth": true,
+        "factorial_dominance_induction": true,
+        "scope": "Exact finite normalization and constant certificates. The all-size derivative asymptotic and maximal complex-disk scale are proved analytically in the note. No nearest-root theorem or pi bad-approximability claim."
+      }
+    },
+    {
+      "script": "nearest-root-scale/verify_nearest_root_scale.py",
+      "command": "python verify_nearest_root_scale.py",
+      "exit_code": 0,
+      "stdout": {
+        "arithmetic": "exact rational/Gaussian rational; Python standard library",
+        "scope": "Finite identity audits only; asymptotic and disk statements require the note's proofs.",
+        "raw_vs_compressed_checks": 15,
+        "factored_log_derivative_and_distance_checks": 9,
+        "endpoint_trace_root_checks": 3,
+        "blaschke_boundary_identity_checks": 15,
+        "status": "PASS"
+      }
+    }
+  ],
+  "independent_reviews": [
+    "endpoint-pencil-structure/INDEPENDENT_PENCIL_REVIEW.md",
+    "exterior-endpoint-cost/INDEPENDENT_EXTERIOR_REVIEW.md",
+    "nearest-root-scale/INDEPENDENT_NEAREST_ROOT_REVIEW.md",
+    "period-derivative-scale/INDEPENDENT_DERIVATIVE_REVIEW.md"
+  ],
+  "review_scope": "Separate research agents audited proofs and reran verifiers; this is not external peer review.",
+  "relative_markdown_links_checked": [
+    {
+      "source": "README.md",
+      "target": "period-derivative-scale/PERIOD_LOG_DERIVATIVE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "period-derivative-scale/INDEPENDENT_DERIVATIVE_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "nearest-root-scale/NEAREST_ROOT_SCALE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "nearest-root-scale/INDEPENDENT_NEAREST_ROOT_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "endpoint-pencil-structure/INDEPENDENT_PENCIL_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "exterior-endpoint-cost/EXTERIOR_SINGULAR_PROFILE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "exterior-endpoint-cost/INDEPENDENT_EXTERIOR_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "CHECKS.json"
+    },
+    {
+      "source": "README.md",
+      "target": "../pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "../pi-local-gram-2026-11-02/next-local-period-sensitivity/LOCAL_PERIOD_DISC.md"
+    },
+    {
+      "source": "exterior-endpoint-cost/EXTERIOR_SINGULAR_PROFILE.md",
+      "target": "../endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md"
+    },
+    {
+      "source": "nearest-root-scale/NEAREST_ROOT_SCALE.md",
+      "target": "../period-derivative-scale/PERIOD_LOG_DERIVATIVE.md"
+    },
+    {
+      "source": "nearest-root-scale/NEAREST_ROOT_SCALE.md",
+      "target": "../endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md"
+    },
+    {
+      "source": "nearest-root-scale/NEAREST_ROOT_SCALE.md",
+      "target": "../../pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md"
+    },
+    {
+      "source": "nearest-root-scale/NEAREST_ROOT_SCALE.md",
+      "target": "../../pi-local-gram-2026-11-02/next-local-period-sensitivity/LOCAL_PERIOD_DISC.md"
+    },
+    {
+      "source": "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md",
+      "target": "../../pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md"
+    },
+    {
+      "source": "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md",
+      "target": "../../pi-local-gram-2026-11-02/next-local-period-sensitivity/LOCAL_PERIOD_DISC.md"
+    },
+    {
+      "source": "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md",
+      "target": "../exterior-endpoint-cost/EXTERIOR_SINGULAR_PROFILE.md"
+    },
+    {
+      "source": "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md",
+      "target": "../nearest-root-scale/NEAREST_ROOT_SCALE.md"
+    },
+    {
+      "source": "period-derivative-scale/PERIOD_LOG_DERIVATIVE.md",
+      "target": "../nearest-root-scale/NEAREST_ROOT_SCALE.md"
+    },
+    {
+      "source": "period-derivative-scale/PERIOD_LOG_DERIVATIVE.md",
+      "target": "../../pi-period-mechanism-2026-11-02/raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md"
+    },
+    {
+      "source": "period-derivative-scale/PERIOD_LOG_DERIVATIVE.md",
+      "target": "../../pi-local-gram-2026-11-02/next-local-period-sensitivity/LOCAL_PERIOD_DISC.md"
+    },
+    {
+      "source": "period-derivative-scale/INDEPENDENT_DERIVATIVE_REVIEW.md",
+      "target": "../nearest-root-scale/INDEPENDENT_NEAREST_ROOT_REVIEW.md"
+    }
+  ],
+  "sha256": {
+    "README.md": "7d46e6e7c89683a93285d5ad591d0a90e6f4af645d14f9d304709ce82d3af511",
+    "endpoint-pencil-structure/ENDPOINT_PENCIL_STRUCTURE.md": "5468d391e6c7ae124de2b9222b0a68e766c14292db31a5ed128970eef7f49b8a",
+    "endpoint-pencil-structure/INDEPENDENT_PENCIL_REVIEW.md": "20e00dbccc3ce0f473fed7101f2fd0f94ae9a8802132f8b4416fbeec83c797c1",
+    "endpoint-pencil-structure/endpoint_pencil_verification.json": "2fcd9883ee7ba8ac3f7d01be793e7c9a5c0348011e09e1f41fdc144c9b397204",
+    "endpoint-pencil-structure/verify_endpoint_pencil.py": "56d0c46b9da326415253a7158e1dde66d05816184ac605f5d642f24758bceb6a",
+    "exterior-endpoint-cost/EXTERIOR_SINGULAR_PROFILE.md": "646603c2d2da017840e3b8f9cd7740b379e4e8c4b261bd00636fb6ab88badc59",
+    "exterior-endpoint-cost/INDEPENDENT_EXTERIOR_REVIEW.md": "ad2551087bb67d7f29b7b2e3f143f625539d1788aec0f9e82f6ee340c11eaa36",
+    "exterior-endpoint-cost/exterior_profile_verification.json": "296630a5fbd4714dfb0100ddd2a43f09ce0495fa1ef3573723dd0b525161661b",
+    "exterior-endpoint-cost/verify_exterior_profile.py": "7e8ad358426f1e9f3f098321d2808770905035461e890743d64221b5d0ca7ab2",
+    "nearest-root-scale/INDEPENDENT_NEAREST_ROOT_REVIEW.md": "8788d7d68af9b321dd79e67615413c74482cc3a7d6024d6384d75c42a31e045e",
+    "nearest-root-scale/NEAREST_ROOT_SCALE.md": "f83900d2c9d25051976a0813c9c4bd7c073d063702d35bd66078b921cf3b2c4e",
+    "nearest-root-scale/nearest_root_scale_verification.json": "96db13c16a0c36c3c5f75945d17111a1adfd1d0627989103b56c83b4b569eff9",
+    "nearest-root-scale/verify_nearest_root_scale.py": "f018ab4eb6783eac92f712abb62697e0fada3e9147772e1cf02fc6633be4902e",
+    "period-derivative-scale/INDEPENDENT_DERIVATIVE_REVIEW.md": "3aa790ba0a51abe8edec81b3bce4ec7c42c928a2a153af67a48b6e6d2a658aab",
+    "period-derivative-scale/PERIOD_LOG_DERIVATIVE.md": "6791b84c450f032f62b24d2c00b93de627a22d94fbd72277b7d9c41cde46204b",
+    "period-derivative-scale/period_log_derivative_verification.json": "10a0cace10bad644e9ae0853850c92ad6afaf452580f19c733b46b5e0d92f117",
+    "period-derivative-scale/verify_period_log_derivative.py": "7711377bfc0896cd6e7986e29e470f030c104214226a0353276a661e040dba07"
+  },
+  "manifest_excludes_its_own_checksum": true
+}
