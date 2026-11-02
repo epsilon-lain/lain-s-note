@@ -1,0 +1,161 @@
+{
+  "status": "passed",
+  "endpoint_checks": {
+    "endpoint_hankel_identities": 24,
+    "hilbert_product_identities": 8,
+    "examples": [
+      {
+        "n": 1,
+        "P_at_one": "0",
+        "row_factorial_multiplier": "1"
+      },
+      {
+        "n": 2,
+        "P_at_one": "-1",
+        "row_factorial_multiplier": "1"
+      },
+      {
+        "n": 3,
+        "P_at_one": "2",
+        "row_factorial_multiplier": "4"
+      },
+      {
+        "n": 4,
+        "P_at_one": "-407/144",
+        "row_factorial_multiplier": "144"
+      },
+      {
+        "n": 5,
+        "P_at_one": "2675/864",
+        "row_factorial_multiplier": "82944"
+      },
+      {
+        "n": 6,
+        "P_at_one": "-160649713/74649600",
+        "row_factorial_multiplier": "1194393600"
+      },
+      {
+        "n": 7,
+        "P_at_one": "-23004760129/22394880000",
+        "row_factorial_multiplier": "619173642240000"
+      },
+      {
+        "n": 8,
+        "P_at_one": "859339833510425623/108355387392000000",
+        "row_factorial_multiplier": "15728001190723584000000"
+      }
+    ]
+  },
+  "moment_checks": {
+    "universal_polynomial_moment_identities": 3,
+    "small_n_centered_moments": 15,
+    "independent_cell_addition_path_checks": 30
+  },
+  "independent_hilbert_series_moments": 35,
+  "uniform_lower_certificate": {
+    "shifted_positive_coefficients_ascending": [
+      1908713103,
+      11262098088,
+      21947378508,
+      21140470608,
+      11464693580,
+      3658868208,
+      680567864,
+      68185344,
+      2841056
+    ],
+    "n2_gap_above_one_sixth": "41809379/1111783050",
+    "universal_range": "All integers n>=2"
+  },
+  "machin_interval": {
+    "lower": "3481777204478187906420048138588000041587894366999841623527543937118716/1108284105674768852535081267225855778430670397938229143619537353515625",
+    "upper": "812217595099382956409151475758694338539045009437476833945001089364728/258536890252556764763046128145244800468981338781304657459259033203125",
+    "pi_between_three_and_twenty_two_sevenths": true
+  },
+  "least_denominator_diagnostic": {
+    "source": "../root-separation-next/raw_near_period_verification.json",
+    "source_sha256": "ff5c3d51a87a9ea7e5527f0b87552205c4732a2d4a63a1bc56543de3a7a927ec",
+    "status": "passed",
+    "cases": [
+      {
+        "n": 4,
+        "least_coefficient_denominator": "144",
+        "row_multiplier_over_least_denominator": "1",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "279078",
+          "279079"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 5,
+        "least_coefficient_denominator": "864",
+        "row_multiplier_over_least_denominator": "96",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "1012149",
+          "1012150"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 6,
+        "least_coefficient_denominator": "74649600",
+        "row_multiplier_over_least_denominator": "16",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "5256609833",
+          "5256609834"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 7,
+        "least_coefficient_denominator": "22394880000",
+        "row_multiplier_over_least_denominator": "27648",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "6533585621",
+          "6533585622"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 8,
+        "least_coefficient_denominator": "758487711744000000",
+        "row_multiplier_over_least_denominator": "20736",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "46368157078953",
+          "46368157078954"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 9,
+        "least_coefficient_denominator": "26759446470328320000000",
+        "row_multiplier_over_least_denominator": "955514880",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "13261296588019",
+          "13261296588020"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      },
+      {
+        "n": 10,
+        "least_coefficient_denominator": "489407583931698134384640000000000",
+        "row_multiplier_over_least_denominator": "6879707136",
+        "primitive_integer_coefficients": true,
+        "cleared_actual_absolute_integer_enclosure": [
+          "60061286897514303",
+          "60061286897514304"
+        ],
+        "cleared_actual_absolute_exceeds_one": true
+      }
+    ],
+    "scope": "Finite least-polynomial-denominator calculation for n=4..10 only; not an asymptotic least-denominator theorem."
+  },
+  "scope": "Two-frequency complete one-dimensional raw-column family only. The actual-period magnitude has a uniform two-sided estimate. The specified row-factorial clearing, not every reduced denominator, is analyzed. No root-convergence or rational-approximation theorem is certified."
+}

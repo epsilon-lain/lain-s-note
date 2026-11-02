@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "small_checks": {
+    "exact_selected_ideal_rank_checks": 144,
+    "models": [
+      {
+        "H": 3,
+        "w0": 1,
+        "w": [
+          1,
+          2
+        ],
+        "ambient_columns": 13,
+        "selected_columns": 7,
+        "target_rows": 12
+      },
+      {
+        "H": 4,
+        "w0": 2,
+        "w": [
+          1,
+          2
+        ],
+        "ambient_columns": 14,
+        "selected_columns": 7,
+        "target_rows": 12
+      },
+      {
+        "H": 5,
+        "w0": 2,
+        "w": [
+          2,
+          3
+        ],
+        "ambient_columns": 9,
+        "selected_columns": 5,
+        "target_rows": 12
+      }
+    ]
+  },
+  "phase_counterexample": {
+    "parameters": {
+      "H": 2000,
+      "K": 2,
+      "m": 2,
+      "v0": 1,
+      "v": [
+        400,
+        400
+      ],
+      "w0": 24,
+      "w": [
+        40,
+        40
+      ],
+      "theta": "1/10",
+      "dilation": "3/2",
+      "low_threshold": 12
+    },
+    "source_rows": 28000,
+    "target_rows": 28000,
+    "ambient_columns": 37723,
+    "selected_columns": 28000,
+    "gamma": [
+      36370,
+      36438
+    ],
+    "residual": [
+      207653,
+      212296
+    ],
+    "time_cuts": 84,
+    "minimum_time_cut_slack": 560,
+    "pascal_blocks_checked": 45,
+    "max_target_transverse_order": 10,
+    "visible_column_bound": 19405,
+    "rank_deficiency_at_least": 8595,
+    "mixed_ideal_cuts_checked": 4420,
+    "best_mixed_rank_bound": 17506,
+    "best_mixed_cut": [
+      0,
+      9
+    ],
+    "best_rank_deficiency_at_least": 10494,
+    "normal_ninth_power_quotient_dimension": 16548,
+    "normal_ninth_power_surviving_rows": 958,
+    "scope": "All time cuts and transport pass, but every target period minor is zero by exact normal-ideal capacity. The equal-weight source is itself rank deficient; this is not a counterexample in the original separated-weight rank-eligible regime."
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "tests": [
+    {
+      "command": "python phase-period-next/verify_phase_period.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "cases": 16,
+        "prime": 1000033,
+        "rows": [
+          40,
+          56,
+          64,
+          72,
+          88,
+          104,
+          136,
+          168,
+          216,
+          32,
+          48,
+          72,
+          96,
+          128,
+          160,
+          240
+        ],
+        "outside_rows": [
+          18,
+          26,
+          26,
+          30,
+          38,
+          46,
+          60,
+          76,
+          94,
+          12,
+          22,
+          30,
+          40,
+          56,
+          72,
+          104
+        ],
+        "residues": [
+          [
+            163309,
+            192858
+          ],
+          [
+            372302,
+            100516
+          ],
+          [
+            426796,
+            94872
+          ],
+          [
+            108092,
+            685838
+          ],
+          [
+            775453,
+            276823
+          ],
+          [
+            962793,
+            209707
+          ],
+          [
+            351739,
+            483252
+          ],
+          [
+            329953,
+            326569
+          ],
+          [
+            253013,
+            599746
+          ],
+          [
+            904265,
+            864837
+          ],
+          [
+            632501,
+            416002
+          ],
+          [
+            235477,
+            735720
+          ],
+          [
+            512494,
+            643565
+          ],
+          [
+            90120,
+            572139
+          ],
+          [
+            327559,
+            368271
+          ],
+          [
+            991698,
+            657727
+          ]
+        ]
+      }
+    },
+    {
+      "command": "python target-filtration-next/verify_mixed_normal_cuts.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "small_checks": {
+          "exact_selected_ideal_rank_checks": 144,
+          "models": [
+            {
+              "H": 3,
+              "w0": 1,
+              "w": [
+                1,
+                2
+              ],
+              "ambient_columns": 13,
+              "selected_columns": 7,
+              "target_rows": 12
+            },
+            {
+              "H": 4,
+              "w0": 2,
+              "w": [
+                1,
+                2
+              ],
+              "ambient_columns": 14,
+              "selected_columns": 7,
+              "target_rows": 12
+            },
+            {
+              "H": 5,
+              "w0": 2,
+              "w": [
+                2,
+                3
+              ],
+              "ambient_columns": 9,
+              "selected_columns": 5,
+              "target_rows": 12
+            }
+          ]
+        },
+        "phase_counterexample": {
+          "parameters": {
+            "H": 2000,
+            "K": 2,
+            "m": 2,
+            "v0": 1,
+            "v": [
+              400,
+              400
+            ],
+            "w0": 24,
+            "w": [
+              40,
+              40
+            ],
+            "theta": "1/10",
+            "dilation": "3/2",
+            "low_threshold": 12
+          },
+          "source_rows": 28000,
+          "target_rows": 28000,
+          "ambient_columns": 37723,
+          "selected_columns": 28000,
+          "gamma": [
+            36370,
+            36438
+          ],
+          "residual": [
+            207653,
+            212296
+          ],
+          "time_cuts": 84,
+          "minimum_time_cut_slack": 560,
+          "pascal_blocks_checked": 45,
+          "max_target_transverse_order": 10,
+          "visible_column_bound": 19405,
+          "rank_deficiency_at_least": 8595,
+          "mixed_ideal_cuts_checked": 4420,
+          "best_mixed_rank_bound": 17506,
+          "best_mixed_cut": [
+            0,
+            9
+          ],
+          "best_rank_deficiency_at_least": 10494,
+          "normal_ninth_power_quotient_dimension": 16548,
+          "normal_ninth_power_surviving_rows": 958,
+          "scope": "All time cuts and transport pass, but every target period minor is zero by exact normal-ideal capacity. The equal-weight source is itself rank deficient; this is not a counterexample in the original separated-weight rank-eligible regime."
+        }
+      }
+    },
+    {
+      "command": "python weighted-coalescence-next/verify_weighted_cutoff.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "polynomial_certificates": 2,
+        "ordering_checks": {
+          "exact_ordering_and_nonnegativity_checks": 425,
+          "one_dimensional_exact_identities": 252
+        },
+        "lattice_count_records": 9
+      }
+    },
+    {
+      "command": "python root-separation-next/verify_raw_near_period.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "complete_packets": 7,
+        "root_certificates": 7,
+        "commutator_evaluations": 35,
+        "boundary_defect_checks": 7,
+        "n10_root_distance_upper": "6e-12",
+        "n10_actual_determinant_upper": "1.3e-16",
+        "n10_cancellation_ratio_upper": "1.8e-32"
+      },
+      "execution_note": "Executed successfully before staging; the staged verifier is byte-identical to that executed source, and its certified output is the fixture consumed by the staged Hankel verifier."
+    },
+    {
+      "command": "python raw-root-mechanism/verify_hankel_magnitude.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "endpoint_hankel_identities": 24,
+        "universal_moment_identities": 3,
+        "small_n_centered_moments": 15,
+        "independent_hilbert_series_moments": 35,
+        "least_denominator_cases": 7,
+        "uniform_cosine_lower_bound": "1/6 for every n>=2"
+      }
+    }
+  ],
+  "independent_review_count": 5,
+  "scope": "Exact finite certificates and proved support/size theorems in their stated parameter regimes. No proof of pi bad approximability or its negation; no rational approximation record; no independent validation of the uploaded manuscript's interpolation theorem.",
+  "manifest_scope": "All package files except CHECKS.json itself.",
+  "sha256": {
+    "README.md": "977633c17dabce934b036d3f97c9e5f3a65e4e28f918199ed32b222ac673fcf3",
+    "phase-period-next/INDEPENDENT_REVIEW.md": "08d81bc5462a38c781fcc01dc7f008806e4b5f6a1e79a7cd8655b21c9681c650",
+    "phase-period-next/PHASE_PERIOD_NONVANISHING.md": "bdc73e96405d108db2a4eec46ca54e7f6057d9ab7d71ec2f4dd87cb3b9fcaa8b",
+    "phase-period-next/phase_period_verification.json": "e5b4d331da0f9e9f78f6ce88b21caeb559623671e3dfe889e13495e09e68f121",
+    "phase-period-next/verify_phase_period.py": "650fb929aa85a5b0907316dd36f6f8027066ce82534d6e641bd32871e98ac40e",
+    "raw-root-mechanism/HANKEL_PERIOD_MAGNITUDE.md": "9744aa2e6bc3307acdf8796cba177497be4318193fcafe37c7d1265e2dea1038",
+    "raw-root-mechanism/INDEPENDENT_HANKEL_REVIEW.md": "eef3ea4c2e109f03c4266760e9190f19e80c11ed16520bd31f609101259ea1d4",
+    "raw-root-mechanism/hankel_magnitude_verification.json": "bac1336f89598c4920a1dd3306900f8ae5d022db5612e08d327ad1bd9e7beca9",
+    "raw-root-mechanism/verify_hankel_magnitude.py": "5d9d95bb9145fd5df83ba03b78d6f8bcd00fc88cd067b1cb69a33e2961e0c459",
+    "root-separation-next/INDEPENDENT_ROOT_CERTIFICATE_REVIEW.md": "3576fd7b1f68a59f802ef8209188df777f872be359938f5c0025ddac389bf04c",
+    "root-separation-next/RAW_NEAR_PERIOD_ROOTS.md": "d660f7c232882aca0567197e68d5a794b5d8133d63ce3bf980e0733ce4de0e1a",
+    "root-separation-next/raw_near_period_verification.json": "ff5c3d51a87a9ea7e5527f0b87552205c4732a2d4a63a1bc56543de3a7a927ec",
+    "root-separation-next/verify_raw_near_period.py": "2d3357ebf44a347f5ec48b7aebdfc82b56486a03709899aa0d08b8958771bb14",
+    "target-filtration-next/INDEPENDENT_REVIEW.md": "15297d2a7529ea52953b481c72284800c3a5f01b84869375d01ec0a803df18c7",
+    "target-filtration-next/MIXED_NORMAL_IDEAL_CUTS.md": "57f2513af9c529cc79ff12ecf9be869a686a4eb264c2c31077392cfd3636e6d8",
+    "target-filtration-next/mixed_normal_cut_verification.json": "0a59a4c2e24576bd95a4c1accbccd065d16de96f2720432aceab5e2148f86bea",
+    "target-filtration-next/verify_mixed_normal_cuts.py": "0c3077be1732f9ecb6d3ab8028627018cc1a50f4098c2a974163a1567ec0dfb2",
+    "weighted-coalescence-next/INDEPENDENT_WEIGHTED_CUTOFF_REVIEW.md": "10d481adb4197f0d73936c215eebb151dcddb556d325d2a61156d872976dc73b",
+    "weighted-coalescence-next/WEIGHTED_COALESCENCE_CUTOFF.md": "ddb7000d59113f2ff4aa881401e521d16c7e72b3618d81acf2e1812c778204fe",
+    "weighted-coalescence-next/verify_weighted_cutoff.py": "e6a3a49ae04de434eba9944e82d229143804ac85fc053b05e76ef696c4dd7388",
+    "weighted-coalescence-next/weighted_cutoff_verification.json": "984b9f74c0c0dfb70942171015e24d8b76631384811fe34f0040d1dd0a93cc28"
+  }
+}

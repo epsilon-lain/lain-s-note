@@ -1,0 +1,415 @@
+{
+  "status": "passed",
+  "polynomial_certificates": [
+    {
+      "name": "two_variable_saturation",
+      "source_rows": [
+        [
+          0,
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          0,
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "columns": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          0,
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "weights": [
+        "1",
+        "2"
+      ],
+      "D": [
+        2,
+        2
+      ],
+      "L_H": "4",
+      "E_H": "6",
+      "aggregate_weight_cap": "2",
+      "period_polynomial": {
+        "(2, 1)": "-2"
+      },
+      "aggregate_coefficients": [
+        {
+          "zeta_power": [
+            0,
+            0
+          ],
+          "omega_power": 3,
+          "coefficient": "-2"
+        },
+        {
+          "zeta_power": [
+            0,
+            1
+          ],
+          "omega_power": 3,
+          "coefficient": "2"
+        }
+      ]
+    },
+    {
+      "name": "six_row_complete_cancellation",
+      "source_rows": [
+        [
+          0,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          2,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          2,
+          [
+            0
+          ]
+        ]
+      ],
+      "columns": [
+        [
+          0,
+          [
+            0
+          ]
+        ],
+        [
+          1,
+          [
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0
+          ]
+        ],
+        [
+          0,
+          [
+            1
+          ]
+        ],
+        [
+          1,
+          [
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            2
+          ]
+        ]
+      ],
+      "weights": [
+        "2"
+      ],
+      "D": [
+        4
+      ],
+      "L_H": "6",
+      "E_H": "8",
+      "aggregate_weight_cap": "2",
+      "period_polynomial": {
+        "(3,)": "3",
+        "(4,)": "1"
+      },
+      "aggregate_coefficients": [
+        {
+          "zeta_power": [
+            0
+          ],
+          "omega_power": 3,
+          "coefficient": "3"
+        },
+        {
+          "zeta_power": [
+            1
+          ],
+          "omega_power": 3,
+          "coefficient": "-3"
+        },
+        {
+          "zeta_power": [
+            0
+          ],
+          "omega_power": 4,
+          "coefficient": "1"
+        }
+      ]
+    }
+  ],
+  "ordering_checks": {
+    "exact_ordering_and_nonnegativity_checks": 425,
+    "one_dimensional_exact_identities": 252
+  },
+  "lattice_count_records": [
+    {
+      "m": 1,
+      "H": 24,
+      "K": 3,
+      "weights": [
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 126,
+      "L_H": "1092",
+      "exact_ratio": "13/36",
+      "proved_limit_enclosure": [
+        "6148914691236517205/18446744073709551616",
+        "1/3"
+      ]
+    },
+    {
+      "m": 1,
+      "H": 48,
+      "K": 3,
+      "weights": [
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 468,
+      "L_H": "7800",
+      "exact_ratio": "25/72",
+      "proved_limit_enclosure": [
+        "6148914691236517205/18446744073709551616",
+        "1/3"
+      ]
+    },
+    {
+      "m": 1,
+      "H": 96,
+      "K": 3,
+      "weights": [
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 1800,
+      "L_H": "58800",
+      "exact_ratio": "49/144",
+      "proved_limit_enclosure": [
+        "6148914691236517205/18446744073709551616",
+        "1/3"
+      ]
+    },
+    {
+      "m": 2,
+      "H": 24,
+      "K": 2,
+      "weights": [
+        "1",
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 406,
+      "L_H": "1134",
+      "exact_ratio": "27/232",
+      "proved_limit_enclosure": [
+        "955111447119501601/9223372036854775808",
+        "7640891576956012809/73786976294838206464"
+      ]
+    },
+    {
+      "m": 2,
+      "H": 48,
+      "K": 2,
+      "weights": [
+        "1",
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 2756,
+      "L_H": "14552",
+      "exact_ratio": "1819/16536",
+      "proved_limit_enclosure": [
+        "955111447119501601/9223372036854775808",
+        "7640891576956012809/73786976294838206464"
+      ]
+    },
+    {
+      "m": 2,
+      "H": 96,
+      "K": 2,
+      "weights": [
+        "1",
+        "2"
+      ],
+      "theta": "1/2",
+      "M_H": 20200,
+      "L_H": "207076",
+      "exact_ratio": "51769/484800",
+      "proved_limit_enclosure": [
+        "955111447119501601/9223372036854775808",
+        "7640891576956012809/73786976294838206464"
+      ]
+    },
+    {
+      "m": 3,
+      "H": 12,
+      "K": 3,
+      "weights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "theta": "2/3",
+      "M_H": 249,
+      "L_H": "732",
+      "exact_ratio": "61/249",
+      "proved_limit_enclosure": [
+        "407903232008439063/2305843009213693952",
+        "4079032320084390631/23058430092136939520"
+      ]
+    },
+    {
+      "m": 3,
+      "H": 24,
+      "K": 3,
+      "weights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "theta": "2/3",
+      "M_H": 2190,
+      "L_H": "11182",
+      "exact_ratio": "5591/26280",
+      "proved_limit_enclosure": [
+        "407903232008439063/2305843009213693952",
+        "4079032320084390631/23058430092136939520"
+      ]
+    },
+    {
+      "m": 3,
+      "H": 36,
+      "K": 3,
+      "weights": [
+        "1",
+        "2",
+        "3"
+      ],
+      "theta": "2/3",
+      "M_H": 8799,
+      "L_H": "63773",
+      "exact_ratio": "63773/316764",
+      "proved_limit_enclosure": [
+        "407903232008439063/2305843009213693952",
+        "4079032320084390631/23058430092136939520"
+      ]
+    }
+  ],
+  "scope": "Exact finite weighted coalescence and reciprocal-aggregate support checks. The infinite-height limit is proved in the accompanying note, not inferred from these finite records. No determinant magnitude or pi assertion."
+}
