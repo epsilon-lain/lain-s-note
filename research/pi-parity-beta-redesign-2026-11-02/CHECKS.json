@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-02",
+  "input_checkpoint": "febb7f302263c04f63096c85c5df1f47d19d9813",
+  "dependencies": "Python3 standard library; SymPy for full/saturated kernel generators and the final two LLL controls.",
+  "checks": [
+    {
+      "command": "python new-kernel-design/verify_parity_free_output.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python moment-denominator/profile_remainder.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python bernstein-design/endpoint_truncation.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python denominator-review/verify_denominator_independent.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-blocks/verify_linear_period_map.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-blocks/rational_basis_truncation.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-blocks/rational_basis_truncation.py --rational-only",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-blocks/free_rational_basis.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python constructive-blocks/period_aware_rational_basis.py",
+      "exit_code": 0
+    }
+  ],
+  "generation_scope": "New full-R LLL generation m=1,2,3 was completed before saving; independent saved-output verifier rerun here. Auxiliary rational-kernel controls are bounded experiments, not global optimality tests.",
+  "proof_review": "Independent internal audit; not external peer review.",
+  "proof_results": [
+    "parity-free primitive image and no-log cutoff",
+    "same odd period cutoff at real endpoints",
+    "4/121 positive-kernel quality budget",
+    "positive centered moment recurrence and all-K nonzero pi period",
+    "weighted Taylor remainder and K=2m convergence",
+    "beta-integrated common-denominator cancellation and K=4m convergence",
+    "rational-kernel exact two-period cancellation and denominator envelope"
+  ],
+  "open_construction_target": "Combine net signed-integral gain with actual reduced denominator control to achieve a quadratic-quality success sequence.",
+  "sha256": {
+    "README.md": "324548c0d6706b7c2a407068cb1d02e4d87122fbd41f2e3b6f1236c05c38925d",
+    "SOURCES.md": "e83221b0df34dec7276d04e140a16ac640d0a634d02d355ec25ddec5947dc03a",
+    "bernstein-design/POSITIVE_ENDPOINT_BETA_RULE.md": "dce5d9cf6894310d9347a9537bdac3b9016aaf6a6c182158340d9fa9fb5f9292",
+    "bernstein-design/endpoint_truncation.json": "2732e9e114a115a1fdd3f3c7ce75a8ade06b1bc25b9a7f0b7d9fda10b07c223b",
+    "bernstein-design/endpoint_truncation.py": "e5af7ba236f4b7df174421156ebf1bbf6f43b2f94e76648629eddc471585d339",
+    "constructive-blocks/LINEAR_PERIOD_MAP_AND_GCD.md": "adcadcbf7c637b488e954a4d20d558c49f757121de9f2e9ae42333f96ba74acb",
+    "constructive-blocks/RATIONAL_BASIS_TRUNCATION.md": "523f874418c3ff9e65dffc9bc1b7fbb7e5c2db536e15657db7c2c07e447db5a2",
+    "constructive-blocks/free_rational_basis.json": "104d9eed39736a1e38258b411058c9c84a45ef0e33155fe9c10132fff9e06623",
+    "constructive-blocks/free_rational_basis.py": "52d7023e1d05be3adf3f430aa1a73f4620b0491cafcf612828cfbddb117a9979",
+    "constructive-blocks/period_aware_rational_basis.json": "6baf04ca0fc6189fb283aa2554d62219589b4be6f861e1d6ceedcacaedd80d6f",
+    "constructive-blocks/period_aware_rational_basis.py": "deab08f969d186571b6c60ee9c08b7d1afebcc3be78edc87750d6ad458911166",
+    "constructive-blocks/rational_basis_truncation.json": "f5b6910457b4f77e876a977d6cc47a86b5ad65a8fc4762ee990b212b917da641",
+    "constructive-blocks/rational_basis_truncation.py": "14bb5e51f975373abad2ea941585393e870536709c2ac8a01102500b0fbb8f01",
+    "constructive-blocks/rational_only_truncation.json": "5bee43769d897b8aa29441ca95acd4919f102f38b9ca077fa778bd87e1df4287",
+    "constructive-blocks/verify_linear_period_map.json": "b4c03c2b6ec34453ac1290ff26d965965843c4bb0d56b7a1ccf9ff1a12c89a2a",
+    "constructive-blocks/verify_linear_period_map.py": "926ce65eb6265a4e61b1eb42ac2447977728230b0dab55b912a980c2bef7d156",
+    "denominator-review/INDEPENDENT_DENOMINATOR_REVIEW.md": "1baf4fc2ed9d2b0e34d41020f56310e5c5c92ec5914649c51696538ca061bf8b",
+    "denominator-review/verify_denominator_independent.json": "c33064c0e5f1eea707356b42c72a4785b3a24173b402365205e4b43eaf7e0d81",
+    "denominator-review/verify_denominator_independent.py": "1ab3db7b6f28bb7c51306e4e273b51fc8d521ba8cbd917bbcb4a107d621e7c5c",
+    "moment-denominator/TELESCOPING_AND_PROFILED_REMAINDER.md": "87ad9bfad6a6aa5082a4a7122069d393a623e2a0e3c2261f02af50eb19d096bb",
+    "moment-denominator/profile_remainder.json": "b4e387df03f185e2c5fefeba6748e93438aabd4b2a4b9789a8ba46c63cb7bb48",
+    "moment-denominator/profile_remainder.py": "130def02e88dbc370ae213df4f21ad5a1a64b908790586d0afcfd09adf6f2634",
+    "new-kernel-design/PARITY_FREE_ENDPOINT_FAMILY.md": "60880b42a0092fc0181e31caa700d6541e0dd4f51294a5940c38eb0743887e65",
+    "new-kernel-design/full_parity_search.json": "7d9db22dd46ad05767365223e721059fd9b4c7e8122b89e641028f9b7d15ca1c",
+    "new-kernel-design/full_parity_search.py": "c014142c5f827cc642c0e1894b7393ee687e9bf06d595001802e2bc1670eac72",
+    "new-kernel-design/parity_free_output_checks.json": "d64e85f63afcb2cb314cb0a0e88086bc6d7ddf29bc9470180f61888201c6dc7c",
+    "new-kernel-design/verify_parity_free_output.py": "c4fd7ccba1fba0af4c3e8d7b7269a489f78b993aae899c3a7a051ebab89a81e6"
+  }
+}

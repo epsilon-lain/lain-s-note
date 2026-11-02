@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "profile_cases": 12,
+  "profile_rational_point_checks": 252,
+  "positive_endpoint_cases": 44,
+  "full_parity_boundary_cases": 4,
+  "parity_free_benchmark": "355/113 at c=5",
+  "scope": "Bounded exact identity audit; all-scale convergence and period-image statements use the written proofs, not these samples."
+}

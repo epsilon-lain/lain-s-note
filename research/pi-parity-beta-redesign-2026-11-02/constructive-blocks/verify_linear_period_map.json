@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "primitive_linear_blocks_checked": 6908,
+  "arbitrary_target_reconstructions": 924,
+  "scope": "Exact finite audit of the proved linear period and gcd identities; no approximation limit inferred."
+}

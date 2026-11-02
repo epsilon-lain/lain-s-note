@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "exact_candidate_checks": 24,
+  "period_image_minor_checks": 3,
+  "period_images": [
+    {
+      "m": 1,
+      "image": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "m": 2,
+      "image": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "m": 3,
+      "image": [
+        [
+          15,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  ],
+  "scope": "Finite exact output audit; no claim of family optimality or new approximation record."
+}
