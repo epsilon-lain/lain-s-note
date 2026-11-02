@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "maximum_prime": 503,
+  "coefficient_identity_checks": 22037,
+  "reflection_identity_checks": 11066,
+  "root_pair_capacity_checks": 95,
+  "midpoint_point_count_checks": 95,
+  "character_moment_checks": 1688,
+  "character_moment_maximum_prime": 127,
+  "midpoint_primes": [
+    31,
+    223,
+    383,
+    479
+  ],
+  "non_CM_ordinary_reduction_certificates": [
+    {
+      "p": 3,
+      "points": 2,
+      "trace": 2,
+      "frobenius_discriminant": -8,
+      "squarefree_field_parameter": -2,
+      "ordinary": true
+    },
+    {
+      "p": 5,
+      "points": 8,
+      "trace": -2,
+      "frobenius_discriminant": -16,
+      "squarefree_field_parameter": -1,
+      "ordinary": true
+    }
+  ],
+  "scope": "Exact finite algebra audit. Non-CM and midpoint zero density use the written proof and cited theorems; no proof of the global mean root-capacity bound."
+}

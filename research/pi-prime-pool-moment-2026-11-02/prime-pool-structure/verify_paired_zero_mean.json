@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "limit": 2000,
+  "reflection_identity_checks": 138675,
+  "midpoint_independent_point_counts": 301,
+  "total_active_primes": 126,
+  "total_digit_zeros": 330,
+  "total_midpoint_zeros": 4,
+  "sole_midpoint_examples": [
+    31,
+    383
+  ],
+  "non_cm_certificate": [
+    {
+      "p": 3,
+      "points": 2,
+      "trace": 2,
+      "frobenius_discriminant": -8
+    },
+    {
+      "p": 5,
+      "points": 8,
+      "trace": -2,
+      "frobenius_discriminant": -16
+    }
+  ],
+  "scope": "Exact finite pairing/trace checks; no asymptotic first-moment or active-prime capacity bound inferred from samples."
+}

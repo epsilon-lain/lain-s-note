@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "parent_checkpoint": "9ac9c9065a038a87a6ab587b8d87c65f689f393b",
+  "runtime": "Python3; standard library only",
+  "checks": [
+    {
+      "command": "python prime-pool-structure/verify_paired_zero_mean.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python prime-pool-audit/verify_prime_pool_independent.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python summarize_existing_pool.py",
+      "exit_code": 0
+    }
+  ],
+  "proof_review": "Independent internal proof audit; not external peer review. Final README reviewed for constants, geometric endomorphism hypothesis, and unresolved scope.",
+  "unresolved": [
+    "T(x) sufficient first-moment upper bound",
+    "theta_Z(x) uniform prime-pool capacity bound",
+    "exclusion of all successful subsequences in the fixed family",
+    "pi bad/nonbad approximability"
+  ],
+  "sha256": {
+    "README.md": "ee7e3607f83a02d28a6e0a2831c27da5bc0292f0c35d9094cba8457db347df24",
+    "SOURCES.md": "675d633e0c40c565252880a625635931d3304c1204124bc9c59771b027b02c6c",
+    "existing_pool_moments.json": "29ab3f63d8dab7efcd15c399a660ee1f690063d3ccec99f2bb19f5c47d20635a",
+    "prime-pool-audit/INDEPENDENT_PRIME_POOL_AUDIT.md": "e8c2b180d1c1ba8efc8bf8460f5deca81c4897960315d1d29251ccf4f675d612",
+    "prime-pool-audit/verify_prime_pool_independent.json": "ecc7cdeaffa0555b207564f085a28c45635f127e33db202422c997049ea2bcee",
+    "prime-pool-audit/verify_prime_pool_independent.py": "2c2ba5fdc7426e775ca16b7ccbd7ad19960e866c17136e6c56c765306d08c721",
+    "prime-pool-literature/PRIMARY_SOURCE_SCOPE.md": "c1640f2d41f4e06d67806b08eaeaa681e7646458f6d6cebb479d2f78ef2282d1",
+    "prime-pool-structure/PAIRED_ZERO_MEAN_AND_MIDPOINT.md": "9fc1d387617272415f24dd9bf3bb60e1d13c28a5c16f57ae73bff1131d275f4d",
+    "prime-pool-structure/verify_paired_zero_mean.json": "454e9c0719eb77dadf3336260bbf71e1095a4a7a7a14d480021d6d4b8aab51c2",
+    "prime-pool-structure/verify_paired_zero_mean.py": "52236fc0013da19a8fd32ca184510d3ff1a6bd77c776f31f3b8f717a1ff97e87",
+    "summarize_existing_pool.py": "20ac22992b4124e32ddecd6e62e0903ff399ed579d4f6382b9f73fd29b10c3fe"
+  },
+  "publish_base_commit": "47be3b96562a149f268d734c93766974ef3cd64c"
+}
