@@ -1,0 +1,40 @@
+{
+  "sharp_grouped_order_examples": 7,
+  "actual_exponential_polynomial_checks": [
+    {
+      "groups": [
+        3,
+        1
+      ],
+      "guaranteed_order": 3,
+      "identically_zero": false
+    },
+    {
+      "groups": [
+        2,
+        2
+      ],
+      "guaranteed_order": 2,
+      "identically_zero": false
+    },
+    {
+      "groups": [
+        3
+      ],
+      "guaranteed_order": 3,
+      "identically_zero": false
+    }
+  ],
+  "exact_boundary_checks": 4334,
+  "feasible_above_two": {
+    "nu": "3",
+    "theta": "9/10",
+    "A": "47/50",
+    "B": "943/1000",
+    "C": "21/20",
+    "eta": "1/1000",
+    "gap": "859/50000"
+  },
+  "status": "PASS",
+  "scope": "Algebraic mechanism and finite exact controls only; interpolation and the full source theorem are not independently certified."
+}

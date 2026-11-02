@@ -1,0 +1,16 @@
+{
+  "source_name": "paper-1(1).pdf",
+  "sha256": "26eec5de7ac9dc49d28183fdea458e0858bc3323b5ba93c3d41bb105d8e3eab6",
+  "bytes": 494460,
+  "pages": 23,
+  "source_title": "The irrationality exponent of pi is 2",
+  "source_stated_author": "OpenAI",
+  "source_stated_date": "2026-09-24",
+  "source_locators": [
+    "Theorem 2.1, pages 4-11",
+    "Equations (3.3)-(3.20), pages 12-17",
+    "Lemma 4.1 and parameter choice, pages 17-19",
+    "Section 5, pages 19-21"
+  ],
+  "scope": "Mechanism reconstruction, not independent certification of all source theorems."
+}

@@ -1,0 +1,311 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=24mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Noto Serif CJK SC}[ItalicFeatures={FakeSlant=0.15}]
+\setsansfont{Noto Sans CJK SC}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\usepackage{amsmath,amssymb,amsthm,booktabs,array,enumitem,xcolor,fancyhdr,hyperref}
+\definecolor{ink}{HTML}{183E53}
+\hypersetup{colorlinks=true,linkcolor=ink,urlcolor=ink}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\setlist{nosep,leftmargin=1.5em}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small 整数波链与 $\pi$：原论文的机制重述}\fancyhead[R]{\small 2026-11-02}\fancyfoot[C]{\thepage}
+\newtheorem{proposition}{命题}
+\newtheorem{lemma}{引理}
+\newcommand{\wt}[1]{w(#1)}
+\newcommand{\ii}{\mathrm i}
+\newcommand{\ord}{\operatorname{ord}}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries 从整数波到插值行列式}\\[5pt]
+{\large 对《The irrationality exponent of $\pi$ is 2》的机制重述与可验证延伸}\\[8pt]
+2026 年 11 月 2 日\quad 研究说明稿
+\end{center}
+
+\textbf{核心解释。} 这篇论文的解析机制可以精确写成：整数频率在周期链上复位，同一横向分组内的重复 Taylor 分量使行列式项为零；剩余项要么支付很高的 Taylor 阶数，要么支付很高的逼近误差幂次。只要这两种代价都超过清分母允许的尺度，就与非零整数行列式发生矛盾。
+
+这里的“波”是明确的指数多项式，不引入物理坍缩假设。我们此前的波链工具提供稳定整数读数、相位筛和联合成本的组织方式；原论文中的插值定理和非零子式仍是不可省去的数学输入。
+
+\textbf{阅读与证明范围。} 本文以用户提供的 23 页附件为对象，保留其原始编号作定位。原文第 2 节的代数几何插值证明在这里概述并作为输入引用，不宣称已重新独立证明。第 3 节的周期、分组消去及比较机制在这里重建；新增的缩放消失阶引理有完整证明。附录有精确代数核查。本文是解释性重述稿，不是用新术语替代原文所有证明的另一篇独立论文。
+
+\section*{1\quad 先确定论文究竟要控制什么}
+对既约整数分数 $p/q$，$q>0$，定义
+\[
+ E(p,q)=q\pi-p,\qquad Q(p,q)=q|E(p,q)|=q^2|\pi-p/q|.
+\]
+附件主张的结论是：对每个固定 $\nu>2$，充分大的 $q$ 都满足
+\[
+ |\pi-p/q|\ge q^{-\nu}.
+\]
+以 $\varepsilon=\nu-2>0$ 改写，这意味着 $Q(p,q)\ge q^{-\varepsilon}$ 最终成立。它允许 $Q$ 沿子序列缓慢趋零，不能直接给出 $Q\ge c>0$。
+
+所以，解释该论文与继续构造 $Q\to0$ 的逼近并不矛盾：前者排除固定幂次的过快逼近，后者仍可能发生在次幂尺度。
+
+\newpage
+\section*{2\quad 精确的波对象与整数周期链}
+固定正整数 $m$。多项式列为
+\[
+ P(Y,X_1,\ldots,X_m)=Y^h\prod_{i=1}^mX_i^{\alpha_i},
+ \qquad h,\alpha_i\in\mathbb Z_{\ge0}.
+\]
+令 $z\in\mathbb C$，$u=(u_1,\ldots,u_m)$ 为形式横向变量，并定义
+\[
+ f_{a,P}(z)=[u^a]P(e^z,z+u_1,\ldots,z+u_m),
+ \qquad a\in\mathbb Z_{\ge0}^m.
+\]
+其中 $[u^a]$ 表示取 $u_1^{a_1}\cdots u_m^{a_m}$ 的系数。直接二项式展开得到
+\[
+ f_{a,P}(z)=
+ \begin{cases}
+ \displaystyle\binom{\alpha}{a} e^{hz}z^{|\alpha|-|a|},&a\le\alpha,\\
+ 0,&\text{否则}.
+ \end{cases}
+\]
+这里 $a\le\alpha$ 按坐标逐项比较，$|a|=\sum_i a_i$。这是原文 (3.9)--(3.10) 的全部内容，也是本文所说的波对象。
+
+令 $\omega=2\pi\ii$。在虚轴 $z=\ii t$ 上，$e^{hz}=e^{\ii ht}$ 是整数频率 $h$ 的周期波。对全部整数 $j$，
+\[
+ e^{h(z+j\omega)}=e^{hz}.
+\]
+因此这条整数链上的\textbf{指数相位}完全复位。但 $z^{|\alpha|-|a|}$ 随 $j$ 改变，整个 $f_{a,P}$ 一般不周期。这个多项式包络正是后面必须付出的增长成本。
+
+\textbf{有理逼近怎样进入波。} 假设有 $m$ 个异常好逼近 $p_i/q_i$，置
+\[
+ r_i=2\ii p_i/q_i,\quad c_{ji}=jr_i,\quad
+ \epsilon_{ji}=j(r_i-\omega)=2\ii j(p_i/q_i-\pi),\quad 0\le j<K.
+\]
+若 $|\pi-p_i/q_i|\le q_i^{-\nu}$，整条有限周期链统一满足
+\[
+ |\epsilon_{ji}|\le2Kq_i^{-\nu}.
+\]
+这是周期位置误差的精确上界。若要研究无限增长的 $j$，这个界也会随 $j$ 变大；不能把有限 $K$ 的一致控制自动外推为无限链控制。
+
+\textbf{与绕数保持的对应。} 我们的主波优势条件保护连续变形中的整数绕数；这里整数 $h$ 则给出精确的相位复位。它们都描述稳定或精确的整数结构，但绕数、频率、周期误差是不同对象，不能互换其结论。
+
+\newpage
+\section*{3\quad 必须保留的两道门：独立性与整数尺度}
+给坐标正权重 $W=(w_0,w_1,\ldots,w_m)$，写
+\[
+ w(\alpha)=\sum_{i=1}^m w_i\alpha_i,
+ \qquad w_0h+w(\alpha)\le H.
+\]
+列选自此完整单纯形。测试行标为 $\rho=(j,s,\beta)$，其中
+\[
+ 0\le j<K,\qquad v_0s+w(\beta)/\theta<H,\quad 0<\theta<1.
+\]
+每一行读取 $t^su^\beta$ 的系数，局部代换为
+\[
+ Y=1+t,\qquad X_i=jr_i+u_i+\ln(1+t).
+\]
+原文定理 2.1 的作用是：按规定分离权重后，充分大的合适 $H$ 能让这些读数独立指定。于是存在使用\textbf{全部行}的非零方子式 $\Delta_H$。
+
+其证明链是：局部横向重数比较 $\to$ 曲线接触不等式 $\to$ 吹胀上的正性与消失 $\to$ 全部有限系数包的满射。最重要的量词是：分离权重的阈值不依赖中心；$H$ 的最后阈值可以依赖已经固定的中心。单纯“列数多于行数”不能替代满秩。
+
+\textbf{为什么必须收费。} 用有限 Taylor 多项式 $G_i(t)$ 取代 $\ln(1+t)$，并使截断尾保持加权滤过。矩阵此时在 $\mathbb Q(\ii)$ 上。令 $T_i$ 为截断阶，$L_i=\operatorname{lcm}(1,\ldots,T_i-1)$，并置
+\[
+ D_H=\prod_i L_i^{\lfloor H/w_i\rfloor}.
+\]
+按列乘 $\prod_iq_i^{\alpha_i}$、按行乘 $\prod_iq_i^{-\beta_i}$，再将每个矩阵元乘 $D_H$，所得非零行列式属于 $\mathbb Z[\ii]$，故模长至少为 $1$。
+
+若行数为 $M$，$w_i=\lceil\ln q_i\rceil$，并定义
+\[
+ \bar b=\frac{1}{MH}\sum_{\rho=(j,s,\beta)}w(\beta),\quad 0\le\bar b\le\theta,
+\]
+原文引理 3.1 得到
+\[
+ \frac{\ln|\Delta_H|}{MH}\ge-(1-\bar b)-E_{\rm ar}.
+\]
+$E_{\rm ar}$ 汇总截断最小公倍数及取整的成本。这里“非零整数不能无限小”有明确的清分母前提；它不同于波的绕数为整数，也不同于分数约分后的 gcd 收益。
+
+\newpage
+\section*{4\quad 同组重复分量为何严格消失}
+固定已经选出的 $M$ 列。把 $f_{a,P}$ 沿这些列排成向量 $F_a(z)\in\mathbb C^M$，在圆盘内展开
+\[
+ F_a(z)=\sum_{d\ge0}C_{a,d}(z/R)^d,\qquad C_{a,d}\in\mathbb C^M.
+\]
+原文平移展开中的每个测试行都是某个线性泛函作用于 $F_a$。若两行都取同一个 $(a,d)$，其行向量都是 $C_{a,d}$ 的标量倍数；该行列式项因此为零。
+
+\begin{lemma}[分组占用的阶数成本]
+设一个非零展开项中属于组 $a$ 的行有 $n_a$ 条，则该项采用的 Taylor 次数总和满足
+\[
+ \sum_{\rho}d_\rho\ge \sum_a\binom{n_a}{2}.
+\]
+\end{lemma}
+\begin{proof}
+同组内各次数必须互异。$n_a$ 个互异非负整数的最小和为
+$0+1+\cdots+(n_a-1)=\binom{n_a}{2}$。逐组相加即可。
+\end{proof}
+这解释原文所谓“碰撞节省”：更准确地说，重复分量被行列式排除，所有存活项都被推到更高次数。这里不需要假设不同组也不能重复；相同 $d$ 在不同组完全可能存活。
+
+\begin{proposition}[缩放版本：精确的消失阶]
+固定任意有限系数型线性测试 $\mathcal L_\rho$，令第 $\rho$ 行属于组 $a_\rho$。取
+\[
+ \mathcal D(\lambda)=\det\bigl(\mathcal L_\rho[F_{a_\rho}(\lambda z)]\bigr)_\rho.
+\]
+只要这些复合在 $\lambda=0$ 附近解析，就有
+\[
+ \ord_{\lambda=0}\mathcal D\ge\sum_a\binom{n_a}{2};
+\]
+若 $\mathcal D\equiv0$，约定其消失阶为 $+\infty$。
+\end{proposition}
+\begin{proof}
+每行展开为 $\sum_d\lambda^d\mathcal L_\rho[(z/R)^d]C_{a_\rho,d}$。按行列式多线性展开；低于上述阶数的每一项都有同组重复 $(a,d)$，故全为零。
+\end{proof}
+这个版本把“内凹”落实为可计算的解析消失阶。单组的三行取向量 $(1,z,z^2)$，在 $z=0,\lambda,2\lambda$ 读数，行列式恰为 $2\lambda^3$。三行的最低总阶为 $0+1+2=3$，界在此达到。
+
+\newpage
+\section*{5\quad 从精确消去到论文的两种统一上界}
+将有理中心的行平移到真周期处，原文引理 3.2 给出有限精确线性组合。对每条原行 $\rho=(j,s,\beta)$，新行形如
+\[
+ [t^\ell]f_{a,P}(j\omega+\ln(1+t)),\qquad a\ge\beta,\quad\ell\le s.
+\]
+对应标量 $\xi$ 满足
+\[
+ |\xi|\le \exp\{-\nu w(a-\beta)+HE_{\rm tr}\}.
+\]
+$E_{\rm tr}$ 包含对数截断尾、二项式系数及取整误差。$a\ge\beta$ 使主误差指数非正。
+
+在 $|z|\le R=100K$ 上，整函数满足统一增长上界。测试圆上的 $|z|<R/2$ 又使第 $d$ 次项具有 $2^{-d}$ 衰减。把上一页的次数成本代入，保留一半衰减求和，得到原文引理 3.3：
+\[
+ |\det T|\le \exp\left\{-c\sum_a n_a^2+MH(E_{\rm hol}+\rho_H)\right\},
+ \qquad c=\frac{\ln2}{4},\quad\rho_H\longrightarrow0.
+\]
+消失阶引理本身不能给出这些常数；这里仍须使用圆盘增长估计和绝对收敛求和。
+
+固定 $0<A<1$ 和 $0<\eta<1$。对\textbf{每个}行展开项，恰有以下两种情况之一。
+
+\textbf{低横向权重的行很多。} 若至少 $\eta M$ 行满足 $w(a)\le AH$，可用的组数约为
+\[
+ D_A(H)\sim\frac{(AH)^m}{m!\prod_iw_i}.
+\]
+由 Cauchy--Schwarz，$\sum_an_a^2\ge(\eta M)^2/D_A(H)$；因此出现二次次数成本。
+
+\textbf{低横向权重的行不够多。} 超过 $(1-\eta)M$ 行满足 $w(a)>AH$。标量乘积就支付至少
+$\nu MH(A(1-\eta)-\bar b)$ 的主指数成本。
+
+令 $E_{\rm an}=E_{\rm tr}+E_{\rm hol}$。两种情况统一为
+\[
+ \frac{\ln|\Delta_H|}{MH}\le E_{\rm an}+o(1)
+ +\max\{-cL_H,-\nu(A(1-\eta)-\bar b)\},
+\]
+其中
+\[
+ L_H\longrightarrow L=\frac{\eta^2K\theta^m}{(m+1)v_0A^m}.
+\]
+必须统一控制全部项，再取绝对值并求和。一个特别小的项，或某个孤立近根，不能替代这个全展开估计。
+
+\newpage
+\section*{6\quad 为什么参数门槛恰好停在指数 2}
+上下界矛盾所需的充分条件是
+\[
+ g=\nu\bigl(A(1-\eta)-\theta\bigr)-(1-\theta)>0,
+ \qquad E_{\rm ar}+E_{\rm an}<g,
+ \qquad cL>1+E_{\rm ar}+E_{\rm an}.
+\]
+其中 $g$ 只是本节的指数间隙，不是前一轮研究中的最大公因数。该记号沿用原文 (3.18)。
+
+原文的维数放大策略同时要求
+\[
+ \nu(A-\theta)>1-\theta,\qquad A^2<\theta< A<1.
+\]
+第二式使两个容量约束兼容：可选
+$A/\theta<C<1/A$，再取 $A<B<\min(1/C,C\theta)$。此时
+\[
+ (CB)^m\to0,\qquad(C\theta/B)^m\to\infty,\qquad(B/A)^m\to\infty.
+\]
+于是解析与算术余项下降，而分组次数节省增大。这是高维的具体用途。
+
+\textbf{对 $\nu=2$，该参数窗口为什么关闭？} 从 $A^2<\theta$ 得 $A<\sqrt\theta$，故
+\[
+ 2(A-\theta)-(1-\theta)
+ =2A-\theta-1
+ <2\sqrt\theta-\theta-1
+ =-(1-\sqrt\theta)^2\le0.
+\]
+因此这一充分条件无法在 $\nu=2$ 闭合。若 $\eta>0$，间隙还会更小。
+
+\textbf{对每个 $\nu>2$，窗口如何打开？} 取有理数
+$1/2<b<1-1/\nu$，再令 $\theta=1-\delta$、$A=1-b\delta$。对充分小的有理数 $\delta>0$，
+\[
+ \nu(A-\theta)-(1-\theta)=[\nu(1-b)-1]\delta>0,
+ \qquad\theta-A^2=(2b-1)\delta-b^2\delta^2>0.
+\]
+两条约束同时成立，再取足够小的 $\eta$ 即得 $g>0$。
+
+所以临界指数来自\textbf{独立测试容量、解析消去和整数分母成本的兼容窗口}。这项推导解释的是该证明架构的门槛；它不是所有可能证明方法都必须遵守的障碍，更不说明 $\pi$ 的连分数部分商有界。
+
+\newpage
+\section*{7\quad 怎样接回我们的波链工具}
+\textbf{一个可直接测量的周期缺陷。} 对 $j\ge1$ 定义
+\[
+ \delta_j(p,q)=\left|e^{2\ii jp/q}-1\right|
+ =2\left|\sin\bigl(j(p/q-\pi)\bigr)\right|.
+\]
+若 $j|p/q-\pi|\le\pi/2$，由正弦的弦界与上界得
+\[
+ \frac{4j}{\pi}|p/q-\pi|\le\delta_j(p,q)
+ \le2j|p/q-\pi|.
+\]
+它把有理逼近误差变为相位闭合缺陷。对 $j=1$，还得到
+\[
+ \frac{q^2\delta_1}{2}\le Q(p,q)
+ \le\frac{\pi q^2\delta_1}{4}.
+\]
+这是一条精确接口，既解释“整数采样为何看见接近周期复位”，也保留了 $q^2$ 的算术费用。只是改用 $\delta_j$ 作观测，尚未自动制造新的好逼近。
+
+\textbf{稳定整数读数能补哪一块。} 前一轮的条件
+$\|r_n\|\le r_*<1$ 及 $\rho r_*+\beta\le r_*$，使扰动波的绕数沿指定演化保持。它适合认证轮廓内根数、跟踪根簇和拒绝数值伪跳变。但以下三件事仍需分别证明：
+\begin{enumerate}
+\item 插值测试独立，因而某个使用全部行的子式非零；
+\item 清分母后产生非零 Gaussian 整数，并计算其真实尺度；
+\item 解析小值或近零点对应的\emph{实际既约分母}是否合算。
+\end{enumerate}
+把所有函数乘任意非零常数，不改变绕数，却能任意改变振幅。这说明绕数稳定本身无法给出高度或分母估计。
+
+\textbf{构造端的下一条明确目标。} 对整数周期输出 $(P,A)$，令
+$E=A\pi-P$、$G=\gcd(P,A)$。实际分母为 $q=|A|/G$，质量为 $Q=|AE|/G^2$。一次更新定义
+\[
+ r=|A_{\rm new}/A|,\quad\sigma=|E_{\rm new}/E|,
+ \quad\gamma=G_{\rm new}/G.
+\]
+对非零分母与误差，分母增长且质量下降等价于
+\[
+ \sqrt{r\sigma}<\gamma<r.
+\]
+因此值得迁移的是原文的\emph{分组 Taylor 消去结构}，尝试让可控的消去出现在可读出整数周期比的构造里，再联合计算误差和分母。当前还没有完成这样一个递推；仅增加维数、复制相位或保持绕数，都没有补齐这一步。
+
+\newpage
+\section*{8\quad Flint--Hills 现象的波语言解释}
+附件还讨论整数角度采样级数
+\[
+ \sum_{n\ge1}\frac{1}{n^3\sin^2 n}.
+\]
+当整数 $n$ 靠近整数倍 $q\pi$ 时，正弦波接近零，单项会产生尖峰。这种尖峰与我们的绕数不变条件不同：此处关心的是\emph{采样点距零点多近，以及这些近零采样有多密}。
+
+若原文主定理成立，取 $2<\nu<5/2$，吸收有限小分母例外，可得
+\[
+ \|q\pi\|\ge cq^{1-\nu}\quad(q\ge1),\qquad c>0,
+\]
+其中 $\|x\|$ 为到最近整数的距离。在 $K\le q<2K$ 的块内，点 $q\pi$ 在圆周 $\mathbb R/\mathbb Z$ 上两两至少相距
+$d=c(2K)^{1-\nu}$，与零也至少相距 $d$。
+
+因此沿两侧半圆排列的距离至少依次为 $d,2d,3d,\ldots$，故
+\[
+ \sum_{K\le q<2K}\frac1{q^3\|q\pi\|^2}
+ \le\frac{2}{K^3d^2}\sum_{j\ge1}\frac1{j^2}
+ =O(K^{2\nu-5}).
+\]
+因为 $2\nu-5<0$，按 $K=2^k$ 求和收敛。
+
+最后把整数 $n$ 按最近的 $q\pi$ 分组，每组至多四个整数，且
+$n\ge\pi q/2$、$|\sin n|\ge(2/\pi)\|q\pi\|$。上述收敛性便转到原级数。这是附件第 5 节的机制重述。
+
+\textbf{这里解释了什么。} 单个尖峰可以很高，但同一尺度内的尖峰不能无代价地聚集；真正控制总和的是高度与间距的联合约束。该结论在此仍以附件主定理为前提。
+
+\section*{复核与来源}
+附带的 \texttt{verify\_bridge.py} 使用 SymPy 和精确有理运算，检查分组消失阶的可达例子、实际指数多项式的低阶系数、$\nu=2$ 参数窗口关闭，以及 $\nu>2$ 的一组可行有理参数。有限检查支持实现与代数整理；一般结论依赖上文证明。它没有验证原文的全部代数几何步骤或完整无理指数定理。
+
+主来源：用户附件 \emph{The irrationality exponent of $\pi$ is 2}，署名 OpenAI，2026-09-24，23 页；重点定位为定理 2.1、(3.3)--(3.20)、引理 4.1 与第 5 节。波链来源：仓库 \texttt{epsilon-lain/lain-s-note} 中 \texttt{research/wave-chain-2026-11-02/}，固定提交 \texttt{d1b1645}。本文的分组缩放命题是原文 Taylor 消去机制的直接推论，不主张基础原理的首创性。
+\end{document}
