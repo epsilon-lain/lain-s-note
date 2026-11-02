@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "hilbert_inverse_matrix_checks": 13,
+  "inverse_diagonal_checks": 104,
+  "shifted_legendre_gram_checks": 13,
+  "gaussian_rational_moment_identity_checks": 132,
+  "exact_tail_base": "24090891970712521146368/149394938057999106188625",
+  "tail_base_strict_upper": "1/6",
+  "tail_monotonicity_and_majorant_checks": 85,
+  "rational_bound_records": [
+    {
+      "n": 9,
+      "rational_lower_numerator_bits": 78,
+      "rational_lower_denominator_bits": 76,
+      "upper_bound_bits": 140
+    },
+    {
+      "n": 10,
+      "rational_lower_numerator_bits": 91,
+      "rational_lower_denominator_bits": 86,
+      "upper_bound_bits": 157
+    },
+    {
+      "n": 12,
+      "rational_lower_numerator_bits": 114,
+      "rational_lower_denominator_bits": 101,
+      "upper_bound_bits": 191
+    },
+    {
+      "n": 16,
+      "rational_lower_numerator_bits": 167,
+      "rational_lower_denominator_bits": 138,
+      "upper_bound_bits": 262
+    },
+    {
+      "n": 24,
+      "rational_lower_numerator_bits": 274,
+      "rational_lower_denominator_bits": 202,
+      "upper_bound_bits": 412
+    },
+    {
+      "n": 32,
+      "rational_lower_numerator_bits": 393,
+      "rational_lower_denominator_bits": 271,
+      "upper_bound_bits": 569
+    },
+    {
+      "n": 48,
+      "rational_lower_numerator_bits": 642,
+      "rational_lower_denominator_bits": 403,
+      "upper_bound_bits": 900
+    },
+    {
+      "n": 64,
+      "rational_lower_numerator_bits": 905,
+      "rational_lower_denominator_bits": 533,
+      "upper_bound_bits": 1246
+    }
+  ],
+  "scope": "Exact finite premises and identities supplement the proof of log norm=2n log n+O(n). No numerical pi or matrix square root. No determinant, optimal disk-radius or derivative sharpness claim."
+}

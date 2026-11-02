@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "row_coordinate_checks": 1080,
+  "column_coordinate_checks": 1080,
+  "normal_profile_support_checks": 989,
+  "upper_sets_in_test_poset": 6,
+  "zero_surplus_profiles": 219,
+  "complete_weighted_closure_cases": 112,
+  "legal_complete_packets": [
+    {
+      "N": 2,
+      "matrix_size": 6,
+      "normal_blocks": 1,
+      "active_base_derivatives": true,
+      "monomial_constant": "1",
+      "monomial_exponent": 5
+    },
+    {
+      "N": 3,
+      "matrix_size": 14,
+      "normal_blocks": 2,
+      "active_base_derivatives": true,
+      "monomial_constant": "-1",
+      "monomial_exponent": 15
+    },
+    {
+      "N": 4,
+      "matrix_size": 26,
+      "normal_blocks": 2,
+      "active_base_derivatives": true,
+      "monomial_constant": "-1",
+      "monomial_exponent": 35
+    },
+    {
+      "N": 5,
+      "matrix_size": 44,
+      "normal_blocks": 3,
+      "active_base_derivatives": true,
+      "monomial_constant": "1",
+      "monomial_exponent": 70
+    }
+  ],
+  "raw_monomial_determinant_checks": 12,
+  "time_to_base_row_change_entries": 5004,
+  "scope": "Exact finite checks supplement general support/closure/monomial proofs. No universal nonvanishing assertion, no critical-density construction, and no pi approximation claim."
+}

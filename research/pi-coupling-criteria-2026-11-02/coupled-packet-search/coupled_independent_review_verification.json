@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "independent_raw_determinant_checks": 8,
+  "exact_rational_value_denominator_checks": 980,
+  "root_bracket_and_comparator": "passed",
+  "cubic_irreducibility_and_nonsquare_norm_checks": "passed",
+  "scope": "Exact supplementary checks; the main full polynomial identity certificate and general profile proof are separate."
+}

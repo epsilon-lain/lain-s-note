@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "af4271737649a05c37c9ec499151317c54a4ee9a",
+  "status": "passed",
+  "runs": [
+    {
+      "command": "python normal-filtration-general/verify_normal_filtration.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"row_coordinate_checks\": 1080,\n  \"column_coordinate_checks\": 1080,\n  \"normal_profile_support_checks\": 989,\n  \"upper_sets_in_test_poset\": 6,\n  \"zero_surplus_profiles\": 219,\n  \"complete_weighted_closure_cases\": 112,\n  \"legal_complete_packets\": [\n    {\n      \"N\": 2,\n      \"matrix_size\": 6,\n      \"normal_blocks\": 1,\n      \"active_base_derivatives\": true,\n      \"monomial_constant\": \"1\",\n      \"monomial_exponent\": 5\n    },\n    {\n      \"N\": 3,\n      \"matrix_size\": 14,\n      \"normal_blocks\": 2,\n      \"active_base_derivatives\": true,\n      \"monomial_constant\": \"-1\",\n      \"monomial_exponent\": 15\n    },\n    {\n      \"N\": 4,\n      \"matrix_size\": 26,\n      \"normal_blocks\": 2,\n      \"active_base_derivatives\": true,\n      \"monomial_constant\": \"-1\",\n      \"monomial_exponent\": 35\n    },\n    {\n      \"N\": 5,\n      \"matrix_size\": 44,\n      \"normal_blocks\": 3,\n      \"active_base_derivatives\": true,\n      \"monomial_constant\": \"1\",\n      \"monomial_exponent\": 70\n    }\n  ],\n  \"raw_monomial_determinant_checks\": 12,\n  \"time_to_base_row_change_entries\": 5004,\n  \"scope\": \"Exact finite checks supplement general support/closure/monomial proofs. No universal nonvanishing assertion, no critical-density construction, and no pi approximation claim.\"\n}"
+    },
+    {
+      "command": "python coupled-packet-search/verify_coupled_raw_certificate.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"total_exact_determinant_checks\": 115,\n  \"cubic_mod_11_residues\": [\n    7,\n    4,\n    1,\n    10,\n    10,\n    2,\n    9,\n    10,\n    6,\n    9,\n    9\n  ],\n  \"new_root_bracket\": [\n    \"6302063/1000000\",\n    \"393879/62500\"\n  ],\n  \"comparator_root_bracket\": [\n    \"31477/5000\",\n    \"15739/2500\"\n  ],\n  \"new_certified_root_is_farther_than_comparator\": true,\n  \"exact_rational_value_denominator_checks\": 3912,\n  \"scope\": \"Finite complete-source raw minors. Polynomial identities follow from proved degree bounds plus exact evaluations. No infinite coupled family, approximation improvement, or pi bad-approximability assertion.\"\n}"
+    },
+    {
+      "command": "python coupled-packet-search/verify_coupled_independent_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"independent_raw_determinant_checks\": 8,\n  \"exact_rational_value_denominator_checks\": 980,\n  \"root_bracket_and_comparator\": \"passed\",\n  \"cubic_irreducibility_and_nonsquare_norm_checks\": \"passed\",\n  \"scope\": \"Exact supplementary checks; the main full polynomial identity certificate and general profile proof are separate.\"\n}"
+    },
+    {
+      "command": "python multifrequency-coupling/verify_multiweight_moments.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"complete_packets\": 7,\n  \"moment_identity_checks\": 63,\n  \"balanced_cases\": 3,\n  \"comparisons\": [\n    {\n      \"n\": 4,\n      \"least_coefficient_denominator\": \"9\",\n      \"primitive_actual_value_absolute_integer_enclosure\": [\n        \"38150\",\n        \"38151\"\n      ],\n      \"primitive_actual_value_comparison\": \"smaller\"\n    },\n    {\n      \"n\": 6,\n      \"least_coefficient_denominator\": \"291600\",\n      \"primitive_actual_value_absolute_integer_enclosure\": [\n        \"67362199\",\n        \"67362200\"\n      ],\n      \"primitive_actual_value_comparison\": \"smaller\"\n    },\n    {\n      \"n\": 8,\n      \"least_coefficient_denominator\": \"1666598976000000\",\n      \"primitive_actual_value_absolute_integer_enclosure\": [\n        \"55905687002\",\n        \"55905687003\"\n      ],\n      \"primitive_actual_value_comparison\": \"smaller\"\n    }\n  ]\n}"
+    },
+    {
+      "command": "python gram-norm-sharpness/verify_gram_norm_sharpness.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"hilbert_inverse_matrix_checks\": 13,\n  \"inverse_diagonal_checks\": 104,\n  \"shifted_legendre_gram_checks\": 13,\n  \"gaussian_rational_moment_identity_checks\": 132,\n  \"exact_tail_base\": \"24090891970712521146368/149394938057999106188625\",\n  \"tail_base_strict_upper\": \"1/6\",\n  \"tail_monotonicity_and_majorant_checks\": 85,\n  \"rational_bound_records\": [\n    {\n      \"n\": 9,\n      \"rational_lower_numerator_bits\": 78,\n      \"rational_lower_denominator_bits\": 76,\n      \"upper_bound_bits\": 140\n    },\n    {\n      \"n\": 10,\n      \"rational_lower_numerator_bits\": 91,\n      \"rational_lower_denominator_bits\": 86,\n      \"upper_bound_bits\": 157\n    },\n    {\n      \"n\": 12,\n      \"rational_lower_numerator_bits\": 114,\n      \"rational_lower_denominator_bits\": 101,\n      \"upper_bound_bits\": 191\n    },\n    {\n      \"n\": 16,\n      \"rational_lower_numerator_bits\": 167,\n      \"rational_lower_denominator_bits\": 138,\n      \"upper_bound_bits\": 262\n    },\n    {\n      \"n\": 24,\n      \"rational_lower_numerator_bits\": 274,\n      \"rational_lower_denominator_bits\": 202,\n      \"upper_bound_bits\": 412\n    },\n    {\n      \"n\": 32,\n      \"rational_lower_numerator_bits\": 393,\n      \"rational_lower_denominator_bits\": 271,\n      \"upper_bound_bits\": 569\n    },\n    {\n      \"n\": 48,\n      \"rational_lower_numerator_bits\": 642,\n      \"rational_lower_denominator_bits\": 403,\n      \"upper_bound_bits\": 900\n    },\n    {\n      \"n\": 64,\n      \"rational_lower_numerator_bits\": 905,\n      \"rational_lower_denominator_bits\": 533,\n      \"upper_bound_bits\": 1246\n    }\n  ],\n  \"scope\": \"Exact finite premises and identities supplement the proof of log norm=2n log n+O(n). No numerical pi or matrix square root. No determinant, optimal disk-radius or derivative sharpness claim.\"\n}"
+    }
+  ],
+  "scope": "Specified complete raw packets, general support/closure and moment identities, and the normalized endpoint norm. Finite tests do not establish infinite coupled arithmetic quality. No claim of pi bad approximability, its negation, improved rational approximation, or independent certification of the uploaded interpolation theorem. Independent agent review is not external peer review.",
+  "python_version": "3.12.14",
+  "fixture_provenance": {
+    "source": "research/pi-period-mechanism-2026-11-02/root-separation-next/raw_near_period_verification.json",
+    "source_commit": "e1bc2f6d1673dbb8153afda2e113243c18822954",
+    "sha256": "ff5c3d51a87a9ea7e5527f0b87552205c4732a2d4a63a1bc56543de3a7a927ec",
+    "exact_subset_comparison": "passed"
+  },
+  "relative_links": {
+    "status": "passed",
+    "count": 19
+  },
+  "independent_reviews": [
+    "coupled-packet-search/INDEPENDENT_COUPLED_REVIEW.md",
+    "gram-norm-sharpness/INDEPENDENT_NORM_REVIEW.md",
+    "multifrequency-coupling/INDEPENDENT_MULTIWEIGHT_REVIEW.md",
+    "normal-filtration-general/INDEPENDENT_NORMAL_FILTRATION_REVIEW.md"
+  ],
+  "sha256": {
+    "README.md": "390d3207dbd64d3d99ee5ac6460ba3e6b3e601b3e82c7a80a5ef02762228e71e",
+    "coupled-packet-search/COUPLED_RAW_CERTIFICATE.md": "6166ec4454f867684a8f452a37d6aa891d91a59038297def52c635ed803079d3",
+    "coupled-packet-search/INDEPENDENT_COUPLED_REVIEW.md": "ae0fdc0bed7548730c722f6bf71977601950ecd1ce63f19aac19c361fa0c6b26",
+    "coupled-packet-search/coupled_independent_review_verification.json": "a303cbfc0100db4e4578c919ed58b87ca1b368a3b7b036b8089ae7f3301c9bc9",
+    "coupled-packet-search/coupled_raw_verification.json": "c2dde3b94d1e7dede3f397f5567f32bff43d78b9a86f0924593c29f376dc8d9f",
+    "coupled-packet-search/verify_coupled_independent_review.py": "1ed7708b5f49b79ef43c00b3e651c0a934ed3040518b66a193ebc02bfc62bfdf",
+    "coupled-packet-search/verify_coupled_raw_certificate.py": "47d6c87fc5cbbdc389778bc826f6d8b8ed1530f7657b81b2daaa946c80df5e59",
+    "gram-norm-sharpness/GRAM_NORM_SHARPNESS.md": "6079cf2022684762d2b2108af5b1890fe1a431b81414a48e6b2eedb3a3056fad",
+    "gram-norm-sharpness/INDEPENDENT_NORM_REVIEW.md": "282721743868f7b23e3acda3babfedd581d528c9f09a85e5605317b6b2dd8e0d",
+    "gram-norm-sharpness/gram_norm_sharpness_verification.json": "8f880976ac0940453bff2883f9bc57ace530362540eb381e3cb705d70aaac17a",
+    "gram-norm-sharpness/verify_gram_norm_sharpness.py": "338b9f74d54e686bf0a91e5d9331e8c90c6f4e28cb27db4600b2e6b26174d0bd",
+    "multifrequency-coupling/INDEPENDENT_MULTIWEIGHT_REVIEW.md": "402e6985fc22963c7f72210ec83fff9d0ca7365887cfe91a2678f972546f014e",
+    "multifrequency-coupling/MULTIWEIGHT_ENDPOINT_MOMENTS.md": "85f55c8b6dc7dc3707a53ecf170cb4876ff499631cb7f1961350a08ad983a178",
+    "multifrequency-coupling/multiweight_verification.json": "0c01bef11fa3f361f45a4844ad51bd5e2123e82cb09e1cc1abf9d930aa7b1a79",
+    "multifrequency-coupling/old_period_branch_fixture.json": "55ae59b90b4cd20638f5ab50f0dc0dc8469db8cb1f0cb0e41a09be3ff0b67171",
+    "multifrequency-coupling/verify_multiweight_moments.py": "4695bf7c506479d69e4434064ef63ffec0b85f0054d80d2eeae2c0338fd99f6c",
+    "normal-filtration-general/INDEPENDENT_NORMAL_FILTRATION_REVIEW.md": "63c99432381825f6a740ee96b012c2e1d15b5cba00dc6b8fcd78c0b269ec2959",
+    "normal-filtration-general/NORMAL_PROFILE_AND_STRAIGHTENING.md": "74d93f98903aa9b6145b0d0eb788856c9f91bf0357e9adf6ec85d107649702bb",
+    "normal-filtration-general/normal_filtration_verification.json": "4a8726348c78751ebfc359d1c576fc1b5e23a2db37f8c4515c0226bac994cb4c",
+    "normal-filtration-general/verify_normal_filtration.py": "2f48b8d0d25a71e6340bec283c4762d6eb79d84e515d512f48e4d17e74b0f892"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "status": "passed",
+  "complete_packets": [
+    {
+      "n": 2,
+      "profile": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "height": 6,
+      "source_rows": 4
+    },
+    {
+      "n": 3,
+      "profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "height": 8,
+      "source_rows": 6
+    },
+    {
+      "n": 4,
+      "profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "height": 10,
+      "source_rows": 8
+    },
+    {
+      "n": 4,
+      "profile": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "height": 11,
+      "source_rows": 8
+    },
+    {
+      "n": 5,
+      "profile": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "height": 12,
+      "source_rows": 10
+    },
+    {
+      "n": 6,
+      "profile": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "height": 14,
+      "source_rows": 12
+    },
+    {
+      "n": 8,
+      "profile": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "height": 18,
+      "source_rows": 16
+    }
+  ],
+  "independent_two_parameter_identity_checks": 63,
+  "balanced_comparisons": [
+    {
+      "n": 4,
+      "polynomial": {
+        "4": "-5/3",
+        "6": "-1/9"
+      },
+      "degree": 6,
+      "least_coefficient_denominator": "9",
+      "primitive_leading_coefficient": "-1",
+      "same_original_height_2n_budget_certified": true,
+      "gram_hadamard_majorant_certified": true,
+      "positive_imaginary_root_interval": [
+        "59931514446945415161856012103079/15474250491067253436239052800000",
+        "479452115575563321294848096824633/123794003928538027489912422400000"
+      ],
+      "branch_farther_from_first_period_than_old_same_row_family": true,
+      "primitive_actual_value_absolute_integer_enclosure": [
+        "38150",
+        "38151"
+      ],
+      "old_primitive_actual_value_absolute_integer_enclosure": [
+        "279078",
+        "279079"
+      ],
+      "primitive_actual_value_comparison": "smaller"
+    },
+    {
+      "n": 6,
+      "polynomial": {
+        "6": "2/135",
+        "8": "67/2160",
+        "10": "17/16200",
+        "12": "1/145800"
+      },
+      "degree": 12,
+      "least_coefficient_denominator": "291600",
+      "primitive_leading_coefficient": "2",
+      "same_original_height_2n_budget_certified": true,
+      "gram_hadamard_majorant_certified": true,
+      "positive_imaginary_root_interval": [
+        "193985784861238060690633748145959/30948500982134506872478105600000",
+        "387971569722476121381267496291919/61897001964269013744956211200000"
+      ],
+      "branch_farther_from_first_period_than_old_same_row_family": true,
+      "primitive_actual_value_absolute_integer_enclosure": [
+        "67362199",
+        "67362200"
+      ],
+      "old_primitive_actual_value_absolute_integer_enclosure": [
+        "5256609833",
+        "5256609834"
+      ],
+      "primitive_actual_value_comparison": "smaller"
+    },
+    {
+      "n": 8,
+      "polynomial": {
+        "8": "-139/54432000",
+        "10": "-779/65318400",
+        "12": "-3967/1866240000",
+        "14": "-223393/411505920000",
+        "16": "-411989/12345177600000",
+        "18": "-1399/2057529600000",
+        "20": "-37/39680928000000",
+        "22": "41/416649744000000",
+        "24": "1/1666598976000000"
+      },
+      "degree": 24,
+      "least_coefficient_denominator": "1666598976000000",
+      "primitive_leading_coefficient": "1",
+      "same_original_height_2n_budget_certified": true,
+      "gram_hadamard_majorant_certified": true,
+      "positive_imaginary_root_interval": [
+        "48613720012339311727657418678341273/7737125245533626718119526400000000",
+        "777819520197428987642518698853460369/123794003928538027489912422400000000"
+      ],
+      "branch_farther_from_first_period_than_old_same_row_family": true,
+      "primitive_actual_value_absolute_integer_enclosure": [
+        "55905687002",
+        "55905687003"
+      ],
+      "old_primitive_actual_value_absolute_integer_enclosure": [
+        "46368157078953",
+        "46368157078954"
+      ],
+      "primitive_actual_value_comparison": "smaller"
+    }
+  ],
+  "scope": "General multiweight moment and Gram identities are proved in the note. Finite branches and primitive values are exact certificates only. No general convergence, best rational approximation, or pi bad-approximability claim."
+}
