@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "arithmetic": "Python standard-library exact integers and rationals",
+  "integer_recurrence_valuation_checks": 2001,
+  "finite_polynomial_W_ascending": [
+    -133890,
+    106091,
+    -112150,
+    95560,
+    -57235,
+    25853,
+    -8200,
+    1800,
+    -240,
+    16
+  ],
+  "differential_coefficients": 80,
+  "duplication_coefficients": 81,
+  "even_odd_reversed_sum_checks": 66,
+  "zero_series_partial_sum_residue_checks": 101,
+  "tail_valuation_inequality_checks": 9995,
+  "scope": "Finite exact audits. The all-index valuation formula follows from the proof, including the convergent-series duplication and five-term congruence; no odd-prime compensation theorem or pi bad-approximability claim."
+}

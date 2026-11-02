@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "small_range_limit": 300,
+  "counts": {
+    "independent_binomial_ell_checks": 61,
+    "convolution_checks": 80,
+    "integer_wronskian_checks": 300,
+    "lucas_checks": 2800,
+    "leading_pole_checks": 2800,
+    "two_sided_cap_checks": 2786,
+    "positive_excess_neighbor_checks": 3,
+    "prime_nilpotent_blocks": 14,
+    "prime_power_transfer_checks": 30,
+    "sieve_bound_vs_actual_gcd_checks": 300,
+    "formal_ode_coefficients": 40,
+    "formal_duplication_coefficients": 41,
+    "two_adic_recurrence_checks": 301,
+    "two_adic_tail_bound_checks": 495
+  },
+  "first_odd_excess_through_72": [
+    72,
+    17
+  ],
+  "n72_p17_A_B_factorial_valuations": [
+    5,
+    5,
+    4
+  ],
+  "n72_p17_first_units": [
+    "2",
+    "2"
+  ],
+  "repeated_base17_digit_checks": [
+    [
+      4,
+      1,
+      0,
+      0
+    ],
+    [
+      72,
+      1,
+      1,
+      1
+    ],
+    [
+      1228,
+      2,
+      -1,
+      -1
+    ],
+    [
+      20880,
+      2,
+      0,
+      0
+    ]
+  ],
+  "small_range_sieve_survivors": [
+    2,
+    3,
+    6,
+    7,
+    15
+  ],
+  "exact_survivor_floors_and_ceilings": [
+    [
+      2,
+      "1/10",
+      "1/5"
+    ],
+    [
+      3,
+      "9/14",
+      "9/7"
+    ],
+    [
+      6,
+      "50/13",
+      "100/13"
+    ],
+    [
+      7,
+      "245/24",
+      "245/12"
+    ],
+    [
+      15,
+      "4058104050/31",
+      "8116208100/31"
+    ]
+  ],
+  "H5_polynomial_ascending": [
+    -133890,
+    106091,
+    -112150,
+    95560,
+    -57235,
+    25853,
+    -8200,
+    1800,
+    -240,
+    16
+  ],
+  "scope": "Independent finite checks plus proof audit; full N=20000 sieve was code-reviewed but not redundantly rerun. No all-n conclusion is inferred from the checked range."
+}

@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "limit": 20000,
+  "threshold": "1/5",
+  "sieve_survivors": [
+    2,
+    3,
+    6,
+    7,
+    15
+  ],
+  "sieve_excluded_count": 19995,
+  "last_exact_index_required": 15,
+  "exact_stage_completed": true,
+  "remaining_indices_after_exact_stage": [
+    2
+  ],
+  "unique_best_quality_index_in_checked_family": 2,
+  "unique_best_fraction": "3/1",
+  "sieve_rows": [
+    {
+      "n": 2,
+      "U_bits": 4,
+      "v2_U": 3,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": -4,
+      "survives_threshold_one_fifth": true
+    },
+    {
+      "n": 3,
+      "U_bits": 6,
+      "v2_U": 5,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": -6,
+      "survives_threshold_one_fifth": true
+    },
+    {
+      "n": 4,
+      "U_bits": 8,
+      "v2_U": 3,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": -1,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 6,
+      "U_bits": 12,
+      "v2_U": 6,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": -3,
+      "survives_threshold_one_fifth": true
+    },
+    {
+      "n": 7,
+      "U_bits": 14,
+      "v2_U": 9,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": -7,
+      "survives_threshold_one_fifth": true
+    },
+    {
+      "n": 72,
+      "U_bits": 160,
+      "v2_U": 38,
+      "odd_sieve_gcd_bits": 5,
+      "lower_bound_log2_floor_at_least": 53,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 100,
+      "U_bits": 223,
+      "v2_U": 53,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": 87,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 1000,
+      "U_bits": 2266,
+      "v2_U": 506,
+      "odd_sieve_gcd_bits": 1,
+      "lower_bound_log2_floor_at_least": 978,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 5000,
+      "U_bits": 11351,
+      "v2_U": 2505,
+      "odd_sieve_gcd_bits": 21,
+      "lower_bound_log2_floor_at_least": 4937,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 10000,
+      "U_bits": 22708,
+      "v2_U": 5005,
+      "odd_sieve_gcd_bits": 13,
+      "lower_bound_log2_floor_at_least": 9950,
+      "survives_threshold_one_fifth": false
+    },
+    {
+      "n": 20000,
+      "U_bits": 45423,
+      "v2_U": 10005,
+      "odd_sieve_gcd_bits": 5,
+      "lower_bound_log2_floor_at_least": 19967,
+      "survives_threshold_one_fifth": false
+    }
+  ],
+  "exact_survivor_rows": [
+    {
+      "n": 2,
+      "p": "3",
+      "q": "1",
+      "strict_quality_lower": "1/10",
+      "strict_quality_upper": "1/5",
+      "excluded_by_exact_lower_bound": false
+    },
+    {
+      "n": 3,
+      "p": "19",
+      "q": "6",
+      "strict_quality_lower": "9/14",
+      "strict_quality_upper": "9/7",
+      "excluded_by_exact_lower_bound": true
+    },
+    {
+      "n": 6,
+      "p": "644",
+      "q": "205",
+      "strict_quality_lower": "50/13",
+      "strict_quality_upper": "100/13",
+      "excluded_by_exact_lower_bound": true
+    },
+    {
+      "n": 7,
+      "p": "2529",
+      "q": "805",
+      "strict_quality_lower": "245/24",
+      "strict_quality_upper": "245/12",
+      "excluded_by_exact_lower_bound": true
+    },
+    {
+      "n": 15,
+      "p": "10392576224",
+      "q": "3308059755",
+      "strict_quality_lower": "4058104050/31",
+      "strict_quality_upper": "8116208100/31",
+      "excluded_by_exact_lower_bound": true
+    }
+  ],
+  "U_lcm_odd_gcd_chain_sha256": "a751d15ab119e17aa6cece4cbf61e6a8dbb9cf0fee6ffdcc7a5a3e5b8e414c03",
+  "runtime_seconds": 10.698,
+  "scope": "Finite complete exclusion in the specified Legendre/arctangent family only. Surviving the sieve is not a good-approximation certificate; exact stage and analytic bounds are required. No all-rational or all-n conclusion."
+}

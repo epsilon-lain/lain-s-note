@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-02",
+  "repository": "epsilon-lain/lain-s-note",
+  "baseline_commit": "dff048f73da83e63978e1c01576d38ea71af1546",
+  "python_version": "3.12.14",
+  "status": "seven standard-library verification/search entry points completed successfully",
+  "runs": [
+    {
+      "script": "gcd-valuation-theory/two-adic-proof/verify_two_adic_valuation.py",
+      "command": "python -B gcd-valuation-theory/two-adic-proof/verify_two_adic_valuation.py",
+      "exit_code": 0,
+      "stdout_log": "two_adic.stdout.txt",
+      "result_report": "gcd-valuation-theory/two-adic-proof/two_adic_valuation_verification.json",
+      "stdout_sha256": "3665408232ef0c9465177e5dbc6354c7841c2bd17b84bdd4e7fc6ba9a58545cb"
+    },
+    {
+      "script": "gcd-valuation-theory/verify_odd_excess_counterexamples.py",
+      "command": "python -B gcd-valuation-theory/verify_odd_excess_counterexamples.py",
+      "exit_code": 0,
+      "stdout_log": "odd_counterexamples.stdout.txt",
+      "result_report": "gcd-valuation-theory/odd_excess_counterexamples.json",
+      "stdout_sha256": "8672a9969f8c260ea65e073a5d7b5be3e3ffe29fc9940d38252af49dba896715"
+    },
+    {
+      "script": "gcd-prime-blocks/verify_odd_prime_blocks.py",
+      "command": "python -B gcd-prime-blocks/verify_odd_prime_blocks.py",
+      "exit_code": 0,
+      "stdout_log": "prime_blocks.stdout.txt",
+      "result_report": "gcd-prime-blocks/odd_prime_blocks_verification.json",
+      "stdout_sha256": "35af295e4be7fb53481f5f4f1cbfd8427f413ad066a05292f6720b9230f24493"
+    },
+    {
+      "script": "gcd-integrality-obstruction/verify_local_poles_sieve.py",
+      "command": "python -B gcd-integrality-obstruction/verify_local_poles_sieve.py",
+      "exit_code": 0,
+      "stdout_log": "local_poles.stdout.txt",
+      "result_report": "gcd-integrality-obstruction/local_poles_sieve_verification.json",
+      "stdout_sha256": "711d1949ae110078bd3d29e852b31d163548eafc729b1b57c22bf7b18f5d55f2"
+    },
+    {
+      "script": "gcd-audit/verify_independent_gcd.py",
+      "command": "python -B gcd-audit/verify_independent_gcd.py",
+      "exit_code": 0,
+      "stdout_log": "independent.stdout.txt",
+      "result_report": "gcd-audit/verify_independent_gcd.json",
+      "stdout_sha256": "09afab58d6ffd8654b6a5a2c064d8e47bd49561613c0c2c23e99b7e0236264e4"
+    },
+    {
+      "script": "gcd-blast-search/scan_gcd.py",
+      "command": "python -B gcd-blast-search/scan_gcd.py --limit 5000",
+      "exit_code": 0,
+      "result_report": "gcd-blast-search/gcd_scan_results.json",
+      "runtime_seconds": 5.434,
+      "execution_reused": "Original exact execution in this task; staged code and result verified byte-identical. No unnecessary large rerun."
+    },
+    {
+      "script": "gcd-blast-search/sieve_gcd.py",
+      "command": "python -B gcd-blast-search/sieve_gcd.py --limit 20000",
+      "exit_code": 0,
+      "result_report": "gcd-blast-search/gcd_sieve_results.json",
+      "runtime_seconds": 10.698,
+      "execution_reused": "Original exact execution in this task; staged code and result verified byte-identical. No unnecessary large rerun."
+    }
+  ],
+  "proof_scope": "All-index exact 2-adic valuation, odd-prime caps/leading-pole congruence, necessary U/lcm sieve, and odd-excess exponential barrier. The no-odd-excess shortcut is disproved at n72,p17.",
+  "finite_scope": "Full actual-gcd scan 1<=n<=5000; conservative U/lcm sieve plus exact survivor check 1<=n<=20000. This is a single recurrence family, not all rationals or a denominator-bound scan.",
+  "finite_best_fraction": "3/1 at index n=2; no new pi approximation record",
+  "full_sieve_survivors": [
+    2,
+    3,
+    6,
+    7,
+    15
+  ],
+  "exact_survivor_stage_last_index": 15,
+  "uniform_quality_barrier": "Q_n > 2^n/(96*n^5*u_n^2) for every n>=1",
+  "unresolved": "No global subcritical bound for simultaneous positive odd-prime excess; no successful infinite sparse subsequence; no pi BA/nonBA conclusion.",
+  "independent_reviews": [
+    "gcd-integrality-obstruction/INDEPENDENT_GCD_THEORY_REVIEW.md",
+    "gcd-audit/INDEPENDENT_GCD_REVIEW.md"
+  ],
+  "review_scope": "Separate research agents rederived proofs and checked exact arithmetic. Not external peer review. The large 20000 sieve was audited without a redundant full rerun.",
+  "relative_markdown_file_links_checked": [
+    {
+      "source": "README.md",
+      "target": "gcd-prime-blocks/ODD_PRIME_BLOCKS_AND_EXCESS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-valuation-theory/ODD_EXCESS_BARRIER.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-valuation-theory/two-adic-proof/TWO_ADIC_NUMERATOR_VALUATION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-prime-blocks/ODD_PRIME_BLOCKS_AND_EXCESS.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-integrality-obstruction/LOCAL_POLES_AND_EXCESS_SIEVE.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-blast-search/SIEVE_THEOREM_AND_FINITE_EXCLUSION.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-integrality-obstruction/INDEPENDENT_GCD_THEORY_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "gcd-audit/INDEPENDENT_GCD_REVIEW.md"
+    },
+    {
+      "source": "README.md",
+      "target": "SOURCES.md"
+    },
+    {
+      "source": "README.md",
+      "target": "CHECKS.json"
+    },
+    {
+      "source": "README.md",
+      "target": "../pi-joint-arithmetic-2026-11-02/README.md"
+    },
+    {
+      "source": "gcd-blast-search/SIEVE_THEOREM_AND_FINITE_EXCLUSION.md",
+      "target": "../gcd-prime-blocks/ODD_PRIME_BLOCKS_AND_EXCESS.md"
+    },
+    {
+      "source": "gcd-valuation-theory/ODD_EXCESS_BARRIER.md",
+      "target": "two-adic-proof/TWO_ADIC_NUMERATOR_VALUATION.md"
+    },
+    {
+      "source": "gcd-valuation-theory/ODD_EXCESS_BARRIER.md",
+      "target": "../../pi-joint-arithmetic-2026-11-02/joint-log-pade/LEGENDRE_ARCTAN_JOINT_COST.md"
+    },
+    {
+      "source": "gcd-integrality-obstruction/LOCAL_POLES_AND_EXCESS_SIEVE.md",
+      "target": "../gcd-prime-blocks/ODD_PRIME_BLOCKS_AND_EXCESS.md"
+    }
+  ],
+  "sha256": {
+    "README.md": "1d0773dce04a77bf050276a879c1e2c811b401ce172298a69984c817f57d9a67",
+    "SOURCES.md": "0816c76840c8362db145ded94565fad66547afbb0d4ba7bef49ebd38e98171e7",
+    "gcd-audit/INDEPENDENT_GCD_REVIEW.md": "2e9e9e4a489a7f5fb8e6b2b0708ae57e284803f583a7f374afa6ec9f8a5883d0",
+    "gcd-audit/verify_independent_gcd.json": "09afab58d6ffd8654b6a5a2c064d8e47bd49561613c0c2c23e99b7e0236264e4",
+    "gcd-audit/verify_independent_gcd.py": "9a3f178b0eef4c1516f9e4081882b9e5e2b3b63c8477433ef1a8eb31c9849606",
+    "gcd-blast-search/SIEVE_THEOREM_AND_FINITE_EXCLUSION.md": "d6cfde68dca3d0af44fdf4f95239f9acb82689298262dbc3fd2ffd22a6a8c83a",
+    "gcd-blast-search/gcd_scan_results.json": "0e7bf78d01dd23733dda281478396d1eec3fba0f4a5986dc5be42f96d7cf8c67",
+    "gcd-blast-search/gcd_sieve_results.json": "edac695292aaafd4a02f46b4d9878b3ecc1a535b68c32f6c3273c6b505563107",
+    "gcd-blast-search/scan_gcd.py": "08948f03a4e476277ec8e7c070ea90c063830e4ab972b2e805d668989ee964d1",
+    "gcd-blast-search/sieve_gcd.py": "c0dc6c121a355db049633b829b19352006da685523a5f07b44d72b1e99f7d88c",
+    "gcd-integrality-obstruction/INDEPENDENT_GCD_THEORY_REVIEW.md": "349be6c782190467de5b01ccb720e397b36b34176d336c79253350dc59b0da0f",
+    "gcd-integrality-obstruction/LOCAL_POLES_AND_EXCESS_SIEVE.md": "fc89cb0e2a7b82cf92edef2182806211b1ffb925094a5cd1a07e45281d3bad25",
+    "gcd-integrality-obstruction/local_poles_sieve_verification.json": "711d1949ae110078bd3d29e852b31d163548eafc729b1b57c22bf7b18f5d55f2",
+    "gcd-integrality-obstruction/verify_local_poles_sieve.py": "ad3765927c54b389cb56c59d32a4e88a097d97a485bd6a474a42eb6e2205d3e3",
+    "gcd-prime-blocks/ODD_PRIME_BLOCKS_AND_EXCESS.md": "7f6cdff99890d090e3e5ff5185866c2366312fe8905af153c2e32df45eda4ccb",
+    "gcd-prime-blocks/odd_prime_blocks_verification.json": "35af295e4be7fb53481f5f4f1cbfd8427f413ad066a05292f6720b9230f24493",
+    "gcd-prime-blocks/verify_odd_prime_blocks.py": "23f6e0f747c5cf4c2b224ab1f49cfcf142ee9dd92834595c1b0539f355a26963",
+    "gcd-valuation-theory/ODD_EXCESS_BARRIER.md": "7e64e386e6c3e95fb14a32f9e3bda9ffc6574ac75d754f5daa54444ebab34275",
+    "gcd-valuation-theory/odd_excess_counterexamples.json": "35a1d34f00e614511895674587f98b005d3d18244a351e6baedd54c8a013c4da",
+    "gcd-valuation-theory/two-adic-proof/TWO_ADIC_NUMERATOR_VALUATION.md": "36ac9227c02e60b733b536409d258a4150ccf437a26cac4d9feda50f0c8e6c90",
+    "gcd-valuation-theory/two-adic-proof/two_adic_valuation_verification.json": "3665408232ef0c9465177e5dbc6354c7841c2bd17b84bdd4e7fc6ba9a58545cb",
+    "gcd-valuation-theory/two-adic-proof/verify_two_adic_valuation.py": "72f83ee477b0834c64af892e2b292e995dcaff1d9e180093497ab50c44d3070a",
+    "gcd-valuation-theory/verify_odd_excess_counterexamples.py": "52f50663e384201e67d4689b233b35fbdc78991e554e5171c6d66d4417fc2ec7"
+  },
+  "manifest_excludes_its_own_checksum": true
+}

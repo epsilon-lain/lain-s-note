@@ -1,0 +1,188 @@
+{
+  "status": "passed",
+  "exact_polynomial_differential_identities": 48,
+  "maximum_n": 1000,
+  "actual_gcd_comparisons": 999,
+  "quality_threshold": "1",
+  "indices_excluded_by_strict_sieve": 991,
+  "surviving_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    15
+  ],
+  "whole_prime_removal_improvements": [
+    {
+      "n": 68,
+      "removed_divisor": "37",
+      "saturation_steps": 0
+    },
+    {
+      "n": 76,
+      "removed_divisor": "17",
+      "saturation_steps": 0
+    },
+    {
+      "n": 129,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 140,
+      "removed_divisor": "17",
+      "saturation_steps": 0
+    },
+    {
+      "n": 148,
+      "removed_divisor": "17",
+      "saturation_steps": 0
+    },
+    {
+      "n": 166,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 178,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 187,
+      "removed_divisor": "37",
+      "saturation_steps": 0
+    },
+    {
+      "n": 211,
+      "removed_divisor": "17",
+      "saturation_steps": 0
+    },
+    {
+      "n": 213,
+      "removed_divisor": "17",
+      "saturation_steps": 0
+    },
+    {
+      "n": 219,
+      "removed_divisor": "37",
+      "saturation_steps": 0
+    },
+    {
+      "n": 255,
+      "removed_divisor": "191",
+      "saturation_steps": 0
+    },
+    {
+      "n": 260,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 268,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 349,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 363,
+      "removed_divisor": "23",
+      "saturation_steps": 0
+    },
+    {
+      "n": 423,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 438,
+      "removed_divisor": "37",
+      "saturation_steps": 0
+    },
+    {
+      "n": 439,
+      "removed_divisor": "107",
+      "saturation_steps": 0
+    },
+    {
+      "n": 467,
+      "removed_divisor": "31",
+      "saturation_steps": 0
+    },
+    {
+      "n": 476,
+      "removed_divisor": "31",
+      "saturation_steps": 0
+    },
+    {
+      "n": 484,
+      "removed_divisor": "31",
+      "saturation_steps": 0
+    },
+    {
+      "n": 493,
+      "removed_divisor": "31",
+      "saturation_steps": 0
+    },
+    {
+      "n": 548,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 558,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 646,
+      "removed_divisor": "47",
+      "saturation_steps": 0
+    },
+    {
+      "n": 785,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 805,
+      "removed_divisor": "97",
+      "saturation_steps": 0
+    },
+    {
+      "n": 895,
+      "removed_divisor": "41",
+      "saturation_steps": 0
+    },
+    {
+      "n": 930,
+      "removed_divisor": "37",
+      "saturation_steps": 0
+    },
+    {
+      "n": 960,
+      "removed_divisor": "149",
+      "saturation_steps": 0
+    },
+    {
+      "n": 968,
+      "removed_divisor": "157",
+      "saturation_steps": 0
+    }
+  ],
+  "odd_excess_counterexample": {
+    "n": 72,
+    "p": 17,
+    "v_A": 5,
+    "v_B": 5,
+    "v_factorial": 4
+  },
+  "scope": "The finite comparisons certify the sieve against actual gcds. They do not establish an all-n exclusion of good subsequences or a global statement about pi."
+}

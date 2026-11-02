@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "arithmetic": "exact integers and fractions; Python standard library",
+  "scope": "All-n bounds and congruences are proved analytically. Finite data certify counterexamples; no sparse-subsequence or pi bad-approximability conclusion.",
+  "counts": {
+    "w_convolution": 50,
+    "lucas_digits": 7000,
+    "leading_pole": 7000,
+    "generic_exact_deficit": 6394,
+    "backward_forward_excess_bound": 6986,
+    "frobenius_polynomial": 14,
+    "nilpotent_prime_block": 14,
+    "prime_power_block_pairs": 216,
+    "counterexample_modular_certificates": 12,
+    "positive_excess_neighbor_valuation_identities": 11
+  },
+  "odd_excesses_through_n_500": [
+    {
+      "n": 72,
+      "p": 17,
+      "excess": 1
+    },
+    {
+      "n": 107,
+      "p": 73,
+      "excess": 1
+    },
+    {
+      "n": 166,
+      "p": 131,
+      "excess": 1
+    },
+    {
+      "n": 170,
+      "p": 41,
+      "excess": 1
+    },
+    {
+      "n": 176,
+      "p": 23,
+      "excess": 1
+    },
+    {
+      "n": 216,
+      "p": 17,
+      "excess": 1
+    },
+    {
+      "n": 280,
+      "p": 41,
+      "excess": 1
+    },
+    {
+      "n": 352,
+      "p": 23,
+      "excess": 1
+    },
+    {
+      "n": 353,
+      "p": 151,
+      "excess": 1
+    },
+    {
+      "n": 480,
+      "p": 31,
+      "excess": 1
+    },
+    {
+      "n": 498,
+      "p": 41,
+      "excess": 1
+    }
+  ],
+  "selected_exact_valuation_certificates": [
+    {
+      "n": 72,
+      "p": 17,
+      "v_p_A": 5,
+      "v_p_B": 5,
+      "v_p_factorial": 4,
+      "v_p_g": 5,
+      "excess": 1,
+      "first_nonzero_A_residue": 2,
+      "first_nonzero_B_residue": 2
+    },
+    {
+      "n": 107,
+      "p": 73,
+      "v_p_A": 2,
+      "v_p_B": 2,
+      "v_p_factorial": 1,
+      "v_p_g": 2,
+      "excess": 1,
+      "first_nonzero_A_residue": 14,
+      "first_nonzero_B_residue": 52
+    },
+    {
+      "n": 166,
+      "p": 131,
+      "v_p_A": 2,
+      "v_p_B": 2,
+      "v_p_factorial": 1,
+      "v_p_g": 2,
+      "excess": 1,
+      "first_nonzero_A_residue": 122,
+      "first_nonzero_B_residue": 60
+    },
+    {
+      "n": 170,
+      "p": 41,
+      "v_p_A": 5,
+      "v_p_B": 5,
+      "v_p_factorial": 4,
+      "v_p_g": 5,
+      "excess": 1,
+      "first_nonzero_A_residue": 30,
+      "first_nonzero_B_residue": 6
+    },
+    {
+      "n": 176,
+      "p": 23,
+      "v_p_A": 8,
+      "v_p_B": 8,
+      "v_p_factorial": 7,
+      "v_p_g": 8,
+      "excess": 1,
+      "first_nonzero_A_residue": 1,
+      "first_nonzero_B_residue": 4
+    },
+    {
+      "n": 480,
+      "p": 31,
+      "v_p_A": 16,
+      "v_p_B": 17,
+      "v_p_factorial": 15,
+      "v_p_g": 16,
+      "excess": 1,
+      "first_nonzero_A_residue": 1,
+      "first_nonzero_B_residue": 26
+    }
+  ],
+  "repeated_base17_digit4_branch": [
+    {
+      "n": 4,
+      "v_17_ell": 1,
+      "v_17_w": 0,
+      "excess": 0
+    },
+    {
+      "n": 72,
+      "v_17_ell": 1,
+      "v_17_w": 1,
+      "excess": 1
+    },
+    {
+      "n": 1228,
+      "v_17_ell": 2,
+      "v_17_w": -1,
+      "excess": -1
+    },
+    {
+      "n": 20880,
+      "v_17_ell": 2,
+      "v_17_w": 0,
+      "excess": 0
+    }
+  ]
+}

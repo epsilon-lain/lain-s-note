@@ -1,0 +1,325 @@
+{
+  "status": "passed",
+  "limit": 5000,
+  "arithmetic": "exact integers; no numerical pi",
+  "quality_bound_formula": "2/(2n+1)*(n!/g_n)^2 < Q_n < 4/(2n+1)*(n!/g_n)^2",
+  "max_h_squared": {
+    "n": 2,
+    "value": "8"
+  },
+  "max_h_squared_for_n_at_least_3": {
+    "n": 3,
+    "value": "4/3"
+  },
+  "minimum_quality_lower_bound_excluding_n2": {
+    "n": 3,
+    "value": "9/14"
+  },
+  "unique_best_quality_index_in_checked_family": 2,
+  "best_fraction": "3/1",
+  "first_odd_excess_cases": [
+    {
+      "n": 72,
+      "g_over_factorial_reduced_numerator": "17",
+      "odd_part": "17"
+    },
+    {
+      "n": 107,
+      "g_over_factorial_reduced_numerator": "73",
+      "odd_part": "73"
+    },
+    {
+      "n": 166,
+      "g_over_factorial_reduced_numerator": "131",
+      "odd_part": "131"
+    },
+    {
+      "n": 170,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 176,
+      "g_over_factorial_reduced_numerator": "23",
+      "odd_part": "23"
+    },
+    {
+      "n": 216,
+      "g_over_factorial_reduced_numerator": "17",
+      "odd_part": "17"
+    },
+    {
+      "n": 280,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 352,
+      "g_over_factorial_reduced_numerator": "23",
+      "odd_part": "23"
+    },
+    {
+      "n": 353,
+      "g_over_factorial_reduced_numerator": "151",
+      "odd_part": "151"
+    },
+    {
+      "n": 480,
+      "g_over_factorial_reduced_numerator": "31",
+      "odd_part": "31"
+    },
+    {
+      "n": 498,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 552,
+      "g_over_factorial_reduced_numerator": "47",
+      "odd_part": "47"
+    },
+    {
+      "n": 557,
+      "g_over_factorial_reduced_numerator": "223",
+      "odd_part": "223"
+    },
+    {
+      "n": 560,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 623,
+      "g_over_factorial_reduced_numerator": "37",
+      "odd_part": "37"
+    },
+    {
+      "n": 628,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 651,
+      "g_over_factorial_reduced_numerator": "113",
+      "odd_part": "113"
+    },
+    {
+      "n": 745,
+      "g_over_factorial_reduced_numerator": "37",
+      "odd_part": "37"
+    },
+    {
+      "n": 765,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 915,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1052,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1120,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1144,
+      "g_over_factorial_reduced_numerator": "241",
+      "odd_part": "241"
+    },
+    {
+      "n": 1182,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1224,
+      "g_over_factorial_reduced_numerator": "17",
+      "odd_part": "17"
+    },
+    {
+      "n": 1400,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1510,
+      "g_over_factorial_reduced_numerator": "41",
+      "odd_part": "41"
+    },
+    {
+      "n": 1588,
+      "g_over_factorial_reduced_numerator": "421",
+      "odd_part": "421"
+    },
+    {
+      "n": 1654,
+      "g_over_factorial_reduced_numerator": "191",
+      "odd_part": "191"
+    },
+    {
+      "n": 1656,
+      "g_over_factorial_reduced_numerator": "47",
+      "odd_part": "47"
+    }
+  ],
+  "largest_odd_reduced_numerator": {
+    "n": 4762,
+    "value": "2677"
+  },
+  "recurrence_gcd_factorial_chain_sha256": "4ca465d08fcb6a49879308173762deb87b18fb1bd8d40278207e9cd2ec76d89d",
+  "selected_rows": [
+    {
+      "n": 1,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 1,
+      "A_bits": 1,
+      "g_bits": 1,
+      "reduced_q_bits": 1,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 1,
+      "quality_lower_bound_numerator_bits": 2,
+      "quality_lower_bound_denominator": "3"
+    },
+    {
+      "n": 2,
+      "g_over_factorial_numerator": "2",
+      "g_over_factorial_denominator_bits": 1,
+      "A_bits": 3,
+      "g_bits": 3,
+      "reduced_q_bits": 1,
+      "h_squared_numerator": "8",
+      "h_squared_denominator_bits": 1,
+      "quality_lower_bound_numerator_bits": 1,
+      "quality_lower_bound_denominator": "10"
+    },
+    {
+      "n": 3,
+      "g_over_factorial_numerator": "2",
+      "g_over_factorial_denominator_bits": 2,
+      "A_bits": 5,
+      "g_bits": 3,
+      "reduced_q_bits": 3,
+      "h_squared_numerator": "4",
+      "h_squared_denominator_bits": 2,
+      "quality_lower_bound_numerator_bits": 4,
+      "quality_lower_bound_denominator": "14"
+    },
+    {
+      "n": 4,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 3,
+      "A_bits": 8,
+      "g_bits": 3,
+      "reduced_q_bits": 6,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 4,
+      "quality_lower_bound_numerator_bits": 4,
+      "quality_lower_bound_denominator": "1"
+    },
+    {
+      "n": 6,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 3,
+      "A_bits": 15,
+      "g_bits": 8,
+      "reduced_q_bits": 8,
+      "h_squared_numerator": "6",
+      "h_squared_denominator_bits": 5,
+      "quality_lower_bound_numerator_bits": 6,
+      "quality_lower_bound_denominator": "13"
+    },
+    {
+      "n": 10,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 11,
+      "A_bits": 32,
+      "g_bits": 12,
+      "reduced_q_bits": 21,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 18,
+      "quality_lower_bound_numerator_bits": 18,
+      "quality_lower_bound_denominator": "1"
+    },
+    {
+      "n": 72,
+      "g_over_factorial_numerator": "17",
+      "g_over_factorial_denominator_bits": 121,
+      "A_bits": 433,
+      "g_bits": 229,
+      "reduced_q_bits": 204,
+      "h_squared_numerator": "289",
+      "h_squared_denominator_bits": 235,
+      "quality_lower_bound_numerator_bits": 235,
+      "quality_lower_bound_denominator": "289"
+    },
+    {
+      "n": 100,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 175,
+      "A_bits": 648,
+      "g_bits": 351,
+      "reduced_q_bits": 298,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 343,
+      "quality_lower_bound_numerator_bits": 343,
+      "quality_lower_bound_denominator": "1"
+    },
+    {
+      "n": 107,
+      "g_over_factorial_numerator": "73",
+      "g_over_factorial_denominator_bits": 184,
+      "A_bits": 704,
+      "g_bits": 395,
+      "reduced_q_bits": 310,
+      "h_squared_numerator": "5329",
+      "h_squared_denominator_bits": 361,
+      "quality_lower_bound_numerator_bits": 361,
+      "quality_lower_bound_denominator": "5329"
+    },
+    {
+      "n": 1000,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 1923,
+      "A_bits": 9796,
+      "g_bits": 6607,
+      "reduced_q_bits": 3189,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 3836,
+      "quality_lower_bound_numerator_bits": 3836,
+      "quality_lower_bound_denominator": "1"
+    },
+    {
+      "n": 2000,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 3824,
+      "A_bits": 21590,
+      "g_bits": 15230,
+      "reduced_q_bits": 6361,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 7637,
+      "quality_lower_bound_numerator_bits": 7649,
+      "quality_lower_bound_denominator": "4001"
+    },
+    {
+      "n": 5000,
+      "g_over_factorial_numerator": "1",
+      "g_over_factorial_denominator_bits": 9673,
+      "A_bits": 60584,
+      "g_bits": 44560,
+      "reduced_q_bits": 16024,
+      "h_squared_numerator": "1",
+      "h_squared_denominator_bits": 19334,
+      "quality_lower_bound_numerator_bits": 19334,
+      "quality_lower_bound_denominator": "1"
+    }
+  ],
+  "runtime_seconds": 5.434,
+  "scope": "Complete scan of this specified recurrence for 1<=n<=limit. It is not a scan of all rational numbers, an all-n bound, or a pi bad-approximability result."
+}
