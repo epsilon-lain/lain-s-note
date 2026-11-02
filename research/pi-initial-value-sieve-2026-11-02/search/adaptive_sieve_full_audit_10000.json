@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "max_index": 10000,
+  "target": "1",
+  "full_integer_audit": true,
+  "certified_rejections": 9997,
+  "surviving_indices": [
+    1,
+    2,
+    3
+  ],
+  "baseline_rejections": 9991,
+  "old_baseline_rejections": 9991,
+  "indices_with_stronger_G": 120,
+  "removed_prime_power_count": 121,
+  "max_prime_tests_per_index": 2,
+  "largest_B_prefix_index_requested": 1,
+  "traces": [
+    {
+      "n": 4,
+      "G_old": "1",
+      "G": "1",
+      "removed_by_initial_data": [],
+      "Dhat": "3",
+      "d": -1,
+      "bound": "8",
+      "prime_tests": 1,
+      "used_prime_certificates": [
+        {
+          "p": 3,
+          "prime_power": 3,
+          "leading_digit": 1
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "G_old": "1",
+      "G": "1",
+      "removed_by_initial_data": [],
+      "Dhat": "35",
+      "d": 2,
+      "bound": "245/24",
+      "prime_tests": 2,
+      "used_prime_certificates": [
+        {
+          "p": 7,
+          "prime_power": 7,
+          "leading_digit": 1
+        },
+        {
+          "p": 5,
+          "prime_power": 5,
+          "leading_digit": 1
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "G_old": "17",
+      "G": "17",
+      "removed_by_initial_data": [],
+      "Dhat": "1",
+      "d": -8,
+      "bound": "131072/12427",
+      "prime_tests": 0,
+      "used_prime_certificates": []
+    },
+    {
+      "n": 107,
+      "G_old": "1679",
+      "G": "1679",
+      "removed_by_initial_data": [],
+      "Dhat": "1",
+      "d": -47,
+      "bound": "39614081257132168796771975168/606093815",
+      "prime_tests": 0,
+      "used_prime_certificates": []
+    },
+    {
+      "n": 10000,
+      "G_old": "8143",
+      "G": "8143",
+      "removed_by_initial_data": [],
+      "Dhat": "1",
+      "d": -4995,
+      "bound": {
+        "numerator_bits": 9992,
+        "denominator": "1326235288449",
+        "exact_bound_in_formula": "2*Dhat^2*2^(-2d)/((2n+1)*G^2)"
+      },
+      "prime_tests": 0,
+      "used_prime_certificates": []
+    }
+  ],
+  "elapsed_seconds": 123.6664761600041,
+  "scope": "Finite exact early-stop certificates. A survivor is not a successful approximation. No infinite quality bound."
+}

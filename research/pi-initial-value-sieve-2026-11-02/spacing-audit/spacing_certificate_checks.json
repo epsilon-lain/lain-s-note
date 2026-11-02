@@ -1,0 +1,8 @@
+{
+  "n_max": 400,
+  "h_max": 30,
+  "pair_checks": 12000,
+  "adjacent_exception_checks": 92,
+  "status": "PASS",
+  "scope": "Finite exact identity checks; the asymptotic theorem requires the written proof."
+}

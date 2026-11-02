@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-02",
+  "base_repository": "epsilon-lain/lain-s-note",
+  "base_commit": "05e6e140c6a41a5ed62f38d6d583487d0455bc7c",
+  "scope": "First-coordinate valuation filter, quantitative spacing, finite exact rejection certificates, and an unproved active-prime capacity target. No infinite successful subsequence or pi bad-approximability theorem is claimed.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9384,
+      "sha256": "d6e7b57698ffee05c6a8201acb0b1a073d7ff29ab575b64ae748c8fb7197634e"
+    },
+    {
+      "path": "active-primes/ACTIVE_PRIME_CAPACITY.md",
+      "bytes": 5301,
+      "sha256": "213a8e65ba59867e46d63b32b441c04bfb2434bf5d8894bcea9aa7f27ded1313"
+    },
+    {
+      "path": "active-primes/active_prime_roots.csv",
+      "bytes": 50651,
+      "sha256": "b66670b243bd6727edd9c724fb5b67b092bd5d1d0729e1df530a4016a58499e5"
+    },
+    {
+      "path": "active-primes/active_prime_scan.json",
+      "bytes": 7688,
+      "sha256": "ea8e4852aad07b40dbf23fb0d768aa36b0a5afdc5feef07f7d2e9fe4c6edb1f8"
+    },
+    {
+      "path": "active-primes/scan_active_primes.py",
+      "bytes": 5312,
+      "sha256": "45ddf7863b8d088511a790b3de440390474fff83ec41ee7870b85ad984b4e505"
+    },
+    {
+      "path": "initial-data/ACTUAL_INITIAL_BEZOUT_FILTER.md",
+      "bytes": 7422,
+      "sha256": "33fc490d30d3bd56d96215e3ba20d39caad2eca6a8844c2f53db8c370a15a8f7"
+    },
+    {
+      "path": "initial-data/differential_witness_checks.json",
+      "bytes": 5766,
+      "sha256": "6dc74af25c29c636f96d56f6ca8bba92eb016f413714de7bcbd7dcb1be11d729"
+    },
+    {
+      "path": "initial-data/verify_differential_witness.py",
+      "bytes": 3526,
+      "sha256": "1153a94e055d398054a3ac009d6fefcbc115e248874fae4c3a7a6f223b4897f9"
+    },
+    {
+      "path": "initial-data-audit/AUDIT.md",
+      "bytes": 2160,
+      "sha256": "189540ba2a6cf1dbb5184466baa847c5bb1946046c28bcc6751874d615b0af54"
+    },
+    {
+      "path": "search/ADAPTIVE_EXACT_SIEVE.md",
+      "bytes": 6845,
+      "sha256": "a1b047f003d3eca91cd661069ec5bbe8cf3eff86a8d1c442f7ffaed9a1ec9522"
+    },
+    {
+      "path": "search/adaptive_exact_sieve.py",
+      "bytes": 9291,
+      "sha256": "9ca741c92b4c59d0b03897684c78b56bedcde6b5acbe5812e51d6abcf7e32c7e"
+    },
+    {
+      "path": "search/adaptive_sieve_100000_gmp.json",
+      "bytes": 2295,
+      "sha256": "2c5eb76b488bae90bff1acd2676932965dc8e10a9f05aa931cabeb3f01b4926d"
+    },
+    {
+      "path": "search/adaptive_sieve_50000.json",
+      "bytes": 2266,
+      "sha256": "df1d02a51707cf5a3275bddac589b289eb3ec503ee5b09e40e7638f1087e1711"
+    },
+    {
+      "path": "search/adaptive_sieve_full_audit_10000.json",
+      "bytes": 2161,
+      "sha256": "4c7aa84775dec2ae0e8396683c97a442ae48806dccec39ac1bd434c5bba6050b"
+    },
+    {
+      "path": "search/gmp_backend_checks.json",
+      "bytes": 395,
+      "sha256": "47f5709f28d085bbc2ba94daaf1169a63fc921adc84581de3b3bc81dd9a9819c"
+    },
+    {
+      "path": "search/verify_gmp_backend.py",
+      "bytes": 1610,
+      "sha256": "e692f7fa72ef1180f678f3bf7ffd4fe97ea731f1d365b84c14d945311b85a495"
+    },
+    {
+      "path": "spacing/quantitative-spacing.md",
+      "bytes": 4297,
+      "sha256": "41cad576b63e79a9d155b5631515944973788439727dd6c4bc2598c00f587d63"
+    },
+    {
+      "path": "spacing/spacing_check.py",
+      "bytes": 2192,
+      "sha256": "7e272f1e87f2ad41897e7e314141c4b5a43824ed6cb6f63efca3cbb67ceb5d3c"
+    },
+    {
+      "path": "spacing-audit/INDEPENDENT_AUDIT.md",
+      "bytes": 3236,
+      "sha256": "85653254c15b2dd6334c38f5bead79e30495c1d46493d5b877ff043815fc44ab"
+    },
+    {
+      "path": "spacing-audit/spacing_certificate_checks.json",
+      "bytes": 208,
+      "sha256": "85dc9c842d413c346702fc966e5e0cfce263e7c3befd4d380235b3f11491fdc7"
+    },
+    {
+      "path": "spacing-audit/verify_spacing_certificate.py",
+      "bytes": 3039,
+      "sha256": "685708260cfc7fbc3356680177b8a55cbed59cfe558f042a079e4f91cd3c1033"
+    }
+  ]
+}

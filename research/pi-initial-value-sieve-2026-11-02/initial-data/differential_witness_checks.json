@@ -1,0 +1,388 @@
+{
+  "status": "PASS",
+  "polynomial_identity_degrees": [
+    0,
+    25
+  ],
+  "sequence_indices": [
+    1,
+    1000
+  ],
+  "forced_nonpositive_prime_cases": 225,
+  "forced_strict_deficit_cases": 208,
+  "prime_power_boundary_cases": 184,
+  "first_prime_power_boundaries": [
+    {
+      "n": 3,
+      "p": 3,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 5,
+      "p": 5,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 7,
+      "p": 7,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 9,
+      "p": 3,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -2
+    },
+    {
+      "n": 11,
+      "p": 11,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 13,
+      "p": 13,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 17,
+      "p": 17,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 19,
+      "p": 19,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 23,
+      "p": 23,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    },
+    {
+      "n": 25,
+      "p": 5,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -2
+    },
+    {
+      "n": 27,
+      "p": 3,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -3
+    },
+    {
+      "n": 29,
+      "p": 29,
+      "m": 0,
+      "k": -1,
+      "exact_surplus": -1
+    }
+  ],
+  "strict_gain_sieve_improvements": 32,
+  "removed_prime_events": 32,
+  "first_improvements": [
+    {
+      "n": 68,
+      "old_over_new": "37",
+      "removed_primes": [
+        37
+      ]
+    },
+    {
+      "n": 76,
+      "old_over_new": "17",
+      "removed_primes": [
+        17
+      ]
+    },
+    {
+      "n": 129,
+      "old_over_new": "41",
+      "removed_primes": [
+        41
+      ]
+    },
+    {
+      "n": 140,
+      "old_over_new": "17",
+      "removed_primes": [
+        17
+      ]
+    },
+    {
+      "n": 148,
+      "old_over_new": "17",
+      "removed_primes": [
+        17
+      ]
+    },
+    {
+      "n": 166,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 178,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 187,
+      "old_over_new": "37",
+      "removed_primes": [
+        37
+      ]
+    },
+    {
+      "n": 211,
+      "old_over_new": "17",
+      "removed_primes": [
+        17
+      ]
+    },
+    {
+      "n": 213,
+      "old_over_new": "17",
+      "removed_primes": [
+        17
+      ]
+    },
+    {
+      "n": 219,
+      "old_over_new": "37",
+      "removed_primes": [
+        37
+      ]
+    },
+    {
+      "n": 255,
+      "old_over_new": "191",
+      "removed_primes": [
+        191
+      ]
+    },
+    {
+      "n": 260,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 268,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 349,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 363,
+      "old_over_new": "23",
+      "removed_primes": [
+        23
+      ]
+    },
+    {
+      "n": 423,
+      "old_over_new": "41",
+      "removed_primes": [
+        41
+      ]
+    },
+    {
+      "n": 438,
+      "old_over_new": "37",
+      "removed_primes": [
+        37
+      ]
+    },
+    {
+      "n": 439,
+      "old_over_new": "107",
+      "removed_primes": [
+        107
+      ]
+    },
+    {
+      "n": 467,
+      "old_over_new": "31",
+      "removed_primes": [
+        31
+      ]
+    }
+  ],
+  "first_removed_events": [
+    {
+      "n": 68,
+      "p": 37,
+      "m": 2,
+      "k": 1,
+      "removed_power": "37"
+    },
+    {
+      "n": 76,
+      "p": 17,
+      "m": 2,
+      "k": 1,
+      "removed_power": "17"
+    },
+    {
+      "n": 129,
+      "p": 41,
+      "m": 2,
+      "k": 1,
+      "removed_power": "41"
+    },
+    {
+      "n": 140,
+      "p": 17,
+      "m": 2,
+      "k": 1,
+      "removed_power": "17"
+    },
+    {
+      "n": 148,
+      "p": 17,
+      "m": 2,
+      "k": 1,
+      "removed_power": "17"
+    },
+    {
+      "n": 166,
+      "p": 23,
+      "m": 2,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 178,
+      "p": 23,
+      "m": 3,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 187,
+      "p": 37,
+      "m": 2,
+      "k": 1,
+      "removed_power": "37"
+    },
+    {
+      "n": 211,
+      "p": 17,
+      "m": 2,
+      "k": 1,
+      "removed_power": "17"
+    },
+    {
+      "n": 213,
+      "p": 17,
+      "m": 2,
+      "k": 1,
+      "removed_power": "17"
+    },
+    {
+      "n": 219,
+      "p": 37,
+      "m": 2,
+      "k": 1,
+      "removed_power": "37"
+    },
+    {
+      "n": 255,
+      "p": 191,
+      "m": 2,
+      "k": 1,
+      "removed_power": "191"
+    },
+    {
+      "n": 260,
+      "p": 23,
+      "m": 2,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 268,
+      "p": 23,
+      "m": 2,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 349,
+      "p": 23,
+      "m": 2,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 363,
+      "p": 23,
+      "m": 2,
+      "k": 1,
+      "removed_power": "23"
+    },
+    {
+      "n": 423,
+      "p": 41,
+      "m": 2,
+      "k": 1,
+      "removed_power": "41"
+    },
+    {
+      "n": 438,
+      "p": 37,
+      "m": 2,
+      "k": 1,
+      "removed_power": "37"
+    },
+    {
+      "n": 439,
+      "p": 107,
+      "m": 2,
+      "k": 1,
+      "removed_power": "107"
+    },
+    {
+      "n": 467,
+      "p": 31,
+      "m": 2,
+      "k": 1,
+      "removed_power": "31"
+    }
+  ],
+  "simple_prime_mass_threshold": 0.4884000010868099,
+  "scope": "Exact finite audits of general proof; no prime-clustering asymptotic asserted."
+}

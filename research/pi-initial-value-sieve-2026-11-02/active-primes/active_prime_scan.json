@@ -1,0 +1,306 @@
+{
+  "limit": 20000,
+  "status": "PASS",
+  "elapsed_seconds": 3.578502671000024,
+  "full_holt_congruence_checks": 11066,
+  "scope": "Finite exact classification, not an asymptotic density theorem.",
+  "source": "https://cs.uwaterloo.ca/journals/JIS/VOL9/Noe/noe35.pdf, equations (13), (14), Theorems 8.5 and 8.6",
+  "sequence": "U_n=[x^n](1+2x+2x^2)^n; discriminant -4",
+  "snapshots": [
+    {
+      "prime_count": 14,
+      "active_count": 6,
+      "active_count_ratio": 0.42857142857142855,
+      "theta_odd": 40.267072250793014,
+      "theta_active": 20.577332345529104,
+      "theta_active_over_theta": 0.511021318296213,
+      "x": 50,
+      "theta_active_over_x": 0.41154664691058207
+    },
+    {
+      "prime_count": 24,
+      "active_count": 8,
+      "active_count_ratio": 0.3333333333333333,
+      "theta_odd": 83.03524321850398,
+      "theta_active": 29.442502765180876,
+      "theta_active_over_theta": 0.35457838893425153,
+      "x": 100,
+      "theta_active_over_x": 0.2944250276518088
+    },
+    {
+      "prime_count": 45,
+      "active_count": 20,
+      "active_count_ratio": 0.4444444444444444,
+      "theta_odd": 187.87035909094737,
+      "theta_active": 88.66423678009663,
+      "theta_active_over_theta": 0.4719437233692335,
+      "x": 200,
+      "theta_active_over_x": 0.44332118390048314
+    },
+    {
+      "prime_count": 94,
+      "active_count": 43,
+      "active_count_ratio": 0.4574468085106383,
+      "theta_odd": 473.86129697413423,
+      "theta_active": 221.04718864253033,
+      "theta_active_over_theta": 0.4664807825708463,
+      "x": 500,
+      "theta_active_over_x": 0.4420943772850607
+    },
+    {
+      "prime_count": 167,
+      "active_count": 69,
+      "active_count_ratio": 0.41317365269461076,
+      "theta_odd": 955.5521179394989,
+      "theta_active": 391.3162885277193,
+      "theta_active_over_theta": 0.4095185193786527,
+      "x": 1000,
+      "theta_active_over_x": 0.39131628852771927
+    },
+    {
+      "prime_count": 302,
+      "active_count": 126,
+      "active_count_ratio": 0.41721854304635764,
+      "theta_odd": 1939.1460531220011,
+      "theta_active": 805.9730839591202,
+      "theta_active_over_theta": 0.41563299611265153,
+      "x": 2000,
+      "theta_active_over_x": 0.40298654197956013
+    },
+    {
+      "prime_count": 668,
+      "active_count": 277,
+      "active_count_ratio": 0.41467065868263475,
+      "theta_odd": 4911.002204526304,
+      "theta_active": 2035.8429688996107,
+      "theta_active_over_theta": 0.41454735390329156,
+      "x": 5000,
+      "theta_active_over_x": 0.40716859377992215
+    },
+    {
+      "prime_count": 1228,
+      "active_count": 506,
+      "active_count_ratio": 0.41205211726384366,
+      "theta_odd": 9895.298231976427,
+      "theta_active": 4073.877727827358,
+      "theta_active_over_theta": 0.4116983270562494,
+      "x": 10000,
+      "theta_active_over_x": 0.4073877727827358
+    },
+    {
+      "prime_count": 2261,
+      "active_count": 915,
+      "active_count_ratio": 0.40468819106590004,
+      "theta_odd": 19804.616477127307,
+      "theta_active": 7993.921424075894,
+      "theta_active_over_theta": 0.40363929457095077,
+      "x": 20000,
+      "theta_active_over_x": 0.3996960712037947
+    }
+  ],
+  "groups": {
+    "8": {
+      "1": {
+        "prime_count": 556,
+        "active_count": 223,
+        "active_count_ratio": 0.4010791366906475,
+        "theta_odd": 4895.1799501317655,
+        "theta_active": 1942.0725962882111,
+        "theta_active_over_theta": 0.3967316045727666
+      },
+      "3": {
+        "prime_count": 571,
+        "active_count": 223,
+        "active_count_ratio": 0.3905429071803853,
+        "theta_odd": 4993.68897816243,
+        "theta_active": 1958.1391209319272,
+        "theta_active_over_theta": 0.3921227632507622
+      },
+      "5": {
+        "prime_count": 569,
+        "active_count": 225,
+        "active_count_ratio": 0.3954305799648506,
+        "theta_odd": 4975.149346856221,
+        "theta_active": 1980.3211693370295,
+        "theta_active_over_theta": 0.3980425573733555
+      },
+      "7": {
+        "prime_count": 565,
+        "active_count": 244,
+        "active_count_ratio": 0.431858407079646,
+        "theta_odd": 4940.59820197689,
+        "theta_active": 2113.388537518726,
+        "theta_active_over_theta": 0.42775964592164006
+      }
+    },
+    "16": {
+      "1": {
+        "prime_count": 279,
+        "active_count": 113,
+        "active_count_ratio": 0.4050179211469534,
+        "theta_odd": 2458.2547702645575,
+        "theta_active": 983.2895633297846,
+        "theta_active_over_theta": 0.39999497823570296
+      },
+      "3": {
+        "prime_count": 290,
+        "active_count": 107,
+        "active_count_ratio": 0.3689655172413793,
+        "theta_odd": 2537.520835131324,
+        "theta_active": 952.3220609013983,
+        "theta_active_over_theta": 0.37529625282943263
+      },
+      "5": {
+        "prime_count": 283,
+        "active_count": 103,
+        "active_count_ratio": 0.36395759717314485,
+        "theta_odd": 2470.4853271308457,
+        "theta_active": 907.626035674958,
+        "theta_active_over_theta": 0.3673877459248261
+      },
+      "7": {
+        "prime_count": 282,
+        "active_count": 105,
+        "active_count_ratio": 0.3723404255319149,
+        "theta_odd": 2462.978000070332,
+        "theta_active": 919.9848800340119,
+        "theta_active_over_theta": 0.37352541517128496
+      },
+      "9": {
+        "prime_count": 277,
+        "active_count": 110,
+        "active_count_ratio": 0.3971119133574007,
+        "theta_odd": 2436.9251798672085,
+        "theta_active": 958.7830329584265,
+        "theta_active_over_theta": 0.39343966769249433
+      },
+      "11": {
+        "prime_count": 281,
+        "active_count": 116,
+        "active_count_ratio": 0.4128113879003559,
+        "theta_odd": 2456.1681430311064,
+        "theta_active": 1005.8170600305289,
+        "theta_active_over_theta": 0.40950659786233967
+      },
+      "13": {
+        "prime_count": 286,
+        "active_count": 122,
+        "active_count_ratio": 0.42657342657342656,
+        "theta_odd": 2504.664019725376,
+        "theta_active": 1072.6951336620716,
+        "theta_active_over_theta": 0.4282790526849535
+      },
+      "15": {
+        "prime_count": 283,
+        "active_count": 139,
+        "active_count_ratio": 0.4911660777385159,
+        "theta_odd": 2477.620201906557,
+        "theta_active": 1193.403657484714,
+        "theta_active_over_theta": 0.4816733640476357
+      }
+    }
+  },
+  "prefix_ratio_maxima_by_lower_cutoff": {
+    "0": {
+      "p": 283,
+      "theta_active_over_p": 0.5477184407015245
+    },
+    "1000": {
+      "p": 1327,
+      "theta_active_over_p": 0.4226144415873475
+    },
+    "5000": {
+      "p": 10789,
+      "theta_active_over_p": 0.41790159094542817
+    },
+    "10000": {
+      "p": 10789,
+      "theta_active_over_p": 0.41790159094542817
+    }
+  },
+  "root_count_distribution": {
+    "0": 1346,
+    "1": 4,
+    "2": 694,
+    "3": 6,
+    "4": 176,
+    "6": 29,
+    "8": 6
+  },
+  "first_active_primes": [
+    17,
+    23,
+    31,
+    37,
+    41,
+    47,
+    73,
+    97,
+    103,
+    107,
+    113,
+    127,
+    131,
+    137,
+    139,
+    149,
+    151,
+    157,
+    191,
+    197,
+    223,
+    227,
+    229,
+    239,
+    241,
+    251,
+    257,
+    263,
+    269,
+    271
+  ],
+  "first_inactive_primes": [
+    3,
+    5,
+    7,
+    11,
+    13,
+    19,
+    29,
+    43,
+    53,
+    59,
+    61,
+    67,
+    71,
+    79,
+    83,
+    89,
+    101,
+    109,
+    163,
+    167,
+    173,
+    179,
+    181,
+    193,
+    199,
+    211,
+    233,
+    281,
+    293,
+    307
+  ],
+  "middle_root_primes": [
+    31,
+    223,
+    383,
+    479,
+    2591,
+    5279,
+    8191,
+    16927,
+    18047,
+    18143
+  ]
+}

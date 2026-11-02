@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "gcd_pair_checks": 506,
+  "edge_cases": "zero operands, signed operands, powers of 2, powers minus 1",
+  "random_seed": 20261102,
+  "backend_comparison_max_index": 10000,
+  "survivors": [
+    1,
+    2,
+    3
+  ],
+  "native_seconds": 1.7947652020011446,
+  "gmp_seconds": 1.4538824570045108,
+  "gmp_abi": "conventional 64-bit Linux, 64-bit GMP limbs; checked at runtime"
+}
