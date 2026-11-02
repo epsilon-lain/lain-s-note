@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "Frobenius_ODE_and_integrality_coefficients": 40,
+  "Wronskian_and_Clausen_coefficients": 40,
+  "rational_pullback_coefficients": 30,
+  "independent_modular_q_series_coefficients": 12,
+  "cusp_log_normalization": "2*pi*i*tau=g/f-log(1728)",
+  "first_f_coefficients": [
+    "1",
+    "5/144",
+    "1105/82944",
+    "801125/107495424",
+    "1215306625/247669456896",
+    "126246052205/35664401793024"
+  ],
+  "first_1728_scaled_f_coefficients": [
+    "1",
+    "60",
+    "39780",
+    "38454000",
+    "43751038500",
+    "54538294552560"
+  ],
+  "first_h_coefficients": [
+    "0",
+    "31/72",
+    "4799/27648",
+    "31859345/322486272"
+  ],
+  "first_square_integer_coefficients": [
+    "1",
+    "120",
+    "83160",
+    "81681600",
+    "93699005400",
+    "117386113965120"
+  ],
+  "scope": "Exact finite audits supporting the all-parameter derivations. No new pi approximation record."
+}

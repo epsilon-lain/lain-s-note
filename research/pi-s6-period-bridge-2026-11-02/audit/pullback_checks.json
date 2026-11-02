@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "coefficientwise_differential_operator_checks": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "pullback": "z=27*u^2/(4-u)^3",
+  "gauge": "G(z(u))=sqrt(1-u/4)*H(u)",
+  "rational_operator_factor": "1/(u + 8)",
+  "series_agreement_degrees": [
+    0,
+    17
+  ],
+  "evaluation": "u=1/64 gives j=255^3",
+  "scope": "An exact elliptic-period connection; not a rational-approximation quality theorem."
+}

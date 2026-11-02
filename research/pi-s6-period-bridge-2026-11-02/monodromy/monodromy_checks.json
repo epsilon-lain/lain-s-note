@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "source": "https://alpo.ge/s6.pdf, introductory setup on PDF page 2 (numbered page 1)",
+  "T1": [
+    [
+      1,
+      0,
+      -6,
+      2
+    ],
+    [
+      0,
+      -1,
+      1,
+      1
+    ],
+    [
+      0,
+      -1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "T2": [
+    [
+      1,
+      6,
+      0,
+      -3
+    ],
+    [
+      0,
+      0,
+      -1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "T0": [
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "N": [
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "N_squared_zero": true,
+  "N_rank": 2,
+  "N_smith_invariants": [
+    1,
+    1,
+    0,
+    0
+  ],
+  "primitive_invariant_flag": "Z gamma < Z gamma + Z u + Z w < Z^4",
+  "rank_two_quotient_matrices": {
+    "A1": [
+      [
+        -1,
+        1
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "A2": [
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "A0": [
+      [
+        1,
+        -1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "rank_two_quotient_maps": [
+    "tau -> (tau-1)/tau",
+    "tau -> -1/tau",
+    "tau -> tau-1"
+  ],
+  "cusp_powers_checked": [
+    -20,
+    20
+  ],
+  "rational_equivariant_embedding_dimension": 0,
+  "whole_period_column_mu_beta_free": "v_gamma=v_u=0; only constant columns remain",
+  "scope": "An exact integral rank-two subquotient and cusp-difference mechanism, not a rational approximation to pi or a claimed elliptic quotient of the general two-torus."
+}

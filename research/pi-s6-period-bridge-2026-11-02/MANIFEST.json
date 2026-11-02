@@ -1,0 +1,76 @@
+{
+  "base_commit": "febb7f302263c04f63096c85c5df1f47d19d9813",
+  "scope": "Exact modular subquotient and Gauss-Manin/pullback bridge, known Ramanujan identity, reduced rational arithmetic controls. No new best approximation claim.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8001,
+      "sha256": "a1e27ae5f607fa7104913f777c1919217a89eeae6b66b1a314ccd77b8a5bd4cc"
+    },
+    {
+      "path": "audit/gauss_manin_checks.json",
+      "bytes": 538,
+      "sha256": "1bc5f3053c932019ec9c91ee82532ec936279f01509a451a0514aff0089de80c"
+    },
+    {
+      "path": "audit/pullback_checks.json",
+      "bytes": 411,
+      "sha256": "5afb017da7ce88cd0ba5bb7f26e1d37a042e3d1114eb0bdda24cbee3560e93b2"
+    },
+    {
+      "path": "audit/verify_gauss_manin.py",
+      "bytes": 1697,
+      "sha256": "b5ab9787a5d2df1850a9a1541205b3be291f5ecf0c35af3c355b02784ffee7d0"
+    },
+    {
+      "path": "audit/verify_pullback.py",
+      "bytes": 1707,
+      "sha256": "cdcf286d63db0981c215863306f96813a9c0b084b99d60b6fd4fff20b6290c04"
+    },
+    {
+      "path": "monodromy/INTEGER_SUBQUOTIENT.md",
+      "bytes": 5727,
+      "sha256": "25dadf389cf2443ef65de0000a57ff7e3d3f9a3b2e01ac51f44e93517b306ecf"
+    },
+    {
+      "path": "monodromy/monodromy_checks.json",
+      "bytes": 1894,
+      "sha256": "de5fae0aa7e6752881c4e0e2d931230c15c97d8b2b1ea6afc24c7f0d4b9c3cab"
+    },
+    {
+      "path": "monodromy/verify_monodromy.py",
+      "bytes": 2648,
+      "sha256": "8dc0fa65e3b45a5a9b226606e7f3fbd398eb194a82ad8857abf694f341f4c58c"
+    },
+    {
+      "path": "periods/MODULAR_SUBSYSTEM.md",
+      "bytes": 7208,
+      "sha256": "58ab7a8730d741ef1e78543a16d1d23ccfaf98c929dd6fa0dfaeb824d4596b7e"
+    },
+    {
+      "path": "periods/modular_subsystem_checks.json",
+      "bytes": 903,
+      "sha256": "c85b457ed569c329d5cdebefd9622433ddc5fe7888b52e6fe6a0f3d11141ee55"
+    },
+    {
+      "path": "periods/verify_modular_subsystem.py",
+      "bytes": 3470,
+      "sha256": "186380b4f27333c5d6ce72057bc4b515b40b95d992c6667c61e03a93dd1d99e8"
+    },
+    {
+      "path": "rational-controls/RAMAnujan_PERIOD_CONTROL.md",
+      "bytes": 5940,
+      "sha256": "328f29ccd6e48b6c187812cbd06b50bf43d2c1dfc95cb08c17be4099afa19fa6"
+    },
+    {
+      "path": "rational-controls/ramanujan_checks.json",
+      "bytes": 18322,
+      "sha256": "5ce7b631f87ced5499edbfec02341c256c2d8d9752ac47cece886c9393fc860b"
+    },
+    {
+      "path": "rational-controls/ramanujan_exact.py",
+      "bytes": 4430,
+      "sha256": "3ef9d203771386c832bf1804350a9b19e3c761e1514734cb7a16ab619b5bba9b"
+    }
+  ]
+}
