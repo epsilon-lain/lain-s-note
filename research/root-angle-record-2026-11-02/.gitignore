@@ -1,0 +1,11 @@
+__pycache__/
+# Large exact outputs are reproducible with run_all.py.
+root-family/verification.json
+root-family/batch_verification.json
+root-family/independent/*.json
+angle-growth/rotation/angle_chain_results.json
+angle-growth/angle_kernel/trace_angle_results.json
+angle-growth/independent_verification.json
+record-review/result.json
+record-review/record_identity_checks.json
+record-review/static_formula_checks.json
