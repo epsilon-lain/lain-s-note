@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-02",
+  "scope": "Integer wave chain invariants and fixed affine period-chain optimization; no new pi approximation record or infinite quality-zero construction.",
+  "verification_commands": [
+    "python3 stability/verify_chain.py",
+    "python3 arithmetic/affine_chain.py",
+    "python3 dynamics/gram_chain.py",
+    "python3 dynamics/growth_chain.py",
+    "python3 verify_global_bridge.py"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9509,
+      "sha256": "1cc41ffed4f78a46695ce5d1b257f5a0fb1f7c16118d576296ffa1f07d1a7e90"
+    },
+    {
+      "path": "arithmetic/NOTE.md",
+      "bytes": 8405,
+      "sha256": "17cb6c1d6319546f69d79ef5fa974ea16e65b6971ceaab6613659fe5069a0d4e"
+    },
+    {
+      "path": "arithmetic/affine_chain.py",
+      "bytes": 7632,
+      "sha256": "b9f3a280781f17298d1332afad3a7159b500e5a9c85c241981bcfea37a7fe555"
+    },
+    {
+      "path": "arithmetic/affine_chain_checks.json",
+      "bytes": 219953,
+      "sha256": "f3a12440eec8035f5a4c08dc086db7f43041f12f17b9f720e2a071df7753512a"
+    },
+    {
+      "path": "arithmetic/period_fixture.json",
+      "bytes": 3804,
+      "sha256": "98dbf8459beb2d753f57629cd480e1d2a19c87bb320f5453543e1fcc98144d8a"
+    },
+    {
+      "path": "dynamics/NOTE.md",
+      "bytes": 9886,
+      "sha256": "99e0b20004ec723ac2352c3719bef51e92aa9bd41f57f43eb87f6db7b3dbcd50"
+    },
+    {
+      "path": "dynamics/checks.json",
+      "bytes": 23783,
+      "sha256": "f13d9879daafc75adf0ee0fbf7665cfe93ad16d796a46eaed55d35fbfa2f3336"
+    },
+    {
+      "path": "dynamics/gram_chain.py",
+      "bytes": 7466,
+      "sha256": "850ab2a0197df7ce3f35935b7cb4a1e0ebe3b24e3eb9d5608eeb866d8b527b62"
+    },
+    {
+      "path": "dynamics/growth_chain.py",
+      "bytes": 4664,
+      "sha256": "454bdda8b80e44cd36fa3cdcbab159a5c0cb38ee1f520e8c445c39d45a1a40f3"
+    },
+    {
+      "path": "dynamics/growth_checks.json",
+      "bytes": 173894,
+      "sha256": "f06fba0597b19613494e16b3567118c762aa1cd4c9ad558551fc7911c2201ea7"
+    },
+    {
+      "path": "dynamics/inputs.json",
+      "bytes": 3787,
+      "sha256": "4a8dad3cdd19373aa2e5f0823275b7045375ff33856ff61dbb37f7031eb8bea9"
+    },
+    {
+      "path": "dynamics/integral_certificate.py",
+      "bytes": 2428,
+      "sha256": "a002f886cedee73e4abc9aba3f8341befd211a45824f9d24cab0be0fffa0e90b"
+    },
+    {
+      "path": "independent_global_checks.json",
+      "bytes": 1553,
+      "sha256": "c04e7cd7dee04449b99b19ba7c30b8f7b22347ab4b8cbe6d5d6cef3adf65bfa2"
+    },
+    {
+      "path": "stability/NOTE.md",
+      "bytes": 7099,
+      "sha256": "2c8c2caa5298dfbf83fafd89d3f5043b83788f06f21d24411d15e89ada53a633"
+    },
+    {
+      "path": "stability/checks.json",
+      "bytes": 18698,
+      "sha256": "374d78ed0bb38c2fdb388e634ea655dec00eafb7031a1cce8882df6b2346bfcb"
+    },
+    {
+      "path": "stability/verify_chain.py",
+      "bytes": 5172,
+      "sha256": "f037a79f58e5a37e6dfb53ffa12d37dc1f4e5aff8b9c2686acb3a7c895c1e64d"
+    },
+    {
+      "path": "verify_global_bridge.py",
+      "bytes": 4147,
+      "sha256": "76f675d197895e9e3ff0dac496c279558562d522ea47b89acfb28d712249d0f8"
+    }
+  ]
+}

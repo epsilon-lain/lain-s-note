@@ -1,0 +1,6836 @@
+{
+  "status": "PASS",
+  "q_min": 33216,
+  "scope": "Exact global Gram minimum on the existing fixed chain under a denominator-growth constraint; no theorem that all other true qualities are worse.",
+  "modulus": 840,
+  "residue_classes": 840,
+  "derivative_root_boxes": [
+    [
+      "0",
+      "1/514"
+    ],
+    [
+      "253/8",
+      "95/3"
+    ],
+    [
+      "253/4",
+      "443/7"
+    ]
+  ],
+  "distinct_candidates": 3372,
+  "maximum_candidate_abs_k": 19323,
+  "classes": [
+    {
+      "residue": 0,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 840,
+      "best_q": 407785,
+      "best_bound_squared": "31736130612626602653582849802240/1056656166702193629"
+    },
+    {
+      "residue": 1,
+      "gcd": 2,
+      "candidate_count": 5,
+      "best_k": 1,
+      "best_q": 49035,
+      "best_bound_squared": "18099704404151132241920/13045137860520909"
+    },
+    {
+      "residue": 2,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 2,
+      "best_q": 96495,
+      "best_bound_squared": "86128065661516583075840/1003472143116993"
+    },
+    {
+      "residue": 3,
+      "gcd": 840,
+      "candidate_count": 4,
+      "best_k": 18483,
+      "best_q": 34537,
+      "best_bound_squared": "60274759793390042396218043177984/45304133147356551843375"
+    },
+    {
+      "residue": 4,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 4,
+      "best_q": 93345,
+      "best_bound_squared": "4189719956651304950497280/13045137860520909"
+    },
+    {
+      "residue": 5,
+      "gcd": 2,
+      "candidate_count": 5,
+      "best_k": 5,
+      "best_q": 45885,
+      "best_bound_squared": "20813297035831353589760/686586203185311"
+    },
+    {
+      "residue": 6,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 846,
+      "best_q": 410935,
+      "best_bound_squared": "32690375040189623414668227051520/1056656166702193629"
+    },
+    {
+      "residue": 7,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 847,
+      "best_q": 308595,
+      "best_bound_squared": "519538885271001434156380160/52814323321947"
+    },
+    {
+      "residue": 8,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 848,
+      "best_q": 247191,
+      "best_bound_squared": "6602637000899682261563954495488/1630642232565113625"
+    },
+    {
+      "residue": 9,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 849,
+      "best_q": 206255,
+      "best_bound_squared": "2073467695817472059773513646080/1056656166702193629"
+    },
+    {
+      "residue": 10,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 850,
+      "best_q": 177015,
+      "best_bound_squared": "4762625520107312684976347217920/4474482286158671787"
+    },
+    {
+      "residue": 11,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 851,
+      "best_q": 155085,
+      "best_bound_squared": "8179168210657797236424504320/13045137860520909"
+    },
+    {
+      "residue": 12,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 852,
+      "best_q": 414085,
+      "best_bound_squared": "33665967648519235162869094481920/1056656166702193629"
+    },
+    {
+      "residue": 13,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 853,
+      "best_q": 124383,
+      "best_bound_squared": "22257015842542983871500500992/85823275398163875"
+    },
+    {
+      "residue": 14,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 14,
+      "best_q": 77595,
+      "best_bound_squared": "35464793342794369440481280/13045137860520909"
+    },
+    {
+      "residue": 15,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 855,
+      "best_q": 103915,
+      "best_bound_squared": "133444797441504086246355619840/1056656166702193629"
+    },
+    {
+      "residue": 16,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 16,
+      "best_q": 74445,
+      "best_bound_squared": "42636975696765238951608320/13045137860520909"
+    },
+    {
+      "residue": 17,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 857,
+      "best_q": 89295,
+      "best_bound_squared": "307995508527441502278307266560/4474482286158671787"
+    },
+    {
+      "residue": 18,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 858,
+      "best_q": 83447,
+      "best_bound_squared": "533280374246768902329562628096/10160155449059554125"
+    },
+    {
+      "residue": 19,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 859,
+      "best_q": 156660,
+      "best_bound_squared": "8503799392230957247654215680/13045137860520909"
+    },
+    {
+      "residue": 20,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 20,
+      "best_q": 68145,
+      "best_bound_squared": "5074730959165860866621440/1185921623683719"
+    },
+    {
+      "residue": 21,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 861,
+      "best_q": 209405,
+      "best_bound_squared": "2198129752495852670494721720320/1056656166702193629"
+    },
+    {
+      "residue": 22,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 22,
+      "best_q": 64995,
+      "best_bound_squared": "4726509986748051322634240/1003472143116993"
+    },
+    {
+      "residue": 23,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 863,
+      "best_q": 62979,
+      "best_bound_squared": "27743007812627181575555289088/1630642232565113625"
+    },
+    {
+      "residue": 24,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 864,
+      "best_q": 60055,
+      "best_bound_squared": "5097494754286037865437594583040/362433065178852414747"
+    },
+    {
+      "residue": 25,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 865,
+      "best_q": 631365,
+      "best_bound_squared": "2240906004807209279470626160640/13045137860520909"
+    },
+    {
+      "residue": 26,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 26,
+      "best_q": 58695,
+      "best_bound_squared": "5383761163262246038077440/1003472143116993"
+    },
+    {
+      "residue": 27,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 867,
+      "best_q": 52745,
+      "best_bound_squared": "61804158559038818859453440/7389203962952403"
+    },
+    {
+      "residue": 28,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 868,
+      "best_q": 253491,
+      "best_bound_squared": "7274865296167032254280633745408/1630642232565113625"
+    },
+    {
+      "residue": 29,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 869,
+      "best_q": 634515,
+      "best_bound_squared": "2284303266607979572698197934080/13045137860520909"
+    },
+    {
+      "residue": 30,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 870,
+      "best_q": 423535,
+      "best_bound_squared": "36724005036482375985032761507840/1056656166702193629"
+    },
+    {
+      "residue": 31,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": 871,
+      "best_q": 45435,
+      "best_bound_squared": "1583953738505521902748037120/344190945089128599"
+    },
+    {
+      "residue": 32,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 32,
+      "best_q": 49245,
+      "best_bound_squared": "74628753436528768132382720/13045137860520909"
+    },
+    {
+      "residue": 33,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -807,
+      "best_q": 45689,
+      "best_bound_squared": "459636036666792752671279628288/132082020837774203625"
+    },
+    {
+      "residue": 34,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 34,
+      "best_q": 46095,
+      "best_bound_squared": "73815552938267833899745280/13045137860520909"
+    },
+    {
+      "residue": 35,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -805,
+      "best_q": 170940,
+      "best_bound_squared": "808346711171679183705456640/1185921623683719"
+    },
+    {
+      "residue": 36,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -804,
+      "best_q": 455315,
+      "best_bound_squared": "2788215557103560528849847255040/81281243592476433"
+    },
+    {
+      "residue": 37,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -803,
+      "best_q": 682185,
+      "best_bound_squared": "2254584966144137029716821688320/13045137860520909"
+    },
+    {
+      "residue": 38,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": -802,
+      "best_q": 38937,
+      "best_bound_squared": "1025729702062725642076875587584/559310285769833973375"
+    },
+    {
+      "residue": 39,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -801,
+      "best_q": 113435,
+      "best_bound_squared": "139563832388936026287961722880/1056656166702193629"
+    },
+    {
+      "residue": 40,
+      "gcd": 1,
+      "candidate_count": 5,
+      "best_k": 40,
+      "best_q": 36645,
+      "best_bound_squared": "64570324459852831618826240/13045137860520909"
+    },
+    {
+      "residue": 41,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -799,
+      "best_q": 679035,
+      "best_bound_squared": "2211612649120131558641983569920/13045137860520909"
+    },
+    {
+      "residue": 42,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -798,
+      "best_q": 452165,
+      "best_bound_squared": "35215459184957891078866589777920/1056656166702193629"
+    },
+    {
+      "residue": 43,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -797,
+      "best_q": 33873,
+      "best_bound_squared": "131632104257751486844220416/125434017889624125"
+    },
+    {
+      "residue": 44,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -796,
+      "best_q": 1353345,
+      "best_bound_squared": "34876617660299507599950879457280/13045137860520909"
+    },
+    {
+      "residue": 45,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": -1635,
+      "best_q": 63685,
+      "best_bound_squared": "5131937411303717797590723051520/362433065178852414747"
+    },
+    {
+      "residue": 46,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -794,
+      "best_q": 1350195,
+      "best_bound_squared": "3140020553722362976761210142720/1185921623683719"
+    },
+    {
+      "residue": 47,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -793,
+      "best_q": 337155,
+      "best_bound_squared": "543600476670395215419944960/52814323321947"
+    },
+    {
+      "residue": 48,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -792,
+      "best_q": 89803,
+      "best_bound_squared": "6841254528936032594573858766848/132082020837774203625"
+    },
+    {
+      "residue": 49,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -791,
+      "best_q": 672735,
+      "best_bound_squared": "163654839076755224364423004160/1003472143116993"
+    },
+    {
+      "residue": 50,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -790,
+      "best_q": 1343895,
+      "best_bound_squared": "33874745517912314627958201712640/13045137860520909"
+    },
+    {
+      "residue": 51,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -789,
+      "best_q": 55930,
+      "best_bound_squared": "484114891767379618963804160/62156245100129037"
+    },
+    {
+      "residue": 52,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -788,
+      "best_q": 191535,
+      "best_bound_squared": "4792233276525746276277625487360/4474482286158671787"
+    },
+    {
+      "residue": 53,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -787,
+      "best_q": 133917,
+      "best_bound_squared": "21961827912445539017297477632/85823275398163875"
+    },
+    {
+      "residue": 54,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -786,
+      "best_q": 445865,
+      "best_bound_squared": "33218923151649146996912134881280/1056656166702193629"
+    },
+    {
+      "residue": 55,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -785,
+      "best_q": 334005,
+      "best_bound_squared": "129126818929910967775753687040/13045137860520909"
+    },
+    {
+      "residue": 56,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -784,
+      "best_q": 1334445,
+      "best_bound_squared": "2530354188316293831133519216640/1003472143116993"
+    },
+    {
+      "residue": 57,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -783,
+      "best_q": 222145,
+      "best_bound_squared": "185984875554389880053143224320/96059651518381239"
+    },
+    {
+      "residue": 58,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -782,
+      "best_q": 266259,
+      "best_bound_squared": "6514533027197691645413893931008/1630642232565113625"
+    },
+    {
+      "residue": 59,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": -1621,
+      "best_q": 47370,
+      "best_bound_squared": "19381252498909085198656778240/4474482286158671787"
+    },
+    {
+      "residue": 60,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -780,
+      "best_q": 442715,
+      "best_bound_squared": "2481007196525135231950192967680/81281243592476433"
+    },
+    {
+      "residue": 61,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -779,
+      "best_q": 663285,
+      "best_bound_squared": "2005887001705813273389067550720/13045137860520909"
+    },
+    {
+      "residue": 62,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -778,
+      "best_q": 1324995,
+      "best_bound_squared": "2456606005600145754062157578240/1003472143116993"
+    },
+    {
+      "residue": 63,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": -1617,
+      "best_q": 44107,
+      "best_bound_squared": "22628980287789800119978668032/6951685307251273875"
+    },
+    {
+      "residue": 64,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -776,
+      "best_q": 1321845,
+      "best_bound_squared": "31621007086716524104443239137280/13045137860520909"
+    },
+    {
+      "residue": 65,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -775,
+      "best_q": 660135,
+      "best_bound_squared": "1966527947592487801668327587840/13045137860520909"
+    },
+    {
+      "residue": 66,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -774,
+      "best_q": 62795,
+      "best_bound_squared": "235402022721810385842475171840/19075424483097495513"
+    },
+    {
+      "residue": 67,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -773,
+      "best_q": 164640,
+      "best_bound_squared": "7605730279768375056552427520/13045137860520909"
+    },
+    {
+      "residue": 68,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -772,
+      "best_q": 263109,
+      "best_bound_squared": "33153211051029178309305892864/8720011938850875"
+    },
+    {
+      "residue": 69,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -771,
+      "best_q": 218995,
+      "best_bound_squared": "148288513959490766447531868160/81281243592476433"
+    },
+    {
+      "residue": 70,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -770,
+      "best_q": 1312395,
+      "best_bound_squared": "30690345501536120471257727959040/13045137860520909"
+    },
+    {
+      "residue": 71,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -769,
+      "best_q": 327705,
+      "best_bound_squared": "119286151138308927719874744320/13045137860520909"
+    },
+    {
+      "residue": 72,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -768,
+      "best_q": 436415,
+      "best_bound_squared": "1599196686304466979755914362880/55613482458010191"
+    },
+    {
+      "residue": 73,
+      "gcd": 70,
+      "candidate_count": 4,
+      "best_k": -1607,
+      "best_q": 37581,
+      "best_bound_squared": "959107853039144112534894198784/559310285769833973375"
+    },
+    {
+      "residue": 74,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -766,
+      "best_q": 1306095,
+      "best_bound_squared": "30081415487398593075441933025280/13045137860520909"
+    },
+    {
+      "residue": 75,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -765,
+      "best_q": 54355,
+      "best_bound_squared": "562098270897994480879559680/81281243592476433"
+    },
+    {
+      "residue": 76,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -764,
+      "best_q": 1302945,
+      "best_bound_squared": "29780369412944816657207364485120/13045137860520909"
+    },
+    {
+      "residue": 77,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -763,
+      "best_q": 650685,
+      "best_bound_squared": "1851918507215487392230141214720/13045137860520909"
+    },
+    {
+      "residue": 78,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -762,
+      "best_q": 86653,
+      "best_bound_squared": "310332499090721663664774643712/6951685307251273875"
+    },
+    {
+      "residue": 79,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -761,
+      "best_q": 324555,
+      "best_bound_squared": "10416563169950112408411566080/1185921623683719"
+    },
+    {
+      "residue": 80,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -760,
+      "best_q": 185235,
+      "best_bound_squared": "4169294016463187402508500664320/4474482286158671787"
+    },
+    {
+      "residue": 81,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -759,
+      "best_q": 215845,
+      "best_bound_squared": "1814852167644237464203737579520/1056656166702193629"
+    },
+    {
+      "residue": 82,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -758,
+      "best_q": 1293495,
+      "best_bound_squared": "2222366936328157878191381872640/1003472143116993"
+    },
+    {
+      "residue": 83,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 923,
+      "best_q": 33852,
+      "best_bound_squared": "9280162423869961812557824/6601790415243375"
+    },
+    {
+      "residue": 84,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -756,
+      "best_q": 430115,
+      "best_bound_squared": "28598712267767234177785797345280/1056656166702193629"
+    },
+    {
+      "residue": 85,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -755,
+      "best_q": 644385,
+      "best_bound_squared": "5505711310223760933342330880/40387423716783"
+    },
+    {
+      "residue": 86,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 86,
+      "best_q": 35805,
+      "best_bound_squared": "25904714097230532712529920/1185921623683719"
+    },
+    {
+      "residue": 87,
+      "gcd": 84,
+      "candidate_count": 4,
+      "best_k": -2433,
+      "best_q": 46805,
+      "best_bound_squared": "139504272050841769667546255360/32948460470804764977"
+    },
+    {
+      "residue": 88,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -752,
+      "best_q": 256809,
+      "best_bound_squared": "431096022302294429658411237376/125434017889624125"
+    },
+    {
+      "residue": 89,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -751,
+      "best_q": 641235,
+      "best_bound_squared": "1742390619742066451343044526080/13045137860520909"
+    },
+    {
+      "residue": 90,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -750,
+      "best_q": 426965,
+      "best_bound_squared": "2521436913211106181011211223040/96059651518381239"
+    },
+    {
+      "residue": 91,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -749,
+      "best_q": 159915,
+      "best_bound_squared": "354568108020526864662625280/686586203185311"
+    },
+    {
+      "residue": 92,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 92,
+      "best_q": 45255,
+      "best_bound_squared": "520950243146305790721720320/13045137860520909"
+    },
+    {
+      "residue": 93,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -747,
+      "best_q": 42539,
+      "best_bound_squared": "341396830348711892584703541248/132082020837774203625"
+    },
+    {
+      "residue": 94,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -746,
+      "best_q": 182085,
+      "best_bound_squared": "3881639890581321970618893271040/4474482286158671787"
+    },
+    {
+      "residue": 95,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -745,
+      "best_q": 318255,
+      "best_bound_squared": "8122521852260836231359303680/1003472143116993"
+    },
+    {
+      "residue": 96,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -744,
+      "best_q": 423815,
+      "best_bound_squared": "26892565508200496899531888721920/1056656166702193629"
+    },
+    {
+      "residue": 97,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -743,
+      "best_q": 634935,
+      "best_bound_squared": "88006303279693720373385543680/686586203185311"
+    },
+    {
+      "residue": 98,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -742,
+      "best_q": 253659,
+      "best_bound_squared": "5323160680784159637395956891648/1630642232565113625"
+    },
+    {
+      "residue": 99,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -741,
+      "best_q": 52780,
+      "best_bound_squared": "497262352459979509082767360/81281243592476433"
+    },
+    {
+      "residue": 100,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 100,
+      "best_q": 57855,
+      "best_bound_squared": "4072607442408028221931520/52814323321947"
+    },
+    {
+      "residue": 101,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -739,
+      "best_q": 90255,
+      "best_bound_squared": "1636155737451385491031736320/31290085917193509"
+    },
+    {
+      "residue": 102,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -738,
+      "best_q": 420665,
+      "best_bound_squared": "1533452337479131102286976450560/62156245100129037"
+    },
+    {
+      "residue": 103,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -737,
+      "best_q": 63021,
+      "best_bound_squared": "20260342807627037169905471488/1630642232565113625"
+    },
+    {
+      "residue": 104,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 104,
+      "best_q": 64155,
+      "best_bound_squared": "102913456938609435940290560/1003472143116993"
+    },
+    {
+      "residue": 105,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -735,
+      "best_q": 209545,
+      "best_bound_squared": "1603995014729914665660114288640/1056656166702193629"
+    },
+    {
+      "residue": 106,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 106,
+      "best_q": 67305,
+      "best_bound_squared": "6192946240986117677711360/52814323321947"
+    },
+    {
+      "residue": 107,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -733,
+      "best_q": 156765,
+      "best_bound_squared": "6200367096939195365472465920/13045137860520909"
+    },
+    {
+      "residue": 108,
+      "gcd": 105,
+      "candidate_count": 4,
+      "best_k": -2412,
+      "best_q": 37129,
+      "best_bound_squared": "75924610986785803484217602146304/45304133147356551843375"
+    },
+    {
+      "residue": 109,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 109,
+      "best_q": 36015,
+      "best_bound_squared": "115783799093870285418414080/13045137860520909"
+    },
+    {
+      "residue": 110,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 110,
+      "best_q": 73605,
+      "best_bound_squared": "1970098688699342571134320640/13045137860520909"
+    },
+    {
+      "residue": 111,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -729,
+      "best_q": 103985,
+      "best_bound_squared": "97142704931826961453763153920/1056656166702193629"
+    },
+    {
+      "residue": 112,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 112,
+      "best_q": 76755,
+      "best_bound_squared": "6875984688915288143626240/40387423716783"
+    },
+    {
+      "residue": 113,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -727,
+      "best_q": 124467,
+      "best_bound_squared": "307594450879656197957285920768/1630642232565113625"
+    },
+    {
+      "residue": 114,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -726,
+      "best_q": 414365,
+      "best_bound_squared": "1882910800795021898181678530560/81281243592476433"
+    },
+    {
+      "residue": 115,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": -1565,
+      "best_q": 45795,
+      "best_bound_squared": "16883942247614840734609157120/4474482286158671787"
+    },
+    {
+      "residue": 116,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 116,
+      "best_q": 83055,
+      "best_bound_squared": "2789559706639592926658232320/13045137860520909"
+    },
+    {
+      "residue": 117,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -723,
+      "best_q": 206395,
+      "best_bound_squared": "1505735456387742202597774213120/1056656166702193629"
+    },
+    {
+      "residue": 118,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -722,
+      "best_q": 247359,
+      "best_bound_squared": "4792819276105819546852452794368/1630642232565113625"
+    },
+    {
+      "residue": 119,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -721,
+      "best_q": 308805,
+      "best_bound_squared": "5477236504067023342940016640/767361050618877"
+    },
+    {
+      "residue": 120,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -720,
+      "best_q": 411215,
+      "best_bound_squared": "23710276610195976568739480535040/1056656166702193629"
+    },
+    {
+      "residue": 121,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 121,
+      "best_q": 45465,
+      "best_bound_squared": "227380577101882385198366720/13045137860520909"
+    },
+    {
+      "residue": 122,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -718,
+      "best_q": 175785,
+      "best_bound_squared": "3351211042290443775518522408960/4474482286158671787"
+    },
+    {
+      "residue": 123,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": 2643,
+      "best_q": 33859,
+      "best_bound_squared": "169225489132026750735795381248/132082020837774203625"
+    },
+    {
+      "residue": 124,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 124,
+      "best_q": 95655,
+      "best_bound_squared": "4228117097710958898453217280/13045137860520909"
+    },
+    {
+      "residue": 125,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 125,
+      "best_q": 48615,
+      "best_bound_squared": "14602772438014943820431360/686586203185311"
+    },
+    {
+      "residue": 126,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -714,
+      "best_q": 408065,
+      "best_bound_squared": "22960897087353806980537584517120/1056656166702193629"
+    },
+    {
+      "residue": 127,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -713,
+      "best_q": 305655,
+      "best_bound_squared": "6862304106632736367057571840/1003472143116993"
+    },
+    {
+      "residue": 128,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -712,
+      "best_q": 244209,
+      "best_bound_squared": "4543018957994784250991920611328/1630642232565113625"
+    },
+    {
+      "residue": 129,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": 969,
+      "best_q": 33965,
+      "best_bound_squared": "512721820022644434606449213440/362433065178852414747"
+    },
+    {
+      "residue": 130,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 130,
+      "best_q": 105105,
+      "best_bound_squared": "39236098507419223939809280/91224740283363"
+    },
+    {
+      "residue": 131,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -709,
+      "best_q": 152040,
+      "best_bound_squared": "5456566434456761336125521920/13045137860520909"
+    },
+    {
+      "residue": 132,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 132,
+      "best_q": 36085,
+      "best_bound_squared": "472050943334452473571901440/81281243592476433"
+    },
+    {
+      "residue": 133,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -707,
+      "best_q": 121317,
+      "best_bound_squared": "276365225277703290002121637888/1630642232565113625"
+    },
+    {
+      "residue": 134,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 134,
+      "best_q": 111405,
+      "best_bound_squared": "6697418350822926535989985280/13045137860520909"
+    },
+    {
+      "residue": 135,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -705,
+      "best_q": 100835,
+      "best_bound_squared": "4496359181406234308242370560/55613482458010191"
+    },
+    {
+      "residue": 136,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -704,
+      "best_q": 172635,
+      "best_bound_squared": "182786184448696425381537710080/263204840362274811"
+    },
+    {
+      "residue": 137,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 137,
+      "best_q": 58065,
+      "best_bound_squared": "475443066212078153362718720/13045137860520909"
+    },
+    {
+      "residue": 138,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -702,
+      "best_q": 80353,
+      "best_bound_squared": "331008244490402978775272062976/10160155449059554125"
+    },
+    {
+      "residue": 139,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -701,
+      "best_q": 150465,
+      "best_bound_squared": "5224181717403389753654727680/13045137860520909"
+    },
+    {
+      "residue": 140,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 140,
+      "best_q": 120855,
+      "best_bound_squared": "8603474549592221037983498240/13045137860520909"
+    },
+    {
+      "residue": 141,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -699,
+      "best_q": 200095,
+      "best_bound_squared": "1322819468984922922320207953920/1056656166702193629"
+    },
+    {
+      "residue": 142,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 142,
+      "best_q": 124005,
+      "best_bound_squared": "9318449889434613207678648320/13045137860520909"
+    },
+    {
+      "residue": 143,
+      "gcd": 140,
+      "candidate_count": 4,
+      "best_k": -3217,
+      "best_q": 36903,
+      "best_bound_squared": "926540497943387057990862598144/559310285769833973375"
+    },
+    {
+      "residue": 144,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 144,
+      "best_q": 42385,
+      "best_bound_squared": "530306425377472470829957120/55613482458010191"
+    },
+    {
+      "residue": 145,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 145,
+      "best_q": 64365,
+      "best_bound_squared": "50340884746469510641172480/1003472143116993"
+    },
+    {
+      "residue": 146,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 146,
+      "best_q": 130305,
+      "best_bound_squared": "639834423452078215796162560/767361050618877"
+    },
+    {
+      "residue": 147,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -693,
+      "best_q": 49630,
+      "best_bound_squared": "384561180389332769679216640/81281243592476433"
+    },
+    {
+      "residue": 148,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -692,
+      "best_q": 237909,
+      "best_bound_squared": "214358927476077076150632251392/85823275398163875"
+    },
+    {
+      "residue": 149,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 149,
+      "best_q": 67515,
+      "best_bound_squared": "760329396001645954674606080/13045137860520909"
+    },
+    {
+      "residue": 150,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -690,
+      "best_q": 56495,
+      "best_bound_squared": "2877067149827395622419444203520/362433065178852414747"
+    },
+    {
+      "residue": 151,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 151,
+      "best_q": 34545,
+      "best_bound_squared": "51108487070003265088901120/13045137860520909"
+    },
+    {
+      "residue": 152,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 152,
+      "best_q": 139755,
+      "best_bound_squared": "94836295188040018651709440/91224740283363"
+    },
+    {
+      "residue": 153,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -687,
+      "best_q": 39389,
+      "best_bound_squared": "1120249804183263790027522048/597656202885856125"
+    },
+    {
+      "residue": 154,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 154,
+      "best_q": 142905,
+      "best_bound_squared": "14555430281914841170811617280/13045137860520909"
+    },
+    {
+      "residue": 155,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -685,
+      "best_q": 147315,
+      "best_bound_squared": "4781744356951361782491837440/13045137860520909"
+    },
+    {
+      "residue": 156,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 156,
+      "best_q": 48685,
+      "best_bound_squared": "1200127772486097115386019840/81281243592476433"
+    },
+    {
+      "residue": 157,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -683,
+      "best_q": 83955,
+      "best_bound_squared": "172927408901085002872035983360/4474482286158671787"
+    },
+    {
+      "residue": 158,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -682,
+      "best_q": 234759,
+      "best_bound_squared": "3851895552238728123088027844608/1630642232565113625"
+    },
+    {
+      "residue": 159,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -681,
+      "best_q": 97685,
+      "best_bound_squared": "74810707137165160504596090880/1056656166702193629"
+    },
+    {
+      "residue": 160,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 160,
+      "best_q": 152355,
+      "best_bound_squared": "17858386604787127899512176640/13045137860520909"
+    },
+    {
+      "residue": 161,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 161,
+      "best_q": 76965,
+      "best_bound_squared": "1153631622584722456299192320/13045137860520909"
+    },
+    {
+      "residue": 162,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 162,
+      "best_q": 51835,
+      "best_bound_squared": "19072498960810833561874923520/1056656166702193629"
+    },
+    {
+      "residue": 163,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 1003,
+      "best_q": 37002,
+      "best_bound_squared": "248765071972075984224342016/125434017889624125"
+    },
+    {
+      "residue": 164,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -676,
+      "best_q": 166335,
+      "best_bound_squared": "204600464678947360589227950080/344190945089128599"
+    },
+    {
+      "residue": 165,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -675,
+      "best_q": 193795,
+      "best_bound_squared": "1157088164328023153592539299840/1056656166702193629"
+    },
+    {
+      "residue": 166,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 166,
+      "best_q": 161805,
+      "best_bound_squared": "21681481413437558171778744320/13045137860520909"
+    },
+    {
+      "residue": 167,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 167,
+      "best_q": 40845,
+      "best_bound_squared": "87393608603253930891038720/13045137860520909"
+    },
+    {
+      "residue": 168,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -672,
+      "best_q": 77203,
+      "best_bound_squared": "3640077810623281679498229383168/132082020837774203625"
+    },
+    {
+      "residue": 169,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 169,
+      "best_q": 83265,
+      "best_bound_squared": "6023242810594034324848640/52814323321947"
+    },
+    {
+      "residue": 170,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 170,
+      "best_q": 168105,
+      "best_bound_squared": "24544152962101677788139683840/13045137860520909"
+    },
+    {
+      "residue": 171,
+      "gcd": 168,
+      "candidate_count": 4,
+      "best_k": -4029,
+      "best_q": 38365,
+      "best_bound_squared": "706832275213045084607647452160/362433065178852414747"
+    },
+    {
+      "residue": 172,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 172,
+      "best_q": 171255,
+      "best_bound_squared": "26075484041221683898452869120/13045137860520909"
+    },
+    {
+      "residue": 173,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -667,
+      "best_q": 115017,
+      "best_bound_squared": "895117517557423370898817024/6601790415243375"
+    },
+    {
+      "residue": 174,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 174,
+      "best_q": 58135,
+      "best_bound_squared": "2516011720167228194360852480/96059651518381239"
+    },
+    {
+      "residue": 175,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 175,
+      "best_q": 43995,
+      "best_bound_squared": "111340137726216549722378240/13045137860520909"
+    },
+    {
+      "residue": 176,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 176,
+      "best_q": 177555,
+      "best_bound_squared": "1544637425633389509604474880/686586203185311"
+    },
+    {
+      "residue": 177,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -663,
+      "best_q": 190645,
+      "best_bound_squared": "83101396539635705526751805440/81281243592476433"
+    },
+    {
+      "residue": 178,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": 1018,
+      "best_q": 42963,
+      "best_bound_squared": "105898464780135273963096702976/29437383461570209125"
+    },
+    {
+      "residue": 179,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -661,
+      "best_q": 142590,
+      "best_bound_squared": "320884687037259410021519360/1003472143116993"
+    },
+    {
+      "residue": 180,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 180,
+      "best_q": 61285,
+      "best_bound_squared": "1936136725933632959384453120/62156245100129037"
+    },
+    {
+      "residue": 181,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 181,
+      "best_q": 92715,
+      "best_bound_squared": "2115856534126832441676677120/13045137860520909"
+    },
+    {
+      "residue": 182,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 182,
+      "best_q": 187005,
+      "best_bound_squared": "140942289607579460176117760/52814323321947"
+    },
+    {
+      "residue": 183,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": -1497,
+      "best_q": 40957,
+      "best_bound_squared": "317748419332952690153852899328/132082020837774203625"
+    },
+    {
+      "residue": 184,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 184,
+      "best_q": 190155,
+      "best_bound_squared": "2830068016689642451178946560/1003472143116993"
+    },
+    {
+      "residue": 185,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -655,
+      "best_q": 80805,
+      "best_bound_squared": "147329048558539519894927032320/4474482286158671787"
+    },
+    {
+      "residue": 186,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 186,
+      "best_q": 64435,
+      "best_bound_squared": "38850907013030089010645893120/1056656166702193629"
+    },
+    {
+      "residue": 187,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -653,
+      "best_q": 141015,
+      "best_bound_squared": "234217509403563254897628160/767361050618877"
+    },
+    {
+      "residue": 188,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 188,
+      "best_q": 39291,
+      "best_bound_squared": "431526412307630241884864512/85823275398163875"
+    },
+    {
+      "residue": 189,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -651,
+      "best_q": 187495,
+      "best_bound_squared": "91584601674899201812607713280/96059651518381239"
+    },
+    {
+      "residue": 190,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 190,
+      "best_q": 199605,
+      "best_bound_squared": "43225414560988120434145034240/13045137860520909"
+    },
+    {
+      "residue": 191,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 191,
+      "best_q": 50295,
+      "best_bound_squared": "13333438629539949925437440/1003472143116993"
+    },
+    {
+      "residue": 192,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -648,
+      "best_q": 53345,
+      "best_bound_squared": "9159511631979979991633428480/1467340344853653501"
+    },
+    {
+      "residue": 193,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -647,
+      "best_q": 111867,
+      "best_bound_squared": "196794895665868689918705614848/1630642232565113625"
+    },
+    {
+      "residue": 194,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 194,
+      "best_q": 205905,
+      "best_bound_squared": "47954173690373081378429665280/13045137860520909"
+    },
+    {
+      "residue": 195,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -645,
+      "best_q": 46480,
+      "best_bound_squared": "3798441808335225482401546240/1056656166702193629"
+    },
+    {
+      "residue": 196,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 196,
+      "best_q": 209055,
+      "best_bound_squared": "4587010756024639737691832320/1185921623683719"
+    },
+    {
+      "residue": 197,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 197,
+      "best_q": 105315,
+      "best_bound_squared": "14633554932528157835345920/59027773124529"
+    },
+    {
+      "residue": 198,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -642,
+      "best_q": 74053,
+      "best_bound_squared": "3056744648131979242189946421248/132082020837774203625"
+    },
+    {
+      "residue": 199,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": -641,
+      "best_q": 39615,
+      "best_bound_squared": "34324779871381894563614720/18115312899427821"
+    },
+    {
+      "residue": 200,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 200,
+      "best_q": 215355,
+      "best_bound_squared": "55751829617267618112252477440/13045137860520909"
+    },
+    {
+      "residue": 201,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 201,
+      "best_q": 36155,
+      "best_bound_squared": "187952014728468248385863680/55613482458010191"
+    },
+    {
+      "residue": 202,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 202,
+      "best_q": 218505,
+      "best_bound_squared": "58548358945521776324499537920/13045137860520909"
+    },
+    {
+      "residue": 203,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 1043,
+      "best_q": 38577,
+      "best_bound_squared": "18186944288769524247913472/7802115945287625"
+    },
+    {
+      "residue": 204,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 204,
+      "best_q": 73885,
+      "best_bound_squared": "4726735400526923432269250560/81281243592476433"
+    },
+    {
+      "residue": 205,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 205,
+      "best_q": 111615,
+      "best_bound_squared": "3933526763995635739570749440/13045137860520909"
+    },
+    {
+      "residue": 206,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -634,
+      "best_q": 156885,
+      "best_bound_squared": "2081280822375277101154175221760/4474482286158671787"
+    },
+    {
+      "residue": 207,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -633,
+      "best_q": 91385,
+      "best_bound_squared": "56568031046436313417004830720/1056656166702193629"
+    },
+    {
+      "residue": 208,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 208,
+      "best_q": 45591,
+      "best_bound_squared": "1039443365189514415122743296/125434017889624125"
+    },
+    {
+      "residue": 209,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 209,
+      "best_q": 114765,
+      "best_bound_squared": "4322557540191675409985454080/13045137860520909"
+    },
+    {
+      "residue": 210,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 210,
+      "best_q": 77035,
+      "best_bound_squared": "5445066744573325251844833280/81281243592476433"
+    },
+    {
+      "residue": 211,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -629,
+      "best_q": 136290,
+      "best_bound_squared": "16511795474164350554951680/62416927562301"
+    },
+    {
+      "residue": 212,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 212,
+      "best_q": 234255,
+      "best_bound_squared": "74120571900651264092795371520/13045137860520909"
+    },
+    {
+      "residue": 213,
+      "gcd": 210,
+      "candidate_count": 4,
+      "best_k": -4827,
+      "best_q": 36677,
+      "best_bound_squared": "5706111607298110836110348238848/3484933319027427064875"
+    },
+    {
+      "residue": 214,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 214,
+      "best_q": 237405,
+      "best_bound_squared": "240156343052970719847055360/40387423716783"
+    },
+    {
+      "residue": 215,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 215,
+      "best_q": 59745,
+      "best_bound_squared": "309919847294479940494807040/13045137860520909"
+    },
+    {
+      "residue": 216,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 216,
+      "best_q": 80185,
+      "best_bound_squared": "81138244428504943382544056320/1056656166702193629"
+    },
+    {
+      "residue": 217,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 217,
+      "best_q": 121065,
+      "best_bound_squared": "398880376666308268600279040/1003472143116993"
+    },
+    {
+      "residue": 218,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 218,
+      "best_q": 48741,
+      "best_bound_squared": "1542298789599895060868169728/148240202960464875"
+    },
+    {
+      "residue": 219,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -621,
+      "best_q": 44905,
+      "best_bound_squared": "3286445468694795452578247680/1056656166702193629"
+    },
+    {
+      "residue": 220,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 220,
+      "best_q": 35265,
+      "best_bound_squared": "666449015730932637814292480/235499067692561673"
+    },
+    {
+      "residue": 221,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 221,
+      "best_q": 124215,
+      "best_bound_squared": "435530577662552289104445440/1003472143116993"
+    },
+    {
+      "residue": 222,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 222,
+      "best_q": 83335,
+      "best_bound_squared": "92574783336280906034252677120/1056656166702193629"
+    },
+    {
+      "residue": 223,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -617,
+      "best_q": 53571,
+      "best_bound_squared": "10260562096674298432256708608/1630642232565113625"
+    },
+    {
+      "residue": 224,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 224,
+      "best_q": 253155,
+      "best_bound_squared": "96640336702791230953626337280/13045137860520909"
+    },
+    {
+      "residue": 225,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 225,
+      "best_q": 42455,
+      "best_bound_squared": "6170134479959412385388707840/1056656166702193629"
+    },
+    {
+      "residue": 226,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 226,
+      "best_q": 256305,
+      "best_bound_squared": "5307216755885331808547962880/686586203185311"
+    },
+    {
+      "residue": 227,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": -1453,
+      "best_q": 42645,
+      "best_bound_squared": "12620499074988686605301672960/4474482286158671787"
+    },
+    {
+      "residue": 228,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -612,
+      "best_q": 70903,
+      "best_bound_squared": "2546454269177936496851574652928/132082020837774203625"
+    },
+    {
+      "residue": 229,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 229,
+      "best_q": 130515,
+      "best_bound_squared": "610138672067168160035553280/1185921623683719"
+    },
+    {
+      "residue": 230,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 230,
+      "best_q": 262605,
+      "best_bound_squared": "8433497413472712359077806080/1003472143116993"
+    },
+    {
+      "residue": 231,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -609,
+      "best_q": 88235,
+      "best_bound_squared": "3754800294676373798106173440/81281243592476433"
+    },
+    {
+      "residue": 232,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 232,
+      "best_q": 265755,
+      "best_bound_squared": "114242654206991130034644254720/13045137860520909"
+    },
+    {
+      "residue": 233,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -607,
+      "best_q": 105567,
+      "best_bound_squared": "14023046532422533259953553408/148240202960464875"
+    },
+    {
+      "residue": 234,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -606,
+      "best_q": 50195,
+      "best_bound_squared": "1751854451405428638489936855040/362433065178852414747"
+    },
+    {
+      "residue": 235,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 235,
+      "best_q": 33810,
+      "best_bound_squared": "29643913365937410744995840/13045137860520909"
+    },
+    {
+      "residue": 236,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 236,
+      "best_q": 272055,
+      "best_bound_squared": "9529794301617671596144394240/1003472143116993"
+    },
+    {
+      "residue": 237,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 237,
+      "best_q": 45605,
+      "best_bound_squared": "7899390523149325224127774720/1056656166702193629"
+    },
+    {
+      "residue": 238,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 238,
+      "best_q": 55041,
+      "best_bound_squared": "25786120609130747854420246528/1630642232565113625"
+    },
+    {
+      "residue": 239,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 239,
+      "best_q": 69195,
+      "best_bound_squared": "27037162476713922033643520/686586203185311"
+    },
+    {
+      "residue": 240,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 240,
+      "best_q": 92785,
+      "best_bound_squared": "12193189474797109787250851840/96059651518381239"
+    },
+    {
+      "residue": 241,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -599,
+      "best_q": 74505,
+      "best_bound_squared": "104749954713824818190503362560/4474482286158671787"
+    },
+    {
+      "residue": 242,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 242,
+      "best_q": 281505,
+      "best_bound_squared": "139473737642288478959582904320/13045137860520909"
+    },
+    {
+      "residue": 243,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": 2763,
+      "best_q": 35434,
+      "best_bound_squared": "202546775507575543911103827968/132082020837774203625"
+    },
+    {
+      "residue": 244,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 244,
+      "best_q": 284655,
+      "best_bound_squared": "144979560121609778002270945280/13045137860520909"
+    },
+    {
+      "residue": 245,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 245,
+      "best_q": 143115,
+      "best_bound_squared": "486159059513020890993704960/686586203185311"
+    },
+    {
+      "residue": 246,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 246,
+      "best_q": 95935,
+      "best_bound_squared": "150645577105607211402490347520/1056656166702193629"
+    },
+    {
+      "residue": 247,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 247,
+      "best_q": 72345,
+      "best_bound_squared": "46135700665928329170391040/1003472143116993"
+    },
+    {
+      "residue": 248,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": 1088,
+      "best_q": 46113,
+      "best_bound_squared": "10719292510212727786205151232/2264414112428477625"
+    },
+    {
+      "residue": 249,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 249,
+      "best_q": 48755,
+      "best_bound_squared": "766594499466222022694748160/81281243592476433"
+    },
+    {
+      "residue": 250,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 250,
+      "best_q": 294105,
+      "best_bound_squared": "162470439504530316654029373440/13045137860520909"
+    },
+    {
+      "residue": 251,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 251,
+      "best_q": 36960,
+      "best_bound_squared": "3673907655447160548229120/1185921623683719"
+    },
+    {
+      "residue": 252,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 252,
+      "best_q": 99085,
+      "best_bound_squared": "8875551523505558455501127680/55613482458010191"
+    },
+    {
+      "residue": 253,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -587,
+      "best_q": 102417,
+      "best_bound_squared": "135775571496405189211030110208/1630642232565113625"
+    },
+    {
+      "residue": 254,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 254,
+      "best_q": 300405,
+      "best_bound_squared": "174973100947656283310889697280/13045137860520909"
+    },
+    {
+      "residue": 255,
+      "gcd": 84,
+      "candidate_count": 4,
+      "best_k": 1935,
+      "best_q": 35095,
+      "best_bound_squared": "545712136218619024775624273920/362433065178852414747"
+    },
+    {
+      "residue": 256,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 256,
+      "best_q": 303555,
+      "best_bound_squared": "13960498006919757704433827840/1003472143116993"
+    },
+    {
+      "residue": 257,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 257,
+      "best_q": 152565,
+      "best_bound_squared": "11550629084303947511390289920/13045137860520909"
+    },
+    {
+      "residue": 258,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -582,
+      "best_q": 67753,
+      "best_bound_squared": "2102843105271561590854408798208/132082020837774203625"
+    },
+    {
+      "residue": 259,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 259,
+      "best_q": 38535,
+      "best_bound_squared": "46775651591165899986375680/13045137860520909"
+    },
+    {
+      "residue": 260,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 260,
+      "best_q": 309855,
+      "best_bound_squared": "15004099328061933652318945280/1003472143116993"
+    },
+    {
+      "residue": 261,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 261,
+      "best_q": 51905,
+      "best_bound_squared": "12409991895508034896103096320/1056656166702193629"
+    },
+    {
+      "residue": 262,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 262,
+      "best_q": 44715,
+      "best_bound_squared": "201911304295006291653099520/31290085917193509"
+    },
+    {
+      "residue": 263,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -577,
+      "best_q": 50421,
+      "best_bound_squared": "7949062110887080520772456448/1630642232565113625"
+    },
+    {
+      "residue": 264,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 264,
+      "best_q": 105385,
+      "best_bound_squared": "11019044825207591188286341120/55613482458010191"
+    },
+    {
+      "residue": 265,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 265,
+      "best_q": 158865,
+      "best_bound_squared": "783301361828429811458129920/767361050618877"
+    },
+    {
+      "residue": 266,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 266,
+      "best_q": 319305,
+      "best_bound_squared": "216802511223407865832554168320/13045137860520909"
+    },
+    {
+      "residue": 267,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -573,
+      "best_q": 41755,
+      "best_bound_squared": "2419246337058074403077739520/1056656166702193629"
+    },
+    {
+      "residue": 268,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 268,
+      "best_q": 64491,
+      "best_bound_squared": "44887706915969200789681143808/1630642232565113625"
+    },
+    {
+      "residue": 269,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -571,
+      "best_q": 71355,
+      "best_bound_squared": "87307273276855598309401149440/4474482286158671787"
+    },
+    {
+      "residue": 270,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 270,
+      "best_q": 108535,
+      "best_bound_squared": "232273290722892334947274915840/1056656166702193629"
+    },
+    {
+      "residue": 271,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 271,
+      "best_q": 81795,
+      "best_bound_squared": "48574476608098916624199680/686586203185311"
+    },
+    {
+      "residue": 272,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 272,
+      "best_q": 328755,
+      "best_bound_squared": "240310177254660428635409285120/13045137860520909"
+    },
+    {
+      "residue": 273,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": 1113,
+      "best_q": 55111,
+      "best_bound_squared": "66950885501232086573344735232/6951685307251273875"
+    },
+    {
+      "residue": 274,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 274,
+      "best_q": 331905,
+      "best_bound_squared": "248552620404743736603024097280/13045137860520909"
+    },
+    {
+      "residue": 275,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 275,
+      "best_q": 41685,
+      "best_bound_squared": "4746694791095028540769280/1003472143116993"
+    },
+    {
+      "residue": 276,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -564,
+      "best_q": 47045,
+      "best_bound_squared": "1332959790506916332936621916160/362433065178852414747"
+    },
+    {
+      "residue": 277,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 277,
+      "best_q": 168315,
+      "best_bound_squared": "859569964200276882433556480/686586203185311"
+    },
+    {
+      "residue": 278,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 278,
+      "best_q": 67641,
+      "best_bound_squared": "53133604923125842131478970368/1630642232565113625"
+    },
+    {
+      "residue": 279,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -561,
+      "best_q": 81935,
+      "best_bound_squared": "35717291166806328291772026880/1056656166702193629"
+    },
+    {
+      "residue": 280,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 280,
+      "best_q": 341355,
+      "best_bound_squared": "274547981273017688844420055040/13045137860520909"
+    },
+    {
+      "residue": 281,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 281,
+      "best_q": 171465,
+      "best_bound_squared": "17441879226033710832210821120/13045137860520909"
+    },
+    {
+      "residue": 282,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 282,
+      "best_q": 114835,
+      "best_bound_squared": "1283472786162416314531512320/4781249623086849"
+    },
+    {
+      "residue": 283,
+      "gcd": 280,
+      "candidate_count": 4,
+      "best_k": 6163,
+      "best_q": 34311,
+      "best_bound_squared": "734902768368887578770164890624/559310285769833973375"
+    },
+    {
+      "residue": 284,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 284,
+      "best_q": 347655,
+      "best_bound_squared": "26633646126295547378961940480/1185921623683719"
+    },
+    {
+      "residue": 285,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 285,
+      "best_q": 58205,
+      "best_bound_squared": "18607263150616974387694551040/1056656166702193629"
+    },
+    {
+      "residue": 286,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 286,
+      "best_q": 350805,
+      "best_bound_squared": "23270726477658575239214858240/1003472143116993"
+    },
+    {
+      "residue": 287,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 287,
+      "best_q": 88095,
+      "best_bound_squared": "1200704152385443395328593920/13045137860520909"
+    },
+    {
+      "residue": 288,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -552,
+      "best_q": 64603,
+      "best_bound_squared": "156348858287005975840286507008/12007456439797654875"
+    },
+    {
+      "residue": 289,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 289,
+      "best_q": 177765,
+      "best_bound_squared": "19829780090791422579699630080/13045137860520909"
+    },
+    {
+      "residue": 290,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 290,
+      "best_q": 51015,
+      "best_bound_squared": "2423404499882203713837793280/235499067692561673"
+    },
+    {
+      "residue": 291,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -549,
+      "best_q": 40180,
+      "best_bound_squared": "2056451400992047395956408320/1056656166702193629"
+    },
+    {
+      "residue": 292,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 292,
+      "best_q": 360255,
+      "best_bound_squared": "332564155065139146337730232320/13045137860520909"
+    },
+    {
+      "residue": 293,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 293,
+      "best_q": 36183,
+      "best_bound_squared": "4222251534254661667840933888/1630642232565113625"
+    },
+    {
+      "residue": 294,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 294,
+      "best_q": 121135,
+      "best_bound_squared": "343056905071588427034893025280/1056656166702193629"
+    },
+    {
+      "residue": 295,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 295,
+      "best_q": 91245,
+      "best_bound_squared": "9516908069134571469844480/91224740283363"
+    },
+    {
+      "residue": 296,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 296,
+      "best_q": 366555,
+      "best_bound_squared": "18620778401871215118198702080/686586203185311"
+    },
+    {
+      "residue": 297,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": 1137,
+      "best_q": 40265,
+      "best_bound_squared": "992081594963842509528953896960/362433065178852414747"
+    },
+    {
+      "residue": 298,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 298,
+      "best_q": 73941,
+      "best_bound_squared": "72956315703277031993641074688/1630642232565113625"
+    },
+    {
+      "residue": 299,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 299,
+      "best_q": 46410,
+      "best_bound_squared": "409150410458112225710080/59027773124529"
+    },
+    {
+      "residue": 300,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 300,
+      "best_q": 124285,
+      "best_bound_squared": "376021070100916559983979069440/1056656166702193629"
+    },
+    {
+      "residue": 301,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 301,
+      "best_q": 187215,
+      "best_bound_squared": "1835272953032601015728291840/1003472143116993"
+    },
+    {
+      "residue": 302,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 302,
+      "best_q": 376005,
+      "best_bound_squared": "20395636389655741255729479680/686586203185311"
+    },
+    {
+      "residue": 303,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": -1377,
+      "best_q": 37807,
+      "best_bound_squared": "20825870831586537727349075968/12007456439797654875"
+    },
+    {
+      "residue": 304,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 304,
+      "best_q": 54165,
+      "best_bound_squared": "57039071152257772848939991040/4474482286158671787"
+    },
+    {
+      "residue": 305,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 305,
+      "best_q": 190365,
+      "best_bound_squared": "25328159913924347092021821440/13045137860520909"
+    },
+    {
+      "residue": 306,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 306,
+      "best_q": 127435,
+      "best_bound_squared": "37390379487020372578985246720/96059651518381239"
+    },
+    {
+      "residue": 307,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 307,
+      "best_q": 47985,
+      "best_bound_squared": "101905477362258476849976320/13045137860520909"
+    },
+    {
+      "residue": 308,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 308,
+      "best_q": 77091,
+      "best_bound_squared": "6516662048837993708543082496/125434017889624125"
+    },
+    {
+      "residue": 309,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 309,
+      "best_q": 64505,
+      "best_bound_squared": "1413912044862955163719352320/55613482458010191"
+    },
+    {
+      "residue": 310,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 310,
+      "best_q": 388605,
+      "best_bound_squared": "436144016041772211703602544640/13045137860520909"
+    },
+    {
+      "residue": 311,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": -529,
+      "best_q": 33315,
+      "best_bound_squared": "4083761967582644436079554560/4474482286158671787"
+    },
+    {
+      "residue": 312,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 312,
+      "best_q": 130585,
+      "best_bound_squared": "34537007162372551215334359040/81281243592476433"
+    },
+    {
+      "residue": 313,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 313,
+      "best_q": 39333,
+      "best_bound_squared": "5693805193390975622244548608/1630642232565113625"
+    },
+    {
+      "residue": 314,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 314,
+      "best_q": 394905,
+      "best_bound_squared": "35546020243144118508623298560/1003472143116993"
+    },
+    {
+      "residue": 315,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -525,
+      "best_q": 38605,
+      "best_bound_squared": "1736039666409254627852784640/1056656166702193629"
+    },
+    {
+      "residue": 316,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 316,
+      "best_q": 398055,
+      "best_bound_squared": "27970561976384370893847592960/767361050618877"
+    },
+    {
+      "residue": 317,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 317,
+      "best_q": 199815,
+      "best_bound_squared": "2740386422472370975315640320/1185921623683719"
+    },
+    {
+      "residue": 318,
+      "gcd": 105,
+      "candidate_count": 4,
+      "best_k": -2202,
+      "best_q": 33979,
+      "best_bound_squared": "4817975721411911308341898706944/4118557558850595622125"
+    },
+    {
+      "residue": 319,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 319,
+      "best_q": 100695,
+      "best_bound_squared": "1938058966345171676845690880/13045137860520909"
+    },
+    {
+      "residue": 320,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 320,
+      "best_q": 404355,
+      "best_bound_squared": "503170748400830288807661731840/13045137860520909"
+    },
+    {
+      "residue": 321,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 321,
+      "best_q": 67655,
+      "best_bound_squared": "129117534049373203972341760/4277960189077707"
+    },
+    {
+      "residue": 322,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 322,
+      "best_q": 407505,
+      "best_bound_squared": "517448850716206854863522693120/13045137860520909"
+    },
+    {
+      "residue": 323,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 1163,
+      "best_q": 43302,
+      "best_bound_squared": "5954645008552193407693754368/1630642232565113625"
+    },
+    {
+      "residue": 324,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 324,
+      "best_q": 136885,
+      "best_bound_squared": "532027469320696504743762657280/1056656166702193629"
+    },
+    {
+      "residue": 325,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -515,
+      "best_q": 65055,
+      "best_bound_squared": "3107074512036279308524666880/235499067692561673"
+    },
+    {
+      "residue": 326,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 326,
+      "best_q": 413805,
+      "best_bound_squared": "546910774758369616421758238720/13045137860520909"
+    },
+    {
+      "residue": 327,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 327,
+      "best_q": 34615,
+      "best_bound_squared": "166606970000750749316976640/81281243592476433"
+    },
+    {
+      "residue": 328,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 328,
+      "best_q": 83391,
+      "best_bound_squared": "537897575311747798712778752/7802115945287625"
+    },
+    {
+      "residue": 329,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 329,
+      "best_q": 209265,
+      "best_bound_squared": "35613513390168187387752366080/13045137860520909"
+    },
+    {
+      "residue": 330,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 330,
+      "best_q": 140035,
+      "best_bound_squared": "577608271446947145984361431040/1056656166702193629"
+    },
+    {
+      "residue": 331,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 331,
+      "best_q": 52710,
+      "best_bound_squared": "142939372744498875053035520/13045137860520909"
+    },
+    {
+      "residue": 332,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 332,
+      "best_q": 60465,
+      "best_bound_squared": "84775849560484532676508712960/4474482286158671787"
+    },
+    {
+      "residue": 333,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": 1173,
+      "best_q": 58261,
+      "best_bound_squared": "1579046512704110047110749831168/132082020837774203625"
+    },
+    {
+      "residue": 334,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 334,
+      "best_q": 426405,
+      "best_bound_squared": "2467916103984210943391498240/52814323321947"
+    },
+    {
+      "residue": 335,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 335,
+      "best_q": 106995,
+      "best_bound_squared": "2413161760559576513690685440/13045137860520909"
+    },
+    {
+      "residue": 336,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 336,
+      "best_q": 143185,
+      "best_bound_squared": "626045577410542055723993989120/1056656166702193629"
+    },
+    {
+      "residue": 337,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 337,
+      "best_q": 215565,
+      "best_bound_squared": "39650270093074935160352030720/13045137860520909"
+    },
+    {
+      "residue": 338,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 338,
+      "best_q": 86541,
+      "best_bound_squared": "9889941360179496238948089856/125434017889624125"
+    },
+    {
+      "residue": 339,
+      "gcd": 168,
+      "candidate_count": 4,
+      "best_k": 3699,
+      "best_q": 34085,
+      "best_bound_squared": "27662893510378583255700638720/21319592069344259691"
+    },
+    {
+      "residue": 340,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 340,
+      "best_q": 435855,
+      "best_bound_squared": "2671989804145365396363345920/52814323321947"
+    },
+    {
+      "residue": 341,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 341,
+      "best_q": 218715,
+      "best_bound_squared": "41792250487790769710447083520/13045137860520909"
+    },
+    {
+      "residue": 342,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 342,
+      "best_q": 146335,
+      "best_bound_squared": "677455856611165480079474360320/1056656166702193629"
+    },
+    {
+      "residue": 343,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -497,
+      "best_q": 44121,
+      "best_bound_squared": "410536930755341205771726848/148240202960464875"
+    },
+    {
+      "residue": 344,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 344,
+      "best_q": 442155,
+      "best_bound_squared": "695273741564837251093895905280/13045137860520909"
+    },
+    {
+      "residue": 345,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 345,
+      "best_q": 73955,
+      "best_bound_squared": "44019555744794572271828746240/1056656166702193629"
+    },
+    {
+      "residue": 346,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 346,
+      "best_q": 63615,
+      "best_bound_squared": "101919941900541394536866447360/4474482286158671787"
+    },
+    {
+      "residue": 347,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 347,
+      "best_q": 55860,
+      "best_bound_squared": "714288658532734066933760/52814323321947"
+    },
+    {
+      "residue": 348,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -492,
+      "best_q": 58303,
+      "best_bound_squared": "85599770573043947901862608896/10160155449059554125"
+    },
+    {
+      "residue": 349,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 349,
+      "best_q": 225015,
+      "best_bound_squared": "46334414273520940751024046080/13045137860520909"
+    },
+    {
+      "residue": 350,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 350,
+      "best_q": 451605,
+      "best_bound_squared": "4015150628611835263142789120/69760095510807"
+    },
+    {
+      "residue": 351,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 351,
+      "best_q": 37765,
+      "best_bound_squared": "228487404906514082840842240/81281243592476433"
+    },
+    {
+      "residue": 352,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 352,
+      "best_q": 454755,
+      "best_bound_squared": "770069946833221916539115601920/13045137860520909"
+    },
+    {
+      "residue": 353,
+      "gcd": 70,
+      "candidate_count": 4,
+      "best_k": 2033,
+      "best_q": 44319,
+      "best_bound_squared": "11415941379428188327020347392/2990964095025850125"
+    },
+    {
+      "residue": 354,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 354,
+      "best_q": 152635,
+      "best_bound_squared": "789672806451586979612170977280/1056656166702193629"
+    },
+    {
+      "residue": 355,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 355,
+      "best_q": 57435,
+      "best_bound_squared": "195218006043622105718666240/13045137860520909"
+    },
+    {
+      "residue": 356,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 356,
+      "best_q": 461055,
+      "best_bound_squared": "809646346361776988159760465920/13045137860520909"
+    },
+    {
+      "residue": 357,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 357,
+      "best_q": 77105,
+      "best_bound_squared": "51235847921279176008802385920/1056656166702193629"
+    },
+    {
+      "residue": 358,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 358,
+      "best_q": 92841,
+      "best_bound_squared": "165999039029508085739748917248/1630642232565113625"
+    },
+    {
+      "residue": 359,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 359,
+      "best_q": 116445,
+      "best_bound_squared": "172761475047082672322539520/686586203185311"
+    },
+    {
+      "residue": 360,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -480,
+      "best_q": 40745,
+      "best_bound_squared": "724207660504611958770715525120/362433065178852414747"
+    },
+    {
+      "residue": 361,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 361,
+      "best_q": 234465,
+      "best_bound_squared": "4893365726961786138207109120/1185921623683719"
+    },
+    {
+      "residue": 362,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 362,
+      "best_q": 470505,
+      "best_bound_squared": "871837476818180960738177515520/13045137860520909"
+    },
+    {
+      "residue": 363,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": 2883,
+      "best_q": 37009,
+      "best_bound_squared": "14150711318509213418339697664/7769530637516129625"
+    },
+    {
+      "residue": 364,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 364,
+      "best_q": 473655,
+      "best_bound_squared": "68718485385227264168629698560/1003472143116993"
+    },
+    {
+      "residue": 365,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 365,
+      "best_q": 237615,
+      "best_bound_squared": "56514951256139894415353200640/13045137860520909"
+    },
+    {
+      "residue": 366,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 366,
+      "best_q": 158935,
+      "best_bound_squared": "3705413978474065196537282560/4277960189077707"
+    },
+    {
+      "residue": 367,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": 1207,
+      "best_q": 64335,
+      "best_bound_squared": "79282570541362822089923932160/4474482286158671787"
+    },
+    {
+      "residue": 368,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 368,
+      "best_q": 95991,
+      "best_bound_squared": "187506615312949572846488977408/1630642232565113625"
+    },
+    {
+      "residue": 369,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 369,
+      "best_q": 80255,
+      "best_bound_squared": "59302004246793923520393134080/1056656166702193629"
+    },
+    {
+      "residue": 370,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 370,
+      "best_q": 483105,
+      "best_bound_squared": "960232582001543493476061347840/13045137860520909"
+    },
+    {
+      "residue": 371,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 371,
+      "best_q": 60585,
+      "best_bound_squared": "237240044736301811367941120/13045137860520909"
+    },
+    {
+      "residue": 372,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 372,
+      "best_q": 162085,
+      "best_bound_squared": "4704978937653534211866951680/5055771132546381"
+    },
+    {
+      "residue": 373,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 373,
+      "best_q": 48783,
+      "best_bound_squared": "956778186813163437626638336/125434017889624125"
+    },
+    {
+      "residue": 374,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 374,
+      "best_q": 69915,
+      "best_bound_squared": "143837426010352982204777431040/4474482286158671787"
+    },
+    {
+      "residue": 375,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 375,
+      "best_q": 40915,
+      "best_bound_squared": "3979606300794623145752842240/1056656166702193629"
+    },
+    {
+      "residue": 376,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 376,
+      "best_q": 492555,
+      "best_bound_squared": "1030801620541257591508378910720/13045137860520909"
+    },
+    {
+      "residue": 377,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 377,
+      "best_q": 247065,
+      "best_bound_squared": "5014085672778366506589962240/1003472143116993"
+    },
+    {
+      "residue": 378,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -462,
+      "best_q": 55153,
+      "best_bound_squared": "878064093514010501272978915328/132082020837774203625"
+    },
+    {
+      "residue": 379,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 379,
+      "best_q": 62160,
+      "best_bound_squared": "20047815209236165575311360/1003472143116993"
+    },
+    {
+      "residue": 380,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 380,
+      "best_q": 498855,
+      "best_bound_squared": "1079955348638213595633435607040/13045137860520909"
+    },
+    {
+      "residue": 381,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": 1221,
+      "best_q": 43415,
+      "best_bound_squared": "70004895762394887151073443840/19075424483097495513"
+    },
+    {
+      "residue": 382,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 382,
+      "best_q": 502005,
+      "best_bound_squared": "1105179353865917137748534558720/13045137860520909"
+    },
+    {
+      "residue": 383,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -457,
+      "best_q": 40971,
+      "best_bound_squared": "3292509448032779758273466368/1630642232565113625"
+    },
+    {
+      "residue": 384,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 384,
+      "best_q": 168385,
+      "best_bound_squared": "66520084979917275230310563840/62156245100129037"
+    },
+    {
+      "residue": 385,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 385,
+      "best_q": 253365,
+      "best_bound_squared": "3762626127306519000336220160/686586203185311"
+    },
+    {
+      "residue": 386,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 386,
+      "best_q": 508305,
+      "best_bound_squared": "88995896183439234663544586240/1003472143116993"
+    },
+    {
+      "residue": 387,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -453,
+      "best_q": 33880,
+      "best_bound_squared": "6961473774256278045655040/7389203962952403"
+    },
+    {
+      "residue": 388,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": 1228,
+      "best_q": 52413,
+      "best_bound_squared": "4357459244265610919955703988224/559310285769833973375"
+    },
+    {
+      "residue": 389,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 389,
+      "best_q": 256515,
+      "best_bound_squared": "74809148229252765995610030080/13045137860520909"
+    },
+    {
+      "residue": 390,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 390,
+      "best_q": 171535,
+      "best_bound_squared": "93115897480656078505332244480/81281243592476433"
+    },
+    {
+      "residue": 391,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 391,
+      "best_q": 129045,
+      "best_bound_squared": "251682063339358412003962880/686586203185311"
+    },
+    {
+      "residue": 392,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 392,
+      "best_q": 517755,
+      "best_bound_squared": "95228590789274206977416560640/1003472143116993"
+    },
+    {
+      "residue": 393,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": 1233,
+      "best_q": 61411,
+      "best_bound_squared": "102025312446788586844916006912/6951685307251273875"
+    },
+    {
+      "residue": 394,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 394,
+      "best_q": 520905,
+      "best_bound_squared": "115081837450427848654261780480/1185921623683719"
+    },
+    {
+      "residue": 395,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": -1285,
+      "best_q": 37920,
+      "best_bound_squared": "600355719441875249361059840/344190945089128599"
+    },
+    {
+      "residue": 396,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 396,
+      "best_q": 174685,
+      "best_bound_squared": "1294297434836820194452959723520/1056656166702193629"
+    },
+    {
+      "residue": 397,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 397,
+      "best_q": 262815,
+      "best_bound_squared": "4304846808254198799086305280/686586203185311"
+    },
+    {
+      "residue": 398,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 398,
+      "best_q": 105441,
+      "best_bound_squared": "264633710008050478134174220288/1630642232565113625"
+    },
+    {
+      "residue": 399,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 399,
+      "best_q": 44065,
+      "best_bound_squared": "401978200253744007963381760/81281243592476433"
+    },
+    {
+      "residue": 400,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 400,
+      "best_q": 530355,
+      "best_bound_squared": "1352518787325828927830796861440/13045137860520909"
+    },
+    {
+      "residue": 401,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 401,
+      "best_q": 265965,
+      "best_bound_squared": "5027114775284948458393845760/767361050618877"
+    },
+    {
+      "residue": 402,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -438,
+      "best_q": 37595,
+      "best_bound_squared": "513381789289397847732757135360/362433065178852414747"
+    },
+    {
+      "residue": 403,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 1243,
+      "best_q": 46452,
+      "best_bound_squared": "7827654429685391050252238848/1630642232565113625"
+    },
+    {
+      "residue": 404,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 404,
+      "best_q": 536655,
+      "best_bound_squared": "74351457385479918411434885120/686586203185311"
+    },
+    {
+      "residue": 405,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 405,
+      "best_q": 89705,
+      "best_bound_squared": "624136852391978981318574080/7389203962952403"
+    },
+    {
+      "residue": 406,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 406,
+      "best_q": 539805,
+      "best_bound_squared": "1443496958695882851524008017920/13045137860520909"
+    },
+    {
+      "residue": 407,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 407,
+      "best_q": 135345,
+      "best_bound_squared": "5699585470787793805913477120/13045137860520909"
+    },
+    {
+      "residue": 408,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 408,
+      "best_q": 36197,
+      "best_bound_squared": "294963310893578885586635522048/132082020837774203625"
+    },
+    {
+      "residue": 409,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 409,
+      "best_q": 38895,
+      "best_bound_squared": "13309514759298459065180733440/4474482286158671787"
+    },
+    {
+      "residue": 410,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 410,
+      "best_q": 546105,
+      "best_bound_squared": "79296939502019925891831234560/686586203185311"
+    },
+    {
+      "residue": 411,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 1251,
+      "best_q": 77945,
+      "best_bound_squared": "2363715918336702560881832960/62156245100129037"
+    },
+    {
+      "residue": 412,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 412,
+      "best_q": 549255,
+      "best_bound_squared": "118382942187156972172526551040/1003472143116993"
+    },
+    {
+      "residue": 413,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 413,
+      "best_q": 55083,
+      "best_bound_squared": "19441747579613097525166686208/1630642232565113625"
+    },
+    {
+      "residue": 414,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 414,
+      "best_q": 184135,
+      "best_bound_squared": "1571831178305065743295290081280/1056656166702193629"
+    },
+    {
+      "residue": 415,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 415,
+      "best_q": 138495,
+      "best_bound_squared": "6204894716731587268265431040/13045137860520909"
+    },
+    {
+      "residue": 416,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 416,
+      "best_q": 79365,
+      "best_bound_squared": "84400131391509488687841280/1646846627220711"
+    },
+    {
+      "residue": 417,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 417,
+      "best_q": 92855,
+      "best_bound_squared": "101380688717574405071239659520/1056656166702193629"
+    },
+    {
+      "residue": 418,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 418,
+      "best_q": 111741,
+      "best_bound_squared": "1483356106544203841135771648/7378471640566125"
+    },
+    {
+      "residue": 419,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 419,
+      "best_q": 70035,
+      "best_bound_squared": "404360162130040308675015680/13045137860520909"
+    },
+    {
+      "residue": 420,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 420,
+      "best_q": 187285,
+      "best_bound_squared": "1673543890729369402418073763840/1056656166702193629"
+    },
+    {
+      "residue": 421,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 421,
+      "best_q": 281715,
+      "best_bound_squared": "105685199477688435810430238720/13045137860520909"
+    },
+    {
+      "residue": 422,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 422,
+      "best_q": 565005,
+      "best_bound_squared": "1708517822592296142847019909120/13045137860520909"
+    },
+    {
+      "residue": 423,
+      "gcd": 420,
+      "candidate_count": 4,
+      "best_k": -8817,
+      "best_q": 33301,
+      "best_bound_squared": "51007920293579982018694814265344/45304133147356551843375"
+    },
+    {
+      "residue": 424,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 424,
+      "best_q": 568155,
+      "best_bound_squared": "1744035866610710051129662177280/13045137860520909"
+    },
+    {
+      "residue": 425,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 425,
+      "best_q": 284865,
+      "best_bound_squared": "8471157116150763972716871680/1003472143116993"
+    },
+    {
+      "residue": 426,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 426,
+      "best_q": 190435,
+      "best_bound_squared": "1780103624702675594437764382720/1056656166702193629"
+    },
+    {
+      "residue": 427,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 427,
+      "best_q": 71610,
+      "best_bound_squared": "39913561011928753226936320/1185921623683719"
+    },
+    {
+      "residue": 428,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 428,
+      "best_q": 114891,
+      "best_bound_squared": "363345345482747424345411616768/1630642232565113625"
+    },
+    {
+      "residue": 429,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 429,
+      "best_q": 96005,
+      "best_bound_squared": "464384691390368931829104640/4277960189077707"
+    },
+    {
+      "residue": 430,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 430,
+      "best_q": 82515,
+      "best_bound_squared": "264844404845274123391034654720/4474482286158671787"
+    },
+    {
+      "residue": 431,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 431,
+      "best_q": 144795,
+      "best_bound_squared": "562714855742172901906288640/1003472143116993"
+    },
+    {
+      "residue": 432,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 432,
+      "best_q": 193585,
+      "best_bound_squared": "1891661632012724932991984926720/1056656166702193629"
+    },
+    {
+      "residue": 433,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 433,
+      "best_q": 58233,
+      "best_bound_squared": "23884391570916826945937686528/1630642232565113625"
+    },
+    {
+      "residue": 434,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 434,
+      "best_q": 583905,
+      "best_bound_squared": "1929984838129139323798919905280/13045137860520909"
+    },
+    {
+      "residue": 435,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 1275,
+      "best_q": 79520,
+      "best_bound_squared": "43443637002611000329649520640/1056656166702193629"
+    },
+    {
+      "residue": 436,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 436,
+      "best_q": 587055,
+      "best_bound_squared": "1968886197321625912249650053120/13045137860520909"
+    },
+    {
+      "residue": 437,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 437,
+      "best_q": 42045,
+      "best_bound_squared": "17754959709634422071833640960/4474482286158671787"
+    },
+    {
+      "residue": 438,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 438,
+      "best_q": 39347,
+      "best_bound_squared": "2808911165416962875831812096/923650495369050375"
+    },
+    {
+      "residue": 439,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 439,
+      "best_q": 147945,
+      "best_bound_squared": "7923183245653348304828026880/13045137860520909"
+    },
+    {
+      "residue": 440,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 440,
+      "best_q": 593355,
+      "best_bound_squared": "2048446498294070595368744714240/13045137860520909"
+    },
+    {
+      "residue": 441,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 441,
+      "best_q": 99155,
+      "best_bound_squared": "129294185953463464419015147520/1056656166702193629"
+    },
+    {
+      "residue": 442,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 442,
+      "best_q": 596505,
+      "best_bound_squared": "8457963859604679559271874560/52814323321947"
+    },
+    {
+      "residue": 443,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": 1283,
+      "best_q": 48027,
+      "best_bound_squared": "685743089116825460489982976/125434017889624125"
+    },
+    {
+      "residue": 444,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -396,
+      "best_q": 34445,
+      "best_bound_squared": "352269374646453765734269911040/362433065178852414747"
+    },
+    {
+      "residue": 445,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 445,
+      "best_q": 300615,
+      "best_bound_squared": "134453277281603425199980298240/13045137860520909"
+    },
+    {
+      "residue": 446,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": 446,
+      "best_q": 602805,
+      "best_bound_squared": "2172268370289969207244059115520/13045137860520909"
+    },
+    {
+      "residue": 447,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 447,
+      "best_q": 50365,
+      "best_bound_squared": "8568115663177587816600555520/1056656166702193629"
+    },
+    {
+      "residue": 448,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 448,
+      "best_q": 121191,
+      "best_bound_squared": "23313272602552671151404285952/85823275398163875"
+    },
+    {
+      "residue": 449,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": 449,
+      "best_q": 303765,
+      "best_bound_squared": "12705903277117498122859233280/1185921623683719"
+    },
+    {
+      "residue": 450,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": 450,
+      "best_q": 203035,
+      "best_bound_squared": "2257872594228794331758864957440/1056656166702193629"
+    },
+    {
+      "residue": 451,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": 1291,
+      "best_q": 34530,
+      "best_bound_squared": "6532121268829665915646914560/4474482286158671787"
+    },
+    {
+      "residue": 452,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -388,
+      "best_q": 710745,
+      "best_bound_squared": "9253067495494600017702748160/52814323321947"
+    },
+    {
+      "residue": 453,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -1227,
+      "best_q": 67739,
+      "best_bound_squared": "2335663359442413064690759712768/132082020837774203625"
+    },
+    {
+      "residue": 454,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -386,
+      "best_q": 707595,
+      "best_bound_squared": "2242000630478579440952122081280/13045137860520909"
+    },
+    {
+      "residue": 455,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -385,
+      "best_q": 176505,
+      "best_bound_squared": "8673754258551542172427735040/13045137860520909"
+    },
+    {
+      "residue": 456,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -384,
+      "best_q": 234815,
+      "best_bound_squared": "2199116540956563854393917112320/1056656166702193629"
+    },
+    {
+      "residue": 457,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -383,
+      "best_q": 351435,
+      "best_bound_squared": "136119139889207461895076331520/13045137860520909"
+    },
+    {
+      "residue": 458,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": -1222,
+      "best_q": 57837,
+      "best_bound_squared": "404175197152024604101118722048/43023868136141074875"
+    },
+    {
+      "residue": 459,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -1221,
+      "best_q": 84280,
+      "best_bound_squared": "44754216277701972526039367680/1056656166702193629"
+    },
+    {
+      "residue": 460,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -380,
+      "best_q": 698145,
+      "best_bound_squared": "2115193390364494999443411107840/13045137860520909"
+    },
+    {
+      "residue": 461,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -379,
+      "best_q": 348285,
+      "best_bound_squared": "130912041493717127776169246720/13045137860520909"
+    },
+    {
+      "residue": 462,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -378,
+      "best_q": 231665,
+      "best_bound_squared": "2074142488009265829300603781120/1056656166702193629"
+    },
+    {
+      "residue": 463,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": -377,
+      "best_q": 34671,
+      "best_bound_squared": "123428012552632697378000896/125434017889624125"
+    },
+    {
+      "residue": 464,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -376,
+      "best_q": 691845,
+      "best_bound_squared": "184880986770023275683548692480/1185921623683719"
+    },
+    {
+      "residue": 465,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": -1215,
+      "best_q": 47935,
+      "best_bound_squared": "1605571378971555532063153438720/362433065178852414747"
+    },
+    {
+      "residue": 466,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -374,
+      "best_q": 688695,
+      "best_bound_squared": "1993832640673577362683372830720/13045137860520909"
+    },
+    {
+      "residue": 467,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -373,
+      "best_q": 85890,
+      "best_bound_squared": "481963927287804847055851520/13045137860520909"
+    },
+    {
+      "residue": 468,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -372,
+      "best_q": 45703,
+      "best_bound_squared": "390912405234564291032449875968/132082020837774203625"
+    },
+    {
+      "residue": 469,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -371,
+      "best_q": 341985,
+      "best_bound_squared": "120946578599796153343602606080/13045137860520909"
+    },
+    {
+      "residue": 470,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -370,
+      "best_q": 682395,
+      "best_bound_squared": "1915873219149059827108266967040/13045137860520909"
+    },
+    {
+      "residue": 471,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -369,
+      "best_q": 56735,
+      "best_bound_squared": "389955837032373200486625280/55613482458010191"
+    },
+    {
+      "residue": 472,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -368,
+      "best_q": 97035,
+      "best_bound_squared": "20634730290229053598439505920/344190945089128599"
+    },
+    {
+      "residue": 473,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -367,
+      "best_q": 67767,
+      "best_bound_squared": "23236478730991429679715401728/1630642232565113625"
+    },
+    {
+      "residue": 474,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -366,
+      "best_q": 225365,
+      "best_bound_squared": "1840218003394204886931970785280/1056656166702193629"
+    },
+    {
+      "residue": 475,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -365,
+      "best_q": 84315,
+      "best_bound_squared": "40430993847835206337469440/1185921623683719"
+    },
+    {
+      "residue": 476,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -364,
+      "best_q": 672945,
+      "best_bound_squared": "8159457711143230850835742720/59027773124529"
+    },
+    {
+      "residue": 477,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -363,
+      "best_q": 111895,
+      "best_bound_squared": "5871582831213685518601338880/55613482458010191"
+    },
+    {
+      "residue": 478,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -362,
+      "best_q": 133959,
+      "best_bound_squared": "27181865098572035616225427456/125434017889624125"
+    },
+    {
+      "residue": 479,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": -1201,
+      "best_q": 71115,
+      "best_bound_squared": "8719365024600580353197117440/406771116923515617"
+    },
+    {
+      "residue": 480,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -360,
+      "best_q": 222215,
+      "best_bound_squared": "1730955586446260704064272138240/1056656166702193629"
+    },
+    {
+      "residue": 481,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -359,
+      "best_q": 332535,
+      "best_bound_squared": "107076780359600304852384235520/13045137860520909"
+    },
+    {
+      "residue": 482,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -358,
+      "best_q": 663495,
+      "best_bound_squared": "1695637599225839992919965368320/13045137860520909"
+    },
+    {
+      "residue": 483,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": -2877,
+      "best_q": 38591,
+      "best_bound_squared": "1054576923186476363378023424/534745023634713375"
+    },
+    {
+      "residue": 484,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -356,
+      "best_q": 660345,
+      "best_bound_squared": "87413772543123730066426757120/686586203185311"
+    },
+    {
+      "residue": 485,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -355,
+      "best_q": 329385,
+      "best_bound_squared": "7902284871350260947973652480/1003472143116993"
+    },
+    {
+      "residue": 486,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": -1194,
+      "best_q": 94295,
+      "best_bound_squared": "1846180780376384344307485573120/27879466552219416519"
+    },
+    {
+      "residue": 487,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -353,
+      "best_q": 163905,
+      "best_bound_squared": "6287898478527567672767467520/13045137860520909"
+    },
+    {
+      "residue": 488,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -352,
+      "best_q": 130809,
+      "best_bound_squared": "318582762575857912777417228288/1630642232565113625"
+    },
+    {
+      "residue": 489,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -351,
+      "best_q": 108745,
+      "best_bound_squared": "7578158561336505613801308160/81281243592476433"
+    },
+    {
+      "residue": 490,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -350,
+      "best_q": 650895,
+      "best_bound_squared": "82091096243683061387921653760/686586203185311"
+    },
+    {
+      "residue": 491,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -349,
+      "best_q": 81165,
+      "best_bound_squared": "28983899353501954691056640/1003472143116993"
+    },
+    {
+      "residue": 492,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -348,
+      "best_q": 215915,
+      "best_bound_squared": "1527067831263119934741567569920/1056656166702193629"
+    },
+    {
+      "residue": 493,
+      "gcd": 70,
+      "candidate_count": 4,
+      "best_k": -2027,
+      "best_q": 47031,
+      "best_bound_squared": "2389873487885345310132990951424/559310285769833973375"
+    },
+    {
+      "residue": 494,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -346,
+      "best_q": 644595,
+      "best_bound_squared": "1494919372489544967560469217280/13045137860520909"
+    },
+    {
+      "residue": 495,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -345,
+      "best_q": 53585,
+      "best_bound_squared": "5777485938721482984817315840/1056656166702193629"
+    },
+    {
+      "residue": 496,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -344,
+      "best_q": 641445,
+      "best_bound_squared": "77014738560398065535336775680/686586203185311"
+    },
+    {
+      "residue": 497,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -343,
+      "best_q": 319935,
+      "best_bound_squared": "8225281798349251419356446720/1185921623683719"
+    },
+    {
+      "residue": 498,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -342,
+      "best_q": 42553,
+      "best_bound_squared": "22032991087737917380038557696/10160155449059554125"
+    },
+    {
+      "residue": 499,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -341,
+      "best_q": 79590,
+      "best_bound_squared": "345889608354936486609735680/13045137860520909"
+    },
+    {
+      "residue": 500,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -340,
+      "best_q": 90735,
+      "best_bound_squared": "200215310607002695009415659520/4474482286158671787"
+    },
+    {
+      "residue": 501,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -339,
+      "best_q": 105595,
+      "best_bound_squared": "86648360634797757934847672320/1056656166702193629"
+    },
+    {
+      "residue": 502,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -338,
+      "best_q": 631995,
+      "best_bound_squared": "105489458423575044381361111040/1003472143116993"
+    },
+    {
+      "residue": 503,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 503,
+      "best_q": 34629,
+      "best_bound_squared": "12893290498621940730810368/7378471640566125"
+    },
+    {
+      "residue": 504,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -336,
+      "best_q": 209615,
+      "best_bound_squared": "103208190101812636373685698560/81281243592476433"
+    },
+    {
+      "residue": 505,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -335,
+      "best_q": 313635,
+      "best_bound_squared": "82941217166241804129625456640/13045137860520909"
+    },
+    {
+      "residue": 506,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -334,
+      "best_q": 625695,
+      "best_bound_squared": "1312532433175994342030589624320/13045137860520909"
+    },
+    {
+      "residue": 507,
+      "gcd": 168,
+      "candidate_count": 4,
+      "best_k": -3693,
+      "best_q": 35215,
+      "best_bound_squared": "500340248657871624959241333760/362433065178852414747"
+    },
+    {
+      "residue": 508,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -332,
+      "best_q": 124509,
+      "best_bound_squared": "23342465403035546464067452928/148240202960464875"
+    },
+    {
+      "residue": 509,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -331,
+      "best_q": 310485,
+      "best_bound_squared": "4176527953369926254171832320/686586203185311"
+    },
+    {
+      "residue": 510,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -330,
+      "best_q": 206465,
+      "best_bound_squared": "73859455531006798009954795520/62156245100129037"
+    },
+    {
+      "residue": 511,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -329,
+      "best_q": 154455,
+      "best_bound_squared": "373099064855560813058723840/1003472143116993"
+    },
+    {
+      "residue": 512,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -328,
+      "best_q": 616245,
+      "best_bound_squared": "1227852683114624908583078789120/13045137860520909"
+    },
+    {
+      "residue": 513,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -1167,
+      "best_q": 64589,
+      "best_bound_squared": "101099453050198342908800909312/6951685307251273875"
+    },
+    {
+      "residue": 514,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -326,
+      "best_q": 87585,
+      "best_bound_squared": "171508036059301714166449111040/4474482286158671787"
+    },
+    {
+      "residue": 515,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -325,
+      "best_q": 76440,
+      "best_bound_squared": "1173337415285731281797120/52814323321947"
+    },
+    {
+      "residue": 516,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -324,
+      "best_q": 203315,
+      "best_bound_squared": "1173716318541685636099286302720/1056656166702193629"
+    },
+    {
+      "residue": 517,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -323,
+      "best_q": 304185,
+      "best_bound_squared": "5579163180572970860846858240/1003472143116993"
+    },
+    {
+      "residue": 518,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -322,
+      "best_q": 121359,
+      "best_bound_squared": "229465555346986899870666784768/1630642232565113625"
+    },
+    {
+      "residue": 519,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -321,
+      "best_q": 50435,
+      "best_bound_squared": "402805820471261588606382080/96059651518381239"
+    },
+    {
+      "residue": 520,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -320,
+      "best_q": 603645,
+      "best_bound_squared": "1121385550862927150679081943040/13045137860520909"
+    },
+    {
+      "residue": 521,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -319,
+      "best_q": 43005,
+      "best_bound_squared": "9898037749455806719567708160/4474482286158671787"
+    },
+    {
+      "residue": 522,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -318,
+      "best_q": 200165,
+      "best_bound_squared": "57678136495853264926962810880/55613482458010191"
+    },
+    {
+      "residue": 523,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -1157,
+      "best_q": 48048,
+      "best_bound_squared": "50741393979981528594907136/11403092535420375"
+    },
+    {
+      "residue": 524,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -316,
+      "best_q": 597345,
+      "best_bound_squared": "82370760425601344113284546560/1003472143116993"
+    },
+    {
+      "residue": 525,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -315,
+      "best_q": 99295,
+      "best_bound_squared": "66153097787493017755519959040/1056656166702193629"
+    },
+    {
+      "residue": 526,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -314,
+      "best_q": 594195,
+      "best_bound_squared": "1046186436948251677363997573120/13045137860520909"
+    },
+    {
+      "residue": 527,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -313,
+      "best_q": 148155,
+      "best_bound_squared": "237598778324854069558005760/767361050618877"
+    },
+    {
+      "residue": 528,
+      "gcd": 105,
+      "candidate_count": 4,
+      "best_k": -2832,
+      "best_q": 43429,
+      "best_bound_squared": "11015500851001651745709515276288/3484933319027427064875"
+    },
+    {
+      "residue": 529,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -311,
+      "best_q": 294735,
+      "best_bound_squared": "63127126846609836898496430080/13045137860520909"
+    },
+    {
+      "residue": 530,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -310,
+      "best_q": 587895,
+      "best_bound_squared": "6980374124685584717300039680/91224740283363"
+    },
+    {
+      "residue": 531,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -1149,
+      "best_q": 79555,
+      "best_bound_squared": "35312511655031699227239224320/1056656166702193629"
+    },
+    {
+      "residue": 532,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -308,
+      "best_q": 584745,
+      "best_bound_squared": "974824173934807171019751096320/13045137860520909"
+    },
+    {
+      "residue": 533,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -307,
+      "best_q": 58317,
+      "best_bound_squared": "12041176985255017960344076288/1630642232565113625"
+    },
+    {
+      "residue": 534,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -306,
+      "best_q": 193865,
+      "best_bound_squared": "50098233295801901986892677120/55613482458010191"
+    },
+    {
+      "residue": 535,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": -1145,
+      "best_q": 67965,
+      "best_bound_squared": "79625235474124697014315397120/4474482286158671787"
+    },
+    {
+      "residue": 536,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -304,
+      "best_q": 578445,
+      "best_bound_squared": "929315428774233130791072235520/13045137860520909"
+    },
+    {
+      "residue": 537,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -303,
+      "best_q": 96145,
+      "best_bound_squared": "4414379550515587968075120640/81281243592476433"
+    },
+    {
+      "residue": 538,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -302,
+      "best_q": 115059,
+      "best_bound_squared": "181433268782437129589518041088/1630642232565113625"
+    },
+    {
+      "residue": 539,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -301,
+      "best_q": 71715,
+      "best_bound_squared": "218808843542854089675207680/13045137860520909"
+    },
+    {
+      "residue": 540,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -300,
+      "best_q": 190715,
+      "best_bound_squared": "885414388176961068811987517440/1056656166702193629"
+    },
+    {
+      "residue": 541,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -299,
+      "best_q": 285285,
+      "best_bound_squared": "20120671805515733217525760/4801302120177"
+    },
+    {
+      "residue": 542,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -298,
+      "best_q": 81285,
+      "best_bound_squared": "123436400048415236394243522560/4474482286158671787"
+    },
+    {
+      "residue": 543,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": 1383,
+      "best_q": 34643,
+      "best_bound_squared": "194025328258369043401132740608/132082020837774203625"
+    },
+    {
+      "residue": 544,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -296,
+      "best_q": 565845,
+      "best_bound_squared": "49593108693873502879420579840/767361050618877"
+    },
+    {
+      "residue": 545,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -295,
+      "best_q": 282135,
+      "best_bound_squared": "52046297728099531190563389440/13045137860520909"
+    },
+    {
+      "residue": 546,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -294,
+      "best_q": 187565,
+      "best_bound_squared": "822493826573096776326699089920/1056656166702193629"
+    },
+    {
+      "residue": 547,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -293,
+      "best_q": 70140,
+      "best_bound_squared": "10438186845222161421025280/686586203185311"
+    },
+    {
+      "residue": 548,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -292,
+      "best_q": 111909,
+      "best_bound_squared": "160456612264687048723339214848/1630642232565113625"
+    },
+    {
+      "residue": 549,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": -1131,
+      "best_q": 44785,
+      "best_bound_squared": "93415433331875132827651194880/27879466552219416519"
+    },
+    {
+      "residue": 550,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -290,
+      "best_q": 556395,
+      "best_bound_squared": "60188146563625518410111713280/1003472143116993"
+    },
+    {
+      "residue": 551,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -289,
+      "best_q": 138705,
+      "best_bound_squared": "3018226509870699802473451520/13045137860520909"
+    },
+    {
+      "residue": 552,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -288,
+      "best_q": 184415,
+      "best_bound_squared": "69361612771993903069658808320/96059651518381239"
+    },
+    {
+      "residue": 553,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -287,
+      "best_q": 55167,
+      "best_bound_squared": "495645127916937603714629632/85823275398163875"
+    },
+    {
+      "residue": 554,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -286,
+      "best_q": 550095,
+      "best_bound_squared": "57221075181005029153871298560/1003472143116993"
+    },
+    {
+      "residue": 555,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": -1125,
+      "best_q": 77980,
+      "best_bound_squared": "32525584031639819394172272640/1056656166702193629"
+    },
+    {
+      "residue": 556,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -284,
+      "best_q": 78135,
+      "best_bound_squared": "7968462143661928669196779520/344190945089128599"
+    },
+    {
+      "residue": 557,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -283,
+      "best_q": 272685,
+      "best_bound_squared": "44743226051351999771949547520/13045137860520909"
+    },
+    {
+      "residue": 558,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": -282,
+      "best_q": 36253,
+      "best_bound_squared": "141348288288525927820633899008/132082020837774203625"
+    },
+    {
+      "residue": 559,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -281,
+      "best_q": 135555,
+      "best_bound_squared": "2725308464386896320849530880/13045137860520909"
+    },
+    {
+      "residue": 560,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -280,
+      "best_q": 540645,
+      "best_bound_squared": "36247559625205998265803407360/686586203185311"
+    },
+    {
+      "residue": 561,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -279,
+      "best_q": 89845,
+      "best_bound_squared": "2499319415277526367827804160/62156245100129037"
+    },
+    {
+      "residue": 562,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -278,
+      "best_q": 537495,
+      "best_bound_squared": "671012154427234571953310597120/13045137860520909"
+    },
+    {
+      "residue": 563,
+      "gcd": 280,
+      "candidate_count": 4,
+      "best_k": -6157,
+      "best_q": 34989,
+      "best_bound_squared": "762746577322452768052898520064/559310285769833973375"
+    },
+    {
+      "residue": 564,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -276,
+      "best_q": 178115,
+      "best_bound_squared": "653662559760217414811392737280/1056656166702193629"
+    },
+    {
+      "residue": 565,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -275,
+      "best_q": 266385,
+      "best_bound_squared": "40319661699779957403818147840/13045137860520909"
+    },
+    {
+      "residue": 566,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -274,
+      "best_q": 531195,
+      "best_bound_squared": "33507917430419386231977082880/686586203185311"
+    },
+    {
+      "residue": 567,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -273,
+      "best_q": 44135,
+      "best_bound_squared": "188782915854940335495024640/81281243592476433"
+    },
+    {
+      "residue": 568,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -272,
+      "best_q": 105609,
+      "best_bound_squared": "123994275921614613461769453568/1630642232565113625"
+    },
+    {
+      "residue": 569,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -271,
+      "best_q": 263235,
+      "best_bound_squared": "2941131701660842201208668160/1003472143116993"
+    },
+    {
+      "residue": 570,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 570,
+      "best_q": 38005,
+      "best_bound_squared": "80773568826639296435607633920/32948460470804764977"
+    },
+    {
+      "residue": 571,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -269,
+      "best_q": 65415,
+      "best_bound_squared": "145402292726056174237291520/13045137860520909"
+    },
+    {
+      "residue": 572,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -268,
+      "best_q": 521745,
+      "best_bound_squared": "30926057597530855169193082880/686586203185311"
+    },
+    {
+      "residue": 573,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -1107,
+      "best_q": 61439,
+      "best_bound_squared": "1563965278373983628068306239488/132082020837774203625"
+    },
+    {
+      "residue": 574,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -266,
+      "best_q": 518595,
+      "best_bound_squared": "51989929605505959843008020480/1185921623683719"
+    },
+    {
+      "residue": 575,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -265,
+      "best_q": 129255,
+      "best_bound_squared": "2203730410079144619994173440/13045137860520909"
+    },
+    {
+      "residue": 576,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -264,
+      "best_q": 171815,
+      "best_bound_squared": "42807627997349260749567754240/81281243592476433"
+    },
+    {
+      "residue": 577,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -263,
+      "best_q": 36705,
+      "best_bound_squared": "4901082435438710244127784960/4474482286158671787"
+    },
+    {
+      "residue": 578,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -262,
+      "best_q": 102459,
+      "best_bound_squared": "6369654862741127954298896384/95920131327359625"
+    },
+    {
+      "residue": 579,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 579,
+      "best_q": 33845,
+      "best_bound_squared": "1622926795422362751409607680/1056656166702193629"
+    },
+    {
+      "residue": 580,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -260,
+      "best_q": 509145,
+      "best_bound_squared": "40511500496569002512076308480/1003472143116993"
+    },
+    {
+      "residue": 581,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -259,
+      "best_q": 253785,
+      "best_bound_squared": "32461116990245255293073899520/13045137860520909"
+    },
+    {
+      "residue": 582,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -258,
+      "best_q": 168665,
+      "best_bound_squared": "39398577280976058186456432640/81281243592476433"
+    },
+    {
+      "residue": 583,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 583,
+      "best_q": 40929,
+      "best_bound_squared": "5347362592334100950294007808/1630642232565113625"
+    },
+    {
+      "residue": 584,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -256,
+      "best_q": 71835,
+      "best_bound_squared": "71144642553185118036427735040/4474482286158671787"
+    },
+    {
+      "residue": 585,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -255,
+      "best_q": 83545,
+      "best_bound_squared": "146841754015210642795151360/5055771132546381"
+    },
+    {
+      "residue": 586,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -254,
+      "best_q": 499695,
+      "best_bound_squared": "484138354689122902772904427520/13045137860520909"
+    },
+    {
+      "residue": 587,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -253,
+      "best_q": 62265,
+      "best_bound_squared": "116530901783197797890462720/13045137860520909"
+    },
+    {
+      "residue": 588,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 588,
+      "best_q": 55097,
+      "best_bound_squared": "83495753566559467980276957184/7769530637516129625"
+    },
+    {
+      "residue": 589,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -251,
+      "best_q": 247485,
+      "best_bound_squared": "2230149240948046859507548160/1003472143116993"
+    },
+    {
+      "residue": 590,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -250,
+      "best_q": 493395,
+      "best_bound_squared": "457258276551455127280036413440/13045137860520909"
+    },
+    {
+      "residue": 591,
+      "gcd": 84,
+      "candidate_count": 4,
+      "best_k": -1929,
+      "best_q": 37355,
+      "best_bound_squared": "614431463143151260765324226560/362433065178852414747"
+    },
+    {
+      "residue": 592,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -248,
+      "best_q": 490245,
+      "best_bound_squared": "444244221884169005434558545920/13045137860520909"
+    },
+    {
+      "residue": 593,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -247,
+      "best_q": 48867,
+      "best_bound_squared": "421001854378680336563716096/125434017889624125"
+    },
+    {
+      "residue": 594,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -246,
+      "best_q": 162365,
+      "best_bound_squared": "431508791388520350606531297280/1056656166702193629"
+    },
+    {
+      "residue": 595,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -245,
+      "best_q": 60690,
+      "best_bound_squared": "469771096342634423357440/59027773124529"
+    },
+    {
+      "residue": 596,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -244,
+      "best_q": 483945,
+      "best_bound_squared": "38095272434255748394411294720/1185921623683719"
+    },
+    {
+      "residue": 597,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -243,
+      "best_q": 80395,
+      "best_bound_squared": "25807459338459956332617809920/1056656166702193629"
+    },
+    {
+      "residue": 598,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": -1082,
+      "best_q": 51537,
+      "best_bound_squared": "3270784323014611621918767775744/559310285769833973375"
+    },
+    {
+      "residue": 599,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -241,
+      "best_q": 119805,
+      "best_bound_squared": "1565871457862292420658810880/13045137860520909"
+    },
+    {
+      "residue": 600,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -240,
+      "best_q": 159215,
+      "best_bound_squared": "394934505191839292572687728640/1056656166702193629"
+    },
+    {
+      "residue": 601,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -239,
+      "best_q": 238035,
+      "best_bound_squared": "24316976713753788204795576320/13045137860520909"
+    },
+    {
+      "residue": 602,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -238,
+      "best_q": 474495,
+      "best_bound_squared": "29482613444660001467679703040/1003472143116993"
+    },
+    {
+      "residue": 603,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": -2757,
+      "best_q": 37016,
+      "best_bound_squared": "11583034161582016359258324992/6951685307251273875"
+    },
+    {
+      "residue": 604,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -236,
+      "best_q": 471345,
+      "best_bound_squared": "19572232283014598850366341120/686586203185311"
+    },
+    {
+      "residue": 605,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": -235,
+      "best_q": 33555,
+      "best_bound_squared": "3270245922552510705773035520/4474482286158671787"
+    },
+    {
+      "residue": 606,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -234,
+      "best_q": 156065,
+      "best_bound_squared": "27748151987048834482036080640/81281243592476433"
+    },
+    {
+      "residue": 607,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -233,
+      "best_q": 116655,
+      "best_bound_squared": "126153137330893108008939520/1185921623683719"
+    },
+    {
+      "residue": 608,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -232,
+      "best_q": 93009,
+      "best_bound_squared": "5382013009551319840842121216/125434017889624125"
+    },
+    {
+      "residue": 609,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -231,
+      "best_q": 77245,
+      "best_bound_squared": "21529770995653055770668974080/1056656166702193629"
+    },
+    {
+      "residue": 610,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -230,
+      "best_q": 461895,
+      "best_bound_squared": "17851749202607549702742671360/686586203185311"
+    },
+    {
+      "residue": 611,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -229,
+      "best_q": 57540,
+      "best_bound_squared": "81531023770567891235717120/13045137860520909"
+    },
+    {
+      "residue": 612,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 612,
+      "best_q": 41155,
+      "best_bound_squared": "1201099167815854638221697679360/362433065178852414747"
+    },
+    {
+      "residue": 613,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -227,
+      "best_q": 45717,
+      "best_bound_squared": "4045846275888370342148128768/1630642232565113625"
+    },
+    {
+      "residue": 614,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -226,
+      "best_q": 455595,
+      "best_bound_squared": "318615563181531270715382497280/13045137860520909"
+    },
+    {
+      "residue": 615,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -225,
+      "best_q": 37835,
+      "best_bound_squared": "94237531768113723987988480/81281243592476433"
+    },
+    {
+      "residue": 616,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -224,
+      "best_q": 452445,
+      "best_bound_squared": "308688069631537335361807646720/13045137860520909"
+    },
+    {
+      "residue": 617,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -223,
+      "best_q": 225435,
+      "best_bound_squared": "999380909949761345250836480/686586203185311"
+    },
+    {
+      "residue": 618,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 618,
+      "best_q": 58247,
+      "best_bound_squared": "1752374211225689958501289361408/132082020837774203625"
+    },
+    {
+      "residue": 619,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": 1459,
+      "best_q": 39255,
+      "best_bound_squared": "10782244432351164143773322240/4474482286158671787"
+    },
+    {
+      "residue": 620,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -220,
+      "best_q": 446145,
+      "best_bound_squared": "289527400172487613415310295040/13045137860520909"
+    },
+    {
+      "residue": 621,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -219,
+      "best_q": 74095,
+      "best_bound_squared": "1369611694750406300065546240/81281243592476433"
+    },
+    {
+      "residue": 622,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -218,
+      "best_q": 442995,
+      "best_bound_squared": "280286963375037010506720542720/13045137860520909"
+    },
+    {
+      "residue": 623,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 623,
+      "best_q": 44079,
+      "best_bound_squared": "7082390211619811806572187648/1630642232565113625"
+    },
+    {
+      "residue": 624,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -216,
+      "best_q": 146615,
+      "best_bound_squared": "271268332319172505070738145280/1056656166702193629"
+    },
+    {
+      "residue": 625,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -215,
+      "best_q": 219135,
+      "best_bound_squared": "16677567542342567101074391040/13045137860520909"
+    },
+    {
+      "residue": 626,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -214,
+      "best_q": 62385,
+      "best_bound_squared": "37495421161342341915635548160/4474482286158671787"
+    },
+    {
+      "residue": 627,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 627,
+      "best_q": 36995,
+      "best_bound_squared": "2273913567903692232738411520/1056656166702193629"
+    },
+    {
+      "residue": 628,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -212,
+      "best_q": 86709,
+      "best_bound_squared": "3905881239349090055521632256/125434017889624125"
+    },
+    {
+      "residue": 629,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -211,
+      "best_q": 215985,
+      "best_bound_squared": "4391867262329994177167360/3671583974253"
+    },
+    {
+      "residue": 630,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -210,
+      "best_q": 143465,
+      "best_bound_squared": "245507827983517945539131146240/1056656166702193629"
+    },
+    {
+      "residue": 631,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -209,
+      "best_q": 107205,
+      "best_bound_squared": "942963753484041610499870720/13045137860520909"
+    },
+    {
+      "residue": 632,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -208,
+      "best_q": 427245,
+      "best_bound_squared": "18257009031832277758008688640/1003472143116993"
+    },
+    {
+      "residue": 633,
+      "gcd": 210,
+      "candidate_count": 4,
+      "best_k": -4407,
+      "best_q": 33527,
+      "best_bound_squared": "3974418080776541049603871981568/3484933319027427064875"
+    },
+    {
+      "residue": 634,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -206,
+      "best_q": 424095,
+      "best_bound_squared": "17644515729462897922446786560/1003472143116993"
+    },
+    {
+      "residue": 635,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -205,
+      "best_q": 52815,
+      "best_bound_squared": "55047129173775928434775040/13045137860520909"
+    },
+    {
+      "residue": 636,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -204,
+      "best_q": 140315,
+      "best_bound_squared": "11664061760684938798639022080/55613482458010191"
+    },
+    {
+      "residue": 637,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -203,
+      "best_q": 209685,
+      "best_bound_squared": "13613167441280126286825144320/13045137860520909"
+    },
+    {
+      "residue": 638,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -202,
+      "best_q": 83559,
+      "best_bound_squared": "42810627442637938081400946688/1630642232565113625"
+    },
+    {
+      "residue": 639,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": -201,
+      "best_q": 34685,
+      "best_bound_squared": "821656753888098736453242880/1056656166702193629"
+    },
+    {
+      "residue": 640,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -200,
+      "best_q": 59235,
+      "best_bound_squared": "2684197886758528590652702720/406771116923515617"
+    },
+    {
+      "residue": 641,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -199,
+      "best_q": 206535,
+      "best_bound_squared": "976298301591352790284451840/1003472143116993"
+    },
+    {
+      "residue": 642,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -198,
+      "best_q": 137165,
+      "best_bound_squared": "10500218094684537945669959680/55613482458010191"
+    },
+    {
+      "residue": 643,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -1037,
+      "best_q": 43323,
+      "best_bound_squared": "4738879593566060196393223168/1630642232565113625"
+    },
+    {
+      "residue": 644,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -196,
+      "best_q": 408345,
+      "best_bound_squared": "192512555540809481227213537280/13045137860520909"
+    },
+    {
+      "residue": 645,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -195,
+      "best_q": 67795,
+      "best_bound_squared": "909067558002082593430650880/81281243592476433"
+    },
+    {
+      "residue": 646,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -194,
+      "best_q": 405195,
+      "best_bound_squared": "10923835288536329200027893760/767361050618877"
+    },
+    {
+      "residue": 647,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": -1033,
+      "best_q": 61665,
+      "best_bound_squared": "53351576731464881796344360960/4474482286158671787"
+    },
+    {
+      "residue": 648,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 648,
+      "best_q": 61397,
+      "best_bound_squared": "2140657153098707804706447884288/132082020837774203625"
+    },
+    {
+      "residue": 649,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -191,
+      "best_q": 200235,
+      "best_bound_squared": "10989532140949145680408494080/13045137860520909"
+    },
+    {
+      "residue": 650,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -190,
+      "best_q": 398895,
+      "best_bound_squared": "172630239235852256975215984640/13045137860520909"
+    },
+    {
+      "residue": 651,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 651,
+      "best_q": 38570,
+      "best_bound_squared": "140236311516686251843809280/55613482458010191"
+    },
+    {
+      "residue": 652,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -188,
+      "best_q": 395745,
+      "best_bound_squared": "166356232138280439580062187520/13045137860520909"
+    },
+    {
+      "residue": 653,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -187,
+      "best_q": 39417,
+      "best_bound_squared": "2041046381716848205195460608/1630642232565113625"
+    },
+    {
+      "residue": 654,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 654,
+      "best_q": 44305,
+      "best_bound_squared": "1589614520382077955613033431040/362433065178852414747"
+    },
+    {
+      "residue": 655,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -185,
+      "best_q": 97755,
+      "best_bound_squared": "32332580354355147314524160/686586203185311"
+    },
+    {
+      "residue": 656,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -184,
+      "best_q": 389445,
+      "best_bound_squared": "154319373963361715812875960320/13045137860520909"
+    },
+    {
+      "residue": 657,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -183,
+      "best_q": 64645,
+      "best_bound_squared": "9463398511542680390121963520/1056656166702193629"
+    },
+    {
+      "residue": 658,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -182,
+      "best_q": 77259,
+      "best_bound_squared": "2285389116721472882277154816/125434017889624125"
+    },
+    {
+      "residue": 659,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -181,
+      "best_q": 48090,
+      "best_bound_squared": "35577817392228161930055680/13045137860520909"
+    },
+    {
+      "residue": 660,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -180,
+      "best_q": 127715,
+      "best_bound_squared": "10995641322883007903105351680/81281243592476433"
+    },
+    {
+      "residue": 661,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 661,
+      "best_q": 67245,
+      "best_bound_squared": "103908544602355219095290101760/4474482286158671787"
+    },
+    {
+      "residue": 662,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -178,
+      "best_q": 379995,
+      "best_bound_squared": "12499587655841089127585873920/1185921623683719"
+    },
+    {
+      "residue": 663,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": 1503,
+      "best_q": 37793,
+      "best_bound_squared": "272724273438587243627913187328/132082020837774203625"
+    },
+    {
+      "residue": 664,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -176,
+      "best_q": 376845,
+      "best_bound_squared": "132203658683834420534713057280/13045137860520909"
+    },
+    {
+      "residue": 665,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -175,
+      "best_q": 187635,
+      "best_bound_squared": "8100959179270282649245859840/13045137860520909"
+    },
+    {
+      "residue": 666,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -174,
+      "best_q": 124565,
+      "best_bound_squared": "127064934280326355115615518720/1056656166702193629"
+    },
+    {
+      "residue": 667,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -173,
+      "best_q": 46515,
+      "best_bound_squared": "123110185608301712092160/52814323321947"
+    },
+    {
+      "residue": 668,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": -1012,
+      "best_q": 48387,
+      "best_bound_squared": "194014506581508303119496183808/43023868136141074875"
+    },
+    {
+      "residue": 669,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -171,
+      "best_q": 61495,
+      "best_bound_squared": "7477338290659495741697966080/1056656166702193629"
+    },
+    {
+      "residue": 670,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -170,
+      "best_q": 367395,
+      "best_bound_squared": "117234926687837844471923671040/13045137860520909"
+    },
+    {
+      "residue": 671,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -169,
+      "best_q": 91455,
+      "best_bound_squared": "34515779373900699879280640/1003472143116993"
+    },
+    {
+      "residue": 672,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -168,
+      "best_q": 121415,
+      "best_bound_squared": "112537813984456672130049310720/1056656166702193629"
+    },
+    {
+      "residue": 673,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": -167,
+      "best_q": 36267,
+      "best_bound_squared": "9636579483373640905834496/11403092535420375"
+    },
+    {
+      "residue": 674,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -166,
+      "best_q": 361095,
+      "best_bound_squared": "5683269651535975789644677120/686586203185311"
+    },
+    {
+      "residue": 675,
+      "gcd": 168,
+      "candidate_count": 4,
+      "best_k": -3525,
+      "best_q": 33640,
+      "best_bound_squared": "415988821451002084729434603520/362433065178852414747"
+    },
+    {
+      "residue": 676,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -164,
+      "best_q": 357945,
+      "best_bound_squared": "103565011683517788992801669120/13045137860520909"
+    },
+    {
+      "residue": 677,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -163,
+      "best_q": 178185,
+      "best_bound_squared": "6337971391137984725822750720/13045137860520909"
+    },
+    {
+      "residue": 678,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 678,
+      "best_q": 64547,
+      "best_bound_squared": "199237454121592405687278043136/10160155449059554125"
+    },
+    {
+      "residue": 679,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -161,
+      "best_q": 88305,
+      "best_bound_squared": "379660275668463210428026880/13045137860520909"
+    },
+    {
+      "residue": 680,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -160,
+      "best_q": 351645,
+      "best_bound_squared": "22656655252299405297909760/3106724901291"
+    },
+    {
+      "residue": 681,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -159,
+      "best_q": 58345,
+      "best_bound_squared": "5819382191726601518774763520/1056656166702193629"
+    },
+    {
+      "residue": 682,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -158,
+      "best_q": 49785,
+      "best_bound_squared": "13016735368765208347412725760/4474482286158671787"
+    },
+    {
+      "residue": 683,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -997,
+      "best_q": 41748,
+      "best_bound_squared": "4067642671339049800163934208/1630642232565113625"
+    },
+    {
+      "residue": 684,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -156,
+      "best_q": 115115,
+      "best_bound_squared": "609975469851127808244776960/7389203962952403"
+    },
+    {
+      "residue": 685,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -155,
+      "best_q": 171885,
+      "best_bound_squared": "5333008079347496753118986240/13045137860520909"
+    },
+    {
+      "residue": 686,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -154,
+      "best_q": 342195,
+      "best_bound_squared": "337897284110803267645276160/52814323321947"
+    },
+    {
+      "residue": 687,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 687,
+      "best_q": 81865,
+      "best_bound_squared": "53471559397326742089714257920/1056656166702193629"
+    },
+    {
+      "residue": 688,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -152,
+      "best_q": 67809,
+      "best_bound_squared": "15963377423541296325023039488/1630642232565113625"
+    },
+    {
+      "residue": 689,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 689,
+      "best_q": 70395,
+      "best_bound_squared": "500902827902243499112939520/18115312899427821"
+    },
+    {
+      "residue": 690,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -150,
+      "best_q": 111965,
+      "best_bound_squared": "76292623219584013518252605440/1056656166702193629"
+    },
+    {
+      "residue": 691,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -149,
+      "best_q": 41790,
+      "best_bound_squared": "18206659554292576071864320/13045137860520909"
+    },
+    {
+      "residue": 692,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -148,
+      "best_q": 332745,
+      "best_bound_squared": "72885223312339397960816721920/13045137860520909"
+    },
+    {
+      "residue": 693,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": -987,
+      "best_q": 55139,
+      "best_bound_squared": "1001372591246308066864503799808/132082020837774203625"
+    },
+    {
+      "residue": 694,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -146,
+      "best_q": 329595,
+      "best_bound_squared": "69592101854790911909796577280/13045137860520909"
+    },
+    {
+      "residue": 695,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -145,
+      "best_q": 82005,
+      "best_bound_squared": "24143322226867883229245440/1185921623683719"
+    },
+    {
+      "residue": 696,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 696,
+      "best_q": 47455,
+      "best_bound_squared": "2065443438758770301088375439360/362433065178852414747"
+    },
+    {
+      "residue": 697,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -143,
+      "best_q": 162435,
+      "best_bound_squared": "18343073060167471176171520/59027773124529"
+    },
+    {
+      "residue": 698,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -142,
+      "best_q": 64659,
+      "best_bound_squared": "12667699052290969014959669248/1630642232565113625"
+    },
+    {
+      "residue": 699,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 699,
+      "best_q": 41720,
+      "best_bound_squared": "3594146793666899863470407680/1056656166702193629"
+    },
+    {
+      "residue": 700,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -140,
+      "best_q": 320145,
+      "best_bound_squared": "60372982180703227124637040640/13045137860520909"
+    },
+    {
+      "residue": 701,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -139,
+      "best_q": 159285,
+      "best_bound_squared": "3683091401339587075114680320/13045137860520909"
+    },
+    {
+      "residue": 702,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -138,
+      "best_q": 105665,
+      "best_bound_squared": "57511691659719664348525035520/1056656166702193629"
+    },
+    {
+      "residue": 703,
+      "gcd": 140,
+      "candidate_count": 4,
+      "best_k": 3223,
+      "best_q": 35547,
+      "best_bound_squared": "50759383482191680185416609792/32900605045284351375"
+    },
+    {
+      "residue": 704,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -136,
+      "best_q": 313845,
+      "best_bound_squared": "54752181294721842623290081280/13045137860520909"
+    },
+    {
+      "residue": 705,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -135,
+      "best_q": 52045,
+      "best_bound_squared": "175690257392638623903170560/55613482458010191"
+    },
+    {
+      "residue": 706,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -134,
+      "best_q": 310695,
+      "best_bound_squared": "364279981184666640627466240/91224740283363"
+    },
+    {
+      "residue": 707,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -133,
+      "best_q": 38640,
+      "best_bound_squared": "12401972956997884262481920/13045137860520909"
+    },
+    {
+      "residue": 708,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 708,
+      "best_q": 67697,
+      "best_bound_squared": "163513872801874221500717268992/6951685307251273875"
+    },
+    {
+      "residue": 709,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -131,
+      "best_q": 152985,
+      "best_bound_squared": "3017682725507435297468334080/13045137860520909"
+    },
+    {
+      "residue": 710,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -130,
+      "best_q": 43485,
+      "best_bound_squared": "517146555055141860226826240/344190945089128599"
+    },
+    {
+      "residue": 711,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 711,
+      "best_q": 85015,
+      "best_bound_squared": "4751161862144210840411607040/81281243592476433"
+    },
+    {
+      "residue": 712,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -128,
+      "best_q": 301245,
+      "best_bound_squared": "180907268343066988690472960/52814323321947"
+    },
+    {
+      "residue": 713,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 713,
+      "best_q": 102333,
+      "best_bound_squared": "18181015327914426075112521728/148240202960464875"
+    },
+    {
+      "residue": 714,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -126,
+      "best_q": 99365,
+      "best_bound_squared": "2493991270631151783940259840/62156245100129037"
+    },
+    {
+      "residue": 715,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": -125,
+      "best_q": 37065,
+      "best_bound_squared": "10080021520699369783792640/13045137860520909"
+    },
+    {
+      "residue": 716,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -124,
+      "best_q": 294945,
+      "best_bound_squared": "40199334831090988222588190720/13045137860520909"
+    },
+    {
+      "residue": 717,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": -963,
+      "best_q": 38485,
+      "best_bound_squared": "650140503984647608746636328960/362433065178852414747"
+    },
+    {
+      "residue": 718,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -122,
+      "best_q": 58359,
+      "best_bound_squared": "400908452214722402715369472/85823275398163875"
+    },
+    {
+      "residue": 719,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -121,
+      "best_q": 72555,
+      "best_bound_squared": "11136163179511443432181760/1003472143116993"
+    },
+    {
+      "residue": 720,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -120,
+      "best_q": 96215,
+      "best_bound_squared": "36056542604709240581669847040/1056656166702193629"
+    },
+    {
+      "residue": 721,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -119,
+      "best_q": 143535,
+      "best_bound_squared": "2192012836895932676461445120/13045137860520909"
+    },
+    {
+      "residue": 722,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -118,
+      "best_q": 285495,
+      "best_bound_squared": "34107869007559447126254878720/13045137860520909"
+    },
+    {
+      "residue": 723,
+      "gcd": 120,
+      "candidate_count": 4,
+      "best_k": -2637,
+      "best_q": 35441,
+      "best_bound_squared": "14197513172982185982533620736/10160155449059554125"
+    },
+    {
+      "residue": 724,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -116,
+      "best_q": 40335,
+      "best_bound_squared": "242391925112524448182108160/235499067692561673"
+    },
+    {
+      "residue": 725,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -115,
+      "best_q": 140385,
+      "best_bound_squared": "150635517210440520011694080/1003472143116993"
+    },
+    {
+      "residue": 726,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -114,
+      "best_q": 93065,
+      "best_bound_squared": "30445186200424539528039301120/1056656166702193629"
+    },
+    {
+      "residue": 727,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -113,
+      "best_q": 69405,
+      "best_bound_squared": "115534611083126036802129920/13045137860520909"
+    },
+    {
+      "residue": 728,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -112,
+      "best_q": 55209,
+      "best_bound_squared": "522308192998401421275496448/148240202960464875"
+    },
+    {
+      "residue": 729,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -111,
+      "best_q": 45745,
+      "best_bound_squared": "1743449927944421419610030080/1056656166702193629"
+    },
+    {
+      "residue": 730,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -110,
+      "best_q": 272895,
+      "best_bound_squared": "27081349036884516602967818240/13045137860520909"
+    },
+    {
+      "residue": 731,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": 1571,
+      "best_q": 42405,
+      "best_bound_squared": "1326179961109911406303298560/406771116923515617"
+    },
+    {
+      "residue": 732,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -108,
+      "best_q": 89915,
+      "best_bound_squared": "1962026142098298898374000640/81281243592476433"
+    },
+    {
+      "residue": 733,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 733,
+      "best_q": 105483,
+      "best_bound_squared": "11820059218353608679885094912/85823275398163875"
+    },
+    {
+      "residue": 734,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -106,
+      "best_q": 266595,
+      "best_bound_squared": "23999910054508098034178785280/13045137860520909"
+    },
+    {
+      "residue": 735,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 735,
+      "best_q": 88165,
+      "best_bound_squared": "6453380759267155588975063040/96059651518381239"
+    },
+    {
+      "residue": 736,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -104,
+      "best_q": 263445,
+      "best_bound_squared": "1735390407266996006863831040/1003472143116993"
+    },
+    {
+      "residue": 737,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -103,
+      "best_q": 130935,
+      "best_bound_squared": "71922759097931178242785280/686586203185311"
+    },
+    {
+      "residue": 738,
+      "gcd": 105,
+      "candidate_count": 4,
+      "best_k": 2418,
+      "best_q": 35321,
+      "best_bound_squared": "25415001278987932314395410432/16674322100609698875"
+    },
+    {
+      "residue": 739,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 739,
+      "best_q": 133035,
+      "best_bound_squared": "238878728366579133971102720/686586203185311"
+    },
+    {
+      "residue": 740,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -100,
+      "best_q": 257145,
+      "best_bound_squared": "19872396553577147899619901440/13045137860520909"
+    },
+    {
+      "residue": 741,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -99,
+      "best_q": 42595,
+      "best_bound_squared": "1202442349464063114469457920/1056656166702193629"
+    },
+    {
+      "residue": 742,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -98,
+      "best_q": 253995,
+      "best_bound_squared": "18620726981911495415421009920/13045137860520909"
+    },
+    {
+      "residue": 743,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 743,
+      "best_q": 53529,
+      "best_bound_squared": "1142754416256556335031668736/125434017889624125"
+    },
+    {
+      "residue": 744,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -96,
+      "best_q": 83615,
+      "best_bound_squared": "17428001261360476151880417280/1056656166702193629"
+    },
+    {
+      "residue": 745,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 745,
+      "best_q": 76695,
+      "best_bound_squared": "171701879819786562974807736320/4474482286158671787"
+    },
+    {
+      "residue": 746,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -94,
+      "best_q": 247695,
+      "best_bound_squared": "16292378165219293449148497920/13045137860520909"
+    },
+    {
+      "residue": 747,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 747,
+      "best_q": 44870,
+      "best_bound_squared": "4747951034648575240091422720/1056656166702193629"
+    },
+    {
+      "residue": 748,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -92,
+      "best_q": 48909,
+      "best_bound_squared": "178965236403094499192274944/95920131327359625"
+    },
+    {
+      "residue": 749,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -91,
+      "best_q": 121485,
+      "best_bound_squared": "70634873599990345340764160/1003472143116993"
+    },
+    {
+      "residue": 750,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -90,
+      "best_q": 80465,
+      "best_bound_squared": "67871856826539043093544960/5055771132546381"
+    },
+    {
+      "residue": 751,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -89,
+      "best_q": 59955,
+      "best_bound_squared": "4113978267633605574103040/1003472143116993"
+    },
+    {
+      "residue": 752,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": -88,
+      "best_q": 34035,
+      "best_bound_squared": "1887163109772146409546383360/4474482286158671787"
+    },
+    {
+      "residue": 753,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": 753,
+      "best_q": 36211,
+      "best_bound_squared": "251370244958960671097185845248/132082020837774203625"
+    },
+    {
+      "residue": 754,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -86,
+      "best_q": 235095,
+      "best_bound_squared": "12285089452452857488186081280/13045137860520909"
+    },
+    {
+      "residue": 755,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 755,
+      "best_q": 136185,
+      "best_bound_squared": "4964355081261391932767114240/13045137860520909"
+    },
+    {
+      "residue": 756,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -84,
+      "best_q": 77315,
+      "best_bound_squared": "600440159978145796348641280/55613482458010191"
+    },
+    {
+      "residue": 757,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -83,
+      "best_q": 115185,
+      "best_bound_squared": "686724951357865810393579520/13045137860520909"
+    },
+    {
+      "residue": 758,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -82,
+      "best_q": 45759,
+      "best_bound_squared": "162742970276542412893782016/125434017889624125"
+    },
+    {
+      "residue": 759,
+      "gcd": 84,
+      "candidate_count": 4,
+      "best_k": -1761,
+      "best_q": 34205,
+      "best_bound_squared": "429347982961953655188733603840/362433065178852414747"
+    },
+    {
+      "residue": 760,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -80,
+      "best_q": 225645,
+      "best_bound_squared": "9793238703278693438525603840/13045137860520909"
+    },
+    {
+      "residue": 761,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -79,
+      "best_q": 112035,
+      "best_bound_squared": "53506178639865287330283520/1185921623683719"
+    },
+    {
+      "residue": 762,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -78,
+      "best_q": 74165,
+      "best_bound_squared": "36646104204977075076136960/4277960189077707"
+    },
+    {
+      "residue": 763,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -917,
+      "best_q": 38598,
+      "best_bound_squared": "2941368461213382442082111488/1630642232565113625"
+    },
+    {
+      "residue": 764,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -76,
+      "best_q": 219345,
+      "best_bound_squared": "642442814972409888445890560/1003472143116993"
+    },
+    {
+      "residue": 765,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": -75,
+      "best_q": 36295,
+      "best_bound_squared": "29474398583322712783339520/62156245100129037"
+    },
+    {
+      "residue": 766,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 766,
+      "best_q": 158115,
+      "best_bound_squared": "3085972757273652722097588469760/4474482286158671787"
+    },
+    {
+      "residue": 767,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -73,
+      "best_q": 53655,
+      "best_bound_squared": "28816517238013835952312320/13045137860520909"
+    },
+    {
+      "residue": 768,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 768,
+      "best_q": 73997,
+      "best_bound_squared": "397064316226268105127508246528/12007456439797654875"
+    },
+    {
+      "residue": 769,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -71,
+      "best_q": 105735,
+      "best_bound_squared": "22286205686251593176760320/686586203185311"
+    },
+    {
+      "residue": 770,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -70,
+      "best_q": 209895,
+      "best_bound_squared": "6487775704985003690148823040/13045137860520909"
+    },
+    {
+      "residue": 771,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 771,
+      "best_q": 46445,
+      "best_bound_squared": "285223950949477389875092480/55613482458010191"
+    },
+    {
+      "residue": 772,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -68,
+      "best_q": 206745,
+      "best_bound_squared": "539996418125582903357931520/1185921623683719"
+    },
+    {
+      "residue": 773,
+      "gcd": 70,
+      "candidate_count": 4,
+      "best_k": 1613,
+      "best_q": 34869,
+      "best_bound_squared": "43781713272416187130021298176/29437383461570209125"
+    },
+    {
+      "residue": 774,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -66,
+      "best_q": 67865,
+      "best_bound_squared": "5426476829708090823252705280/1056656166702193629"
+    },
+    {
+      "residue": 775,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -65,
+      "best_q": 50505,
+      "best_bound_squared": "81954815371189362667520/52814323321947"
+    },
+    {
+      "residue": 776,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -64,
+      "best_q": 200445,
+      "best_bound_squared": "4945912581458470448761733120/13045137860520909"
+    },
+    {
+      "residue": 777,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 777,
+      "best_q": 187355,
+      "best_bound_squared": "75420932870759059253536276480/55613482458010191"
+    },
+    {
+      "residue": 778,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -62,
+      "best_q": 39459,
+      "best_bound_squared": "899376933521172539419721728/1630642232565113625"
+    },
+    {
+      "residue": 779,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 779,
+      "best_q": 140910,
+      "best_bound_squared": "514370741057483524205178880/1185921623683719"
+    },
+    {
+      "residue": 780,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 780,
+      "best_q": 53755,
+      "best_bound_squared": "256043942706124034512382525440/27879466552219416519"
+    },
+    {
+      "residue": 781,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -59,
+      "best_q": 96285,
+      "best_bound_squared": "12761572870523819278254080/686586203185311"
+    },
+    {
+      "residue": 782,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -58,
+      "best_q": 190995,
+      "best_bound_squared": "216944013669667148037160960/767361050618877"
+    },
+    {
+      "residue": 783,
+      "gcd": 60,
+      "candidate_count": 4,
+      "best_k": 1623,
+      "best_q": 40943,
+      "best_bound_squared": "373232518445061077782814363648/132082020837774203625"
+    },
+    {
+      "residue": 784,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -56,
+      "best_q": 187845,
+      "best_bound_squared": "255816651873958521148866560/1003472143116993"
+    },
+    {
+      "residue": 785,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -55,
+      "best_q": 93135,
+      "best_bound_squared": "197146091707293083254538240/13045137860520909"
+    },
+    {
+      "residue": 786,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -54,
+      "best_q": 61565,
+      "best_bound_squared": "2989474577427658030281195520/1056656166702193629"
+    },
+    {
+      "residue": 787,
+      "gcd": 56,
+      "candidate_count": 4,
+      "best_k": 1627,
+      "best_q": 43980,
+      "best_bound_squared": "1294645457549491178183966720/344190945089128599"
+    },
+    {
+      "residue": 788,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": -52,
+      "best_q": 36309,
+      "best_bound_squared": "2168730762717128814690304/6601790415243375"
+    },
+    {
+      "residue": 789,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 789,
+      "best_q": 190505,
+      "best_bound_squared": "117515811880559920140523356160/81281243592476433"
+    },
+    {
+      "residue": 790,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -50,
+      "best_q": 178395,
+      "best_bound_squared": "183932984292157809996922880/1003472143116993"
+    },
+    {
+      "residue": 791,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -49,
+      "best_q": 44205,
+      "best_bound_squared": "8812775789521950219653120/13045137860520909"
+    },
+    {
+      "residue": 792,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -48,
+      "best_q": 58415,
+      "best_bound_squared": "2126530694287334733142097920/1056656166702193629"
+    },
+    {
+      "residue": 793,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 793,
+      "best_q": 114933,
+      "best_bound_squared": "24004512966342647772723429376/125434017889624125"
+    },
+    {
+      "residue": 794,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 794,
+      "best_q": 164415,
+      "best_bound_squared": "3585190993752173309102293975040/4474482286158671787"
+    },
+    {
+      "residue": 795,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 795,
+      "best_q": 48020,
+      "best_bound_squared": "473792444378445750251438080/81281243592476433"
+    },
+    {
+      "residue": 796,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -44,
+      "best_q": 168945,
+      "best_bound_squared": "1660713233935904823072849920/13045137860520909"
+    },
+    {
+      "residue": 797,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -43,
+      "best_q": 83685,
+      "best_bound_squared": "7483893727695155820707840/1003472143116993"
+    },
+    {
+      "residue": 798,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 798,
+      "best_q": 77147,
+      "best_bound_squared": "5125624201384274167735257202688/132082020837774203625"
+    },
+    {
+      "residue": 799,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": -41,
+      "best_q": 41055,
+      "best_bound_squared": "313061851182923587440640/767361050618877"
+    },
+    {
+      "residue": 800,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -40,
+      "best_q": 162645,
+      "best_bound_squared": "66949489639940789818818560/686586203185311"
+    },
+    {
+      "residue": 801,
+      "gcd": 42,
+      "candidate_count": 4,
+      "best_k": -879,
+      "best_q": 35335,
+      "best_bound_squared": "456624953336941225126917160960/362433065178852414747"
+    },
+    {
+      "residue": 802,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -38,
+      "best_q": 159495,
+      "best_bound_squared": "1103980216665715016561131520/13045137860520909"
+    },
+    {
+      "residue": 803,
+      "gcd": 40,
+      "candidate_count": 4,
+      "best_k": -877,
+      "best_q": 37023,
+      "best_bound_squared": "2475275670928816288058057728/1630642232565113625"
+    },
+    {
+      "residue": 804,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -36,
+      "best_q": 52115,
+      "best_bound_squared": "952080133891864477702881280/1056656166702193629"
+    },
+    {
+      "residue": 805,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -35,
+      "best_q": 77385,
+      "best_bound_squared": "5010693039303353061130240/1185921623683719"
+    },
+    {
+      "residue": 806,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -34,
+      "best_q": 153195,
+      "best_bound_squared": "815357652528980249165496320/13045137860520909"
+    },
+    {
+      "residue": 807,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 807,
+      "best_q": 97615,
+      "best_bound_squared": "104904253617733172719680901120/1056656166702193629"
+    },
+    {
+      "residue": 808,
+      "gcd": 35,
+      "candidate_count": 4,
+      "best_k": 808,
+      "best_q": 33513,
+      "best_bound_squared": "59328642566801229911727996928/43023868136141074875"
+    },
+    {
+      "residue": 809,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -31,
+      "best_q": 74235,
+      "best_bound_squared": "39790836157467918462894080/13045137860520909"
+    },
+    {
+      "residue": 810,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -30,
+      "best_q": 48965,
+      "best_bound_squared": "44896847861703621509447680/81281243592476433"
+    },
+    {
+      "residue": 811,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 811,
+      "best_q": 147210,
+      "best_bound_squared": "6693091257478204937226014720/13045137860520909"
+    },
+    {
+      "residue": 812,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -28,
+      "best_q": 143745,
+      "best_bound_squared": "486861206020920776821637120/13045137860520909"
+    },
+    {
+      "residue": 813,
+      "gcd": 30,
+      "candidate_count": 4,
+      "best_k": 813,
+      "best_q": 39361,
+      "best_bound_squared": "346223265531800548967229636608/132082020837774203625"
+    },
+    {
+      "residue": 814,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -26,
+      "best_q": 140595,
+      "best_bound_squared": "30892127447392773903810560/1003472143116993"
+    },
+    {
+      "residue": 815,
+      "gcd": 28,
+      "candidate_count": 4,
+      "best_k": 815,
+      "best_q": 42285,
+      "best_bound_squared": "63220711615224814615285760/18115312899427821"
+    },
+    {
+      "residue": 816,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -24,
+      "best_q": 45815,
+      "best_bound_squared": "134524520641204734853120/434659056644259"
+    },
+    {
+      "residue": 817,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -23,
+      "best_q": 67935,
+      "best_bound_squared": "18343813714243267416965120/13045137860520909"
+    },
+    {
+      "residue": 818,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 818,
+      "best_q": 237741,
+      "best_bound_squared": "5682967493494243620831281348608/1630642232565113625"
+    },
+    {
+      "residue": 819,
+      "gcd": 24,
+      "candidate_count": 4,
+      "best_k": 819,
+      "best_q": 49595,
+      "best_bound_squared": "536356028440362948858127360/81281243592476433"
+    },
+    {
+      "residue": 820,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -20,
+      "best_q": 131145,
+      "best_bound_squared": "206763099370198142960599040/13045137860520909"
+    },
+    {
+      "residue": 821,
+      "gcd": 2,
+      "candidate_count": 4,
+      "best_k": -19,
+      "best_q": 64785,
+      "best_bound_squared": "11384313636953360601989120/13045137860520909"
+    },
+    {
+      "residue": 822,
+      "gcd": 21,
+      "candidate_count": 4,
+      "best_k": 822,
+      "best_q": 56905,
+      "best_bound_squared": "218032799343456655099092336640/19075424483097495513"
+    },
+    {
+      "residue": 823,
+      "gcd": 20,
+      "candidate_count": 4,
+      "best_k": 823,
+      "best_q": 59829,
+      "best_bound_squared": "2070002582111439681913991168/148240202960464875"
+    },
+    {
+      "residue": 824,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -16,
+      "best_q": 124845,
+      "best_bound_squared": "119921605421370985945825280/13045137860520909"
+    },
+    {
+      "residue": 825,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 825,
+      "best_q": 199955,
+      "best_bound_squared": "1840116608785447049060898979840/1056656166702193629"
+    },
+    {
+      "residue": 826,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -14,
+      "best_q": 121695,
+      "best_bound_squared": "4591634567540504661524480/686586203185311"
+    },
+    {
+      "residue": 827,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 827,
+      "best_q": 150360,
+      "best_bound_squared": "7260826735712800083833323520/13045137860520909"
+    },
+    {
+      "residue": 828,
+      "gcd": 15,
+      "candidate_count": 4,
+      "best_k": 828,
+      "best_q": 80297,
+      "best_bound_squared": "24202780842292731337911762944/534745023634713375"
+    },
+    {
+      "residue": 829,
+      "gcd": 14,
+      "candidate_count": 4,
+      "best_k": 829,
+      "best_q": 86145,
+      "best_bound_squared": "268224012796622861100098109440/4474482286158671787"
+    },
+    {
+      "residue": 830,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -10,
+      "best_q": 115395,
+      "best_bound_squared": "40022856031473570215690240/13045137860520909"
+    },
+    {
+      "residue": 831,
+      "gcd": 12,
+      "candidate_count": 4,
+      "best_k": 831,
+      "best_q": 100765,
+      "best_bound_squared": "118531666057719871925346488320/1056656166702193629"
+    },
+    {
+      "residue": 832,
+      "gcd": 1,
+      "candidate_count": 4,
+      "best_k": -8,
+      "best_q": 112245,
+      "best_bound_squared": "1275583489375645620961280/686586203185311"
+    },
+    {
+      "residue": 833,
+      "gcd": 10,
+      "candidate_count": 4,
+      "best_k": 833,
+      "best_q": 121233,
+      "best_bound_squared": "383117612121917873282795388928/1630642232565113625"
+    },
+    {
+      "residue": 834,
+      "gcd": 3,
+      "candidate_count": 4,
+      "best_k": -6,
+      "best_q": 36365,
+      "best_bound_squared": "12879171046550618872545280/1056656166702193629"
+    },
+    {
+      "residue": 835,
+      "gcd": 8,
+      "candidate_count": 4,
+      "best_k": 835,
+      "best_q": 151935,
+      "best_bound_squared": "7557863346286838057717027840/13045137860520909"
+    },
+    {
+      "residue": 836,
+      "gcd": 7,
+      "candidate_count": 4,
+      "best_k": 836,
+      "best_q": 173865,
+      "best_bound_squared": "4444524688104906361606238044160/4474482286158671787"
+    },
+    {
+      "residue": 837,
+      "gcd": 6,
+      "candidate_count": 4,
+      "best_k": 837,
+      "best_q": 203105,
+      "best_bound_squared": "1954182242847115240751361310720/1056656166702193629"
+    },
+    {
+      "residue": 838,
+      "gcd": 5,
+      "candidate_count": 4,
+      "best_k": 838,
+      "best_q": 244041,
+      "best_bound_squared": "6284547782586115579998835376128/1630642232565113625"
+    },
+    {
+      "residue": 839,
+      "gcd": 4,
+      "candidate_count": 4,
+      "best_k": 839,
+      "best_q": 305445,
+      "best_bound_squared": "123356028674745919613372026880/13045137860520909"
+    }
+  ],
+  "winner": {
+    "k": 1,
+    "p": "154048",
+    "q": "49035",
+    "gcd": 2,
+    "alpha": "98070",
+    "R": [
+      -98070,
+      -1536430,
+      -11264974,
+      -51296214,
+      -162321397,
+      -378343356,
+      -671567534,
+      -925513753,
+      -999555008,
+      -848594058,
+      -562087870,
+      -288134164,
+      -110320545,
+      -30954020,
+      -5611470,
+      -629989,
+      -16012
+    ],
+    "H": [
+      177,
+      -13609,
+      63266,
+      -105257,
+      71567,
+      -16012
+    ],
+    "bound_squared": "18099704404151132241920/13045137860520909",
+    "bound_display": 1177.9080900242232,
+    "integral_certificate": {
+      "c": 17,
+      "R_coefficients": [
+        -98070,
+        -1536430,
+        -11264974,
+        -51296214,
+        -162321397,
+        -378343356,
+        -671567534,
+        -925513753,
+        -999555008,
+        -848594058,
+        -562087870,
+        -288134164,
+        -110320545,
+        -30954020,
+        -5611470,
+        -629989,
+        -16012
+      ],
+      "alpha": 98070,
+      "N_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        177,
+        -15025,
+        177094,
+        -1002349,
+        3459565,
+        -8041182,
+        13222044,
+        -15749442,
+        13681251,
+        -8595525,
+        3805870,
+        -1126129,
+        199663,
+        -16012
+      ],
+      "K": 180,
+      "p": "154048",
+      "q": "49035",
+      "quality_lower": "76135823015045192323942966550701696446409651546428659784434513100416555939581501405638225977744045665793077285965056822585018131210165988267558112570447189880418142932562997723632318669989267800733768608664675714907096238283116585589998591100449312382558142464/366958371310319121720363541059143073927652452926628007961065989828444117072419452187324532867479229997741468767758474346684901005521431888832990801103779126402450391947807659218101508576181867705736912635447074309612387035778019688930996186878543272487781925",
+      "quality_upper": "25378607671681730774647655516900565482136550515476219928212187913411307263081107608213026901719170645141379728778772822833486005886833252558481788956186884733955627480496784664182659286372118519678924814057428798503093279646384502770448186014906574800334880768/122319457103439707240121180353047691309217484308876002653688663276148039024139817395774844289159743332580489589252824782228300335173810629610996933701259708800816797315935886406033836192060622568578970878482358103204129011926006562976998728959514424162593975",
+      "quality_upper_display": 207.47809279614654,
+      "certified_quality_below_one": false
+    }
+  },
+  "strict_true_Q_improvement_over_initial": false,
+  "true_Q_ratio_certified_lower": "638163096397562633189825992059256199763796165509017126690513098522786985576370277116768093593135858878621548017194039563895355147208547121293864225162216191109049400680760833912241149721577214269529951250163914108801508456978992810761544220060150894749/1125327392921480858687802911391141748312814903180422416573351553569518189637413051504528253914089343257373714881215521234079524111073827063095300553935992970103039248356274146002758291788581213312031710081919649168700821570478294226024746924672967283",
+  "true_Q_ratio_lower_display": 567.091053156377,
+  "regression_cases": 39411,
+  "selection_uses_pi_or_CF": false
+}
