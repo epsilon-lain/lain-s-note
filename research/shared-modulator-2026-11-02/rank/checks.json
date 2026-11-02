@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "exact_residue_matrix_rank_checks": 725,
+  "cyclotomic_and_inclusion_exclusion_degree_checks": 29,
+  "integer_kernel_reconstruction_and_height_checks": 402,
+  "real_fourier_basis_and_contact_checks": 2683,
+  "q133_example": [
+    {
+      "T": [
+        "1/2"
+      ],
+      "orders": [
+        2
+      ],
+      "D": 2,
+      "degree8_free_complex_coefficients": 7
+    },
+    {
+      "T": [
+        "1/2",
+        "1/3"
+      ],
+      "orders": [
+        2,
+        3
+      ],
+      "D": 4,
+      "degree8_free_complex_coefficients": 5
+    },
+    {
+      "T": [
+        "1/2",
+        "1/3",
+        "1/6"
+      ],
+      "orders": [
+        2,
+        3,
+        6
+      ],
+      "D": 6,
+      "degree8_free_complex_coefficients": 3
+    },
+    {
+      "T": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "1"
+      ],
+      "orders": [
+        2,
+        3,
+        6,
+        1
+      ],
+      "D": 6,
+      "degree8_free_complex_coefficients": 3
+    },
+    {
+      "T": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "1",
+        "1/5"
+      ],
+      "orders": [
+        2,
+        3,
+        6,
+        1,
+        5
+      ],
+      "D": 10,
+      "degree8_free_complex_coefficients": 0
+    }
+  ],
+  "positive_modulator": {
+    "A": [
+      -1,
+      -1,
+      0,
+      1,
+      1
+    ],
+    "Q": [
+      1,
+      -2
+    ],
+    "AQ": [
+      -1,
+      1,
+      2,
+      1,
+      -1,
+      -2
+    ],
+    "epsilon": "1/1000",
+    "max_fourier_frequency": 5,
+    "uniform_g_interval": [
+      "1",
+      "143/125"
+    ]
+  },
+  "scope": "Fixed-period finite Fourier submodel, with exact algebraic certificates; not a theorem about all arbitrary modulators or pi approximation."
+}

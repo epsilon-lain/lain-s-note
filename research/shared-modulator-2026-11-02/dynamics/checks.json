@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "arithmetic": "standard-library exact rational formal series and interval bounds",
+  "jet_designs": [
+    {
+      "r": 1,
+      "correction_order": 3,
+      "coefficients": [
+        "1"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "1/6",
+      "coefficient_common_denominator": "1",
+      "denominator_bits": 1,
+      "highest_sine_harmonic": 1
+    },
+    {
+      "r": 2,
+      "correction_order": 5,
+      "coefficients": [
+        "1",
+        "1/6"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "3/40",
+      "coefficient_common_denominator": "6",
+      "denominator_bits": 3,
+      "highest_sine_harmonic": 3
+    },
+    {
+      "r": 3,
+      "correction_order": 7,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "5/112",
+      "coefficient_common_denominator": "120",
+      "denominator_bits": 7,
+      "highest_sine_harmonic": 5
+    },
+    {
+      "r": 4,
+      "correction_order": 9,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40",
+        "5/112"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "35/1152",
+      "coefficient_common_denominator": "1680",
+      "denominator_bits": 11,
+      "highest_sine_harmonic": 7
+    },
+    {
+      "r": 5,
+      "correction_order": 11,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40",
+        "5/112",
+        "35/1152"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "63/2816",
+      "coefficient_common_denominator": "40320",
+      "denominator_bits": 16,
+      "highest_sine_harmonic": 9
+    },
+    {
+      "r": 6,
+      "correction_order": 13,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40",
+        "5/112",
+        "35/1152",
+        "63/2816"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "231/13312",
+      "coefficient_common_denominator": "887040",
+      "denominator_bits": 20,
+      "highest_sine_harmonic": 11
+    },
+    {
+      "r": 7,
+      "correction_order": 15,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40",
+        "5/112",
+        "35/1152",
+        "63/2816",
+        "231/13312"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "143/10240",
+      "coefficient_common_denominator": "46126080",
+      "denominator_bits": 26,
+      "highest_sine_harmonic": 13
+    },
+    {
+      "r": 8,
+      "correction_order": 17,
+      "coefficients": [
+        "1",
+        "1/6",
+        "3/40",
+        "5/112",
+        "35/1152",
+        "63/2816",
+        "231/13312",
+        "143/10240"
+      ],
+      "independent_condition_determinant": "1",
+      "first_error_coefficient": "6435/557056",
+      "coefficient_common_denominator": "92252160",
+      "denominator_bits": 27,
+      "highest_sine_harmonic": 15
+    }
+  ],
+  "true_sine_interval_controls": 144,
+  "surviving_free_parameter_controls": 288,
+  "switching_envelope_controls": 20,
+  "uniform_tubes": [
+    {
+      "r": 1,
+      "radius": "1/36",
+      "uniform_contraction_bound": "242/3969",
+      "noise_budget": "3727/142884"
+    },
+    {
+      "r": 2,
+      "radius": "1/36",
+      "uniform_contraction_bound": "14641/1944810",
+      "noise_budget": "1930169/70013160"
+    },
+    {
+      "r": 3,
+      "radius": "1/36",
+      "uniform_contraction_bound": "8857805/7204354164",
+      "noise_budget": "7195496359/259356749904"
+    },
+    {
+      "r": 4,
+      "radius": "1/36",
+      "uniform_contraction_bound": "1071794405/4668421498272",
+      "noise_budget": "4667349703867/168063173937792"
+    }
+  ],
+  "scope": "Shared modulator, finite commensurate scales and high-order all-time error bounds; no improved pi approximation theorem."
+}

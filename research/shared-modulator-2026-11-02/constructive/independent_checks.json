@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "independent_standard_library": true,
+  "cayley_gaussian_integer_identity": true,
+  "shared_unit_root_divisions": 2,
+  "cases": 24,
+  "selected_candidates_replayed": 47,
+  "methods": {
+    "unconstrained": 8,
+    "core_S5": 7,
+    "literal_shared_g": 32
+  },
+  "scope": "All saved selected candidates independently checked; no claim of global search or a new pi approximation record."
+}

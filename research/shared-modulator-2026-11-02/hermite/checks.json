@@ -1,0 +1,322 @@
+{
+  "status": "PASS",
+  "coefficient_families": 16,
+  "nonconstant_moment_checks": 120,
+  "exact_vandermonde_rank_checks": 48,
+  "shared_scale_anchor_checks": 144,
+  "cases": [
+    {
+      "r": 1,
+      "order": 3,
+      "frequency_max": 1,
+      "coefficients": [
+        "1"
+      ],
+      "kernel_constant": "2",
+      "rational_common_denominator": "1",
+      "common_denominator_bits": 1,
+      "coefficient_integer_max_bits": 1
+    },
+    {
+      "r": 2,
+      "order": 5,
+      "frequency_max": 2,
+      "coefficients": [
+        "4/3",
+        "-1/3"
+      ],
+      "kernel_constant": "8/3",
+      "rational_common_denominator": "6",
+      "common_denominator_bits": 3,
+      "coefficient_integer_max_bits": 4
+    },
+    {
+      "r": 3,
+      "order": 7,
+      "frequency_max": 3,
+      "coefficients": [
+        "3/2",
+        "-3/5",
+        "1/10"
+      ],
+      "kernel_constant": "16/5",
+      "rational_common_denominator": "30",
+      "common_denominator_bits": 5,
+      "coefficient_integer_max_bits": 6
+    },
+    {
+      "r": 4,
+      "order": 9,
+      "frequency_max": 4,
+      "coefficients": [
+        "8/5",
+        "-4/5",
+        "8/35",
+        "-1/35"
+      ],
+      "kernel_constant": "128/35",
+      "rational_common_denominator": "420",
+      "common_denominator_bits": 9,
+      "coefficient_integer_max_bits": 10
+    },
+    {
+      "r": 5,
+      "order": 11,
+      "frequency_max": 5,
+      "coefficients": [
+        "5/3",
+        "-20/21",
+        "5/14",
+        "-5/63",
+        "1/126"
+      ],
+      "kernel_constant": "256/63",
+      "rational_common_denominator": "1260",
+      "common_denominator_bits": 11,
+      "coefficient_integer_max_bits": 12
+    },
+    {
+      "r": 6,
+      "order": 13,
+      "frequency_max": 6,
+      "coefficients": [
+        "12/7",
+        "-15/14",
+        "10/21",
+        "-1/7",
+        "2/77",
+        "-1/462"
+      ],
+      "kernel_constant": "1024/231",
+      "rational_common_denominator": "13860",
+      "common_denominator_bits": 14,
+      "coefficient_integer_max_bits": 15
+    },
+    {
+      "r": 7,
+      "order": 15,
+      "frequency_max": 7,
+      "coefficients": [
+        "7/4",
+        "-7/6",
+        "7/12",
+        "-7/33",
+        "7/132",
+        "-7/858",
+        "1/1716"
+      ],
+      "kernel_constant": "2048/429",
+      "rational_common_denominator": "180180",
+      "common_denominator_bits": 18,
+      "coefficient_integer_max_bits": 19
+    },
+    {
+      "r": 8,
+      "order": 17,
+      "frequency_max": 8,
+      "coefficients": [
+        "16/9",
+        "-56/45",
+        "112/165",
+        "-28/99",
+        "112/1287",
+        "-8/429",
+        "16/6435",
+        "-1/6435"
+      ],
+      "kernel_constant": "32768/6435",
+      "rational_common_denominator": "360360",
+      "common_denominator_bits": 19,
+      "coefficient_integer_max_bits": 20
+    },
+    {
+      "r": 9,
+      "order": 19,
+      "frequency_max": 9,
+      "coefficients": [
+        "9/5",
+        "-72/55",
+        "42/55",
+        "-252/715",
+        "18/143",
+        "-24/715",
+        "9/1430",
+        "-9/12155",
+        "1/24310"
+      ],
+      "kernel_constant": "65536/12155",
+      "rational_common_denominator": "6126120",
+      "common_denominator_bits": 23,
+      "coefficient_integer_max_bits": 24
+    },
+    {
+      "r": 10,
+      "order": 21,
+      "frequency_max": 10,
+      "coefficients": [
+        "20/11",
+        "-15/11",
+        "120/143",
+        "-60/143",
+        "24/143",
+        "-15/286",
+        "30/2431",
+        "-5/2431",
+        "10/46189",
+        "-1/92378"
+      ],
+      "kernel_constant": "262144/46189",
+      "rational_common_denominator": "116396280",
+      "common_denominator_bits": 27,
+      "coefficient_integer_max_bits": 28
+    },
+    {
+      "r": 11,
+      "order": 23,
+      "frequency_max": 11,
+      "coefficients": [
+        "11/6",
+        "-55/39",
+        "165/182",
+        "-44/91",
+        "11/52",
+        "-33/442",
+        "55/2652",
+        "-55/12597",
+        "11/16796",
+        "-11/176358",
+        "1/352716"
+      ],
+      "kernel_constant": "524288/88179",
+      "rational_common_denominator": "116396280",
+      "common_denominator_bits": 27,
+      "coefficient_integer_max_bits": 28
+    },
+    {
+      "r": 12,
+      "order": 25,
+      "frequency_max": 12,
+      "coefficients": [
+        "24/13",
+        "-132/91",
+        "88/91",
+        "-99/182",
+        "396/1547",
+        "-22/221",
+        "132/4199",
+        "-33/4199",
+        "44/29393",
+        "-6/29393",
+        "12/676039",
+        "-1/1352078"
+      ],
+      "kernel_constant": "4194304/676039",
+      "rational_common_denominator": "2677114440",
+      "common_denominator_bits": 32,
+      "coefficient_integer_max_bits": 33
+    },
+    {
+      "r": 13,
+      "order": 27,
+      "frequency_max": 13,
+      "coefficients": [
+        "13/7",
+        "-52/35",
+        "143/140",
+        "-143/238",
+        "143/476",
+        "-286/2261",
+        "143/3230",
+        "-143/11305",
+        "13/4522",
+        "-26/52003",
+        "13/208012",
+        "-13/2600150",
+        "1/5200300"
+      ],
+      "kernel_constant": "8388608/1300075",
+      "rational_common_denominator": "13385572200",
+      "common_denominator_bits": 34,
+      "coefficient_integer_max_bits": 35
+    },
+    {
+      "r": 14,
+      "order": 29,
+      "frequency_max": 14,
+      "coefficients": [
+        "28/15",
+        "-91/60",
+        "91/85",
+        "-1001/1530",
+        "1001/2907",
+        "-1001/6460",
+        "286/4845",
+        "-91/4845",
+        "182/37145",
+        "-91/89148",
+        "91/557175",
+        "-7/371450",
+        "7/5014575",
+        "-1/20058300"
+      ],
+      "kernel_constant": "33554432/5014575",
+      "rational_common_denominator": "40156716600",
+      "common_denominator_bits": 36,
+      "coefficient_integer_max_bits": 37
+    },
+    {
+      "r": 15,
+      "order": 31,
+      "frequency_max": 15,
+      "coefficients": [
+        "15/8",
+        "-105/68",
+        "455/408",
+        "-455/646",
+        "1001/2584",
+        "-715/3876",
+        "195/2584",
+        "-195/7429",
+        "455/59432",
+        "-273/148580",
+        "21/59432",
+        "-7/133722",
+        "1/178296",
+        "-1/2585292",
+        "1/77558760"
+      ],
+      "kernel_constant": "67108864/9694845",
+      "rational_common_denominator": "1164544781400",
+      "common_denominator_bits": 41,
+      "coefficient_integer_max_bits": 41
+    },
+    {
+      "r": 16,
+      "order": 33,
+      "frequency_max": 16,
+      "coefficients": [
+        "32/17",
+        "-80/51",
+        "1120/969",
+        "-728/969",
+        "416/969",
+        "-208/969",
+        "2080/22287",
+        "-260/7429",
+        "416/37145",
+        "-112/37145",
+        "224/334305",
+        "-8/66861",
+        "32/1938969",
+        "-16/9694845",
+        "32/300540195",
+        "-1/300540195"
+      ],
+      "kernel_constant": "2147483648/300540195",
+      "rational_common_denominator": "72201776446800",
+      "common_denominator_bits": 47,
+      "coefficient_integer_max_bits": 47
+    }
+  ],
+  "scope": "Finite exact identities for separately proved all-order shared-modulator construction; no pi approximation theorem."
+}

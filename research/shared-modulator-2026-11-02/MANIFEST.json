@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-02",
+  "scope": "Shared modulators, finite independent-constraint rank and high-order stable growth; a finite pi-integral application found no improvement. No physical origin claim or new pi approximation theorem.",
+  "verification_commands": [
+    "python3 rank/verify_rank.py",
+    "python3 dynamics/verify_shared_dynamics.py",
+    "python3 hermite/verify_harmonics.py",
+    "python3 constructive/shared_integral_search.py",
+    "python3 constructive/verify_shared_integral.py"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8106,
+      "sha256": "b0a21e0cd875f0f82b531cde65f7922bf2063984c838674d3fada8ea3bf30416"
+    },
+    {
+      "path": "constructive/NOTE.md",
+      "bytes": 6645,
+      "sha256": "fa2a2a87e34339ffce9b9fbf284532d6f5afea3b0da6ce9de0ac7911cec4e57a"
+    },
+    {
+      "path": "constructive/independent_checks.json",
+      "bytes": 411,
+      "sha256": "4e9b80fce5b011bcb89eb5b6e6ee81548530c140208f3f825bbc16d7e86fb177"
+    },
+    {
+      "path": "constructive/results.json",
+      "bytes": 113462,
+      "sha256": "2695a9f95b8eb8795c70238dc81fef7eee4a986f29308f45712b288bafa7c289"
+    },
+    {
+      "path": "constructive/shared_integral_search.py",
+      "bytes": 5544,
+      "sha256": "4b1193f796acd13f52486cdd549d269f922b73ea0e406aa3e72da60d3b4b11ba"
+    },
+    {
+      "path": "constructive/support/integer_kernel.py",
+      "bytes": 983,
+      "sha256": "73b49bc8763d06f29eb0906af28adceaf60e4e97835dd1a66159b1bce7408219"
+    },
+    {
+      "path": "constructive/support/integral_certificate.py",
+      "bytes": 2428,
+      "sha256": "a002f886cedee73e4abc9aba3f8341befd211a45824f9d24cab0be0fffa0e90b"
+    },
+    {
+      "path": "constructive/verify_shared_integral.py",
+      "bytes": 3698,
+      "sha256": "85918619d98c5d88ff0bea326f7fffabd955498ab7abc2b9f7555bbe75902e0a"
+    },
+    {
+      "path": "dynamics/NOTE.md",
+      "bytes": 6369,
+      "sha256": "d9dc2d66ba91b58d737657eb28e27a5827819a3d385dbfc079c36f3de9ce4dff"
+    },
+    {
+      "path": "dynamics/checks.json",
+      "bytes": 3933,
+      "sha256": "03b8aef4b9cd8f5e38c483a25ab992e3cc33c196f778ff1d808fae6f37e53acd"
+    },
+    {
+      "path": "dynamics/verify_shared_dynamics.py",
+      "bytes": 5346,
+      "sha256": "f7fdfc63ea90c7483fc4250c5d949cbe0087ef550288b5b676362aa785bd6adb"
+    },
+    {
+      "path": "hermite/NOTE.md",
+      "bytes": 5343,
+      "sha256": "df6cb5794e95d249b68a9e324ca152e1e7ea4cedaafa09a6bc471b655d580112"
+    },
+    {
+      "path": "hermite/checks.json",
+      "bytes": 7205,
+      "sha256": "44e055550f54ad5981f7d3862d942ebe971a8b5ebfbe3d9feaf55e7167f9233d"
+    },
+    {
+      "path": "hermite/plot_shared.py",
+      "bytes": 1834,
+      "sha256": "60d68202d75a60ed268a2ed80695ab767202e8faf197b2f78110324686e27e19"
+    },
+    {
+      "path": "hermite/shared_shapes.svg",
+      "bytes": 67862,
+      "sha256": "54bd7a96220b2d94193f294aee92a3ea25c59e6776a907928d780e383173e44c"
+    },
+    {
+      "path": "hermite/verify_harmonics.py",
+      "bytes": 3066,
+      "sha256": "7296308284b9196646c30b3d5e5f6bde59167c5db0a384de60f08d76841a6dcc"
+    },
+    {
+      "path": "rank/NOTE.md",
+      "bytes": 6107,
+      "sha256": "5f661e36db4970ed04da0a354962e8b3e1cea30afb6becd18aa3a88cded24c29"
+    },
+    {
+      "path": "rank/checks.json",
+      "bytes": 1714,
+      "sha256": "1afe7610581d1aecc8361752286a52d1c8d7ec41eccb2da0c124ef3ae3ab3363"
+    },
+    {
+      "path": "rank/verify_rank.py",
+      "bytes": 6556,
+      "sha256": "0f5f07385337cb81cf18913c21d97b94fddfe28ef1f4f3ad662d716b4be8b257"
+    }
+  ]
+}
