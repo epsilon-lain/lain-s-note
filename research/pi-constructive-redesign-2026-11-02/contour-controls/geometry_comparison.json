@@ -1,0 +1,918 @@
+{
+  "status": "PASS",
+  "scope": "Finite exact contour-coefficient arithmetic with rational Machin error bounds; all logarithms are approximate summaries, not rigorous enclosures or asymptotic claims.",
+  "records": [
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": -2.781266681444322,
+      "log_error_over_n_summary": -6.673086979553773,
+      "log_q_over_n_summary": 1.9459101490553132,
+      "q_digits": 1,
+      "D_bits": 3,
+      "g_bits": 3,
+      "p": "22",
+      "q": "7"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 2.1353196135751205,
+      "log_error_over_n_summary": -7.72750218223473,
+      "log_q_over_n_summary": 4.931410897905057,
+      "q_digits": 5,
+      "D_bits": 4,
+      "g_bits": 3,
+      "p": "60328",
+      "q": "19203"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.8349684512318163,
+      "log_error_over_n_summary": -7.910653525379075,
+      "log_q_over_n_summary": 5.872810988305334,
+      "q_digits": 11,
+      "D_bits": 10,
+      "g_bits": 7,
+      "p": "50034261568",
+      "q": "15926400105"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.1119368447640454,
+      "log_error_over_n_summary": -7.909177290439175,
+      "log_q_over_n_summary": 5.510557067601623,
+      "q_digits": 20,
+      "D_bits": 10,
+      "g_bits": 15,
+      "p": "43932517031873398784",
+      "q": "13984154496183066741"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": -2.781266681444322,
+      "log_error_over_n_summary": -6.673086979553773,
+      "log_q_over_n_summary": 1.9459101490553132,
+      "q_digits": 1,
+      "D_bits": 4,
+      "g_bits": 3,
+      "p": "22",
+      "q": "7"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 2.1353196135751205,
+      "log_error_over_n_summary": -7.72750218223473,
+      "log_q_over_n_summary": 4.931410897905057,
+      "q_digits": 5,
+      "D_bits": 5,
+      "g_bits": 1,
+      "p": "60328",
+      "q": "19203"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.8349684512318163,
+      "log_error_over_n_summary": -7.910653525379075,
+      "log_q_over_n_summary": 5.872810988305334,
+      "q_digits": 11,
+      "D_bits": 11,
+      "g_bits": 1,
+      "p": "50034261568",
+      "q": "15926400105"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.1119368447640454,
+      "log_error_over_n_summary": -7.909177290439175,
+      "log_q_over_n_summary": 5.510557067601623,
+      "q_digits": 20,
+      "D_bits": 11,
+      "g_bits": 1,
+      "p": "43932517031873398784",
+      "q": "13984154496183066741"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 1,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 7.409742922272017,
+      "log_error_over_n_summary": -7.444545344546896,
+      "log_q_over_n_summary": 7.427144133408616,
+      "q_digits": 4,
+      "D_bits": 6,
+      "g_bits": 1,
+      "p": "5282",
+      "q": "1681"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 2,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 8.598426174330143,
+      "log_error_over_n_summary": -8.343748204391886,
+      "log_q_over_n_summary": 8.471087189360794,
+      "q_digits": 8,
+      "D_bits": 8,
+      "g_bits": 1,
+      "p": "71621384",
+      "q": "22797795"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 4,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 9.213855039422015,
+      "log_error_over_n_summary": -8.8103041097213,
+      "log_q_over_n_summary": 9.012079574571562,
+      "q_digits": 16,
+      "D_bits": 11,
+      "g_bits": 1,
+      "p": "14214631041982528",
+      "q": "4524657589118037"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 8,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 9.869592585198234,
+      "log_error_over_n_summary": -9.047905488719607,
+      "log_q_over_n_summary": 9.458749036958945,
+      "q_digits": 33,
+      "D_bits": 18,
+      "g_bits": 1,
+      "p": "2291975507509366515836778977253376",
+      "q": "729558462931342317261484321620795"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 1,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 14.389685764231217,
+      "log_error_over_n_summary": -7.51616844349428,
+      "log_q_over_n_summary": 10.952927103863022,
+      "q_digits": 5,
+      "D_bits": 9,
+      "g_bits": 1,
+      "p": "179482",
+      "q": "57121"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 2,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 15.601902322282058,
+      "log_error_over_n_summary": -8.39208709661034,
+      "log_q_over_n_summary": 11.996994709446655,
+      "q_digits": 11,
+      "D_bits": 10,
+      "g_bits": 1,
+      "p": "82719341608",
+      "q": "26330384643"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 4,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 16.226970751709587,
+      "log_error_over_n_summary": -8.849116686522166,
+      "log_q_over_n_summary": 12.538043719115779,
+      "q_digits": 22,
+      "D_bits": 13,
+      "g_bits": 1,
+      "p": "18965429264294811252032",
+      "q": "6036883630544415035541"
+    },
+    {
+      "family": [
+        1,
+        1,
+        2
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 8,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 17.563327230023447,
+      "log_error_over_n_summary": -9.083164778601372,
+      "log_q_over_n_summary": 13.323246004312388,
+      "q_digits": 47,
+      "D_bits": 24,
+      "g_bits": 1,
+      "p": "61213560123248211406981652001740319664174548992",
+      "q": "19484881355735765444929525557542122740715686645"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": -5.682125118393742,
+      "log_error_over_n_summary": -15.136900755816896,
+      "log_q_over_n_summary": 4.727387818712341,
+      "q_digits": 3,
+      "D_bits": 3,
+      "g_bits": 2,
+      "p": "355",
+      "q": "113"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.0847035421638793,
+      "log_error_over_n_summary": -9.820833786417552,
+      "log_q_over_n_summary": 6.452768664290997,
+      "q_digits": 6,
+      "D_bits": 5,
+      "g_bits": 4,
+      "p": "1264601",
+      "q": "402535"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.913834869276116,
+      "log_error_over_n_summary": -11.000687955124477,
+      "log_q_over_n_summary": 7.9572614122003,
+      "q_digits": 14,
+      "D_bits": 13,
+      "g_bits": 8,
+      "p": "209087833303288",
+      "q": "66554724421185"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 7.228935213947807,
+      "log_error_over_n_summary": -10.424960377864181,
+      "log_q_over_n_summary": 8.826947795906062,
+      "q_digits": 31,
+      "D_bits": 30,
+      "g_bits": 16,
+      "p": "14625395906428063192667024090944",
+      "q": "4655408106367994797206766406025"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": -5.682125118393742,
+      "log_error_over_n_summary": -15.136900755816896,
+      "log_q_over_n_summary": 4.727387818712341,
+      "q_digits": 3,
+      "D_bits": 3,
+      "g_bits": 1,
+      "p": "355",
+      "q": "113"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 3.0847035421638793,
+      "log_error_over_n_summary": -9.820833786417552,
+      "log_q_over_n_summary": 6.452768664290997,
+      "q_digits": 6,
+      "D_bits": 5,
+      "g_bits": 1,
+      "p": "1264601",
+      "q": "402535"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.913834869276116,
+      "log_error_over_n_summary": -11.000687955124477,
+      "log_q_over_n_summary": 7.9572614122003,
+      "q_digits": 14,
+      "D_bits": 13,
+      "g_bits": 1,
+      "p": "209087833303288",
+      "q": "66554724421185"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 7.228935213947807,
+      "log_error_over_n_summary": -10.424960377864181,
+      "log_q_over_n_summary": 8.826947795906062,
+      "q_digits": 31,
+      "D_bits": 30,
+      "g_bits": 1,
+      "p": "14625395906428063192667024090944",
+      "q": "4655408106367994797206766406025"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 1,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 11.78183289295248,
+      "log_error_over_n_summary": -10.513163194834306,
+      "log_q_over_n_summary": 11.147498043893595,
+      "q_digits": 5,
+      "D_bits": 10,
+      "g_bits": 1,
+      "p": "217997",
+      "q": "69390"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 2,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 13.254851607632645,
+      "log_error_over_n_summary": -11.400558036121765,
+      "log_q_over_n_summary": 12.327704821876939,
+      "q_digits": 11,
+      "D_bits": 14,
+      "g_bits": 1,
+      "p": "160272211679",
+      "q": "51016229460"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 4,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 14.217697411361087,
+      "log_error_over_n_summary": -11.861277431626377,
+      "log_q_over_n_summary": 13.039487421493643,
+      "q_digits": 23,
+      "D_bits": 24,
+      "g_bits": 1,
+      "p": "140948224236950227769519",
+      "q": "44865213214671032773590"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 8,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 14.743226926059492,
+      "log_error_over_n_summary": -12.093858284836074,
+      "log_q_over_n_summary": 13.418542605447794,
+      "q_digits": 47,
+      "D_bits": 44,
+      "g_bits": 1,
+      "p": "131202449289350879481817529789869751781903839209",
+      "q": "41763036700327845724146764931842694737812118700"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 1,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 20.03391267221741,
+      "log_error_over_n_summary": -10.64227639890214,
+      "log_q_over_n_summary": 15.338094535559533,
+      "q_digits": 7,
+      "D_bits": 13,
+      "g_bits": 1,
+      "p": "14401343",
+      "q": "4584055"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 2,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 22.637626385064323,
+      "log_error_over_n_summary": -11.49782726192916,
+      "log_q_over_n_summary": 17.067726823496656,
+      "q_digits": 15,
+      "D_bits": 20,
+      "g_bits": 1,
+      "p": "2098886860779753",
+      "q": "668096437789375"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 4,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 24.009504555338708,
+      "log_error_over_n_summary": -11.939698239228392,
+      "log_q_over_n_summary": 17.97460139728355,
+      "q_digits": 32,
+      "D_bits": 35,
+      "g_bits": 1,
+      "p": "52750997659953931776109945773224",
+      "q": "16791164061221344073125165921875"
+    },
+    {
+      "family": [
+        1,
+        2,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 8,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 25.638689737450818,
+      "log_error_over_n_summary": -12.16462529070111,
+      "log_q_over_n_summary": 18.901657514075865,
+      "q_digits": 66,
+      "D_bits": 69,
+      "g_bits": 1,
+      "p": "1473107125417477248725468988907726179448070708213786013786210636352",
+      "q": "468904561428168233276946153292477004235372215513801015974892578125"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": 2.0442562650823675,
+      "log_error_over_n_summary": -11.553855459034821,
+      "log_q_over_n_summary": 6.799055862058796,
+      "q_digits": 3,
+      "D_bits": 4,
+      "g_bits": 5,
+      "p": "2818",
+      "q": "897"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.685673881786897,
+      "log_error_over_n_summary": -12.551421318126359,
+      "log_q_over_n_summary": 8.618547599956502,
+      "q_digits": 8,
+      "D_bits": 10,
+      "g_bits": 11,
+      "p": "96188954",
+      "q": "30617895"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.816186367788077,
+      "log_error_over_n_summary": -13.096019980184792,
+      "log_q_over_n_summary": 8.956103173986422,
+      "q_digits": 16,
+      "D_bits": 12,
+      "g_bits": 19,
+      "p": "11363042315305984",
+      "q": "3616968706086645"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 2,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 7.283971532155988,
+      "log_error_over_n_summary": -13.491383179916966,
+      "log_q_over_n_summary": 10.387677356036503,
+      "q_digits": 37,
+      "D_bits": 33,
+      "g_bits": 37,
+      "p": "3869345558286928574831731815957397504",
+      "q": "1231650944264068208514063627819193845"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 1,
+      "kappa": "3",
+      "logQ_over_n_summary": 2.0442562650823675,
+      "log_error_over_n_summary": -11.553855459034821,
+      "log_q_over_n_summary": 6.799055862058796,
+      "q_digits": 3,
+      "D_bits": 4,
+      "g_bits": 2,
+      "p": "2818",
+      "q": "897"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 2,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.685673881786897,
+      "log_error_over_n_summary": -12.551421318126359,
+      "log_q_over_n_summary": 8.618547599956502,
+      "q_digits": 8,
+      "D_bits": 10,
+      "g_bits": 4,
+      "p": "96188954",
+      "q": "30617895"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 4,
+      "kappa": "3",
+      "logQ_over_n_summary": 4.816186367788077,
+      "log_error_over_n_summary": -13.096019980184792,
+      "log_q_over_n_summary": 8.956103173986422,
+      "q_digits": 16,
+      "D_bits": 12,
+      "g_bits": 4,
+      "p": "11363042315305984",
+      "q": "3616968706086645"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 1,
+      "t": 1,
+      "n": 8,
+      "kappa": "3",
+      "logQ_over_n_summary": 7.283971532155988,
+      "log_error_over_n_summary": -13.491383179916966,
+      "log_q_over_n_summary": 10.387677356036503,
+      "q_digits": 37,
+      "D_bits": 33,
+      "g_bits": 6,
+      "p": "3869345558286928574831731815957397504",
+      "q": "1231650944264068208514063627819193845"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 1,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 11.096512371282188,
+      "log_error_over_n_summary": -13.095054301989876,
+      "log_q_over_n_summary": 12.095783336635595,
+      "q_digits": 6,
+      "D_bits": 5,
+      "g_bits": 3,
+      "p": "562706",
+      "q": "179115"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 2,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 13.120280996295605,
+      "log_error_over_n_summary": -14.024944773418156,
+      "log_q_over_n_summary": 13.572612884856655,
+      "q_digits": 12,
+      "D_bits": 10,
+      "g_bits": 8,
+      "p": "1932731987657",
+      "q": "615207699015"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 4,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 12.576121915602243,
+      "log_error_over_n_summary": -14.503498451457745,
+      "log_q_over_n_summary": 13.539810183530042,
+      "q_digits": 24,
+      "D_bits": 9,
+      "g_bits": 12,
+      "p": "1042819797782704826007040",
+      "q": "331939851142416376865313"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 2,
+      "t": 3,
+      "n": 8,
+      "kappa": "17/6",
+      "logQ_over_n_summary": 15.81251799820609,
+      "log_error_over_n_summary": -14.746643505186512,
+      "log_q_over_n_summary": 15.27958075169626,
+      "q_digits": 54,
+      "D_bits": 28,
+      "g_bits": 23,
+      "p": "383575378930813780665745599920414114011212775949074432",
+      "q": "122095835210371712889990396188183763372771660897122325"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 1,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 21.613068209856465,
+      "log_error_over_n_summary": -13.155477254779726,
+      "log_q_over_n_summary": 17.384272732317587,
+      "q_digits": 8,
+      "D_bits": 9,
+      "g_bits": 7,
+      "p": "111440570",
+      "q": "35472657"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 2,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 22.396145455771602,
+      "log_error_over_n_summary": -14.073523819657112,
+      "log_q_over_n_summary": 18.234834637714076,
+      "q_digits": 16,
+      "D_bits": 9,
+      "g_bits": 11,
+      "p": "21663368929003574",
+      "q": "6895664498149905"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 4,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 24.46337195296951,
+      "log_error_over_n_summary": -14.547587282785116,
+      "log_q_over_n_summary": 19.50547961787729,
+      "q_digits": 34,
+      "D_bits": 15,
+      "g_bits": 22,
+      "p": "24079004748763187940423785538987008",
+      "q": "7664585260997765447049149658991395"
+    },
+    {
+      "family": [
+        2,
+        1,
+        3
+      ],
+      "s": 5,
+      "t": 7,
+      "n": 8,
+      "kappa": "99/35",
+      "logQ_over_n_summary": 27.77021719118966,
+      "log_error_over_n_summary": -14.788730960558837,
+      "log_q_over_n_summary": 21.27947407587422,
+      "q_digits": 74,
+      "D_bits": 39,
+      "g_bits": 44,
+      "p": "268915121746977009952294565294633577484142289649395538964897706425625608192",
+      "q": "85598341796380463695073165324270381264814715574158056767639523763023001095"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "independent_primitive_checks": 80,
+  "c_range": [
+    1,
+    20
+  ],
+  "zero_period_cases": 20,
+  "seed": 20261102,
+  "main_certificate_uses_pi": false,
+  "independent_check_uses_machin_interval": true
+}

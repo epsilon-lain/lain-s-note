@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_moment_checks": 360,
+  "determinant_degrees": [
+    1,
+    18
+  ],
+  "seed": 20261102,
+  "scope": "Exact full-parameter algebraic identity and arithmetic-index audits; not an infinite approximation theorem."
+}

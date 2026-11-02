@@ -1,0 +1,90 @@
+{
+  "scope": "Constructive quadratic-trace baseline, not an infinite quality-zero theorem",
+  "indices": [
+    1,
+    100
+  ],
+  "successful_indices": [],
+  "samples": [
+    {
+      "n": 1,
+      "p": "8",
+      "q": "1",
+      "denominator_digits": 1,
+      "quality_display": 4.858407346410207,
+      "Q_below_one": false
+    },
+    {
+      "n": 2,
+      "p": "12",
+      "q": "7",
+      "denominator_digits": 1,
+      "quality_display": 69.93804002589987,
+      "Q_below_one": false
+    },
+    {
+      "n": 3,
+      "p": "364",
+      "q": "93",
+      "denominator_digits": 2,
+      "quality_display": 6680.365139101878,
+      "Q_below_one": false
+    },
+    {
+      "n": 4,
+      "p": "415",
+      "q": "147",
+      "denominator_digits": 3,
+      "quality_display": 6881.675651421842,
+      "Q_below_one": false
+    },
+    {
+      "n": 5,
+      "p": "14261",
+      "q": "4335",
+      "denominator_digits": 4,
+      "quality_display": 2783918.9953935477,
+      "Q_below_one": false
+    },
+    {
+      "n": 10,
+      "p": "299036848",
+      "q": "95265765",
+      "denominator_digits": 8,
+      "quality_display": 23757325280987.645,
+      "Q_below_one": false
+    },
+    {
+      "n": 20,
+      "p": "210305338604161488909376",
+      "q": "66942286028173551884889",
+      "denominator_digits": 23,
+      "quality_display": 3.7083653489699204e+39,
+      "Q_below_one": false
+    },
+    {
+      "n": 50,
+      "p": "271129492153746726950404347240079811076860148524832293014000893952",
+      "q": "86303197788528087275344363117903859430211689924989609298424391175",
+      "denominator_digits": 65,
+      "quality_display": 1.9257163195301017e+113,
+      "Q_below_one": false
+    },
+    {
+      "n": 100,
+      "p": "12178294680510228897767205069389815514757349985895702053595937790600811446086027500923041082032465015522445298526010636538767042674688",
+      "q": "3876471593665874339797981701970444945275929443295400545205758886863592001162128325707804581379598035551537204489532713070891509875035",
+      "denominator_digits": 133,
+      "quality_display": 1.199719254610327e+231,
+      "Q_below_one": false
+    }
+  ],
+  "minimum": {
+    "n": 1,
+    "p": "8",
+    "q": "1",
+    "denominator_digits": 1,
+    "quality_display": 4.858407346410207,
+    "Q_below_one": false
+  }
+}

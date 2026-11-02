@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "odd_period_lattice_checks": 90,
+  "same_c": 16,
+  "same_a_plus_b": 14,
+  "period_lattices": [
+    {
+      "c": 16,
+      "a": 7,
+      "b": 7,
+      "H": [
+        [
+          "45045",
+          "0"
+        ],
+        [
+          "0",
+          "1024"
+        ]
+      ],
+      "index": "46126080"
+    },
+    {
+      "c": 16,
+      "a": 5,
+      "b": 9,
+      "H": [
+        [
+          "315",
+          "0"
+        ],
+        [
+          "0",
+          "32768"
+        ]
+      ],
+      "index": "10321920"
+    }
+  ],
+  "odd_gain_factor": 143,
+  "dyadic_cost_factor": 32,
+  "complete_covolume_gain": "143/32",
+  "scope": "Exact arithmetic period-image improvement; no automatic Q improvement."
+}

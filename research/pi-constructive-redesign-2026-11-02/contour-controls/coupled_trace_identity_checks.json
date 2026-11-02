@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "cases": [
+    [
+      0,
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      1,
+      1,
+      4
+    ],
+    [
+      3,
+      3,
+      2,
+      6
+    ],
+    [
+      4,
+      1,
+      0,
+      5
+    ]
+  ],
+  "embedding_quadratures": 12,
+  "scope": "Independent 100-decimal conjugate-contour verification of coupled exact field formulas; not a general proof or an infinite quality result."
+}

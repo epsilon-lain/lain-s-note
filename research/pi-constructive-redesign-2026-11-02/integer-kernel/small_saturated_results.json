@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "selection": "full saturated integer nullspace by Smith decomposition; exact LLL with rational sampling features and alpha/boundary cost; pi used only after selection to evaluate quality",
+  "coverage": {
+    "c": [
+      4,
+      12
+    ],
+    "remaining_degree": [
+      1,
+      2,
+      3
+    ],
+    "sample_x": [
+      "1/10",
+      "2/10",
+      "3/10",
+      "4/10",
+      "5/10",
+      "6/10",
+      "7/10",
+      "8/10",
+      "9/10"
+    ]
+  },
+  "lll_failures_skipped": 0,
+  "lll_rows_examined": 698,
+  "zero_alpha_rows": 279,
+  "distinct_positive_rationals": 90,
+  "elapsed_seconds": 2.1534949709966895,
+  "records": [
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "remaining_degree": 1,
+      "cost_weight_power_of_two": 0,
+      "alpha": "1",
+      "R_coefficients": [
+        "-1",
+        "-5",
+        "-1",
+        "-1"
+      ],
+      "R_at_one": "-8",
+      "p": "4",
+      "q": "1",
+      "quality_display": 0.8584073464102068,
+      "max_R_coefficient_bits": 3,
+      "quality_rational_bounds": [
+        "4292036732051033807686783/5000000000000000000000000",
+        "8584073464102067615373567/10000000000000000000000000"
+      ]
+    },
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "remaining_degree": 1,
+      "cost_weight_power_of_two": -8,
+      "alpha": "-14",
+      "R_coefficients": [
+        "14",
+        "37",
+        "32",
+        "5"
+      ],
+      "R_at_one": "88",
+      "p": "22",
+      "q": "7",
+      "quality_display": 0.061959974100131314,
+      "max_R_coefficient_bits": 6,
+      "quality_rational_bounds": [
+        "309799870500656576652371/5000000000000000000000000",
+        "619599741001313153304743/10000000000000000000000000"
+      ]
+    },
+    {
+      "c": 7,
+      "a": 2,
+      "b": 2,
+      "remaining_degree": 3,
+      "cost_weight_power_of_two": -24,
+      "alpha": "-339",
+      "R_coefficients": [
+        "339",
+        "1921",
+        "4474",
+        "5449",
+        "3572",
+        "1190",
+        "95"
+      ],
+      "R_at_one": "17040",
+      "p": "355",
+      "q": "113",
+      "quality_display": 0.0034063119301380707,
+      "max_R_coefficient_bits": 13,
+      "quality_rational_bounds": [
+        "34063119301380705066389/10000000000000000000000000",
+        "3406311930138070506639/1000000000000000000000000"
+      ]
+    }
+  ],
+  "per_c_best": [
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "d": 1,
+      "p": "22",
+      "q": "7",
+      "Q_display": 0.061959974100131314
+    },
+    {
+      "c": 5,
+      "a": 1,
+      "b": 2,
+      "d": 2,
+      "p": "2",
+      "q": "1",
+      "Q_display": 1.1415926535897933
+    },
+    {
+      "c": 6,
+      "a": 1,
+      "b": 2,
+      "d": 3,
+      "p": "333",
+      "q": "106",
+      "Q_display": 0.9350557349168274
+    },
+    {
+      "c": 7,
+      "a": 2,
+      "b": 2,
+      "d": 3,
+      "p": "355",
+      "q": "113",
+      "Q_display": 0.0034063119301380707
+    },
+    {
+      "c": 8,
+      "a": 2,
+      "b": 3,
+      "d": 3,
+      "p": "113",
+      "q": "36",
+      "Q_display": 3.504079052372037
+    },
+    {
+      "c": 9,
+      "a": 4,
+      "b": 4,
+      "d": 1,
+      "p": "2529",
+      "q": "805",
+      "Q_display": 14.420657474236645
+    },
+    {
+      "c": 10,
+      "a": 3,
+      "b": 6,
+      "d": 1,
+      "p": "2152",
+      "q": "685",
+      "Q_display": 6.1871193292676825
+    },
+    {
+      "c": 11,
+      "a": 4,
+      "b": 4,
+      "d": 3,
+      "p": "2419",
+      "q": "770",
+      "Q_display": 20.284313388411086
+    },
+    {
+      "c": 12,
+      "a": 3,
+      "b": 6,
+      "d": 3,
+      "p": "100798",
+      "q": "32085",
+      "Q_display": 9.318398937659131
+    }
+  ],
+  "per_c_largest_q_below_one": [
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "d": 1,
+      "p": "22",
+      "q": "7",
+      "Q_display": 0.061959974100131314
+    },
+    {
+      "c": 6,
+      "a": 1,
+      "b": 2,
+      "d": 3,
+      "p": "333",
+      "q": "106",
+      "Q_display": 0.9350557349168274
+    },
+    {
+      "c": 7,
+      "a": 2,
+      "b": 2,
+      "d": 3,
+      "p": "355",
+      "q": "113",
+      "Q_display": 0.0034063119301380707
+    }
+  ],
+  "scope": "Finite construction experiment; no new rational approximation record or asymptotic theorem. Smith right transform is unimodular, so the exact full integer kernel is used."
+}

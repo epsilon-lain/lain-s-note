@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_100_decimal_quadratures": 8,
+  "parameter_reflection_exact_checks": 8,
+  "original_geometry_exact_checks": 4,
+  "scope": "Exact arithmetic identities supplemented by independent high-precision numerical contour checks; numerical quadrature does not prove the general formulas."
+}

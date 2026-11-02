@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "method": "Uniform binomial expansion around x^2=1/2 with a geometric rational tail bound",
+  "pi_or_continued_fraction_input": false,
+  "scope": "A known rational is a verification baseline; no new record or infinite quality-zero theorem.",
+  "baseline": {
+    "c": 7,
+    "R_coefficients": [
+      339,
+      1921,
+      4473,
+      5455,
+      3560,
+      1200,
+      92
+    ],
+    "alpha": -339,
+    "N_coefficients": [
+      0,
+      0,
+      -9,
+      94,
+      -320,
+      486,
+      -343,
+      92
+    ],
+    "K": 80,
+    "p": "355",
+    "q": "113",
+    "quality_lower": "7312239395798070270519899483723759336639292793797498387436576013532812918864178717057922597193461057164959744/2146673453802476034297043945936478933784858904506777639064293384644362101310718609511959598689082536964012653805",
+    "quality_upper": "1462447879159614054103981608301943891279732265440479006248485590289968688608101750748840216280934040340111360/429334690760495206859408789187295786756971780901355527812858676928872420262143721902391919737816507392802530761",
+    "quality_upper_display": 0.0034063119301380707,
+    "certified_quality_below_one": true
+  }
+}

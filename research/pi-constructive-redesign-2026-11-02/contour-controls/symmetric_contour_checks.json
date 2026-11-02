@@ -1,0 +1,251 @@
+{
+  "status": "PASS",
+  "candidate_count": 175,
+  "scope": "Finite constructive experiment only, not a new approximation record or infinite quality-zero family.",
+  "parameter_bounds": {
+    "a": [
+      1,
+      4
+    ],
+    "b": [
+      0,
+      4
+    ],
+    "c": [
+      0,
+      8
+    ],
+    "a_b_c_sum": [
+      1,
+      16
+    ]
+  },
+  "record_improvements": [
+    {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "A": "40",
+      "B": "-368/3",
+      "p": "46",
+      "q": "15",
+      "quality_strict_outward_bounds": [
+        "8429173528851739327/500000000000000000",
+        "3371669411540695731/200000000000000000"
+      ],
+      "quality_display": 16.85834705770348,
+      "universal_denominator_bits": 7,
+      "actual_joint_denominator_bits": 2
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 1,
+      "A": "-2",
+      "B": "32/5",
+      "p": "16",
+      "q": "5",
+      "quality_strict_outward_bounds": [
+        "730091830127584519/500000000000000000",
+        "1460183660255169039/1000000000000000000"
+      ],
+      "quality_display": 1.460183660255169,
+      "universal_denominator_bits": 13,
+      "actual_joint_denominator_bits": 3
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "A": "49/20",
+      "B": "-77/10",
+      "p": "22",
+      "q": "7",
+      "quality_strict_outward_bounds": [
+        "12391994820026263/200000000000000000",
+        "15489993525032829/250000000000000000"
+      ],
+      "quality_display": 0.061959974100131314,
+      "universal_denominator_bits": 23,
+      "actual_joint_denominator_bits": 5
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "c": 3,
+      "A": "-113/40",
+      "B": "71/8",
+      "p": "355",
+      "q": "113",
+      "quality_strict_outward_bounds": [
+        "340631193013807/100000000000000000",
+        "3406311930138071/1000000000000000000"
+      ],
+      "quality_display": 0.0034063119301380707,
+      "universal_denominator_bits": 33,
+      "actual_joint_denominator_bits": 6
+    }
+  ],
+  "best_10": [
+    {
+      "a": 1,
+      "b": 2,
+      "c": 3,
+      "A": "-113/40",
+      "B": "71/8",
+      "p": "355",
+      "q": "113",
+      "quality_strict_outward_bounds": [
+        "340631193013807/100000000000000000",
+        "3406311930138071/1000000000000000000"
+      ],
+      "quality_display": 0.0034063119301380707,
+      "universal_denominator_bits": 33,
+      "actual_joint_denominator_bits": 6
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 2,
+      "A": "49/20",
+      "B": "-77/10",
+      "p": "22",
+      "q": "7",
+      "quality_strict_outward_bounds": [
+        "12391994820026263/200000000000000000",
+        "15489993525032829/250000000000000000"
+      ],
+      "quality_display": 0.061959974100131314,
+      "universal_denominator_bits": 23,
+      "actual_joint_denominator_bits": 5
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 3,
+      "A": "-364/125",
+      "B": "1144/125",
+      "p": "22",
+      "q": "7",
+      "quality_strict_outward_bounds": [
+        "12391994820026263/200000000000000000",
+        "15489993525032829/250000000000000000"
+      ],
+      "quality_display": 0.061959974100131314,
+      "universal_denominator_bits": 33,
+      "actual_joint_denominator_bits": 7
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "c": 4,
+      "A": "53/4000",
+      "B": "-333/8000",
+      "p": "333",
+      "q": "106",
+      "quality_strict_outward_bounds": [
+        "467527867458413683/500000000000000000",
+        "935055734916827367/1000000000000000000"
+      ],
+      "quality_display": 0.9350557349168274,
+      "universal_denominator_bits": 43,
+      "actual_joint_denominator_bits": 13
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "c": 5,
+      "A": "-3/250",
+      "B": "377/10000",
+      "p": "377",
+      "q": "120",
+      "quality_strict_outward_bounds": [
+        "1065788306977366137/1000000000000000000",
+        "532894153488683069/500000000000000000"
+      ],
+      "quality_display": 1.0657883069773662,
+      "universal_denominator_bits": 54,
+      "actual_joint_denominator_bits": 14
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 1,
+      "A": "-2",
+      "B": "32/5",
+      "p": "16",
+      "q": "5",
+      "quality_strict_outward_bounds": [
+        "730091830127584519/500000000000000000",
+        "1460183660255169039/1000000000000000000"
+      ],
+      "quality_display": 1.460183660255169,
+      "universal_denominator_bits": 13,
+      "actual_joint_denominator_bits": 3
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "c": 3,
+      "A": "-3/200",
+      "B": "47/1000",
+      "p": "47",
+      "q": "15",
+      "quality_strict_outward_bounds": [
+        "929173528851739327/500000000000000000",
+        "371669411540695731/200000000000000000"
+      ],
+      "quality_display": 1.8583470577034786,
+      "universal_denominator_bits": 33,
+      "actual_joint_denominator_bits": 10
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 2,
+      "A": "832/5",
+      "B": "-1568/3",
+      "p": "245",
+      "q": "78",
+      "quality_strict_outward_bounds": [
+        "1724852220151031403/500000000000000000",
+        "3449704440302062807/1000000000000000000"
+      ],
+      "quality_display": 3.449704440302063,
+      "universal_denominator_bits": 25,
+      "actual_joint_denominator_bits": 4
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "c": 5,
+      "A": "1/20000",
+      "B": "-157/1000000",
+      "p": "157",
+      "q": "50",
+      "quality_strict_outward_bounds": [
+        "995408493620774039/250000000000000000",
+        "3981633974483096157/1000000000000000000"
+      ],
+      "quality_display": 3.981633974483096,
+      "universal_denominator_bits": 54,
+      "actual_joint_denominator_bits": 20
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 4,
+      "A": "161/12500",
+      "B": "-126/3125",
+      "p": "72",
+      "q": "23",
+      "quality_strict_outward_bounds": [
+        "2951256874500311573/500000000000000000",
+        "5902513749000623147/1000000000000000000"
+      ],
+      "quality_display": 5.902513749000623,
+      "universal_denominator_bits": 43,
+      "actual_joint_denominator_bits": 14
+    }
+  ]
+}

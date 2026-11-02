@@ -1,0 +1,281 @@
+{
+  "base_commit": "697aef18b10f969e7bd163c2abe1674db9353279",
+  "scope": "Constructive redesign; exact odd period-image theorem, finite generation and signed integral certificates. No infinite successful subsequence or new rational approximation record.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e355f6724e1a3fd3d2a2d0f6ecd151c6779f758a57a22e19933f3b9574ad63f1",
+      "bytes": 10194
+    },
+    {
+      "path": "certificates/certify_new_family.py",
+      "sha256": "7df27698266d0ed1cb3f1a6802c7e66d3f26fde52823540a5065af41a342a009",
+      "bytes": 1898
+    },
+    {
+      "path": "certificates/independent_certificate_checks.json",
+      "sha256": "0b4ea8075410ddb7de488c285b80cdae68f7c38ddc8eda7f2a49ca36ac1112bf",
+      "bytes": 229
+    },
+    {
+      "path": "certificates/integral_certificate.py",
+      "sha256": "a002f886cedee73e4abc9aba3f8341befd211a45824f9d24cab0be0fffa0e90b",
+      "bytes": 2428
+    },
+    {
+      "path": "certificates/integral_certificate_checks.json",
+      "sha256": "a290903e8fb08e268f4e9ddfcfa9dfcbcd4f0c31c14179f0d9fc3d80697c0bb9",
+      "bytes": 1173
+    },
+    {
+      "path": "certificates/new_family_integral_checks.json",
+      "sha256": "e13db69d98bbb76f602f8d25b04ada35ec87e42a0f355ebca363008ca0034ef6",
+      "bytes": 2525
+    },
+    {
+      "path": "certificates/verify_certificate.py",
+      "sha256": "bdeaeef7edc1e46123c3f1d3957ee36055ef54e15d1431fe2ede2f0edab90f19",
+      "bytes": 1145
+    },
+    {
+      "path": "contour-controls/PAIRED_POLE_GEOMETRY.md",
+      "sha256": "55807056687b6849108e477a8b9b059b414c1f64cef62be76074bac4d1f3ec33",
+      "bytes": 7699
+    },
+    {
+      "path": "contour-controls/QUADRATIC_TRACE.md",
+      "sha256": "e0a2af750c71e8f570b4fc062d2dd5b6b8bdddb54af21b37f95dd663ff96cba4",
+      "bytes": 4710
+    },
+    {
+      "path": "contour-controls/contour_identity_checks.json",
+      "sha256": "26ac582fd90ead255d576539588b7bc331ad65a861b121ced4f6e7ed877116cf",
+      "bytes": 317
+    },
+    {
+      "path": "contour-controls/coupled_trace.py",
+      "sha256": "8ba7e1948fe25065ef8753f7ba0c6bfc9ff8d67b5fd96020144c85447b06ba13",
+      "bytes": 2366
+    },
+    {
+      "path": "contour-controls/coupled_trace_checks.json",
+      "sha256": "b0d9a36b8e475e5c90c43c51e855223f27d6b9ef4635cace03c099b200a7a826",
+      "bytes": 7780
+    },
+    {
+      "path": "contour-controls/coupled_trace_identity_checks.json",
+      "sha256": "ea3cf2cd310344fffb1f5b971542bccf1fb21d9901fad59e235f492f0d5a0da8",
+      "bytes": 512
+    },
+    {
+      "path": "contour-controls/endpoint_checks.json",
+      "sha256": "31b169aa8e6a37434e6dc8c3a19de50e0d5796c423cd3c24df8dd9d1ffe50328",
+      "bytes": 7367
+    },
+    {
+      "path": "contour-controls/endpoint_design.py",
+      "sha256": "7ce27b007579f7cceb4f156d2f8a35c9eefdb0e3218d4ef2c728dbb6ed31c66b",
+      "bytes": 3130
+    },
+    {
+      "path": "contour-controls/geometry_compare.py",
+      "sha256": "5b6195b8b0f58a1329013f5e6482e6f9817594d5bb9a8f5ddb69c830e83c7329",
+      "bytes": 1799
+    },
+    {
+      "path": "contour-controls/geometry_comparison.json",
+      "sha256": "e9838c55f2158580c769468084a2ad6b9bf93dd8f5f354b3694764002d1e4e46",
+      "bytes": 20156
+    },
+    {
+      "path": "contour-controls/quadratic_trace_checks.json",
+      "sha256": "5d111c9d653989e7e10af8b36d46d0693c7cb7ab7afdc45d3094ba90108b2bff",
+      "bytes": 4781
+    },
+    {
+      "path": "contour-controls/quadratic_trace_contour.py",
+      "sha256": "ce0e149b4b5e908f47600f31b8bb5096320031255acf245b762968fbd492cc7e",
+      "bytes": 3103
+    },
+    {
+      "path": "contour-controls/quadratic_trace_identity_checks.json",
+      "sha256": "4fceabbb1742c730babb96ab338de6ffe192402a38e4af68948262b7a9538e96",
+      "bytes": 437
+    },
+    {
+      "path": "contour-controls/scale_checks.json",
+      "sha256": "21a465f82d7ec7cf3ea6f50725fe3bff2e1c9e50c32c0f3ec77dfae8e3b4c01f",
+      "bytes": 67021
+    },
+    {
+      "path": "contour-controls/scale_experiment.py",
+      "sha256": "a267a894435d7d218612ea32d48935870362988e272ddb6caa5fa820efca4cac",
+      "bytes": 1865
+    },
+    {
+      "path": "contour-controls/symmetric_contour.py",
+      "sha256": "d07dda695e7a8beb241da1dac53b5056fb7d4fcb8c78295be245d6aef61e9b58",
+      "bytes": 2996
+    },
+    {
+      "path": "contour-controls/symmetric_contour_checks.json",
+      "sha256": "84bee5283c22c2fdca1793eb25ba058379658e9d062476d9b148ea60c13db744",
+      "bytes": 6070
+    },
+    {
+      "path": "contour-controls/verify_contour.py",
+      "sha256": "e7218f42e6e503a5013dacebe91d9d74674eb1f7451fadddedc79d440b43f560",
+      "bytes": 1664
+    },
+    {
+      "path": "contour-controls/verify_coupled_trace.py",
+      "sha256": "3187b09e9c36f78ef7c092f2d376dc971ac76aac43a599d6f6e72146ba345f4c",
+      "bytes": 1267
+    },
+    {
+      "path": "contour-controls/verify_quadratic_trace.py",
+      "sha256": "479ca11e59464ddae31d8828388b66e9fa074fe91c5d55438e47db6e142e5da6",
+      "bytes": 1203
+    },
+    {
+      "path": "integer-kernel/COMPLETED_FILES.md",
+      "sha256": "2a635b458baa24d2f3d680664d19bf47c97639fb569a7550f7b8dc438d1dc765",
+      "bytes": 1165
+    },
+    {
+      "path": "integer-kernel/INTEGER_ANTIDERIVATIVE_FAMILY.md",
+      "sha256": "1af3bd5a52759820175f4fe3324481ded743438fa3dc63b326a21672d0027545",
+      "bytes": 14976
+    },
+    {
+      "path": "integer-kernel/antiderivative_search.py",
+      "sha256": "5813fddf1d3f7b56a4b79e721b5f5cb2bdf5d0ff4fbd7f3dcb7ac8d0a15fd5c8",
+      "bytes": 3831
+    },
+    {
+      "path": "integer-kernel/antiderivative_search_results.json",
+      "sha256": "898eb666d0eb8980e97e7e48a0a1104540b939ee5fdce01dd3e3dbeafbf1696d",
+      "bytes": 3013
+    },
+    {
+      "path": "integer-kernel/antiderivative_search_saturated.py",
+      "sha256": "c813e1f9e26068c7964a9e2747e2b1c05b57cc58a1ddf841f8c03e72ae5eaae9",
+      "bytes": 4769
+    },
+    {
+      "path": "integer-kernel/antiderivative_small_saturated.py",
+      "sha256": "01b20124a69596b08d35da2680eb46976b5e6516db14ed62954e29baf315f457",
+      "bytes": 4752
+    },
+    {
+      "path": "integer-kernel/compare_single_kernels.py",
+      "sha256": "35b2b366a1e5b0c1061cd380093dce52caae12aadee7dfd5cd0175ffb31af4cf",
+      "bytes": 971
+    },
+    {
+      "path": "integer-kernel/constructive_upper_certificates.json",
+      "sha256": "1bc1bc97bc3fd34da5416db25f04f23fd36300d5e6cdd006bc6dd733608bd05f",
+      "bytes": 1124
+    },
+    {
+      "path": "integer-kernel/coordinate_cost_table.json",
+      "sha256": "2759d7136a09498c65f0110146bf0b529780615742b6a5dd9a6f77c7a4987208",
+      "bytes": 3233
+    },
+    {
+      "path": "integer-kernel/fair_endpoint_comparison.json",
+      "sha256": "ba15fe42708a3c91cf82a058e927bc1ae2e4dd94bb3819bf630070a00f15196a",
+      "bytes": 720
+    },
+    {
+      "path": "integer-kernel/family_checks.json",
+      "sha256": "9fe2c001d2a74e7a1208e73aef23d9b8090f09179cc18159425f76d7ed978194",
+      "bytes": 247
+    },
+    {
+      "path": "integer-kernel/new_family_checks.json",
+      "sha256": "63a378296d6776aec71477ab582d95dda6cd42c3620d685b8b9f359ef7088bfe",
+      "bytes": 329
+    },
+    {
+      "path": "integer-kernel/new_family_results.json",
+      "sha256": "7d93984b69b6534b3de055a1ba4360577f1d190794428412ed46793556d9b849",
+      "bytes": 58593
+    },
+    {
+      "path": "integer-kernel/new_family_search.py",
+      "sha256": "05cd6ba2da6610ad08ff4153cb8d70c898594b7a48941a29224ded32fa1185c3",
+      "bytes": 3675
+    },
+    {
+      "path": "integer-kernel/period_lattice_controls.json",
+      "sha256": "3ba5fdc11dbe463e498bf18bc82a1d9ac7808a4ed038b475abf85cbcae22911b",
+      "bytes": 2480
+    },
+    {
+      "path": "integer-kernel/single_kernel_control.json",
+      "sha256": "5d8d98032072b4a8afa4f48dcc7e2f7a2677c1e74fe4afe22caa3357c9ed248c",
+      "bytes": 7024
+    },
+    {
+      "path": "integer-kernel/small_saturated_results.json",
+      "sha256": "901f0dadb5acc5bf1cb5848b8d17c46e3fb3141e2006e9fc5100e6a431a10958",
+      "bytes": 4302
+    },
+    {
+      "path": "integer-kernel/verify_constructive_bounds.py",
+      "sha256": "fb56f26b290d6e336997b477305f521e6fbfeea18a7bc97c966a3fdd8c1a2787",
+      "bytes": 1200
+    },
+    {
+      "path": "integer-kernel/verify_family.py",
+      "sha256": "eb89a2a5da6c1fadc3d683ea27374da6a6dec3b2ba5d48e462dfaa7e62648136",
+      "bytes": 1253
+    },
+    {
+      "path": "integer-kernel/verify_new_family.py",
+      "sha256": "7d0eace8ce9d68bc4d012b83a75ef08e79e88ebba3eb7f3e560865343eabe983",
+      "bytes": 1616
+    },
+    {
+      "path": "integer-kernel/verify_odd_period_image.py",
+      "sha256": "75556f46fab323afb15c2d07591e880803aa7bb598b936b89073c1b0e4d38cea",
+      "bytes": 1820
+    },
+    {
+      "path": "trace-control/trace_pade.py",
+      "sha256": "f112dab2aa10bca0ab37bca10c3c7c1f1a715e03a420a010ed328a0e503cb60b",
+      "bytes": 1571
+    },
+    {
+      "path": "trace-control/trace_pade_checks.json",
+      "sha256": "16ac06d9a8507a5a3ac3a7cdb3fe64ffab8e09dffbdf868b8afe418a6c128b93",
+      "bytes": 2276
+    },
+    {
+      "path": "type-I-control/ENDPOINT_TYPE_I.md",
+      "sha256": "8a8f2d499e6e8caae1af083deebfd0ca28d8c9225bbe68d384354f1802c682ba",
+      "bytes": 4822
+    },
+    {
+      "path": "type-I-control/endpoint_angle_results.json",
+      "sha256": "f0357ec30da24e7f867452c99960488d9fd62716ff832b9d4b44b492d6c09ae5",
+      "bytes": 19972
+    },
+    {
+      "path": "type-I-control/endpoint_angle_sweep.py",
+      "sha256": "fb436bac87f4d7d0b5aa712cc4411d3bc1f17a15e290ff777934d0f16fc4648f",
+      "bytes": 3111
+    },
+    {
+      "path": "type-I-control/endpoint_typeI.py",
+      "sha256": "e11a6290cd9b045f736d362a09502c1e005e9e58548505bd38444f5e62e63dd5",
+      "bytes": 2989
+    },
+    {
+      "path": "type-I-control/endpoint_typeI_results.json",
+      "sha256": "174ec7ac4c1b686410ae698fdd1d4eef8d2a49de43bb4ac85c3882ef031cca91",
+      "bytes": 78132
+    }
+  ]
+}

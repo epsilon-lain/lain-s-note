@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "selection": "integer nullspace sublattice; exact LLL with rational sampling features and alpha/boundary cost; pi used only after selection to evaluate quality",
+  "coverage": {
+    "c": [
+      4,
+      20
+    ],
+    "remaining_degree": [
+      1,
+      2,
+      3
+    ],
+    "sample_x": [
+      "1/10",
+      "2/10",
+      "3/10",
+      "4/10",
+      "5/10",
+      "6/10",
+      "7/10",
+      "8/10",
+      "9/10"
+    ]
+  },
+  "lll_rows_examined": 1994,
+  "zero_alpha_rows": 973,
+  "distinct_positive_rationals": 448,
+  "elapsed_seconds": 15.15971412500221,
+  "records": [
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "remaining_degree": 1,
+      "cost_weight_power_of_two": -8,
+      "alpha": "-9",
+      "R_coefficients": [
+        "9",
+        "23",
+        "21",
+        "3"
+      ],
+      "R_at_one": "56",
+      "p": "28",
+      "q": "9",
+      "quality_display": 2.469004940773252,
+      "max_R_coefficient_bits": 5,
+      "quality_rational_bounds": [
+        "1234502470386626157737057/500000000000000000000000",
+        "24690049407732523154741141/10000000000000000000000000"
+      ]
+    },
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "remaining_degree": 1,
+      "cost_weight_power_of_two": -8,
+      "alpha": "-24",
+      "R_coefficients": [
+        "24",
+        "65",
+        "54",
+        "9"
+      ],
+      "R_at_one": "152",
+      "p": "19",
+      "q": "6",
+      "quality_display": 0.9026644707674434,
+      "max_R_coefficient_bits": 7,
+      "quality_rational_bounds": [
+        "4513322353837217076724191/5000000000000000000000000",
+        "9026644707674434153448383/10000000000000000000000000"
+      ]
+    },
+    {
+      "c": 4,
+      "a": 1,
+      "b": 2,
+      "remaining_degree": 1,
+      "cost_weight_power_of_two": -16,
+      "alpha": "-42",
+      "R_coefficients": [
+        "42",
+        "111",
+        "96",
+        "15"
+      ],
+      "R_at_one": "264",
+      "p": "22",
+      "q": "7",
+      "quality_display": 0.061959974100131314,
+      "max_R_coefficient_bits": 7,
+      "quality_rational_bounds": [
+        "309799870500656576652371/5000000000000000000000000",
+        "619599741001313153304743/10000000000000000000000000"
+      ]
+    },
+    {
+      "c": 7,
+      "a": 1,
+      "b": 3,
+      "remaining_degree": 3,
+      "cost_weight_power_of_two": -24,
+      "alpha": "-339",
+      "R_coefficients": [
+        "339",
+        "1921",
+        "4473",
+        "5455",
+        "3560",
+        "1200",
+        "92"
+      ],
+      "R_at_one": "17040",
+      "p": "355",
+      "q": "113",
+      "quality_display": 0.0034063119301380707,
+      "max_R_coefficient_bits": 13,
+      "quality_rational_bounds": [
+        "34063119301380705066389/10000000000000000000000000",
+        "3406311930138070506639/1000000000000000000000000"
+      ]
+    }
+  ],
+  "scope": "Finite construction experiment; no new rational approximation record or asymptotic theorem. Nullspace basis spans a certified sublattice, not asserted the full integer kernel."
+}
