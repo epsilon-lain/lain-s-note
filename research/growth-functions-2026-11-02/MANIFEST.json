@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-02",
+  "scope": "Growth-function algebra, exact rational stepping, mode-locking certificates and finite Fourier generators; no new pi approximation theorem.",
+  "verification_commands": [
+    "python3 algebra/verify_algebra.py",
+    "python3 dynamics/verify_dynamics.py",
+    "python3 coupling/verify.py",
+    "python3 spectral/verify_spectral.py",
+    "python3 verify_independent.py"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8117,
+      "sha256": "423e8ade4652a87ffc93f2ed672a141021a5ce2acbc7ebf7b83d619bb245c6d1"
+    },
+    {
+      "path": "algebra/NOTE.md",
+      "bytes": 9009,
+      "sha256": "a97cc7c7fa06daf9cd247b226e27c569df5bcd9a6f8730e8d3afd78c195c477c"
+    },
+    {
+      "path": "algebra/checks.json",
+      "bytes": 579,
+      "sha256": "bc1d18639e52941c840f258c34f39ce39fa3f73f4e458494f8c12595637cbd8b"
+    },
+    {
+      "path": "algebra/verify_algebra.py",
+      "bytes": 4940,
+      "sha256": "5cc6ec672b3a755c02df51ad97a582aaf3a1f9c35c24d509a9141553a0ed6b76"
+    },
+    {
+      "path": "coupling/NOTE.md",
+      "bytes": 10627,
+      "sha256": "e36b8afb3ca1abaa1e2dbda9cff534db090f1d7cb37139936a51f7ebe575b2c9"
+    },
+    {
+      "path": "coupling/checks.json",
+      "bytes": 1985,
+      "sha256": "e3a28adea8e69ceba774ac0023432e4bd424854438d9eef5b92be4bdd2c25d75"
+    },
+    {
+      "path": "coupling/exact_circle.py",
+      "bytes": 1764,
+      "sha256": "f25e7d7395b2fc9bce2322e33f8e41f7adf7b013314c421655961246eb2df7a6"
+    },
+    {
+      "path": "coupling/verify.py",
+      "bytes": 5174,
+      "sha256": "eeacc0d4d915c5914e90fe86ba8416561d9357cf4157505e1b0441b51a8addd7"
+    },
+    {
+      "path": "dynamics/NOTE.md",
+      "bytes": 9537,
+      "sha256": "8944fe1dc486a8723dafd3d3ae800a4cff5d064d962005d95a27ff5644f4c1e3"
+    },
+    {
+      "path": "dynamics/checks.json",
+      "bytes": 3703,
+      "sha256": "f30e67cdfc6d39fd807ada1356b56042ce8cc508f2a03ac98b0b6d84fbc4cd09"
+    },
+    {
+      "path": "dynamics/verify_dynamics.py",
+      "bytes": 5674,
+      "sha256": "20f7a7abfe97ac7724dd72094bf67be803cd7cef095a48d40a1198d131289e64"
+    },
+    {
+      "path": "independent_checks.json",
+      "bytes": 912,
+      "sha256": "cf3ba843342c5816bf01d3bc681519bd2def6600ddd6189627b668b8f7fede7d"
+    },
+    {
+      "path": "spectral/NOTE.md",
+      "bytes": 3815,
+      "sha256": "3b7df4f66db4ab2952e14a9f838d78b0f967b1e75278217f37c733bd23984a96"
+    },
+    {
+      "path": "spectral/checks.json",
+      "bytes": 277,
+      "sha256": "8d3bb86d6d270146e2f0823e3c91459ab62c2b4d057e3f99fb5b49e7b83b1d66"
+    },
+    {
+      "path": "spectral/verify_spectral.py",
+      "bytes": 2723,
+      "sha256": "964d427c90a1e3fe7b777e5c5cd9957a5258c83086bb62ddd5386558bfb6763d"
+    },
+    {
+      "path": "verify_independent.py",
+      "bytes": 3227,
+      "sha256": "1b8d6ece78411722bd431d57db78a9c6cf43bc3c04db0ee7d26e30cd256752d1"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "scope": "Exact implementation controls for separately proved general theorems; no pi approximation theorem.",
+  "piece_partition_cases": 240,
+  "exact_point_evaluation_checks": 12879,
+  "maximum_piece_count": 33,
+  "closed_band_formula_checks": 303,
+  "locking_examples": [
+    {
+      "p": 1,
+      "q": 2,
+      "interval": [
+        "9/100",
+        "11/100"
+      ],
+      "iterate_minus_p_image": [
+        "37/400",
+        "43/400"
+      ],
+      "strict_margin": "1/400",
+      "omega": "51/100",
+      "kappa": "1/2",
+      "orbit": [
+        "1/10",
+        "14/25"
+      ],
+      "last_lift": "11/10",
+      "piece_count": 5,
+      "minimum_circle_period": 2,
+      "candidate_affine_roots": 4,
+      "smooth_iterate_perturbation_bound": "9217/3778560",
+      "smooth_lock_persists": true
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "interval": [
+        "107/500",
+        "117/500"
+      ],
+      "iterate_minus_p_image": [
+        "881/4000",
+        "911/4000"
+      ],
+      "strict_margin": "1/160",
+      "omega": "17/50",
+      "kappa": "1/2",
+      "orbit": [
+        "28/125",
+        "113/250",
+        "96/125"
+      ],
+      "last_lift": "153/125",
+      "piece_count": 7,
+      "minimum_circle_period": 3,
+      "candidate_affine_roots": 6,
+      "smooth_iterate_perturbation_bound": "175123/37785600",
+      "smooth_lock_persists": true
+    }
+  ],
+  "fejer": {
+    "N": 1024,
+    "nonzero_sine_terms": 512,
+    "F_sup_error_bound": "9217/9446400",
+    "rational_common_denominator_bits": 2938,
+    "max_integer_coefficient_bits": 2938,
+    "integer_coefficients_sha256": "ee6fc9d582df87aaa03c4caa59718847938dac05376d4d5abf760e55474ec9e9",
+    "common_analytic_prefactor": "2/pi^2; retained, not treated as a rational coefficient"
+  },
+  "anchored_2D_coupling": {
+    "radius": "1/10",
+    "epsilon": "1/10",
+    "contraction_bound": "977/3675"
+  },
+  "sources": [
+    "https://www.math.stonybrook.edu/~jack/DYNOTES/dn14.pdf"
+  ]
+}

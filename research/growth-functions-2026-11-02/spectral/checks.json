@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "random_division_and_residue_checks": 3960,
+  "integer_basis_reconstruction_and_height_checks": 1020,
+  "two_skeleton_identity_checks": 4,
+  "uses_pi_digits": false,
+  "scope": "Exact finite Fourier kernel arithmetic only; no pi approximation claim."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "arithmetic": "standard-library Fraction only",
+  "period_certificates": [
+    {
+      "omega": "51/100",
+      "rho": "1/2",
+      "exact_orbit": [
+        "1/10",
+        "14/25",
+        "11/10"
+      ],
+      "trapping_interval": [
+        "9/100",
+        "11/100"
+      ],
+      "q_step_contraction": "3/4",
+      "margin": "1/400"
+    },
+    {
+      "omega": "17/50",
+      "rho": "1/3",
+      "exact_orbit": [
+        "28/125",
+        "113/250",
+        "96/125",
+        "153/125"
+      ],
+      "trapping_interval": [
+        "107/500",
+        "117/500"
+      ],
+      "q_step_contraction": "3/8",
+      "margin": "1/160"
+    }
+  ],
+  "closed_locking_plateau_checks": 201,
+  "rational_cubic_closed_form_checks": 120,
+  "fejer_step_error_upper": "9217/9446400",
+  "scope": "Independent exact orbit/trapping/denominator controls. No improved approximation to pi is asserted."
+}

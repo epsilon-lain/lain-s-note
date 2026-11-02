@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Exact controls for the proved smooth-clock algebra and a finite rational expression grammar; not certification of all arbitrary functions or a pi approximation construction.",
+  "formal_polynomial_identity_checks": 560,
+  "integer_readout_checks": 10560,
+  "rational_denominator_divisibility_checks": 5760,
+  "rational_bit_bound_controls": 5760,
+  "sine_normal_form_checks": 14,
+  "rational_backend_boundary_checks": 28,
+  "continuous_product_counterexample_limit": "infinity",
+  "dependencies": {
+    "python": "3",
+    "sympy": "1.14.0"
+  }
+}
