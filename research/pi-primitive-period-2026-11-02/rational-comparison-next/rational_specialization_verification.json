@@ -1,0 +1,183 @@
+{
+  "status": "passed",
+  "fixture_sha256": "73599150782daf1398a3d11e542faf4543698937c67635cf8bc08bfea6cef0a1",
+  "coefficient_families": 4,
+  "exact_rational_value_denominator_checks": 300,
+  "polynomial_checks": [
+    {
+      "n": 4,
+      "exact_least_coefficient_denominator": "144",
+      "degree": 8,
+      "primitive_unit_leading_coefficient": true,
+      "derivative_coefficient_majorant_check": true,
+      "named_rational_centers": [
+        {
+          "p": 22,
+          "q": 7,
+          "b": 7,
+          "value_denominator": "5764801"
+        },
+        {
+          "p": 355,
+          "q": 113,
+          "b": 113,
+          "value_denominator": "26584441929064321"
+        },
+        {
+          "p": 19,
+          "q": 6,
+          "b": 3,
+          "value_denominator": "6561"
+        },
+        {
+          "p": 25,
+          "q": 8,
+          "b": 4,
+          "value_denominator": "65536"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "exact_least_coefficient_denominator": "74649600",
+      "degree": 18,
+      "primitive_unit_leading_coefficient": true,
+      "derivative_coefficient_majorant_check": true,
+      "named_rational_centers": [
+        {
+          "p": 22,
+          "q": 7,
+          "b": 7,
+          "value_denominator": "1628413597910449"
+        },
+        {
+          "p": 355,
+          "q": 113,
+          "b": 113,
+          "value_denominator": "9024267965168278308669913635234402529"
+        },
+        {
+          "p": 19,
+          "q": 6,
+          "b": 3,
+          "value_denominator": "387420489"
+        },
+        {
+          "p": 25,
+          "q": 8,
+          "b": 4,
+          "value_denominator": "68719476736"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "exact_least_coefficient_denominator": "758487711744000000",
+      "degree": 32,
+      "primitive_unit_leading_coefficient": true,
+      "derivative_coefficient_majorant_check": true,
+      "named_rational_centers": [
+        {
+          "p": 22,
+          "q": 7,
+          "b": 7,
+          "value_denominator": "1104427674243920646305299201"
+        },
+        {
+          "p": 355,
+          "q": 113,
+          "b": 113,
+          "value_denominator": "499470901017296553026067587470451820114248277410727635080006663681"
+        },
+        {
+          "p": 19,
+          "q": 6,
+          "b": 3,
+          "value_denominator": "1853020188851841"
+        },
+        {
+          "p": 25,
+          "q": 8,
+          "b": 4,
+          "value_denominator": "18446744073709551616"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "exact_least_coefficient_denominator": "489407583931698134384640000000000",
+      "degree": 50,
+      "primitive_unit_leading_coefficient": true,
+      "derivative_coefficient_majorant_check": true,
+      "named_rational_centers": [
+        {
+          "p": 22,
+          "q": 7,
+          "b": 7,
+          "value_denominator": "1798465042647412146620280340569649349251249"
+        },
+        {
+          "p": 355,
+          "q": 113,
+          "b": 113,
+          "value_denominator": "4507359251584125312831094049206192251917149174228712290740411012743224048328332641031703869738678849249"
+        },
+        {
+          "p": 19,
+          "q": 6,
+          "b": 3,
+          "value_denominator": "717897987691852588770249"
+        },
+        {
+          "p": 25,
+          "q": 8,
+          "b": 4,
+          "value_denominator": "1267650600228229401496703205376"
+        }
+      ]
+    }
+  ],
+  "exact_sufficient_height_certificates": [
+    {
+      "b": 2,
+      "certified_even_n": 48,
+      "N_n": 1152,
+      "twice_baseline_to_rational_floor_at_most_one": true,
+      "ratio_numerator_bits": 12220,
+      "ratio_denominator_bits": 12353,
+      "primitive_denominator_bits": 5094,
+      "rational_value_denominator_bits": 1153
+    },
+    {
+      "b": 3,
+      "certified_even_n": 72,
+      "N_n": 2592,
+      "twice_baseline_to_rational_floor_at_most_one": true,
+      "ratio_numerator_bits": 26844,
+      "ratio_denominator_bits": 27145,
+      "primitive_denominator_bits": 12977,
+      "rational_value_denominator_bits": 4109
+    },
+    {
+      "b": 7,
+      "certified_even_n": 168,
+      "N_n": 14112,
+      "twice_baseline_to_rational_floor_at_most_one": true,
+      "ratio_numerator_bits": 135113,
+      "ratio_denominator_bits": 136759,
+      "primitive_denominator_bits": 87895,
+      "rational_value_denominator_bits": 39618
+    },
+    {
+      "b": 10,
+      "certified_even_n": 240,
+      "N_n": 28800,
+      "twice_baseline_to_rational_floor_at_most_one": true,
+      "ratio_numerator_bits": 354878,
+      "ratio_denominator_bits": 358239,
+      "primitive_denominator_bits": 194196,
+      "rational_value_denominator_bits": 95672
+    }
+  ],
+  "scope": "Finite exact identities and sufficient comparisons. General denominator, derivative, asymptotic threshold and error bound are proved in the note. No bad-approximability or counterexample claim."
+}

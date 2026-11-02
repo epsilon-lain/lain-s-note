@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "content_records": [
+    {
+      "n": 2,
+      "degree": 2,
+      "content": "1",
+      "leading_coefficient": "-1",
+      "balanced_divisor": "1",
+      "least_integer_coefficient_denominator": "1",
+      "odd_content_equality_scope": "Matches proved even formula"
+    },
+    {
+      "n": 3,
+      "degree": 3,
+      "content": "8",
+      "leading_coefficient": "8",
+      "balanced_divisor": "1",
+      "least_integer_coefficient_denominator": "1",
+      "odd_content_equality_scope": "Finite check only"
+    },
+    {
+      "n": 4,
+      "degree": 8,
+      "content": "1",
+      "leading_coefficient": "1",
+      "balanced_divisor": "1",
+      "least_integer_coefficient_denominator": "144",
+      "odd_content_equality_scope": "Matches proved even formula"
+    },
+    {
+      "n": 5,
+      "degree": 11,
+      "content": "96",
+      "leading_coefficient": "-96",
+      "balanced_divisor": "4",
+      "least_integer_coefficient_denominator": "864",
+      "odd_content_equality_scope": "Finite check only"
+    },
+    {
+      "n": 6,
+      "degree": 18,
+      "content": "16",
+      "leading_coefficient": "-16",
+      "balanced_divisor": "16",
+      "least_integer_coefficient_denominator": "74649600",
+      "odd_content_equality_scope": "Matches proved even formula"
+    },
+    {
+      "n": 7,
+      "degree": 23,
+      "content": "27648",
+      "leading_coefficient": "27648",
+      "balanced_divisor": "576",
+      "least_integer_coefficient_denominator": "22394880000",
+      "odd_content_equality_scope": "Finite check only"
+    },
+    {
+      "n": 8,
+      "degree": 32,
+      "content": "20736",
+      "leading_coefficient": "20736",
+      "balanced_divisor": "20736",
+      "least_integer_coefficient_denominator": "758487711744000000",
+      "odd_content_equality_scope": "Matches proved even formula"
+    },
+    {
+      "n": 9,
+      "degree": 39,
+      "content": "955514880",
+      "leading_coefficient": "-955514880",
+      "balanced_divisor": "11943936",
+      "least_integer_coefficient_denominator": "26759446470328320000000",
+      "odd_content_equality_scope": "Finite check only"
+    },
+    {
+      "n": 10,
+      "degree": 50,
+      "content": "6879707136",
+      "leading_coefficient": "-6879707136",
+      "balanced_divisor": "6879707136",
+      "least_integer_coefficient_denominator": "489407583931698134384640000000000",
+      "odd_content_equality_scope": "Matches proved even formula"
+    },
+    {
+      "n": 11,
+      "degree": 59,
+      "content": "11888133931008000",
+      "leading_coefficient": "11888133931008000",
+      "balanced_divisor": "99067782758400",
+      "least_integer_coefficient_denominator": "3729520705199826999115461427200000000000",
+      "odd_content_equality_scope": "Finite check only"
+    },
+    {
+      "n": 12,
+      "degree": 72,
+      "content": "1426576071720960000",
+      "leading_coefficient": "1426576071720960000",
+      "balanced_divisor": "1426576071720960000",
+      "least_integer_coefficient_denominator": "49520293792860995937742267743935555174400000000000000",
+      "odd_content_equality_scope": "Matches proved even formula"
+    }
+  ],
+  "independent_factorial_determinant_schur_checks": 183,
+  "balanced_factorial_divisibility_checks": 858,
+  "scope": "Finite independent verification of the even theorem and balanced divisor. Odd exact content agreement is experimental only."
+}

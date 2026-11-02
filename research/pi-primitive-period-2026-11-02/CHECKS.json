@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "e1bc2f6d1673dbb8153afda2e113243c18822954",
+  "python_version": "3.12.14",
+  "status": "passed",
+  "checks": [
+    {
+      "command": "python denominator-reflection-route/verify_endpoint_denominators.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"endpoint_split_checks\": 25,\n  \"laguerre_schur_integrality_checks\": 188,\n  \"denominator_cases\": 9,\n  \"raw_determinant_evaluations\": 27,\n  \"factorial_content_divisibility_checks\": 1888\n}"
+    },
+    {
+      "command": "python minimal-denominator-general/structure/verify_content_structure.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"complete_polynomial_content_checks\": 11,\n  \"schur_integrality_checks\": 183,\n  \"balanced_factorial_divisibility_checks\": 858\n}"
+    },
+    {
+      "command": "python minimal-denominator-general/verify_finite_threshold.py",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"output\": \"/workspace/scratch/443125adbea1/github-preservation-20261101/research/pi-primitive-period-2026-11-02/minimal-denominator-general/finite_threshold_verification.json\"}"
+    },
+    {
+      "command": "python near-root-general/verify_general_roots.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"exact_period_polynomials\": 9,\n  \"raw_determinant_checks\": 27,\n  \"reflection_factor_checks\": 27,\n  \"factorial_hankel_checks\": 35,\n  \"rational_root_distance_records\": 18,\n  \"certified_distance_bounds\": 15\n}"
+    },
+    {
+      "command": "python frequency-dilation-next/verify_frequency_dilation.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"polynomial_reconstructions\": 9,\n  \"independent_raw_scaling_checks\": 56,\n  \"primitive_content_cases\": 81,\n  \"scope\": \"Exact scaling, primitive coefficient content, valid budgets and fixed-n frequency threshold. No optimal joint n,b choice, infinite root-convergence, or rational approximation claim.\"\n}"
+    },
+    {
+      "command": "python rational-comparison-next/verify_rational_specialization.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"fixture_sha256\": \"73599150782daf1398a3d11e542faf4543698937c67635cf8bc08bfea6cef0a1\",\n  \"coefficient_families\": 4,\n  \"exact_rational_value_denominator_checks\": 300,\n  \"exact_sufficient_height_certificates\": [\n    {\n      \"b\": 2,\n      \"certified_even_n\": 48,\n      \"N_n\": 1152,\n      \"twice_baseline_to_rational_floor_at_most_one\": true,\n      \"ratio_numerator_bits\": 12220,\n      \"ratio_denominator_bits\": 12353,\n      \"primitive_denominator_bits\": 5094,\n      \"rational_value_denominator_bits\": 1153\n    },\n    {\n      \"b\": 3,\n      \"certified_even_n\": 72,\n      \"N_n\": 2592,\n      \"twice_baseline_to_rational_floor_at_most_one\": true,\n      \"ratio_numerator_bits\": 26844,\n      \"ratio_denominator_bits\": 27145,\n      \"primitive_denominator_bits\": 12977,\n      \"rational_value_denominator_bits\": 4109\n    },\n    {\n      \"b\": 7,\n      \"certified_even_n\": 168,\n      \"N_n\": 14112,\n      \"twice_baseline_to_rational_floor_at_most_one\": true,\n      \"ratio_numerator_bits\": 135113,\n      \"ratio_denominator_bits\": 136759,\n      \"primitive_denominator_bits\": 87895,\n      \"rational_value_denominator_bits\": 39618\n    },\n    {\n      \"b\": 10,\n      \"certified_even_n\": 240,\n      \"N_n\": 28800,\n      \"twice_baseline_to_rational_floor_at_most_one\": true,\n      \"ratio_numerator_bits\": 354878,\n      \"ratio_denominator_bits\": 358239,\n      \"primitive_denominator_bits\": 194196,\n      \"rational_value_denominator_bits\": 95672\n    }\n  ],\n  \"scope\": \"Finite exact identities and sufficient comparisons. General denominator, derivative, asymptotic threshold and error bound are proved in the note. No bad-approximability or counterexample claim.\"\n}"
+    }
+  ],
+  "fixture_provenance": {
+    "source": "research/pi-period-mechanism-2026-11-02/root-separation-next/raw_near_period_verification.json",
+    "commit": "e1bc2f6d1673dbb8153afda2e113243c18822954",
+    "source_sha256": "ff5c3d51a87a9ea7e5527f0b87552205c4732a2d4a63a1bc56543de3a7a927ec",
+    "exact_subset_comparison": "passed"
+  },
+  "relative_document_links": {
+    "count": 13,
+    "status": "passed"
+  },
+  "independent_reviews": [
+    "minimal-denominator-general/structure/INDEPENDENT_CONTENT_AUDIT.md",
+    "minimal-denominator-general/INDEPENDENT_ROOT_AUDIT.md",
+    "minimal-denominator-general/INDEPENDENT_FREQUENCY_REVIEW.md",
+    "rational-comparison-next/INDEPENDENT_RATIONAL_COMPARISON_REVIEW.md"
+  ],
+  "external_input": {
+    "source": "https://arxiv.org/pdf/1309.6224v2",
+    "theorem": "Breuer–Duits Theorem 2.6",
+    "reading_scope": "The orthogonal-polynomial ensemble definition and theorem hypotheses/variance formula checked against the primary paper; not a claim of independent proof of the whole paper."
+  },
+  "scope": "General claims rest on the accompanying arguments and the explicitly cited prior Hankel theorem. Finite checks are not extrapolated. No claim concerning pi bad approximability, its negation, or a new rational approximation record.",
+  "sha256": {
+    "README.md": "93a753bd575d74c147aeb5853fa7fc9f8a153fbe475b113ad92fc02a759f8655",
+    "denominator-reflection-route/ENDPOINT_CONTENT_AND_DENOMINATORS.md": "272d7c46f2e420075c061f78c89a5b88a35ba4c5c29b7142858970b09a6fef1f",
+    "denominator-reflection-route/endpoint_denominator_verification.json": "ae18a5ca4e3b5a19859a343a109fc7fb0396693b5cfe75c68500cfd865ae46b6",
+    "denominator-reflection-route/verify_endpoint_denominators.py": "1f7e339fbc5441bd033b60986e0d7fb48d5c2c76db06d41693abcebacaa48357",
+    "frequency-dilation-next/FREQUENCY_DILATION_CONTENT.md": "4614176ec906f60fc14c759e9efcc01c81e856045fc531a887b604b7edba92ff",
+    "frequency-dilation-next/frequency_dilation_verification.json": "e2c94a240fb30a9e003d4feb7a446df19ddbdc60efc35745a17cc595c7240195",
+    "frequency-dilation-next/verify_frequency_dilation.py": "383f8261c7290d6ed7c1abbe2d41a5336e170f6ba3b0f7ef34ae43c945c25524",
+    "minimal-denominator-general/FINITE_THRESHOLD.md": "ce38d2a8c31135ff5039f1cc18eac2c18cb411331d71110454e20bdf62187f48",
+    "minimal-denominator-general/INDEPENDENT_FREQUENCY_REVIEW.md": "181b214e29e4de961fbbc15e63b03eff01c4270c684a31d2924777c159478581",
+    "minimal-denominator-general/INDEPENDENT_ROOT_AUDIT.md": "98235601af200686e118858450c76d971fead9d3fafab4527e607e74c40ca535",
+    "minimal-denominator-general/finite_threshold_verification.json": "7ac83fb840f487bd41848e2cf588d522b6939237e6fd5700bb59144d27aa3c2a",
+    "minimal-denominator-general/structure/INDEPENDENT_CONTENT_AUDIT.md": "46066eeea4b79c91f99c5e51e75f53c1a2c61d131a44fe78df67ab9e153bff00",
+    "minimal-denominator-general/structure/content_structure_verification.json": "3b56d95afb8a6e669f1f5f38811066eab02959313e83e88c01442f4f6da7b61e",
+    "minimal-denominator-general/structure/verify_content_structure.py": "7869d909f8222102c05c8924437ca64f0565d32b4d33393652e7139a8f0b18f6",
+    "minimal-denominator-general/verify_finite_threshold.py": "e22f296e7a3e5a506589794b4bd3e501b201c26a79935ac74df81f7abb586c7a",
+    "near-root-general/GENERAL_NEAR_PERIOD_ROOTS.md": "6c1b6d7f5779983feac4742cb84a2484d7ef6f3aa7bf127fd60bb41e520ec717",
+    "near-root-general/general_root_verification.json": "64aa3ff64e1d8f9c478be5124c535ac1cfa63e1c5cb0d69bb42ed356647093d4",
+    "near-root-general/verify_general_roots.py": "2d2461ed8b66ad5833e986ef8b923ca480335555e7ae15baffe7756aca793801",
+    "rational-comparison-next/INDEPENDENT_RATIONAL_COMPARISON_REVIEW.md": "c92b27bca0b5dbeb0c57dae739cbc97a91aa9f5308b28e75d285bb94daf96b86",
+    "rational-comparison-next/RATIONAL_SPECIALIZATION_COST.md": "4bfeadeaa6fbb7d1828fdff9c09a799eab6d849e4ee1f86e9a19ef345b792c24",
+    "rational-comparison-next/even_period_coefficient_fixture.json": "73599150782daf1398a3d11e542faf4543698937c67635cf8bc08bfea6cef0a1",
+    "rational-comparison-next/rational_specialization_verification.json": "b954e7b431d5938abc41edd99551561ea463336bfb284b4fa041f75c96319212",
+    "rational-comparison-next/verify_rational_specialization.py": "67845214b1767afcea1a3188cced947d2f2f99d38ee5b055ba87cce6e284e672"
+  }
+}

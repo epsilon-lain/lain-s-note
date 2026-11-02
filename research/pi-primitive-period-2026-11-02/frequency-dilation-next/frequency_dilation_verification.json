@@ -1,0 +1,1011 @@
+{
+  "status": "passed",
+  "polynomial_reconstructions": 9,
+  "independent_raw_scaling_checks": 56,
+  "primitive_content_cases": 81,
+  "records": [
+    {
+      "n": 2,
+      "degree": 2,
+      "lowest_coefficient": "-1",
+      "least_integer_denominator": "1",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "1",
+      "fixed_dimension_threshold": "1",
+      "polynomial": {
+        "2": "-1"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "1",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "4",
+          "primitive_multiplier": "1/4",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "9",
+          "primitive_multiplier": "1/9",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "16",
+          "primitive_multiplier": "1/16",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "25",
+          "primitive_multiplier": "1/25",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "36",
+          "primitive_multiplier": "1/36",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "64",
+          "primitive_multiplier": "1/64",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "100",
+          "primitive_multiplier": "1/100",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "144",
+          "primitive_multiplier": "1/144",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "39",
+            "40"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "degree": 3,
+      "lowest_coefficient": "2",
+      "least_integer_denominator": "1",
+      "integer_clearing_content": "2",
+      "primitive_multiplier": "1/2",
+      "fixed_dimension_threshold": "1",
+      "polynomial": {
+        "3": "2"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "1/2",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "8",
+          "primitive_multiplier": "1/16",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "27",
+          "primitive_multiplier": "1/54",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "64",
+          "primitive_multiplier": "1/128",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "125",
+          "primitive_multiplier": "1/250",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "216",
+          "primitive_multiplier": "1/432",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "512",
+          "primitive_multiplier": "1/1024",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "1000",
+          "primitive_multiplier": "1/2000",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "1728",
+          "primitive_multiplier": "1/3456",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "248",
+            "249"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "degree": 8,
+      "lowest_coefficient": "-3",
+      "least_integer_denominator": "144",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "144",
+      "fixed_dimension_threshold": "152",
+      "polynomial": {
+        "4": "-3",
+        "6": "1/6",
+        "8": "1/144"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "144",
+          "least_integer_denominator": "144",
+          "primitive_actual_absolute_integer_enclosure": [
+            "279078",
+            "279079"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "256",
+          "primitive_multiplier": "9/16",
+          "least_integer_denominator": "9",
+          "primitive_actual_absolute_integer_enclosure": [
+            "2017809",
+            "2017810"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "2187",
+          "primitive_multiplier": "16/243",
+          "least_integer_denominator": "16",
+          "primitive_actual_absolute_integer_enclosure": [
+            "6770023",
+            "6770024"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "4096",
+          "primitive_multiplier": "9/256",
+          "least_integer_denominator": "9",
+          "primitive_actual_absolute_integer_enclosure": [
+            "37346248",
+            "37346249"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "625",
+          "primitive_multiplier": "144/625",
+          "least_integer_denominator": "144",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1480574325",
+            "1480574326"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "559872",
+          "primitive_multiplier": "1/3888",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "7162575",
+            "7162576"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "65536",
+          "primitive_multiplier": "9/4096",
+          "least_integer_denominator": "9",
+          "primitive_actual_absolute_integer_enclosure": [
+            "615891512",
+            "615891513"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "160000",
+          "primitive_multiplier": "9/10000",
+          "least_integer_denominator": "9",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1508893545",
+            "1508893546"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "8957952",
+          "primitive_multiplier": "1/62208",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "116101279",
+            "116101280"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "degree": 11,
+      "lowest_coefficient": "4",
+      "least_integer_denominator": "864",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "864",
+      "fixed_dimension_threshold": "1412",
+      "polynomial": {
+        "5": "4",
+        "7": "-5/6",
+        "9": "-5/72",
+        "11": "-1/864"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "864",
+          "least_integer_denominator": "864",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1012149",
+            "1012150"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "2048",
+          "primitive_multiplier": "27/64",
+          "least_integer_denominator": "27",
+          "primitive_actual_absolute_integer_enclosure": [
+            "391521636",
+            "391521637"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "6561",
+          "primitive_multiplier": "32/243",
+          "least_integer_denominator": "32",
+          "primitive_actual_absolute_integer_enclosure": [
+            "13615135647",
+            "13615135648"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "131072",
+          "primitive_multiplier": "27/4096",
+          "least_integer_denominator": "27",
+          "primitive_actual_absolute_integer_enclosure": [
+            "17484541637",
+            "17484541638"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "3125",
+          "primitive_multiplier": "864/3125",
+          "least_integer_denominator": "864",
+          "primitive_actual_absolute_integer_enclosure": [
+            "8849186466888",
+            "8849186466889"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "13436928",
+          "primitive_multiplier": "1/15552",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "15587322277",
+            "15587322278"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "4194304",
+          "primitive_multiplier": "27/131072",
+          "least_integer_denominator": "27",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1204816991908",
+            "1204816991909"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "6400000",
+          "primitive_multiplier": "27/200000",
+          "least_integer_denominator": "27",
+          "primitive_actual_absolute_integer_enclosure": [
+            "9271880349390",
+            "9271880349391"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "859963392",
+          "primitive_multiplier": "1/995328",
+          "least_integer_denominator": "1",
+          "primitive_actual_absolute_integer_enclosure": [
+            "515102966621",
+            "515102966622"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "degree": 18,
+      "lowest_coefficient": "-5",
+      "least_integer_denominator": "74649600",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "74649600",
+      "fixed_dimension_threshold": "195282192",
+      "polynomial": {
+        "6": "-5",
+        "8": "5/2",
+        "10": "27/80",
+        "12": "1/96",
+        "14": "1/28800",
+        "16": "-1/518400",
+        "18": "-1/74649600"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "74649600",
+          "least_integer_denominator": "74649600",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5256609833",
+            "5256609834"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "262144",
+          "primitive_multiplier": "18225/64",
+          "least_integer_denominator": "18225",
+          "primitive_actual_absolute_integer_enclosure": [
+            "33320035222534",
+            "33320035222535"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "531441",
+          "primitive_multiplier": "102400/729",
+          "least_integer_denominator": "102400",
+          "primitive_actual_absolute_integer_enclosure": [
+            "100183517115908908",
+            "100183517115908909"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "16777216",
+          "primitive_multiplier": "18225/4096",
+          "least_integer_denominator": "18225",
+          "primitive_actual_absolute_integer_enclosure": [
+            "733193838700472960",
+            "733193838700472961"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "1953125",
+          "primitive_multiplier": "2985984/78125",
+          "least_integer_denominator": "2985984",
+          "primitive_actual_absolute_integer_enclosure": [
+            "387720618765538659972",
+            "387720618765538659973"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "139314069504",
+          "primitive_multiplier": "25/46656",
+          "least_integer_denominator": "25",
+          "primitive_actual_absolute_integer_enclosure": [
+            "152432361456111970",
+            "152432361456111971"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "1073741824",
+          "primitive_multiplier": "18225/262144",
+          "least_integer_denominator": "18225",
+          "primitive_actual_absolute_integer_enclosure": [
+            "3683895152097278139519",
+            "3683895152097278139520"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "512000000000",
+          "primitive_multiplier": "729/5000000",
+          "least_integer_denominator": "729",
+          "primitive_actual_absolute_integer_enclosure": [
+            "438289491084548428427",
+            "438289491084548428428"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "8916100448256",
+          "primitive_multiplier": "25/2985984",
+          "least_integer_denominator": "25",
+          "primitive_actual_absolute_integer_enclosure": [
+            "677873584560941752888",
+            "677873584560941752889"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "degree": 23,
+      "lowest_coefficient": "6",
+      "least_integer_denominator": "22394880000",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "22394880000",
+      "fixed_dimension_threshold": "97252450624",
+      "polynomial": {
+        "7": "6",
+        "9": "-35/6",
+        "11": "-413/360",
+        "13": "-203/4320",
+        "15": "11/43200",
+        "17": "89/1555200",
+        "19": "263/186624000",
+        "21": "31/2239488000",
+        "23": "1/22394880000"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "22394880000",
+          "least_integer_denominator": "22394880000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "6533585621",
+            "6533585622"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "4194304",
+          "primitive_multiplier": "1366875/256",
+          "least_integer_denominator": "1366875",
+          "primitive_actual_absolute_integer_enclosure": [
+            "21295000729174675",
+            "21295000729174676"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "14348907",
+          "primitive_multiplier": "10240000/6561",
+          "least_integer_denominator": "10240000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5230129978188124366474",
+            "5230129978188124366475"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "536870912",
+          "primitive_multiplier": "1366875/32768",
+          "least_integer_denominator": "1366875",
+          "primitive_actual_absolute_integer_enclosure": [
+            "174392860323870650987136",
+            "174392860323870650987137"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "48828125",
+          "primitive_multiplier": "35831808/78125",
+          "least_integer_denominator": "35831808",
+          "primitive_actual_absolute_integer_enclosure": [
+            "399284761936777116368561497",
+            "399284761936777116368561498"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "60183678025728",
+          "primitive_multiplier": "625/1679616",
+          "least_integer_denominator": "625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "23857605902316808940161",
+            "23857605902316808940162"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "68719476736",
+          "primitive_multiplier": "1366875/4194304",
+          "least_integer_denominator": "1366875",
+          "primitive_actual_absolute_integer_enclosure": [
+            "17285403601481356680721134119",
+            "17285403601481356680721134120"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "204800000000000",
+          "primitive_multiplier": "2187/20000000",
+          "least_integer_denominator": "2187",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1028571836097445007542691583",
+            "1028571836097445007542691584"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "7703510787293184",
+          "primitive_multiplier": "625/214990848",
+          "least_integer_denominator": "625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1856562610144423475303636122",
+            "1856562610144423475303636123"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "degree": 32,
+      "lowest_coefficient": "-7",
+      "least_integer_denominator": "758487711744000000",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "758487711744000000",
+      "fixed_dimension_threshold": "5548180627613828320",
+      "polynomial": {
+        "8": "-7",
+        "10": "35/3",
+        "12": "1127/360",
+        "14": "1061/7560",
+        "16": "-623/103680",
+        "18": "-1201/1555200",
+        "20": "-285151/9144576000",
+        "22": "-35297/54867456000",
+        "24": "-44633/6584094720000",
+        "26": "-367/13168189440000",
+        "28": "11/263363788800000",
+        "30": "1/1580182732800000",
+        "32": "1/758487711744000000"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "758487711744000000",
+          "least_integer_denominator": "758487711744000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "46368157078953",
+            "46368157078954"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "4294967296",
+          "primitive_multiplier": "45209390625/256",
+          "least_integer_denominator": "45209390625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "4853712791875997939310",
+            "4853712791875997939311"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "387420489",
+          "primitive_multiplier": "12845056000000/6561",
+          "least_integer_denominator": "12845056000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "20626133851571709307717143688837",
+            "20626133851571709307717143688838"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "1099511627776",
+          "primitive_multiplier": "45209390625/65536",
+          "least_integer_denominator": "45209390625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "219362227701273635725726601273015",
+            "219362227701273635725726601273016"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "6103515625",
+          "primitive_multiplier": "48543213551616/390625",
+          "least_integer_denominator": "48543213551616",
+          "primitive_actual_absolute_integer_enclosure": [
+            "74802178185998432054693498708528003069",
+            "74802178185998432054693498708528003070"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "1663958330055327744",
+          "primitive_multiplier": "765625/1679616",
+          "least_integer_denominator": "765625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "113918192993598743195186523655089",
+            "113918192993598743195186523655090"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "281474976710656",
+          "primitive_multiplier": "45209390625/16777216",
+          "least_integer_denominator": "45209390625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "7997947665644408958116117331175904344059",
+            "7997947665644408958116117331175904344060"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "26214400000000000000",
+          "primitive_multiplier": "2893401/100000000",
+          "least_integer_denominator": "2893401",
+          "primitive_actual_absolute_integer_enclosure": [
+            "116971066713461941614919838296976958821",
+            "116971066713461941614919838296976958822"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "425973332494163902464",
+          "primitive_multiplier": "765625/429981696",
+          "least_integer_denominator": "765625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "2560823869973174625875840136979950129084",
+            "2560823869973174625875840136979950129085"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "degree": 39,
+      "lowest_coefficient": "8",
+      "least_integer_denominator": "26759446470328320000000",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "26759446470328320000000",
+      "fixed_dimension_threshold": "327356180771143134677714",
+      "polynomial": {
+        "9": "8",
+        "11": "-21",
+        "13": "-147/20",
+        "15": "-2981/10080",
+        "17": "9559/201600",
+        "19": "3079/483840",
+        "21": "545077/1524096000",
+        "23": "136859/12192768000",
+        "25": "72901/365783040000",
+        "27": "228101/138265989120000",
+        "29": "-817/204838502400000",
+        "31": "-2573/11061279129600000",
+        "33": "-45191/18582948937728000000",
+        "35": "-961/74331795750912000000",
+        "37": "-157/4459907745054720000000",
+        "39": "-1/26759446470328320000000"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "26759446470328320000000",
+          "least_integer_denominator": "26759446470328320000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "13261296588019",
+            "13261296588020"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "274877906944",
+          "primitive_multiplier": "99686706328125/1024",
+          "least_integer_denominator": "99686706328125",
+          "primitive_actual_absolute_integer_enclosure": [
+            "2850292975551259325933679",
+            "2850292975551259325933680"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "10460353203",
+          "primitive_multiplier": "50352619520000000/19683",
+          "least_integer_denominator": "50352619520000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "28311295097371725532048629869113521999",
+            "28311295097371725532048629869113522000"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "562949953421312",
+          "primitive_multiplier": "99686706328125/2097152",
+          "least_integer_denominator": "99686706328125",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1120203068483760134458430956366707813886",
+            "1120203068483760134458430956366707813887"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "152587890625",
+          "primitive_multiplier": "342520914820202496/1953125",
+          "least_integer_denominator": "342520914820202496",
+          "primitive_actual_absolute_integer_enclosure": [
+            "54459973203497907976331772440844644402451283136",
+            "54459973203497907976331772440844644402451283137"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "2875319994335606341632",
+          "primitive_multiplier": "187578125/20155392",
+          "least_integer_denominator": "187578125",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5081895660580214452362357311678698208946",
+            "5081895660580214452362357311678698208947"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "288230376151711744",
+          "primitive_multiplier": "99686706328125/1073741824",
+          "least_integer_denominator": "99686706328125",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5256312250351171659755388629991874120237457767382",
+            "5256312250351171659755388629991874120237457767383"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "41943040000000000000000",
+          "primitive_multiplier": "1275989841/2000000000",
+          "least_integer_denominator": "1275989841",
+          "primitive_actual_absolute_integer_enclosure": [
+            "251113079275696697235266547421164271411193658305",
+            "251113079275696697235266547421164271411193658306"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "5888655348399321787662336",
+          "primitive_multiplier": "187578125/41278242816",
+          "least_integer_denominator": "187578125",
+          "primitive_actual_absolute_integer_enclosure": [
+            "2364538020699252487794771824829137912583627522413",
+            "2364538020699252487794771824829137912583627522414"
+          ]
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "degree": 50,
+      "lowest_coefficient": "-9",
+      "least_integer_denominator": "489407583931698134384640000000000",
+      "integer_clearing_content": "1",
+      "primitive_multiplier": "489407583931698134384640000000000",
+      "fixed_dimension_threshold": "9809256951084357726986812941583600",
+      "polynomial": {
+        "10": "-9",
+        "12": "35",
+        "14": "371/24",
+        "16": "97/252",
+        "18": "-178243/725760",
+        "20": "-27341/725760",
+        "22": "-238079/87091200",
+        "24": "-839191/7315660800",
+        "26": "-1834369/658409472000",
+        "28": "-663079/22122558259200",
+        "30": "221363/663676747776000",
+        "32": "5933/318564838932480",
+        "34": "23752229/66898616175820800000",
+        "36": "182669/44599077450547200000",
+        "38": "1474657/48167003646590976000000",
+        "40": "58399/404602830631364198400000",
+        "42": "1907/4954320375077928960000000",
+        "44": "1/2774419410043640217600000",
+        "46": "-53/67973275546069185331200000000",
+        "48": "-1/407839653276415111987200000000",
+        "50": "-1/489407583931698134384640000000000"
+      },
+      "frequency_cases": [
+        {
+          "frequency": 1,
+          "primitive_content": "1",
+          "primitive_multiplier": "489407583931698134384640000000000",
+          "least_integer_denominator": "489407583931698134384640000000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "60061286897514303",
+            "60061286897514304"
+          ]
+        },
+        {
+          "frequency": 2,
+          "primitive_content": "1125899906842624",
+          "primitive_multiplier": "445113604593369140625/1024",
+          "least_integer_denominator": "445113604593369140625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1655523402899582947934482248375",
+            "1655523402899582947934482248376"
+          ]
+        },
+        {
+          "frequency": 3,
+          "primitive_content": "205891132094649",
+          "primitive_multiplier": "1263246518517760000000000/531441",
+          "least_integer_denominator": "1263246518517760000000000",
+          "primitive_actual_absolute_integer_enclosure": [
+            "7606820606480721128888523661326631501540834173",
+            "7606820606480721128888523661326631501540834174"
+          ]
+        },
+        {
+          "frequency": 4,
+          "primitive_content": "1152921504606846976",
+          "primitive_multiplier": "445113604593369140625/1048576",
+          "least_integer_denominator": "445113604593369140625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "744350593392915684323643602101718153895431412212377",
+            "744350593392915684323643602101718153895431412212378"
+          ]
+        },
+        {
+          "frequency": 5,
+          "primitive_content": "95367431640625",
+          "primitive_multiplier": "50115336594605888960987136/9765625",
+          "least_integer_denominator": "50115336594605888960987136",
+          "primitive_actual_absolute_integer_enclosure": [
+            "1677260080559784942151336581808068372634883550377128359105156",
+            "1677260080559784942151336581808068372634883550377128359105157"
+          ]
+        },
+        {
+          "frequency": 6,
+          "primitive_content": "231812806445087701493115518976",
+          "primitive_multiplier": "1148916015625/544195584",
+          "least_integer_denominator": "1148916015625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "10472887466295543273907508480431969952300101048545",
+            "10472887466295543273907508480431969952300101048546"
+          ]
+        },
+        {
+          "frequency": 8,
+          "primitive_content": "1180591620717411303424",
+          "primitive_multiplier": "445113604593369140625/1073741824",
+          "least_integer_denominator": "445113604593369140625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5801661135810253751471859147726989917715650231046916132413089949",
+            "5801661135810253751471859147726989917715650231046916132413089950"
+          ]
+        },
+        {
+          "frequency": 10,
+          "primitive_content": "107374182400000000000000000000",
+          "primitive_multiplier": "45579633110361/10000000000",
+          "least_integer_denominator": "45579633110361",
+          "primitive_actual_absolute_integer_enclosure": [
+            "5458091688445972178204158679777561582919692566901824554377600",
+            "5458091688445972178204158679777561582919692566901824554377601"
+          ]
+        },
+        {
+          "frequency": 12,
+          "primitive_content": "237376313799769806328950291431424",
+          "primitive_multiplier": "1148916015625/557256278016",
+          "least_integer_denominator": "1148916015625",
+          "primitive_actual_absolute_integer_enclosure": [
+            "24918905433704161202894040074039521509232660252058661279017706",
+            "24918905433704161202894040074039521509232660252058661279017707"
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Exact scaling, primitive coefficient content, valid budgets and fixed-n frequency threshold. No optimal joint n,b choice, infinite root-convergence, or rational approximation claim."
+}

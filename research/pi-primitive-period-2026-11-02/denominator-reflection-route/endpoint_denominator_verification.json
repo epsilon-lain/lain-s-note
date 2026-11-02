@@ -1,0 +1,325 @@
+{
+  "status": "passed",
+  "endpoint_split_checks": [
+    {
+      "n": 2,
+      "k": 0,
+      "l": 2,
+      "valuation": 4,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 2,
+      "k": 1,
+      "l": 1,
+      "valuation": 2,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 2,
+      "k": 2,
+      "l": 0,
+      "valuation": 4,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 3,
+      "k": 0,
+      "l": 3,
+      "valuation": 9,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "l": 2,
+      "valuation": 5,
+      "constant": "1",
+      "linear": "4",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "l": 1,
+      "valuation": 5,
+      "constant": "1",
+      "linear": "-4",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 3,
+      "k": 3,
+      "l": 0,
+      "valuation": 9,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 4,
+      "k": 0,
+      "l": 4,
+      "valuation": 16,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "l": 3,
+      "valuation": 10,
+      "constant": "1",
+      "linear": "12",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "l": 2,
+      "valuation": 8,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "l": 1,
+      "valuation": 10,
+      "constant": "1",
+      "linear": "-12",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 4,
+      "k": 4,
+      "l": 0,
+      "valuation": 16,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 0,
+      "l": 5,
+      "valuation": 25,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "l": 4,
+      "valuation": 17,
+      "constant": "1",
+      "linear": "24",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "l": 3,
+      "valuation": 13,
+      "constant": "1",
+      "linear": "12",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "l": 2,
+      "valuation": 13,
+      "constant": "1",
+      "linear": "-12",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "l": 1,
+      "valuation": 17,
+      "constant": "1",
+      "linear": "-24",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 5,
+      "k": 5,
+      "l": 0,
+      "valuation": 25,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 0,
+      "l": 6,
+      "valuation": 36,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "l": 5,
+      "valuation": 26,
+      "constant": "1",
+      "linear": "40",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "l": 4,
+      "valuation": 20,
+      "constant": "1",
+      "linear": "32",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "l": 3,
+      "valuation": 18,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "l": 2,
+      "valuation": 20,
+      "constant": "1",
+      "linear": "-32",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "l": 1,
+      "valuation": 26,
+      "constant": "1",
+      "linear": "-40",
+      "integer_cross_coefficients": true
+    },
+    {
+      "n": 6,
+      "k": 6,
+      "l": 0,
+      "valuation": 36,
+      "constant": "1",
+      "linear": "0",
+      "integer_cross_coefficients": true
+    }
+  ],
+  "laguerre_schur_integrality_checks": 188,
+  "denominator_cases": [
+    {
+      "n": 2,
+      "degree": 2,
+      "leading_coefficient": "-1",
+      "valid_denominator": "1",
+      "least_denominator": "1",
+      "raw_integer_content": "1",
+      "forced_content": "1",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 3,
+      "degree": 3,
+      "leading_coefficient": "2",
+      "valid_denominator": "4",
+      "least_denominator": "1",
+      "raw_integer_content": "8",
+      "forced_content": "1",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 4,
+      "degree": 8,
+      "leading_coefficient": "1/144",
+      "valid_denominator": "144",
+      "least_denominator": "144",
+      "raw_integer_content": "1",
+      "forced_content": "1",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 5,
+      "degree": 11,
+      "leading_coefficient": "-1/864",
+      "valid_denominator": "20736",
+      "least_denominator": "864",
+      "raw_integer_content": "96",
+      "forced_content": "4",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 6,
+      "degree": 18,
+      "leading_coefficient": "-1/74649600",
+      "valid_denominator": "74649600",
+      "least_denominator": "74649600",
+      "raw_integer_content": "16",
+      "forced_content": "16",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 7,
+      "degree": 23,
+      "leading_coefficient": "1/22394880000",
+      "valid_denominator": "1074954240000",
+      "least_denominator": "22394880000",
+      "raw_integer_content": "27648",
+      "forced_content": "576",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 8,
+      "degree": 32,
+      "leading_coefficient": "1/758487711744000000",
+      "valid_denominator": "758487711744000000",
+      "least_denominator": "758487711744000000",
+      "raw_integer_content": "20736",
+      "forced_content": "20736",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 9,
+      "degree": 39,
+      "leading_coefficient": "-1/26759446470328320000000",
+      "valid_denominator": "2140755717626265600000000",
+      "least_denominator": "26759446470328320000000",
+      "raw_integer_content": "955514880",
+      "forced_content": "11943936",
+      "raw_evaluations_checked": 3
+    },
+    {
+      "n": 10,
+      "degree": 50,
+      "leading_coefficient": "-1/489407583931698134384640000000000",
+      "valid_denominator": "489407583931698134384640000000000",
+      "least_denominator": "489407583931698134384640000000000",
+      "raw_integer_content": "6879707136",
+      "forced_content": "6879707136",
+      "raw_evaluations_checked": 3
+    }
+  ],
+  "factorial_content_divisibility_checks": 1888,
+  "scope": "Exact finite checks for the endpoint proof and coefficient-denominator bounds. The all-n denominator asymptotic follows from the accompanying proof. No rational approximation or pi bad-approximability conclusion."
+}

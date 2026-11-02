@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "scope": "Finite exact premises plus sampled audits of identities; uniform induction is in FINITE_THRESHOLD.md.",
+  "theorem": "For every n >= 23, the balanced integer polynomial Q_n=D_n P_n satisfies 0 < abs(Q_n(2*pi*i)) < 1.",
+  "minimal_denominator_not_needed": true,
+  "T": "44/7",
+  "a": "121/49",
+  "ratio_identity_audit_n": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "exact_premises": [
+    {
+      "label": "b_16 < 1/2",
+      "bound": "1/2",
+      "strict_inequality_certified_by_positive_cross_product": true,
+      "cross_product_gap_decimal_digits": 74,
+      "log10_value_diagnostic_only": -0.8069684072195997
+    },
+    {
+      "label": "b_17 < 1/10",
+      "bound": "1/10",
+      "strict_inequality_certified_by_positive_cross_product": true,
+      "cross_product_gap_decimal_digits": 77,
+      "log10_value_diagnostic_only": -1.8806276780723152
+    },
+    {
+      "label": "W_23 < 1/60000",
+      "bound": "1/60000",
+      "strict_inequality_certified_by_positive_cross_product": true,
+      "cross_product_gap_decimal_digits": 769,
+      "log10_value_diagnostic_only": -4.828724023545192
+    },
+    {
+      "label": "W_24 < 1/10^10",
+      "bound": "1/10000000000",
+      "strict_inequality_certified_by_positive_cross_product": true,
+      "cross_product_gap_decimal_digits": 842,
+      "log10_value_diagnostic_only": -10.01162707515698
+    }
+  ],
+  "uniform_induction": {
+    "all_n_at_least": 16,
+    "b_two_step_ratio_strict_upper_bound": "4/81",
+    "W_two_step_ratio_strict_upper_bound": "1/2",
+    "threshold_bases": [
+      23,
+      24
+    ]
+  },
+  "diagnostic_log10_W": [
+    {
+      "n": 10,
+      "log10_W": 17.333186920163243
+    },
+    {
+      "n": 12,
+      "log10_W": 19.230011395010308
+    },
+    {
+      "n": 14,
+      "log10_W": 19.5876384609453
+    },
+    {
+      "n": 16,
+      "log10_W": 18.137464870044596
+    },
+    {
+      "n": 18,
+      "log10_W": 14.646995805745576
+    },
+    {
+      "n": 20,
+      "log10_W": 8.911261043072273
+    },
+    {
+      "n": 21,
+      "log10_W": 4.63269954714724
+    },
+    {
+      "n": 22,
+      "log10_W": 0.7469736100065347
+    },
+    {
+      "n": 23,
+      "log10_W": -4.828724023545192
+    },
+    {
+      "n": 24,
+      "log10_W": -10.01162707515698
+    },
+    {
+      "n": 25,
+      "log10_W": -16.960114791788897
+    },
+    {
+      "n": 26,
+      "log10_W": -23.515839465587305
+    },
+    {
+      "n": 28,
+      "log10_W": -39.90482410785535
+    },
+    {
+      "n": 30,
+      "log10_W": -59.30740863363121
+    },
+    {
+      "n": 32,
+      "log10_W": -81.84351761190533
+    },
+    {
+      "n": 40,
+      "log10_W": -205.4690831823168
+    }
+  ],
+  "caveat": "Evaluation at an irrational imaginary argument is not an integer; this is not a rational approximation or a bad-approximability theorem."
+}
