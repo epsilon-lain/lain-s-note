@@ -1,0 +1,13 @@
+# Independent review of the special time-cost law
+
+2026-11-02. Reviewed `SPECIAL_TIME_COST.md` and its verifier independently of their author. The joint distribution, conditional means and uniform time-coefficient bounds are correct. The review found a missing plus sign before the error term in (13); the author corrected that typographical issue without changing any formula or test.
+
+The raw simplex gives (T,X,Z) with density m(m+1)x^(m-1) on T+X<=1, not independent time and spatial coordinates. Integrating between the two stated affine boundaries produces both CDF branches. For a>1 and cost cutoff above one, the omitted tail is a simplex adjacent to the time vertex, with spatial scale delta/(a-1) and slack scale delta/a. Its relative volume and coordinate centroids give exactly the tail cost in (6) and the selected coordinate means in (9). The lower branch is an ordinary anisotropically scaled simplex and gives (5) and (8).
+
+The sharp cheapest-time mean follows by integrating the Beta(1,m+1) marginal. On every event of mass lambda, E[T]>=tau_m and E[T+Z]<=2/[lambda(m+2)]. These two inequalities give the lower uniform bound without assigning independently optimizing sets to the two terms. The cheapest-time selection gives the upper bound because its conditional remaining coordinates are symmetric. The resulting error O(1/m) around 1+a tau_m is uniform even for exponentially large a; expanding tau_m then gives the stated scale cases.
+
+For fixed a, the scaled time/slack pair tends to two independent mean-one exponential variables. Its bounded second moments justify conditional first-moment convergence at a continuous quantile. The asymmetric-difference law for a>1 and the positive-sum law for a<1 give the displayed first-order limits. If a_m tends to one, the extra coefficient times mT tends to zero in L2, so no rate assumption on a_m-1 is needed for (17).
+
+The strict comparison with the sum of separate minima is valid because the two minimizing sublevel sets are unique up to null sets and differ on positive measure. The upper bound from the cheapest-time set also shows that their simultaneous penalty is O(1/m), uniformly in a. This optimizes only the displayed positive cost; a nonzero determinant or source-degree-compatible selection is not inferred.
+
+I reran the verifier successfully: 248 independent joint-density integrals, 112 lower-branch and 128 upper-branch coordinate moment checks, 40 rational certificates of the uniform bounds, 8 exhaustive finite column selections and 12 scaling enclosures. No floating-point rank or approximation assertion is part of these checks.

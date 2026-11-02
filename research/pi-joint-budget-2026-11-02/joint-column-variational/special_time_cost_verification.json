@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "integral_checks": {
+    "joint_density_integrals": 248,
+    "lower_branch_coordinate_checks": 112,
+    "upper_branch_coordinate_checks": 128
+  },
+  "uniform_coefficient_bound_checks": 40,
+  "finite_column_selection_checks": 8,
+  "scaling_examples": [
+    {
+      "m": 8,
+      "a": "8",
+      "scale": "linear",
+      "normalized_cost_enclosure": [
+        "1120199226203/1000000000000",
+        "280049806551/250000000000"
+      ],
+      "proved_limit_enclosure": [
+        "16335660243/12500000000",
+        "1306852819441/1000000000000"
+      ],
+      "meaning": "Q_m; proved limit 2-ln(2)"
+    },
+    {
+      "m": 8,
+      "a": "64",
+      "scale": "quadratic",
+      "normalized_cost_enclosure": [
+        "373629617187/1000000000000",
+        "93407404297/250000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 8,
+      "a": "256",
+      "scale": "exponential",
+      "normalized_cost_enclosure": [
+        "293146030187/1000000000000",
+        "73286507547/250000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 16,
+      "a": "16",
+      "scale": "linear",
+      "normalized_cost_enclosure": [
+        "1207948414597/1000000000000",
+        "603974207299/500000000000"
+      ],
+      "proved_limit_enclosure": [
+        "16335660243/12500000000",
+        "1306852819441/1000000000000"
+      ],
+      "meaning": "Q_m; proved limit 2-ln(2)"
+    },
+    {
+      "m": 16,
+      "a": "256",
+      "scale": "quadratic",
+      "normalized_cost_enclosure": [
+        "21432436409/62500000000",
+        "68583796509/200000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 16,
+      "a": "65536",
+      "scale": "exponential",
+      "normalized_cost_enclosure": [
+        "285375618913/1000000000000",
+        "142687809457/500000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 32,
+      "a": "32",
+      "scale": "linear",
+      "normalized_cost_enclosure": [
+        "1255904387927/1000000000000",
+        "156988048491/125000000000"
+      ],
+      "proved_limit_enclosure": [
+        "16335660243/12500000000",
+        "1306852819441/1000000000000"
+      ],
+      "meaning": "Q_m; proved limit 2-ln(2)"
+    },
+    {
+      "m": 32,
+      "a": "1024",
+      "scale": "quadratic",
+      "normalized_cost_enclosure": [
+        "325628988259/1000000000000",
+        "16281449413/50000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 32,
+      "a": "4294967296",
+      "scale": "exponential",
+      "normalized_cost_enclosure": [
+        "147803160811/500000000000",
+        "295606321623/1000000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 64,
+      "a": "64",
+      "scale": "linear",
+      "normalized_cost_enclosure": [
+        "320248025319/250000000000",
+        "1280992101277/1000000000000"
+      ],
+      "proved_limit_enclosure": [
+        "16335660243/12500000000",
+        "1306852819441/1000000000000"
+      ],
+      "meaning": "Q_m; proved limit 2-ln(2)"
+    },
+    {
+      "m": 64,
+      "a": "4096",
+      "scale": "quadratic",
+      "normalized_cost_enclosure": [
+        "316437544103/1000000000000",
+        "39554693013/125000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    },
+    {
+      "m": 64,
+      "a": "18446744073709551616",
+      "scale": "exponential",
+      "normalized_cost_enclosure": [
+        "150562671387/500000000000",
+        "12045013711/40000000000"
+      ],
+      "proved_limit_enclosure": [
+        "3835660243/12500000000",
+        "306852819441/1000000000000"
+      ],
+      "meaning": "m Q_m/a; proved limit 1-ln(2)"
+    }
+  ],
+  "scope": "Exact joint positive-cost law and lower-quantile column optimization. No source-degree feasibility, time matching, determinant rank, determinant lower bound, or pi consequence is certified."
+}

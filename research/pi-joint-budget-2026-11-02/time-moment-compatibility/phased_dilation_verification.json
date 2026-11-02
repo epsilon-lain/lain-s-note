@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "parameters": {
+    "H": 4000,
+    "m": 2,
+    "K": 2,
+    "v0": 1,
+    "w0": 40,
+    "w": [
+      50,
+      60
+    ],
+    "theta": "1/12",
+    "dilation": "3/2",
+    "cone_cutoff": "1/8",
+    "phase_period": 9
+  },
+  "source_rows": 77360,
+  "source_type_count": 25,
+  "ambient_raw_columns": 94323,
+  "selected_raw_columns": 77360,
+  "target_rows_distinct": 77360,
+  "outside_rows": 54460,
+  "outside_fraction": "2723/3868",
+  "low_bucket_threshold": 14,
+  "low_bucket_rows": 512,
+  "all_cut_counting_left_side": 30300,
+  "all_cut_counting_right_side": 77360,
+  "nontrivial_cuts_checked": 101,
+  "minimum_target_tail_minus_column_filtration": 1427,
+  "distinct_pascal_matrices_checked": 217,
+  "minimum_pascal_determinant": 1,
+  "gamma": [
+    117282,
+    105892
+  ],
+  "column_minus_target_coordinate_surplus": [
+    1083270,
+    896543
+  ],
+  "target_mean": "1157401/15472000",
+  "normalized_collision_cost": "15953151/38680000",
+  "scope": "Exact coordinatewise bucket matching, distinctness, all intrinsic raw-column time cuts, nonzero Pascal transport minors, and coordinate degree margins. No actual-period minor or aggregate size conclusion."
+}

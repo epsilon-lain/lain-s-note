@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "scope": "Six standard-library exact verifiers plus six independent agent proof reviews. These checks do not certify pi bad approximability, non-bad-approximability, irrationality exponent 2, or the uploaded manuscript's interpolation theorem.",
+  "tests": [
+    {
+      "command": "python joint-theta-endpoint/verify_uniform_scalar_obstruction.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "scalar_witness_checks": {
+          "low_mean_endpoint_checks": 1728,
+          "high_mean_endpoint_checks": 1728
+        },
+        "finite_column_checks": {
+          "selected_column_subsets": 317,
+          "finite_column_moment_duals": 884
+        },
+        "selected_column_moments": 27,
+        "joint_theta_sequences": 24,
+        "scope": "Same-column scalar mass/mean relaxation only. No arbitrary-column coordinate matching, time-grade matching, actual-period nonvanishing, or pi assertion is certified."
+      }
+    },
+    {
+      "command": "python joint-column-variational/verify_joint_quantile.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "independent_polygon_cdf_moments": 52,
+        "higher_dimensional_integrated_moments": 50,
+        "exact_rational_quantile_enclosures": 4,
+        "finite_degree_feasible_selections": 3,
+        "finite_dual_inequalities": 36,
+        "exact_constrained_frontiers": 63,
+        "fast_branch_K2_ineligibility_checks": 21,
+        "scope": "Joint costs and necessary coordinate-degree feasibility only. No source/period determinant rank or approximation tuple is certified."
+      }
+    },
+    {
+      "command": "python joint-column-variational/verify_special_time_cost.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "integral_checks": {
+          "joint_density_integrals": 248,
+          "lower_branch_coordinate_checks": 112,
+          "upper_branch_coordinate_checks": 128
+        },
+        "uniform_coefficient_bound_checks": 40,
+        "finite_column_selection_checks": 8,
+        "scaling_examples": 12,
+        "scope": "Exact joint positive-cost law and lower-quantile column optimization. No source-degree feasibility, time matching, determinant rank, determinant lower bound, or pi consequence is certified."
+      }
+    },
+    {
+      "command": "python time-moment-compatibility/verify_phased_dilation.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "parameters": {
+          "H": 4000,
+          "m": 2,
+          "K": 2,
+          "v0": 1,
+          "w0": 40,
+          "w": [
+            50,
+            60
+          ],
+          "theta": "1/12",
+          "dilation": "3/2",
+          "cone_cutoff": "1/8",
+          "phase_period": 9
+        },
+        "source_rows": 77360,
+        "source_type_count": 25,
+        "ambient_raw_columns": 94323,
+        "selected_raw_columns": 77360,
+        "target_rows_distinct": 77360,
+        "outside_rows": 54460,
+        "outside_fraction": "2723/3868",
+        "low_bucket_threshold": 14,
+        "low_bucket_rows": 512,
+        "all_cut_counting_left_side": 30300,
+        "all_cut_counting_right_side": 77360,
+        "nontrivial_cuts_checked": 101,
+        "minimum_target_tail_minus_column_filtration": 1427,
+        "distinct_pascal_matrices_checked": 217,
+        "minimum_pascal_determinant": 1,
+        "gamma": [
+          117282,
+          105892
+        ],
+        "column_minus_target_coordinate_surplus": [
+          1083270,
+          896543
+        ],
+        "target_mean": "1157401/15472000",
+        "normalized_collision_cost": "15953151/38680000",
+        "scope": "Exact coordinatewise bucket matching, distinctness, all intrinsic raw-column time cuts, nonzero Pascal transport minors, and coordinate degree margins. No actual-period minor or aggregate size conclusion."
+      }
+    },
+    {
+      "command": "python period-root-geometry/verify_period_root_geometry.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "explicit_certificates": 8,
+        "exhaustive_family_size": 50,
+        "polynomials": {
+          "negative_real_root": {
+            "3": "3",
+            "4": "1"
+          },
+          "positive_real_root": {
+            "3": "-3",
+            "4": "1"
+          },
+          "six_row_imaginary_axis": {
+            "3": "-32",
+            "5": "-24"
+          },
+          "eight_row_imaginary_axis": {
+            "4": "3",
+            "6": "1"
+          },
+          "eight_row_opposite_real": {
+            "4": "-13",
+            "6": "1"
+          },
+          "twelve_row_four_axis_rays": {
+            "6": "-69",
+            "8": "-57/4",
+            "10": "1"
+          },
+          "twelve_row_four_open_quadrants": {
+            "6": "1604/9",
+            "8": "-148/9",
+            "10": "1"
+          },
+          "twelve_row_two_imaginary_pairs": {
+            "6": "95/9",
+            "8": "335/36",
+            "10": "1"
+          }
+        }
+      }
+    },
+    {
+      "command": "python center-coalescence/verify_center_coalescence.py",
+      "exit_code": 0,
+      "summary": {
+        "status": "passed",
+        "complete_packets": 8,
+        "sharp_staircases": 2,
+        "count_checks": 9,
+        "orders": [
+          [
+            6,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      }
+    }
+  ],
+  "manifest_scope": "All files in this research package except CHECKS.json itself.",
+  "sha256": {
+    "README.md": "191f16cd3b1b5e7268a22ae9433ac715a746deae702e302f23b36cacac0fc105",
+    "center-coalescence/CENTER_COALESCENCE.md": "c508a740755979bab8a77df847f7a60eba144e95168d3bcc62e7f9af3ef9b0de",
+    "center-coalescence/INDEPENDENT_COALESCENCE_REVIEW.md": "34b2a58855487597b2ec1bdcb9506cd7d6f6681b8515df93f9eaf394a518b985",
+    "center-coalescence/coalescence_verification.json": "ab716e7475588a497b1806a0cafc8bffe10d2d65c2eb9f224c8181657604ed36",
+    "center-coalescence/verify_center_coalescence.py": "4534bdd8d65a22a9a79b930ff7f3580de3d7c178fcc595c39a5c7d6db9bd0e0c",
+    "joint-column-variational/INDEPENDENT_JOINT_QUANTILE_REVIEW.md": "92b01d826cfa7a85247832529096da866c99af40468ccee29aa4e027419eac93",
+    "joint-column-variational/INDEPENDENT_SPECIAL_TIME_REVIEW.md": "d94acb41fb795f247608d7d26a49cb860d2a184c0dcdee38914755dc91ad41b3",
+    "joint-column-variational/JOINT_COLUMN_QUANTILE.md": "6b269ddd8d32ebff4564969cfe37ad266a7020eecb2b760557ab5f2975803965",
+    "joint-column-variational/SPECIAL_TIME_COST.md": "6a80415125ef3070c0806a393fe5e2e878e220ec601cfcf033ebd3ecd0255cd1",
+    "joint-column-variational/joint_quantile_verification.json": "1b58a4d01704082baf01cfc1526ad6a034f3fa70264e56bca002a12601aa96f8",
+    "joint-column-variational/special_time_cost_verification.json": "9e37ae4ec7f10ef8468109d5ee5b929204d7885de4303768c48f20d6d78deca2",
+    "joint-column-variational/verify_joint_quantile.py": "a76e3e6cc06a15213096f4309d97349f21d383482356cfd49f90dc9a8a815a09",
+    "joint-column-variational/verify_special_time_cost.py": "13518de2cf0f4b6feae1cfd744b53251da7020bbdb19517e6cd374afdc8d6aaf",
+    "joint-theta-endpoint/INDEPENDENT_UNIFORM_SCALAR_REVIEW.md": "e78de942c40353c20f412a98fcef86620bfe69f0961501e53d316a360288d17d",
+    "joint-theta-endpoint/UNIFORM_SCALAR_OBSTRUCTION.md": "4d1d5e190a8dafa9606d8bb0276c3f9781d3059f56305139d2627085b931d342",
+    "joint-theta-endpoint/uniform_scalar_verification.json": "3e98a424c6930c54fd03343f575904f36c8dba3c28f41287e01a0037ba4794e4",
+    "joint-theta-endpoint/verify_uniform_scalar_obstruction.py": "eb5162a871999b19c631495c4aeb61c93ebc926daaccbea17cef6a11d24cf290",
+    "period-root-geometry/INDEPENDENT_REVIEW.md": "bdf63a3518ae73cb5ffc6472e3e777f54da9ca453ef02d08c7d5e01bc70bfd3d",
+    "period-root-geometry/PERIOD_ROOT_GEOMETRY.md": "9c920358385bdce36d491b2599c0d8c1daba9dabd82732f3abe9a612d60e8c10",
+    "period-root-geometry/period_root_geometry_verification.json": "43597cfdc849ca79e7d9feebf933468f9c71c63151807691e6de1cb87f511789",
+    "period-root-geometry/verify_period_root_geometry.py": "1d077bb13b150351e58630a46b44b3f8b74958341c83d3653d738b8d98e7d323",
+    "time-moment-compatibility/INDEPENDENT_REVIEW.md": "ab3641a17f2ab9828ae82246d0340b8f39178d16b35f2738b4e3694b9a345736",
+    "time-moment-compatibility/PHASED_DILATION_COMPATIBILITY.md": "e50fa3bf9898b1319b64878b1ab2d32a5de4a4ea1c39db4e31087f19219a38a6",
+    "time-moment-compatibility/phased_dilation_verification.json": "b240baf51c79a30f7526f86968a4f735555ba50c5c885c8528bae787877849f3",
+    "time-moment-compatibility/verify_phased_dilation.py": "5fdc475d376e972c57ee20d5af24e964d478f709399521b63346ed887ff965d9"
+  }
+}

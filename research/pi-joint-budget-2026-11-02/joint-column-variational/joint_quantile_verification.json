@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "independent_polygon_cdf_moments": 52,
+  "higher_dimensional_integrated_moments": 50,
+  "exact_rational_quantile_enclosures": [
+    {
+      "knots": [
+        "0",
+        "1",
+        "3"
+      ],
+      "quantile_interval": [
+        "697062440253/549755813888",
+        "1394124880509/1099511627776"
+      ],
+      "conditional_mean_interval": [
+        "204709553205844697232306408115669193/249230249209355443139159740794273792",
+        "1637676425654722533961309516826767753/1993841993681125307939740120472616960"
+      ]
+    },
+    {
+      "knots": [
+        "0",
+        "1",
+        "3",
+        "7"
+      ],
+      "quantile_interval": [
+        "2873536770027/1099511627776",
+        "1436768385017/549755813888"
+      ],
+      "conditional_mean_interval": [
+        "62613800823611337587379531867450813619734722211649/35076039295868915173456979202638355235834377011200",
+        "3913362551499412471204913583464888910294266926065/2192252456000877095463032784671475934701964754944"
+      ]
+    },
+    {
+      "knots": [
+        "0",
+        "-1",
+        "2",
+        "5"
+      ],
+      "quantile_interval": [
+        "389562702353/274877906944",
+        "779125404709/549755813888"
+      ],
+      "conditional_mean_interval": [
+        "19141965670817619704840418836002856261832208533/28544953854008528860038759568161599107788439552",
+        "306271450735704684269756462172194602472402230533/456719261665987104151813615789850953375471894528"
+      ]
+    },
+    {
+      "knots": [
+        "0",
+        "1",
+        "2",
+        "4",
+        "9"
+      ],
+      "quantile_interval": [
+        "1659863534823/549755813888",
+        "3319727069655/1099511627776"
+      ],
+      "conditional_mean_interval": [
+        "2859370958440682878524918842752966322247680479534507639190701/1318191364427845173817711191430191442526617846562086820249600",
+        "18299974134148856079254339493325721847251611596206980361879257/8436424732380764259460334673140096571327653462678463875907584"
+      ]
+    }
+  ],
+  "finite_degree_feasible_selections": [
+    {
+      "weights": [
+        1,
+        2
+      ],
+      "H": 4,
+      "columns": 9,
+      "selected": 4,
+      "subsets": 126,
+      "degree_feasible_subsets": 91,
+      "exact_feasible_minimum": "9/16"
+    },
+    {
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "H": 4,
+      "columns": 11,
+      "selected": 5,
+      "subsets": 462,
+      "degree_feasible_subsets": 316,
+      "exact_feasible_minimum": "3/5"
+    },
+    {
+      "weights": [
+        2,
+        2,
+        3
+      ],
+      "H": 4,
+      "columns": 7,
+      "selected": 3,
+      "subsets": 35,
+      "degree_feasible_subsets": 12,
+      "exact_feasible_minimum": "2/3"
+    }
+  ],
+  "finite_dual_inequalities": 36,
+  "exact_constrained_frontiers": 63,
+  "fast_branch_K2_ineligibility_checks": 21,
+  "scope": "Joint costs and necessary coordinate-degree feasibility only. No source/period determinant rank or approximation tuple is certified."
+}

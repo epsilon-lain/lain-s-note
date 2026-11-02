@@ -1,0 +1,1394 @@
+{
+  "status": "passed",
+  "explicit_cases": [
+    {
+      "name": "negative_real_root",
+      "H": 6,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 8,
+      "theta": "1/4",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "D": 4,
+      "period_polynomial": {
+        "3": "3",
+        "4": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "1": "3"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "3748096/2401",
+        "-255552/343"
+      ],
+      "root_certificate": {
+        "nonzero_roots": [
+          "-3"
+        ]
+      }
+    },
+    {
+      "name": "positive_real_root",
+      "H": 6,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 8,
+      "theta": "1/4",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "D": 4,
+      "period_polynomial": {
+        "3": "-3",
+        "4": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "1": "-3"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "3748096/2401",
+        "255552/343"
+      ],
+      "root_certificate": {
+        "nonzero_roots": [
+          "3"
+        ]
+      }
+    },
+    {
+      "name": "six_row_imaginary_axis",
+      "H": 8,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 3,
+      "v1": 10,
+      "theta": "1/5",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "D": 6,
+      "period_polynomial": {
+        "3": "-32",
+        "5": "-24"
+      },
+      "reciprocal_polynomial": {
+        "1": "-24",
+        "3": "-32"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "0",
+        "-3824420864/16807"
+      ],
+      "root_certificate": {
+        "nonzero_roots": [
+          "2i/sqrt(3)",
+          "-2i/sqrt(3)"
+        ]
+      }
+    },
+    {
+      "name": "eight_row_imaginary_axis",
+      "H": 8,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 10,
+      "theta": "1/5",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "D": 6,
+      "period_polynomial": {
+        "4": "3",
+        "6": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "2": "3"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "-6705343744/117649",
+        "0"
+      ],
+      "root_certificate": {
+        "nonzero_roots": [
+          "i*sqrt(3)",
+          "-i*sqrt(3)"
+        ]
+      }
+    },
+    {
+      "name": "eight_row_opposite_real",
+      "H": 8,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 10,
+      "theta": "1/5",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "D": 6,
+      "period_polynomial": {
+        "4": "-13",
+        "6": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "2": "-13"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "-9643851008/117649",
+        "0"
+      ],
+      "root_certificate": {
+        "nonzero_roots": [
+          "sqrt(13)",
+          "-sqrt(13)"
+        ]
+      }
+    },
+    {
+      "name": "twelve_row_four_axis_rays",
+      "H": 12,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 14,
+      "theta": "1/7",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "D": 10,
+      "period_polynomial": {
+        "6": "-69",
+        "8": "-57/4",
+        "10": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "2": "-57/4",
+        "4": "-69"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "-35804386824515584/282475249",
+        "0"
+      ],
+      "root_certificate": {
+        "squared_roots": [
+          "(57+sqrt(7665))/8",
+          "(57-sqrt(7665))/8"
+        ],
+        "sign_certificate": "57^2<7665, so one squared root is positive and one negative",
+        "halfplane_consequence": "Nonzero roots meet all four coordinate half-rays"
+      }
+    },
+    {
+      "name": "twelve_row_four_open_quadrants",
+      "H": 12,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 14,
+      "theta": "1/7",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "D": 10,
+      "period_polynomial": {
+        "6": "1604/9",
+        "8": "-148/9",
+        "10": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "2": "-148/9",
+        "4": "1604/9"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "-124866503707770880/847425747",
+        "0"
+      ],
+      "root_certificate": {
+        "quadratic_in_Z_squared_discriminant": -35840,
+        "consequence": "Two nonreal conjugate squared roots; their square roots lie in all four open quadrants"
+      }
+    },
+    {
+      "name": "twelve_row_two_imaginary_pairs",
+      "H": 12,
+      "K": 2,
+      "w0": 1,
+      "w1": 2,
+      "v0": 2,
+      "v1": 14,
+      "theta": "1/7",
+      "source_rows": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          5,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          4,
+          0
+        ],
+        [
+          1,
+          5,
+          0
+        ]
+      ],
+      "raw_columns": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "D": 10,
+      "period_polynomial": {
+        "6": "95/9",
+        "8": "335/36",
+        "10": "1"
+      },
+      "reciprocal_polynomial": {
+        "0": "1",
+        "2": "335/36",
+        "4": "95/9"
+      },
+      "period_polynomial_at_44i_over_7": [
+        "-62926993217589248/847425747",
+        "0"
+      ],
+      "root_certificate": {
+        "squared_roots": [
+          "(-335+sqrt(57505))/72",
+          "(-335-sqrt(57505))/72"
+        ],
+        "sign_certificate": "0<57505<335^2, so both squared roots are negative"
+      }
+    }
+  ],
+  "exhaustive_six_row_family": {
+    "complete_packet": {
+      "K": 2,
+      "H": 8,
+      "w0": 1,
+      "w1": 2,
+      "v0": 3,
+      "v1": 10
+    },
+    "case_count": 50,
+    "cases": [
+      {
+        "k": 0,
+        "l": 1,
+        "a": 0,
+        "polynomial": {
+          "3": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 1,
+        "a": 1,
+        "polynomial": {
+          "3": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 1,
+        "a": 2,
+        "polynomial": {
+          "3": "3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 1,
+        "a": 3,
+        "polynomial": {
+          "3": "5",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 1,
+        "a": 4,
+        "polynomial": {
+          "3": "7",
+          "4": "6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 2,
+        "a": 0,
+        "polynomial": {
+          "3": "-4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 2,
+        "a": 1,
+        "polynomial": {
+          "4": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 2,
+        "a": 2,
+        "polynomial": {
+          "3": "4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 2,
+        "a": 3,
+        "polynomial": {
+          "3": "8",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 2,
+        "a": 4,
+        "polynomial": {
+          "3": "12",
+          "4": "8"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 3,
+        "a": 0,
+        "polynomial": {
+          "3": "-9"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 3,
+        "a": 1,
+        "polynomial": {
+          "3": "-3",
+          "4": "-3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 3,
+        "a": 2,
+        "polynomial": {
+          "3": "3",
+          "4": "-3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 3,
+        "a": 3,
+        "polynomial": {
+          "3": "9"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 3,
+        "a": 4,
+        "polynomial": {
+          "3": "15",
+          "4": "6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 4,
+        "a": 0,
+        "polynomial": {
+          "3": "-16"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 4,
+        "a": 1,
+        "polynomial": {
+          "3": "-8",
+          "4": "-6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 4,
+        "a": 2,
+        "polynomial": {
+          "4": "-8"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 4,
+        "a": 3,
+        "polynomial": {
+          "3": "8",
+          "4": "-6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 0,
+        "l": 4,
+        "a": 4,
+        "polynomial": {
+          "3": "16"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "a": 0,
+        "polynomial": {
+          "3": "-3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "a": 1,
+        "polynomial": {
+          "3": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "a": 2,
+        "polynomial": {
+          "3": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "a": 3,
+        "polynomial": {
+          "3": "3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 2,
+        "a": 4,
+        "polynomial": {
+          "3": "5",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "a": 0,
+        "polynomial": {
+          "3": "-8",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "a": 1,
+        "polynomial": {
+          "3": "-4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "a": 2,
+        "polynomial": {
+          "4": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "a": 3,
+        "polynomial": {
+          "3": "4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 3,
+        "a": 4,
+        "polynomial": {
+          "3": "8",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 4,
+        "a": 0,
+        "polynomial": {
+          "3": "-15",
+          "4": "6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 4,
+        "a": 1,
+        "polynomial": {
+          "3": "-9"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 4,
+        "a": 2,
+        "polynomial": {
+          "3": "-3",
+          "4": "-3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 4,
+        "a": 3,
+        "polynomial": {
+          "3": "3",
+          "4": "-3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 1,
+        "l": 4,
+        "a": 4,
+        "polynomial": {
+          "3": "9"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "a": 0,
+        "polynomial": {
+          "3": "-5",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "a": 1,
+        "polynomial": {
+          "3": "-3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "a": 2,
+        "polynomial": {
+          "3": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "a": 3,
+        "polynomial": {
+          "3": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 3,
+        "a": 4,
+        "polynomial": {
+          "3": "3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 4,
+        "a": 0,
+        "polynomial": {
+          "3": "-12",
+          "4": "8"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 4,
+        "a": 1,
+        "polynomial": {
+          "3": "-8",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 4,
+        "a": 2,
+        "polynomial": {
+          "3": "-4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 4,
+        "a": 3,
+        "polynomial": {
+          "4": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 2,
+        "l": 4,
+        "a": 4,
+        "polynomial": {
+          "3": "4"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "a": 0,
+        "polynomial": {
+          "3": "-7",
+          "4": "6"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "a": 1,
+        "polynomial": {
+          "3": "-5",
+          "4": "3"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "a": 2,
+        "polynomial": {
+          "3": "-3",
+          "4": "1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "a": 3,
+        "polynomial": {
+          "3": "-1"
+        },
+        "reflection_checked": true
+      },
+      {
+        "k": 3,
+        "l": 4,
+        "a": 4,
+        "polynomial": {
+          "3": "1"
+        },
+        "reflection_checked": true
+      }
+    ]
+  },
+  "scope": "Exact genuine complete packets and raw weighted columns. Obstructs universal half-plane, narrow-sector, and imaginary-axis zero-free assertions; does not show roots approach 2*pi*i or that actual-period determinants become arbitrarily small."
+}
