@@ -1,0 +1,2 @@
+# Needed only by verify_filtered_time_support.py; version used for publication.
+sympy==1.14.0

@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-02",
+  "status": "passed",
+  "repository": "epsilon-lain/lain-s-note",
+  "previous_commit": "f12eb7c71ee9ae9f5fb4403e4bbca64018a4feef",
+  "dependencies": {
+    "python": "3.12",
+    "sympy": "1.14.0",
+    "sympy_used_by": [
+      "verify_filtered_time_support.py"
+    ]
+  },
+  "runs": [
+    {
+      "command": "python verify_reciprocal_resummation.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"arithmetic\": \"exact rational multivariate polynomials\",\n  \"cases\": [\n    {\n      \"m\": 1,\n      \"rows\": 6,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 2,\n      \"aggregate_terms\": 3,\n      \"time_bound\": 6,\n      \"radial_degree\": 1\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 2,\n      \"aggregate_terms\": 2,\n      \"time_bound\": 2,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 1,\n      \"time_bound\": 2,\n      \"radial_degree\": 0\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 2,\n      \"aggregate_terms\": 4,\n      \"time_bound\": 2,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 3,\n      \"aggregate_terms\": 6,\n      \"time_bound\": 2,\n      \"radial_degree\": 1\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 0,\n      \"aggregate_terms\": 0,\n      \"time_bound\": 2,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 1,\n      \"rows\": 6,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 1,\n      \"time_bound\": 0,\n      \"radial_degree\": 0\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 2,\n      \"aggregate_terms\": 2,\n      \"time_bound\": 1,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 1,\n      \"time_bound\": 0,\n      \"radial_degree\": 0\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 2,\n      \"aggregate_terms\": 4,\n      \"time_bound\": 2,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 2,\n      \"time_bound\": 1,\n      \"radial_degree\": 1\n    },\n    {\n      \"m\": 2,\n      \"rows\": 4,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 0,\n      \"aggregate_terms\": 0,\n      \"time_bound\": 0,\n      \"radial_degree\": null\n    },\n    {\n      \"m\": 2,\n      \"rows\": 5,\n      \"basis\": \"raw\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 1,\n      \"time_bound\": 3,\n      \"radial_degree\": 0\n    },\n    {\n      \"m\": 2,\n      \"rows\": 5,\n      \"basis\": \"shifted\",\n      \"center_polynomial_terms\": 1,\n      \"aggregate_terms\": 1,\n      \"time_bound\": 0,\n      \"radial_degree\": 0\n    }\n  ],\n  \"number_of_cases\": 14,\n  \"scope\": \"Exact formal identities, support and radial binomial transform. Transcendence supplies the written nonvanishing theorem; no numerical pi claim.\"\n}\n"
+    },
+    {
+      "command": "python verify_aggregate_period.py",
+      "exit_code": 0,
+      "output": "Small complete sum verified: {\"period_polynomial\": {\"3\": \"3\", \"4\": \"1\"}, \"aggregate_coefficients\": {\"0\": {\"3\": \"3\", \"4\": \"1\"}, \"1\": {\"3\": \"-3\"}, \"2\": {}, \"3\": {}, \"4\": {}, \"5\": {}, \"6\": {}}, \"target_selection_count\": 36, \"nonzero_target_minor_count\": 11}\n{\"basis\": \"raw Y^h X^a\", \"H\": 24, \"rows\": 32, \"outside_rows\": 22, \"gamma\": 30, \"D\": 62, \"source_polynomial_valuation\": 27, \"source_polynomial_degree\": 43, \"rational_source_exactly_nonzero\": true, \"quotient_sturm_certificate\": {\"polynomial_degree\": 16, \"sturm_chain_degrees\": [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0], \"signs_at_minus_infinity\": [-1, 1, 1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, -1, -1, 1, 1], \"signs_at_plus_infinity\": [-1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1, 1, -1, -1, 1], \"variations_at_minus_infinity\": 9, \"variations_at_plus_infinity\": 7, \"real_root_count\": 2, \"gcd_with_derivative_degree\": 0, \"nonreal_roots_with_multiplicity\": 14}, \"aggregate_degree_in_zeta\": 35, \"complete_coefficient_at_gamma_is_zero\": false}\n{\"basis\": \"shifted (Y-1)^h X^a\", \"H\": 24, \"rows\": 32, \"outside_rows\": 22, \"gamma\": 30, \"D\": 62, \"source_polynomial_valuation\": 27, \"source_polynomial_degree\": 43, \"rational_source_exactly_nonzero\": true, \"quotient_sturm_certificate\": {\"polynomial_degree\": 16, \"sturm_chain_degrees\": [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0], \"signs_at_minus_infinity\": [-1, 1, 1, -1, 1, 1, -1, -1, 1, -1, -1, 1, 1, -1, 1, 1, 1], \"signs_at_plus_infinity\": [-1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1], \"variations_at_minus_infinity\": 9, \"variations_at_plus_infinity\": 7, \"real_root_count\": 2, \"gcd_with_derivative_degree\": 0, \"nonreal_roots_with_multiplicity\": 14}, \"aggregate_degree_in_zeta\": 35, \"complete_coefficient_at_gamma_is_zero\": false}\n"
+    },
+    {
+      "command": "python verify_filtered_time_support.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"six_row_example\": {\n    \"source_determinant\": \"-2*Z**3\",\n    \"cut_capacities\": {\n      \"1\": 1,\n      \"2\": 0\n    },\n    \"target_counts\": {\n      \"total_targets\": 36,\n      \"aggregate_pass\": 5,\n      \"cut_pass\": 3,\n      \"nonzero_period_minors\": 3\n    },\n    \"relative_boundary_rank\": 2,\n    \"marker\": \"-eta*zeta + 1\"\n  },\n  \"sharp_degree_example\": {\n    \"source_determinant\": \"Z**16\",\n    \"cut_capacities\": {\n      \"1\": 6,\n      \"2\": 4,\n      \"3\": 2\n    },\n    \"total_surplus\": 12,\n    \"marker_degree_bound\": 6,\n    \"marker_degree\": 6,\n    \"shear_degree\": 12,\n    \"marker\": \"(eta*zeta - 1)**2*(eta*zeta**2 - 2*eta*zeta + 1)**2*(eta*zeta**3 - 3*eta*zeta**2 + 3*eta*zeta - 1)**2\"\n  },\n  \"raw_filtration_check\": {\n    \"raw_exponent_groups\": [\n      [\n        1,\n        3,\n        7\n      ],\n      [\n        2,\n        6\n      ]\n    ],\n    \"first_jet_determinants\": [\n      24,\n      4\n    ],\n    \"adapted_time_orders\": [\n      [\n        0,\n        1,\n        2\n      ],\n      [\n        0,\n        1\n      ]\n    ]\n  },\n  \"scope\": \"Symbolic period-jet support and rank checks; no quantitative determinant or Diophantine conclusion.\"\n}\n"
+    },
+    {
+      "command": "python verify_moment_collision.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"continuum_optimizer_integrals\": 72,\n  \"finite_profile_checks\": {\n    \"finite_problems\": 27,\n    \"feasible_integer_profiles\": 565\n  },\n  \"fixed_weight_packet_checks\": 36,\n  \"concentration_thresholds\": 4,\n  \"lcm_divisibility_checks\": 199,\n  \"parameter_checks\": {\n    \"admissible_rational_parameter_triples\": 23118,\n    \"original_family_relaxed_gap\": \"3/10\",\n    \"optimized_half_theta_gap_interval\": [\n      \"857/10000\",\n      \"429/5000\"\n    ],\n    \"interval_meaning\": \"strictly between; exact value 3/2-sqrt(2)\"\n  },\n  \"scope\": \"Exact mass/mean relaxation and parameter arithmetic. No rank certificate for the optimizing targets and no pi claim. Asymptotic statements follow from the written proofs.\"\n}\n"
+    },
+    {
+      "command": "python verify_active_profiles.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"exact_coordinate_entries\": 5206,\n  \"exact_profile_models\": 5,\n  \"adapted_gram_products\": 4,\n  \"rational_beta_formula_checks\": 138,\n  \"finite_profile_counts\": 15,\n  \"greedy_models\": 5,\n  \"greedy_filtration_checks\": 70,\n  \"exact_quotient_image_ranks\": 15,\n  \"scope\": \"Exact finite formal-center identities and ranks. All-profile splitting uses equal transverse weights; unequal weights use only the proved quotient test. No sufficient interpolation threshold or pi approximation claim.\"\n}\n"
+    },
+    {
+      "command": "python verify_bivariate_blocks.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"exact_models\": 36,\n  \"coordinate_identity_entries\": 14592,\n  \"counterexample_rank\": 14,\n  \"counterexample_minor\": \"1/640\",\n  \"invisible_family_cases\": 8\n}\n"
+    },
+    {
+      "command": "python verify_independent_relaxed_witness.py",
+      "exit_code": 0,
+      "output": "{\n  \"status\": \"passed\",\n  \"m\": 2,\n  \"H\": 60,\n  \"weights\": [\n    1,\n    2\n  ],\n  \"theta\": \"1/4\",\n  \"v0\": \"1/8\",\n  \"K\": 1,\n  \"w0\": 1,\n  \"source_rows\": 11904,\n  \"all_raw_columns\": 20336,\n  \"source_mean\": \"7/62\",\n  \"target_mean\": \"38035/142848\",\n  \"column_mean\": \"79417/238080\",\n  \"Gamma\": [\n    54891,\n    27322\n  ],\n  \"E\": [\n    24092,\n    11992\n  ],\n  \"D\": [\n    78983,\n    39314\n  ],\n  \"collision_over_MH\": \"348739/357120\",\n  \"scope\": \"Exact feasible mass, mean, coordinate degrees, and selected raw columns only. No row/time assignment or determinant nonvanishing is asserted.\"\n}\n"
+    }
+  ],
+  "independent_reviews": [
+    "INDEPENDENT_AGGREGATE_REVIEW.md",
+    "INDEPENDENT_BIVARIATE_REVIEW.md",
+    "INDEPENDENT_MOMENT_REVIEW.md",
+    "INDEPENDENT_PROFILE_REVIEW.md",
+    "INDEPENDENT_RECIPROCAL_REVIEW.md",
+    "INDEPENDENT_TIME_SUPPORT_REVIEW.md"
+  ],
+  "scope": "Exact support, rank and polynomial identities, with fixed-parameter asymptotic proofs and conditional concentration. No proof/disproof of pi bad approximability, no new approximation record, no independent certification of manuscript Theorem 2.1.",
+  "sha256": {
+    "ACTIVE_SPAN_AND_PROFILE_CAPACITY.md": "d508a5b95051bd229cace5e4c8163d771913147973161d010904899d3ce6fc83",
+    "AGGREGATE_PERIOD_POLYNOMIAL.md": "11893b4e7916d150c6249d95854fdcf147087adcb6fd8aff98431d8f6156d742",
+    "EXACT_BIVARIATE_BLOCKS.md": "a14b424906b9d05d61e52b3a20991da891171c83ae74ad4994203cf7f2f9284a",
+    "FILTERED_TIME_SUPPORT.md": "944ce8b460f526fe8e6cc521474ba1cd190cd5563cd2261b15d24d514cdd5525",
+    "INDEPENDENT_AGGREGATE_REVIEW.md": "cf33a3e421c6d4e31795160222e326b3779261f557393b3b119953a5e976e5cb",
+    "INDEPENDENT_BIVARIATE_REVIEW.md": "6b11e6354e3802508f852e6d64bedb3dc41b77782525f9e70f25b99e6a3b9a26",
+    "INDEPENDENT_MOMENT_REVIEW.md": "78ff35336733e5e95e964b8c7e2070ee254fa7404a69cd92b7316a8f3377987d",
+    "INDEPENDENT_PROFILE_REVIEW.md": "71b53c45caa72698a35450a5038fb00ad9dc64f7cf7eaee9f57a57c9183b3caa",
+    "INDEPENDENT_RECIPROCAL_REVIEW.md": "bd929210fd01d5d93d3a8ac65b41937476fd871deea838cc62d6c13327e373cf",
+    "INDEPENDENT_TIME_SUPPORT_REVIEW.md": "56152899d6521bb855dad67a02b9f0adbede673f4cccf9586fd857e1e61685e6",
+    "MEAN_DEGREE_AND_COLLISIONS.md": "ffbd4cc66745fac2e71c5d2ecc257af5447c0908fbee3cd6e79ff7efb2b66dfc",
+    "README.md": "777c0cc53394f1580ee159802b97cc016f7fa94f2bb5db0a858e5d1d50b0bf37",
+    "RECIPROCAL_RESUMMATION.md": "df1af55f962fbf52fa74e1f0898ee3963fb8d8497cc1ed072e8c3a68c18e08e7",
+    "active_profile_verification.json": "d4f3b5e07ebe8c1cc19f94d8bed8b8fe5deb59d78291390394956f2e9dad0c36",
+    "aggregate_period_verification.json": "4478d1b382d0a9709aea7ec2a6e5dadb4997b7bd7eee0df611044df121e4bb60",
+    "bivariate_block_verification.json": "75effbb3101cc7eb79351116d9331d103613c3fc87f7fd547ac5751b9fc63b98",
+    "filtered_time_verification.json": "ad80792684ad36a186c2beae8786c730efda5b6678a3d945229b5f574007e013",
+    "genuine_32_fixture.json": "94f279e1f67dc59bec8681196a87cba1963b1d67db368fde762597ead988a470",
+    "independent_relaxed_witness.json": "e91054806698f2d00fa5ed81f9ae32b0c67cb4078a4aef2e43efde436d654637",
+    "moment_collision_verification.json": "1acc046e59b33837e866736db3d7eebf83ef6ee958afb08b4fa1154b8fcfd7df",
+    "reciprocal_verification.json": "32727463a6d5344dfd711017ef714faeb45508999168d4bf7183586f216ca266",
+    "requirements.txt": "179c67c79973691ad09f739327a35c3c88bfd6381c6fa95746f95229761f23df",
+    "verify_active_profiles.py": "24c235e86f2ecb41968c4f824bdf8f521e1ef971a14b5d71c9b1693d04df4805",
+    "verify_aggregate_period.py": "b464c58210c8db052c3bb29aba352b106dfe72df07df9d1308a79f618b5a162b",
+    "verify_bivariate_blocks.py": "19f8bed6b10709c7ba0edb561f387feb2da6ce340fd02519cb40a43890b1f197",
+    "verify_filtered_time_support.py": "f0caae3d46e82a69192b676eb4e4c2af7e064addb8735e9071142a3f35049cb0",
+    "verify_independent_relaxed_witness.py": "3a79aa90efe481008e5ea272a6a37e3b1c1796a2289e7e73b1523fedecad49c9",
+    "verify_moment_collision.py": "9dfe58267f77536d714041dbd31f79534a41189a22aff7d60887dbbd4731a305",
+    "verify_reciprocal_resummation.py": "121a197fac49c3b9c91dc30c53423e1cb3a8d164d395d10daa84feef8ec6b63b"
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "status": "passed",
+  "exact_coordinate_entries": 5206,
+  "exact_profile_models": [
+    {
+      "m": 2,
+      "active_dimension": 1,
+      "K": 1,
+      "H": 2,
+      "v0": "1",
+      "v": "1",
+      "source_rows": 4,
+      "all_columns": 10,
+      "exact_rank": 4,
+      "sum_block_capacities": 4,
+      "visible_columns": 9
+    },
+    {
+      "m": 3,
+      "active_dimension": 1,
+      "K": 2,
+      "H": 3,
+      "v0": "1/2",
+      "v": "2",
+      "source_rows": 24,
+      "all_columns": 35,
+      "exact_rank": 18,
+      "sum_block_capacities": 18,
+      "visible_columns": 22
+    },
+    {
+      "m": 3,
+      "active_dimension": 2,
+      "K": 2,
+      "H": 3,
+      "v0": "1/2",
+      "v": "2",
+      "source_rows": 24,
+      "all_columns": 35,
+      "exact_rank": 21,
+      "sum_block_capacities": 24,
+      "visible_columns": 30
+    },
+    {
+      "m": 4,
+      "active_dimension": 2,
+      "K": 2,
+      "H": 3,
+      "v0": "1/4",
+      "v": "2",
+      "source_rows": 56,
+      "all_columns": 56,
+      "exact_rank": 34,
+      "sum_block_capacities": 36,
+      "visible_columns": 40
+    },
+    {
+      "m": 3,
+      "active_dimension": 2,
+      "K": 2,
+      "H": 3,
+      "v0": "2",
+      "v": "2",
+      "source_rows": 10,
+      "all_columns": 35,
+      "exact_rank": 10,
+      "sum_block_capacities": 10,
+      "visible_columns": 30
+    }
+  ],
+  "adapted_gram_products": 4,
+  "rational_beta_formula_checks": 138,
+  "finite_profile_counts": [
+    {
+      "m": 3,
+      "d": 1,
+      "H": 8,
+      "source_rows": 280,
+      "all_columns": 495,
+      "finite_capacity_fraction": "221/280",
+      "finite_visible_fraction": "57/56",
+      "proved_visible_limit": "11/8"
+    },
+    {
+      "m": 3,
+      "d": 1,
+      "H": 16,
+      "source_rows": 2640,
+      "all_columns": 4845,
+      "finite_capacity_fraction": "425/528",
+      "finite_visible_fraction": "101/88",
+      "proved_visible_limit": "11/8"
+    },
+    {
+      "m": 3,
+      "d": 1,
+      "H": 32,
+      "source_rows": 31008,
+      "all_columns": 58905,
+      "finite_capacity_fraction": "4225/5168",
+      "finite_visible_fraction": "189/152",
+      "proved_visible_limit": "11/8"
+    },
+    {
+      "m": 4,
+      "d": 2,
+      "H": 8,
+      "source_rows": 896,
+      "all_columns": 1287,
+      "finite_capacity_fraction": "661/896",
+      "finite_visible_fraction": "881/896",
+      "proved_visible_limit": "13/8"
+    },
+    {
+      "m": 4,
+      "d": 2,
+      "H": 16,
+      "source_rows": 12672,
+      "all_columns": 20349,
+      "finite_capacity_fraction": "1113/1408",
+      "finite_visible_fraction": "839/704",
+      "proved_visible_limit": "13/8"
+    },
+    {
+      "m": 4,
+      "d": 2,
+      "H": 32,
+      "source_rows": 248064,
+      "all_columns": 435897,
+      "finite_capacity_fraction": "50557/62016",
+      "finite_visible_fraction": "1657/1216",
+      "proved_visible_limit": "13/8"
+    },
+    {
+      "m": 6,
+      "d": 1,
+      "H": 8,
+      "source_rows": 7680,
+      "all_columns": 6435,
+      "finite_capacity_fraction": "23/128",
+      "finite_visible_fraction": "23/128",
+      "proved_visible_limit": "29/64"
+    },
+    {
+      "m": 6,
+      "d": 1,
+      "H": 16,
+      "source_rows": 219648,
+      "all_columns": 245157,
+      "finite_capacity_fraction": "413/1664",
+      "finite_visible_fraction": "413/1664",
+      "proved_visible_limit": "29/64"
+    },
+    {
+      "m": 6,
+      "d": 1,
+      "H": 32,
+      "source_rows": 10914816,
+      "all_columns": 15380937,
+      "finite_capacity_fraction": "787/2816",
+      "finite_visible_fraction": "447/1408",
+      "proved_visible_limit": "29/64"
+    },
+    {
+      "m": 6,
+      "d": 2,
+      "H": 8,
+      "source_rows": 7680,
+      "all_columns": 6435,
+      "finite_capacity_fraction": "521/1536",
+      "finite_visible_fraction": "521/1536",
+      "proved_visible_limit": "1"
+    },
+    {
+      "m": 6,
+      "d": 2,
+      "H": 16,
+      "source_rows": 219648,
+      "all_columns": 245157,
+      "finite_capacity_fraction": "14621/36608",
+      "finite_visible_fraction": "127/256",
+      "proved_visible_limit": "1"
+    },
+    {
+      "m": 6,
+      "d": 2,
+      "H": 32,
+      "source_rows": 10914816,
+      "all_columns": 15380937,
+      "finite_capacity_fraction": "4885247/10914816",
+      "finite_visible_fraction": "1863/2816",
+      "proved_visible_limit": "1"
+    },
+    {
+      "m": 10,
+      "d": 2,
+      "H": 8,
+      "source_rows": 372736,
+      "all_columns": 75582,
+      "finite_capacity_fraction": "10869/372736",
+      "finite_visible_fraction": "10869/372736",
+      "proved_visible_limit": "29/128"
+    },
+    {
+      "m": 10,
+      "d": 2,
+      "H": 16,
+      "source_rows": 32587776,
+      "all_columns": 13037895,
+      "finite_capacity_fraction": "15243/278528",
+      "finite_visible_fraction": "15243/278528",
+      "proved_visible_limit": "29/128"
+    },
+    {
+      "m": 10,
+      "d": 2,
+      "H": 32,
+      "source_rows": 7911587840,
+      "all_columns": 5752004349,
+      "finite_capacity_fraction": "1112499/12247040",
+      "finite_visible_fraction": "49701/532480",
+      "proved_visible_limit": "29/128"
+    }
+  ],
+  "greedy_models": [
+    {
+      "weights": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "r": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_dimension": 2,
+      "cheapest_pivots": [
+        0,
+        1
+      ],
+      "most_expensive_pivots": [
+        3,
+        2
+      ],
+      "cheapest_weights": [
+        1,
+        2
+      ],
+      "most_expensive_weights": [
+        9,
+        5
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        5,
+        9
+      ],
+      "r": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "active_dimension": 2,
+      "cheapest_pivots": [
+        0,
+        2
+      ],
+      "most_expensive_pivots": [
+        3,
+        1
+      ],
+      "cheapest_weights": [
+        1,
+        5
+      ],
+      "most_expensive_weights": [
+        9,
+        2
+      ]
+    },
+    {
+      "weights": [
+        5,
+        1,
+        7,
+        3
+      ],
+      "r": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "active_dimension": 2,
+      "cheapest_pivots": [
+        1,
+        3
+      ],
+      "most_expensive_pivots": [
+        2,
+        0
+      ],
+      "cheapest_weights": [
+        1,
+        3
+      ],
+      "most_expensive_weights": [
+        7,
+        5
+      ]
+    },
+    {
+      "weights": [
+        1,
+        4,
+        4,
+        9
+      ],
+      "r": [
+        2,
+        2,
+        3,
+        5
+      ],
+      "active_dimension": 2,
+      "cheapest_pivots": [
+        0,
+        2
+      ],
+      "most_expensive_pivots": [
+        3,
+        2
+      ],
+      "cheapest_weights": [
+        1,
+        4
+      ],
+      "most_expensive_weights": [
+        9,
+        4
+      ]
+    },
+    {
+      "weights": [
+        1,
+        3,
+        7
+      ],
+      "r": [
+        2,
+        2,
+        2
+      ],
+      "active_dimension": 1,
+      "cheapest_pivots": [
+        0
+      ],
+      "most_expensive_pivots": [
+        2
+      ],
+      "cheapest_weights": [
+        1
+      ],
+      "most_expensive_weights": [
+        7
+      ]
+    }
+  ],
+  "greedy_filtration_checks": 70,
+  "exact_quotient_image_ranks": 15,
+  "scope": "Exact finite formal-center identities and ranks. All-profile splitting uses equal transverse weights; unequal weights use only the proved quotient test. No sufficient interpolation threshold or pi approximation claim."
+}

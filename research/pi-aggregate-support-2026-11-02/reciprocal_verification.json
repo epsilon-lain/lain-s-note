@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "arithmetic": "exact rational multivariate polynomials",
+  "cases": [
+    {
+      "m": 1,
+      "rows": 6,
+      "basis": "raw",
+      "center_polynomial_terms": 2,
+      "aggregate_terms": 3,
+      "time_bound": 6,
+      "radial_degree": 1
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "raw",
+      "center_polynomial_terms": 2,
+      "aggregate_terms": 2,
+      "time_bound": 2,
+      "radial_degree": null
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "raw",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 1,
+      "time_bound": 2,
+      "radial_degree": 0
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "raw",
+      "center_polynomial_terms": 2,
+      "aggregate_terms": 4,
+      "time_bound": 2,
+      "radial_degree": null
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "raw",
+      "center_polynomial_terms": 3,
+      "aggregate_terms": 6,
+      "time_bound": 2,
+      "radial_degree": 1
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "raw",
+      "center_polynomial_terms": 0,
+      "aggregate_terms": 0,
+      "time_bound": 2,
+      "radial_degree": null
+    },
+    {
+      "m": 1,
+      "rows": 6,
+      "basis": "shifted",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 1,
+      "time_bound": 0,
+      "radial_degree": 0
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "shifted",
+      "center_polynomial_terms": 2,
+      "aggregate_terms": 2,
+      "time_bound": 1,
+      "radial_degree": null
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "shifted",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 1,
+      "time_bound": 0,
+      "radial_degree": 0
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "shifted",
+      "center_polynomial_terms": 2,
+      "aggregate_terms": 4,
+      "time_bound": 2,
+      "radial_degree": null
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "shifted",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 2,
+      "time_bound": 1,
+      "radial_degree": 1
+    },
+    {
+      "m": 2,
+      "rows": 4,
+      "basis": "shifted",
+      "center_polynomial_terms": 0,
+      "aggregate_terms": 0,
+      "time_bound": 0,
+      "radial_degree": null
+    },
+    {
+      "m": 2,
+      "rows": 5,
+      "basis": "raw",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 1,
+      "time_bound": 3,
+      "radial_degree": 0
+    },
+    {
+      "m": 2,
+      "rows": 5,
+      "basis": "shifted",
+      "center_polynomial_terms": 1,
+      "aggregate_terms": 1,
+      "time_bound": 0,
+      "radial_degree": 0
+    }
+  ],
+  "number_of_cases": 14,
+  "scope": "Exact formal identities, support and radial binomial transform. Transcendence supplies the written nonvanishing theorem; no numerical pi claim."
+}

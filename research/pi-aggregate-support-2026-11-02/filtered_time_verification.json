@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "six_row_example": {
+    "source_determinant": "-2*Z**3",
+    "cut_capacities": {
+      "1": 1,
+      "2": 0
+    },
+    "target_counts": {
+      "total_targets": 36,
+      "aggregate_pass": 5,
+      "cut_pass": 3,
+      "nonzero_period_minors": 3
+    },
+    "relative_boundary_rank": 2,
+    "marker": "-eta*zeta + 1"
+  },
+  "sharp_degree_example": {
+    "source_determinant": "Z**16",
+    "cut_capacities": {
+      "1": 6,
+      "2": 4,
+      "3": 2
+    },
+    "total_surplus": 12,
+    "marker_degree_bound": 6,
+    "marker_degree": 6,
+    "shear_degree": 12,
+    "marker": "(eta*zeta - 1)**2*(eta*zeta**2 - 2*eta*zeta + 1)**2*(eta*zeta**3 - 3*eta*zeta**2 + 3*eta*zeta - 1)**2"
+  },
+  "raw_filtration_check": {
+    "raw_exponent_groups": [
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "first_jet_determinants": [
+      24,
+      4
+    ],
+    "adapted_time_orders": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "scope": "Symbolic period-jet support and rank checks; no quantitative determinant or Diophantine conclusion."
+}

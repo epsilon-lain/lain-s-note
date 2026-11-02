@@ -1,0 +1,793 @@
+{
+  "status": "passed",
+  "small_complete_sum": {
+    "source_rows": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ]
+    ],
+    "columns": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "D": 4,
+    "period_polynomial": {
+      "3": "3",
+      "4": "1"
+    },
+    "aggregate_coefficients": {
+      "0": {
+        "3": "3",
+        "4": "1"
+      },
+      "1": {
+        "3": "-3"
+      },
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {}
+    },
+    "target_selection_count": 36,
+    "nonzero_target_minor_count": 11,
+    "nonzero_terms": [
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 0,
+        "outside_rows": 0,
+        "period_minor": {
+          "3": "3",
+          "4": "1"
+        },
+        "signed_contribution": {
+          "3": "3",
+          "4": "1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "gamma": 1,
+        "outside_rows": 1,
+        "period_minor": {
+          "3": "2"
+        },
+        "signed_contribution": {
+          "3": "-2"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 1,
+        "period_minor": {
+          "2": "1"
+        },
+        "signed_contribution": {
+          "2": "1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 1,
+        "outside_rows": 1,
+        "period_minor": {
+          "3": "-1/2"
+        },
+        "signed_contribution": {
+          "3": "1/2"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 2,
+        "period_minor": {
+          "2": "-1"
+        },
+        "signed_contribution": {
+          "2": "-1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 1,
+        "outside_rows": 1,
+        "period_minor": {
+          "3": "2"
+        },
+        "signed_contribution": {
+          "3": "-2"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 2,
+        "period_minor": {
+          "2": "1"
+        },
+        "signed_contribution": {
+          "2": "1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 1,
+        "period_minor": {
+          "2": "-1"
+        },
+        "signed_contribution": {
+          "2": "-1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 1,
+        "outside_rows": 1,
+        "period_minor": {
+          "3": "-1/2"
+        },
+        "signed_contribution": {
+          "3": "1/2"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 2,
+        "period_minor": {
+          "2": "-1"
+        },
+        "signed_contribution": {
+          "2": "-1"
+        }
+      },
+      {
+        "target_rows": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        "gamma": 2,
+        "outside_rows": 2,
+        "period_minor": {
+          "2": "1"
+        },
+        "signed_contribution": {
+          "2": "1"
+        }
+      }
+    ]
+  },
+  "genuine_32_row_case": [
+    {
+      "basis": "raw Y^h X^a",
+      "H": 24,
+      "rows": 32,
+      "outside_rows": 22,
+      "gamma": 30,
+      "D": 62,
+      "source_polynomial": {
+        "27": "878869/648",
+        "28": "411291007/81648",
+        "29": "140993759597/16329600",
+        "30": "202776448181/21432600",
+        "31": "39453119039/5103000",
+        "32": "14015826652039/2743372800",
+        "33": "446235149297341/137168640000",
+        "34": "250802368668911/164602368000",
+        "35": "45554264700559/98761420800",
+        "36": "87175567280959/4938071040000",
+        "37": "3758275317299/304819200000",
+        "38": "6762408014339441/1777705574400000",
+        "39": "816528873134851/3555411148800000",
+        "40": "2303082760487/71108222976000",
+        "41": "-270705990620491/17777055744000000",
+        "42": "-8481185557/20575296000000",
+        "43": "-2858014721/329204736000000"
+      },
+      "source_polynomial_valuation": 27,
+      "source_polynomial_degree": 43,
+      "rational_source_exactly_nonzero": true,
+      "quotient_sturm_certificate": {
+        "polynomial_degree": 16,
+        "sturm_chain_degrees": [
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "signs_at_minus_infinity": [
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "signs_at_plus_infinity": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "variations_at_minus_infinity": 9,
+        "variations_at_plus_infinity": 7,
+        "real_root_count": 2,
+        "gcd_with_derivative_degree": 0,
+        "nonreal_roots_with_multiplicity": 14
+      },
+      "aggregate_degree_in_zeta": 35,
+      "selected_target_period_polynomial": {
+        "32": "-1697809/147"
+      },
+      "full_aggregate_coefficient_at_gamma": {
+        "27": "35663625151/81",
+        "28": "2384253967579/10206",
+        "29": "48078872022577/1020600",
+        "30": "12572139787222/2679075",
+        "31": "1223046690209/5103000",
+        "32": "14015826652039/2743372800"
+      },
+      "complete_coefficient_at_gamma_is_zero": false
+    },
+    {
+      "basis": "shifted (Y-1)^h X^a",
+      "H": 24,
+      "rows": 32,
+      "outside_rows": 22,
+      "gamma": 30,
+      "D": 62,
+      "source_polynomial": {
+        "27": "220009/48",
+        "28": "4578247/288",
+        "29": "1049890153/36288",
+        "30": "40540726033/1088640",
+        "31": "1048322933051/28576800",
+        "32": "27100471170629/979776000",
+        "33": "3991927140473/244944000",
+        "34": "2682094117827263/411505920000",
+        "35": "346586039850311/137168640000",
+        "36": "424947284341009/987614208000",
+        "37": "205175942364539/1646023680000",
+        "38": "1706053542778037/74071065600000",
+        "39": "3200889278287/7315660800000",
+        "40": "10010370870251/27776649600000",
+        "41": "-4717023627557/39504568320000",
+        "42": "-2275405269737/740710656000000",
+        "43": "-6099269129/54867456000000"
+      },
+      "source_polynomial_valuation": 27,
+      "source_polynomial_degree": 43,
+      "rational_source_exactly_nonzero": true,
+      "quotient_sturm_certificate": {
+        "polynomial_degree": 16,
+        "sturm_chain_degrees": [
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "signs_at_minus_infinity": [
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "signs_at_plus_infinity": [
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          -1,
+          1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "variations_at_minus_infinity": 9,
+        "variations_at_plus_infinity": 7,
+        "real_root_count": 2,
+        "gcd_with_derivative_degree": 0,
+        "nonreal_roots_with_multiplicity": 14
+      },
+      "aggregate_degree_in_zeta": 35,
+      "selected_target_period_polynomial": {
+        "32": "-1697809/147"
+      },
+      "full_aggregate_coefficient_at_gamma": {
+        "27": "8927745211/6",
+        "28": "26540097859/36",
+        "29": "358012542173/2268",
+        "30": "1256762507023/68040",
+        "31": "32498010924581/28576800",
+        "32": "27100471170629/979776000"
+      },
+      "complete_coefficient_at_gamma_is_zero": false
+    }
+  ],
+  "controlled_positive_time_surplus_example": {
+    "H": 25,
+    "K": 2,
+    "v0": 2,
+    "v1": 8,
+    "w0": 1,
+    "w1": 1,
+    "rows": 56,
+    "replacement_times": [
+      6,
+      10
+    ],
+    "replacement_count": 2,
+    "multiplier": 8,
+    "original_degree": 72,
+    "new_D": 74,
+    "aggregate_factor": "(1-zeta)^2",
+    "original_polynomial": {
+      "72": "1"
+    },
+    "changed_polynomial": {
+      "72": "8"
+    }
+  },
+  "scope": "Exact formal polynomial identities; evaluation at omega=2*pi*i is literal. No period specialization or magnitude lower bound."
+}

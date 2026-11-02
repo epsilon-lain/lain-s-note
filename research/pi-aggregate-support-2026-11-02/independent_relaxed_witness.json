@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "m": 2,
+  "H": 60,
+  "weights": [
+    1,
+    2
+  ],
+  "theta": "1/4",
+  "v0": "1/8",
+  "K": 1,
+  "w0": 1,
+  "source_rows": 11904,
+  "all_raw_columns": 20336,
+  "source_mean": "7/62",
+  "target_mean": "38035/142848",
+  "column_mean": "79417/238080",
+  "Gamma": [
+    54891,
+    27322
+  ],
+  "E": [
+    24092,
+    11992
+  ],
+  "D": [
+    78983,
+    39314
+  ],
+  "collision_over_MH": "348739/357120",
+  "scope": "Exact feasible mass, mean, coordinate degrees, and selected raw columns only. No row/time assignment or determinant nonvanishing is asserted."
+}
