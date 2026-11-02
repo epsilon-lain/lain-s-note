@@ -1,0 +1,274 @@
+{
+  "status": "passed",
+  "packets": 7,
+  "independent_raw_modular_checks": 42,
+  "records": [
+    {
+      "N": 2,
+      "d": 1,
+      "rows": 12,
+      "degree": 10,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 465282
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 444588
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 562467
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 506964
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 111257
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 604229
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "d": 2,
+      "rows": 16,
+      "degree": 12,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 534721
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 221654
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 439201
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 493069
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 555005
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 393769
+        }
+      ]
+    },
+    {
+      "N": 2,
+      "d": 3,
+      "rows": 20,
+      "degree": 14,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 465282
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 113387
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 479217
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 506964
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 780079
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 705979
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "d": 1,
+      "rows": 24,
+      "degree": 28,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 347020
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 563377
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 476345
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 559082
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 448618
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 461565
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "d": 2,
+      "rows": 40,
+      "degree": 40,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 324746
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 390936
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 572715
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 906010
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 16849
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 990966
+        }
+      ]
+    },
+    {
+      "N": 3,
+      "d": 3,
+      "rows": 60,
+      "degree": 54,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 15078
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 927254
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 940796
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 296773
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 117352
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 99640
+        }
+      ]
+    },
+    {
+      "N": 4,
+      "d": 1,
+      "rows": 40,
+      "degree": 60,
+      "checks": [
+        {
+          "prime": 1000003,
+          "center": 1,
+          "determinant": 506335
+        },
+        {
+          "prime": 1000003,
+          "center": 2,
+          "determinant": 356163
+        },
+        {
+          "prime": 1000003,
+          "center": 7,
+          "determinant": 835716
+        },
+        {
+          "prime": 1000033,
+          "center": 1,
+          "determinant": 844006
+        },
+        {
+          "prime": 1000033,
+          "center": 2,
+          "determinant": 12619
+        },
+        {
+          "prime": 1000033,
+          "center": 7,
+          "determinant": 461597
+        }
+      ]
+    }
+  ],
+  "scope": "Modular identity checks supplement the general independent proof; no numerical asymptotic inference."
+}

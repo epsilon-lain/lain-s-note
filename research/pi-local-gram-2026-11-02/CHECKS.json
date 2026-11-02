@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "657a3d3a2756b9bd25c57fe122e1b3f276cebc2f",
+  "status": "passed",
+  "runs": [
+    {
+      "command": "python next-local-period-sensitivity/verify_local_period_disc.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"raw_hankel_identity_checks\": 84,\n  \"endpoint_derivative_moment_checks\": 189,\n  \"hilbert_inverse_diagonal_checks\": 104,\n  \"rational_moment_majorants\": 1599,\n  \"local_radius_constant_checks\": 39,\n  \"rational_center_certificates\": [\n    {\n      \"b\": 2,\n      \"n\": 48,\n      \"polynomial_degree\": 1152,\n      \"twice_rational_period_upper_below_value_floor\": true,\n      \"comparison_numerator_bits\": 12220,\n      \"comparison_denominator_bits\": 12353,\n      \"certified_error_lower_bound_formula\": \"1/[32*3^8*n^4*2^(8n)*(2n-2)!]\",\n      \"strict_error_lower_bound_power_of_ten\": -274,\n      \"error_denominator_bits\": 910,\n      \"error_denominator_decimal_sha256\": \"df39819112ca5720df294ac252e834fd86c69f15b8b4dac20f3d7a0df38a08cd\"\n    },\n    {\n      \"b\": 3,\n      \"n\": 72,\n      \"polynomial_degree\": 2592,\n      \"twice_rational_period_upper_below_value_floor\": true,\n      \"comparison_numerator_bits\": 26844,\n      \"comparison_denominator_bits\": 27145,\n      \"certified_error_lower_bound_formula\": \"1/[32*3^8*n^4*2^(8n)*(2n-2)!]\",\n      \"strict_error_lower_bound_power_of_ten\": -432,\n      \"error_denominator_bits\": 1434,\n      \"error_denominator_decimal_sha256\": \"f9105504273368a97f2a0a570a4a8c9b0d25c34c4ed32db6a500ad9fc87e4f8f\"\n    },\n    {\n      \"b\": 7,\n      \"n\": 168,\n      \"polynomial_degree\": 14112,\n      \"twice_rational_period_upper_below_value_floor\": true,\n      \"comparison_numerator_bits\": 135113,\n      \"comparison_denominator_bits\": 136759,\n      \"certified_error_lower_bound_formula\": \"1/[32*3^8*n^4*2^(8n)*(2n-2)!]\",\n      \"strict_error_lower_bound_power_of_ten\": -1119,\n      \"error_denominator_bits\": 3716,\n      \"error_denominator_decimal_sha256\": \"9f834f1a86ef2c1fd056427c9db45202ffa339929444840baa8985eef17dccd9\"\n    },\n    {\n      \"b\": 10,\n      \"n\": 240,\n      \"polynomial_degree\": 28800,\n      \"twice_rational_period_upper_below_value_floor\": true,\n      \"comparison_numerator_bits\": 354878,\n      \"comparison_denominator_bits\": 358239,\n      \"certified_error_lower_bound_formula\": \"1/[32*3^8*n^4*2^(8n)*(2n-2)!]\",\n      \"strict_error_lower_bound_power_of_ten\": -1668,\n      \"error_denominator_bits\": 5541,\n      \"error_denominator_decimal_sha256\": \"bd0062097b95fc0e8843c121faf2ab5ce5e6cb1644908148489b5c08ab3fd84a\"\n    }\n  ],\n  \"scope\": \"Finite exact identities, constants, and sufficient rational-center exclusions. General Gram norm/disk theorem is proved in the note; no claim about pi bad approximability or a best irrationality bound.\"\n}"
+    },
+    {
+      "command": "python next-low-degree-factorization/verify_primitive_reflection_factors.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"even_dimensions\": 5,\n  \"independent_raw_product_checks\": 15,\n  \"exact_rational_value_denominator_checks\": 710,\n  \"finite_sufficient_heights\": [\n    {\n      \"b\": 2,\n      \"even_n\": 48,\n      \"factor_degree\": 552,\n      \"squared_sufficient_condition_certified\": true,\n      \"ratio_numerator_bits\": 11911,\n      \"ratio_denominator_bits\": 12219\n    },\n    {\n      \"b\": 3,\n      \"even_n\": 72,\n      \"factor_degree\": 1260,\n      \"squared_sufficient_condition_certified\": true,\n      \"ratio_numerator_bits\": 26338,\n      \"ratio_denominator_bits\": 26943\n    },\n    {\n      \"b\": 7,\n      \"even_n\": 168,\n      \"factor_degree\": 6972,\n      \"squared_sufficient_condition_certified\": true,\n      \"ratio_numerator_bits\": 134196,\n      \"ratio_denominator_bits\": 136759\n    },\n    {\n      \"b\": 10,\n      \"even_n\": 240,\n      \"factor_degree\": 14280,\n      \"squared_sufficient_condition_certified\": true,\n      \"ratio_numerator_bits\": 352771,\n      \"ratio_denominator_bits\": 357565\n    }\n  ],\n  \"scope\": \"Finite exact checks supplement the general proof. No claim of general irreducibility, subquadratic factor degrees, q^-2 lower bounds, or pi bad approximability.\"\n}"
+    },
+    {
+      "command": "python next-highdim-content-transfer/verify_complete_normal_blocks.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"base_even_polynomials\": 4,\n  \"complete_multidimensional_packets\": 8,\n  \"independent_raw_determinant_checks\": 24,\n  \"exact_rational_value_denominator_checks\": 328,\n  \"combinatorial_identity_checks\": 391,\n  \"scope\": \"All-parameter factorization and opposing limits are proved in the note. Finite exact checks do not establish the asymptotics by extrapolation. No critical-density transfer or pi approximation claim.\"\n}"
+    },
+    {
+      "command": "python next-highdim-content-transfer/verify_normal_block_review.py",
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"passed\",\n  \"packets\": 7,\n  \"independent_raw_modular_checks\": 42,\n  \"scope\": \"Modular identity checks supplement the general independent proof; no numerical asymptotic inference.\"\n}"
+    }
+  ],
+  "scope": "Self-contained proofs for the specified families, with previous checkpoint dependencies linked. Finite arithmetic checks are not extrapolated. Independent agent review is not external peer review. No claim of pi bad approximability, its negation, or a new best irrationality bound.",
+  "python_version": "3.12.14",
+  "relative_links": {
+    "status": "passed",
+    "count": 16
+  },
+  "independent_reviews": [
+    "next-local-period-sensitivity/INDEPENDENT_GRAM_REVIEW.md",
+    "next-highdim-content-transfer/INDEPENDENT_NORMAL_BLOCK_REVIEW.md",
+    "next-low-degree-factorization/INDEPENDENT_REFLECTION_FACTOR_REVIEW.md"
+  ],
+  "sha256": {
+    "README.md": "d701b1c369ed141293137695958280412fa313b4f17e09deb42866f83eb40e7b",
+    "next-highdim-content-transfer/COMPLETE_NORMAL_BLOCK_PRODUCT.md": "7c13f82fa2bf45bb0fcddd8d2fa104a24ae4739a2ebd09c1413a439ec27ff2d5",
+    "next-highdim-content-transfer/INDEPENDENT_NORMAL_BLOCK_REVIEW.md": "86e14ac05c4f96ef45562831ce3259b1724816e13e7556d1978e1b5ae255da3f",
+    "next-highdim-content-transfer/complete_normal_blocks_verification.json": "30cdac1c604acb42fb714475991945fc3d568656d0f288085d72eb433316b616",
+    "next-highdim-content-transfer/normal_block_review_verification.json": "cb821153d0b6aeae97f832f70b30cf6ecb872f158efd847865bb3bf89e2c5d47",
+    "next-highdim-content-transfer/verify_complete_normal_blocks.py": "7d1d8e1334fa97889b8efdd7cd86aa93f744ca2b75d62083b44e20e198f40693",
+    "next-highdim-content-transfer/verify_normal_block_review.py": "f2240651cd2ef8690ec34e34246cd1c38874949c9f66e3123e0e314a0b34aa6c",
+    "next-local-period-sensitivity/INDEPENDENT_GRAM_REVIEW.md": "660266c41f335549db453688d27927aefbb7d0ed48695cf9e4e610703b3f8774",
+    "next-local-period-sensitivity/LOCAL_PERIOD_DISC.md": "e952a5205f9a92a209d940c205ebd361559240cdbe383df1a8c9fc939c8fce06",
+    "next-local-period-sensitivity/local_period_disc_verification.json": "b16aaa8ea0e005e4bed0ee47d23af9b2885cdaae8332270cbaf47d254242760e",
+    "next-local-period-sensitivity/verify_local_period_disc.py": "b751331d3d93ee7fc9678d4455d9954f5ea5b74533ac42b3566cc00da385f2b0",
+    "next-low-degree-factorization/INDEPENDENT_REFLECTION_FACTOR_REVIEW.md": "7066369dea7ce600d4a6c646bc1c806df1c9c6ac4170ad322bd3471a2c0f532e",
+    "next-low-degree-factorization/PRIMITIVE_REFLECTION_FACTORS.md": "5c68868b778dc78e92e727937c92d85653050b6c22923c204a676fc7656bad17",
+    "next-low-degree-factorization/primitive_reflection_verification.json": "552d2ac1e70d2926dac74f23dbfeb08e5c23432ef6ab2b03a8d76485d2d44df4",
+    "next-low-degree-factorization/verify_primitive_reflection_factors.py": "cbe76991b40e1bfbd86aef690cfcc2e3d926e24c80cf4b1cfacc9fe7c47711e9"
+  }
+}

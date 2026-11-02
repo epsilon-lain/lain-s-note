@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "base_even_polynomials": 4,
+  "complete_multidimensional_packets": 8,
+  "independent_raw_determinant_checks": 24,
+  "exact_rational_value_denominator_checks": 328,
+  "combinatorial_identity_checks": 391,
+  "records": [
+    {
+      "N": 2,
+      "normal_dimension_d": 1,
+      "spatial_dimension_m": 2,
+      "rows_and_columns": 12,
+      "raw_block_multiplicities": {
+        "1": 1,
+        "2": 1
+      },
+      "degree": 10,
+      "exact_minimal_coefficient_denominator": "144",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 2,
+      "normal_dimension_d": 2,
+      "spatial_dimension_m": 3,
+      "rows_and_columns": 16,
+      "raw_block_multiplicities": {
+        "1": 2,
+        "2": 1
+      },
+      "degree": 12,
+      "exact_minimal_coefficient_denominator": "144",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 2,
+      "normal_dimension_d": 3,
+      "spatial_dimension_m": 4,
+      "rows_and_columns": 20,
+      "raw_block_multiplicities": {
+        "1": 3,
+        "2": 1
+      },
+      "degree": 14,
+      "exact_minimal_coefficient_denominator": "144",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 2,
+      "normal_dimension_d": 4,
+      "spatial_dimension_m": 5,
+      "rows_and_columns": 24,
+      "raw_block_multiplicities": {
+        "1": 4,
+        "2": 1
+      },
+      "degree": 16,
+      "exact_minimal_coefficient_denominator": "144",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 3,
+      "normal_dimension_d": 1,
+      "spatial_dimension_m": 2,
+      "rows_and_columns": 24,
+      "raw_block_multiplicities": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "degree": 28,
+      "exact_minimal_coefficient_denominator": "10749542400",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 3,
+      "normal_dimension_d": 2,
+      "spatial_dimension_m": 3,
+      "rows_and_columns": 40,
+      "raw_block_multiplicities": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      },
+      "degree": 40,
+      "exact_minimal_coefficient_denominator": "1547934105600",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 3,
+      "normal_dimension_d": 3,
+      "spatial_dimension_m": 4,
+      "rows_and_columns": 60,
+      "raw_block_multiplicities": {
+        "1": 6,
+        "2": 3,
+        "3": 1
+      },
+      "degree": 54,
+      "exact_minimal_coefficient_denominator": "222902511206400",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    },
+    {
+      "N": 4,
+      "normal_dimension_d": 1,
+      "spatial_dimension_m": 2,
+      "rows_and_columns": 40,
+      "raw_block_multiplicities": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1
+      },
+      "degree": 60,
+      "exact_minimal_coefficient_denominator": "8153395817271105945600000000",
+      "primitive_unit_leading_coefficient": true,
+      "raw_budget_complete_source_and_triangular_closure": "passed"
+    }
+  ],
+  "scope": "All-parameter factorization and opposing limits are proved in the note. Finite exact checks do not establish the asymptotics by extrapolation. No critical-density transfer or pi approximation claim."
+}
