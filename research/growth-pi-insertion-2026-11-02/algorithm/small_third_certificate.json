@@ -1,0 +1,31 @@
+{
+  "p": 1,
+  "q": 3,
+  "tested_period": 3,
+  "period_point": "96/125",
+  "phase_interval": [
+    "3/4",
+    "41/50"
+  ],
+  "multiplier": "3/8",
+  "strict_local_attractor": true,
+  "integer_lift": 1,
+  "word": [
+    [
+      2,
+      1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "maximum_orbit_rational_bits": 8,
+  "input_omega": "17/50",
+  "input_kappa": "1/2",
+  "status": "CERTIFIED"
+}

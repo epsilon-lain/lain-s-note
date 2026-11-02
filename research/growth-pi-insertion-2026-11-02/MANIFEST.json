@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-02",
+  "scope": "Certified finite improvement from known 22/7 to known 355/113, growth-function feedback, exact grid replay and input-cost audit; no new pi record or infinite improvement theorem.",
+  "commands": [
+    "python3 experiment/run_experiment.py",
+    "python3 algorithm/verify_algorithm.py",
+    "python3 design/tongue_design.py",
+    "python3 design/verify_parameter_interval.py",
+    "python3 audit/verify_gain.py",
+    "python3 audit/verify_saved_grid.py"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7297,
+      "sha256": "c310cd25c94aafdcd92aa5a5646891dac2ecc7e7baf959910fcce3b639a7277f"
+    },
+    {
+      "path": "algorithm/NOTE.md",
+      "bytes": 4790,
+      "sha256": "608f2766c3cfaf4703ff5bc57f7a70cd448e9ff4be450b3714a1b274e0400748"
+    },
+    {
+      "path": "algorithm/checks.json",
+      "bytes": 1916,
+      "sha256": "e6b3e0e4ed734f0ca9d2a86d6bb1322642d370cc706d562a147f0febcdaa83e5"
+    },
+    {
+      "path": "algorithm/itinerary_certificate.py",
+      "bytes": 4878,
+      "sha256": "a8c9d2417680f28d254fac4d8426b8182591b620ba847bdebab66c638f0404a4"
+    },
+    {
+      "path": "algorithm/pi_bridge_known_fraction_certificate.json",
+      "bytes": 5761,
+      "sha256": "29c6bc10a77187d7df7556ee3c2f2a0c3c408e3909e28a64697fd2c552950d35"
+    },
+    {
+      "path": "algorithm/small_half_certificate.json",
+      "bytes": 383,
+      "sha256": "2362a576fc1b601d1fa4bd04e82299e117ca0fdb1afd88c999a69b0f6fca6186"
+    },
+    {
+      "path": "algorithm/small_third_certificate.json",
+      "bytes": 418,
+      "sha256": "48c48b00e79d1ea1f7d8b10768c1afb10ce1b465c463b2471a26d75eec0ee767"
+    },
+    {
+      "path": "algorithm/verify_algorithm.py",
+      "bytes": 2804,
+      "sha256": "8682e9ae9e6526d7b77b6bd080e50a66eef4ef22e4e61a1ccb31cb82662c1918"
+    },
+    {
+      "path": "audit/checks.json",
+      "bytes": 6753,
+      "sha256": "d08422bfc56c26a02b7ef2a084b28bd92c1ba6f2c8f1b1d4c376bf57b36f9a95"
+    },
+    {
+      "path": "audit/saved_grid_checks.json",
+      "bytes": 350,
+      "sha256": "400c644f88191340de678c2c2da9b7a81087bc4e7433e06889c7432b6a316f95"
+    },
+    {
+      "path": "audit/verify_gain.py",
+      "bytes": 3669,
+      "sha256": "d0ab20d7797ab0714e584fdb203bc183af459534a6ea82f7ba1ce265131034d3"
+    },
+    {
+      "path": "audit/verify_saved_grid.py",
+      "bytes": 2246,
+      "sha256": "883089431ba0890ed89b3b68cb930a1ba8b3bfc214fb85dad9d45ea51bdd2917"
+    },
+    {
+      "path": "design/NOTE.md",
+      "bytes": 5774,
+      "sha256": "3919b79586859815855566ed5773ee4d4fa84c45ef961a040244480fb1fe35d8"
+    },
+    {
+      "path": "design/checks.json",
+      "bytes": 6948,
+      "sha256": "f5aed73845b590198dc45378ca707580f908b80d37087a6d74180079ecdac2fd"
+    },
+    {
+      "path": "design/parameter_interval_checks.json",
+      "bytes": 8268,
+      "sha256": "1d8ece59b68f89a800fd300ae87a21e690709cc087cdb4a69efda66723313b4e"
+    },
+    {
+      "path": "design/target_certificate.json",
+      "bytes": 5761,
+      "sha256": "29c6bc10a77187d7df7556ee3c2f2a0c3c408e3909e28a64697fd2c552950d35"
+    },
+    {
+      "path": "design/tongue_design.py",
+      "bytes": 3968,
+      "sha256": "aa25375282fa05632e54d77e6dfffd83208f459c2477adc2d0aacab0ad6a8278"
+    },
+    {
+      "path": "design/verify_parameter_interval.py",
+      "bytes": 3349,
+      "sha256": "8a4f898c3436509122fbb946a25f5a76d0b5eaa5b745668a7c9c2dc21939c417"
+    },
+    {
+      "path": "experiment/NOTE.md",
+      "bytes": 5208,
+      "sha256": "2c13574a03bec0f73997f902878ccfbfcd5d5b5c0ea5e68248b20d94cbcb5392"
+    },
+    {
+      "path": "experiment/certificates.json",
+      "bytes": 284914,
+      "sha256": "f279c9037e22a3973802571b41914d9adadeb124e8271989b3ee6c025a5a9e2b"
+    },
+    {
+      "path": "experiment/results.json",
+      "bytes": 52080,
+      "sha256": "0a3f9e592ff526fa2a22096e41b459c896a02dd411875dd9809316e3a9bfccab"
+    },
+    {
+      "path": "experiment/run_experiment.py",
+      "bytes": 5708,
+      "sha256": "c6f1f5e87e3249b346031008ceabb90e9e7cae5680493606ee7e1bb385dcf124"
+    }
+  ]
+}

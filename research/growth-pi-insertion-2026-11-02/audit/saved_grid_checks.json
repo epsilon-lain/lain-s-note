@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "exact_positive_certificates_replayed": 191,
+  "absolute_lift_evaluations": 6666,
+  "attempted_grid_size": 600,
+  "unresolved_count": 409,
+  "best_among_certified": "355/113",
+  "winning_grid_index": 493,
+  "scope": "All saved positive certificates independently replayed; unresolved grid points are not exclusion results."
+}

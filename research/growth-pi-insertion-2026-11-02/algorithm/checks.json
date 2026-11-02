@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "certificates": [
+    {
+      "name": "small_half",
+      "p": 1,
+      "q": 2,
+      "tested_period": 2,
+      "strict_local_attractor": true,
+      "integer_lift": 1,
+      "maximum_orbit_rational_bits": 5,
+      "input_omega": "51/100",
+      "input_kappa": "1/2",
+      "status": "CERTIFIED",
+      "seconds_display_only": 0.005275466995954048
+    },
+    {
+      "name": "small_third",
+      "p": 1,
+      "q": 3,
+      "tested_period": 3,
+      "strict_local_attractor": true,
+      "integer_lift": 1,
+      "maximum_orbit_rational_bits": 8,
+      "input_omega": "17/50",
+      "input_kappa": "1/2",
+      "status": "CERTIFIED",
+      "seconds_display_only": 0.0051182699971832335
+    },
+    {
+      "name": "pi_bridge_known_fraction",
+      "p": 16,
+      "q": 113,
+      "tested_period": 113,
+      "strict_local_attractor": true,
+      "integer_lift": 16,
+      "maximum_orbit_rational_bits": 1389,
+      "input_omega": "1/7",
+      "input_kappa": "493/5000",
+      "status": "CERTIFIED",
+      "seconds_display_only": 0.01926092199573759
+    },
+    {
+      "name": "q1009_validation_scale_only",
+      "p": 1,
+      "q": 1009,
+      "tested_period": 1009,
+      "strict_local_attractor": false,
+      "integer_lift": 1,
+      "maximum_orbit_rational_bits": 30177,
+      "input_omega": "1/1009",
+      "input_kappa": "1/1027243729",
+      "status": "CERTIFIED",
+      "certificate_sha256": "386566c82fdb5cdb3eef28b5266be329300080768b01d3836eb0eb38857fe454",
+      "seconds_display_only": 7.421694017000846
+    }
+  ],
+  "corrupted_certificate_rejected": true,
+  "unresolved_proposal_example": {
+    "omega": "177/1250",
+    "kappa": "1/10",
+    "max_period": 1000,
+    "scope": "No certificate found by this heuristic; not a proof that no period exists."
+  },
+  "arithmetic": "Only itinerary proposals and runtimes use floats; exact certificates replay without floats or target pi."
+}

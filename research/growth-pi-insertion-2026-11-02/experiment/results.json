@@ -1,0 +1,2015 @@
+{
+  "status": "PASS",
+  "scope": "All 600 declared rational parameters attempted; only positive exact certificates accepted. Cycle discovery is bounded and incomplete. Best means among certified outputs, not a global optimum.",
+  "parameter_selection": "This full fixed-grid reproduction was specified after target-guided preliminary exploration near kappa=.0986. Its execution uses no pi digits or continued fractions for branch proposals or cycle certificates; pi is evaluated only after exact certificates for scoring. This is not an independent blind parameter discovery.",
+  "grid": {
+    "omega": "1/7",
+    "kappa": "j/5000, j=1,...,600",
+    "burn_in": 6000,
+    "max_tested_period": 256,
+    "near_return_tolerance": "1e-4 (proposal only)"
+  },
+  "attempted_parameters": 600,
+  "positive_certificates": 191,
+  "unresolved_parameters": 409,
+  "unresolved_grid_indices": [
+    1,
+    2,
+    3,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    425,
+    426,
+    427,
+    428,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    451,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    494,
+    495,
+    496,
+    497,
+    498,
+    499,
+    500,
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    597,
+    598,
+    599,
+    600
+  ],
+  "certified_rows": [
+    {
+      "grid_index": 4,
+      "kappa": "1/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 5,
+      "kappa": "1/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 6,
+      "kappa": "3/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 7,
+      "kappa": "7/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 8,
+      "kappa": "1/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 9,
+      "kappa": "9/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 10,
+      "kappa": "1/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 11,
+      "kappa": "11/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 12,
+      "kappa": "3/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 13,
+      "kappa": "13/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 14,
+      "kappa": "7/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 15,
+      "kappa": "3/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 16,
+      "kappa": "2/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 17,
+      "kappa": "17/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 18,
+      "kappa": "9/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 19,
+      "kappa": "19/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 20,
+      "kappa": "1/250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 21,
+      "kappa": "21/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 22,
+      "kappa": "11/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 23,
+      "kappa": "23/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 24,
+      "kappa": "3/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 25,
+      "kappa": "1/200",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 26,
+      "kappa": "13/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 27,
+      "kappa": "27/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 28,
+      "kappa": "7/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 29,
+      "kappa": "29/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 30,
+      "kappa": "3/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 31,
+      "kappa": "31/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 32,
+      "kappa": "4/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 33,
+      "kappa": "33/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 34,
+      "kappa": "17/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 35,
+      "kappa": "7/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 36,
+      "kappa": "9/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 37,
+      "kappa": "37/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 38,
+      "kappa": "19/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 39,
+      "kappa": "39/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 40,
+      "kappa": "1/125",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 41,
+      "kappa": "41/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 42,
+      "kappa": "21/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 43,
+      "kappa": "43/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 44,
+      "kappa": "11/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 45,
+      "kappa": "9/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 46,
+      "kappa": "23/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 47,
+      "kappa": "47/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 48,
+      "kappa": "6/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 49,
+      "kappa": "49/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 50,
+      "kappa": "1/100",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 51,
+      "kappa": "51/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 52,
+      "kappa": "13/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 53,
+      "kappa": "53/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 54,
+      "kappa": "27/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 55,
+      "kappa": "11/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 56,
+      "kappa": "7/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 57,
+      "kappa": "57/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 58,
+      "kappa": "29/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 59,
+      "kappa": "59/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 60,
+      "kappa": "3/250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 61,
+      "kappa": "61/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 62,
+      "kappa": "31/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 63,
+      "kappa": "63/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 64,
+      "kappa": "8/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 65,
+      "kappa": "13/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 66,
+      "kappa": "33/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 67,
+      "kappa": "67/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 68,
+      "kappa": "17/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 69,
+      "kappa": "69/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 70,
+      "kappa": "7/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 71,
+      "kappa": "71/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 72,
+      "kappa": "9/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 73,
+      "kappa": "73/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 74,
+      "kappa": "37/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 75,
+      "kappa": "3/200",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 76,
+      "kappa": "19/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 77,
+      "kappa": "77/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 78,
+      "kappa": "39/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 79,
+      "kappa": "79/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 80,
+      "kappa": "2/125",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 81,
+      "kappa": "81/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 82,
+      "kappa": "41/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 83,
+      "kappa": "83/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 84,
+      "kappa": "21/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 85,
+      "kappa": "17/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 86,
+      "kappa": "43/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 87,
+      "kappa": "87/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 88,
+      "kappa": "11/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 89,
+      "kappa": "89/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 90,
+      "kappa": "9/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 91,
+      "kappa": "91/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 92,
+      "kappa": "23/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 93,
+      "kappa": "93/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 94,
+      "kappa": "47/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 95,
+      "kappa": "19/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 96,
+      "kappa": "12/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 97,
+      "kappa": "97/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 98,
+      "kappa": "49/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 99,
+      "kappa": "99/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 100,
+      "kappa": "1/50",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 101,
+      "kappa": "101/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 102,
+      "kappa": "51/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 103,
+      "kappa": "103/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 104,
+      "kappa": "13/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 105,
+      "kappa": "21/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 106,
+      "kappa": "53/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 107,
+      "kappa": "107/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 108,
+      "kappa": "27/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 109,
+      "kappa": "109/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 110,
+      "kappa": "11/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 111,
+      "kappa": "111/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 112,
+      "kappa": "14/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 113,
+      "kappa": "113/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 114,
+      "kappa": "57/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 115,
+      "kappa": "23/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 116,
+      "kappa": "29/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 117,
+      "kappa": "117/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 118,
+      "kappa": "59/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 119,
+      "kappa": "119/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 120,
+      "kappa": "3/125",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 121,
+      "kappa": "121/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 122,
+      "kappa": "61/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 123,
+      "kappa": "123/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 124,
+      "kappa": "31/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 125,
+      "kappa": "1/40",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 126,
+      "kappa": "63/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 127,
+      "kappa": "127/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 128,
+      "kappa": "16/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 129,
+      "kappa": "129/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 130,
+      "kappa": "13/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 131,
+      "kappa": "131/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 132,
+      "kappa": "33/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 133,
+      "kappa": "133/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 134,
+      "kappa": "67/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 135,
+      "kappa": "27/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 136,
+      "kappa": "17/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 137,
+      "kappa": "137/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 138,
+      "kappa": "69/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 139,
+      "kappa": "139/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 140,
+      "kappa": "7/250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 141,
+      "kappa": "141/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 142,
+      "kappa": "71/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 143,
+      "kappa": "143/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 144,
+      "kappa": "18/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 145,
+      "kappa": "29/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 146,
+      "kappa": "73/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 147,
+      "kappa": "147/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 148,
+      "kappa": "37/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 149,
+      "kappa": "149/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 150,
+      "kappa": "3/100",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 151,
+      "kappa": "151/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 152,
+      "kappa": "19/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 153,
+      "kappa": "153/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 154,
+      "kappa": "77/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 155,
+      "kappa": "31/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 156,
+      "kappa": "39/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 157,
+      "kappa": "157/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 158,
+      "kappa": "79/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 159,
+      "kappa": "159/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 160,
+      "kappa": "4/125",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 161,
+      "kappa": "161/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 162,
+      "kappa": "81/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 163,
+      "kappa": "163/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 164,
+      "kappa": "41/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 165,
+      "kappa": "33/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 166,
+      "kappa": "83/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 167,
+      "kappa": "167/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 168,
+      "kappa": "21/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 169,
+      "kappa": "169/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 170,
+      "kappa": "17/500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 171,
+      "kappa": "171/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 172,
+      "kappa": "43/1250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 173,
+      "kappa": "173/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 174,
+      "kappa": "87/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 175,
+      "kappa": "7/200",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 176,
+      "kappa": "22/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 177,
+      "kappa": "177/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 178,
+      "kappa": "89/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 179,
+      "kappa": "179/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 180,
+      "kappa": "9/250",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 181,
+      "kappa": "181/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 182,
+      "kappa": "91/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 183,
+      "kappa": "183/5000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 184,
+      "kappa": "23/625",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 185,
+      "kappa": "37/1000",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 186,
+      "kappa": "93/2500",
+      "output": "22/7",
+      "denominator": 7,
+      "quality_display": 0.061959974100131314,
+      "raw_cycle_length": 7
+    },
+    {
+      "grid_index": 417,
+      "kappa": "417/5000",
+      "output": "509/162",
+      "denominator": 162,
+      "quality_display": 10.04239918946625,
+      "raw_cycle_length": 162
+    },
+    {
+      "grid_index": 493,
+      "kappa": "493/5000",
+      "output": "355/113",
+      "denominator": 113,
+      "quality_display": 0.0034063119301380707,
+      "raw_cycle_length": 113
+    },
+    {
+      "grid_index": 508,
+      "kappa": "127/1250",
+      "output": "333/106",
+      "denominator": 106,
+      "quality_display": 0.9350557349168274,
+      "raw_cycle_length": 106
+    },
+    {
+      "grid_index": 543,
+      "kappa": "543/5000",
+      "output": "289/92",
+      "denominator": 92,
+      "quality_display": 2.4402199840099703,
+      "raw_cycle_length": 92
+    },
+    {
+      "grid_index": 564,
+      "kappa": "141/1250",
+      "output": "267/85",
+      "denominator": 85,
+      "quality_display": 3.0069221862561477,
+      "raw_cycle_length": 85
+    },
+    {
+      "grid_index": 587,
+      "kappa": "587/5000",
+      "output": "245/78",
+      "denominator": 78,
+      "quality_display": 3.449704440302063,
+      "raw_cycle_length": 78
+    },
+    {
+      "grid_index": 588,
+      "kappa": "147/1250",
+      "output": "245/78",
+      "denominator": 78,
+      "quality_display": 3.449704440302063,
+      "raw_cycle_length": 78
+    },
+    {
+      "grid_index": 596,
+      "kappa": "149/1250",
+      "output": "713/227",
+      "denominator": 227,
+      "quality_display": 32.12784682845579,
+      "raw_cycle_length": 227
+    }
+  ],
+  "input": {
+    "rational": "22/7",
+    "quality_interval": [
+      "1072479344483220936624616666293851028466938159965512531963741330326203976743203488937986870451117839592853717983269176645507677059522464630573008258567521860806379760183167000234918/17309228418172433832160536763181548431098282710347884304700441328218777348224054116275065599436762416234846218641396627617061196428987164866973580412690125740482471883296966552734375",
+      "266880007524153146269418619623398697254518701381897209790617645079285628233227888336772249973816652453780806712859713912993614162625859295276902802769200928705851365127697727340017558/4307296950977704365225846425721435844459570326208157026953161584238032708905729959181476531944435788417923627487195003733566605391454231401200149209618217582828947342932224273681640625"
+    ],
+    "quality_display": 0.061959974100131314
+  },
+  "best_certified": {
+    "omega": "1/7",
+    "kappa": "493/5000",
+    "lift_p": 16,
+    "iterate_q": 113,
+    "rotation": "16/113",
+    "periodic_point": "682016347501927307410294741929408907823893820161873968091896630576622675465514933924658748752302516810354038519218917474346536774701938738676005558322620684354551433336914434911231966961680747357141222448139357059918409289426393869048928022356693048866337819401861996032247995014867929920365851569813914852381370822067437860414137845954120804052371885062442148407230917464737411705349779161378042468162394957619973907/1073831790334301557620817142426386093809466458308721927270801085175696722339632704639509045627469671362962591690102383083980980224101076062695107723372452572817371714894363086746756730686342873427397950217085916629612446738786209220139764508532972132004782738190750479742670043133542310265420290791492305680291163909542613182455999777441072998746573219413247205458013460301160409671414590455148789108829814989477097814",
+    "trapping_radius": "205510305684619488555546788771274568812636610881615423378411390967162966633535950191027983365125814975724339103031448270159602319180887832683251931725150501679126537514330033950001587092293987446184327101960094678154192356451427711670421050581063763344348940292794260372487403717480048767007247101211398480931551132176526444524408165262096413352377750626131317036349185946152190926678894059299434763046708655588812730275094509124755859375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/150525044047600530166909108817811052701327028370268521833552235213378341733325788228789394773022202324351955433211834162729489479739135468760645533934343731268455882866649366639901710784516097518359953797670855744119293570713831981420013849040324602307803194920619971561034181777548953559650405316228931196578730210869257955026100330571691479759958270085953862577246972048928904821581236420863635883661508135742218392703409499199071995706023589901145523818889053016104657715541237575637466044359131477678486062928094274102219",
+    "q_step_multiplier": "9092733826769028486469481141711443545785775011922580012564293435244945828283308647680245477186265164318518704154948808458009509887949461968652446138313773713591314142552818456626621634656828563286301024891457041685193776630606895389930117745733513933997608630904624760128664978433228844867289854604253847159854418045228693408772000111279463500626713390293376397270993269849419795164292704772425605445585092505261451093/9629649721936179265279889712924636592690508241076940976199693977832794189453125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "strict_margin": "8826600419064035935503197371704442972867757952688159710594707566378347515933761229107501411740474022460830703587340447798512646612476667496188869736883462653898415644697646271658265157094984096987962448906850641397359018162520566341325759427956306604546622849698080127563421771385256329867812500946937584580250917272499543781114913435560673637473601627772775296725273968749464770688337838781397569785711229961940783/115950560656341926476331170398794642803117921806374574275651209195289282147156461336624011271648171391780495603007800859492355816104947052735951729118824005126953125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "max_orbit_rational_bits": 1393,
+    "cycle_equation_residual": "0",
+    "positive_certificate": "PASS",
+    "output": "355/113",
+    "actual_reduced_denominator": 113,
+    "quality_interval": [
+      "2889070931852978520745632229578973495591740714453035626963956314245696588738544275577459635844622519385765983019384141392121997713503458010640347210797179915027898090958882786777317/848152192490449257775866301395895873123815852807046330930321625082720090062978651697478214372401358395507464713428434753235998625020371078481705440221816161283641122281551361083984375",
+      "718927852547371820561831225522212275429169914793263496445896885114314165654508459696923147616126543749531574134439001764274377929300303041453863751916550627318733056182879922506463727/211057550597907513896066474860350356378518945984199694320704917627663602736380767999892350065277353632478257746872555182944763664181257338658807311271292661558618419803678989410400390625"
+    ]
+  },
+  "explicit_joint_improvement": {
+    "omega": "1/7",
+    "kappa": "493/5000",
+    "lift_p": 16,
+    "iterate_q": 113,
+    "rotation": "16/113",
+    "periodic_point": "682016347501927307410294741929408907823893820161873968091896630576622675465514933924658748752302516810354038519218917474346536774701938738676005558322620684354551433336914434911231966961680747357141222448139357059918409289426393869048928022356693048866337819401861996032247995014867929920365851569813914852381370822067437860414137845954120804052371885062442148407230917464737411705349779161378042468162394957619973907/1073831790334301557620817142426386093809466458308721927270801085175696722339632704639509045627469671362962591690102383083980980224101076062695107723372452572817371714894363086746756730686342873427397950217085916629612446738786209220139764508532972132004782738190750479742670043133542310265420290791492305680291163909542613182455999777441072998746573219413247205458013460301160409671414590455148789108829814989477097814",
+    "trapping_radius": "205510305684619488555546788771274568812636610881615423378411390967162966633535950191027983365125814975724339103031448270159602319180887832683251931725150501679126537514330033950001587092293987446184327101960094678154192356451427711670421050581063763344348940292794260372487403717480048767007247101211398480931551132176526444524408165262096413352377750626131317036349185946152190926678894059299434763046708655588812730275094509124755859375000000000000000000000000000000000000000000000000000000000000000000000000000000000000/150525044047600530166909108817811052701327028370268521833552235213378341733325788228789394773022202324351955433211834162729489479739135468760645533934343731268455882866649366639901710784516097518359953797670855744119293570713831981420013849040324602307803194920619971561034181777548953559650405316228931196578730210869257955026100330571691479759958270085953862577246972048928904821581236420863635883661508135742218392703409499199071995706023589901145523818889053016104657715541237575637466044359131477678486062928094274102219",
+    "q_step_multiplier": "9092733826769028486469481141711443545785775011922580012564293435244945828283308647680245477186265164318518704154948808458009509887949461968652446138313773713591314142552818456626621634656828563286301024891457041685193776630606895389930117745733513933997608630904624760128664978433228844867289854604253847159854418045228693408772000111279463500626713390293376397270993269849419795164292704772425605445585092505261451093/9629649721936179265279889712924636592690508241076940976199693977832794189453125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "strict_margin": "8826600419064035935503197371704442972867757952688159710594707566378347515933761229107501411740474022460830703587340447798512646612476667496188869736883462653898415644697646271658265157094984096987962448906850641397359018162520566341325759427956306604546622849698080127563421771385256329867812500946937584580250917272499543781114913435560673637473601627772775296725273968749464770688337838781397569785711229961940783/115950560656341926476331170398794642803117921806374574275651209195289282147156461336624011271648171391780495603007800859492355816104947052735951729118824005126953125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "max_orbit_rational_bits": 1393,
+    "cycle_equation_residual": "0",
+    "positive_certificate": "PASS",
+    "output": "355/113",
+    "actual_reduced_denominator": 113,
+    "quality_interval": [
+      "2889070931852978520745632229578973495591740714453035626963956314245696588738544275577459635844622519385765983019384141392121997713503458010640347210797179915027898090958882786777317/848152192490449257775866301395895873123815852807046330930321625082720090062978651697478214372401358395507464713428434753235998625020371078481705440221816161283641122281551361083984375",
+      "718927852547371820561831225522212275429169914793263496445896885114314165654508459696923147616126543749531574134439001764274377929300303041453863751916550627318733056182879922506463727/211057550597907513896066474860350356378518945984199694320704917627663602736380767999892350065277353632478257746872555182944763664181257338658807311271292661558618419803678989410400390625"
+    ]
+  },
+  "joint_improvement": {
+    "denominator_ratio": "113/7",
+    "quality_gain_certified_lower": "33019728930925848022183818712905003817815326328475232281344168137434509474640655778986817186573644840191651104233129746511575727489853676465835873753585489337794336653686825716805706831042/1815292827682113846918623844443585995458654034852990328525889634913643268277633860734730947730719522967567224689458479454792804271483265179671005973589290333979800966861771804328820910675",
+    "quality_gain_lower_display": 18.189753425670517,
+    "quality_gain_greater_than_18": true
+  },
+  "pi_interval": [
+    "663056850443042319098510930941477721349519311534674284940996266327577751543249185825610613669469294763906457826315170861056263616121325776489546075478436306826952039446434840419632638692/211057550597907513896066474860350356378518945984199694320704917627663602736380767999892350065277353632478257746872555182944763664181257338658807311271292661558618419803678989410400390625",
+    "2664548697054071589216098044863664607360668599233608670391904223215365507649761130417422115442810294260573463952791811476381916573004500924883358375295711842173494290267549682120858832/848152192490449257775866301395895873123815852807046330930321625082720090062978651697478214372401358395507464713428434753235998625020371078481705440221816161283641122281551361083984375"
+  ],
+  "source_known_benchmark": "355/113 is a classical known approximation, not a new pi record or infinite quality-zero construction."
+}
