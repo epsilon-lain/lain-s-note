@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_candidate_reconstructions": 60,
+  "actual_gcd_checks": 60,
+  "exact_error_and_quality_certificates": 60,
+  "same_node_comparisons": 6,
+  "all_candidates_worse_quality_than_355_over_113": true,
+  "uniform_integer_fee_identity_cases": 9,
+  "scope": "Exact finite verification; general identities are proved in NOTE.md."
+}

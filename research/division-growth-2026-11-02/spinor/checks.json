@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "symbolic_identities": 4,
+  "integer_constructions": 16,
+  "exact_sample_cost_checks": 80,
+  "examples": [
+    {
+      "P": "1",
+      "Q": "t**2",
+      "degree": 2,
+      "height": 1
+    },
+    {
+      "P": "1",
+      "Q": "t",
+      "degree": 1,
+      "height": 1
+    },
+    {
+      "P": "1",
+      "Q": "-t**2 + 2*t",
+      "degree": 2,
+      "height": 2
+    },
+    {
+      "P": "1",
+      "Q": "-t**3 + 2*t",
+      "degree": 3,
+      "height": 2
+    },
+    {
+      "P": "t**2 + 1",
+      "Q": "t**2 + t",
+      "degree": 2,
+      "height": 1
+    },
+    {
+      "P": "t**2 + 1",
+      "Q": "2*t",
+      "degree": 2,
+      "height": 2
+    },
+    {
+      "P": "t**2 + 1",
+      "Q": "-t**2 + 3*t",
+      "degree": 2,
+      "height": 3
+    },
+    {
+      "P": "t**2 + 1",
+      "Q": "-t**3 + 3*t",
+      "degree": 3,
+      "height": 3
+    },
+    {
+      "P": "t**4 + 2*t**3 + t**2 + 1",
+      "Q": "t**2 + 4*t",
+      "degree": 4,
+      "height": 4
+    },
+    {
+      "P": "t**4 + 2*t**3 + t**2 + 1",
+      "Q": "5*t",
+      "degree": 4,
+      "height": 5
+    },
+    {
+      "P": "t**4 + 2*t**3 + t**2 + 1",
+      "Q": "-t**2 + 6*t",
+      "degree": 4,
+      "height": 6
+    },
+    {
+      "P": "t**4 + 2*t**3 + t**2 + 1",
+      "Q": "-t**3 + 6*t",
+      "degree": 4,
+      "height": 6
+    },
+    {
+      "P": "t**4 - 2*t**3 + t**2 + 1",
+      "Q": "t**2",
+      "degree": 4,
+      "height": 2
+    },
+    {
+      "P": "t**4 - 2*t**3 + t**2 + 1",
+      "Q": "t",
+      "degree": 4,
+      "height": 2
+    },
+    {
+      "P": "t**4 - 2*t**3 + t**2 + 1",
+      "Q": "-t**2 + 2*t",
+      "degree": 4,
+      "height": 2
+    },
+    {
+      "P": "t**4 - 2*t**3 + t**2 + 1",
+      "Q": "-t**3 + 2*t",
+      "degree": 4,
+      "height": 2
+    }
+  ],
+  "scope": "Exact interface verification; no new pi approximation or asymptotic quality claim."
+}

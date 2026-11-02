@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5114,
+      "sha256": "beeb13a7dffa8a763c262b14beff14107854eb40da4cdc23bdf3e5d48bcd39c9"
+    },
+    {
+      "path": "algebra/NOTE.md",
+      "bytes": 8951,
+      "sha256": "1e10e28d41a553300a12fa9536d092c7fbecd52faec1faf96a66e60916dd40be"
+    },
+    {
+      "path": "algebra/checks.json",
+      "bytes": 1515,
+      "sha256": "0a7a35d20eac3c5a279a3871a06b147debfd6ead1bf90919976ca961611a9230"
+    },
+    {
+      "path": "algebra/verify_algebra.py",
+      "bytes": 5526,
+      "sha256": "4f9cb2a0b80fe989b8d5e913c8d5a0bb24d80126608b2be6c97c9f73dc1457ef"
+    },
+    {
+      "path": "arithmetic/NOTE.md",
+      "bytes": 7636,
+      "sha256": "7b6e6ddb956e5eec3d9535f9168a827442a38a69c6cdad7fd84e8783a6c71121"
+    },
+    {
+      "path": "arithmetic/results.json",
+      "bytes": 216450,
+      "sha256": "d6eb845b3b336e5be82124fb09e358e6b190f5094484f90f3b1e58ad96cd3222"
+    },
+    {
+      "path": "arithmetic/run_experiment.py",
+      "bytes": 10400,
+      "sha256": "8c432f8130060960f0edbe1c0c068503820612d8dd258212b530855447ba73e7"
+    },
+    {
+      "path": "arithmetic/verification.json",
+      "bytes": 357,
+      "sha256": "5176ef571a19b5c8dd5ec1a4dc3e12c0c0b40691a063b215622f709beaec85ce"
+    },
+    {
+      "path": "arithmetic/verify_saved.py",
+      "bytes": 6191,
+      "sha256": "284dc18f092d3f6525b8f26c5a53b88b5314ae587fe23d25032e69bbd92f7999"
+    },
+    {
+      "path": "geometry/NOTE.md",
+      "bytes": 6139,
+      "sha256": "682d6e00fecc8b2a7f2f64e6f831bfd906c12722ff676d1e633072cb4ffeadfe"
+    },
+    {
+      "path": "geometry/checks.json",
+      "bytes": 670,
+      "sha256": "35cdfd5da9a41c45d5e2a247262079ea57a0ad9ec84cb73a89ecd207ac110389"
+    },
+    {
+      "path": "geometry/verify_geometry.py",
+      "bytes": 5070,
+      "sha256": "dddbdc5df90d9bf0bef6009fdba700466acce483faecf93f46902dd959325b5a"
+    },
+    {
+      "path": "spinor/NOTE.md",
+      "bytes": 3690,
+      "sha256": "93aacfc3e7a44c55ac48e1e0e57076f6ca4c814573140dd347b6f6dd9204da08"
+    },
+    {
+      "path": "spinor/checks.json",
+      "bytes": 1863,
+      "sha256": "74f8f2053b73abaff42e8e718711bcfcf5467f5d7478848352e73933feca9ac8"
+    },
+    {
+      "path": "spinor/verify_spinor.py",
+      "bytes": 2463,
+      "sha256": "31ccf93956c567c8a261a0d5f0cdb5a24fb56f5dbdc2ca5ebae448b0e6038a83"
+    }
+  ],
+  "checks": [
+    "algebra/verify_algebra.py",
+    "geometry/verify_geometry.py",
+    "spinor/verify_spinor.py",
+    "arithmetic/run_experiment.py",
+    "arithmetic/verify_saved.py"
+  ],
+  "scope": "Exact quotient interfaces and finite comparisons; no new pi approximation record."
+}

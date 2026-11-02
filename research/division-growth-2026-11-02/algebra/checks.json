@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "method": "Python standard library Fraction arithmetic and exact polynomial coefficients",
+  "counts": {
+    "transverse_quotient": 597,
+    "normalized_gauge": 597,
+    "variable_target_compatibility": 597,
+    "common_mode": 596,
+    "denominator_bound": 481,
+    "error_bound": 481,
+    "finite_rank": 48,
+    "variable_polynomial_rank": 12,
+    "wronskian_scaling": 200,
+    "polynomial_factor_value": 196,
+    "integer_clock": 81,
+    "global_positive_denominator": 1824,
+    "rational_cancellation": 1824,
+    "fraction_formula": 199,
+    "coprime_exact": 199,
+    "error_exact": 199,
+    "quality_exact": 199,
+    "gain_order_bounds": 199,
+    "quotient_order_bounds": 199
+  },
+  "total_assertions": 8728,
+  "representative_rational_readouts": [
+    {
+      "N": 2,
+      "p": 205,
+      "q": 136,
+      "error": "1/136",
+      "q_squared_error": "136"
+    },
+    {
+      "N": 10,
+      "p": 3002709,
+      "q": 2001800,
+      "error": "9/2001800",
+      "q_squared_error": "18016200"
+    },
+    {
+      "N": 100,
+      "p": 3000002970099,
+      "q": 2000001980000,
+      "error": "99/2000001980000",
+      "q_squared_error": "198000196020000"
+    },
+    {
+      "N": 200,
+      "p": 192000023880199,
+      "q": 128000015920000,
+      "error": "199/128000015920000",
+      "q_squared_error": "25472003168080000"
+    }
+  ],
+  "scope": "Finite implementation checks support the self-contained general proofs in NOTE.md; no theorem about π approximation follows from these examples."
+}

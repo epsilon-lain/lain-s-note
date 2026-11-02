@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "symbolic_scalar_gauge_identity": true,
+  "rational_circle_identity": true,
+  "noncircular_rational_deformation_cases": 27,
+  "second_order_endpoint_error_interval_checks": 81,
+  "higher_dimensional_bivector_checks": 3,
+  "common_zero_domain_condition_checked": true,
+  "noncircular_four_point_determinant": "-25330898/159924375",
+  "explicit_nontrivial_extra_integrand": "(-15*t**2 - 90*t + 45)/(9*t**4 - 18*t**3 + 34*t**2 + 150*t + 225)",
+  "scope": "Exact quotient and endpoint-phase identities; no new rational approximation to pi or theorem about its bad approximability.",
+  "dependencies": {
+    "python": "3",
+    "sympy": "1.14.0"
+  }
+}
