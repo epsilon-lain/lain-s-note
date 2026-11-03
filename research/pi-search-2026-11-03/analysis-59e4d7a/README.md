@@ -2,6 +2,9 @@
 
 审阅日期：2026-11-03。固定输入提交：[`59e4d7a8c20ebb7619de38336731aa5f651b7f44`](https://github.com/epsilon-lain/lain-s-note/commit/59e4d7a8c20ebb7619de38336731aa5f651b7f44)。
 
+追加分析：[连续45.3万项的曲线拟合、残差与时间顺序检验](curves/README.md)，
+覆盖分母增长、大部分商频率及归一化误差分布，附图与复现代码。
+
 输入目录：[`snapshots/terms-000010184980-0dfca99fac67`](../snapshots/terms-000010184980-0dfca99fac67)。本文新增分析文件；原快照保持不变。
 
 ## 结论

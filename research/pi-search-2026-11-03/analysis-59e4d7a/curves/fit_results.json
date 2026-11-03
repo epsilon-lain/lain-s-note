@@ -1,0 +1,182 @@
+{
+  "input_sha256_u32le": "ce0fd0c028276918ac51d04e122486dc628d283c0c6d2972cf27e2d4eae21739",
+  "prefix_terms": 453294,
+  "used_positions": 453165,
+  "train_indices_inclusive": [
+    64,
+    226645
+  ],
+  "test_indices_inclusive": [
+    226646,
+    453228
+  ],
+  "denominator": {
+    "definition": "log10(q_n) = slope*n + intercept",
+    "train_fit": {
+      "slope": 0.5150228519214499,
+      "intercept": -21.20647701981943
+    },
+    "test_fit": {
+      "slope": 0.5146608603716167,
+      "intercept": 28.417550958052743
+    },
+    "all_fit": {
+      "slope": 0.514734544542066,
+      "intercept": 7.422009519767016
+    },
+    "generic_levy_slope": 0.5153204170503564,
+    "test_prediction_errors": {
+      "rmse": 85.5830429674439,
+      "mae": 76.21594226240644,
+      "maximum_absolute_error": 174.1581608976121,
+      "last_error": -102.01792655806639
+    },
+    "quadratic_coefficients_for_n_divided_by_prefix_length": [
+      22.38146097014037,
+      232934.1491112549,
+      1044.95320501628
+    ],
+    "quadratic_test_prediction_errors": {
+      "rmse": 378.3701482828527,
+      "mae": 334.56066657632806,
+      "maximum_absolute_error": 676.597647423594,
+      "last_error": -667.7113657591399
+    },
+    "endpoint_log10_q_453292": 233324.95464283202
+  },
+  "partial_quotient_tail": {
+    "method": "Discrete Pareto maximum marginal likelihood above fixed kmin=10; dependence ignored for fitting, no IID standard errors claimed.",
+    "train_fit": {
+      "minimum_a": 10,
+      "tail_samples": 31137,
+      "alpha": 0.9820511460503994,
+      "tail_mass": 0.13742044822624921,
+      "training_negative_log_likelihood": 135119.18043909792
+    },
+    "test_fit_for_shape_comparison_only": {
+      "minimum_a": 10,
+      "tail_samples": 30952,
+      "alpha": 0.9853032188121601,
+      "tail_mass": 0.1366033638887295,
+      "training_negative_log_likelihood": 134110.17627359723
+    },
+    "test_tail_negative_log_likelihood_fitted_train_alpha": 134110.34519637295,
+    "test_tail_negative_log_likelihood_alpha_one": 134113.58470021829,
+    "test_tail_negative_log_likelihood_conditional_gauss": 134108.48528576962,
+    "thresholds": [
+      {
+        "minimum_a": 10,
+        "train_count": 31137,
+        "test_count": 30952,
+        "test_rate": 0.1366033638887295,
+        "train_fitted_test_rate": 0.13742044822624921,
+        "gauss_rate": 0.1375035237499349
+      },
+      {
+        "minimum_a": 100,
+        "train_count": 3161,
+        "test_count": 3172,
+        "test_rate": 0.01399928503020968,
+        "train_fitted_test_rate": 0.014321886073017627,
+        "gauss_rate": 0.014355292977070043
+      },
+      {
+        "minimum_a": 1000,
+        "train_count": 306,
+        "test_count": 296,
+        "test_rate": 0.0013063645551519751,
+        "train_fitted_test_rate": 0.0014926193542229777,
+        "gauss_rate": 0.0014419741739064805
+      },
+      {
+        "minimum_a": 10000,
+        "train_count": 36,
+        "test_count": 32,
+        "test_rate": 0.00014122860055697028,
+        "train_fitted_test_rate": 0.00015555999574653768,
+        "gauss_rate": 0.00014426229109455418
+      }
+    ]
+  },
+  "quality_distribution": {
+    "definition": "C_n=q_n^2*abs(pi-p_n/q_n)=u_(n+1)/(1+beta_n*u_(n+1))",
+    "train_linear_cdf_slope": 1.4429845691393366,
+    "generic_cdf_slope": 1.4426950408889634,
+    "cdf_fit_grid": {
+      "minimum": 0.01,
+      "maximum": 0.5,
+      "count": 50
+    },
+    "held_out_cdf_rmse_fit": 0.0007429443872399442,
+    "held_out_cdf_rmse_generic": 0.0007545717112944955,
+    "observed_terminal_zero_vs_one_max_difference": 0.0,
+    "thresholds": [
+      {
+        "maximum_C": 0.0001,
+        "train_count": 36,
+        "test_count": 32,
+        "test_rate": 0.00014122860055697028,
+        "train_fitted_test_rate": 0.00014429845691393367,
+        "generic_rate": 0.00014426950408889634
+      },
+      {
+        "maximum_C": 0.001,
+        "train_count": 306,
+        "test_count": 297,
+        "test_rate": 0.0013107779489193805,
+        "train_fitted_test_rate": 0.0014429845691393366,
+        "generic_rate": 0.0014426950408889636
+      },
+      {
+        "maximum_C": 0.01,
+        "train_count": 3175,
+        "test_count": 3186,
+        "test_rate": 0.014061072542953355,
+        "train_fitted_test_rate": 0.014429845691393366,
+        "generic_rate": 0.014426950408889635
+      },
+      {
+        "maximum_C": 0.05,
+        "train_count": 16320,
+        "test_count": 16156,
+        "test_rate": 0.07130278970620038,
+        "train_fitted_test_rate": 0.07214922845696684,
+        "generic_rate": 0.07213475204444818
+      },
+      {
+        "maximum_C": 0.1,
+        "train_count": 32665,
+        "test_count": 32466,
+        "test_rate": 0.14328524205258117,
+        "train_fitted_test_rate": 0.14429845691393367,
+        "generic_rate": 0.14426950408889636
+      },
+      {
+        "maximum_C": 0.2,
+        "train_count": 65462,
+        "test_count": 65532,
+        "test_rate": 0.2892185203656055,
+        "train_fitted_test_rate": 0.28859691382786734,
+        "generic_rate": 0.2885390081777927
+      },
+      {
+        "maximum_C": 0.5,
+        "train_count": 163539,
+        "test_count": 163559,
+        "test_rate": 0.721850271203047,
+        "train_fitted_test_rate": 0.7214922845696683,
+        "generic_rate": 0.7213475204444817
+      }
+    ],
+    "full_cdf_max_absolute_difference_test": 0.0016307933916933637
+  },
+  "cautions": [
+    "The prefix is selected by a record endpoint. Removing the endpoint does not create a random sample.",
+    "The temporal test is exploratory and reuses a prefix already examined in an earlier analysis. It is not a pristine validation sample.",
+    "Gauss, Levy, and Lenstra laws apply to almost every real number; they are comparison models, not theorems asserting these limits for pi.",
+    "Numerical curves use float64 recurrences; exact candidate verification is in the parent analysis. They are not new rigorous rational certificates.",
+    "Tail endpoint uncertainty is suppressed by 65 omitted terminal positions; binary floating-point rounding remains.",
+    "Cumulative fits can have excellent R2 while yielding large prediction errors. CDF residuals do not imply calibrated significance.",
+    "No fitted curve identifies the position of the next record or supports extrapolating beyond the observed range."
+  ]
+}
