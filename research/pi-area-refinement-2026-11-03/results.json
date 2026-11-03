@@ -1,0 +1,615 @@
+{
+  "method": "Exact Fraction arithmetic and alternating Machin interval",
+  "pi_exact_bounds_hex": {
+    "lower": [
+      "0x15a0bcfe7060eebce074e24f89cab70cf9992fdc510836c2d91ea681ed19bf78e7389b6b5b2eee9c7345c6155375f0a36c9bc435079709a004f7b8408815323ec254d1c2b700d8c956f68d420ce642ee267c487465beb652e20b00abf2de9d81a2541accf22decc64e71f6f74eab0cc414f24e3049f786994256ab0b8997307c79f3df53039ccef727128f78de9fe391e39664981c5decf2db3bda14f71b69e15a4dc348b26f673b7a8cadf7f07a9eb018a1cbbf339abc55c755baf554b4ac216965105135a9a4c0fa93bd931ceff7dcf1d823db6551f11a10e2f2e19d692b88901eec2b2492bd246bf908bac8ae1a46ff576051b6fd0d59cee23c51e894c972e7c177890ec30e8ab44c5310426f03c727c72143f95b56379b9765eef69d3c5b140814c",
+      "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+    ],
+    "upper": [
+      "0x26c5a1aabaa49e335880d461771642c07b0c0bbe41890da865a51117e299da8293759977587f5693475274f3a79a9b0e3137266aa7bb8d0b4e698ffa1054894478b01fd709d22b5bd24b0a2a407e9b4aa723fbf3d0ebba0b4fa6af8c511db0ab0ee31079ac91a16645db73a2c7dced66190286c01f6f31de691b37ab0eb448fa2e7d8e91283590986e44e34ac580c079f9d12e7bb2b8df4b3ac69ceef4f82fae1ec794e85d338179ef8cee75475e30325f8acae76cef5a5217feefded8635ffbbc08891d51709ca66fab2d403b535a0c031e4af2f575e2f10813310c5d11e20e9f61e1dcbaeea606dd40cd6a08b5be689fe3ca7b0a6406f6ee3f1c751f6c2584260bb3492e4b672a673e694fa94274727a558c730063b243a05b0b3c470743692ec0",
+      "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+    ]
+  },
+  "base": 113,
+  "width_contraction": "1/113",
+  "pi_integer_part": 3,
+  "pi_fractional_digits": [
+    15,
+    112,
+    112,
+    69,
+    57,
+    4,
+    93,
+    77,
+    13,
+    13,
+    52,
+    26
+  ],
+  "refinement": [
+    {
+      "level": 1,
+      "digit": 15,
+      "unfilled_units_K": "1",
+      "active_cell_area": "1/113",
+      "gap_lower_from_prefix": "0",
+      "gap_upper_from_prefix": "1/113",
+      "filled_rectangle_exact": [
+        [
+          "0x0",
+          "0x1"
+        ],
+        [
+          "0x0",
+          "0x1"
+        ],
+        [
+          "0xf",
+          "0x71"
+        ],
+        [
+          "0x1",
+          "0x1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0xf",
+          "0x71"
+        ],
+        [
+          "0x0",
+          "0x1"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x1",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "level": 2,
+      "digit": 112,
+      "unfilled_units_K": "1",
+      "active_cell_area": "1/12769",
+      "gap_lower_from_prefix": "0",
+      "gap_upper_from_prefix": "1/12769",
+      "filled_rectangle_exact": [
+        [
+          "0xf",
+          "0x71"
+        ],
+        [
+          "0x0",
+          "0x1"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x70",
+          "0x71"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0xf",
+          "0x71"
+        ],
+        [
+          "0x70",
+          "0x71"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x1",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "level": 3,
+      "digit": 112,
+      "unfilled_units_K": "1",
+      "active_cell_area": "1/1442897",
+      "gap_lower_from_prefix": "0",
+      "gap_upper_from_prefix": "1/1442897",
+      "filled_rectangle_exact": [
+        [
+          "0xf",
+          "0x71"
+        ],
+        [
+          "0x70",
+          "0x71"
+        ],
+        [
+          "0x70f",
+          "0x31e1"
+        ],
+        [
+          "0x1",
+          "0x1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x70f",
+          "0x31e1"
+        ],
+        [
+          "0x70",
+          "0x71"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x1",
+          "0x1"
+        ]
+      ]
+    },
+    {
+      "level": 4,
+      "digit": 69,
+      "unfilled_units_K": "44",
+      "active_cell_area": "1/163047361",
+      "gap_lower_from_prefix": "43/163047361",
+      "gap_upper_from_prefix": "44/163047361",
+      "filled_rectangle_exact": [
+        [
+          "0x70f",
+          "0x31e1"
+        ],
+        [
+          "0x70",
+          "0x71"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x31b5",
+          "0x31e1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x70f",
+          "0x31e1"
+        ],
+        [
+          "0x31b5",
+          "0x31e1"
+        ],
+        [
+          "0x10",
+          "0x71"
+        ],
+        [
+          "0x31b6",
+          "0x31e1"
+        ]
+      ]
+    },
+    {
+      "level": 5,
+      "digit": 57,
+      "unfilled_units_K": "4915",
+      "active_cell_area": "1/18424351793",
+      "gap_lower_from_prefix": "4914/18424351793",
+      "gap_upper_from_prefix": "4915/18424351793",
+      "filled_rectangle_exact": [
+        [
+          "0x70f",
+          "0x31e1"
+        ],
+        [
+          "0x31b5",
+          "0x31e1"
+        ],
+        [
+          "0x31dd8",
+          "0x160451"
+        ],
+        [
+          "0x31b6",
+          "0x31e1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x31dd8",
+          "0x160451"
+        ],
+        [
+          "0x31b5",
+          "0x31e1"
+        ],
+        [
+          "0x31dd9",
+          "0x160451"
+        ],
+        [
+          "0x31b6",
+          "0x31e1"
+        ]
+      ]
+    },
+    {
+      "level": 6,
+      "digit": 4,
+      "unfilled_units_K": "555391",
+      "active_cell_area": "1/2081951752609",
+      "gap_lower_from_prefix": "555390/2081951752609",
+      "gap_upper_from_prefix": "555391/2081951752609",
+      "filled_rectangle_exact": [
+        [
+          "0x31dd8",
+          "0x160451"
+        ],
+        [
+          "0x31b5",
+          "0x31e1"
+        ],
+        [
+          "0x31dd9",
+          "0x160451"
+        ],
+        [
+          "0x15f0e9",
+          "0x160451"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x31dd8",
+          "0x160451"
+        ],
+        [
+          "0x15f0e9",
+          "0x160451"
+        ],
+        [
+          "0x31dd9",
+          "0x160451"
+        ],
+        [
+          "0x15f0ea",
+          "0x160451"
+        ]
+      ]
+    },
+    {
+      "level": 7,
+      "digit": 93,
+      "unfilled_units_K": "62759090",
+      "active_cell_area": "1/235260548044817",
+      "gap_lower_from_prefix": "62759089/235260548044817",
+      "gap_upper_from_prefix": "62759090/235260548044817",
+      "filled_rectangle_exact": [
+        [
+          "0x31dd8",
+          "0x160451"
+        ],
+        [
+          "0x15f0e9",
+          "0x160451"
+        ],
+        [
+          "0x1602cb5",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x15f0ea",
+          "0x160451"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x1602cb5",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x15f0e9",
+          "0x160451"
+        ],
+        [
+          "0x1602cb6",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x15f0ea",
+          "0x160451"
+        ]
+      ]
+    },
+    {
+      "level": 8,
+      "digit": 77,
+      "unfilled_units_K": "7091777093",
+      "active_cell_area": "1/26584441929064321",
+      "gap_lower_from_prefix": "7091777092/26584441929064321",
+      "gap_upper_from_prefix": "7091777093/26584441929064321",
+      "filled_rectangle_exact": [
+        [
+          "0x1602cb5",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x15f0e9",
+          "0x160451"
+        ],
+        [
+          "0x1602cb6",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9af5726",
+          "0x9b7e7c1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x1602cb5",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9af5726",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x1602cb6",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9af5727",
+          "0x9b7e7c1"
+        ]
+      ]
+    },
+    {
+      "level": 9,
+      "digit": 13,
+      "unfilled_units_K": "801370811496",
+      "active_cell_area": "1/3004041937984268273",
+      "gap_lower_from_prefix": "801370811495/3004041937984268273",
+      "gap_upper_from_prefix": "801370811496/3004041937984268273",
+      "filled_rectangle_exact": [
+        [
+          "0x1602cb5",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9af5726",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9b73bbf2",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x9af5727",
+          "0x9b7e7c1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x9b73bbf2",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x9af5726",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9b73bbf3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x9af5727",
+          "0x9b7e7c1"
+        ]
+      ]
+    },
+    {
+      "level": 10,
+      "digit": 13,
+      "unfilled_units_K": "90554901699035",
+      "active_cell_area": "1/339456738992222314849",
+      "gap_lower_from_prefix": "90554901699034/339456738992222314849",
+      "gap_upper_from_prefix": "90554901699035/339456738992222314849",
+      "filled_rectangle_exact": [
+        [
+          "0x9b73bbf2",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x9af5726",
+          "0x9b7e7c1"
+        ],
+        [
+          "0x9b73bbf3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x4466577d3",
+          "0x44a2d4c31"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x9b73bbf2",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x4466577d3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x9b73bbf3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x4466577d4",
+          "0x44a2d4c31"
+        ]
+      ]
+    },
+    {
+      "level": 11,
+      "digit": 52,
+      "unfilled_units_K": "10232703891990903",
+      "active_cell_area": "1/38358611506121121577937",
+      "gap_lower_from_prefix": "10232703891990902/38358611506121121577937",
+      "gap_upper_from_prefix": "10232703891990903/38358611506121121577937",
+      "filled_rectangle_exact": [
+        [
+          "0x9b73bbf2",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x4466577d3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x449e15f606",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x4466577d4",
+          "0x44a2d4c31"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x449e15f606",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x4466577d3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x449e15f607",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x4466577d4",
+          "0x44a2d4c31"
+        ]
+      ]
+    },
+    {
+      "level": 12,
+      "digit": 26,
+      "unfilled_units_K": "1156295539794972013",
+      "active_cell_area": "1/4334523100191686738306881",
+      "gap_lower_from_prefix": "1156295539794972012/4334523100191686738306881",
+      "gap_upper_from_prefix": "1156295539794972013/4334523100191686738306881",
+      "filled_rectangle_exact": [
+        [
+          "0x449e15f606",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x4466577d3",
+          "0x44a2d4c31"
+        ],
+        [
+          "0x449e15f607",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x1e312c9e43d",
+          "0x1e4bdfea1a1"
+        ]
+      ],
+      "next_active_rectangle_exact": [
+        [
+          "0x449e15f606",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x1e312c9e43d",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x449e15f607",
+          "0x1e4bdfea1a1"
+        ],
+        [
+          "0x1e312c9e43e",
+          "0x1e4bdfea1a1"
+        ]
+      ]
+    }
+  ],
+  "gap_355_over_113_minus_pi": {
+    "lower_approx": "2.667641890624223123689328864963338040520E-7",
+    "upper_approx": "2.667641890624223123689328864963338040520E-7"
+  },
+  "old_metric_counterexamples": [
+    {
+      "decimal_positions": 2,
+      "x": "0.49",
+      "y": "0.5",
+      "numeric_difference": "0.01",
+      "old_strip_symmetric_difference": "0.19",
+      "new_ordered_fill_symmetric_difference": "0.01"
+    },
+    {
+      "decimal_positions": 3,
+      "x": "0.499",
+      "y": "0.5",
+      "numeric_difference": "0.001",
+      "old_strip_symmetric_difference": "0.199",
+      "new_ordered_fill_symmetric_difference": "0.001"
+    },
+    {
+      "decimal_positions": 4,
+      "x": "0.4999",
+      "y": "0.5",
+      "numeric_difference": "0.0001",
+      "old_strip_symmetric_difference": "0.1999",
+      "new_ordered_fill_symmetric_difference": "0.0001"
+    },
+    {
+      "decimal_positions": 6,
+      "x": "0.499999",
+      "y": "0.5",
+      "numeric_difference": "0.000001",
+      "old_strip_symmetric_difference": "0.199999",
+      "new_ordered_fill_symmetric_difference": "0.000001"
+    },
+    {
+      "decimal_positions": 8,
+      "x": "0.49999999",
+      "y": "0.5",
+      "numeric_difference": "1E-8",
+      "old_strip_symmetric_difference": "0.19999999",
+      "new_ordered_fill_symmetric_difference": "1E-8"
+    }
+  ],
+  "checks": {
+    "digit_prefix_certified": true,
+    "all_cell_areas_exact": true,
+    "filled_cells_pairwise_disjoint": true,
+    "prefix_area_matches_digits": true,
+    "all_filled_cells_inside_355_template": true,
+    "all_prefix_gap_bounds_certified": true
+  },
+  "scope": "A definition and representation audit, not a new approximation record or predictor."
+}
