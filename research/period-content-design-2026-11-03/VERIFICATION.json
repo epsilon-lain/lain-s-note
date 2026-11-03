@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "date": "2026-11-03",
+  "source_commit": "4d84aa6c383e5eed6b0dc447946d689bd3bbe010",
+  "candidate_checks": 119,
+  "global_selections": 6,
+  "global_summary": [
+    {
+      "m": 1,
+      "forced": false,
+      "all_convergents_checked": 255,
+      "p": 22,
+      "q": 7,
+      "strict_quality_upper": "329/5000",
+      "global_certificate_minimum_proved": true
+    },
+    {
+      "m": 2,
+      "forced": false,
+      "all_convergents_checked": 853,
+      "p": 355,
+      "q": 113,
+      "strict_quality_upper": "183/50000",
+      "global_certificate_minimum_proved": true
+    },
+    {
+      "m": 3,
+      "forced": false,
+      "all_convergents_checked": 1699,
+      "p": 355,
+      "q": 113,
+      "strict_quality_upper": "23/6250",
+      "global_certificate_minimum_proved": true
+    },
+    {
+      "m": 1,
+      "forced": true,
+      "all_convergents_checked": 255,
+      "p": 22,
+      "q": 7,
+      "strict_quality_upper": "329/5000",
+      "global_certificate_minimum_proved": true
+    },
+    {
+      "m": 2,
+      "forced": true,
+      "all_convergents_checked": 853,
+      "p": 355,
+      "q": 113,
+      "strict_quality_upper": "183/50000",
+      "global_certificate_minimum_proved": true
+    },
+    {
+      "m": 3,
+      "forced": true,
+      "all_convergents_checked": 1699,
+      "p": 355,
+      "q": 113,
+      "strict_quality_upper": "23/6250",
+      "global_certificate_minimum_proved": true
+    }
+  ],
+  "checks": [
+    "primitive numerator polynomial identity",
+    "endpoint zeros to order2m",
+    "exact source zero-period ranks and affine fibers",
+    "weighted zero-period orthogonality",
+    "independent alternating-beta moment reconstruction",
+    "Schur metric positivity",
+    "coefficient denominator clearing and integer content",
+    "actual fully reduced fraction and gcd",
+    "strict rational Machin quality intervals",
+    "strict weighted quality-square bound",
+    "predeclared certificate selection and postcheck ranking",
+    "independent reconstruction of binary form from integrated target-period lifts",
+    "complete finite canonical rational continued fractions and strict Legendre threshold",
+    "global optimum integer lifts and full reduction",
+    "forced and unforced exact binary-form equality"
+  ],
+  "scope": "Global minimum of this particular rational majorant certificate within rationally optimized frozen period fibers; does not minimize true pi approximation quality or prove an infinite small-quality theorem.",
+  "generation": "No pi value enters moments, rational projection, or final certificate selection; strict rational Machin intervals are postchecks. No blind-discovery claim.",
+  "independence": "Standard library verifiers use a different signed-beta expansion and direct target-period integration; no generator, original moment helper, projection solver or SymPy imports. Separate agents reviewed mathematical arguments. No external peer review or new Lean formalization.",
+  "source_sha256": {
+    "hilbert_quotient_lift.json": "d237703cdf5366cf465ccbb2923801685ac9a71470a45ff88e43366455ac9a4d",
+    "hilbert_forced_period_lift.json": "352714497a6b943899b9d4110f8cd5bbcd3ba73966e8c8911dd5d40b88d76ccb"
+  },
+  "regenerated_data_sha256": {
+    "weighted_results.json": "823156b4ada85ba7ed6df08142af9d521f27615be62dc768d67b8a26c961476e",
+    "global_selected.json": "ed85314d68e986cf7d570962566966ec48d7461106062e69dfa0e4609e24f2ac"
+  },
+  "written_file_sha256": {
+    "README.md": "c7c409173c48b40dc763b64ec0cf42e17b8ae6d50dca169089d32b3f82e7fce3",
+    ".gitignore": "e53db3a67bb14d6edbd6138fb799ae4d2b5a8e935385e6f0885975a4ab6f90c2",
+    "weighted_rational.py": "017c240981276a6e140abb93a4ab6bd20cbefa1f2dd2b45a06cac3c84f00e0db",
+    "generate_weighted.py": "7b5000727a348c921a561acb6428b17882c8c471e1c6089e11d7ca4e1e698ac5",
+    "select_global.py": "720df5d52b9374419d3711d6599a879b685ad9ab3d1ee604dee90233db0506a0",
+    "verify_independent.py": "9b6b90cf4aaa180ec76264e1a4b2458f9c0ad73bf0a3b7774b0a38c790351d3b",
+    "verify_weighted_independent.py": "a1db3122602155e418188859e5618ea2148d83ebe22f08ec13ad2d81cf7daf00",
+    "verify_global_independent.py": "a772b4369837c3eb02bb1552425348f316ead34c8be351c0a643cd0efd1cc5d2",
+    "hilbert_example.py": "5b9ffb35d2920ea3980bafaabaf7dbd14684c104a5cf97d38b853eae1a9221b4",
+    "global_summary.json": "05f16274dfa4df2c4bc4423851ac3152aabae4f03b712e231a2efa31429d09ba",
+    "HILBERT_EXAMPLE.json": "0042b9266657f548cb03affd21fecbb5a3eb46260712776ca6c853e46034c35b"
+  }
+}

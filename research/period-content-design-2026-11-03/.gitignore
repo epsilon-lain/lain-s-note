@@ -1,0 +1,6 @@
+__pycache__/
+weighted_results.json
+global_selected.json
+independent_weighted_verification.json
+independent_global_verification.json
+schur_exact_results.json
