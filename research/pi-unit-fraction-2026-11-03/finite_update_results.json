@@ -1,0 +1,152 @@
+{
+  "samples": [
+    {
+      "start": "3",
+      "sign": 1,
+      "branches": 1,
+      "best_unit_denominator": "8",
+      "branch_determinant": "1",
+      "best_fraction": "25/8",
+      "quality_lower_approx": "1.0619298297467672616091765298881846",
+      "quality_upper_approx": "1.0619298297467672616091765298881846"
+    },
+    {
+      "start": "25/8",
+      "sign": 1,
+      "branches": 7,
+      "best_unit_denominator": "120",
+      "branch_determinant": "1",
+      "best_fraction": "47/15",
+      "quality_lower_approx": "1.8583470577034786540947612378881489",
+      "quality_upper_approx": "1.8583470577034786540947612378881489"
+    },
+    {
+      "start": "22/7",
+      "sign": -1,
+      "branches": 3,
+      "best_unit_denominator": "791",
+      "branch_determinant": "1",
+      "best_fraction": "355/113",
+      "quality_lower_approx": "0.0034063119301380705066389040276716863",
+      "quality_upper_approx": "0.0034063119301380705066389040276716863"
+    },
+    {
+      "start": "333/106",
+      "sign": 1,
+      "branches": 9,
+      "best_unit_denominator": "23214",
+      "branch_determinant": "1",
+      "best_fraction": "688/219",
+      "quality_lower_approx": "1.9252588200735099068393054682378290",
+      "quality_upper_approx": "1.9252588200735099068393054682378290"
+    },
+    {
+      "start": "355/113",
+      "sign": -1,
+      "branches": 3,
+      "best_unit_denominator": "3753295",
+      "branch_determinant": "1",
+      "best_fraction": "104348/33215",
+      "quality_lower_approx": "0.36586380906794851030949311816170268",
+      "quality_upper_approx": "0.36586380906794851030949311816170268"
+    },
+    {
+      "start": "103993/33102",
+      "sign": 1,
+      "branches": 63,
+      "best_unit_denominator": "2195225334",
+      "branch_determinant": "1",
+      "best_fraction": "208341/66317",
+      "quality_lower_approx": "0.53811723974624529986640445621454635",
+      "quality_upper_approx": "0.53811723974624529986640445621454635"
+    }
+  ],
+  "exhaustive_check": {
+    "distinct_rationals": 147,
+    "other_unit_denominators_tested_exactly": 24352,
+    "beyond_finite_range_excluded_by_bound": true,
+    "non_unit_best_branch_examples": [
+      {
+        "start": "7/2",
+        "best_branch_determinant": 4
+      },
+      {
+        "start": "10/3",
+        "best_branch_determinant": 3
+      },
+      {
+        "start": "11/3",
+        "best_branch_determinant": 9
+      },
+      {
+        "start": "13/4",
+        "best_branch_determinant": 2
+      },
+      {
+        "start": "15/4",
+        "best_branch_determinant": 2
+      },
+      {
+        "start": "13/5",
+        "best_branch_determinant": 25
+      },
+      {
+        "start": "17/5",
+        "best_branch_determinant": 5
+      },
+      {
+        "start": "23/7",
+        "best_branch_determinant": 7
+      },
+      {
+        "start": "29/9",
+        "best_branch_determinant": 3
+      },
+      {
+        "start": "31/9",
+        "best_branch_determinant": 3
+      },
+      {
+        "start": "31/10",
+        "best_branch_determinant": 2
+      },
+      {
+        "start": "33/10",
+        "best_branch_determinant": 5
+      },
+      {
+        "start": "34/11",
+        "best_branch_determinant": 11
+      },
+      {
+        "start": "37/12",
+        "best_branch_determinant": 4
+      },
+      {
+        "start": "42/13",
+        "best_branch_determinant": 13
+      },
+      {
+        "start": "43/13",
+        "best_branch_determinant": 13
+      },
+      {
+        "start": "43/14",
+        "best_branch_determinant": 4
+      },
+      {
+        "start": "45/14",
+        "best_branch_determinant": 7
+      },
+      {
+        "start": "46/15",
+        "best_branch_determinant": 15
+      },
+      {
+        "start": "49/15",
+        "best_branch_determinant": 9
+      }
+    ]
+  },
+  "proof_note": "Global one-candidate-per-determinant proof must handle later gcd cancellation by descending to the reduced determinant branch; monotonicity alone is insufficient."
+}
