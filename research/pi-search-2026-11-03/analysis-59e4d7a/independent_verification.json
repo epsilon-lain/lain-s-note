@@ -1,0 +1,109 @@
+{
+  "snapshot_manifest_entries_verified": 12,
+  "pi_formula": "16 atan(1/5) - 4 atan(1/239); directed rounding including inputs",
+  "precision_bits": 1550690,
+  "seconds": 7.7695236439976725,
+  "gmpy2_version": "2.3.2",
+  "records": [
+    {
+      "index": 0,
+      "q_bits": 1,
+      "q_decimal_digits": 1,
+      "quality": "0.14159265358979323846264338327953",
+      "a": "7",
+      "beta": "0.0",
+      "theta": "0.062513305931045769793005152570596",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 1,
+      "q_bits": 3,
+      "q_decimal_digits": 1,
+      "quality": "0.061959974100131315330474219304335",
+      "a": "15",
+      "beta": "0.14285714285714285714285714285711",
+      "theta": "0.99659440668571988892306040475563",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 3,
+      "q_bits": 7,
+      "q_decimal_digits": 3,
+      "quality": "0.0034063119301380705066389040276727",
+      "a": "292",
+      "beta": "0.93805309734513274336283185840688",
+      "theta": "0.63459101439547237854369576041134",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 306,
+      "q_bits": 513,
+      "q_decimal_digits": 155,
+      "quality": "0.0022887386169930294258752617757723",
+      "a": "436",
+      "beta": "0.80700269649594166522340785148882",
+      "theta": "0.11488631930231644321015535463489",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 430,
+      "q_bits": 717,
+      "q_decimal_digits": 216,
+      "quality": "4.8130561246289404628117079075287e-05",
+      "a": "20776",
+      "beta": "0.20088883955340776771280239223053",
+      "theta": "0.61895506148507337454532906314259",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 28420,
+      "q_bits": 48475,
+      "q_decimal_digits": 14593,
+      "quality": "1.2717857372757456603584469393586e-05",
+      "a": "78629",
+      "beta": "0.025227797530083840008265527580699",
+      "theta": "0.57177822568642739813105480885893",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 156380,
+      "q_bits": 267565,
+      "q_decimal_digits": 80546,
+      "quality": "5.5822926876305606428104205929546e-06",
+      "a": "179136",
+      "beta": "0.99539416136777531640008397373495",
+      "theta": "0.8707044462833933645925307409278",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 267312,
+      "q_bits": 457035,
+      "q_decimal_digits": 137581,
+      "quality": "1.893183353979218000589858475338e-06",
+      "a": "528210",
+      "beta": "0.82786552650447426791902465907867",
+      "theta": "0.028150154097003357488024919896123",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    },
+    {
+      "index": 453292,
+      "q_bits": 775089,
+      "q_decimal_digits": 233325,
+      "quality": "7.6941076561551547794207961451627e-08",
+      "a": "12996958",
+      "beta": "0.70471185325224099882306832950193",
+      "theta": "0.06801882294152030543886431263573",
+      "quality_certificate_verified": true,
+      "following_partial_quotient_verified": true
+    }
+  ],
+  "scope": "Verifies the supplied candidates, not full reported 10.18m coverage."
+}

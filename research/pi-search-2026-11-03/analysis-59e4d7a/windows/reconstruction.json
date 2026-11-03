@@ -1,0 +1,81 @@
+{
+  "terms": 453294,
+  "canonical_rational_length": 453292,
+  "last_term": 12996958,
+  "sha256_u32le": "ce0fd0c028276918ac51d04e122486dc628d283c0c6d2972cf27e2d4eae21739",
+  "record_integer_checks": [
+    {
+      "index": 0,
+      "canonical_cf_length": 1,
+      "asserted_cf_length": 1,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 3
+    },
+    {
+      "index": 1,
+      "canonical_cf_length": 2,
+      "asserted_cf_length": 2,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 7
+    },
+    {
+      "index": 3,
+      "canonical_cf_length": 3,
+      "asserted_cf_length": 4,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 1
+    },
+    {
+      "index": 306,
+      "canonical_cf_length": 306,
+      "asserted_cf_length": 307,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 1
+    },
+    {
+      "index": 430,
+      "canonical_cf_length": 431,
+      "asserted_cf_length": 431,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 4
+    },
+    {
+      "index": 28420,
+      "canonical_cf_length": 28421,
+      "asserted_cf_length": 28421,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 39
+    },
+    {
+      "index": 156380,
+      "canonical_cf_length": 156380,
+      "asserted_cf_length": 156381,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 1
+    },
+    {
+      "index": 267312,
+      "canonical_cf_length": 267312,
+      "asserted_cf_length": 267313,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 1
+    },
+    {
+      "index": 453292,
+      "canonical_cf_length": 453292,
+      "asserted_cf_length": 453293,
+      "matches_reconstructed_prefix": true,
+      "following_a_matches_prefix": true,
+      "last_a": 1
+    }
+  ],
+  "method": "Exact ordinary Euclidean algorithm on each coprime uploaded p/q; finite CF ambiguity resolved against stated length; last following term supplied by source and independently verified by parent."
+}

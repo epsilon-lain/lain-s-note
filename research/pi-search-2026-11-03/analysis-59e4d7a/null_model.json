@@ -1,0 +1,11 @@
+{
+  "A": 12996958,
+  "N_including_integer_part": 10184980,
+  "record_coefficient_index_zero_based": 453293,
+  "later_gap": 9731686,
+  "strict_exceedance_probability_gauss": 1.1100250338465425e-07,
+  "poisson_characteristic_wait": 9008805.833276791,
+  "poisson_no_later_exceedance": 0.3395135204594994,
+  "poisson_max_not_above_A": 0.32285300057846295,
+  "scope": "Random-model estimates, not proved finite-sample probabilities for fixed pi."
+}
