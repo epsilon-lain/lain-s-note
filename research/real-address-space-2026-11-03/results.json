@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "complete_layers_through": 100,
+  "grid_gcd_checks": 10000,
+  "distinct_rational_outputs": 6087,
+  "quality_transfer_checks": 7080,
+  "examples": [
+    {
+      "value": "22/7",
+      "address": "22/29",
+      "minimal_layer": 29
+    },
+    {
+      "value": "355/113",
+      "address": "355/468",
+      "minimal_layer": 468
+    },
+    {
+      "value": "-22/7",
+      "address": "-22/29",
+      "minimal_layer": 29
+    }
+  ],
+  "scope": "Exact finite checks; full real coverage uses infinite-precision addresses."
+}

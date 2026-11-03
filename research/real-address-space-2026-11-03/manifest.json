@@ -1,0 +1,14 @@
+{
+  "README.md": {
+    "bytes": 3610,
+    "sha256": "b2d8b1405ba7d176dcda38b92be81c20b0b8c1b5f301ba4f63e04828d409d14e"
+  },
+  "verify.py": {
+    "bytes": 1972,
+    "sha256": "ea678eac38f9359e06319e5218bb6765b8204c1c22714fc21b21672e5250c79f"
+  },
+  "results.json": {
+    "bytes": 540,
+    "sha256": "0322d18c9b40aa53ee84dd71091c9dccf032739db9175917ffa7270d233614cf"
+  }
+}
