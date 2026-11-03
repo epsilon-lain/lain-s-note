@@ -1,0 +1,17 @@
+{
+  "independent_full_prefix_checks": 126,
+  "fresh_methods": {
+    "pi": "MPFR const_pi directed endpoints, distinct from scan Machin formula",
+    "sqrt2": "MPFR sqrt directed endpoints, distinct from scan integer-square-root bounds"
+  },
+  "saved_candidate_checks": 567,
+  "liouville_S6_compatible_bases": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "all_checks_passed": true
+}

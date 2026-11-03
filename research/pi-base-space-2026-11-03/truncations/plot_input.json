@@ -1,0 +1,4981 @@
+{
+  "pi_decimal_nonzero_positions": [
+    {
+      "m": 1,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 2,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 3,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 4,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 5,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 6,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 7,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 8,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 9,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 10,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 11,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 12,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 13,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 14,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 15,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 16,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 17,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 18,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 19,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 20,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 21,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 22,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 23,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 24,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 25,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 26,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 27,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 28,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 29,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 30,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 31,
+      "digit_at_m": 5,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 33,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 34,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 35,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 36,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 37,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 38,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 39,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 40,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 41,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 42,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 43,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 44,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 45,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 46,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 47,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 48,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 49,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 51,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 52,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 53,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 55,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 56,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 57,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 58,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 59,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 60,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 61,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 62,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 63,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 64,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 66,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 67,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 68,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 69,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 70,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 72,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 73,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 74,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 75,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 76,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 78,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 79,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 80,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 81,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 82,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 83,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 84,
+      "digit_at_m": 8,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 86,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 87,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 88,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 89,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 90,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 91,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 92,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 93,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 94,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 95,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 96,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 98,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 99,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 100,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 101,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 102,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 103,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 104,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 105,
+      "digit_at_m": 8,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 107,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 108,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 109,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 110,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 111,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 112,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 113,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 114,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 115,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 117,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 118,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 119,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 120,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 122,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 123,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 124,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 125,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 126,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 127,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 129,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 130,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 131,
+      "digit_at_m": 5,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 133,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 134,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 135,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 136,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 137,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 138,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 139,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 140,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 141,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 142,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 143,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 144,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 145,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 147,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 148,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 149,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 150,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 151,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 152,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 153,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 154,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 155,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 156,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 157,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 158,
+      "digit_at_m": 5,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 160,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 161,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 162,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 163,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 165,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 166,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 168,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 169,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 170,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 171,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 172,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 173,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 174,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 175,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 177,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 178,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 179,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 180,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 181,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 182,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 183,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 184,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 185,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 186,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 187,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 188,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 189,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 190,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 191,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 192,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 193,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 194,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 196,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 197,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 198,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 199,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 200,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 201,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 202,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 203,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 204,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 205,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 206,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 208,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 209,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 210,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 211,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 212,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 213,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 214,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 215,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 216,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 217,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 218,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 219,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 220,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 221,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 222,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 223,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 224,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 225,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 226,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 227,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 228,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 229,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 230,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 231,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 232,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 233,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 234,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 235,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 236,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 237,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 238,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 239,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 240,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 241,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 242,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 243,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 244,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 246,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 247,
+      "digit_at_m": 9,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 249,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 250,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 251,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 252,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 253,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 254,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 255,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 256,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 257,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 258,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 259,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 260,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 261,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 262,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 263,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 265,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 266,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 267,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 268,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 269,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 271,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 272,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 273,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 274,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 275,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 276,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 277,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 278,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 279,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 280,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 281,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 282,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 283,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 284,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 285,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 286,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 288,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 289,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 290,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 292,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 293,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 294,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 295,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 296,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 297,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 298,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 299,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 300,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 301,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 302,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 303,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 304,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 305,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 306,
+      "digit_at_m": 7,
+      "following_zeros_z": 2,
+      "next_nonzero_gap_z_plus_1": 3,
+      "right_censored": false
+    },
+    {
+      "m": 309,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 310,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 312,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 313,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 314,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 315,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 316,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 317,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 318,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 319,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 320,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 321,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 322,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 323,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 324,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 325,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 326,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 328,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 329,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 331,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 332,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 333,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 334,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 335,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 336,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 337,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 338,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 339,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 341,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 342,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 343,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 344,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 345,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 346,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 347,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 348,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 349,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 350,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 351,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 352,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 353,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 354,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 355,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 356,
+      "digit_at_m": 9,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 358,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 359,
+      "digit_at_m": 6,
+      "following_zeros_z": 2,
+      "next_nonzero_gap_z_plus_1": 3,
+      "right_censored": false
+    },
+    {
+      "m": 362,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 363,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 364,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 365,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 367,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 368,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 370,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 371,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 372,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 373,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 374,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 376,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 377,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 378,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 379,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 380,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 381,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 382,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 383,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 384,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 385,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 386,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 387,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 388,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 389,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 390,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 391,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 392,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 393,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 394,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 395,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 396,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 397,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 399,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 400,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 401,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 402,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 404,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 405,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 406,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 407,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 409,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 410,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 411,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 412,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 413,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 414,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 415,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 416,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 417,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 418,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 419,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 420,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 422,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 423,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 424,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 425,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 426,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 427,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 428,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 429,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 430,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 431,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 432,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 433,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 434,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 435,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 436,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 437,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 438,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 439,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 440,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 441,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 442,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 444,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 445,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 446,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 447,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 448,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 449,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 450,
+      "digit_at_m": 8,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 452,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 453,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 454,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 455,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 456,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 457,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 458,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 459,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 460,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 461,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 462,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 463,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 464,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 465,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 466,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 467,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 468,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 469,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 470,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 471,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 472,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 473,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 474,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 475,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 476,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 477,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 478,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 479,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 480,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 481,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 482,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 483,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 484,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 485,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 486,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 487,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 488,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 489,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 490,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 491,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 492,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 494,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 495,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 496,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 497,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 498,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 499,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 500,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 501,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 502,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 503,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 504,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 505,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 506,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 507,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 508,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 509,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 510,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 511,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 512,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 514,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 515,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 516,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 517,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 518,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 519,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 521,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 522,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 524,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 525,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 526,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 527,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 528,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 529,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 530,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 531,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 532,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 533,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 534,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 535,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 536,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 537,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 538,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 539,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 540,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 541,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 542,
+      "digit_at_m": 9,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 544,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 546,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 547,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 548,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 549,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 550,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 551,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 553,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 554,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 555,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 556,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 558,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 559,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 560,
+      "digit_at_m": 7,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 562,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 563,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 564,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 565,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 566,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 567,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 568,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 569,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 570,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 571,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 572,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 573,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 574,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 575,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 576,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 577,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 578,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 579,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 580,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 581,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 582,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 583,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 584,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 585,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 586,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 587,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 588,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 589,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 590,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 591,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 592,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 593,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 594,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 595,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 597,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 598,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 599,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 600,
+      "digit_at_m": 2,
+      "following_zeros_z": 3,
+      "next_nonzero_gap_z_plus_1": 4,
+      "right_censored": false
+    },
+    {
+      "m": 604,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 605,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 606,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 607,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 608,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 609,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 610,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 611,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 612,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 613,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 614,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 615,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 616,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 617,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 619,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 620,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 621,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 622,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 623,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 624,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 625,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 626,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 627,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 628,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 629,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 630,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 631,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 632,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 633,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 634,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 635,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 636,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 637,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 639,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 640,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 641,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 642,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 643,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 644,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 645,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 646,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 647,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 648,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 649,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 650,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 651,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 652,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 653,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 654,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 655,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 656,
+      "digit_at_m": 4,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 658,
+      "digit_at_m": 9,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 660,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 661,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 662,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 663,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 664,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 665,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 666,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 667,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 668,
+      "digit_at_m": 3,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 670,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 671,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 672,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 673,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 674,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 675,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 676,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 677,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 678,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 679,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 680,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 681,
+      "digit_at_m": 1,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 683,
+      "digit_at_m": 5,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 685,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 686,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 687,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 688,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 689,
+      "digit_at_m": 7,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 690,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 691,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 692,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 693,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 694,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 695,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 696,
+      "digit_at_m": 8,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 697,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 698,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 699,
+      "digit_at_m": 3,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 700,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 701,
+      "digit_at_m": 4,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 702,
+      "digit_at_m": 2,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 704,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 705,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 706,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 707,
+      "digit_at_m": 5,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 708,
+      "digit_at_m": 6,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 709,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 710,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 711,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 712,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 713,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 714,
+      "digit_at_m": 9,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    },
+    {
+      "m": 716,
+      "digit_at_m": 2,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 717,
+      "digit_at_m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 718,
+      "digit_at_m": 9,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "right_censored": false
+    },
+    {
+      "m": 719,
+      "digit_at_m": 6,
+      "following_zeros_z": 1,
+      "next_nonzero_gap_z_plus_1": 2,
+      "right_censored": false
+    }
+  ],
+  "classical_liouville_nonzero_positions": [
+    {
+      "k": 1,
+      "m": 1,
+      "following_zeros_z": 0,
+      "next_nonzero_gap_z_plus_1": 1,
+      "proven_from_definition": true
+    },
+    {
+      "k": 2,
+      "m": 2,
+      "following_zeros_z": 3,
+      "next_nonzero_gap_z_plus_1": 4,
+      "proven_from_definition": true
+    },
+    {
+      "k": 3,
+      "m": 6,
+      "following_zeros_z": 17,
+      "next_nonzero_gap_z_plus_1": 18,
+      "proven_from_definition": true
+    },
+    {
+      "k": 4,
+      "m": 24,
+      "following_zeros_z": 95,
+      "next_nonzero_gap_z_plus_1": 96,
+      "proven_from_definition": true
+    },
+    {
+      "k": 5,
+      "m": 120,
+      "following_zeros_z": 599,
+      "next_nonzero_gap_z_plus_1": 600,
+      "proven_from_definition": true
+    },
+    {
+      "k": 6,
+      "m": 720,
+      "following_zeros_z": 4319,
+      "next_nonzero_gap_z_plus_1": 4320,
+      "proven_from_definition": true
+    }
+  ],
+  "square_gap_control_nonzero_positions": [
+    {
+      "k": 1,
+      "m": 1,
+      "following_zeros_z": 2,
+      "next_nonzero_gap_z_plus_1": 3,
+      "proven_from_definition": true
+    },
+    {
+      "k": 2,
+      "m": 4,
+      "following_zeros_z": 4,
+      "next_nonzero_gap_z_plus_1": 5,
+      "proven_from_definition": true
+    },
+    {
+      "k": 3,
+      "m": 9,
+      "following_zeros_z": 6,
+      "next_nonzero_gap_z_plus_1": 7,
+      "proven_from_definition": true
+    },
+    {
+      "k": 4,
+      "m": 16,
+      "following_zeros_z": 8,
+      "next_nonzero_gap_z_plus_1": 9,
+      "proven_from_definition": true
+    },
+    {
+      "k": 5,
+      "m": 25,
+      "following_zeros_z": 10,
+      "next_nonzero_gap_z_plus_1": 11,
+      "proven_from_definition": true
+    },
+    {
+      "k": 6,
+      "m": 36,
+      "following_zeros_z": 12,
+      "next_nonzero_gap_z_plus_1": 13,
+      "proven_from_definition": true
+    },
+    {
+      "k": 7,
+      "m": 49,
+      "following_zeros_z": 14,
+      "next_nonzero_gap_z_plus_1": 15,
+      "proven_from_definition": true
+    },
+    {
+      "k": 8,
+      "m": 64,
+      "following_zeros_z": 16,
+      "next_nonzero_gap_z_plus_1": 17,
+      "proven_from_definition": true
+    },
+    {
+      "k": 9,
+      "m": 81,
+      "following_zeros_z": 18,
+      "next_nonzero_gap_z_plus_1": 19,
+      "proven_from_definition": true
+    },
+    {
+      "k": 10,
+      "m": 100,
+      "following_zeros_z": 20,
+      "next_nonzero_gap_z_plus_1": 21,
+      "proven_from_definition": true
+    },
+    {
+      "k": 11,
+      "m": 121,
+      "following_zeros_z": 22,
+      "next_nonzero_gap_z_plus_1": 23,
+      "proven_from_definition": true
+    },
+    {
+      "k": 12,
+      "m": 144,
+      "following_zeros_z": 24,
+      "next_nonzero_gap_z_plus_1": 25,
+      "proven_from_definition": true
+    },
+    {
+      "k": 13,
+      "m": 169,
+      "following_zeros_z": 26,
+      "next_nonzero_gap_z_plus_1": 27,
+      "proven_from_definition": true
+    },
+    {
+      "k": 14,
+      "m": 196,
+      "following_zeros_z": 28,
+      "next_nonzero_gap_z_plus_1": 29,
+      "proven_from_definition": true
+    },
+    {
+      "k": 15,
+      "m": 225,
+      "following_zeros_z": 30,
+      "next_nonzero_gap_z_plus_1": 31,
+      "proven_from_definition": true
+    },
+    {
+      "k": 16,
+      "m": 256,
+      "following_zeros_z": 32,
+      "next_nonzero_gap_z_plus_1": 33,
+      "proven_from_definition": true
+    },
+    {
+      "k": 17,
+      "m": 289,
+      "following_zeros_z": 34,
+      "next_nonzero_gap_z_plus_1": 35,
+      "proven_from_definition": true
+    },
+    {
+      "k": 18,
+      "m": 324,
+      "following_zeros_z": 36,
+      "next_nonzero_gap_z_plus_1": 37,
+      "proven_from_definition": true
+    },
+    {
+      "k": 19,
+      "m": 361,
+      "following_zeros_z": 38,
+      "next_nonzero_gap_z_plus_1": 39,
+      "proven_from_definition": true
+    },
+    {
+      "k": 20,
+      "m": 400,
+      "following_zeros_z": 40,
+      "next_nonzero_gap_z_plus_1": 41,
+      "proven_from_definition": true
+    },
+    {
+      "k": 21,
+      "m": 441,
+      "following_zeros_z": 42,
+      "next_nonzero_gap_z_plus_1": 43,
+      "proven_from_definition": true
+    },
+    {
+      "k": 22,
+      "m": 484,
+      "following_zeros_z": 44,
+      "next_nonzero_gap_z_plus_1": 45,
+      "proven_from_definition": true
+    },
+    {
+      "k": 23,
+      "m": 529,
+      "following_zeros_z": 46,
+      "next_nonzero_gap_z_plus_1": 47,
+      "proven_from_definition": true
+    },
+    {
+      "k": 24,
+      "m": 576,
+      "following_zeros_z": 48,
+      "next_nonzero_gap_z_plus_1": 49,
+      "proven_from_definition": true
+    },
+    {
+      "k": 25,
+      "m": 625,
+      "following_zeros_z": 50,
+      "next_nonzero_gap_z_plus_1": 51,
+      "proven_from_definition": true
+    },
+    {
+      "k": 26,
+      "m": 676,
+      "following_zeros_z": 52,
+      "next_nonzero_gap_z_plus_1": 53,
+      "proven_from_definition": true
+    },
+    {
+      "k": 27,
+      "m": 729,
+      "following_zeros_z": 54,
+      "next_nonzero_gap_z_plus_1": 55,
+      "proven_from_definition": true
+    }
+  ],
+  "curve_definition": {
+    "x": "m = position of an included nonzero decimal digit",
+    "y": "z+1 = distance to next nonzero decimal digit",
+    "raw_truncation_cost_threshold": "y=m; favorable raw normalizedC<1 means integer y>m",
+    "square_gap_control": "S=sum_{k>=1}10^(-k^2); this only illustrates its radix truncations, not all rational approximations."
+  },
+  "pi_digits_certified": 2064,
+  "scan_summary": {
+    "pi": {
+      "best_reduced_C": {
+        "base": 2,
+        "m": 1,
+        "p_hex": "3",
+        "q_hex": "1",
+        "reduced_q_decimal_digits": 1,
+        "log10_reduced_q": 0.0,
+        "log10_raw_denominator": 0.3010299956639812,
+        "log10_gcd_cancellation": 0.3010299956639812,
+        "log10_C_lower": -0.8489592790486611,
+        "log10_C_upper": -0.8489592790486611,
+        "following_zeros_observed": 1,
+        "zero_run_right_censored": false
+      },
+      "best_reduced_C_q_gt_1": {
+        "base": 2,
+        "m": 3,
+        "p_hex": "19",
+        "q_hex": "8",
+        "reduced_q_decimal_digits": 1,
+        "log10_reduced_q": 0.9030899869919435,
+        "log10_raw_denominator": 0.9030899869919435,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": 0.026095820360704392,
+        "log10_C_upper": 0.026095820360704392,
+        "following_zeros_observed": 2,
+        "zero_run_right_censored": false
+      },
+      "best_reduced_C_m_ge_32": {
+        "base": 2,
+        "m": 32,
+        "p_hex": "6487ed51",
+        "q_hex": "20000000",
+        "reduced_q_decimal_digits": 9,
+        "log10_reduced_q": 8.729869874255455,
+        "log10_raw_denominator": 9.632959861247398,
+        "log10_gcd_cancellation": 0.9030899869919435,
+        "log10_C_lower": 7.54446616318801,
+        "log10_C_upper": 7.54446616318801,
+        "following_zeros_observed": 0,
+        "zero_run_right_censored": false
+      }
+    },
+    "sqrt2": {
+      "best_reduced_C": {
+        "base": 13,
+        "m": 2,
+        "p_hex": "ef",
+        "q_hex": "a9",
+        "reduced_q_decimal_digits": 3,
+        "log10_reduced_q": 2.2278867046136734,
+        "log10_raw_denominator": 2.2278867046136734,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": -0.451543092751368,
+        "log10_C_upper": -0.451543092751368,
+        "following_zeros_observed": 2,
+        "zero_run_right_censored": false
+      },
+      "best_reduced_C_q_gt_1": {
+        "base": 13,
+        "m": 2,
+        "p_hex": "ef",
+        "q_hex": "a9",
+        "reduced_q_decimal_digits": 3,
+        "log10_reduced_q": 2.2278867046136734,
+        "log10_raw_denominator": 2.2278867046136734,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": -0.451543092751368,
+        "log10_C_upper": -0.451543092751368,
+        "following_zeros_observed": 2,
+        "zero_run_right_censored": false
+      },
+      "best_reduced_C_m_ge_32": {
+        "base": 2,
+        "m": 32,
+        "p_hex": "16a09e667",
+        "q_hex": "100000000",
+        "reduced_q_decimal_digits": 10,
+        "log10_reduced_q": 9.632959861247398,
+        "log10_raw_denominator": 9.632959861247398,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": 9.611642145831487,
+        "log10_C_upper": 9.611642145831487,
+        "following_zeros_observed": 0,
+        "zero_run_right_censored": false
+      }
+    },
+    "liouville_decimal": {
+      "best_reduced_C": {
+        "base": 10,
+        "m": 720,
+        "p_hex": "1850d26d211489d8ec906fcc2b7e5cca996bb70c3ab3be984783071932a1e4e945be170d91da6fb7dcf8cc5516b3d34b98858dbcab6e739c0c390e8674e54e6f0f746fe628fb43e1f58ac272c048dea48c6bd0f0d7f146bb26881e1705a7d4c0fa91551fb986fde4d3283edee76b9fb7b6bf73d0164be30b26df6a3b8450534bb325292b5d43c2ec580d9ba9a3b50a9780c6af08e0ca8572e2f264ccd38fb42fcc347331cc3dd6de8f3f835b867fc6ea91abe0c84f2560f2dc896d80072eb9a7946076dcf569397f6d9f7ba99c983b2b5fdd0fde9afe1735cdace3f2f46564a1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+        "q_hex": "dd0cc6b927faa12d3d125d6abd7b2ff5e6a1b9ba2643c066a2fdfce0685efe8341cbc04801be6f9ef00c146a14c2402610a2de4900431e90932f1dcdf17028495b45b36350806862a4ab681d92f41513ca50e79add65fe91024f87f57a7c7df468af9d8929eb199d29fadcf9543efb5d4c430e0de0b4cd91d316e68a9cce947b7973859837858a2df4cf02dead8ec24577ce00531d09770023e14676a4af64cb11212800fe4931b5b22c799a912c320665d063b7785db096d40d10b25f4cd92c36e0eeb590a6f7c3cbc157c3671b9384c1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "reduced_q_decimal_digits": 721,
+        "log10_reduced_q": 720.0,
+        "log10_raw_denominator": 720.0,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": -3600.0,
+        "log10_C_upper": -3599.698970004336,
+        "following_zeros_observed": 1344,
+        "zero_run_right_censored": true
+      },
+      "best_reduced_C_q_gt_1": {
+        "base": 10,
+        "m": 720,
+        "p_hex": "1850d26d211489d8ec906fcc2b7e5cca996bb70c3ab3be984783071932a1e4e945be170d91da6fb7dcf8cc5516b3d34b98858dbcab6e739c0c390e8674e54e6f0f746fe628fb43e1f58ac272c048dea48c6bd0f0d7f146bb26881e1705a7d4c0fa91551fb986fde4d3283edee76b9fb7b6bf73d0164be30b26df6a3b8450534bb325292b5d43c2ec580d9ba9a3b50a9780c6af08e0ca8572e2f264ccd38fb42fcc347331cc3dd6de8f3f835b867fc6ea91abe0c84f2560f2dc896d80072eb9a7946076dcf569397f6d9f7ba99c983b2b5fdd0fde9afe1735cdace3f2f46564a1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+        "q_hex": "dd0cc6b927faa12d3d125d6abd7b2ff5e6a1b9ba2643c066a2fdfce0685efe8341cbc04801be6f9ef00c146a14c2402610a2de4900431e90932f1dcdf17028495b45b36350806862a4ab681d92f41513ca50e79add65fe91024f87f57a7c7df468af9d8929eb199d29fadcf9543efb5d4c430e0de0b4cd91d316e68a9cce947b7973859837858a2df4cf02dead8ec24577ce00531d09770023e14676a4af64cb11212800fe4931b5b22c799a912c320665d063b7785db096d40d10b25f4cd92c36e0eeb590a6f7c3cbc157c3671b9384c1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "reduced_q_decimal_digits": 721,
+        "log10_reduced_q": 720.0,
+        "log10_raw_denominator": 720.0,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": -3600.0,
+        "log10_C_upper": -3599.698970004336,
+        "following_zeros_observed": 1344,
+        "zero_run_right_censored": true
+      },
+      "best_reduced_C_m_ge_32": {
+        "base": 10,
+        "m": 720,
+        "p_hex": "1850d26d211489d8ec906fcc2b7e5cca996bb70c3ab3be984783071932a1e4e945be170d91da6fb7dcf8cc5516b3d34b98858dbcab6e739c0c390e8674e54e6f0f746fe628fb43e1f58ac272c048dea48c6bd0f0d7f146bb26881e1705a7d4c0fa91551fb986fde4d3283edee76b9fb7b6bf73d0164be30b26df6a3b8450534bb325292b5d43c2ec580d9ba9a3b50a9780c6af08e0ca8572e2f264ccd38fb42fcc347331cc3dd6de8f3f835b867fc6ea91abe0c84f2560f2dc896d80072eb9a7946076dcf569397f6d9f7ba99c983b2b5fdd0fde9afe1735cdace3f2f46564a1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+        "q_hex": "dd0cc6b927faa12d3d125d6abd7b2ff5e6a1b9ba2643c066a2fdfce0685efe8341cbc04801be6f9ef00c146a14c2402610a2de4900431e90932f1dcdf17028495b45b36350806862a4ab681d92f41513ca50e79add65fe91024f87f57a7c7df468af9d8929eb199d29fadcf9543efb5d4c430e0de0b4cd91d316e68a9cce947b7973859837858a2df4cf02dead8ec24577ce00531d09770023e14676a4af64cb11212800fe4931b5b22c799a912c320665d063b7785db096d40d10b25f4cd92c36e0eeb590a6f7c3cbc157c3671b9384c1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "reduced_q_decimal_digits": 721,
+        "log10_reduced_q": 720.0,
+        "log10_raw_denominator": 720.0,
+        "log10_gcd_cancellation": 0.0,
+        "log10_C_lower": -3600.0,
+        "log10_C_upper": -3599.698970004336,
+        "following_zeros_observed": 1344,
+        "zero_run_right_censored": true
+      },
+      "bases_attaining_S6_same_fraction": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "same_fraction_reduced_denominator": "10^720",
+      "S6_C_bounds": [
+        "10^-3600",
+        "2*10^-3600"
+      ]
+    }
+  },
+  "verification": {
+    "independent_full_prefix_checks": 126,
+    "fresh_methods": {
+      "pi": "MPFR const_pi directed endpoints, distinct from scan Machin formula",
+      "sqrt2": "MPFR sqrt directed endpoints, distinct from scan integer-square-root bounds"
+    },
+    "saved_candidate_checks": 567,
+    "liouville_S6_compatible_bases": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "all_checks_passed": true
+  }
+}

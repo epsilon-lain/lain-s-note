@@ -1,0 +1,1998 @@
+{
+  "method": "Pure periodic templates from only first ell digits; all digit and score decisions certified by exact Machin intervals; no CF input.",
+  "budget": {
+    "bases_inclusive": [
+      2,
+      512
+    ],
+    "periods_inclusive": [
+      1,
+      4
+    ],
+    "digits_certified_per_base": 32,
+    "atan_terms_per_input": 100
+  },
+  "pi_bounds_hex": {
+    "lower": [
+      "0x15a0bcfe7060eebce074e24f89cab70cf9992fdc510836c2d91ea681ed19bf78e7389b6b5b2eee9c7345c6155375f0a36c9bc435079709a004f7b8408815323ec254d1c2b700d8c956f68d420ce642ee267c487465beb652e20b00abf2de9d81a2541accf22decc64e71f6f74eab0cc414f24e3049f786994256ab0b8997307c79f3df53039ccef727128f78de9fe391e39664981c5decf2db3bda14f71b69e15a4dc348b26f673b7a8cadf7f07a9eb018a1cbbf339abc55c755baf554b4ac216965105135a9a4c0fa93bd931ceff7dcf1d823db6551f11a10e2f2e19d692b88901eec2b2492bd246bf908bac8ae1a46ff576051b6fd0d59cee23c51e894c972e7c177890ec30e8ab44c5310426f03c727c72143f95b56379b9765eef69d3c5b140814c",
+      "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+    ],
+    "upper": [
+      "0x26c5a1aabaa49e335880d461771642c07b0c0bbe41890da865a51117e299da8293759977587f5693475274f3a79a9b0e3137266aa7bb8d0b4e698ffa1054894478b01fd709d22b5bd24b0a2a407e9b4aa723fbf3d0ebba0b4fa6af8c511db0ab0ee31079ac91a16645db73a2c7dced66190286c01f6f31de691b37ab0eb448fa2e7d8e91283590986e44e34ac580c079f9d12e7bb2b8df4b3ac69ceef4f82fae1ec794e85d338179ef8cee75475e30325f8acae76cef5a5217feefded8635ffbbc08891d51709ca66fab2d403b535a0c031e4af2f575e2f10813310c5d11e20e9f61e1dcbaeea606dd40cd6a08b5be689fe3ca7b0a6406f6ee3f1c751f6c2584260bb3492e4b672a673e694fa94274727a558c730063b243a05b0b3c470743692ec0",
+      "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+    ]
+  },
+  "candidate_templates": 2044,
+  "unique_rational_candidates": 1748,
+  "top_quality_unique": [
+    {
+      "base": 114,
+      "period": 1,
+      "word_digits": [
+        16
+      ],
+      "p": "355",
+      "q": "113",
+      "raw_q": "113",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.0034063119301380705066389040276716863",
+      "quality_upper_approx": "0.0034063119301380705066389040276716863",
+      "side": "above",
+      "literal_prefix_match_digits": 2,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 6.832890014164741,
+      "word_cost_bits": 6.832890014164741,
+      "template_cost_bits_base_plus_word": 13.665780028329483,
+      "reduced_denominator_bits_log2": 6.820178962415188,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.98253308710372422283779624499846106",
+      "representations_in_scan": [
+        {
+          "base": 15,
+          "period": 4
+        },
+        {
+          "base": 112,
+          "period": 2
+        },
+        {
+          "base": 114,
+          "period": 1
+        },
+        {
+          "base": 114,
+          "period": 2
+        },
+        {
+          "base": 225,
+          "period": 2
+        },
+        {
+          "base": 227,
+          "period": 1
+        },
+        {
+          "base": 227,
+          "period": 2
+        },
+        {
+          "base": 338,
+          "period": 2
+        },
+        {
+          "base": 340,
+          "period": 1
+        },
+        {
+          "base": 340,
+          "period": 2
+        },
+        {
+          "base": 451,
+          "period": 2
+        },
+        {
+          "base": 453,
+          "period": 1
+        },
+        {
+          "base": 453,
+          "period": 2
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x18619324b04688807f3415c048d16d8c02bb2f4a6a6ef81e4edabc87a687be836edb7e7c9707e87d7f44786e0daff7c36305734e4c022ef229c7245459b3b870def7606b458aaffd23607fe0c0f8b777793c27d7e90029a23636d5fed3a9d8aa94845e6c85b0411205c76f8cc7cfbe4fc44e104032829f1c3c619c97705cc9e498a83b6c727f5576becf8d1d5f9427ca0888acf29fe80c246bf6c939cae1e0fb819aea5ac6049973e9939ce6a8b4b3526a7d99c833db5e4eee65d69dce8229b7fed83b5332abeeb77304dece2126cdaaad6425c708f60475e76c28914ffd40984d37548a6ad85eaf6c8faf4cc4b582c166beb1a03df1e4b539c3be7cc215f074361b2f8719fac5b9f8a93b4234e56bb52dd633a8c4baf2d2a4ef427ef803a37d",
+          "0x1bf5a39c756f16b7e27ffdf250c516e077736ebd2dadb2db69b6425217905a87fc4ec6b720056c542d2e6f053c5feea29d84de42c63bdeaccd13ef394085ca7d4736cada5569ca911f3ecb06accd067873519661fadb102d6d392bdb0de800f6f75bcaf1c275b88984d086fd1ea3854e3993f77161e72edf0850eb0abc0e3ddb25dee879badaefe5cf4b5e275a9b3abd49f6d2007d157b5a0844f88fd2a1a3cd77770d1d8a80679e2d84a66de7d2ad54e9d8bd6ca0614d2fcabcd9de3ca7801713bc3462b80c0cfe71bdf098d8ea8b49f202fc2e72e684f6c83fdbbd1a4857d07acd05fa345770839d8bb38cd56cc96fa90ba869841aed1c24b9406b5b282e5076ed115f9b850938349629c791124e73cf7efd57b97e4d5cb2bb23b22f9fd6e94f"
+        ],
+        "upper": [
+          "0xd99b07b7923f1eb37eabb4da20f3e59a75042c46da2ce5c680fcfa19431189c30f75a8b69ff96bee7b483074a4f642a541fb017b9277ce9a2d46afd4ab394b3057779dc3f9e7ba1f16bf3f19df4cdbb528a756b0990fc98c8915173485d71a6a76fa9e262cbc476842787eeb4b46ced683dbba18f261e3e034f9fd47e1fd5c8bd79009eaaac5fca8c616958d556705082768d56f797c2cae7d8091a67cf4840a0205ccb9da2d105a17059e5b94c911a7be8caa64d8c1a59a2759491ea3668f8cc9d4e38019a61dcfc9c3de58b757f016978af6a27894986a1abc11ab15edafc02f3d84dfda9ff757568b0fae7701534015221936d681b6cf98bb9aeb99948348df89607712a8c28232a3c20bea662d81988c1f34df36a8a536968ac0af80c22cd9",
+          "0xf98b0c229e5b34530a4ebf97b429eef070849d1f6835352adad0cf85b96e6b347e15f85d8a3bec2beda6a0b702bbe3bc91296df3e43a6d72ff26eb1180dfdd877cc1a1741a1629e6ad4f1e330e31e1f3477a38782a7c888199986204d065451717a243c00ff1cc05efd4a8a2bb935e36879295b4e03d7717ccbe0c06a5ddab31e3b8e3c29e4fe348ced0a118c28e53bd088063d1e18372e4a1e2c6c5e17a6bc38ac3a17f37de45c40aa81f7cd822d8884e515b9a0741df05f3587c2fdbfd34f1ce7fe0309a16c140b715aec42fb0dcdad05a151429be9f1fd993dda45eefac3cac7f39b579510d2049c29397cd7db3211b1e2b10a08a14a4aa2a0a315eab8a7b84cb25d226e09b722980debaa4d36d8f4e9d5cb9135b778244009197bcf997ad6f87"
+        ]
+      }
+    },
+    {
+      "base": 2,
+      "period": 3,
+      "word_digits": [
+        0,
+        0,
+        1
+      ],
+      "p": "22",
+      "q": "7",
+      "raw_q": "7",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.061959974100131315330474219304358674",
+      "quality_upper_approx": "0.061959974100131315330474219304358674",
+      "side": "above",
+      "literal_prefix_match_digits": 8,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 5,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 3.0,
+      "template_cost_bits_base_plus_word": 4.0,
+      "reduced_denominator_bits_log2": 2.807354922057604,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.19140625",
+      "representations_in_scan": [
+        {
+          "base": 2,
+          "period": 3
+        },
+        {
+          "base": 4,
+          "period": 3
+        },
+        {
+          "base": 6,
+          "period": 2
+        },
+        {
+          "base": 8,
+          "period": 1
+        },
+        {
+          "base": 8,
+          "period": 2
+        },
+        {
+          "base": 15,
+          "period": 1
+        },
+        {
+          "base": 22,
+          "period": 1
+        },
+        {
+          "base": 29,
+          "period": 1
+        },
+        {
+          "base": 36,
+          "period": 1
+        },
+        {
+          "base": 43,
+          "period": 1
+        },
+        {
+          "base": 50,
+          "period": 1
+        },
+        {
+          "base": 57,
+          "period": 1
+        },
+        {
+          "base": 64,
+          "period": 1
+        },
+        {
+          "base": 71,
+          "period": 1
+        },
+        {
+          "base": 78,
+          "period": 1
+        },
+        {
+          "base": 85,
+          "period": 1
+        },
+        {
+          "base": 92,
+          "period": 1
+        },
+        {
+          "base": 99,
+          "period": 1
+        },
+        {
+          "base": 106,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x3febc528e599a0a0028c543d2038e5860f2bd5467a109b42659329216b0cbc9b441a2b31153fe11a487ebe5027a91af97bf1043d81394fcf1ce76ca09a3ed52f67592b53e055f379fc933dd8388d3dfb20eab89a82caf2303c501927629d01fb24710920ed2e3eeadd5585dc8c73f47702c3c50193c02ff499c1d4352e68c689e3ff0dbde295a17e08677d2c3bcb9c35cf0d8facdc941f4b2362d22f2e8fceb3cb7dbc2a732d7802ace23c31781f9ff2750738e20c62febd431cd2c53d9ffb5584545eb06f684d58d2df3cf4fbd78920c2253315de85f9c031ca5b03f9e9f741e8ab73ad2a77d6fe0b762c515759c477af402c4970a8b4145500d862e2abc0ca6e487bd2b279fdad9e813c3b5833ec13c0cb8b25ea9a141e12448ea77e828c446",
+          "0x407a6468d01f87fba7124468475392cc2d97434bc7618ccaf9025a3fed32c653b8ca90cae15adfb272a48d168601cd8175b505c9029ef7111cda6125fd496fb3314a1cf24795ed443861c9c106a9cb00e024a3f1a08b78e625ada3d4983b99bc258a8adf28f021ba85e0e3b57073dfd3be4054c18e2f424b7baaef03db79a8c52316f38ba9afc0be60a895362efd7d02e40a2d6ed750e2fea55b23176d941bb542857c495986286cc702e3125a87ce6b012812e0622ec1ace86f9863c5587afbbfcc25373ff1fe9e5f1e83a9a0a4b961625a79ce61ca768cb3ad633bee3e5792698faa84eba513251280dcc22ae0c0dcee545a954ac5ee8f4504077f69bab3f307cf1d9dc9e9a78c10c8024ed663afb241c6d013724d1072820d9b7658edff490f"
+        ],
+        "upper": [
+          "0x23a81349a02d11be2319f6b3447260d03bd67d13c41b022ac8fc578d105b73cc855620a36837492a2f107af4b50b25f312a3caba5198b138c50bc9349a47af86e9cb867c22e98b6f4dc97b2a287249171b067e0f055de7f2f67f84a454ee510863252de0f6a41230bb4ba168f512289fca2e6171e5ffec037987640d3957b70462d234e81b9b00900907ee6f56a70cdfd2aeaf63d61e35c28dd42836cd36d7a08054ed0c8ac235bbb4a55429e4231944d26ad74fd3532d39a87f3bf5095dee9470f35dc8e0209af953a8f81205024ab9d195d0c837f28c8ecc85a9e76a57d573152a380a4579eee6c2d081c39ebcebf7df8bc7580a267413a3b197aae43dca0345c79dc25065d5ad60bad3eadd12af769d5e624f25372c6b294678849e7b4c355b6a",
+          "0x23f7a2135b654f0d4662351589f7ad36e66bee281e5ddf7ff90203c9cdfdf4ad1ded9d97ee5f7e72bd5af48d510c0f84a5e6f3708a5d51bc00db7ca812e6cc02e005b454fa9df853350fa5fc41b82b57a2cac242f3d6854ec2df6ec7e0a61b43a7a6bc0cfd12d9d08777240f9e4d13c88336c2a38a1dc1d1789cb2b6825b0d3f0706baf33c0adc83a30884eeff4ea2ed347d9b72d27689b3e464ee4846b3ee39e5f5aa8ad37b238660e2072690c8f0d790833c8cbb2b2078b1c4971fb6e42b390e6a98265a20aadfdbb1d1ade8d53f2de7d383b0f26cc7ea24420c0709c3d9cdf8359a46e41911e453c62ad2f0e21e10334168d1be529886c10419a1e42cf8346a52d4cc549fb85d306e5458f139e6f98d9ddd5d49a5ac53c14fc16490764298abd47"
+        ]
+      }
+    },
+    {
+      "base": 2,
+      "period": 1,
+      "word_digits": [
+        0
+      ],
+      "p": "3",
+      "q": "1",
+      "raw_q": "1",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.14159265358979323846264338327950288",
+      "quality_upper_approx": "0.14159265358979323846264338327950288",
+      "side": "below",
+      "literal_prefix_match_digits": 2,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 1.0,
+      "template_cost_bits_base_plus_word": 2.0,
+      "reduced_denominator_bits_log2": 0.0,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.25",
+      "representations_in_scan": [
+        {
+          "base": 2,
+          "period": 1
+        },
+        {
+          "base": 2,
+          "period": 2
+        },
+        {
+          "base": 3,
+          "period": 1
+        },
+        {
+          "base": 4,
+          "period": 1
+        },
+        {
+          "base": 5,
+          "period": 1
+        },
+        {
+          "base": 6,
+          "period": 1
+        },
+        {
+          "base": 7,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xf98aed52e5c258410a7dd42b917e967349361b47984f6c5d227e550bd0ebf97f0929ed1d4e1900908a8ba82dec03ba4158266b682373b11079afac053aab191bb18b35eb1823318f7e90f23329820ad401dae7f3ba87c6a824b40f2cdf3bd9c90f5cd17cdc19b390a88d4256c4ca67f199dc6c61a8704dfa14b06cbcbce7e148eb01f9582292579074ab23a205bc03ae7244552d83dbe08f15e541768218161b41b25afaffb1d550eae3dccb573c6450a66ffa6420f8b07941d82e1eafa74fa61ddaf32fe8e2a26f6ca22c403d849595b9af3cca1d7a4e9e1105f992cdb5774a9824946f9857de4fde3e23a85c4303b1e8d12146b39fc46e0ce199f28ef6ecceb3e757ba2b57ad317cf8a12feac425db757b2768113443839699e237a9541d695d187",
+          "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+        ],
+        "upper": [
+          "0x1bf5a028b22831dd7915719962145753cde3019be0c09cfd8a8b7452d65b2a080594852d918281fcf7df7efb8a7920cdaa034183b3a452c7ad82a313fe35e2093629137eab7141da5eae35069ab1bb9266ef1d011bba39f2803fa793db37764055482bb880fbe082afb50e1984a63df82c39614faca0ecd1118106bd7ad6d10fb5760b7f5c5a4eb1cc4159ca88531b150df56650d156cf301d347c8810c23c50994ee8a3ecb784379464611bd6234aaede0c810948e811bce86db5d8e11915d2ce64fbe97b8a7717f0ca7a5d414c39917a45701734ea0de3ce6a110f34415c58cc462f2679edc0893a0cea68a16afa9c3095a7750745efaa99dcc26f5b5f02f988fc547935a3bf4f99b8ffc6427368f1e9062f7d5c171d1dfad3af751f699d23b23",
+          "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+        ]
+      }
+    },
+    {
+      "base": 27,
+      "period": 4,
+      "word_digits": [
+        3,
+        22,
+        5,
+        26
+      ],
+      "p": "104348",
+      "q": "33215",
+      "raw_q": "531440",
+      "gcd_cancelled": "16",
+      "quality_lower_approx": "0.36586380906794851030949311816170268",
+      "quality_upper_approx": "0.36586380906794851030949311816170268",
+      "side": "above",
+      "literal_prefix_match_digits": 6,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 2,
+      "base_cost_bits": 4.754887502163468,
+      "word_cost_bits": 19.019550008653873,
+      "template_cost_bits_base_plus_word": 23.774437510817343,
+      "reduced_denominator_bits_log2": 15.019547293966076,
+      "cancellation_gain_base_digits": 1.6824793428572198,
+      "digit_match_quality_upper_bound_approx": "2.8476455332748289417393203486457837",
+      "representations_in_scan": [
+        {
+          "base": 27,
+          "period": 4
+        },
+        {
+          "base": 81,
+          "period": 3
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x50338f66e28c92e1e9ebbf7dbc764cad48f79520c7a1adedf445f2dceab32a524ec83700d043added894ef344234ca761cb6e487155850ff1106d7e54e81dc17633a2e20570dc2f552fb696274bb8bc633f030424cb98046e3d309fc130ed72905a45e4dca857bd7f81b66669b1028dea9eee0425180d2c7da32970612e22ff31dc1f35a789902a7483432b19eb619b68aae8604a17c605e9991daad4f4277c3d45aa4bf7c79511c92b3e088c7bc26ee50a88bbff394f3eb0dcb372541c1af25f51fa931a57f2652ea858a43aaa07b27691be2d89cd4832a1dc6cab565b26dd0d3d9926e476897686a560891c3bc1f7be20fae0f8ae5876cd0abe2dfb877bb90b8a13adb73580a10a957ea2210f6c44ce754825dcb774e41b7230b0603f3c",
+          "0xdb360a71b6940492e4516ff68c781bbd09c977666c952a6ed47071e7a1a8ec5a929d5404ea462ca9b1fa102c9512ab0adb624193b482b3f9b9f4bec4e67bc0386108d98e62c7b651170ec753c174e654726399b4ce31aea50bc03725e490d43586169f81fb4fe6e4cd0eb84c9d25f9b5c1fae53b4d4424312ecaac7648df89f3dac8cfbf410660822ed8914be0603e37949fb654e691ae40bf8b707985eb7fe0b119aad44c7aff9f697726d2f5f992a78848f7a6a1d39238494f16c7bfef699f7b032271881393ac7029b58cdcda31115acbf9c7a7502b2175b39f685761fdb4d0ccb2845f5665f30da7907e590e7c7a4b1c36785353aa27e9a7f9d99b99f4cbf7aa2f0a9070112c22334df53254b91d8154b8eb2729856f1125b03973317"
+        ],
+        "upper": [
+          "0x2cbcf61ec9fd385d43c4ced874b88a445f4b912a1909f743a60db57ca3269b7ed16e707645745a5b3891b2ec637617c997314aa71f5d3d24f370cdef80d7dc9fb97f99a9b318071379ae0837e1c4bf78b11456752623e8bd03b5d1dca940338371f863a43a5ca6e2e4f9bf96c2ca1548abfc672a66f1b6631a15ab988d33dacef1eb34beab3e944cac66cc349cf3fe16c6f2b6f372dadcd7ad0a8fcded629a27628fe82b76e04b2006462bd9b0cb55758ac7750cbf623d918f6a7dfdcc62593bb760a5f870d459a728097c337aa026f15694681edbe24169cd8dc38ec97f8b9be7df8ba3052a0e0d53eb8dcbf5595d1b423a42c90732de34a23626720a2584a8eff082d74a3ff02d99c0a9b6ad999c260a4235487d381f49929e81f17968f430",
+          "0x7a47e4856072dcd763b9d66b02030773ff4ab99626e7a352917f9304c58e1257e9d990f0b6369c2102807e498c8bd374cdc31df1fee67aa3aba206dd82a8a55f4a1ba8bcd9377d2868aa242f2366e44b0a942a117ad4638b0faff833ea3b475ffc9c27978b4f5bcb90b7341f09736a819c6b3cd0c5ba717a90b435fcf8c908f3547d85aa7bb5b83fe623004f3f826810eb488044226d32ecb68723cef2c41970c68ceb984a3b85750044ba5abbd0b5b5a88533ecd93ed2550af40f6285154ea2e77f1894b2076b9f846fddc67806bdff00d9d8e15a8c6ad1bb6b4a3fa4343d349d90250d0159f3cdfe396c758f45d2c05e340155a7bdd6677d3c71782b42aaef81f0bff21727d5610faaf19d35688164337f05c2fe5a6103cee1f22786e1398f"
+        ]
+      }
+    },
+    {
+      "base": 107,
+      "period": 1,
+      "word_digits": [
+        15
+      ],
+      "p": "333",
+      "q": "106",
+      "raw_q": "106",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.93505573491682736626105452849440684",
+      "quality_upper_approx": "0.93505573491682736626105452849440684",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 6.741466986401147,
+      "word_cost_bits": 6.741466986401147,
+      "template_cost_bits_base_plus_word": 13.482933972802295,
+      "reduced_denominator_bits_log2": 6.727920454563199,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "105.00934579439252336448598130841121",
+      "representations_in_scan": [
+        {
+          "base": 107,
+          "period": 1
+        },
+        {
+          "base": 213,
+          "period": 1
+        },
+        {
+          "base": 319,
+          "period": 1
+        },
+        {
+          "base": 425,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x1f17dd7f753527a28846e266409ff639810d0cebc2bc5c48b70cacfc2b27a321bc496dd9e45c60d76b5f02900fd5226c5ba71202d7f34c17d924a7380c69526ca68726b8e60d1d0a202d73dd00281658c10099624e9f08fb661e716ce3bfcc040971a8d11309f861b6d9de2bf9067ab1f61819cc6621a2468e4fd84be930807844fcfc49dad247be72ce2dceba277e633753ec5cad6b3f84a649f31dbec05e1bef0a0eb1622ea96232cdc8f0dc2c1cfa0325aad08c4daf5dc02a694d445dc3eff13bb773541952d66f3aa093f94b1664949025505ca52869e5b19d2847aa1d0eba7f095860cf5d0aff8ba02935166e4e7b97aa29e206d55a55484d422a42de3273f2b8ddf776c5df645d24f53ff30cc2197f848159f46008af76d6a2b295f2966a61a",
+          "0x2140b7a7a1c7ed4fe54c4e0f154a6b02746d71eb20e7b1a69dc311fe325eb6bd0859446aa74022caaf1077d4c3af6075ce83684fe55b1b438cde3e1dcdda355e6e82dbdaa414767d3ab786232e44d5f53f8ffc0d98fb766aa0d83af2c13422ddf1f1181f543ce65b5b6e262b6bb65abe35b0365d3c11d9d4fb95b3b739b99d26f32cdd247ff6b88d05d2be8604308cf848ae16f63b5570d1c97f1febe0c35500658285852dc8c9e680366736f9c84419689ff92fff27df3a740cb25c1d03401c99676131f2b8c49ea94d74924b2f6ab6843779c092d87edd4cfe4514ff5e204f549229330cd862a79f9091db2bfc860efa414d96712a8d03d442954863dc4ae801b20387c6fdee12888ca4eccbb31dfedeb3c2ff4dbfcf9f8c149aa56d6881316011b"
+        ],
+        "upper": [
+          "0x37bd895d7f85df7b013c6189fba025fa3540e43f15f9a9e9dc430e842e5e158ad4b92ecdf969d52604705d95469897aac5acd8cf347a217754f6f0c3de43931898b017288dc01faac2ba151d6ff9a4cccddae937829f9396f059a85678a20e0a6ab9df3ff67d168b5d9f4641e155d66b82e2b040e0e324b7ce10d67559baf424de4ddb8f4d5deea359dcee6c7993005f811acc5d5bc1cb49761e8a56d528111b5b0aced06f3bbfcf6f72cd717bca428d819156923a6ee828fcdc6cbf5a4ef79763cc2263bb15ebd0499d4b98c01a4a615485c46794a34e7f3fc23752580cbdd87afb968e70532b60eb2e476892e520e3368aa95d0217b9c85fed35d98cd21cd0381335f94df6c86c76bfc23d68c3a3b9de566d59dbbd5bb4aab21e4d90c23374da",
+          "0x3b9ca074392ba45c95a1cb51eafffba49e13179357baca9eac40f7aa323d6ee7f820b62aa9b49e832b32b2bde153c7a7fdbaae67b9f866d5dbe20c888e65b48d84834fe4d316afe34c47164d06290dcbad6a53f2b63d52cb1e01238a9667677da51f7b8f8673be944b78f92a292c562e06d60abc9b9ac95defeb50e695c76bbb16c7efa7c38581e5243b417f609369ea858bd30f8845f3aca2896410d4671e7272a20d78f229eb6965e0db9836b784e0837bfe218fe79ae84fa5f7271be2b553036f74853175777a449ea05e0871a68f2aa0ee32bb03a2bc0b8cfb241639a3137015baa187bf4200768a752770183e61fe275893af64e162a53daffd0ace6c67ef1198f75068ed03e8df8e359113b5c1c8e3479e0de6a4f11c76d82e9f8042f643"
+        ]
+      }
+    },
+    {
+      "base": 3,
+      "period": 2,
+      "word_digits": [
+        0,
+        1
+      ],
+      "p": "25",
+      "q": "8",
+      "raw_q": "8",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.0619298297467672616091765298881846",
+      "quality_upper_approx": "1.0619298297467672616091765298881846",
+      "side": "below",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.584962500721156,
+      "word_cost_bits": 3.169925001442312,
+      "template_cost_bits_base_plus_word": 4.754887502163468,
+      "reduced_denominator_bits_log2": 3.0,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "2.3703703703703703703703703703703704",
+      "representations_in_scan": [
+        {
+          "base": 3,
+          "period": 2
+        },
+        {
+          "base": 5,
+          "period": 2
+        },
+        {
+          "base": 7,
+          "period": 2
+        },
+        {
+          "base": 9,
+          "period": 1
+        },
+        {
+          "base": 17,
+          "period": 1
+        },
+        {
+          "base": 25,
+          "period": 1
+        },
+        {
+          "base": 33,
+          "period": 1
+        },
+        {
+          "base": 41,
+          "period": 1
+        },
+        {
+          "base": 49,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x74f8b27157d7503eed913c1e91c6460c178422477941cdb53547f75f0ce1fb6ac76a1f6ae84068470afa39316e676cd37fff615b4fe071c3d1bd41ff1b95de2855a1158a646e8247664466285be8056cf304086694175896ec6e22927d09cb2ab1fe46b53818f5cdab4e15dc6cc93b15d8b410dfe9e82b5c47c2987b79e8c09b7fe301194b3f43a8b85bd5a8a7e97706430bf438eb175484fbec37ef44280be284c699a2c17e6ee765edc3fc81b684a145309e189a422658041041f1bdc71ba296383d14036a2f512c041fdc2da9ca7236fed8b94280188fcbc5bf9ec79784f41f710df58cf942e57481757163682e3abb81fd08179778d2baa1f3cbe58df236a2b0015a94158fdad153723c9505fc8bc850ee32b876100a5a4586bed1ff1609028d08",
+          "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+        ],
+        "upper": [
+          "0xd1b16e249f07f3c8c81cda5db19648691bc676379b5145f5ce237197636e86fe35be6ff9cf6e16a9ff203e3acb1c0886bcfd533028de0cc81dc278dccff151a752ad1a7b02774190463172ad892ef70448458fa711356a9974cbb71e3c295993ba48a3c4d3fce6521d3dbb83e6789247593037650cb55c0b0a65cf80348f9d0f81d090f95941ba3ad0342af295844e7caa603b18ba7612a879e6464633e26d4d75f3c3f61c8a2f7c0d518bb3ded36a79e6ca73d8d48ae62ddcbf60abe34daf9bbe356a9543f4e7d41832fd94734aa68ca7b35d8cdea3207c686c4490c35fb4aff74bf7e5ee23cd423de57993403c31e7565731f8298a95f05c4de4253962859fffc2c8b396134afed31bb905184febeaf604f57a95673489429e7c7457a05a6e9c8",
+          "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+        ]
+      }
+    },
+    {
+      "base": 11,
+      "period": 2,
+      "word_digits": [
+        1,
+        6
+      ],
+      "p": "377",
+      "q": "120",
+      "raw_q": "120",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.0657883069773661379352807751584676",
+      "quality_upper_approx": "1.0657883069773661379352807751584676",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.4594316186372973,
+      "word_cost_bits": 6.918863237274595,
+      "template_cost_bits_base_plus_word": 10.378294855911893,
+      "reduced_denominator_bits_log2": 6.906890595608519,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "10.818933132982719759579263711495116",
+      "representations_in_scan": [
+        {
+          "base": 11,
+          "period": 2
+        },
+        {
+          "base": 19,
+          "period": 2
+        },
+        {
+          "base": 29,
+          "period": 2
+        },
+        {
+          "base": 31,
+          "period": 2
+        },
+        {
+          "base": 41,
+          "period": 2
+        },
+        {
+          "base": 121,
+          "period": 1
+        },
+        {
+          "base": 241,
+          "period": 1
+        },
+        {
+          "base": 361,
+          "period": 1
+        },
+        {
+          "base": 481,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xef737608d68429045205191547860fbd6bee265664db4be7d32cb0e7aecdace1a413adffa9b303553d8ea8621d0e424c0dbfb5cea0b3e7407e5e16c0cb5f7fe7efaa7a4dc7d692d8635395d0d98f0fa4feee4c1d5efe34397c9342e855141726c032f2071387dbfe7ec5eeef4637d2bef743e00807272fcdd9a3ae875323dadfbeacbdd10d77220525bc7a261e27bffa498c848d70060ed576a3d3210164ad5248d20a90705491f4406b21af4e9e38fada969dc1854e3a2b9c19ab18d3599aa343534159bb35cada41c195aa8b2e7e4440fd2660d01e826b0e65ffcf6bf1ea0c3401ee68f77147ed7b356f90197750c544e4de7562644a0dae3458dbbb1b8af79d86fa860a1c9785d80a40b517da8e8b847f093550457555279074a8be7008948",
+          "0xe0ab9b4fa1fe5dceb7edbb295ca853b41ae06b0edfb1348a5bb1b9e6b685afa56e46f2d5212a70b8e2862fe1414df62bc5612539908733ee42674bae7840bcf6a4eb7cc166a9b358a92739e1711a289dc9e2a87adc5a0963ed19e8f026ed41c7566fd3f63f00758683fc45cfd2eda46019c3b6b0161e69d85e218bed9536231c23cbfd902d2145b85b0a9073fb57f59604f95d7490f56fb276c9823d27596882f7b817782ffa26755702185b42466fadbd7cd7f5f5669e4cd5b6e8e551344e17df6fb96d75001f987a16213dfdb0e33ed98d2d8bff69dccb8c3e93cd6961c2c66a221b8d29b6a91bea00baadab0609d572c8a0e4edc99371821df7fdf463df1cc399ee979574b2c28104037da7e6290a23c5d19da507f998195bc98111762d4bf"
+        ],
+        "upper": [
+          "0x8592344a2f5ca82b8d7149eca711eb83dc703b949b83dbc4f1d0bcb628682011d149c9aaf78a1eb4eaa16900bff9110459759cda83993beccb77592228de69973e59ad56c8b9fb9c662f8725719939dc813efcaa945ae1d46bbec73eae6bc36099db5313ad270eb9e1c6569854b034e4fed15872df6fe997929e3f1eda4887b932fb3478e4375aa07bba75229ff2892427f6826f168f715490b0522b56ed4104069378137a38581ad2758179626bfcc615b03ba70676edfc60deed536682a0549b6fad8966edce5d62e26cfe1fe1ce68f85e003bd23039dddece11cfc6206871c694adc28bd56ad05b389504cfcd93c9cb262d9a65463accf3f9893704f452745e93a74d27640044593ae5f672e4e7b0f7070f15fc783a728bcedf05e9a1612ec288",
+          "0x7d537c6c688fa75ce798306f75c9f76e839a35e11fdb01abb592f795144f591ca372925a36a2139fbb9ec70b213b175a26c529913e489443fe6fb4a263fea7020dbb214c836e1e25582d6c76f05f982965e37f58cb61d080cdb534a3fb6f29867a3be008d95bda84b0330d0338a87271db6979d5b84c615b98e36d93d6255f1481288497379d500391f7001fc6f8f9217f264fb6c697598f44c98045cc432be1a2fcfce96bb3e59911de1b310bd655fde9e497d156b3daf555ce00edf030a8cfe96a51df85235243c5c335a361e82f33ddd47ea3b9f15eb4f9380e9a3b0e8e409ae602d054d23c115a84fde4b36eea75e3857ae3f10d9896f706527ceb475c4df675f446459659723940b8ad6192018c3d198e240f6919e2fc9b05fdb31a5d3e1277"
+        ]
+      }
+    },
+    {
+      "base": 449,
+      "period": 3,
+      "word_digits": [
+        63,
+        258,
+        99
+      ],
+      "p": "104703",
+      "q": "33328",
+      "raw_q": "90518848",
+      "gcd_cancelled": "2716",
+      "quality_lower_approx": "1.3717595149721752866216399386338887",
+      "quality_upper_approx": "1.3717595149721752866216399386338887",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 8.810571634741146,
+      "word_cost_bits": 26.43171490422344,
+      "template_cost_bits_base_plus_word": 35.242286538964585,
+      "reduced_denominator_bits_log2": 15.024447124040647,
+      "cancellation_gain_base_digits": 2.5894500918111825,
+      "digit_match_quality_upper_bound_approx": "12.270986609650770084361103619424061",
+      "representations_in_scan": [
+        {
+          "base": 449,
+          "period": 3
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x10edf93a9ee548460205c960abf05fa2f3609d7e71e6f42b91c68bd8bdf1dfaf90f28cfdd535335da9b7be906ad125ec62d90651f805fece57e3fd461e0dd8818329303aa0a50a66ac686cdc1eb7ee0f2a1a639db58d019396a33df09b90b86cbd2a25db90b15351e211eea2e3d68f618d07f07119242511eda59b92ae8d84b629ffb5967c27d0ea5fc3f15b43170b2f974343efcb6803b51d9be9708c5acb3293a559cf36c11de9b35520eac460112667d97bac4e9a4872e3758c9ee7a46f0f2a132a43a14b536d70c89bb987a15abf61767ffb56415dfd77d2a1c2e901ca976e585b75b6435fecfd4fa81995f3be63f66bce81014c3e74cdeb584577216cdb41e6d4fe072ba1704a2ae035b760c9b3f9fc8a5f1ae58cc1dcc25c4c9c05bf601830",
+          "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+        ],
+        "upper": [
+          "0x97196420adc4b354fdcfe2f77d4d54ee52057742055089e5a9fd6064a7ed5c788409ec5f190876cef4e0a09d58b7e13b6c4fc77d1aceca6927f6dd10f80fa6be8c93ee8386e6809b80eb8fa4f52534649fe8259d6e937a1ff022fa941c73aaf29c26dbe2622f7e388fd0770f7548dc89ac204725984a534b12cc7ddcc7451a1eec630631f975d5f52bcc001261a7a18d2545b128e68cd1c76602aafd9572b94fce3e99ffbd44bc6ddb1aec228424e0a9259a8a06422e9ec22fd3c28f48aad08c8956bce345cc0c8ff83492e3301c0dcd5dd0cbb33c93e77eee4efdc0f65d7215132c33eb8c551d275498034e05b83dc4ae24fab00151989504a5f22b616fa0e6167947cc93f1e211988e35f01c97aad20e875b0267f053f48b3a670e8acb689db979b0",
+          "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+        ]
+      }
+    },
+    {
+      "base": 10,
+      "period": 2,
+      "word_digits": [
+        1,
+        4
+      ],
+      "p": "311",
+      "q": "99",
+      "raw_q": "99",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.7495978335635301723677995224077680",
+      "quality_upper_approx": "1.7495978335635301723677995224077680",
+      "side": "below",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.321928094887362,
+      "word_cost_bits": 6.643856189774724,
+      "template_cost_bits_base_plus_word": 9.965784284662087,
+      "reduced_denominator_bits_log2": 6.6293566200796095,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "9.801",
+      "representations_in_scan": [
+        {
+          "base": 10,
+          "period": 2
+        },
+        {
+          "base": 100,
+          "period": 1
+        },
+        {
+          "base": 199,
+          "period": 1
+        },
+        {
+          "base": 298,
+          "period": 1
+        },
+        {
+          "base": 397,
+          "period": 1
+        },
+        {
+          "base": 496,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xf19ec364625f6196e4cfe9be7e1f322d6a506642280f7cd20b4b8a0df62d38123241209e89e3e44edb5ae18c5649446126a46a4552cd330da8f43b3e5ac9e102b6af75e6db898fb08c926b2e1d4627f440947ae69880c97454937a21aae9fbcf08849ee0a6347d4731650573a0d2e1e7dd19ecd971f68eb0dbbb643c0d0c9d844b77eafbec8384cb8e616e4e26b11daec86f9a7c410e47fbac2cf1a97d56b575cedaa356b89d75ea6ff9fa81ff31be65bf13fcf204b439f14444d08a5f45a59a7c5fa8c62f5c8595b4191da1e7789a4a5ce5c1eec06279ccfac4261a40d535a0ae9b10fd8a177c7026d1b909363d0ac742b24fdcc57639df1944a2c883c58f5a70817fa2e03d96a72aad1102ee1cb38b332ef28638501ac3b0cba340ed9a810c093",
+          "0x8a19b4200261a5617009baa95dd3f961186bde47c330ccf2cf224cc34e17f6ffd26ebc1199ff77a6d89e092bfff220c8e4e75d0e1071d40a0af89f8d90be56b56476c141455dd676ba0654422e406f40a8b1576f3e9d26a316dcd5285ae174fc8f27e26b12c689d3ccbcd6a01c94f1c4b0e5107aaaa48ff4189ab29363dd03ec47ccbc6b64123216452990b5b47732f7121ab384ff816636e85c46d2e822866489498d2b86e6ac9a913872975e254e89565c829ebe0a986aba3b27cfe34b7b40c8c9c8f0a946a839c13ca91f3b39ae04f743037001c9cbcc5b42b51d9c0d37e7473fbf65eb380f69ddc0633b7bac4aff6fc7fa5e9d046742ea1ef1d0e168ba5751dfc5f1c10b3a5d6cedc0ec30469e447e913a99fbd30540a584096c2fd95958d9d"
+        ],
+        "upper": [
+          "0x1b12626528d46f85943beb743c13dccd74f9ffb96509be7d14a3d5f0d45f540487d55a539e0fef0ecaa2bb2d6edc41c32b2e7b47091a3fd47f93be03f9828ef0fce0832b2367986a0f7321c0a343351957eabcc96232b43e569354eec58e68ac295c4f548d189e72a2bca1ca63ef5852569e8ad200869eb5c6ef22f16d2c464537b5953b80e12d8fe905b171416ddb68627dbca02600d3123b69f107c92ff9b0a6158898a000db59a489e17b56855117ac99210d94ac01b5f633caf36106889bb06269ff8acddcf7c274841aefa0b2ff837da70e3bf66ecb7edde2a83315b00c28615c10f5b1762e5a799e973623cccc973ebe169c48914c294933327140189b7a5217d5bca3475e27231cd5a83a710a7611951dd3a3ebf41dbd99f845af9e977",
+          "0xf7921438b825b16b31a3ef62787023d10a93264765eb77404e791631b615c7e58b25fb5d19f7c207acbe2db537bd93d8c8928a5768f4e54d117559be23301066872f36f58e0ab07843ea57c21e210e6e6692cbfd2868db18c7353bebb73c72cc2401ed17cef1b22a70ff6b40b00256a0e77f82148c08200176891bf42b1ebd9bd5a36d7271337941a0440f4f247a50347923b543179fbb422fad63158bfa2596aa0128abee580e2b42f651d8eca510925073004f347f2ec9bc3f53da22791b84cbe59a419b05129880e37e31f939659a96dddc269bea6d4e4fc8d5a4fe5963accc6677381d0a29115c1fd576bb0b972d7f304bbd7f5330edea5ada42dbef1befbd71e8961bdfccbcf0e61900f16e7528167e4d3d94b4dd6fe38649f1a974d2b5"
+        ]
+      }
+    },
+    {
+      "base": 2,
+      "period": 4,
+      "word_digits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "p": "47",
+      "q": "15",
+      "raw_q": "15",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.8583470577034786540947612378881489",
+      "quality_upper_approx": "1.8583470577034786540947612378881489",
+      "side": "below",
+      "literal_prefix_match_digits": 5,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 4.0,
+      "template_cost_bits_base_plus_word": 5.0,
+      "reduced_denominator_bits_log2": 3.9068905956085187,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "7.03125",
+      "representations_in_scan": [
+        {
+          "base": 2,
+          "period": 4
+        },
+        {
+          "base": 4,
+          "period": 2
+        },
+        {
+          "base": 16,
+          "period": 1
+        },
+        {
+          "base": 31,
+          "period": 1
+        },
+        {
+          "base": 46,
+          "period": 1
+        },
+        {
+          "base": 61,
+          "period": 1
+        },
+        {
+          "base": 76,
+          "period": 1
+        },
+        {
+          "base": 91,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xe8e6407a1b4fe72d840795a94a3e6841274f6417c94c93b2e0ac4d44ad7326956b31ab427a91bc50ac1f2f90db4ee784f74bd77ceab9b10fc9e3954bf2d9ff7d7cc577ba1b4b909793bc6d426cecd8662d0592d3d305fb6a3004c7967cb6becea2c8d6c448d79d7de2d89f0ba8e915c1e76a7f0eee1176e5605ff478b61cf0278d600bc9a4b6189c2fc036670a9308fa3dc7fb6cf8018a274eb70f3a31a23d4301800c555c086d1e96369cf610a83148fe35dbb9e6775ed40f5ec608d4c1320483399accf40683059d427ade5f13d1479c0cf5720d5bd0abdbcde319efa2c9175b54f28f94dadaf5484c79b8bd30c14de36dadb4fa64652fdb5bf4855d11fbc85ca2db668ddc57b519f46ead3d262f482eb3ce4744f32f9fcf736fbf982ae94fa795",
+          "0x7d537c6c688fa75ce798306f75c9f76e839a35e11fdb01abb592f795144f591ca372925a36a2139fbb9ec70b213b175a26c529913e489443fe6fb4a263fea7020dbb214c836e1e25582d6c76f05f982965e37f58cb61d080cdb534a3fb6f29867a3be008d95bda84b0330d0338a87271db6979d5b84c615b98e36d93d6255f1481288497379d500391f7001fc6f8f9217f264fb6c697598f44c98045cc432be1a2fcfce96bb3e59911de1b310bd655fde9e497d156b3daf555ce00edf030a8cfe96a51df85235243c5c335a361e82f33ddd47ea3b9f15eb4f9380e9a3b0e8e409ae602d054d23c115a84fde4b36eea75e3857ae3f10d9896f706527ceb475c4df675f446459659723940b8ad6192018c3d198e240f6919e2fc9b05fdb31a5d3e1277"
+        ],
+        "upper": [
+          "0x1a183f55d2c62df3f8795aa89389d84b2bcb5102289d8d553cca089ccf77f72a2a834b8979f88c74d53c55f24d1fdf488e1df26f4b47ab1c1ba88358c1e4be44ed57ae001695ed5fadb9c3e2f70aacfe9468d42b5e7acd8ca769e47b6a7a88af92710e1a599d2bcec3d7deb29ee64b4e93471e70a095c69b6791857a35a78f2694423c87710688631961cdcf0decc4d79602d5d285a0c193348df44e625c211404755e3d71833b5d4322241245f099881d7dfba76260b2fe762468e0194f4ac0235e42ea7d47364127be277fd917ef01cc6e4c0ccfba603f3fabbbd21e7e7858bd62febef0a58b7f4a0d488476045752d22249a336850634c9d3f5f98bb4ed42a104a837220125cce9a875d88c67022b8d500ece2c02dde27daedd7ff5dc3d4cc1",
+          "0xe0ab9b4fa1fe5dceb7edbb295ca853b41ae06b0edfb1348a5bb1b9e6b685afa56e46f2d5212a70b8e2862fe1414df62bc5612539908733ee42674bae7840bcf6a4eb7cc166a9b358a92739e1711a289dc9e2a87adc5a0963ed19e8f026ed41c7566fd3f63f00758683fc45cfd2eda46019c3b6b0161e69d85e218bed9536231c23cbfd902d2145b85b0a9073fb57f59604f95d7490f56fb276c9823d27596882f7b817782ffa26755702185b42466fadbd7cd7f5f5669e4cd5b6e8e551344e17df6fb96d75001f987a16213dfdb0e33ed98d2d8bff69dccb8c3e93cd6961c2c66a221b8d29b6a91bea00baadab0609d572c8a0e4edc99371821df7fdf463df1cc399ee979574b2c28104037da7e6290a23c5d19da507f998195bc98111762d4bf"
+        ]
+      }
+    },
+    {
+      "base": 220,
+      "period": 1,
+      "word_digits": [
+        31
+      ],
+      "p": "688",
+      "q": "219",
+      "raw_q": "219",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.9252588200735099068393054682378290",
+      "quality_upper_approx": "1.9252588200735099068393054682378290",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 7.78135971352466,
+      "word_cost_bits": 7.78135971352466,
+      "template_cost_bits_base_plus_word": 15.56271942704932,
+      "reduced_denominator_bits_log2": 7.774787059601174,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "218.00454545454545454545454545454545",
+      "representations_in_scan": [
+        {
+          "base": 74,
+          "period": 2
+        },
+        {
+          "base": 145,
+          "period": 2
+        },
+        {
+          "base": 220,
+          "period": 1
+        },
+        {
+          "base": 439,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x52a1c5a6a607a9fc84e8227f0e4a3f4ccf5121109a583c7550a178f7bffe02815fbea862241659c5242999700356b46012a7870716ad4da564fd510584dfc8b356a094b8797a5587a0c6f5384d20774e1b9eb693ec1fbd5b36ce276ff87d8301f5b2194e260bacecc4d97da049a2da4048befb8db2b3901adb6ded76008b5777340570c1a3f7d2a7a48e72a016a22eb190d2a8affea02aa82bf0b2c96fd7541e7a1a253f72890a0069726b4d81eeb4ea25cf989dff3193182263fb0b016e3da5545bf792603afadc8e03c0407b35c91184a3352ec0e58f9241260f1030be53975bedaf14b78ac2cae1acd21353697b0adee2ba674875630948e33a27777f1f05723cbf2fc18bd76835922bf7fbe4aaa118cbdd4e88ebeddef22ab4d8f1555bfb0cbc",
+          "0x2aeb7ec670f5947e8068b8ea8e098cd8b2545f9a3f831ca080d023b14d17aacaaf3543a7a98126483cbf249a9b29471edfb03bd30e50f728d1e01e4ca7814aba90f9f2db14765e7d022498df16b406856907c5e9ce6b24563168238fd45aac077a84b96fbe29fa2d70f1ebe88e24a570a2cff51f1c0c21577a7efb71c0920f0705a82d6863b41ee8acba49afb45c474a9841b91b86a40d230987a3297008f9fc9d843a8f0fd7e8ee48bfca305bb99f33e363538dd40c7f96a626fccfbb765ce181085b297abef21735b3125e873a795ee9c704cb5bbbddcdc20fb0d6224099ec0af71982f6791813f86cab1d39f161d4355ecee85d12aeff18fb26c514f55ebc03bf30964ff0dc008ad70aa49523f98430fab9720c4a91a1e64a219d053a1feeaea7"
+        ],
+        "upper": [
+          "0x942210933b0e311aab4fee514826b2fda349250158621feeff0e42c852d81024cf9e94d8009f638d6e84e1b6714de9f352677a6c3fb04d992c5e5bf339807469e7db1669e88d70c76bde35a47be9de4fa7c12d14dccede09ca789c7147f1f0ed8ed7915da3d9e56deedf3e5cbf65e7d25e458b01015053eee440334b1cf09c2d8da172ebe1427febcba8d385fcdf957fcd6f48093c0548832366f7610430ce43b56997f499d491a169a9bb3f26979867a1f648fc70132e7652a9ad85a72fde0a8a268522e1d6dfdcf1e8af9db4eaa20ffdc7f5a01183b13b8a88fd588e775e3e1badbfb8f3f9470976386ac5439f3a4f34a31fef599f8ffd39447ba188cfd7d37f12a99b54b23258077bd4bd0b9a425bdff20286c5dfba280e6b54c18785cb250",
+          "0x4cf12025cac3d2f9a4b0198565de77d7fb2d4b3d340f1901cb3cdd7917eea8dd79ee371b6689462a4690257035ed1c320efe3352d6515eef6766015ed182e207510700a46ccd67808e17f442af8030fa6bb6d3fffe4fee2cbde94fc5f84a3d1a2f22ca57d673e21c8860ea51b170f227ecc4c754d9fc635f23be567ef3f9fdff1dcb1eba247f1ee3f518a8b3fe67c452f02b5119e47e22bedf0964b642141945665e9b533e0502a66e74718bf722a47e2154d63baf382f32dc7a41bb3ee0d119b5b98ca73d1c18d90a3fb034ca9b434da22cd77d1858db654511ec7af2fe6947750128ff3f619f9cd8e7b3a8300c96a7c89fe2efb721f6e0bc5769f8492cb91ee44d43aea6e8d7853db7bb0efa605b349182de94ac3e58fbfaa833795a24f6f6f"
+        ]
+      }
+    },
+    {
+      "base": 234,
+      "period": 1,
+      "word_digits": [
+        33
+      ],
+      "p": "732",
+      "q": "233",
+      "raw_q": "233",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.0764292637148771015533651390679198",
+      "quality_upper_approx": "2.0764292637148771015533651390679198",
+      "side": "above",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 7.870364719583405,
+      "word_cost_bits": 7.870364719583405,
+      "template_cost_bits_base_plus_word": 15.74072943916681,
+      "reduced_denominator_bits_log2": 7.864186144654281,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "232.00427350427350427350427350427350",
+      "representations_in_scan": [
+        {
+          "base": 234,
+          "period": 1
+        },
+        {
+          "base": 467,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x19a0536fd1b5bcca30eb4d9aaf09351e7a877cf8d5b0bad2677dd35bed7d8572deadf71f1a310c179bafa28b431fd07eb974888c222b1e30fd62735154f6ae294daceffe3968d017bdcd47191024029c26e626628d7ad21bde4ad4d5a8b1b02657551b866dfcf5041850c3069071245090dd2a5be5a148de175f881ef8d561760a5741c4f7d1e0c7b1a00b36ac875f341ae5ff30b6bc4f9c15b3b0cbf4cdb28a41a94d1bc0795f58e5b6848b8ea430af077f68d8713d10a128973f8e157bcd144e4f3e105eced5451867233360407bccdbfe50544999c8f71672c67fbdd734e463d25417a80f96082403fbd2bd7661136c65a4c1d3fcef872a7c2c7a9f3b90044ed47a4ab9debdef3ed439f9bff3766f2d627ca27250d6b0bcd66814dd0f925a1384",
+          "0xc576d380fd609072afa7f17f5a6ff1914b9f3e18129abf2d9a973463c66b7f6065ec5b6d52264d127f17f014fa65855c787a61b79806d4a4685cc98457b0e614c6f2f8a5fb3b26a0ecab79df2467fdb2ae703613fbab2240d363c5bb123686d032f8494b6d5f674b3a00b95ba862dd7876a50390c370bb072abb7bfbd02494dbbb7649dbb7aa3e47080448f5efe84ed8da5f2b237367b72bda671b77bf9594db1bb8cca0a22adbcd2178d768353fe827b38ab9cf2caf312187d5c2b18c5ef8a2fb6131f933d51bc5034d73377bf877ba3d3515080b7c0b0ee642ffe7899eec306347fa3711a98aa188aaa412a3504ea499e2556934fe2a96c35c56f633cbc71847ea4ab33a5b911cf364871170914a11e970dd3b8e0c025eae49ac1a7058ddcfbdf"
+        ],
+        "upper": [
+          "0xe4b7ef161fa75af0445eff4f5624b2c6a064887987613888d9d67e4afd32bcb0ca91de1e31676f2a39f668c541c64f0cf493a381c0cc6f2ec40c8192340e65976986e58e112ad72aed2e0fd274c8999224f25dbd80a7e781d247f67736b5f7d28576738024dcbe9e750fd8b2b9adb7b68b9984cd69c2b6daf166057f4d2f36376827a344d50b64fb94c21d339457c08d281eac4196159c8bdb3b203e467fdcdfebd4c0d1925a7a5ea7e73b71273073ff9bef8dd3bef17da1cb1e3f854072e3b509e5e808eb1e6bbcc03ecb058b675828e76958209031cbff3a2c3fd187f383921fadf905501fd0407029f3dfdbea43c9c3e2031bce7d75a7e5cc7ac9c5033a61d439ae2a96f8c38dac467a3c902ab9e38a8403670c58d57db8b557dd807302e9670b58",
+          "0x6e26605b47e64218a78cc291f686827821aa895adcff7c77ea962b9a06d9bd522ba7b2a14a04733f63e68cf0c834ef863c134988a7bdca4fc2a02dc2b9e2d0c8ce1178443f83c87ed27fec54894404bc628cf2ed0ac0f84134cc43441ffcb37f316e9fe7c709bb0e9edcde6fd4cc0c9611d7b414d6fb2191815fe34eef36d89105849c88e7e14353234a171bede0d2f670c0ac0fa48b05b6eb7519bd5887099150405a4927a91ccb88b435e61b6761942a91e96efd341371a06a0ed1201ac45ebc2671f574040b4d90d09224990d117c95f7c34de66d243d0f0a44d58de7cb06c82428791a8cc6cb408ee32601b47c119cf8510256dcf31caf1c8e7fcac9b820859dabb1c329249d6451e25062c1535c41b375edb18b5fc080044043fa6a2bf38e3a97"
+        ]
+      }
+    },
+    {
+      "base": 128,
+      "period": 1,
+      "word_digits": [
+        18
+      ],
+      "p": "399",
+      "q": "127",
+      "raw_q": "127",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.2520902502248568360248710848979808",
+      "quality_upper_approx": "2.2520902502248568360248710848979808",
+      "side": "above",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 7.0,
+      "word_cost_bits": 7.0,
+      "template_cost_bits_base_plus_word": 14.0,
+      "reduced_denominator_bits_log2": 6.9886846867721655,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "126.0078125",
+      "representations_in_scan": [
+        {
+          "base": 128,
+          "period": 1
+        },
+        {
+          "base": 255,
+          "period": 1
+        },
+        {
+          "base": 382,
+          "period": 1
+        },
+        {
+          "base": 509,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x3806ae16ed96b31482b9fdcb3c7a9a42d94915ccf538f6d2372f9eb9c551acc65f05c1496f2eecdf7cee2afe90c1a7920fd5e9291f5e28042b744630db50ae41eb4cfd49cf90bfbaba24369d123c8ef334469daf0a5a9413d6fc4cd8751d0b946a776c5b3c0e274e93b09c9087ad45a6722f9a71a17aac9522c5fb4b200c0a828c17d44192b56ca3be195d13d1b1bcd6df34666433a1836de3626eb28288b6be4d8f9f8f7f8dcd9bcb2f88482fc460a778d0cf5f930a7a43e9a79e4333ba7e148bc8ab15b4adef9c6ff65a352a7dbeca548df0d8e9be308ca1787bcc0bfcb59a43e33c8c0f93b47cf973f6767933416b7abee571e2d18f767f9a811503185ea194b58787e344b8bda4a9bdef2f6253fcfddfeff4d60b8c8d22a0ec150daa3e5f51",
+          "0x18e09ba76e89245703fcf8202ba548c3b0d592e8d3fb4e82b8c46f6b4f6c487d06cb21b10c5d84aba73160c4279be87c881f8b4d8e1d14be091dd4da3f7506d039510116ed41e8a568663bb34b234642db8510e448056f26673aee948b5d8bf1ea33700980ad477857eff719a85d15dac45d5b2869409892096a44078916c01baecc61ff75e109dc9a34f304c78c221f59ffe52ecc0500e749e0a4b868c43b11868421d7c3ccf5646d092d4795d3a44d9194803a5a4a7b1a65c644dff16ebc8d7a60e80f4504acd244f3959213a65baea4f083a85213a8b3434efdf8e2f9d1285d2345d28743b8c5bc8e71651ea758859e793d27758adb08ea400af4afd92b397bf533bde311954e3ae2558d48a37022823280a8c348106caf27848c66d8cd54a1"
+        ],
+        "upper": [
+          "0x1f40aa90e7a0937849eea298298623f48e02fdb4100544b3cc44dc6b0fe4366b90dc53e9869a5f9ba816201925b41098daa371131f1ec28e960d247904496d2abf978d267acbf87d0601b7b8d501f4c1f2f838c28fbbbbf1307825613d98e458fd67f7ceba325baf1a6654c3c52497f8be50d2ff4acf14a14859c72b66aadff99f35674bb6d24cddd273520ac4a781b428db5004b25206cd07017b390df7cbf4b0ea6fc7c50791d543b219fe8d5802ad529965307f3653accd11ca0afa1c672adba18f5dfc1e21fc0630754da9ed76e198cc8f5e9b1bc4467996a06b97be399fae87e4e14ac85b095febda3c25ccbe8e179ba08e9c4f0dac9c34f06f366faa0b119ca2a00dca4583dcc6a3a9a22effeaa1cc1ec733de3a484e7112dcb6b6dabad2ca5",
+          "0xde08d25b4659369e8c31e8f5d8be81f42bac6b8cd3a6457acac1dae9e17667733dcafb39061510a007dcd388a1ad397f7714bc8a64441cd937afbafb6a9ad7401c5ba7d82f665db9172e351338f9fd73ac72cb70f770d226b70693af9f37d6abba51e396bb8a8b33a503c4687a8d33934a43f009c179358e1efdc22222b31750ac61fd0be791a9fa3b0a42bd566e82f2c70f770d63ddc6fbce8741feae6ae8f48993dc4ae51c727c097b62915981c6b5c0a51d182abda2278ff405ad9b6c6180793f62b04899492d7c9a58fb286af8eb01f36d76ba4ee646ab6b606bf3b70415bbbfd0935bd12ff66df9b9bf826dd3cacf8fc187bd344ed70c51c08096c0f22555e725aee41a7e373711e871a8d44f5731ca80dd1d5162458b1ebe03fccdf3ceb9e9"
+        ]
+      }
+    },
+    {
+      "base": 93,
+      "period": 1,
+      "word_digits": [
+        13
+      ],
+      "p": "289",
+      "q": "92",
+      "raw_q": "92",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.4402199840099703478135960777124118",
+      "quality_upper_approx": "2.4402199840099703478135960777124118",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 6.539158811108031,
+      "word_cost_bits": 6.539158811108031,
+      "template_cost_bits_base_plus_word": 13.078317622216062,
+      "reduced_denominator_bits_log2": 6.523561956057013,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "91.010752688172043010752688172043011",
+      "representations_in_scan": [
+        {
+          "base": 45,
+          "period": 2
+        },
+        {
+          "base": 47,
+          "period": 2
+        },
+        {
+          "base": 93,
+          "period": 1
+        },
+        {
+          "base": 185,
+          "period": 1
+        },
+        {
+          "base": 277,
+          "period": 1
+        },
+        {
+          "base": 369,
+          "period": 1
+        },
+        {
+          "base": 461,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xbafbfe809b080d5e8b68a43ff0d03f4bd388cf9cb3d740272d8c8c660f8f5b8f4b404defb57a41c27b77b378995149ab788b6991cd7d047663f28ea834cd8b317f56a424464ba219d09c16cd8de02c826097ebf93006bdc92afb3318f0c1b3a56de572358552306dfd3c71474bcc83932fd288a77142fe9945f98ec61b14017fe3d9b1c01643117505381e232397a9d5d00b3e96c8403b323cfa72fb4bc0aee99f3d5b0eaa050ed55dde387456d31264e6c147387c3e7d054e12247429844ae76dcb3725b8a4c4158344a567041e325386aca55d7d1b3cc797370cfa8387a5303f11d6d4b4c97e3da8f1067f15c2168085988e07e79440f9677e2d5a735dff705c2019e40851f79d9b482fa085a77fa359c96117b629db886f6453158fdb6fe794b64",
+          "0x4ca04307d8f9391c4808e0658a1aca10c981c3b9a4de40536b89db8c8a54b039297fca2d6b247cb1a9ab836fd92ff489e702496a31e833b1eb90d1eba2b40bad14eac2f7d32405e8eb7a619efb50b561a8bb184bdaf58b4ec08e18886f4b9e4238a5ffef26498d41d2afe8a6d6d0bad7b35e67035de65a227042b4636ec1fad4305c405f3d2245187197b7084c6fe0ab6fd3f221248d3ba0a3cbe56253d85fb3002cc45f6980c61e48d6684707eedfb4fc38fb6e99e171b337f0bc64f4f13ab134f95a67f7a9c51491432e0332d17056ab1ba94152622f786381940efe8afc8a4872326a81c61afcb279a92591e1ba7b8e967b2304c639d12be757ffdafba17acc412986ca8becf30e22b3b25af5caaf7b9e3bc6be4ab1ea1645bd66f0fbf20d9a981"
+        ],
+        "upper": [
+          "0x14f3444ca22a571260b63e9e9e8076f499f9b32f4d72d733c1c092cfd5368bf3517cdf4c7bd333e28069c554318010dbebd254075ad3cda438f17ddb9d86310571b1845f6acad1380797782afa5e1a2888eeb588bcf0576d6b3cba8b6ca69a303d4ff5e732b1c094cc1e9e107ae4184778f72920746e6f147b64813a4d5e49f2c5a98673733c7927fd12412f3c46ea37b56e50f97bb8a0419e816f452cd4775abfe4db0357196a3a83bfd6d901c0334eb9cbbf43ba0384be8649dbb310c4ddeda16bf9030fc18e6577547ec8af1a6f4b5508dbb9bb41b871f2dc8ad329acc5d17a44f41faf549c73afe7a29edd78471695275edbb0e7de9d7e95d610d32fd5c64f2241d540c9888b89843d74a863d01b8df7541b86c95fdd295542fe55c4d51d904",
+          "0x895dcac9094e4e398553705897f4d49198c7d22701cfd2e8127f725bab6c2c1689af8d83b3951439638b165160469f8e3d8cc98ad90fe1d68b61f05c107b0f5c5de0acf907d01adf407749a65c1bd1e0795930bffcfc9d64bf9351e64f73d837ca69f034789b693f7643494ae4714c274767a96fd5df1deeb98d8de6d393e1fd07f93e829607203169c032c158faa6278cc7c4f74526c234c4743fa1375ced1dfd061f0b923413570c278ab7cbffef6988077620d12bf5a805734fc96cc7a1d58d7b4427cb038dc0b4626669615eef1d623b300598af559b0f7c857fada635004510ae100c496b91c33f0df6b464633ada5aaab87de876aba94b5de2ec613c9674cf81e0daaf00c63a03264eea2249c9ad862a98bbdbd520793e617690efe83779"
+        ]
+      }
+    },
+    {
+      "base": 10,
+      "period": 1,
+      "word_digits": [
+        1
+      ],
+      "p": "28",
+      "q": "9",
+      "raw_q": "9",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.4690049407732523154741140456397336",
+      "quality_upper_approx": "2.4690049407732523154741140456397336",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 3.321928094887362,
+      "word_cost_bits": 3.321928094887362,
+      "template_cost_bits_base_plus_word": 6.643856189774724,
+      "reduced_denominator_bits_log2": 3.169925001442312,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "8.1",
+      "representations_in_scan": [
+        {
+          "base": 10,
+          "period": 1
+        },
+        {
+          "base": 19,
+          "period": 1
+        },
+        {
+          "base": 28,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xa12970bc8725a83fa1e019783c590b83d2bf7547839bad42845a1698a38ffac6dd54b9510a3345b4e02ab3859846314d72b70f5f9666dc32b46365567b479c79744475aaa055675f6e5dea2bf5c60739f7f652eaf63cd29ca9dac6c5f31a7ab4d11dca4d196e8a63ffb87a0534c99f5f1916da0b296ae190e16734913ae8762aa397fe8393059fa0a1cb9a511c84fb3e52c969dfc8ae2dddaf3f3b1c58cd64a019152f6ad63a3bb53cea76ec1e3879dbbaf067871c7eff0dc352e600b911d7a3c36e79c7fa9255b096e37952dd9d637e0d39a4bee0d37fe9e2db2845744c2b10f257901e3b6e215e426b04d90bb1200d1ff1b3c7a0ef920680b72b2e1e0645bea86d1e251bd6444d0a8a81e306f00a510209abef2b602132c3b6fa91c470c32920bb8",
+          "0x414626232120272b0df4993a0d5930dee48afc0feb4210dec3e736484fe953beea7656e451c9bf8ddc62b255cbf9717ef4315afba5c5cd38bf2f8369e969f6fbbc7c2157d9c95a5e1decfdd347dc74958fbbd2539498474315ce60c012f4904b5fa9da049bdfd7251bc54171ad826645f79c44c9faa7c80a5fa11e67aa3376daadefc50ec24c99ac86b0a565e24c5716c78e9ed9dcc4294ff3d39d79afb8518584e3c3b992c307950ea3ae298b7fa21ee9d1b9bd07d3020a7205f5d1426ead419ee75ff9c00265834c55abefc2fe434058deac9ff0d861539722879afec23f6c50ad21772c2d7f4909cfeee71d746f72bbd58556b83714cea0a8a04bba8a801345b2c48f443e4e96287c602fa2d160ce5fd2a4b2c806bd7b8e3b6874229dbb3afef35"
+        ],
+        "upper": [
+          "0x120e99f9c203101cdb5daef70817b575a5c9457646b8ec9416c54b81eb9853a2996ec66443d016f0bd412ceba1498b4a2b364ea33d955c203b13a60fdd66aebf602a3cef59400e04227c211ec3f288d0faa7efa754a04d173a485f7d363ee07b9985c0105e7e7f19a67441d8ab271ac05d1fcd696f67dd70d0ef4039d5cd96e5e1e55f34d7d62ca86217f50d9e568c4c366b24914d8c85d70ed06c7047bf83536d59cb0b901843625caf8630c5ff3d54b3a1efd6cbd324d636ac8b4f7480ee976cb9386961585c06269af35a9a91da210513f3ed9aea25fbc927dde06ee470fa43ba8f611290be108098888903262af309202f3c0427c0cd8c777fa6ab83c68f2da6e48538220d8fd15ed24cf729cccfc2979a0ee4ec013a610d2a568e1f3825d74",
+          "0x75040b8ecf09d0dbaa767c258aed00edcdff8d17bf2c4b5d65173b7d7f104b7b7ec4f3cf01461ab5a0a5e39aa7589ae176cd4363509bc0616d40776adea1b7c075e550fa10230d68d819c37ac03d9fd22e7b626aa8198f8eb6282952699b92427d04e91040d03d360f68b9b193311af20d6b447bb62fd720b106ce366861879ea7fa3ebb1781545004c02b3c683dcfe8cd41e0acb62a7f824888f3d52f293bc4365a8c3943a79eb272a66caf87da04d528065b256fd01d1d59f9eea21a4b3e01c45f85e9024565ca14eb86a59ecc2106114edd0e3fb1cdaa03b5ecfafc38401cac9c6e5985b9cd69348b0be51e687a74811dd3cc912e522073c4f12999f40434508ad6eef32cc7c54ddcc1d1721d355ff2a1b2821b497ca9e28a78f3391837978d"
+        ]
+      }
+    },
+    {
+      "base": 23,
+      "period": 1,
+      "word_digits": [
+        3
+      ],
+      "p": "69",
+      "q": "22",
+      "raw_q": "22",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.5308443374599274159193975072793960",
+      "quality_upper_approx": "2.5308443374599274159193975072793960",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 4.523561956057013,
+      "word_cost_bits": 4.523561956057013,
+      "template_cost_bits_base_plus_word": 9.047123912114026,
+      "reduced_denominator_bits_log2": 4.459431618637297,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "21.043478260869565217391304347826087",
+      "representations_in_scan": [
+        {
+          "base": 23,
+          "period": 1
+        },
+        {
+          "base": 45,
+          "period": 1
+        },
+        {
+          "base": 67,
+          "period": 1
+        },
+        {
+          "base": 89,
+          "period": 1
+        },
+        {
+          "base": 111,
+          "period": 1
+        },
+        {
+          "base": 133,
+          "period": 1
+        },
+        {
+          "base": 155,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x24dcc974c675abcfe813975752d8cfe344d98fd6d887fed25c2091d7c21514a361d8e352b26bb75ec2528cdf686f78cef7372be0a7566a43fe6009717d1f74dc1cda327007b1935f875bba47f813a4e3f129292e8c452fad51ab08ec945202ce30f3a3de1bb4cada4f0a8b5c8c34d4d7401730d0c1ebb5db2f7cdbe4fa7b0bd4f03cbdccffb2b59acd3d393740ba51f5f10b771644e0c4ba2222b0d9ec8004ed33236f3f01bd9fc7bcb08583b399e0929a97f453850500ee1b08f159a66dd2a381bf30046938b2bbab6c6fc18fced5005590793ac97689d7c0d58d8f1a91da06769c936eee073df48b5f5be1622abcb98f2a7c4c35826aec69d300863accb21efbb1b307d79a8c7f9fa387d3930505bd0ce5afb465e2277e5a426f47903d81b4f833e",
+          "0xe90b5ff60404c7146d106afdce55b4d3d9360719196259d9bd89e18993c870cfb31add5db3df19e98d8aaf7a3fe8975302466d07bbc015d0f2838d3ee44132521988661e250e59e859eaae2fae0cbbbd1cab438bb9a931333694a7b4195c756a31934e14afaf0895697eaa2e303b57fbea828bcefff5b2ebe9850d58b884f69eb9297df538deb48594b62432a0892600ee8d0ef06f2a5c7ca81bb783e7ba42c9a7ac1e3973a54344d50f415f6edef487c1bc1c6be0b1e1341a43d32ecf8f5ffd52d483161da73be176165d64b3f155a8614115cd030487e8da0091a1f7564e56483b92fbfcee9a02a634a77460b2be8f0ca1767fa8f76e40eb1438107c60ba735a299e07f5c2f27da7d1358e91772b13959512e3d8f418dd174ecfe690bec6c5ef8f"
+        ],
+        "upper": [
+          "0x42153169b836165e19d1420112b93ba259241a8330b22f49009e34378d4ee4898e86e7aa4dddde9c8b6becb72c4690437ca451f0747bfdc4e921e64e0487f023d942371991920e3282cc02c56eb4ca253dc56852b7449781953d55dc005ec8fc4f6585bc8471b2787eb191cce05f370702e6c070217aa57a312346c9118c48129c6343fc76975e643ebcb0112cdb5af63a1b04734f41ea88953e324c342fd27f905617de60c81b43f4f9a939898daa5d071fbe2ae2971f89d70ca487da4e6f2535eeba9a3588768aa16f06e07638db1c7b2fab587931a4147b2444a28dd4da5e3aba87bde14b686fabf5023fe0bbf8b5720fae08bd2ed40e59dc308970ce51eb6e5e354882e7f8bb395e3f840c4358f534f8b1ac5ca44a15db23168fa8d416349e",
+          "0x1a1c6821fb6bf9b64e3c4a3f62b3d3c70c1d850987bfd593c846c5573e344c1535ad0182d1bd2176cf380ed21ce0fe97dd2774973811d42f20d760770db611bad041facbe5fb209caf29b741792d7c85a4d17b83b3430f1b9d029d51dc53601b87cc340182d37dca79eaf04fd2903f22f86a72b82ac4db60278075f2c08c3dff6f883c8b11f06dc9ebe72d9d58d8e67588c6c41e137dd8bffb07497345c361f6e3ee1f4a2223497e900ffaa1e0f568bf6e7c21085a8969ef46daadd801a2c5e701813744eb5988f61597fe4f45490db74de966381271b987426a2e8866d36d83398ece92eb101254d4b75b8385ba38f1cc6a17fcfc6dc62917b795050d3237f248fb0387d4f09a97ed6844a31976a65b3a5f52257eaf135accff29cc7cdf523917"
+        ]
+      }
+    },
+    {
+      "base": 333,
+      "period": 1,
+      "word_digits": [
+        47
+      ],
+      "p": "1043",
+      "q": "332",
+      "raw_q": "332",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "2.9086492813699163064042785999259077",
+      "quality_upper_approx": "2.9086492813699163064042785999259077",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 8.379378367071261,
+      "word_cost_bits": 8.379378367071261,
+      "template_cost_bits_base_plus_word": 16.758756734142523,
+      "reduced_denominator_bits_log2": 8.375039431346925,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "331.00300300300300300300300300300300",
+      "representations_in_scan": [
+        {
+          "base": 165,
+          "period": 2
+        },
+        {
+          "base": 167,
+          "period": 2
+        },
+        {
+          "base": 333,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x3dc2ed7b0ea12fb5b6ce6ef2142f728034df97c1620ba21e8ad8db7b49adbd7e970b20df6d68c4f8df806107e557c9b764ad2684f21d5c486532ab182e7d0833b4e291a2ea1d463730cf881a73608643a76cdf1944f18a1205f8584e2d3cac7adda7d45312fd929fb99280187c6751fc80ee45bbbfca139b2c8533992e700242440e308ec04f2c7e91395052ada44943ea94244ea319c0f2f55525f2aa4241f5d9131a7c67703c3c38900f128a8dd56b326c0f4be62efde8b34125f5f969d4981c128474e825d29df6905f38c63a80d11dd48525680e06879655dc47b9c9434594e673ee51b16a1a536bfaca92f15bf35724c34728a269d942c43cb6deb8f2234375ad0bb364375d87a0f80979f0e66d7232c2f3197924bd0c52620004d424cbbe56c",
+          "0x153bd4e354ccc5cd3c0ecc0fccd2fd64442d363cb25017fe7113b20b2f95ecfa3feefa569c25deb2c626465998b6ed66fc28bae5e8d14f18a0e446821153d1e2da9d95a449ee3927de8ddd5d6791bd0eb98d4a968ff3d97eb0bb6c94d7e6b07b37cb4d1716f274408152ac6beb55998f0cb14acf9564d834b9534168a97cb17566d8cae5f52e822edeb4d630908e09d2f9f9f5fcd8c785ba64e84efc676d4ef3ea7545d695866214babcf4ccbe57c8c948fa332afc6066726f1db2a9db02135933b10cb706f15b9fea9112eb4bc4d51b19d33b3d482db6caffd0a15143739f6d425729bad0af2f93220909dc255739d836ef18de85f3131b1eac0f21e33c79db16ac461c1948b3c7faaa007231e16983e7a738a931a5a9973a9b094de01477823a42d"
+        ],
+        "upper": [
+          "0x6eb80621d9898ab1fe7f2265f4f9c0880a6bef03d89fdc12c60f47241f87ed218dfb81a80e1b6b081ce697671cc3af9770418603f6943177189fa86519b9886daa68734dc153e9d59c59263bd9eb83dddfebf13045f725e0cf0199fcfaa6cd4f80cf9b8c88ccab0e2b1051075c6d2ee487a2efffc0323476ba3ea005f7f301fa97d675433727e29afdc3607008295f80b1f1535322845631c8dd5e63dbf9132eda08c64e08475ad33f98fdfbc24edf806fcec056333ef55f8245aac9c629dde107a182ecdc96782ad7a2703b0f2b5e5553a067a0f0feecdad0490d60259991ac338d72788d4f93cc5af81156bfa495b061df5d2d023fe46b160c4dbf33938a1cce759276631dbaab1dba3aa0bfe01c16133e29167154dfd2c03cc28729c449cdcc",
+          "0x2610bcd1ecfd064149f531a3585f9a84e0500bf84d9c49dd9c4228f14e5893ed921b0e8a475aa912fcbdacbd1aadc983f2366f5dfe76858579e6b4b9e5b93bc65188489b5eb1f4f0c1abd9ce7c390efa59250d824f5b97911f7f2f5eaa10ae094a98bada1b40a7f5d3a9c73398bfc7fe8c1378f9fa7e99422714b849378bada8d0dc333ff20e4fdc57e826bd4a0199fe9f4cf2b9b9b7769655484f51afba22dd211a5ef6de7d777ad204c9e8e85657eefa839c1b9993e4757ff7db81d7343c446e253e113216933b9199b9ae2a676a5b6b69d8df9f83dd1ea197b5f51d9d17f0a72fcd8912d393036148fdb3666c02d29f34e2331fce4c10b9b545328b86e59bd02d2a28b7f8fa0bbfe20787fd066acf04e77deca317e7c83a45b84f1ee908d4c5"
+        ]
+      }
+    },
+    {
+      "base": 4,
+      "period": 4,
+      "word_digits": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "p": "267",
+      "q": "85",
+      "raw_q": "255",
+      "gcd_cancelled": "3",
+      "quality_lower_approx": "3.0069221862561478925984441944083383",
+      "quality_upper_approx": "3.0069221862561478925984441944083383",
+      "side": "below",
+      "literal_prefix_match_digits": 5,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 2.0,
+      "word_cost_bits": 8.0,
+      "template_cost_bits_base_plus_word": 10.0,
+      "reduced_denominator_bits_log2": 6.409390936137702,
+      "cancellation_gain_base_digits": 1.5849625007211563,
+      "digit_match_quality_upper_bound_approx": "7.0556640625",
+      "representations_in_scan": [
+        {
+          "base": 4,
+          "period": 4
+        },
+        {
+          "base": 16,
+          "period": 2
+        },
+        {
+          "base": 86,
+          "period": 1
+        },
+        {
+          "base": 171,
+          "period": 1
+        },
+        {
+          "base": 256,
+          "period": 1
+        },
+        {
+          "base": 341,
+          "period": 1
+        },
+        {
+          "base": 426,
+          "period": 1
+        },
+        {
+          "base": 511,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xc781b3678f78bd22a0ab432e2079ed6030335532a26b9cc1a4381e1723591e90f6df38d7bcaf34a37176d550ab50a343e0ee704649d362149705bf0368a26517ad2f0c64691d11b07a308b79108689ef0cb5d3a92def42f5151515c6d11bcdf67c5201ff5d8dd9cf6a67096593bd0888a7b628f236357c7f7bb864b0ff8ace3940a13eab6ba841f410d1991e629666b133ca5ad1325dadd22a8afaaf5be6ed01ffdb2e507d7a5717e1993c97b80d321778c9ccd024d9a354f7270ab3fb2089ef5c5daf6a9a4b0f6e4489df9ed71b5dad5df5756318cfc234641a5ea5fe1aaefae9afc71ef1e58041317e5477893d5c5b70a4224e6112d67c9e5d92379bd4e72b44fdf193440357a403a5b52fa06cf55bf0f20a81c5d521032c7fb7fe1dc29103f6f3",
+          "0x42595ffd284c0d4f4d6eb03b021fa11c63ca1c863e0a8869f6b737c7651af2f10b3ca7d56837b0094535f0e7c64c75c650c2bba73f175d8d68957dbf621d67798ecc7b0a63b2c4aa5bdbd002bb7de724f9b4acd4a7e87d715dd86729a33ad9bfaa1fb2d7822191cdc6b19d7a2d0de23c46fb9ada8ebf065dab4b3a02f8e69bbf8fac09f5b407fd2f110a4b5c1e0b56b7616ea2ac0ec898d360a6e98e5d1480a4a194fe5d75411f32eb5777ceabe9f14a3088142388411990f130d350ca741d22c6ddef1bfb30d132f03a2b749d3eaf93ede8f7c017256e5fcf3bcb7ed3f8a5a9bb6ab6320ec9a7547b37593cd776f498c3bf22f125436ee682c71c9c7c8f30ddfaf326f806b9022d699abc1f8e0200d1c5fe786d7191fea5588e4e7740b39ac6823f"
+        ],
+        "upper": [
+          "0x165a717daf6c1d4fe73146443e6bc00c361b9868cf0a20259d7d55d930bcc076a3f2fcd17b51c06780461b50c4aba63f5de6f39810c4db7f19af0afdbeb740454d990416df7693144c2c758bb3a470c0006d1afae8fed4bbc177976fc9263852f77042523d4f0c5ec9dcc6f6e1cd6c03976a0ef0807929dc302af6c0185affbb154789902cd0abdb04cadbe6757425d7acdca3c04fe0a957deb36501de568e5ebb5216132fc1e9157220778b88b620a43213a1305c4b7a15c7b40233b601e4559650f5e5165a5f15beb721292eeb3508bb6a57734c79e635937223d2e0ceb0b08c92f7054cc7c65f942072c6359e7a0fbd0eb62960fb750c931b24961cc87f16c28e8c4d09d8b36ed2484cd5b80797f15f3e12a956c1c80d29109bad52e27d2a6f",
+          "0x76f1705755c2e65e615fbd70401ce104ff2b83f8d0c739eee53ff901abec6c0c4970dae94dcb2c9e1d9255955eceebbcd1e822c41f56a305aaaf2811127ca046574f7e484568e67a3b6f1ea4872bf762980e956e386be6da8c953f15ba415f0f2dc2bb825d96d4cebe586131ca055705b3497ed5b15b65364ff3a46eb867f4784f2fc279814dd99dd5d86a97c14caf314ded6db62ea00df511b5f9a7e7a7cdeafb9db21273c0aaf2d3b5d0a8c8bbe0c564512709be2744bf43f76c3d2afd92c1582c16df984b5c056dcf7b02b37bc399be77eaefc37447b70e0302f446d9671dbfb7b43bacabff2ce54bae1fb4e51443d35b2800ba1f6c2d08a6743b2707b25a85abd8aa9a6af539cbd4f2ca0d97f79bf4d223adcfd70baae03fa6e9fa2f81647"
+        ]
+      }
+    },
+    {
+      "base": 30,
+      "period": 1,
+      "word_digits": [
+        4
+      ],
+      "p": "91",
+      "q": "29",
+      "raw_q": "29",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "3.0794216690161135470830853380619256",
+      "quality_upper_approx": "3.0794216690161135470830853380619256",
+      "side": "below",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 4.906890595608519,
+      "word_cost_bits": 4.906890595608519,
+      "template_cost_bits_base_plus_word": 9.813781191217037,
+      "reduced_denominator_bits_log2": 4.857980995127572,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "28.033333333333333333333333333333333",
+      "representations_in_scan": [
+        {
+          "base": 30,
+          "period": 1
+        },
+        {
+          "base": 59,
+          "period": 1
+        },
+        {
+          "base": 88,
+          "period": 1
+        },
+        {
+          "base": 117,
+          "period": 1
+        },
+        {
+          "base": 146,
+          "period": 1
+        },
+        {
+          "base": 175,
+          "period": 1
+        },
+        {
+          "base": 204,
+          "period": 1
+        },
+        {
+          "base": 233,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0xbb24cb920d7379344d106471d9b66d06e07ec0650120289242c4bbd4f44beed91fd333ff57b84086b82ed101af3037d7f787c8a214a87aed20db0be92cada5ef98670a91db0a7d8cb6705aa962ba0aeb928f8b59712370bef554e70d4a9acbfa61dbc1332c7a93bb60c8e7df17eaa0d9f80b41da55f070f400037da5988e61013e121cc1f243169464dd425f2e17ad26c192a23ecd27027a9db1fb169af81cc2611dbc250cddf7486ec2898207fef818363501986f2721545af98531df42ee2258310f1060a9933b1a3a7a20b4c092d08ae90f6bbb91d8a42b1c103dd39bc1c1331ab25d9ec27c3c09514092067866c0219c846ca1dc794bae6ad0877f8acb48f9ca03a61ea5774213b1ae54e7e372cbe215fb5d9013b5c80e5e8f4f93fc580bfd1ef",
+          "0x3cc5b993771def805c70f89726e91bd85931f3819469a5c693150f3a7f5da63efd9a50e63a7e0a9e8f64b7b0fbb3465bb736c77788af55232d962ae705744fe18c2cf2e7dc6c04afe6e5798fbe7dcda5bac959e3e29f6e7c4070b25a8d3bf91a099e23421589c84eafec9e08bc06a5d735fb6c2ecee2d4ba35b951460864e16a7ea170d8c68df02dde81273b8c121c1e093e29f6f9adce2ff4aa89c991f23a3e848d6f9b1eb5944cfbf97ed73b41dd8f8a3ed91118f097f811e23d23ee670b3d185bd4f15a7dd1454711f85ad00735c9269a5a1952fe6c44ff786c9922279c270d51be0dd9aec5f48d8ca0a235e7fdd4c089008e883348567244b88d206f4b1ac54e29c32de1bbece7e68e84a06aa99400f0411061f49ec27b986a13d99bae5168f43"
+        ],
+        "upper": [
+          "0x14f7d698390b644bf8ce1862b28e1e39243a36482b66cc02476f5bd32ea5c5670a21a874332f855e17f1a22ac622a1da6074e50cf9820e0d065953326d5702b806db52c17ee7db39070e1a42f48248caef5570d0356c077539a6e4d38c6e4a08dd4bceb8e70ad1a0ff7fb37565498f3b27ebf7c38077e79250afd387a9c35b58a08625fe9791f10803560819b1c8d5ff2b4fea99e9369bc3e555ad8ae7aa81b4ef0d280f481e8b17497ba2866cffd530593fb6d08f8d3de035168ecb4e5b965573ebc18e2f5b0ea239ba0fb275c0a691e5095e80d0936692c8f7ef1ac4ebc54d96d36e7f8948a50570cbfd8fbbdd291f196aa29cfef37bf86090aac48a9439e364ec66ee2a1e67909c62dd2fc4cdbb1fbfefec45366e42eab0d42fdacd9355cc37b",
+          "0x6cf21c6a7a239f24cad83e9e8a2c1b58fd95a6ac2d932baf3acf026c038ac1dce8c9064df85bc09772422c2ee26cfa215cf4129a4238bbf0c6d216e7e9c2b3e82724f31dc867417344c889dc37658324ca2c41258206248db26c03296b26e946bb04925e949e9143fcb0f38204a07a30ceb3516a5a2c8a7f8a55c8d18d51f9da55c5ad29c66f951e5cb2ea7608c6ca65fce50ef91388abae438855c67b5b5af47939d2005978bfe3ef2830397e7b88e9c4293a60a5e512477714d559214ee1746761c34bb2aa8ae848715a0cf4f304437137c4fb9c67bf7afaa08d304bedc01ab25cad5c2d0e178542931cbad5b0b8a16f626416bc224c767d70bd386332a2cf9a6f9bf8f40f359462f9ab9fb0dd66a8c76a68677a823645e49293eb46cfed232b"
+        ]
+      }
+    },
+    {
+      "base": 347,
+      "period": 1,
+      "word_digits": [
+        49
+      ],
+      "p": "1087",
+      "q": "346",
+      "raw_q": "346",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "3.0938828443126642061847273110327155",
+      "quality_upper_approx": "3.0938828443126642061847273110327155",
+      "side": "above",
+      "literal_prefix_match_digits": 1,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 0,
+      "base_cost_bits": 8.43879185257826,
+      "word_cost_bits": 8.43879185257826,
+      "template_cost_bits_base_plus_word": 16.87758370515652,
+      "reduced_denominator_bits_log2": 8.434628227636725,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "345.00288184438040345821325648414986",
+      "representations_in_scan": [
+        {
+          "base": 347,
+          "period": 1
+        }
+      ],
+      "quality_exact_bounds_hex": {
+        "lower": [
+          "0x388095f6a50813bf05360237fde6b1669556bdb9694d21aaceb9e4686b92537ef0300ac1de221469f06a8158b7061768e0c50469a6da32eee64529e6811130dc1fa7d22be7ec752aabd5191c76016a8889a4ca7641e794e4020b5f066f3f5ccfbf5e02335aaa9893edcd81be4794545e010520c2e27739b0aff3e35a153dda7403131d6ab0f1e94f0fd36ad5648fa19dd15f11c4f0c10baa997e40a0a37f20233717a623456be49b0ebf6a58b10fe82814e543607c0dc31b744f9b7448c308e523c2e43e54ab4b460535728f312380cea9f0e595cceafea2eefd9896e28ca7dd3d655132c3a9ee566692c4e2f90accf941c09eea040748ee09bb53cd72e2cc53d9c40f7586c69e9a46850c177a6acf1787c51ef721e3334b3fd9986188825090c2",
+          "0x1243388e263b3e3114af58ecb4046f20acba617d0c143b1d5faf476f54f0c930de835ccd70a946c214a207680b51e5dc28bce40b0f8a400f3490b85f1b58de8719cc7b9ee3717e64b5b41d0751cb77a5fb6a9019864223b90c26d2a83ce00c77e1331418bbb0098d9dc7d5f3c2a0147b9a82aef145de086b34c8d4b71aa628673069a52a846887fabb313a8a2ae79cbfb57db41509318bc2f22a1741d39188967be7a861b92beae5194ace5f76ddf4ea8406e93b1d49e9e8771b2b2993a428c0a54e89cd0f26f24a73ba370c87c41cd48dccad99290412c7aac0a5b9ab102d85370e0e433e4dd4971409dcdcbac1e0cca2357ccd0f426b85cdffa956667482e03600f3abf3a3d826312569b79fde15a5e932645e4b499e8def906e9f4cfae6a43b"
+        ],
+        "upper": [
+          "0x1f84ab0350fe4731e2063840adb0702c4e478f01e62972bb9a4d2b7937c92be69dd128ae3fac5d8d629ca6a84a279d8dae480f8395bc87ff263b4a8ff6beef123eb2e287c80a10e72fb8d37c8d17bcc69b94ed0da6eb90e02c62fbf87e02b7913ead2620262056856afb1a6b6eac1e19615a07a9729ad3387e6a554a8d217f268ae8c44ed027aabcc731391980d231e5bb67a0c76527fd9afd88b36691fed85df40b1197bf1bbfea5fd94bc009f68182d704f125beba10308d3e15f1d3af7737b7a0a1e5142625e5571f828325a6c25c9fdbeacbade172b61abefb311d3513e69a96a81ad0bcad06ab36e5b10c51eef81ba23b367d721635bd14ab0fa00fa87418627d8e33001a40a57676d645e83fd8da4bca90f463fb5d021221e812edb2f780ce2",
+          "0xa2ff13c3bebdcadeef0e714e5f7b933106e7a34cbee31fc4af7b12a5c6115f2e200b6413aa32fa72850836a9d9d4fdd0fea1b847ff9e06614f5a87c8d7e0a6e513568592dd3f4f292ba719a50c3b37d722d9734ff83ca031233723e88233598577055d15de05854382043ecbf557610d6bca4a1be0e58ee61cab7cc1c0afdd52e62175b16ece13b7b200223235176a7cf3cbb90fbfb19af40b09070378a44f448882bdd550e292319f607f1c46258eea0cae7b765d86c5774f0a71abd6b8a05cd54f1622b48e1f86042a473d8e2222c13c9f76d4f05a79b1a8c0c4905b9b11cbe29d16e584835e667a2abf1c201e500263199fd41be9ba9dde2160ec7496855dff6e7eced0e29dc3e8cc0957e09004f8fb1e46ec4f3bbe85eb4ecc99dd1968fddcd3"
+        ]
+      }
+    }
+  ],
+  "top_literal_predictions": [
+    {
+      "base": 2,
+      "period": 3,
+      "word_digits": [
+        0,
+        0,
+        1
+      ],
+      "p": "22",
+      "q": "7",
+      "raw_q": "7",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.061959974100131315330474219304358674",
+      "quality_upper_approx": "0.061959974100131315330474219304358674",
+      "side": "above",
+      "literal_prefix_match_digits": 8,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 5,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 3.0,
+      "template_cost_bits_base_plus_word": 4.0,
+      "reduced_denominator_bits_log2": 2.807354922057604,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.19140625"
+    },
+    {
+      "base": 27,
+      "period": 4,
+      "word_digits": [
+        3,
+        22,
+        5,
+        26
+      ],
+      "p": "104348",
+      "q": "33215",
+      "raw_q": "531440",
+      "gcd_cancelled": "16",
+      "quality_lower_approx": "0.36586380906794851030949311816170268",
+      "quality_upper_approx": "0.36586380906794851030949311816170268",
+      "side": "above",
+      "literal_prefix_match_digits": 6,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 2,
+      "base_cost_bits": 4.754887502163468,
+      "word_cost_bits": 19.019550008653873,
+      "template_cost_bits_base_plus_word": 23.774437510817343,
+      "reduced_denominator_bits_log2": 15.019547293966076,
+      "cancellation_gain_base_digits": 1.6824793428572198,
+      "digit_match_quality_upper_bound_approx": "2.8476455332748289417393203486457837"
+    },
+    {
+      "base": 2,
+      "period": 1,
+      "word_digits": [
+        0
+      ],
+      "p": "3",
+      "q": "1",
+      "raw_q": "1",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.14159265358979323846264338327950288",
+      "quality_upper_approx": "0.14159265358979323846264338327950288",
+      "side": "below",
+      "literal_prefix_match_digits": 2,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 1.0,
+      "template_cost_bits_base_plus_word": 2.0,
+      "reduced_denominator_bits_log2": 0.0,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.25"
+    },
+    {
+      "base": 2,
+      "period": 4,
+      "word_digits": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "p": "47",
+      "q": "15",
+      "raw_q": "15",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.8583470577034786540947612378881489",
+      "quality_upper_approx": "1.8583470577034786540947612378881489",
+      "side": "below",
+      "literal_prefix_match_digits": 5,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.0,
+      "word_cost_bits": 4.0,
+      "template_cost_bits_base_plus_word": 5.0,
+      "reduced_denominator_bits_log2": 3.9068905956085187,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "7.03125"
+    },
+    {
+      "base": 3,
+      "period": 2,
+      "word_digits": [
+        0,
+        1
+      ],
+      "p": "25",
+      "q": "8",
+      "raw_q": "8",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.0619298297467672616091765298881846",
+      "quality_upper_approx": "1.0619298297467672616091765298881846",
+      "side": "below",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 1.584962500721156,
+      "word_cost_bits": 3.169925001442312,
+      "template_cost_bits_base_plus_word": 4.754887502163468,
+      "reduced_denominator_bits_log2": 3.0,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "2.3703703703703703703703703703703704"
+    },
+    {
+      "base": 4,
+      "period": 3,
+      "word_digits": [
+        0,
+        2,
+        1
+      ],
+      "p": "22",
+      "q": "7",
+      "raw_q": "63",
+      "gcd_cancelled": "9",
+      "quality_lower_approx": "0.061959974100131315330474219304358674",
+      "quality_upper_approx": "0.061959974100131315330474219304358674",
+      "side": "above",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 2.0,
+      "word_cost_bits": 6.0,
+      "template_cost_bits_base_plus_word": 8.0,
+      "reduced_denominator_bits_log2": 2.807354922057604,
+      "cancellation_gain_base_digits": 3.1699250014423126,
+      "digit_match_quality_upper_bound_approx": "0.19140625"
+    },
+    {
+      "base": 4,
+      "period": 4,
+      "word_digits": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "p": "267",
+      "q": "85",
+      "raw_q": "255",
+      "gcd_cancelled": "3",
+      "quality_lower_approx": "3.0069221862561478925984441944083383",
+      "quality_upper_approx": "3.0069221862561478925984441944083383",
+      "side": "below",
+      "literal_prefix_match_digits": 5,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 2.0,
+      "word_cost_bits": 8.0,
+      "template_cost_bits_base_plus_word": 10.0,
+      "reduced_denominator_bits_log2": 6.409390936137702,
+      "cancellation_gain_base_digits": 1.5849625007211563,
+      "digit_match_quality_upper_bound_approx": "7.0556640625"
+    },
+    {
+      "base": 6,
+      "period": 2,
+      "word_digits": [
+        0,
+        5
+      ],
+      "p": "22",
+      "q": "7",
+      "raw_q": "35",
+      "gcd_cancelled": "5",
+      "quality_lower_approx": "0.061959974100131315330474219304358674",
+      "quality_upper_approx": "0.061959974100131315330474219304358674",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 2.584962500721156,
+      "word_cost_bits": 5.169925001442312,
+      "template_cost_bits_base_plus_word": 7.754887502163468,
+      "reduced_denominator_bits_log2": 2.807354922057604,
+      "cancellation_gain_base_digits": 1.7964888034078543,
+      "digit_match_quality_upper_bound_approx": "0.22685185185185185185185185185185185"
+    },
+    {
+      "base": 8,
+      "period": 1,
+      "word_digits": [
+        1
+      ],
+      "p": "22",
+      "q": "7",
+      "raw_q": "7",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.061959974100131315330474219304358674",
+      "quality_upper_approx": "0.061959974100131315330474219304358674",
+      "side": "above",
+      "literal_prefix_match_digits": 2,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.0,
+      "word_cost_bits": 3.0,
+      "template_cost_bits_base_plus_word": 6.0,
+      "reduced_denominator_bits_log2": 2.807354922057604,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.765625"
+    },
+    {
+      "base": 9,
+      "period": 3,
+      "word_digits": [
+        1,
+        2,
+        4
+      ],
+      "p": "2287",
+      "q": "728",
+      "raw_q": "728",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "57.840920132979693385590844004056578",
+      "quality_upper_approx": "57.840920132979693385590844004056578",
+      "side": "below",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.169925001442312,
+      "word_cost_bits": 9.509775004326936,
+      "template_cost_bits_base_plus_word": 12.679700005769249,
+      "reduced_denominator_bits_log2": 9.507794640198696,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "80.777930193568053650358177107148301"
+    },
+    {
+      "base": 10,
+      "period": 2,
+      "word_digits": [
+        1,
+        4
+      ],
+      "p": "311",
+      "q": "99",
+      "raw_q": "99",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.7495978335635301723677995224077680",
+      "quality_upper_approx": "1.7495978335635301723677995224077680",
+      "side": "below",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.321928094887362,
+      "word_cost_bits": 6.643856189774724,
+      "template_cost_bits_base_plus_word": 9.965784284662087,
+      "reduced_denominator_bits_log2": 6.6293566200796095,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "9.801"
+    },
+    {
+      "base": 11,
+      "period": 2,
+      "word_digits": [
+        1,
+        6
+      ],
+      "p": "377",
+      "q": "120",
+      "raw_q": "120",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "1.0657883069773661379352807751584676",
+      "quality_upper_approx": "1.0657883069773661379352807751584676",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.4594316186372973,
+      "word_cost_bits": 6.918863237274595,
+      "template_cost_bits_base_plus_word": 10.378294855911893,
+      "reduced_denominator_bits_log2": 6.906890595608519,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "10.818933132982719759579263711495116"
+    },
+    {
+      "base": 13,
+      "period": 3,
+      "word_digits": [
+        1,
+        10,
+        12
+      ],
+      "p": "6899",
+      "q": "2196",
+      "raw_q": "2196",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "137.32184612365014593314617879281920",
+      "quality_upper_approx": "137.32184612365014593314617879281920",
+      "side": "above",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 3.700439718141092,
+      "word_cost_bits": 11.101319154423276,
+      "template_cost_bits_base_plus_word": 14.801758872564369,
+      "reduced_denominator_bits_log2": 11.100662339005199,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "168.84618885893351073141696719302545"
+    },
+    {
+      "base": 19,
+      "period": 2,
+      "word_digits": [
+        2,
+        13
+      ],
+      "p": "377",
+      "q": "120",
+      "raw_q": "360",
+      "gcd_cancelled": "3",
+      "quality_lower_approx": "1.0657883069773661379352807751584676",
+      "quality_upper_approx": "1.0657883069773661379352807751584676",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 4.247927513443585,
+      "word_cost_bits": 8.49585502688717,
+      "template_cost_bits_base_plus_word": 12.743782540330756,
+      "reduced_denominator_bits_log2": 6.906890595608519,
+      "cancellation_gain_base_digits": 0.746228600043274,
+      "digit_match_quality_upper_bound_approx": "2.0994314039947514214900131214462750"
+    },
+    {
+      "base": 36,
+      "period": 3,
+      "word_digits": [
+        5,
+        3,
+        18
+      ],
+      "p": "146571",
+      "q": "46655",
+      "raw_q": "46655",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "245.08952979418084372487336243548782",
+      "quality_upper_approx": "245.08952979418084372487336243548782",
+      "side": "below",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 5.169925001442312,
+      "word_cost_bits": 15.509775004326936,
+      "template_cost_bits_base_plus_word": 20.67970000576925,
+      "reduced_denominator_bits_log2": 15.50974408203394,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "1295.9444450398186252095717116293248"
+    },
+    {
+      "base": 39,
+      "period": 3,
+      "word_digits": [
+        5,
+        20,
+        14
+      ],
+      "p": "186353",
+      "q": "59318",
+      "raw_q": "59318",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "413.70512472118001985614037963743338",
+      "quality_upper_approx": "413.70512472118001985614037963743338",
+      "side": "above",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 5.285402218862249,
+      "word_cost_bits": 15.856206656586746,
+      "template_cost_bits_base_plus_word": 21.141608875448995,
+      "reduced_denominator_bits_log2": 15.856182335421494,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "1520.9487183809744877868076168789262"
+    },
+    {
+      "base": 53,
+      "period": 4,
+      "word_digits": [
+        7,
+        26,
+        38,
+        47
+      ],
+      "p": "12394337",
+      "q": "3945240",
+      "raw_q": "7890480",
+      "gcd_cancelled": "2",
+      "quality_lower_approx": "2558.8663942735239370223223178935342",
+      "quality_upper_approx": "2558.8663942735239370223223178935342",
+      "side": "below",
+      "literal_prefix_match_digits": 5,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 5.727920454563199,
+      "word_cost_bits": 22.911681818252795,
+      "template_cost_bits_base_plus_word": 28.639602272815992,
+      "reduced_denominator_bits_log2": 21.911681635412847,
+      "cancellation_gain_base_digits": 0.3491668600960898,
+      "digit_match_quality_upper_bound_approx": "37219.240566038333655594896619318659"
+    },
+    {
+      "base": 81,
+      "period": 3,
+      "word_digits": [
+        11,
+        37,
+        80
+      ],
+      "p": "104348",
+      "q": "33215",
+      "raw_q": "531440",
+      "gcd_cancelled": "16",
+      "quality_lower_approx": "0.36586380906794851030949311816170268",
+      "quality_upper_approx": "0.36586380906794851030949311816170268",
+      "side": "above",
+      "literal_prefix_match_digits": 4,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 6.339850002884624,
+      "word_cost_bits": 19.019550008653873,
+      "template_cost_bits_base_plus_word": 25.359400011538497,
+      "reduced_denominator_bits_log2": 15.019547293966076,
+      "cancellation_gain_base_digits": 1.2618595071429148,
+      "digit_match_quality_upper_bound_approx": "25.628809799473460475653883137812053"
+    },
+    {
+      "base": 112,
+      "period": 2,
+      "word_digits": [
+        15,
+        96
+      ],
+      "p": "355",
+      "q": "113",
+      "raw_q": "12543",
+      "gcd_cancelled": "111",
+      "quality_lower_approx": "0.0034063119301380705066389040276716863",
+      "quality_upper_approx": "0.0034063119301380705066389040276716863",
+      "side": "above",
+      "literal_prefix_match_digits": 3,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 6.807354922057604,
+      "word_cost_bits": 13.614709844115207,
+      "template_cost_bits_base_plus_word": 20.42206476617281,
+      "reduced_denominator_bits_log2": 6.820178962415188,
+      "cancellation_gain_base_digits": 1.996198507098382,
+      "digit_match_quality_upper_bound_approx": "0.0090887219843294460641399416909620991"
+    },
+    {
+      "base": 114,
+      "period": 1,
+      "word_digits": [
+        16
+      ],
+      "p": "355",
+      "q": "113",
+      "raw_q": "113",
+      "gcd_cancelled": "1",
+      "quality_lower_approx": "0.0034063119301380705066389040276716863",
+      "quality_upper_approx": "0.0034063119301380705066389040276716863",
+      "side": "above",
+      "literal_prefix_match_digits": 2,
+      "match_is_only_lower_bound": false,
+      "predicted_digits_after_training_word": 1,
+      "base_cost_bits": 6.832890014164741,
+      "word_cost_bits": 6.832890014164741,
+      "template_cost_bits_base_plus_word": 13.665780028329483,
+      "reduced_denominator_bits_log2": 6.820178962415188,
+      "cancellation_gain_base_digits": 0.0,
+      "digit_match_quality_upper_bound_approx": "0.98253308710372422283779624499846106"
+    }
+  ],
+  "special_bases": {
+    "8": {
+      "first_12_fractional_digits": [
+        1,
+        1,
+        0,
+        3,
+        7,
+        5,
+        5,
+        2,
+        4,
+        2,
+        1,
+        0
+      ],
+      "one_digit_periodic_template": {
+        "base": 8,
+        "period": 1,
+        "word_digits": [
+          1
+        ],
+        "p": "22",
+        "q": "7",
+        "raw_q": "7",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "0.061959974100131315330474219304358674",
+        "quality_upper_approx": "0.061959974100131315330474219304358674",
+        "side": "above",
+        "literal_prefix_match_digits": 2,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 1,
+        "base_cost_bits": 3.0,
+        "word_cost_bits": 3.0,
+        "template_cost_bits_base_plus_word": 6.0,
+        "reduced_denominator_bits_log2": 2.807354922057604,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "0.765625"
+      },
+      "best_of_periods_1_to_limit": {
+        "base": 8,
+        "period": 1,
+        "word_digits": [
+          1
+        ],
+        "p": "22",
+        "q": "7",
+        "raw_q": "7",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "0.061959974100131315330474219304358674",
+        "quality_upper_approx": "0.061959974100131315330474219304358674",
+        "side": "above",
+        "literal_prefix_match_digits": 2,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 1,
+        "base_cost_bits": 3.0,
+        "word_cost_bits": 3.0,
+        "template_cost_bits_base_plus_word": 6.0,
+        "reduced_denominator_bits_log2": 2.807354922057604,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "0.765625"
+      }
+    },
+    "10": {
+      "first_12_fractional_digits": [
+        1,
+        4,
+        1,
+        5,
+        9,
+        2,
+        6,
+        5,
+        3,
+        5,
+        8,
+        9
+      ],
+      "one_digit_periodic_template": {
+        "base": 10,
+        "period": 1,
+        "word_digits": [
+          1
+        ],
+        "p": "28",
+        "q": "9",
+        "raw_q": "9",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "2.4690049407732523154741140456397336",
+        "quality_upper_approx": "2.4690049407732523154741140456397336",
+        "side": "below",
+        "literal_prefix_match_digits": 1,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 0,
+        "base_cost_bits": 3.321928094887362,
+        "word_cost_bits": 3.321928094887362,
+        "template_cost_bits_base_plus_word": 6.643856189774724,
+        "reduced_denominator_bits_log2": 3.169925001442312,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "8.1"
+      },
+      "best_of_periods_1_to_limit": {
+        "base": 10,
+        "period": 2,
+        "word_digits": [
+          1,
+          4
+        ],
+        "p": "311",
+        "q": "99",
+        "raw_q": "99",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "1.7495978335635301723677995224077680",
+        "quality_upper_approx": "1.7495978335635301723677995224077680",
+        "side": "below",
+        "literal_prefix_match_digits": 3,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 1,
+        "base_cost_bits": 3.321928094887362,
+        "word_cost_bits": 6.643856189774724,
+        "template_cost_bits_base_plus_word": 9.965784284662087,
+        "reduced_denominator_bits_log2": 6.6293566200796095,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "9.801"
+      }
+    },
+    "16": {
+      "first_12_fractional_digits": [
+        2,
+        4,
+        3,
+        15,
+        6,
+        10,
+        8,
+        8,
+        8,
+        5,
+        10,
+        3
+      ],
+      "one_digit_periodic_template": {
+        "base": 16,
+        "period": 1,
+        "word_digits": [
+          2
+        ],
+        "p": "47",
+        "q": "15",
+        "raw_q": "15",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "1.8583470577034786540947612378881489",
+        "quality_upper_approx": "1.8583470577034786540947612378881489",
+        "side": "below",
+        "literal_prefix_match_digits": 1,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 0,
+        "base_cost_bits": 4.0,
+        "word_cost_bits": 4.0,
+        "template_cost_bits_base_plus_word": 8.0,
+        "reduced_denominator_bits_log2": 3.9068905956085187,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "14.0625"
+      },
+      "best_of_periods_1_to_limit": {
+        "base": 16,
+        "period": 1,
+        "word_digits": [
+          2
+        ],
+        "p": "47",
+        "q": "15",
+        "raw_q": "15",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "1.8583470577034786540947612378881489",
+        "quality_upper_approx": "1.8583470577034786540947612378881489",
+        "side": "below",
+        "literal_prefix_match_digits": 1,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 0,
+        "base_cost_bits": 4.0,
+        "word_cost_bits": 4.0,
+        "template_cost_bits_base_plus_word": 8.0,
+        "reduced_denominator_bits_log2": 3.9068905956085187,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "14.0625"
+      }
+    },
+    "114": {
+      "first_12_fractional_digits": [
+        16,
+        16,
+        15,
+        85,
+        9,
+        94,
+        5,
+        74,
+        1,
+        5,
+        51,
+        3
+      ],
+      "one_digit_periodic_template": {
+        "base": 114,
+        "period": 1,
+        "word_digits": [
+          16
+        ],
+        "p": "355",
+        "q": "113",
+        "raw_q": "113",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "0.0034063119301380705066389040276716863",
+        "quality_upper_approx": "0.0034063119301380705066389040276716863",
+        "side": "above",
+        "literal_prefix_match_digits": 2,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 1,
+        "base_cost_bits": 6.832890014164741,
+        "word_cost_bits": 6.832890014164741,
+        "template_cost_bits_base_plus_word": 13.665780028329483,
+        "reduced_denominator_bits_log2": 6.820178962415188,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "0.98253308710372422283779624499846106"
+      },
+      "best_of_periods_1_to_limit": {
+        "base": 114,
+        "period": 1,
+        "word_digits": [
+          16
+        ],
+        "p": "355",
+        "q": "113",
+        "raw_q": "113",
+        "gcd_cancelled": "1",
+        "quality_lower_approx": "0.0034063119301380705066389040276716863",
+        "quality_upper_approx": "0.0034063119301380705066389040276716863",
+        "side": "above",
+        "literal_prefix_match_digits": 2,
+        "match_is_only_lower_bound": false,
+        "predicted_digits_after_training_word": 1,
+        "base_cost_bits": 6.832890014164741,
+        "word_cost_bits": 6.832890014164741,
+        "template_cost_bits_base_plus_word": 13.665780028329483,
+        "reduced_denominator_bits_log2": 6.820178962415188,
+        "cancellation_gain_base_digits": 0.0,
+        "digit_match_quality_upper_bound_approx": "0.98253308710372422283779624499846106"
+      }
+    }
+  },
+  "cautions": [
+    "Bases and periods have a fixed finite budget; the best observed base is selected on these same data, not a blind prediction.",
+    "Matched digit continuation is descriptive. Neither a long match nor this finite scan proves an infinite property of pi.",
+    "Template costs are an explicit simple accounting convention, not a claim of optimal Kolmogorov complexity.",
+    "The true score uses the reduced rational denominator; raw repeated-word denominator and digit length alone can overcharge severely.",
+    "All decimals are display approximations. Exact pi bounds and p/q determine exact score bounds for every row.",
+    "Any p/q=a+k/q becomes one-digit periodic in base q+1; unbounded base choice can simply encode the unknown rational denominator."
+  ]
+}

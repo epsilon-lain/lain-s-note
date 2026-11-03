@@ -1,0 +1,46 @@
+{
+  "README.md": {
+    "bytes": 5658,
+    "sha256": "4e4780e580228f837b5204e2ab48a02fc26d3b65a284bd0e1f995463b0e1300b"
+  },
+  "THEORY.md": {
+    "bytes": 6253,
+    "sha256": "bac1cba87a2937f9d0c947957dd7af73e64653adbca20d967d69583add3b4a1c"
+  },
+  "plot.py": {
+    "bytes": 3930,
+    "sha256": "6c629b4a6364799785d68bdc33d6c4732a6e116b23ff03fe8934fca8514bde04"
+  },
+  "base_space_curves.svg": {
+    "bytes": 148928,
+    "sha256": "575a5d2c1db37dc29bf7a6069005cfdc28b387014a936f0ef1fe80cdbe36864c"
+  },
+  "truncations/scan_bases.py": {
+    "bytes": 7424,
+    "sha256": "00d5db9e95e34113465599317f03c973d436ae26935fd0fc43676c738a582a01"
+  },
+  "truncations/verify_results.py": {
+    "bytes": 3013,
+    "sha256": "22f2e04cd60267fe3f112af89c75048b00c1a7e930685c32c6d36cda6301a36d"
+  },
+  "truncations/base_scan_results.json": {
+    "bytes": 490718,
+    "sha256": "8a6aecae48899faac1d2e0a61c2138a05a6d3e2d984ded0f10fe09c23a08e827"
+  },
+  "truncations/verification.json": {
+    "bytes": 393,
+    "sha256": "2aa90e9da5a11664d06a9c482fc545882771b575bceb3e6c959ee0694de50b1d"
+  },
+  "truncations/plot_input.json": {
+    "bytes": 111868,
+    "sha256": "3fa8a5726138c2ee5c4c428ae0d60e430156eff85c4c64a34511755689b23dae"
+  },
+  "periodic/scan.py": {
+    "bytes": 7806,
+    "sha256": "420ff59a0b62a2d24c4800cc887d6e3668f8719c1a856e91dc4288cd86d9fb01"
+  },
+  "periodic/results.json": {
+    "bytes": 102206,
+    "sha256": "a7dfab3f8ef8dd971e6cb91f73f5daedaf79c4edc02d015ef9e18f1f54b7a3e5"
+  }
+}
