@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03",
+  "base_commit": "74a8a2396f1d541e86a5a151ae0d00c3f9b7d034",
+  "scope": "Whole real interval, fixed integer base; exact self-affine structure and uniform certificates.",
+  "files": {
+    "README.md": {
+      "bytes": 9814,
+      "sha256": "1ddc99ca37cbea3a323d6e75d5411bb174a09ca578ef061aa8b2bf2c9cf3728b"
+    },
+    "verify.py": {
+      "bytes": 6365,
+      "sha256": "c86c5171307c298e91bfe9a5cc150eca9904ecd9cf46eea2d708bc2ef9bf25e1"
+    },
+    "draw.py": {
+      "bytes": 2920,
+      "sha256": "164c497fba8210fd465160748fb6c1db9b6b250f5a69659ced15279a7bb52a0f"
+    },
+    "results.json": {
+      "bytes": 68016,
+      "sha256": "8db66a2487d8e26c573b07155c2fa60fbc89feb02795a65c8b527035b173a7dd"
+    },
+    "whole_interval.svg": {
+      "bytes": 51446,
+      "sha256": "66a940f4dd63036e3ba46b7d63a0c10f205a79faab5b4bf086825f982e0a1513"
+    }
+  }
+}
