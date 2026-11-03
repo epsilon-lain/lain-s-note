@@ -1,0 +1,26 @@
+{
+  "README.md": {
+    "bytes": 6226,
+    "sha256": "7abc8b85dbc3ce7f2faf748f94b4bdc3c69d866ef9b4ee9e048ef8c45d199787"
+  },
+  "compute.py": {
+    "bytes": 5785,
+    "sha256": "4e0059512ff20780360b23f81f70b6ec0c3631de8c0accf01d92d307bb37bdd9"
+  },
+  "draw.py": {
+    "bytes": 4109,
+    "sha256": "05ba097100ffccad55802cfbb42eb41679e25c32e7c01459b87ae4d18d08fcfb"
+  },
+  "results.json": {
+    "bytes": 101613,
+    "sha256": "94b283e8b1d7f4aef2bb99aada6dd4005a99af1574157e61d35d107c8a7e0e7d"
+  },
+  "base_function.svg": {
+    "bytes": 70214,
+    "sha256": "86c986e90755d812a9fff11284b026591b59d0ea3cc7c2e1c6be6d8b4986d8cd"
+  },
+  "phase_comparison.svg": {
+    "bytes": 128072,
+    "sha256": "246ff633f7b6210c0230634a64da26619fab153eaf27ee3e059fb2340256b311"
+  }
+}
