@@ -1,0 +1,64 @@
+{
+  "definition": "C=q^2*abs(pi-p/q), relative difference inside one q^-2 cell",
+  "355_over_113": {
+    "side": "above_pi",
+    "C_display_bounds": [
+      "0.00340631193013807050663890402767168634393937927",
+      "0.00340631193013807050663890402767168634393937927"
+    ],
+    "fractional_digits": [
+      15,
+      112,
+      112,
+      69
+    ],
+    "evidence": "certified rational pi interval"
+  },
+  "local_record": {
+    "side": "below_pi",
+    "q_decimal_digits": 233325,
+    "C_display_bounds": [
+      "7.6941076561551547794207961451589627850918732875609835862e-08",
+      "7.6941076561551547794207961451589627850918732875609835862e-08"
+    ],
+    "fractional_digits_symbolic": [
+      "p-3*q",
+      "0",
+      "floor(q*C)"
+    ],
+    "evidence": "actual p/q and first three radix-q digits independently certified"
+  },
+  "reported_record": {
+    "following_partial_quotient_A": "845188380288",
+    "convergent_index_zero_based": 383059989912,
+    "side_if_report_correct": "below_pi",
+    "C_strict_exact_bounds": [
+      "1/845188380290",
+      "1/845188380288"
+    ],
+    "C_display_bounds": [
+      "1.18316818276285486437801249625601380852604244E-12",
+      "1.18316818276565463827542383412403035613466344E-12"
+    ],
+    "ratio_C355_to_reported_C_display_bounds": [
+      "2878975262.98908682371167884603531211287169245",
+      "2878975262.99589944757195498704858992092703583"
+    ],
+    "q_decimal_digits_conservative_lower_bound": 57458998486,
+    "actual_p_q_reconstructed_in_this_work": false,
+    "fractional_digits_symbolic_if_report_correct": [
+      "p-3*q",
+      "0",
+      "floor(q*C)"
+    ],
+    "evidence": "conditional theorem using published A and index, not a giant-integer calculation"
+  },
+  "neighborhood": {
+    "scope": "local record only; integer B=q+h, -32<=h<=32",
+    "all_64_nonzero_offsets_fail_C_less_than_1_after_reduction": true,
+    "best_nonzero_offset_after_reduction": -11,
+    "best_nonzero_log10_C_reduced": "233318.1457923877801887713107429871949946843663699937078",
+    "multiples_m_1_through_8_all_reduce_to_same_fraction": true
+  },
+  "interpretation": "Transfer of the representation succeeds. No broad favorable neighborhood or new predictor was found. Selecting q from a known good fraction already supplies the favorable scale."
+}

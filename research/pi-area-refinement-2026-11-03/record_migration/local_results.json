@@ -1,0 +1,72 @@
+{
+  "input_record_sha256": "656bfa0d1500d2010bf2c4f185ec253eb74562d892ddeb8d9e9590314399ca49",
+  "record_index_zero_based": 453292,
+  "following_partial_quotient": "12996958",
+  "scope": "Verified local record from uploaded snapshot, not the 845188380288 public record.",
+  "pi_method": "Machin formula with directed MPFR bounds, including rounded atan inputs",
+  "precision_bits": 3100868,
+  "elapsed_seconds": 16.963898947993584,
+  "side": "below_pi",
+  "p": {
+    "bits": 775091,
+    "decimal_digits": 233326,
+    "hex_prefix": "52ea422ac516e4deb9c6ea7d",
+    "hex_suffix": "48f2b9c13a4610a4ecd9ffbb",
+    "sha256_canonical_hex_utf8": "ca320135d77a7078c6c1d74fb3052a7708ca1e178ac86f76925fda70e785ef49"
+  },
+  "q": {
+    "bits": 775089,
+    "decimal_digits": 233325,
+    "hex_prefix": "1a6487258317f7493096d4dd",
+    "hex_suffix": "9c77c6c02b9f33bd9fcca03b",
+    "sha256_canonical_hex_utf8": "e40c6138255513b04ba176893a0f5a8656050986beef65dfc9680a0eb7446443"
+  },
+  "q_decimal_prefix": "900829980269886139877545",
+  "q_decimal_suffix": "821815140830393469280315",
+  "radix": "q (width contraction 1/q)",
+  "fractional_digits": [
+    {
+      "position": 1,
+      "value_summary": {
+        "bits": 775086,
+        "decimal_digits": 233325,
+        "hex_prefix": "3bcacba3bceff0328026be4f",
+        "hex_suffix": "738b6580b768756c0d741f0a",
+        "sha256_canonical_hex_utf8": "1a182837b4b3523e9d29e338b2c8b5e982ef5ca3c172000f9d7a5158d3610b57"
+      },
+      "identity": "p-3*q"
+    },
+    {
+      "position": 2,
+      "value": "0"
+    },
+    {
+      "position": 3,
+      "value_summary": {
+        "bits": 775066,
+        "decimal_digits": 233318,
+        "hex_prefix": "2211b6365738708867359fe4",
+        "hex_suffix": "c4f37e5a1c16cbb8f05efef2",
+        "sha256_canonical_hex_utf8": "d1f616ec3a9a7e8bc5c127ba8603d638788f8945767798c49400b5a2e12b10aa"
+      },
+      "identity": "floor(q*C), C=q^2*(pi-p/q)"
+    }
+  ],
+  "C_display_bounds": [
+    "7.6941076561551547794207961451589627850918732875609835862e-08",
+    "7.6941076561551547794207961451589627850918732875609835862e-08"
+  ],
+  "third_level_filled_fraction_display": "7.6941076561551547794207961451589627850918732875609835862e-08",
+  "third_level_filled_fraction_error_upper_bound": "1/q",
+  "literal_zero_tail_length_after_first_fractional_digit": 1,
+  "third_level_digit_fraction_is_small_but_digit_is_not_zero": true,
+  "checks": {
+    "strict_pi_side": true,
+    "coprime_p_q": true,
+    "uploaded_quality_interval_contains_new_interval": true,
+    "first_three_digits_certified_by_exact_integer_division": true,
+    "digits_equal_closed_form": true,
+    "third_prefix_and_successor_strictly_bracket_pi": true
+  },
+  "interpretation": "The first fractional cell has area 1/q. Its first subcell is unresolved and no q^-2 subcells are fully filled. At the next refinement, roughly C=7.694e-8 of that q^-2 cell is filled. Huge radix packs the excess information into occupancy, not many literal zero levels."
+}

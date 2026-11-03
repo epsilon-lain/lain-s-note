@@ -1,0 +1,38 @@
+{
+  "README.md": {
+    "bytes": 6978,
+    "sha256": "1aa31ff5ff33d8d1e38038f0f06ace5c839ea1d296f7c6c68fc0e99a8c55793f"
+  },
+  "compare_records.py": {
+    "bytes": 3731,
+    "sha256": "f53c7f6d0be977bdf46a0a414632a7a4a6146eccf69cda4d62585c68ce9159e1"
+  },
+  "comparison.json": {
+    "bytes": 2292,
+    "sha256": "b18c01ae37e119fdee8103a562fd662f374d017123360729299ca16068f4acac"
+  },
+  "draw_comparison.py": {
+    "bytes": 3229,
+    "sha256": "ed49ad8c560142fe0c2c42710710a32c47003fcb6137cf496c89e497b58a4a5e"
+  },
+  "local_results.json": {
+    "bytes": 2973,
+    "sha256": "b76dbb8adf94319c867e41226368b11027a26f0fd62b618abe8fb9ba686659bd"
+  },
+  "neighborhood_results.json": {
+    "bytes": 88823,
+    "sha256": "b6d42a424c86fa8fb141948bf8daebd850a89da2075d97f3214d67a684634154"
+  },
+  "record_migration.svg": {
+    "bytes": 30891,
+    "sha256": "8f7cd080c13f6184d9c608f7733e9a4053161fbd632115eda353840d5ef9a981"
+  },
+  "verify_local_record.py": {
+    "bytes": 5445,
+    "sha256": "991543d35ccfe4ed33354603cc3842d07c72d21525865ec6e220412f5875b0bb"
+  },
+  "verify_neighborhood.py": {
+    "bytes": 5633,
+    "sha256": "90f69cb228a8c6fedbbab4816105a91c1b75029d4801b4e48a2e3094df39870f"
+  }
+}
