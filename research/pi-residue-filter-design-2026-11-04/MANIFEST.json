@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "source_head": "98a2b9fa0601da361cc76744c7c601b6d4b2af69",
+  "checks": [
+    "construct.py",
+    "common_denominator_control.py",
+    "orbit_control.py",
+    "verify.py"
+  ],
+  "scope": "Coefficient-predesigned prime-band cancellation; tested families did not improve actual quality; no new pi record.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6683,
+      "sha256": "50330d3b37bc8eb85a5fe6bcbd1af42dd98b80159cfd59d34bd4c9f4a727dabd"
+    },
+    {
+      "path": "THEORY.md",
+      "bytes": 7774,
+      "sha256": "bfc01619ad524c7dc34f6932cc97a2c82278c91503339f84c491bd586372d5ba"
+    },
+    {
+      "path": "common_denominator_control.py",
+      "bytes": 2200,
+      "sha256": "f0d7c88a085357362b8bb1bbbd601b9736d0e7e5d44803d341cf7826735c1905"
+    },
+    {
+      "path": "common_denominator_results.json",
+      "bytes": 10174,
+      "sha256": "b4fe5b78afc0a5d366cfc27692fea55b1555f5d542c2dabf1b8590636e89536a"
+    },
+    {
+      "path": "construct.py",
+      "bytes": 9574,
+      "sha256": "9b84f087837dbe15185926423fa278dfa2cf11ce61165993904188dcbbd28fdb"
+    },
+    {
+      "path": "data/asynchronous.json",
+      "bytes": 404535,
+      "sha256": "2e9416bdb68f5fc62e0e85ca258446634e19c17584a936a75ca17077ba86f9c1"
+    },
+    {
+      "path": "data/synchronous-h1.json",
+      "bytes": 161044,
+      "sha256": "0ff504d455fad8d3831db71a415c8206534dba2329e641ffa77bb8e7805f3e3a"
+    },
+    {
+      "path": "data/synchronous-h2.json",
+      "bytes": 207084,
+      "sha256": "e3a6ae3148528d76caf7c44574729bde60d7c75e04653da9f786f09b3aba0919"
+    },
+    {
+      "path": "data/synchronous-h3.json",
+      "bytes": 249302,
+      "sha256": "92e91f0d56a2cb26f7bdc8ee530ff7f291754317de668d7c3239a44643e04042"
+    },
+    {
+      "path": "data/synchronous-h4.json",
+      "bytes": 304143,
+      "sha256": "c1da039fec4cdb362c9b9fc98b30a657caf6fd002deeba19fc982c88c1590d13"
+    },
+    {
+      "path": "orbit_control.py",
+      "bytes": 2143,
+      "sha256": "e7f6fc334c8e9e7a76e7a818132e180f305aab4b241ae1ab6cd51042946f3393"
+    },
+    {
+      "path": "orbit_control_results.json",
+      "bytes": 1419,
+      "sha256": "64626299e4f9ab5a39f4e97e8349b490717da4fd3de86dc7203c73fc549a2beb"
+    },
+    {
+      "path": "results.json",
+      "bytes": 8129,
+      "sha256": "68c58addffaddde57840e2334922fe9675560a4ee666ac4d5edd59872aa37209"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 585,
+      "sha256": "d8f46c535dd75cc0d06ebc767a62f7e0fc4b99aa645d064a241bd0df76750162"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9745,
+      "sha256": "ab2d987bd943b5bec41325475e339d963c928f0efbb5211d07e50e940adc9af1"
+    }
+  ]
+}

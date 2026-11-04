@@ -1,0 +1,4035 @@
+[
+  {
+    "H": 1,
+    "n": 3,
+    "p": "168925",
+    "q": "55896",
+    "q_bits": 16,
+    "source_q_bits": [
+      12,
+      11,
+      5
+    ],
+    "baseline": "3073333/978180",
+    "cost": {
+      "common_denominator": "3912720",
+      "raw_numerator": "70948500",
+      "raw_denominator": "23476320",
+      "actual_gcd": "420",
+      "raw_denominator_bits": 25
+    },
+    "eligible_primes": [
+      3
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 3,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "2329",
+    "q_part_above_n_bits": 12,
+    "quality_display": "373243469.8947189",
+    "baseline_quality_display": "283572534.7423334",
+    "quality_ratio_display": "1.316218688928618",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 4,
+    "p": "97989522160",
+    "q": "30984946521",
+    "q_bits": 35,
+    "source_q_bits": [
+      17,
+      15,
+      6
+    ],
+    "baseline": "5725982720/1822643913",
+    "cost": {
+      "common_denominator": "30984946521",
+      "raw_numerator": "587937132960",
+      "raw_denominator": "185909679126",
+      "actual_gcd": "6",
+      "raw_denominator_bits": 38
+    },
+    "eligible_primes": [
+      3
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 3,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "10328315507",
+    "q_part_above_n_bits": 34,
+    "quality_display": "2.006094947886090E+19",
+    "baseline_quality_display": "40111272634983.33",
+    "quality_ratio_display": "500132.4605533608",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 5,
+    "p": "413467535264",
+    "q": "131762658225",
+    "q_bits": 37,
+    "source_q_bits": [
+      22,
+      18,
+      10
+    ],
+    "baseline": "391569276592/124640352375",
+    "cost": {
+      "common_denominator": "4611693037875",
+      "raw_numerator": "86828182405440",
+      "raw_denominator": "27670158227250",
+      "actual_gcd": "210",
+      "raw_denominator_bits": 45
+    },
+    "eligible_primes": [
+      3,
+      5
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 3,
+        "reason": "parameter_or_period_denominator"
+      },
+      {
+        "p": 5,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "1756835443",
+    "q_part_above_n_bits": 31,
+    "quality_display": "6.285919879526079E+19",
+    "baseline_quality_display": "7631710935157300",
+    "quality_ratio_display": "8236.580149502895",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 6,
+    "p": "409914989096928",
+    "q": "130454059687235",
+    "q_bits": 47,
+    "source_q_bits": [
+      23,
+      22,
+      8
+    ],
+    "baseline": "9995939339876/3181806333835",
+    "cost": {
+      "common_denominator": "130454059687235",
+      "raw_numerator": "2459489934581568",
+      "raw_denominator": "782724358123410",
+      "actual_gcd": "6",
+      "raw_denominator_bits": 50
+    },
+    "eligible_primes": [
+      5
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 5,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "26090811937447",
+    "q_part_above_n_bits": 45,
+    "quality_display": "1.062855568678311E+25",
+    "baseline_quality_display": "2.025076842165047E+17",
+    "quality_ratio_display": "52484703.12573385",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 7,
+    "p": "30104392631600057",
+    "q": "9582853861670950",
+    "q_bits": 54,
+    "source_q_bits": [
+      31,
+      29,
+      12
+    ],
+    "baseline": "22906300337008842/7291301851271375",
+    "cost": {
+      "common_denominator": "670799770316966500",
+      "raw_numerator": "12643844905272023940",
+      "raw_denominator": "4024798621901799000",
+      "actual_gcd": "420",
+      "raw_denominator_bits": 62
+    },
+    "eligible_primes": [
+      5,
+      7
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 5,
+        "reason": "parameter_or_period_denominator"
+      },
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "3911368923131",
+    "q_part_above_n_bits": 42,
+    "quality_display": "9.876670389735399E+27",
+    "baseline_quality_display": "4.337618117610624E+22",
+    "quality_ratio_display": "227698.0158681180",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 8,
+    "p": "6212391881066224082688",
+    "q": "1977454105241771122435",
+    "q_bits": 71,
+    "source_q_bits": [
+      35,
+      31,
+      16
+    ],
+    "baseline": "3726667840295484928/1186235216101842305",
+    "cost": {
+      "common_denominator": "1977454105241771122435",
+      "raw_numerator": "37274351286397344496128",
+      "raw_denominator": "11864724631450626734610",
+      "actual_gcd": "6",
+      "raw_denominator_bits": 74
+    },
+    "eligible_primes": [
+      5,
+      7
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 5,
+        "reason": "parameter_or_period_denominator"
+      },
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "56498688721193460641",
+    "q_part_above_n_bits": 66,
+    "quality_display": "7.235747342739500E+37",
+    "baseline_quality_display": "4.693181487865677E+25",
+    "quality_ratio_display": "1541757411565.626",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 9,
+    "p": "155470443877693416447348736",
+    "q": "49487829415707012857867025",
+    "q_bits": 86,
+    "source_q_bits": [
+      44,
+      41,
+      21
+    ],
+    "baseline": "1430836457194193443570432/455449389836903878523625",
+    "cost": {
+      "common_denominator": "1732074029549745450025345875",
+      "raw_numerator": "32648793214315617453943234560",
+      "raw_denominator": "10392444177298472700152075250",
+      "actual_gcd": "210",
+      "raw_denominator_bits": 94
+    },
+    "eligible_primes": [
+      5,
+      7
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 5,
+        "reason": "parameter_or_period_denominator"
+      },
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "4488692010494967152641",
+    "q_part_above_n_bits": 72,
+    "quality_display": "7.792195090738006E+45",
+    "baseline_quality_display": "2.834625664997294E+35",
+    "quality_ratio_display": "27489326675.32820",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 10,
+    "p": "122197138602038970003736129664",
+    "q": "38896550509656362524803371115",
+    "q_bits": 95,
+    "source_q_bits": [
+      46,
+      41,
+      21
+    ],
+    "baseline": "4001084356475510745358016/1273584706121487918693015",
+    "cost": {
+      "common_denominator": "38896550509656362524803371115",
+      "raw_numerator": "733182831612233820022416777984",
+      "raw_denominator": "233379303057938175148820226690",
+      "actual_gcd": "6",
+      "raw_denominator_bits": 98
+    },
+    "eligible_primes": [
+      7
+    ],
+    "certified_cancelled_primes": [],
+    "exceptions": [
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [],
+    "q_part_with_all_prime_factors_above_n": "123481112729067817539058321",
+    "q_part_above_n_bits": 87,
+    "quality_display": "8.273653446762660E+50",
+    "baseline_quality_display": "9.102783172431438E+34",
+    "quality_ratio_display": "9089147011454839",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 11,
+    "p": "162362869602369659236931072116",
+    "q": "51681708089363793341263733685",
+    "q_bits": 96,
+    "source_q_bits": [
+      52,
+      46,
+      25
+    ],
+    "baseline": "2485969642733317826980170824/791308714034800574125533405",
+    "cost": {
+      "common_denominator": "3979491522881012087277307493745",
+      "raw_numerator": "75011645756294782567462155317592",
+      "raw_denominator": "23876949137286072523663844962470",
+      "actual_gcd": "462",
+      "raw_denominator_bits": 105
+    },
+    "eligible_primes": [
+      7,
+      11
+    ],
+    "certified_cancelled_primes": [
+      11
+    ],
+    "exceptions": [
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11
+    ],
+    "q_part_with_all_prime_factors_above_n": "23438416367058409678577657",
+    "q_part_above_n_bits": 85,
+    "quality_display": "2.509740142452516E+50",
+    "baseline_quality_display": "1.446443420797558E+39",
+    "quality_ratio_display": "173511117432.3475",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 12,
+    "p": "804700583794067788042153227420664832",
+    "q": "256144149923479873369859857538996595",
+    "q_bits": 118,
+    "source_q_bits": [
+      58,
+      54,
+      29
+    ],
+    "baseline": "95068214418108629694987695091712/30261152511124366141495005133005",
+    "cost": {
+      "common_denominator": "2817585649158278607068458432928962545",
+      "raw_numerator": "53110238530408474010782113009763878912",
+      "raw_denominator": "16905513894949671642410750597573775270",
+      "actual_gcd": "66",
+      "raw_denominator_bits": 124
+    },
+    "eligible_primes": [
+      7,
+      11
+    ],
+    "certified_cancelled_primes": [
+      11
+    ],
+    "exceptions": [
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11
+    ],
+    "q_part_with_all_prime_factors_above_n": "813156031503110709110666214409513",
+    "q_part_above_n_bits": 110,
+    "quality_display": "1.059017951611732E+63",
+    "baseline_quality_display": "8.725993864045157E+46",
+    "quality_ratio_display": "1.213635911406425E+16",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 13,
+    "p": "52449325435182179201824222938574051328",
+    "q": "16695138824421913218226901459134314105",
+    "q_bits": 124,
+    "source_q_bits": [
+      65,
+      64,
+      34
+    ],
+    "baseline": "242846784155578974424619678721983488/77300532224661923056921955662733985",
+    "cost": {
+      "common_denominator": "16711833963246335131445128360593448419105",
+      "raw_numerator": "315010648563704168286156282969075752275968",
+      "raw_denominator": "100271003779478010788670770163560690514630",
+      "actual_gcd": "6006",
+      "raw_denominator_bits": 137
+    },
+    "eligible_primes": [
+      7,
+      11,
+      13
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13
+    ],
+    "exceptions": [
+      {
+        "p": 7,
+        "reason": "parameter_or_period_denominator"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11,
+      13
+    ],
+    "q_part_with_all_prime_factors_above_n": "7571491530350074021871610639063181",
+    "q_part_above_n_bits": 113,
+    "quality_display": "7.727084615912185E+65",
+    "baseline_quality_display": "2.353593137981280E+52",
+    "quality_ratio_display": "32831012681061.12",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 14,
+    "p": "33520006908668445306294908326768138947584",
+    "q": "10669749582361245400064923925440139973315",
+    "q_bits": 133,
+    "source_q_bits": [
+      69,
+      61,
+      34
+    ],
+    "baseline": "19043869461039908435518220604782280448/6061851920642580252797104983047107545",
+    "cost": {
+      "common_denominator": "1525774190277658092209284121337940016184045",
+      "raw_numerator": "28760165927637526072801031344367063217027072",
+      "raw_denominator": "9154645141665948553255704728027640097104270",
+      "actual_gcd": "858",
+      "raw_denominator_bits": 143
+    },
+    "eligible_primes": [
+      11,
+      13
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      11,
+      13
+    ],
+    "q_part_with_all_prime_factors_above_n": "33872220896384906031952139445841714201",
+    "q_part_above_n_bits": 125,
+    "quality_display": "5.419797681591581E+70",
+    "baseline_quality_display": "5.994136422260436E+54",
+    "quality_ratio_display": "9041832383834422",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 15,
+    "p": "19818854262421717095243305056715166425456",
+    "q": "6308537244728741909418040423101731591775",
+    "q_bits": 133,
+    "source_q_bits": [
+      75,
+      60,
+      32
+    ],
+    "baseline": "14842753638551146045934587379228643712/4724595221341260161739569210781672375",
+    "cost": {
+      "common_denominator": "346969548460080805017992223270595237547625",
+      "raw_numerator": "6540221906599166641430290668716004920400480",
+      "raw_denominator": "2081817290760484830107953339623571425285750",
+      "actual_gcd": "330",
+      "raw_denominator_bits": 141
+    },
+    "eligible_primes": [
+      11,
+      13
+    ],
+    "certified_cancelled_primes": [
+      11
+    ],
+    "exceptions": [
+      {
+        "p": 13,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11
+    ],
+    "q_part_with_all_prime_factors_above_n": "308109267141818896674873769138057709",
+    "q_part_above_n_bits": 118,
+    "quality_display": "3.253275290683938E+69",
+    "baseline_quality_display": "1.510632420494676E+53",
+    "quality_ratio_display": "2.153584979738890E+16",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 16,
+    "p": "3029761034448794038362379236002674828820765016064",
+    "q": "964402890035171080194780266052233802797489685405",
+    "q_bits": 160,
+    "source_q_bits": [
+      80,
+      69,
+      40
+    ],
+    "baseline": "1791258878955439653251778086973165790953472/570175409886010467367712941321209210860595",
+    "cost": {
+      "common_denominator": "12537237570457224042532143458679039436367365910265",
+      "raw_numerator": "236321360687005934992265580408208636648019671252992",
+      "raw_denominator": "75223425422743344255192860752074236618204195461590",
+      "actual_gcd": "78",
+      "raw_denominator_bits": 166
+    },
+    "eligible_primes": [
+      11,
+      13
+    ],
+    "certified_cancelled_primes": [
+      13
+    ],
+    "exceptions": [
+      {
+        "p": 11,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      13
+    ],
+    "q_part_with_all_prime_factors_above_n": "25302450217372978622452584705555130599435647",
+    "q_part_above_n_bits": 145,
+    "quality_display": "1.305353791747700E+85",
+    "baseline_quality_display": "9.142422742015997E+61",
+    "quality_ratio_display": "1.427798548133923E+23",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 17,
+    "p": "48350184533501672118708280294966990003550688641024",
+    "q": "15390341735835997156844352381578059450311451975275",
+    "q_bits": 164,
+    "source_q_bits": [
+      90,
+      79,
+      46
+    ],
+    "baseline": "11404810588391866637333482193114227915691982848/3630263960338705789458393300763830203005009875",
+    "cost": {
+      "common_denominator": "187069603799086545441443103198081312618535698759467625",
+      "raw_numerator": "3526178958028276947617394881911942580958951722589880320",
+      "raw_denominator": "1122417622794519272648658619188487875711214192556805750",
+      "actual_gcd": "72930",
+      "raw_denominator_bits": 180
+    },
+    "eligible_primes": [
+      11,
+      13,
+      17
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13,
+      17
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      11,
+      13,
+      17
+    ],
+    "q_part_with_all_prime_factors_above_n": "9771645546562537877361493575605117111308858397",
+    "q_part_above_n_bits": 153,
+    "quality_display": "5.707178200448848E+86",
+    "baseline_quality_display": "1.542322994620367E+68",
+    "quality_ratio_display": "3.700378079271024E+18",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 18,
+    "p": "170992668026680026852131930858168310569692198988054528",
+    "q": "54428656697828055409752840124100699457225790925246685",
+    "q_bits": 176,
+    "source_q_bits": [
+      90,
+      85,
+      44
+    ],
+    "baseline": "6872775315563253604616849869833211833295401140224/2187672328463705271250241401605721878700243548465",
+    "cost": {
+      "common_denominator": "132316064432420002701109154341688800380515897739274691235",
+      "raw_numerator": "2494099055837154871665196343497242977969530414439763345408",
+      "raw_denominator": "793896386594520016206654926050132802283095386435648147410",
+      "actual_gcd": "14586",
+      "raw_denominator_bits": 190
+    },
+    "eligible_primes": [
+      11,
+      13,
+      17
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13,
+      17
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      11,
+      13,
+      17
+    ],
+    "q_part_with_all_prime_factors_above_n": "518368159026933861045265144039054280545007532621397",
+    "q_part_above_n_bits": 169,
+    "quality_display": "1.225364354767137E+93",
+    "baseline_quality_display": "2.333991491246451E+72",
+    "quality_ratio_display": "5.250080642379465E+20",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 19,
+    "p": "1033066798581361954837055701605415249710177699626694656",
+    "q": "328835375076693758118822821696076376622167647064847775",
+    "q_bits": 178,
+    "source_q_bits": [
+      100,
+      91,
+      49
+    ],
+    "baseline": "3355788587174557886994836011306452979324398613786624/1068180683240397221085315243412661730412643549981625",
+    "cost": {
+      "common_denominator": "75942885697087039968751536556600358799006507251391269397375",
+      "raw_numerator": "1431489670790235819959062974043575749065901933041721983979520",
+      "raw_denominator": "455657314182522239812509219339602152794039043508347616384250",
+      "actual_gcd": "1385670",
+      "raw_denominator_bits": 199
+    },
+    "eligible_primes": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "q_part_with_all_prime_factors_above_n": "626353095384178586892995850849669288804128851552091",
+    "q_part_above_n_bits": 169,
+    "quality_display": "7.677644246051275E+93",
+    "baseline_quality_display": "2.321591367146670E+76",
+    "quality_ratio_display": "3.307060990447863E+17",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 20,
+    "p": "419243220797056200778036930298012656738461567763527243661312",
+    "q": "133449261895236263794022739294625683741843762340370931441081",
+    "q_bits": 197,
+    "source_q_bits": [
+      103,
+      91,
+      51
+    ],
+    "baseline": "850745524281856325080637710673957389637279590746423296/270800711005527009920309214159803652350543955654970587",
+    "cost": {
+      "common_denominator": "362581644569356928728359782663497982726589502278787820725417077",
+      "raw_numerator": "6834502985433610185083558037718202330150400477681021126166708224",
+      "raw_denominator": "2175489867416141572370158695980987896359537013672726924352502462",
+      "actual_gcd": "16302",
+      "raw_denominator_bits": 211
+    },
+    "eligible_primes": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13,
+      19
+    ],
+    "exceptions": [
+      {
+        "p": 17,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11,
+      13,
+      19
+    ],
+    "q_part_with_all_prime_factors_above_n": "373807456289177209507066496623601355019170202634092244933",
+    "q_part_above_n_bits": 188,
+    "quality_display": "2.170418694518294E+104",
+    "baseline_quality_display": "6.232060064064758E+79",
+    "quality_ratio_display": "3.482666521514034E+24",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 21,
+    "p": "4083874031146581228338932198893534946120110864007877272010752",
+    "q": "1299937478043207536320407708348745678750517654787092935822901",
+    "q_bits": 200,
+    "source_q_bits": [
+      105,
+      103,
+      46
+    ],
+    "baseline": "2092057032767745779356244275202675303386891849887431000064/665922435990299990451560588886741188719092120113961303065",
+    "cost": {
+      "common_denominator": "123617554474518820666389171025423970320780476381978602732078770595",
+      "raw_numerator": "2330136005951304851453344544722684234207751655676974535091174768640",
+      "raw_denominator": "741705326847112923998335026152543821924682858291871616392472623570",
+      "actual_gcd": "570570",
+      "raw_denominator_bits": 219
+    },
+    "eligible_primes": [
+      11,
+      13,
+      17,
+      19
+    ],
+    "certified_cancelled_primes": [
+      11,
+      13,
+      19
+    ],
+    "exceptions": [
+      {
+        "p": 17,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      11,
+      13,
+      19
+    ],
+    "q_part_with_all_prime_factors_above_n": "1560549193329180715870837585052515820828952766851252023797",
+    "q_part_above_n_bits": 190,
+    "quality_display": "3.534911607325427E+105",
+    "baseline_quality_display": "1.575582448651866E+85",
+    "quality_ratio_display": "2.243558634681445E+20",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 22,
+    "p": "38416471755646892957498951395761128339539625683409843507397918720",
+    "q": "12228342752122770098116544543350026798559620543643053045401064263",
+    "q_bits": 213,
+    "source_q_bits": [
+      109,
+      103,
+      51
+    ],
+    "baseline": "6189604192099702249770141792625694866417222937783385128960/1970212205909969834777262673517035464183497124002123144641",
+    "cost": {
+      "common_denominator": "51346811216163511641991370537526762527151846662757179737639068840337",
+      "raw_numerator": "967864589411767821171228581464805867386361329467827597325383164231680",
+      "raw_denominator": "308080867296981069851948223225160575162911079976543078425834413042022",
+      "actual_gcd": "25194",
+      "raw_denominator_bits": 228
+    },
+    "eligible_primes": [
+      13,
+      17,
+      19
+    ],
+    "certified_cancelled_primes": [
+      13,
+      17,
+      19
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      13,
+      17,
+      19
+    ],
+    "q_part_with_all_prime_factors_above_n": "158809646131464546728786292770779568812462604462896792797416419",
+    "q_part_above_n_bits": 207,
+    "quality_display": "5.368783259435394E+112",
+    "baseline_quality_display": "5.771167293179671E+84",
+    "quality_ratio_display": "9.302768377170748E+27",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 23,
+    "p": "12204446261565441425251335522301680216955390181616486218702086144",
+    "q": "3884795900455085291970718988579430495554703640922376927774559847",
+    "q_bits": 212,
+    "source_q_bits": [
+      117,
+      101,
+      54
+    ],
+    "baseline": "75972718456270551977789864781193291468271274008457359622144/24182867364888652328835076200319960044760998624149052000065",
+    "cost": {
+      "common_denominator": "53163431897727842220619289358709506331666119326022728256594851506195",
+      "raw_numerator": "1002107082537138395427387159736190962614207087812529683417628293283840",
+      "raw_denominator": "318980591386367053323715736152257037989996715956136369539569109037170",
+      "actual_gcd": "82110",
+      "raw_denominator_bits": 228
+    },
+    "eligible_primes": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      17,
+      23
+    ],
+    "exceptions": [
+      {
+        "p": 13,
+        "reason": "normalized_coefficient_zero"
+      },
+      {
+        "p": 19,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      17,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "29179811920824178017251312511394098349430296327149368885059",
+    "q_part_above_n_bits": 195,
+    "quality_display": "9.299736790904930E+110",
+    "baseline_quality_display": "3.641151139759972E+85",
+    "quality_ratio_display": "2.554065028873802E+25",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 24,
+    "p": "2321869382076355014226498830655475279782388222088303102124963809005142016",
+    "q": "739073978742352938340738807010673005975966093119893748802746391398649823",
+    "q_bits": 239,
+    "source_q_bits": [
+      125,
+      117,
+      62
+    ],
+    "baseline": "1348324199072504481858580999356090843695628409595181439114471800832/429184922345619617353052132183792122798922585893950966619048784649",
+    "cost": {
+      "common_denominator": "71377547645000219726133531764669766898140877375239978578122838242107403955871",
+      "raw_numerator": "1345435075876728829253715465409283016573262243947732292163535778693737602875392",
+      "raw_denominator": "428265285870001318356801190588018601388845264251439871468737029452644423735226",
+      "actual_gcd": "579462",
+      "raw_denominator_bits": 258
+    },
+    "eligible_primes": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "3199454453430099300176358471907675350545307762423782462349551477916233",
+    "q_part_above_n_bits": 231,
+    "quality_display": "5.776859852163434E+126",
+    "baseline_quality_display": "4.806206510615125E+98",
+    "quality_ratio_display": "1.201958309407741E+28",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 25,
+    "p": "4004409354413177627982495440549460593866148585166439692590590064587593220096",
+    "q": "1274643085836565252756995410466260520076281568244998771874496491668008125625",
+    "q_bits": 250,
+    "source_q_bits": [
+      133,
+      128,
+      68
+    ],
+    "baseline": "34398066614158145168148047449602851364534496358917892746540709165662208/10949244668895128937061642623281581429692231757057133694612450795253125",
+    "cost": {
+      "common_denominator": "4308542185529328684542932101481001478659246575573903623696313668653742726196996875",
+      "raw_numerator": "81214106866443905713309747054008503712500316701020041700177497500211957987614392320",
+      "raw_denominator": "25851253113175972107257592608886008871955479453443421742177882011922456357181981250",
+      "actual_gcd": "20281170",
+      "raw_denominator_bits": 274
+    },
+    "eligible_primes": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      13,
+      17,
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "1261242385490726285968579255872613996364904458374766873839947054216953",
+    "q_part_above_n_bits": 230,
+    "quality_display": "2.948930479269129E+132",
+    "baseline_quality_display": "1.311728297963850E+106",
+    "quality_ratio_display": "2.248125990608460E+26",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 26,
+    "p": "599943383156610161186811740264021735744976975308015269218885541924154755776512",
+    "q": "190967910009298897809874452090671483610663665992931269707213090637355150281725",
+    "q_bits": 257,
+    "source_q_bits": [
+      135,
+      127,
+      68
+    ],
+    "baseline": "6833272530276630058467484538430316384382455867007719409426314027859968/2175098201375177409515080060380632602041830370142706874650443435996125",
+    "cost": {
+      "common_denominator": "7093503017295407559147786522907992258718101873307432013274430251724557057214675125",
+      "raw_numerator": "133709381804113706623704732552642524245483018486897363050813020728636370419911229440",
+      "raw_denominator": "42561018103772445354886719137447953552308611239844592079646581510347342343288050750",
+      "actual_gcd": "222870",
+      "raw_denominator_bits": 275
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      17,
+      19,
+      23
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      17,
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "195668854232228179830297345824095374994916535764677650254579359755480571",
+    "q_part_above_n_bits": 237,
+    "quality_display": "1.135978794129315E+136",
+    "baseline_quality_display": "2.171885738791448E+103",
+    "quality_ratio_display": "5.230380097073772E+32",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 27,
+    "p": "717524173840948634861057073767194368916192870051390049263079386702545075498942464",
+    "q": "228395038109430791853174833779172652474321165213650364265512129157371088235413125",
+    "q_bits": 267,
+    "source_q_bits": [
+      144,
+      131,
+      72
+    ],
+    "baseline": "337987034132276937710079364248836089463870170893081596890190951459525951488/107584614366242044937153996041762355412492058432234533499300050446521059375",
+    "cost": {
+      "common_denominator": "59386135834023647343703254405091577233110617773027299464497136262853843507530943696875",
+      "raw_numerator": "1119402288367525555760386530213462263002463334638473101954837520400773546835145148661760",
+      "raw_denominator": "356316815004141884062219526430549463398663706638163796786982817577123061045185662181250",
+      "actual_gcd": "1560090",
+      "raw_denominator_bits": 288
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      17,
+      19,
+      23
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      17,
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "148582415132726153360306658765197457796137059660665172363175858188125973",
+    "q_part_above_n_bits": 237,
+    "quality_display": "2.788538280481738E+141",
+    "baseline_quality_display": "2.230477377989751E+111",
+    "quality_ratio_display": "1.250197965690622E+30",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 28,
+    "p": "46490931924520536169561998348372992223841795727766907322007257310017539178750309040128",
+    "q": "14798523249472492071573207154851804247756402434007532649149158569705085299166907892525",
+    "q_bits": 283,
+    "source_q_bits": [
+      147,
+      138,
+      76
+    ],
+    "baseline": "2143952510895313013762460938562125867610127177868301131437587689064292797120512/682441279726539315067577801230564947411344984251788621425596444406419198375125",
+    "cost": {
+      "common_denominator": "7145984899321524333981628136970613494177850389345727403284391435932040114688212317681934625",
+      "raw_numerator": "134698641974232594649433673434724554100059073180016338253124846676886916437985057885053255680",
+      "raw_denominator": "42875909395929146003889768821823680965067102336074364419706348615592240688129273906091607750",
+      "actual_gcd": "2897310",
+      "raw_denominator_bits": 305
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23
+    ],
+    "certified_cancelled_primes": [
+      17,
+      19,
+      23
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      17,
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "284723872043722791179859685519034232761065943896248824418454229335355176511147819",
+    "q_part_above_n_bits": 268,
+    "quality_display": "2.009030417316331E+150",
+    "baseline_quality_display": "3.769091194262665E+117",
+    "quality_ratio_display": "5.330278079698602E+32",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 29,
+    "p": "650710347357924690294568358506576007663172998606528609063261853223053947270778261153513472",
+    "q": "207127536606115901081840106009250364864717407452666804491991533480765568166212920128966875",
+    "q_bits": 297,
+    "source_q_bits": [
+      157,
+      148,
+      78
+    ],
+    "baseline": "972856213336428945790802883236376482025712993570493218739833680979699489726005248/309669750540312274140562550026622019762668704043184286761997644073289260363846875",
+    "cost": {
+      "common_denominator": "13124636357046534072050798317276149369652818523238232066635043519008710226852081683971986034375",
+      "raw_numerator": "247393566962009388003091944220615132353461742340216111879761523976872880212877187107954286919680",
+      "raw_denominator": "78747818142279204432304789903656896217916911139429392399810261114052261361112490103831916206250",
+      "actual_gcd": "380190",
+      "raw_denominator_bits": 316
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23,
+      29
+    ],
+    "certified_cancelled_primes": [
+      19,
+      23,
+      29
+    ],
+    "exceptions": [
+      {
+        "p": 17,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      19,
+      23
+    ],
+    "q_part_with_all_prime_factors_above_n": "55483992891604028907399650728825487196488420566239004365365898316402034209454141",
+    "q_part_above_n_bits": 265,
+    "quality_display": "6.754065687217244E+157",
+    "baseline_quality_display": "3.260474667252258E+121",
+    "quality_ratio_display": "2.071497673346190E+36",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 30,
+    "p": "2380776848304749290901605510404704346285538058661556699633757754911830388800976946202287276032",
+    "q": "757824807612888615776905280136235011220042056571997872899192712540648340861585547937140214575",
+    "q_bits": 309,
+    "source_q_bits": [
+      157,
+      149,
+      78
+    ],
+    "baseline": "35277316821951409683742367044527831591746279721260149030216239815231173881153716224/11229118702464877262728361440026324846310121734395282565740654274686816186185919975",
+    "cost": {
+      "common_denominator": "417561468994701627293074809355065491182243173171170827967455184609897235814733636913364258230825",
+      "raw_numerator": "7870848260495501155720707817397952568819988821935106448989203137738511265376029784144761734561792",
+      "raw_denominator": "2505368813968209763758448856130392947093459039027024967804731107659383414888401821480185549384950",
+      "actual_gcd": "3306",
+      "raw_denominator_bits": 321
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23,
+      29
+    ],
+    "certified_cancelled_primes": [
+      19,
+      29
+    ],
+    "exceptions": [
+      {
+        "p": 17,
+        "reason": "normalized_coefficient_zero"
+      },
+      {
+        "p": 23,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      19
+    ],
+    "q_part_with_all_prime_factors_above_n": "220653518955127287086724390403640416744029225580781129057895773331570999183658363463",
+    "q_part_above_n_bits": 277,
+    "quality_display": "1.551533318865527E+164",
+    "baseline_quality_display": "1.801776918007604E+123",
+    "quality_ratio_display": "8.611128843748338E+40",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 31,
+    "p": "148382482272157777358433799553823997016243143842120210505489103251848752693413248941619544064",
+    "q": "47231611043718879146217903900164467682936950457882932924463548398099941413971353647956509595",
+    "q_bits": 305,
+    "source_q_bits": [
+      168,
+      161,
+      85
+    ],
+    "baseline": "195118644616306852173622291255616746078351163344715955662421489940468414579860876296192/62108193560152134579974608576675562705118712712913697469549388132943048421760393657375",
+    "cost": {
+      "common_denominator": "7886109774024125257658756861470383138611705146287486637938997281087163345579736860983783747333706125",
+      "raw_numerator": "148649667188861138260234263374990590196470442059079524262535812205619194149950643508326271296018841600",
+      "raw_denominator": "47316658644144751545952541168822298831670230877724919827633983686522980073478421165902702484002236750",
+      "actual_gcd": "1001800650",
+      "raw_denominator_bits": 335
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      17,
+      19,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "26885713172137764882535073985936836771739343538446131033902592221510649700141086063769",
+    "q_part_above_n_bits": 284,
+    "quality_display": "1.034230765988573E+161",
+    "baseline_quality_display": "2.317212203699008E+129",
+    "quality_ratio_display": "4.463254441425827E+31",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 32,
+    "p": "1057537208480513219515209666556570464471248946121332103086833543450259417885459508882966505194654793728",
+    "q": "336624548466555869848188095857319794066404436670341296287849576943400137031530304628435810213112308925",
+    "q_bits": 338,
+    "source_q_bits": [
+      174,
+      167,
+      95
+    ],
+    "baseline": "45713995103216831022017239939900510648535186657972349236920578197943316091531431660641845248/14551216578311313574594008851625812002112058691187997752839554557396622486566390655444608325",
+    "cost": {
+      "common_denominator": "2248204609731681157834868238347501846357267385461544975620068621894155136588507531143100021031816997360438675",
+      "raw_numerator": "42377658514198546225757189153706222123123964021446619189530274010810925100250998461905464753289341955293052928",
+      "raw_denominator": "13489227658390086947009209430085011078143604312769269853720411731364930819531045186858600126190901984162632050",
+      "actual_gcd": "40072026",
+      "raw_denominator_bits": 363
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      17,
+      19,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "38323448456564047900610853062301777318567977511985598024522437897532682363964275568128260367907",
+    "q_part_above_n_bits": 315,
+    "quality_display": "9.015027523029679E+179",
+    "baseline_quality_display": "5.348616924746948E+138",
+    "quality_ratio_display": "1.685487603593184E+41",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 33,
+    "p": "6346312306209467191635081963894738848396701550407443469097782807888563904786727353905271727482898219008",
+    "q": "2020093947876325594436740085934718461308562085934447934733109320362152282777682203040914988088733000235",
+    "q_bits": 340,
+    "source_q_bits": [
+      179,
+      168,
+      96
+    ],
+    "baseline": "151810174235444809704854625734577350091802154304211500506639350571429770310780233624173150208/48322679282425868405441865056595563422949706395230625865126454897975056729474940274354987625",
+    "cost": {
+      "common_denominator": "17752030088101483334371601771670673790402783756618296477252513102279494669172507337717724663702061204490115375",
+      "raw_numerator": "334617883866507540459668403907001363679161424792325506956863880552715181441151661816583223948367910509792460800",
+      "raw_denominator": "106512180528608900006229610630024042742416702539709778863515078613676968015035044026306347982212367226940692250",
+      "actual_gcd": "52726350",
+      "raw_denominator_bits": 366
+    },
+    "eligible_primes": [
+      17,
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      17,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [
+      {
+        "p": 19,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      17,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "60521093777307580541717694089827355469798220550912513329618629095066046048049482472570613914163",
+    "q_part_above_n_bits": 315,
+    "quality_display": "5.571058384212113E+180",
+    "baseline_quality_display": "2.480976364059335E+138",
+    "quality_ratio_display": "2.245510463105273E+42",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 34,
+    "p": "3309093238813025502366860555806797744301851697070239301514510457869347719352853556780944764846990019214180352",
+    "q": "1053317092218125391516020122577000053349582289974947980800760488698151881483503256529174693123444743284766575",
+    "q_bits": 359,
+    "source_q_bits": [
+      181,
+      176,
+      96
+    ],
+    "baseline": "2975274666608629622317496218203666640829147309411907811759321723621692275002627066513094957072384/947059340493708630681412708547312109069944016793214891101126558874677891549883748628190278713975",
+    "cost": {
+      "common_denominator": "413809312800089395687158213415967971959076947186427988581329167871422042615253539869821157464555872181083250954225",
+      "raw_numerator": "7800121782478809827618111631215555893317950179596632536265370732059553318408720641265793818912498239511243213766656",
+      "raw_denominator": "2482855876800536374122949280495807831754461683118567931487975007228532255691521239218926944787335233086499505725350",
+      "actual_gcd": "2357178",
+      "raw_denominator_bits": 381
+    },
+    "eligible_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      19,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "7053895273274574539025714507225638804631482410500161683804785720049361608617648525626709091970169889",
+    "q_part_above_n_bits": 332,
+    "quality_display": "2.599129044165077E+191",
+    "baseline_quality_display": "4.009068195313676E+145",
+    "quality_ratio_display": "6.483125049365035E+45",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 35,
+    "p": "6913285947477470545496351735146263006220288836598407388845084467125912823277730659175727819115106866009473024",
+    "q": "2200567263097553103724797316984189081632059785237275937591084236191829362012341195543631464857809909776363125",
+    "q_bits": 360,
+    "source_q_bits": [
+      189,
+      179,
+      97
+    ],
+    "baseline": "182835384763216746447498530743916851321013237985968727333853665239983777617772457662866025288302592/58198310514349097701491876919877068338039154143789456749101264843275451317558223231032853685409375",
+    "cost": {
+      "common_denominator": "30258250983880290174602226691982581631202556619268517783444614419906073052688903968670019086245182110456497123190625",
+      "raw_numerator": "570354594008606717292219978662200927916671479974637625620807747991782372793185410990708331222213828027226716131819520",
+      "raw_denominator": "181549505903281741047613360151895489787215339715611106700667686519436438316133423812020114517471092662738982739143750",
+      "actual_gcd": "82501230",
+      "raw_denominator_bits": 387
+    },
+    "eligible_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      19,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "84210544440263343780155674897409864205350914650233806992302264947744132121074977426744060693370549",
+    "q_part_above_n_bits": 326,
+    "quality_display": "1.946660168356899E+191",
+    "baseline_quality_display": "6.370275457505553E+147",
+    "quality_ratio_display": "3.055849282095510E+43",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 36,
+    "p": "34444641278908451497134335585920371466767522868986165705944758003854839612185014231365431878405117199203809886208",
+    "q": "10964069845130847152017451661373521612746809475632821083543488936495194226904082184357888110393377018887131106365",
+    "q_bits": 373,
+    "source_q_bits": [
+      192,
+      183,
+      101
+    ],
+    "baseline": "34163705184864191245667599633822746072302291267847182722299969709670024452822837850750562709457076224/10874645109010699959035151627960064481660741032893255609098906586624417146357368641592762029921139125",
+    "cost": {
+      "common_denominator": "107684434289191000117075802801054645533713745275638424733603642351457787239105460979834824917836831894276374695996824875",
+      "raw_numerator": "2029803766013371647077802972193715234332303400531776802660186319550263578184276186896537649606880433734620954498800025600",
+      "raw_denominator": "646106605735146000702454816806327873202282471653830548401621854108746723434632765879008949507020991365658248175980949250",
+      "actual_gcd": "58929450",
+      "raw_denominator_bits": 399
+    },
+    "eligible_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "certified_cancelled_primes": [
+      19,
+      23,
+      29,
+      31
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      19,
+      23,
+      31
+    ],
+    "q_part_with_all_prime_factors_above_n": "4772599881656838652422719616493972960698042469788521319004955365547391269690693700355369297540532242871347",
+    "q_part_above_n_bits": 352,
+    "quality_display": "8.292247799958313E+197",
+    "baseline_quality_display": "9.360228660564076E+150",
+    "quality_ratio_display": "8.859022680604681E+46",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 37,
+    "p": "231664205131514911704505168390540302988918315531634669968941606626014340333410076936300797828529602027717010183421952",
+    "q": "73741006768270846384345361362192070203584272374320235640812447225979252830302171139236546440203785119092248349254375",
+    "q_bits": 385,
+    "source_q_bits": [
+      203,
+      195,
+      107
+    ],
+    "baseline": "4997502279314015003845288027237305285703145151851516851719924252230700341213699859193607201102993054236672/1590754381731678574002929871497206179587173716879640577920610326593566485363018998428935310394599693653125",
+    "cost": {
+      "common_denominator": "37516296518894130432405527852581147942925992757141379101250668088629153930048947409054684110658424625048309662386892375684375",
+      "raw_numerator": "707165529201924803221633698542337728362862183832854674774024540758426323780362833340659556420895786571794454986028956013035520",
+      "raw_denominator": "225097779113364782594433167115486887657555956542848274607504008531774923580293684454328104663950547750289857974321354254106250",
+      "actual_gcd": "3052545510",
+      "raw_denominator_bits": 417
+    },
+    "eligible_primes": [
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "certified_cancelled_primes": [
+      19,
+      23,
+      29,
+      31,
+      37
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      19,
+      23,
+      31,
+      37
+    ],
+    "q_part_with_all_prime_factors_above_n": "2821895259310665972562058788717981061906200189690660246533612322738354908719413264625160907811240118318503",
+    "q_part_above_n_bits": 351,
+    "quality_display": "6.436525471328203E+204",
+    "baseline_quality_display": "8.430305770726713E+159",
+    "quality_ratio_display": "7.634984597686020E+44",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 38,
+    "p": "939507017189138363071294418738195663878965323299635595393952749077786115072088512619202813400715334390397623580229632",
+    "q": "299054371710347298391086974935773663273152343653106029273079405105327505437256535070266208523476967075973113588685985",
+    "q_bits": 387,
+    "source_q_bits": [
+      205,
+      194,
+      99
+    ],
+    "baseline": "1553311137233259538273174359645466365023459741497957243423784675469897953991136328618631654338734392868864/494434291300733296055340909868686177394692077718593107636409993851972683458615560157807893258571593736625",
+    "cost": {
+      "common_denominator": "248686139155032054659568151182215984036371660173331646292761006300462720333986603151056622352910358896202341932511547976375",
+      "raw_numerator": "4687623286914346405626069937573290355140903532337366821438357543886159931846432029287881477322199125174169422972376737382400",
+      "raw_denominator": "1492116834930192327957408907093295904218229961039989877756566037802776322003919618906339734117462153377214051595069287858250",
+      "actual_gcd": "4989450",
+      "raw_denominator_bits": 410
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37
+    ],
+    "exceptions": [
+      {
+        "p": 23,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37
+    ],
+    "q_part_with_all_prime_factors_above_n": "22914405745271997154888978144253469726629250563862165140117319184585961771375465728365175884499631938071743",
+    "q_part_above_n_bits": 354,
+    "quality_display": "1.816500200549085E+205",
+    "baseline_quality_display": "3.428384793153354E+157",
+    "quality_ratio_display": "5.298414005851156E+47",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 39,
+    "p": "580669202258970494309814400410531023976652913517288530711467066960791493375702055753197193576093478575352985182606026866688",
+    "q": "184832747681485423145596614152102879379354340899596288316731613963482685058399810321494041767790036635708138443156140623125",
+    "q_bits": 407,
+    "source_q_bits": [
+      211,
+      204,
+      107
+    ],
+    "baseline": "928841546052016727460191020568025184336801507600039273428700440639540261259477037819401404312436067619403988992/295659446806593606089024849496786119883967973219500689379757686458508223002768473209571824730619616575736971875",
+    "cost": {
+      "common_denominator": "4949213807334045952224044042115825451820348070281333427314952158590196265243530077032704330614209990833915646272935677965340534375",
+      "raw_numerator": "93290482428994854717258131416132033366086010315032495357778205303370179955273371230904829547121315335024997451803187232149885419520",
+      "raw_denominator": "29695282844004275713344264252694952710922088421688000563889712951541177591461180462196225983685259945003493877637614067792043206250",
+      "actual_gcd": "160660290",
+      "raw_denominator_bits": 434
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37
+    ],
+    "q_part_with_all_prime_factors_above_n": "4839500046374852677470687005319685752794013289924877836576426380335347586766104577264438950707491250982591891851",
+    "q_part_above_n_bits": 372,
+    "quality_display": "1.190671782517870E+216",
+    "baseline_quality_display": "5.161063130772836E+167",
+    "quality_ratio_display": "2.307028130344871E+48",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 40,
+    "p": "839318366753541343761506577174289430867663009292643186624473481411625902912259981948992274614093661098677506271227455845613699072",
+    "q": "267163333793284821488627587204987522437937836786608093783611671924183742033254807705278630301736033910897362295192801524774723575",
+    "q_bits": 427,
+    "source_q_bits": [
+      213,
+      209,
+      113
+    ],
+    "baseline": "502803602145098043725801243471288922951375921254868232765008965256309789514994091273352481575946411945747963445248/160047357371606125447038867449217366053220696876982340975344683009923261339256511324067457768055797184971692575575",
+    "cost": {
+      "common_denominator": "204393041355218759395053046963588499053621904095757735541058325993924847658799557380115710833712851007498116126574957613727377496330175",
+      "raw_numerator": "3852718062998580309020381072163677728775248305577964263703200874882897912382729521580567544207426447979292764971777763203385489168007168",
+      "raw_denominator": "1226358248131312556370318281781530994321731424574546413246349955963549085952797344280694265002277106044988696759449745682364264977981050",
+      "actual_gcd": "4590294",
+      "raw_denominator_bits": 449
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37
+    ],
+    "q_part_with_all_prime_factors_above_n": "1224155199430931739919878709548621416138902202196877053842209490654666933952435857710818617464342944801545718563939450183",
+    "q_part_above_n_bits": 399,
+    "quality_display": "4.268590793083909E+227",
+    "baseline_quality_display": "6.367633276611434E+171",
+    "quality_ratio_display": "6.703575108137288E+55",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 41,
+    "p": "101353850250864453011277274405135068928201497940138426181793980857813570314093540782324466296500698245096190077507763242247651328",
+    "q": "32261932537641627640016731454783806603988215939966909529701376824579017094790437795437179935067415974193762166345358774396359665",
+    "q_bits": 424,
+    "source_q_bits": [
+      224,
+      215,
+      120
+    ],
+    "baseline": "182674149633931938221872424782011084086386078104531862391968296869176202384951445087202847199051756904487410989006848/58146987778697621620974235181924875545461137510695437303350991067030604347403656840459281325140909602783598915121375",
+    "cost": {
+      "common_denominator": "177093057446479610267834375746237682090272615924504964411057549479568253824102965202598181842628834182123913482732514012325927056376097375",
+      "raw_numerator": "3338125489653693433154051936149408420950842576686893649054675805398509279382520166589090504004660773878227220028241542548923822405949849600",
+      "raw_denominator": "1062558344678877661607006254477426092541635695547029786466345296877409522944617791215589091055773005092743480896395084073955562338256584250",
+      "actual_gcd": "32935359450",
+      "raw_denominator_bits": 459
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37,
+      41
+    ],
+    "q_part_with_all_prime_factors_above_n": "105589800759437223186061670256893684080553960233639636788593086028682988657092699413015702940293333132357387125611652339",
+    "q_part_above_n_bits": 396,
+    "quality_display": "1.068085096115782E+225",
+    "baseline_quality_display": "3.539140746601391E+175",
+    "quality_ratio_display": "3.017922068065406E+49",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 42,
+    "p": "102150466296342865530503668799970088723707993376113630815420038918926909909347121256753257960738338947136925509320255294824811331584",
+    "q": "32515503300410042542428896056248170754349224387616562489820909834646730672230585051790271502180159895816055471182036980050534784275",
+    "q_bits": 434,
+    "source_q_bits": [
+      223,
+      212,
+      112
+    ],
+    "baseline": "882033867601619271480031077260841125386155719109041562572798138126946013984421816130347261536488923964943261757341696/280760100006520120565767681556676521858948931590491202326996939912447568622342628723016369746997410760548899501382275",
+    "cost": {
+      "common_denominator": "27565245531445716435641893633956780494194835419172654166683105058690608454498184091750565197873745812797331738082870124096701217112621175",
+      "raw_numerator": "519592637135932431921259192505137455036867104043323779915128275602756322184110324851568230254129912064847751354028870007848785480177942528",
+      "raw_denominator": "165391473188674298613851361803740682965169012515035925000098630352143650726989104550503391187242474876783990428497220744580207302675727050",
+      "actual_gcd": "5086542",
+      "raw_denominator_bits": 456
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37,
+      41
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      41
+    ],
+    "exceptions": [
+      {
+        "p": 37,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      41
+    ],
+    "q_part_with_all_prime_factors_above_n": "28186842193389598689537051443396606898829136688370860188661596567791876114552782709133408887620790936049436148293641650961",
+    "q_part_above_n_bits": 404,
+    "quality_display": "1.861650684782995E+230",
+    "baseline_quality_display": "3.474633400382322E+175",
+    "quality_ratio_display": "5.357833389209213E+54",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 43,
+    "p": "245257246813063670696406738501010159455694233274710576498655996851215137004499403162530799507875198381285568930336935299324768681984",
+    "q": "78067806318816154421391736179861065640888325652509437392828696004781976940079904471777611930993581281143756019431153997093960446365",
+    "q_bits": 435,
+    "source_q_bits": [
+      234,
+      223,
+      123
+    ],
+    "baseline": "13356668466012807153972315699804132141669476522124738368424382553411467279492781444678264020052845936396417545298241388544/4251559619211162586596729345503859794786467431507049220452219784836061942238351521333003818357561087510820253909213660375",
+    "cost": {
+      "common_denominator": "18426870715179537967735912469126940676922694962497387824525601678877958860722523152747549210770822398483704633298641396861922539529981666444625",
+      "raw_numerator": "347338330004741614855271273505115722960329554654373967563098181022292064380539916750142002099973368870391029730191155868870147749657568503398400",
+      "raw_denominator": "110561224291077227806415474814761644061536169774984326947153610073267753164335138916485295264624934390902227799791848381171535237179889998667750",
+      "actual_gcd": "1416220456350",
+      "raw_denominator_bits": 476
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37,
+      41,
+      43
+    ],
+    "q_part_with_all_prime_factors_above_n": "12519865050251046532867250929532053990871375604502504988413739042369712355768513823120882867091744832807515661405858858024391",
+    "q_part_above_n_bits": 413,
+    "quality_display": "1.841413492238989E+230",
+    "baseline_quality_display": "3.355506254133713E+182",
+    "quality_ratio_display": "5.487736731143077E+47",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 44,
+    "p": "5187668519849546432769559933899066811825548821259962150535966820447552296206375802761227031090050026464748933254772316989185665425687445504",
+    "q": "1651286176112542943145069914246485111603138685170841263210688673790665429448055835373099856526967542704013847203843494388690983961173596275",
+    "q_bits": 460,
+    "source_q_bits": [
+      237,
+      230,
+      127
+    ],
+    "baseline": "84547286492143008601703255614926601704892720120334654886410610725397173178175407416075056377673948699025859590682851906945024/26912237140462383524792167629365080732069045090730549066277315289251678476127444074709425559627032415414248508497109288249975",
+    "cost": {
+      "common_denominator": "2227224058951001938952269541149345248702931189338083610950144742660564265583899394087973286975944285152301527298806100092505342461546477331572533425",
+      "raw_numerator": "41982184448993449613470975794144069914758390447051361021804424728815377280993622360949157348893178779567064636812853380467265034880259949052232204288",
+      "raw_denominator": "13363344353706011633713617246896071492217587136028501665700868455963385593503396364527839721855665710913809163792836600555032054769278863989435200550",
+      "actual_gcd": "8092688322",
+      "raw_denominator_bits": 493
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37,
+      41,
+      43
+    ],
+    "q_part_with_all_prime_factors_above_n": "52963906785968534857026882759370640968809751405323899091275978769697945701295108274877050461011401390390812858403628068850479357717",
+    "q_part_above_n_bits": 435,
+    "quality_display": "1.413644900108304E+244",
+    "baseline_quality_display": "5.662514870203491E+188",
+    "quality_ratio_display": "2.496496578838128E+55",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 45,
+    "p": "2363646215888873720878645633892501097868427259206132649084381411294184177283291938488860006200699760431198506809210107124679409145277606526976",
+    "q": "752371957958334908057196653772078800560874553821726598695975132730312171272445852102347363134993786226043710819925321953109813217425637381875",
+    "q_bits": 468,
+    "source_q_bits": [
+      245,
+      237,
+      128
+    ],
+    "baseline": "564737507734635850071535097607037073924801201603049677899445004608006143108042675546233084700121524493240767413144722454479896576/179761531810729541476897334384204327813298420544969196634015779146913721069001341522115462854584594277363392434260121736494115625",
+    "cost": {
+      "common_denominator": "35517485254823202592496611230226212927282746552283609338338240579452484155914087494835032984175335552782065613081402404311795099214859931504954390621875",
+      "raw_numerator": "669488824503218272374055608520234586333220013057937783800983410392101311930618602471393889474563768881441524418155624059029171833434683072613937861099520",
+      "raw_denominator": "213104911528939215554979667381357277563696479313701656030029443476714904935484524969010197905052013316692393678488414425870770595289159589029726343731250",
+      "actual_gcd": "283244091270",
+      "raw_denominator_bits": 507
+    },
+    "eligible_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "certified_cancelled_primes": [
+      23,
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      23,
+      31,
+      37,
+      41,
+      43
+    ],
+    "q_part_with_all_prime_factors_above_n": "965273223409241941436685378862312159378495028970953127298675580419980927025204304186386995313129755891590299527689785947893398659037",
+    "q_part_above_n_bits": 439,
+    "quality_display": "5.035555312978671E+248",
+    "baseline_quality_display": "1.064077800609366E+195",
+    "quality_ratio_display": "4.732318736557567E+53",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 46,
+    "p": "793858084837864910669548114195382614068682648335464081126187420770499855284592655308828137850700481440976881572580396230212969619537730308407296",
+    "q": "252692876630822818716661260910162316679355448114138535670833923154794772815041254974976141467628360330157899568202032455307947560781229613939175",
+    "q_bits": 477,
+    "source_q_bits": [
+      247,
+      240,
+      119
+    ],
+    "baseline": "16773474092031619096859257514786354843600677457534452033036548205133049866826362171497602163137838853256347714032074800977256906752/5339162629141346250512529921998124972308205026786949294712559638341969607261107387608509008798666922295611685727138112567708922625",
+    "cost": {
+      "common_denominator": "2390094310148254476717446953012465721500100109210338768949904307990010584697203634974536959190855508040996842276341082968367945463911456397295617041625",
+      "raw_numerator": "45052216356891126409460204942258732869533386915206472004069828530524014172260259243651646386320967501242435776819062889048929332489297146600513203077120",
+      "raw_denominator": "14340565860889526860304681718074794329000600655262032613699425847940063508183221809847221755145133048245981053658046497810207672783468738383773702249750",
+      "actual_gcd": "56750970",
+      "raw_denominator_bits": 503
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43
+    ],
+    "certified_cancelled_primes": [
+      29,
+      37,
+      41,
+      43
+    ],
+    "exceptions": [
+      {
+        "p": 31,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43
+    ],
+    "q_part_with_all_prime_factors_above_n": "11367399857559712365441485685296043138665653059820968624523305368136104901630706786355542214684589653740348443871138525639805874325753",
+    "q_part_above_n_bits": 443,
+    "quality_display": "9.746598343263085E+252",
+    "baseline_quality_display": "3.953806463260148E+196",
+    "quality_ratio_display": "2.465117712217617E+56",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 47,
+    "p": "4192384664873827549655148495717657738096769340458345610444659738525738008370484909904232424907789021647400613087851636583533230147447809195900928",
+    "q": "1334477485514657444616188885067349035764234695572777670717942251899980759717829481570151315223564828600801248393472732382130670300683339278541875",
+    "q_bits": 479,
+    "source_q_bits": [
+      258,
+      243,
+      127
+    ],
+    "baseline": "5741693309466868747954615869521755632351481728313859480708884904443058705598395424592964027987039459229759391198329693827320833376256/1827637743838631381049219180417246463961733092424888667066053331840985767124463393784896494257751517157286403197062806999411312103125",
+    "cost": {
+      "common_denominator": "3139836434628678967795277555679402663131621625447556674467265739893271759842304552286174962130437438679296746936950226176338581212179641996649958884021875",
+      "raw_numerator": "59184522459018161564063496144945287665370991818200745856570074452136466775491929622872100093567481552625467884995060506460447920775393714523785222412042240",
+      "raw_denominator": "18839018607772073806771665334076415978789729752685340046803594439359630559053827313717049772782624632075780481621701357058031487273077851979899753304131250",
+      "actual_gcd": "14117149830",
+      "raw_denominator_bits": 513
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      43,
+      47
+    ],
+    "exceptions": [
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "1815587637785005533180774814490770879283592670633433979272191647514958687808227801998656182584838133699622582458978718525698061310323",
+    "q_part_above_n_bits": 440,
+    "quality_display": "4.664154695110746E+253",
+    "baseline_quality_display": "1.951440573130562E+200",
+    "quality_ratio_display": "2.390108496938938E+53",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 48,
+    "p": "6966556203301683212601374139198187349769308733670352040486546363355967712902759789581378433844686974474916513172112174437230474364484449327642097838194688",
+    "q": "2217523712165939649921673638144749044281505189258818348293981285362569428641545098901697719190789231188388501738762405046324608010406175104998507758022775",
+    "q_bits": 510,
+    "source_q_bits": [
+      263,
+      257,
+      141
+    ],
+    "baseline": "4457114516923419791763253930959852176620973990550622704941160282791287991760970740613096832833904734350072884894091553429294392877550403584/1418743614590014894832392727081002064480046273634543859599709826842679040632556932962299008159735904600187112320853988376774213909660020875",
+    "cost": {
+      "common_denominator": "30559754627266640911618157025620848688588663134339501336580704914282250438436133487614162877871694172336108734454959524362252758715614502326039917947700496864821625",
+      "raw_numerator": "576037803795165415249009007752124508875037405782689849851455263648607218705045435852971897924166249670369008817266703129713802858665920153771145212527121970778603520",
+      "raw_denominator": "183358527763599845469708942153725092131531978806037008019484229485693502630616800925684977267230165034016652406729757146173516552293687013956239507686202981188929750",
+      "actual_gcd": "82686163290",
+      "raw_denominator_bits": 546
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "3092417368637470235691872371261198842132533579662581962800787153507064569216461425994551364159195150595299320297782879056256757022379309913000119",
+    "q_part_above_n_bits": 480,
+    "quality_display": "2.209881216638357E+271",
+    "baseline_quality_display": "4.953401723635154E+210",
+    "quality_ratio_display": "4.461340589627345E+60",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 49,
+    "p": "605910448976659110949011997550615503778875152886263847967006992661821847638629386556242020481925482429414641774467770726386166544359891626579291992859082752",
+    "q": "192867286051329866576211765667698952643419638418433349372076668913791366039347861669322225085330703797162450512341600175362110957053287243007301270897160625",
+    "q_bits": 516,
+    "source_q_bits": [
+      275,
+      260,
+      147
+    ],
+    "baseline": "1135570042411431462384370733880664495516317953481223027316792379535686831393144393387101900024525644783188089409178812925362982350905656999936/361463170953705094561350476178768281698418899278619089568952873892667744639077815988573602852117650446395467029607976304285197833842702646875",
+    "cost": {
+      "common_denominator": "18605365225695967447603652499888333389641735593969226817521342147572523129541957497618894401537086884126596992006691997753198165053007333907671560805565006275459865625",
+      "raw_numerator": "350702872262408740526173630255474915098259780608541291317165723094650631299160472580073709320296104536394234782163482101869739349388539192934273292978949412740462018560",
+      "raw_denominator": "111632191354175804685621914999330000337850413563815360905128052885435138777251744985713366409222521304759581952040151986519188990318044003446029364833390037652759193750",
+      "actual_gcd": "578803143030",
+      "raw_denominator_bits": 555
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "4480806936174985232324442553494400972780533533649917548816214709389808341921149153551317054855735184928130653134203843947605578570179358432953",
+    "q_part_above_n_bits": 471,
+    "quality_display": "2.868336637894661E+274",
+    "baseline_quality_display": "1.354432031067022E+214",
+    "quality_ratio_display": "2.117741290890016E+60",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 50,
+    "p": "135840073003657118847966308846946785949043142350752336605632780920482626360367009850338872286816121563397535554942631597741126072555326677722340439346519212032",
+    "q": "43239238176991913322666114519947731792561190614945227010916636724970984621011094401062419500659606968747803830230223914690073000833297127496884454800652054975",
+    "q_bits": 524,
+    "source_q_bits": [
+      274,
+      261,
+      148
+    ],
+    "baseline": "42606505930706641348711741483676241625736201928175754784425747095969585427326787562289834370305165538292054917610264434263456412199957538275328/13562072053492233244033769113770039986115165225388896830249771739988133272329505241057829032615568725622614734761328988475891204943278438426225",
+    "cost": {
+      "common_denominator": "834233565302189562068415920780788893095129103384307862840513381924331052806500493861165459273271455722523994678237537677442828040748539549102245299045512717098611602475",
+      "raw_numerator": "15724932240788278614727430456832098985292562442736631022491355039754952128377910945139821838038986958513810196911394084022390883817300580926819705588287279842880118587392",
+      "raw_denominator": "5005401391813137372410495524684733358570774620305847177043080291545986316839002963166992755639628734335143968069425226064656968244491237294613471794273076302591669614850",
+      "actual_gcd": "115760628606",
+      "raw_denominator_bits": 561
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "1230585475762639228545923342175916893779143305326774280029988784348283939443995973687960320673360657856682118142817167753061990725842421873331416879",
+    "q_part_above_n_bits": 489,
+    "quality_display": "2.473707691366360E+278",
+    "baseline_quality_display": "8.032037898288620E+215",
+    "quality_ratio_display": "3.079800821026294E+62",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 51,
+    "p": "228356733696368562847725832921268146408309259195632147440056077201965534325689527055678290918409798777146752077354558201052761345770853559468831801985596173320192",
+    "q": "72688205912193273290270169560982395480967758881230703921108909885417243451420060392788952752539486442868166886141221432066370569693960388024207015383881926657975",
+    "q_bits": 535,
+    "source_q_bits": [
+      274,
+      270,
+      148
+    ],
+    "baseline": "59922320343395292882303653224709562437890795875728863790064242194479054024760153105030184011975667202826442955562280172305252426217404654384316416/19073866968374800026316536580311952616686271097310923221131613087345552475664318478056818325245720005520841486171458889307107077455429712984440325",
+    "cost": {
+      "common_denominator": "1402405401439643159374404121991588191962753579551717596802572740153884589088020535737955406687734152243805650721103570444107097110118531259890979740918880705068262460505475",
+      "raw_numerator": "26434719039104566774709559876510929934910320986136563317202565200789995872288489986356163318422859364352478127585799994893280184358532527677284572862336331981213552032612352",
+      "raw_denominator": "8414432408637858956246424731949529151776521477310305580815436440923307534528123214427732440126404913462833904326621422664642582660711187559345878445513284230409574763032850",
+      "actual_gcd": "115760628606",
+      "raw_denominator_bits": 572
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "2483434440530785084865775679883849820943723554343129176579458100764218049309152982466493400326967365738604949628605081658942745938097770908871459303",
+    "q_part_above_n_bits": 490,
+    "quality_display": "1.199494746876962E+284",
+    "baseline_quality_display": "6.692762574844253E+220",
+    "quality_ratio_display": "1.792226652989965E+63",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 52,
+    "p": "1564710248969613418818694213880560913896269948748952378338213012657157403974526253471463765125624638136551763616664244943064790181029028487668905841270972787938295808",
+    "q": "498062741260128412228401479405459936772608895770254557797220989716915902111765509511948406118162564665424747892149325822296136600971519574261490051433841559752752025",
+    "q_bits": 548,
+    "source_q_bits": [
+      274,
+      271,
+      152
+    ],
+    "baseline": "523539235626395184537738804646248290426628193879608648566573084164370217562994843259468379307118104227031440315136689509117086026116493386232889344/166647714504986617473301277778872770787990551534853186227565855135429473115016895162001230329290772338329288196985736092428873349210166358808645675",
+    "cost": {
+      "common_denominator": "234374211436991860015611595538684574916041547385984561655458782315153035854046903453548860813326320322628832886114957112228083834202062179754242221838198254383683269725363525",
+      "raw_numerator": "4417849805048127150128409564461188829183074388923076356107079902827355498760444924705042320338874357782646649305438366133013092476619923747952050238676904095435547743279382528",
+      "raw_denominator": "1406245268621951160093669573232107449496249284315907369932752693890918215124281420721293164879957921935772997316689742673368503005212373078525453331029189526302099618352181150",
+      "actual_gcd": "2823429966",
+      "raw_denominator_bits": 579
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      43,
+      47
+    ],
+    "exceptions": [
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      43,
+      47
+    ],
+    "q_part_with_all_prime_factors_above_n": "20336912860440157496770696509120183728942537326591120020593203364306475401280437058714049770957965436228723347888308386172784354906610489147844838866033",
+    "q_part_above_n_bits": 503,
+    "quality_display": "9.663079994281236E+290",
+    "baseline_quality_display": "2.152233429157848E+221",
+    "quality_ratio_display": "4.489791796451336E+69",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 53,
+    "p": "214850588217971004584705847068137773612013964022087433791325049518104636827207572751916652808488691234836284154217958219757029243768595129384192815732712576995949543424",
+    "q": "68389066282182827509528450160652408401768589702559721773046388556831028951035150074246077287629554254365913391194062798552734956976275105138957748833015237553006601075",
+    "q_bits": 555,
+    "source_q_bits": [
+      288,
+      286,
+      155
+    ],
+    "baseline": "1502361517276062165264657169277015698774974465750686209090265352144222195910782593638785488466756074936383651870293884634048993207625715865897644362563584/478216523571050410506972978395810497166663825212322346883449300490400618700736066276658796433663271997410481724841132981443821841717596304579608716927175",
+    "cost": {
+      "common_denominator": "69931391506325470831173098466269569605633015090677305644054780794609151422495588275133749058719967235315987827918471401376953286664075078926924661530496476958693408907100365604475",
+      "raw_numerator": "1318175674869502584340163412001200531718422948328875598410791258780163117250446959346483498082795630199905202817043918162204674873826201170688275287543780522700384595918909480108032",
+      "raw_denominator": "419588349037952824987038590797617417633798090544063833864328684767654908534973529650802494352319803411895926967510828408261719719984450473561547969182978861752160453442602193626850",
+      "actual_gcd": "6135313316118",
+      "raw_denominator_bits": 597
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "2336551857753656198106041722224396615644971520824661262978589141347225897836296920297596184027330690479419428198729460803616414047996341639656877063253091",
+    "q_part_above_n_bits": 510,
+    "quality_display": "3.126056106373638E+294",
+    "baseline_quality_display": "7.466376632774485E+232",
+    "quality_ratio_display": "4.186844918392503E+61",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 54,
+    "p": "25612743159550994964687867767873445783075248855735094377945458405582329521194425968833313310622064657497325447407642021486058638542066569924330995958332559649867997118464",
+    "q": "8152789359971340283614608180119866701318168735964858730765169179989344680602252291634246778577603519837911132932966368668692866884421318252732121700589309925862601745575",
+    "q_bits": 562,
+    "source_q_bits": [
+      291,
+      279,
+      153
+    ],
+    "baseline": "383006284364428473588696371325902914585456079977029863733473616623326923123849646048091162648513037436517719256849762128745632578464846107282591409242112/121914686783717792089695412808195975686174526019307684761347751768072458577072433909597252887271260851472090787284033510235011970915508753556801990518025",
+    "cost": {
+      "common_denominator": "203332996437956547011807074524709221195107722232746462560025425484600476098583366084415347287195591603667331507516862645362953536638663841961881931725124181284818422143426538953975",
+      "raw_numerator": "3832736687051303309285986397700349202739382642366052850500054849124169735062019042806345619594681183102676187352449955545821351998520165169833095784043194924372747863459664203087872",
+      "raw_denominator": "1219997978627739282070842447148255327170646333396478775360152552907602856591500196506492083723173549622003989045101175872177721219831983051771291590350745087708910532860559233723850",
+      "actual_gcd": "149641788198",
+      "raw_denominator_bits": 599
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      43,
+      47,
+      53
+    ],
+    "exceptions": [
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      43,
+      47,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "16977641982518695006318309626670452079611245938743917408655489506900373150525698092070227119135910808849155009401097772589002845872093402860685339393470460989",
+    "q_part_above_n_bits": 523,
+    "quality_display": "7.622734876653168E+297",
+    "baseline_quality_display": "2.044321861561377E+230",
+    "quality_ratio_display": "3.728735195753964E+67",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 55,
+    "p": "4155162914009132530522262342548000780478416113960972696768987536858772200521220962747109146099263808764570176132846355620413122461361698638989859039723796827556190663737344",
+    "q": "1322629434233354961063998298120519320804725981699158339094758217301504406578939024913555959419358422858590506174017945544166311821482300309537141708927494595551355354860175",
+    "q_bits": 569,
+    "source_q_bits": [
+      297,
+      296,
+      153
+    ],
+    "baseline": "150124225158996790497806854798165552861480077380864926743865678256203558997846870459268330445940239156029087045719027299144882325912865927238877179632689348608/47786025023790032413781818281528496602207545659277868595509797859894076519556684779061144452790142889787325612250470691503765095130082956602762237006618701125",
+    "cost": {
+      "common_denominator": "6762288316784599347675121810054759800788943692587480108067511800352935868465016770567092026397120802627127842848288495207183797175966830618624215633239363660214757693997164106219833875",
+      "raw_numerator": "127466131784799514919875451116408647570341416633350911961232970944732032113089021164910913790861807914749290200392684557018339708107699368013071196973905935024357301715571177339968552960",
+      "raw_denominator": "40573729900707596086050730860328558804733662155524880648405070802117615210790100623402552158382724815762767057089730971243102783055800983711745293799436181961288546163982984637319003250",
+      "actual_gcd": "30676566580590",
+      "raw_denominator_bits": 614
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "12324108209156589205542325471432865197138313213533101431090623956363244927426855737177486909359179863147026853172643173807464179506725901122490544289380427607",
+    "q_part_above_n_bits": 522,
+    "quality_display": "3.442300196204632E+301",
+    "baseline_quality_display": "1.323186480412268E+240",
+    "quality_ratio_display": "2.601523101363693E+61",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 56,
+    "p": "172020170241035097520603338212056226363176351657973973136255194814362073229587113829384313331056090718319295025398292332972102206128847679266713930572464717948550373309548836421632",
+    "q": "54755720810740177020423065046141421115706804996123497508002821399494478525892776133633954653466234674118686389303125294072360448065044638810789001639963071320677295255846767488975",
+    "q_bits": 594,
+    "source_q_bits": [
+      301,
+      297,
+      163
+    ],
+    "baseline": "136423529836719954367731143851552043434389885965028946246799632302141310462715523444958062835705432492321503244589998037912136914744097926037515693173219275046912/43424958255117299450961127560491341727139247963109160061278348571572118901868849653237724752171854996330145646996551167984507723689272383041449070423673806187275",
+    "cost": {
+      "common_denominator": "7998654833899373784411099424274655644423910122290124419782978557234108635560151158736827262831437185752626496672986418358960421649184127130998081752563913605131541860426195720734621887019025",
+      "raw_numerator": "150771091588672563361422626684844484465104108156331600637133386849829698416992524185788658441916014100010427801974339709591634716723714862666281588565344932968210877854396415728638766107066368",
+      "raw_denominator": "47991929003396242706466596545647933866543460733740746518697871343404651813360906952420963576988623114515758980037918510153762529895104762785988490515383481630789251162557174324407731322114150",
+      "actual_gcd": "876473330874",
+      "raw_denominator_bits": 634
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "25000166435824702143426290336867370602234131208116597167633253171073899912452514059243119676941839397613696069791504465180868711003263935403484239393792126986335669991",
+    "q_part_above_n_bits": 553,
+    "quality_display": "1.012288914857826E+316",
+    "baseline_quality_display": "4.603465415371495E+244",
+    "quality_ratio_display": "2.198971478047121E+71",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 57,
+    "p": "751750747283964016987139120981691306907085595951964709748164980809405805908267815168100397984748998702872986688972307805198662981950626909888747825496475442165718821471008222871552",
+    "q": "239289694806538170547616631383368514359384781795796524916888496922304778164063889387472435788907635907330754379822359261155195332680861621642031822883827498185079708478326749351075",
+    "q_bits": 596,
+    "source_q_bits": [
+      306,
+      305,
+      160
+    ],
+    "baseline": "61037331872890282151902338871857764568159585034169584254977738750675427653874374334719254862746687131776544647175060001558331480498397367229748745072248825401311232/19428786161421964416071954835911587423734942047505197108481445630908316119849436503634364166071921484648997830681095118783582122727023170512248268467335812049129875",
+    "cost": {
+      "common_denominator": "8564017297245467549393083202498701472593797518414487929005925373969867132183895199499576503987110098079933785666167750453535840849966477786741977580933850733612699240950174381709676283222406625",
+      "raw_numerator": "161427922957453664920294341129779582931051361203382230814081320717629037837027591009728706332969808026756131058776854700162468816884998690833048920569550481717821733319046039753201769971984629760",
+      "raw_denominator": "51384103783472805296358499214992208835562785110486927574035552243819202793103371196997459023922660588479602713997006502721215045099798866720451865485603104401676195445701046290258057699334439750",
+      "actual_gcd": "214735966064130",
+      "raw_denominator_bits": 644
+    },
+    "eligible_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "764778086303161454689623920440107764789020736534804881377738958080654996879709304482272979701218294610823059780794626186279698550300912628696304386675330787213295569149",
+    "q_part_above_n_bits": 558,
+    "quality_display": "3.317154701790822E+316",
+    "baseline_quality_display": "3.882293564523120E+248",
+    "quality_ratio_display": "8.544317029766612E+67",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 58,
+    "p": "32881210134883945593722562049326769978126779665175441422235740180459881502480630335446765889683210230953175391554194849222797825687050018347425783953991027902718475313037431389554737152",
+    "q": "10466414255620213036832798959967005347060046453107884950227178977686071309080883763379568037546384918600167048335204477959397387735620487164250284811190744752200298053248210036926351225",
+    "q_bits": 612,
+    "source_q_bits": [
+      308,
+      305,
+      155
+    ],
+    "baseline": "9105692318822745073501370999355624602856174405859831972610518977447223109169553386714318258780849060275572290573087780734851326139403636493700027893696220652294373376/2898431885629084944646006908363869416947644210184494564375554136892333738416962141626748677307345475767656549057838527537517147990029754519994390062762875781690022325",
+    "cost": {
+      "common_denominator": "32530258740888529769908943800903135310910238645534175076591458374386741281507828920457143478807047815187261596692105054159409031767566542134769538522934476039438762323212895270011338990067234825",
+      "raw_numerator": "613180931278503374807604457540820799403923461621178927764473000936521493395883782208002443622160197953121796837502858025223825966327948236340661485652451450889505031853545900600942185603382902784",
+      "raw_denominator": "195181552445331178619453662805418811865461431873205050459548750246320447689046973522742860872842286891123569580152630324956454190605399252808617231137606856236632573939277371620068033940403408950",
+      "actual_gcd": "18648368742",
+      "raw_denominator_bits": 646
+    },
+    "eligible_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53
+    ],
+    "certified_cancelled_primes": [
+      31,
+      37,
+      41,
+      43,
+      53
+    ],
+    "exceptions": [
+      {
+        "p": 47,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      53
+    ],
+    "q_part_with_all_prime_factors_above_n": "101674831532414855502407639027424357559812990767879793541392076476035441057908776523540972529829798616347026450300461643929946031402935244331581464843527968503578513134383",
+    "q_part_above_n_bits": 565,
+    "quality_display": "1.088892536886049E+325",
+    "baseline_quality_display": "3.640137412199236E+251",
+    "quality_ratio_display": "2.991350088150052E+73",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 59,
+    "p": "582621969950873037372222435048766720286901326231030327352220798558924421212944892584397155574106991729930719711906622316287564781696859717021814807693708391542105568391275231861276672",
+    "q": "185454332943238305236353831249261615008768977804185768804270341749307248547448916365128898784416800484822980653065856078036165888785100900993223256622095222116123463705299375735587775",
+    "q_bits": 606,
+    "source_q_bits": [
+      320,
+      304,
+      167
+    ],
+    "baseline": "6473652600139958498932937645215074087945169584799376378887897430764665103771364395658174781651789648022798084952634299111299285145984863739221572902609037354789240832/2060627622343950732522012317708345944692173880474066052628496905509324477958869758710543010111125380552754057067198126693068605082624217088507148988871526038051183875",
+    "cost": {
+      "common_denominator": "1300996237749368844890414770968546235955122859976455106754698403506214425790296351439289394400629754700531810505536659874360835052928912006075460630377247172106120078710683007318247936928014809875",
+      "raw_numerator": "24523201337168263216708434114887835247173026010654899321122287337871952943463288187473461879689158815825387939578292593689616702104311539458909481421573021743031127890606020585401078344493291274240",
+      "raw_denominator": "7805977426496213069342488625811277415730737159858730640528190421037286554741778108635736366403778528203190863033219959246165010317573472036452763782263483032636720472264098043909487621568088859250",
+      "actual_gcd": "42091102982670",
+      "raw_denominator_bits": 651
+    },
+    "eligible_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "certified_cancelled_primes": [
+      31,
+      37,
+      41,
+      47,
+      53,
+      59
+    ],
+    "exceptions": [
+      {
+        "p": 43,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      47,
+      53,
+      59
+    ],
+    "q_part_with_all_prime_factors_above_n": "1969164186281782035006031228003856085255563558672335136409441779273525545839901472716569174221213897678503779942147259768675003927234941440154719452801386630191495447173",
+    "q_part_above_n_bits": 560,
+    "quality_display": "5.865888866587511E+320",
+    "baseline_quality_display": "7.751544348045022E+249",
+    "quality_ratio_display": "7.567380902706075E+70",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 60,
+    "p": "40703181693154127168452203402423993669294079815523457121776692939556153386933262479030989303121827566118524134099668929332698889879331205173591873724740382245939381305451661536067017567633408",
+    "q": "12956225132066042296528086149964579669761649073391899780134033653782185986504730784672331147163063576289445006512949307078930378578592330299076691616947257948339050252566838755142617312694025",
+    "q_bits": 632,
+    "source_q_bits": [
+      323,
+      316,
+      171
+    ],
+    "baseline": "29010510405971804175107633515957779928490361725953303687443898463559263515502902506661575535207764947998777757005413798563663226918404572982222555971978935174584094087446528/9234332265458559895359785589248309880324206700643372057263416429775600234591388277985807891188342668028424742321712515961151485944877741207894229990379947002033270434216725",
+    "cost": {
+      "common_denominator": "111665227004377653930347977389926837899374132426685791840404503185213569753488208870703989828000086781937591998141304479391640365356258933719249848331438448135355721442403793298357161347511103792453640525",
+      "raw_numerator": "2104839940910336593701215367624039701039676609777478699008796770991632906502286933663461048688104482955920343601950314823979679170060553410230859485824738227031673293038919067889345244218488874304094076928",
+      "raw_denominator": "669991362026265923582087864339561027396244794560114751042427019111281418520929253224223938968000520691625551988847826876349842192137553602315499089988630688812134328654422759790142968085066622754721843150",
+      "actual_gcd": "51711926521566",
+      "raw_denominator_bits": 678
+    },
+    "eligible_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "certified_cancelled_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59
+    ],
+    "q_part_with_all_prime_factors_above_n": "65070563929083661312440763519765448086033348519177996237345878286042265020944989277070967260112459064471036437492552494323264200668275712054748004912922802604082737379794635623579",
+    "q_part_above_n_bits": 595,
+    "quality_display": "4.912321521397450E+335",
+    "baseline_quality_display": "6.558438566549813E+261",
+    "quality_ratio_display": "7.490077815856811E+73",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 61,
+    "p": "213584465388566988616409149254595284071032420498716968032488293085311010775165690096708131760229432978352872785258376576859710702774632110937749524970894780694171125353420677937228693897216",
+    "q": "67986046868460536173652286298015268883731991716691188071629143958905889102556245764312985570889919552603084931798935196616603591045727736683594650552600597717571759286319833920503240698675",
+    "q_bits": 624,
+    "source_q_bits": [
+      332,
+      323,
+      174
+    ],
+    "baseline": "30594463670648128312201281022373436008785096761603072154799477710273260993799728374286150998100429442115269016078207637401026502601038585595809315248206792656247362333226041344/9738520248858124292536413738934299802645177523594723950208007314121172068728952085605608175499110812086061245912762890091248799452574081236981781224393811343950969569278141175",
+    "cost": {
+      "common_denominator": "12259795095798869728744074610434592618891055182355876777601865790380942614626132915471216344461699383644873984834451472932655830916373741476679111683794248795294659348399530229081025644353579766783816903525",
+      "raw_numerator": "231091693244867427347796818213490894085095136545950095350231586985792822509442422653930955707710516360365937482460815366233749779059147472333492712066585466126132179811033830243778220693547079353779290636288",
+      "raw_denominator": "73558770574793218372464447662607555713346331094135260665611194742285655687756797492827298066770196301869243909006708837595934985498242448860074670102765492771767956090397181374486153866121478600702901421150",
+      "actual_gcd": "1081968638610725418",
+      "raw_denominator_bits": 684
+    },
+    "eligible_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "1521000191963567508226006579505128375184795430180629047381349779339731300868892255123873511665290738697170839224570631199260324756880182507404430550804334262470307064025149917947",
+    "q_part_above_n_bits": 589,
+    "quality_display": "2.320804989721659E+330",
+    "baseline_quality_display": "3.073108672763568E+266",
+    "quality_ratio_display": "7.551978263217805E+63",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 62,
+    "p": "22753590456293367086300941476833385925591194154897564748352391919673644913367796579573078701283716265431991793304836852674588293651947632801629865629295018595645810444654414853572708428162847997952",
+    "q": "7242692788415327329654101017074245270776748620649519196593811522822769305574414236515750415519274469469208586288996254112781293558667120667523509354095911374044740140930020668567834585829844737725",
+    "q_bits": 651,
+    "source_q_bits": [
+      337,
+      327,
+      179
+    ],
+    "baseline": "11130280283120730478177217749398303937327025001152407610965322617853636802247354704593955858852303267131277694972386971855134291049994459496817058037943593388377323473629192650752/3542878250113849130383647998035285708383987575597400242193113825888625373953040185648923545859347407730822881139095849391321555992854753959544166258406479777867609935823783109275",
+    "cost": {
+      "common_denominator": "122830910940114901248323788043011701613955821298194174527736943719490224449507932900643597092832941417935590213930239246372052112558572561760866281722956005295636721015555515680006507711830174134198160959155475",
+      "raw_numerator": "2315308124659242824905448645933952006025851652433939443963192157198446191841878310125257588422222335246524348258117557306423120621163752461976493412201378250526719038310210870268726243673852970819809136179412992",
+      "raw_denominator": "736985465640689407489942728258070209683734927789165047166421662316941346697047597403861582556997648507613541283581435478232312675351435370565197690337736031773820326093333094080039046270981044805188965754932850",
+      "actual_gcd": "101755726381146",
+      "raw_denominator_bits": 698
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "106672327197455914000793900574531683615396308394808707682526151576249921071631256104364741499987713471957914136326108717826199629368520126288189467902540501282536033598829868380821211",
+    "q_part_above_n_bits": 605,
+    "quality_display": "4.519264888313742E+345",
+    "baseline_quality_display": "1.713597685833336E+270",
+    "quality_ratio_display": "2.637296330215333E+75",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 63,
+    "p": "19454941535000037527537134967469593011335377860061208544968016696378027342320773239369827071717658876666774145391557562636002073046126555249592539964481007640233790247951638816869318963419800403968",
+    "q": "6192700225718163724831729966719193732740662536154491973036736818577400568339486234269533229905363010713124756401561655009510358782767335734034604515283599353779049648530480292978679583430277625775",
+    "q_bits": 651,
+    "source_q_bits": [
+      337,
+      342,
+      168
+    ],
+    "baseline": "15130865255094856243342919069568917883570993728154825530645428545013373435622855002849167865554944052930963118815017723413680821168194243918925788068540789685541199497508239297216512/4816303997211516496186230611298891671927850701556897545502601506173041949392248339971534315601834277679188415060286256049337408416417521926423570548319195448921998409058825484004525",
+    "cost": {
+      "common_denominator": "735166494683411631678474165274878937355634883971003165529776506733722735723982112131328296026547409709864156963725152499797862359835102036205585210136566474172400933183689098126126132827806825148142705870911175",
+      "raw_numerator": "13857561953176594624586373248318665648728861710733020268470595044603132040963802906887493812889555885647296114138672547333592244141426996753782464948016841680619299921196110669822657487199758749587222558771511296",
+      "raw_denominator": "4410998968100469790070844991649273624133809303826018993178659040402336414343892672787969776159284458259184941782350914998787174159010612217233511260819398845034405599102134588756756796966840950888856235225467050",
+      "actual_gcd": "712290084668022",
+      "raw_denominator_bits": 700
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "16752444677424935659002990755457598127542313065216732921756290787721709170026060078857650352385687783511645139425432871963092365546474723060553372275949335013402949186817551241543409",
+    "q_part_above_n_bits": 603,
+    "quality_display": "5.668860278318815E+344",
+    "baseline_quality_display": "1.334228636096200E+275",
+    "quality_ratio_display": "4.248792242164169E+69",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 64,
+    "p": "11921254072646684855651854708051100809014707617121930782743438269669855938359593149923342964960057508763525895160281374459715093447798294012581969576140335450182898003744216813382270757290259657925081432064",
+    "q": "3794653027032217266264548601700410397850132602651080962344466288293694445214732669693099832238921260082898168347755239066457348379746120603113193279932501681729433399332145513036991675830112583329746389075",
+    "q_bits": 680,
+    "source_q_bits": [
+      346,
+      341,
+      184
+    ],
+    "baseline": "18098103372992652539339308753996848891101824336609323102747069064188880940001378134697307350514109783684041225934192325902983584603724445129682857159383610379103032478967522368795181056/5760805224799769281116961062748685303765341096120676025014718165457702710527078589830756733927574996645186027256657791709070447120720124885465422150286171766777243078155141399631767825",
+    "cost": {
+      "common_denominator": "73334325896797705744285235374429880069262757675282281162524216869605086214093254938377323133321695658217807322064983118738906806202934854483731513809417330113154585806219818634457375351008924049866273888365216753327975",
+      "raw_numerator": "1382319476960036388927897633203963755843973617984276755604947695030524516481026732891558670346327879904740719344973041034887251627937098797377831183814705462710223577159706111428568003756091106503784871932719749127995392",
+      "raw_denominator": "440005955380786234465711412246579280415576546051693686975145301217630517284559529630263938799930173949306843932389898712433440837217609126902389082856503980678927514837318911806744252106053544299197643330191300519967850",
+      "actual_gcd": "115954199829678",
+      "raw_denominator_bits": 727
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [
+      {
+        "p": 43,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "1392017811303380764982799831053020644469687901405152251919226457072326199063891736190394953914753334556332370793906300579646882557746426070673794000379107606261696133642018778554795726095348369",
+    "q_part_above_n_bits": 639,
+    "quality_display": "3.652137758218666E+361",
+    "baseline_quality_display": "8.042226463835144E+279",
+    "quality_ratio_display": "4.541202333261639E+81",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 65,
+    "p": "207026540825997222049972573015373134602897745883139696075422607443041178954112841307338573264342143218793869188930271080481262027292096447177984673255271764419718040891800021530435530040692504200524706349056",
+    "q": "65898594647347068551594530534925795593684096327007507059642092076018768612517365107790682852890207846048929432728493196686097000257958629034704468503510230932958168731059033119539414326460528882554501922575",
+    "q_bits": 684,
+    "source_q_bits": [
+      352,
+      355,
+      185
+    ],
+    "baseline": "70981273791548423410007578786366536460244661078167933744132925824391161188289477427904802401142774415269956677239406149727507935894032659475061811181582942327942584143953148994364496674816/22594041181768262395874066582234474807211195248564902438214008947729298649106225528639825483580241307467018160198333696613080188373579364044733003603453542003640773856121911305374411334125",
+    "cost": {
+      "common_denominator": "39115762967385420691065924930530117795161895555260255057252723046466143927827306075131641514782561108494227866234623921475935030152107719874980436725468337620623403218523994918112524078738610148024989778492443108018663875",
+      "raw_numerator": "737314761467386372667029662495415207542584670911045931508219927213993938209996611637836153213546738936235413302866363706931732187855756464461145593502208779593411646071622786798688831160369954420027919852436734727065436160",
+      "raw_denominator": "234694577804312524146395549583180706770971373331561530343516338278796863566963836450789849088695366650965367197407743528855610180912646319249882620352810025723740419311143969508675144472431660888149938670954658648111983250",
+      "actual_gcd": "3561450423340110",
+      "raw_denominator_bits": 736
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "178268367741263768096544133774761941462123188032670978772412656200373994639118965566874811527385763431616509280172656537443606944040747608189421114469762778419894648947818957746296964751612817",
+    "q_part_above_n_bits": 636,
+    "quality_display": "1.889827270369248E+363",
+    "baseline_quality_display": "5.212023183157180E+285",
+    "quality_ratio_display": "3.625899586318582E+77",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 66,
+    "p": "54582654420502477187521007484232457087864739199689087563118005106544710381935142493177124493873936126079567229757712727022765771197206042462145943277909277412556976177092826902203242778764773667685322769781751808",
+    "q": "17374198516199322286535458025260085218467550481719324596670117581092575797510836742365672028030409944534628910505222623251123216044973947604313576464422917010593702953270655646570280694556324932175361707199999275",
+    "q_bits": 702,
+    "source_q_bits": [
+      356,
+      357,
+      187
+    ],
+    "baseline": "13643321965711124392545517264464865513190435793793666740835958388229098531799186278208509573323044389187380417668741591549003557686558236008564954219116485869674806087474124989130667894767616/4342804262074319220407004904619846160019735706214617895475536287538484237235974719864985414118655407935428614284207007458037157187749648309959750997365089232712047411185067887903164547842825",
+    "cost": {
+      "common_denominator": "2062578222023772912234652856381161660509950421951538031547421804640512152223664260589119178311805335575989446590084229801293789313414412324280617094785497757652923905617838336580064912360379179801564664498920061126141169280675",
+      "raw_numerator": "38878683538585094769400327988470723996273504913934211763871382811342376714988465247778181191197092507302504091583693157936121672409584708557369475655328891872965022531658584889741711996822368699552568276289441344302617278283776",
+      "raw_denominator": "12375469332142637473407917138286969963059702531709228189284530827843072913341985563534715069870832013455936679540505378807762735880486473945683702568712986545917543433707030019480389474162275078809387986993520366756847015684050",
+      "actual_gcd": "712290084668022",
+      "raw_denominator_bits": 752
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61
+    ],
+    "q_part_with_all_prime_factors_above_n": "8444431652820300842638055663988751672971459168164919582035897365251379297746143441124720719317347663274766848594732971338778792294156663993941183521879266099434543348852814987187987302507416060074397",
+    "q_part_above_n_bits": 661,
+    "quality_display": "2.253956945110875E+373",
+    "baseline_quality_display": "8.112758886618680E+288",
+    "quality_ratio_display": "2.778286618167082E+84",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 67,
+    "p": "263272973052595465446107030736804882904059138468376022710166884237894145458374435047815570167309283619811432411306657608935598890374311524424578509692890906902137264958129567938385312836566469901982866927781937152",
+    "q": "83802390087639851125348362560833042325347042657035870219232180270408767346959963902489461540065941978373315461410069480841297102154775176021989322566148645070936281460029260817763692619317486004541148193446928575",
+    "q_bits": 704,
+    "source_q_bits": [
+      367,
+      364,
+      193
+    ],
+    "baseline": "239201416394954192750636122275994730523033448703620093344445924694132885017512292123413766892473261028260887993752067055891807771313065595875008639576592801982255413505374607223231344153672548352/76140175627679389021690796697678972970378332951551379167799729095890315835109419641375811236782981414044258852581919983526221387139081680725935850332217063061058314175287153386248386517109897375",
+    "cost": {
+      "common_denominator": "3332781643809007507594553581544809173106797777684034363661385900938002541788004627247724208468607779194652704131743998364830174721378505318054558720532110973295215319870879213947424919936544969321337232567322757901395121812849625",
+      "raw_numerator": "62821453969255757999231146808940795345438446921260765089840275298690864729996789673153526619064979626776933158759010824098447426006219599355260102853471454266545007051790528657927896865250181260874844226483360587301367906031370240",
+      "raw_denominator": "19996689862854045045567321489268855038640786666104206181968315405628015250728027763486345250811646675167916224790463990188981048328271031908327352323192665839771291919225275283684549519619269815928023395403936547408370730877097750",
+      "actual_gcd": "238617178363787370",
+      "raw_denominator_bits": 762
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "q_part_with_all_prime_factors_above_n": "831239113724954404698774709342172659726387201355818664409018755502493190411951966679770768745348335580699134786137249274605425172654530392785699530896013702053018679839005942337880594893928525870649",
+    "q_part_above_n_bits": 658,
+    "quality_display": "8.997349619508141E+373",
+    "baseline_quality_display": "1.050669557212226E+296",
+    "quality_ratio_display": "8.563443718100182E+77",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 68,
+    "p": "7121177717413823995830580237833196606384412879269547754933683402182171954833822407851793179898667634945459458604620796986322593702178137821637972349579660329831533214924208314664204914589041663065807416715832192925696",
+    "q": "2266741268724540565760169696293582440134597970151647617619927985121203538027832323594147269094627126720779202004707363588690676343518759170974829126309398456866451516758103210321448741191856399870893327438285527163175",
+    "q_bits": 719,
+    "source_q_bits": [
+      374,
+      369,
+      187
+    ],
+    "baseline": "36343765180714746689183906069725558219142906306942870507225161729090821113462706513704333882129873342868639347464098886013983370664153466703193871730796795322609817264157958931093207588881058234368/11568579758163725425927502841524250266185018461179645631662436897506039235392775953749580840247035032746113937082570347039459783809044319791764154854187676078279268248910479068556375354947508076225",
+    "cost": {
+      "common_denominator": "83194547118580743053743196929208332269947037596968481585363145736650579268978501558545559773313387310455765214832991176519705323334595353939502840197127520786676527861063545294552868643457454626785270200250054790698599270299603575",
+      "raw_numerator": "1568180268278778981194526748685954873382935970464555662324950806330408287601827726797706631692256178506163506582201523476691166833050467270074868596612992170207618240776347604848993751509234256122911435790028590633776455929020022784",
+      "raw_denominator": "499167282711484458322459181575249993619682225581810889512178874419903475613871009351273358639880323862734591288997947059118231940007572123637017041182765124720059167166381271767317211860744727760711621201500328744191595621797621450",
+      "actual_gcd": "220213612201254",
+      "raw_denominator_bits": 767
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "certified_cancelled_primes": [
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "exceptions": [
+      {
+        "p": 37,
+        "reason": "normalized_coefficient_zero"
+      },
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "q_part_with_all_prime_factors_above_n": "137397342326639117287705949743708922930607236908812227561290343399563657611126210368866612121443286767167993644695366248957874091595624952289348816176786957970646777467317363768368095558739087522062087",
+    "q_part_above_n_bits": 665,
+    "quality_display": "1.129460168381041E+382",
+    "baseline_quality_display": "1.021902538495214E+299",
+    "quality_ratio_display": "1.105252336533198E+83",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 69,
+    "p": "8340597603549554621290747770746620818464078902981461453387792407526739325287552806716865859540021911434947014721931605747398615011885423226976307113731768580742938277896621476614287402410814902823757372856700770971549696",
+    "q": "2654894673890655961436498266195646024126006244908126468333271300341598796243820513897296636364317609757851510129917419504559931956104481151238827580983480881434573833734464953660501811323754309221989709180190635683426575",
+    "q_bits": 729,
+    "source_q_bits": [
+      368,
+      371,
+      197
+    ],
+    "baseline": "5566501261488517637355795898725172658131284708717260350964849789602328837036151794386408210032842701368694749868051964446614029182305401072072737721050321379125010907784739716417551332301692993536/1771872382986337244420517465341196187728845237292599268754314812460654946136179156954058987823284773329815122909661685279828056597490823262184287387296354376283088531759963573996965668052261781625",
+    "cost": {
+      "common_denominator": "46329053381368711213144905826188604390283859817033082315306039252468318752058489004343136514618373657228700876754018263559402183266654367350665853782842621040976533797039978837753985383303241513353470720173479995504735860070736895375",
+      "raw_numerator": "873282082504063875960005305360270622900932394091736209702187180701263311707705394070509568099882129113482653855096127708422825155755841442111916074339018641905535784439217970457321330981679318709658283774822292474464268141724570746880",
+      "raw_denominator": "277974320288212267278869434957131626341703158902198493891836235514809912512350934026058819087710241943372205260524109581356413099599926204103995122697055726245859202782239873026523912299819449080120824321040879973028415160424421372250",
+      "actual_gcd": "104702579361030",
+      "raw_denominator_bits": 776
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      47,
+      59,
+      61,
+      67
+    ],
+    "exceptions": [
+      {
+        "p": 43,
+        "reason": "normalized_coefficient_zero"
+      },
+      {
+        "p": 53,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      47,
+      59,
+      61,
+      67
+    ],
+    "q_part_with_all_prime_factors_above_n": "34665206474581712150019476255519397678811464274420139542910012397389405252325895942492752242439230428316441193306345376206128794651808871434617082545758694470064893917672319223770614398458476794184208013",
+    "q_part_above_n_bits": 673,
+    "quality_display": "2.658436931392421E+387",
+    "baseline_quality_display": "1.010010227316375E+296",
+    "quality_ratio_display": "2.632089120974509E+91",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 70,
+    "p": "37392405730327027309490018981297457422929289049329000788645117241895874531888108777857260793344818648821125817388176192772587279546230260327696514037140156262759684492240443249695189745489255114841769678341849391875714187264",
+    "q": "11902372412158518165192125607365730039049647131775909177470927484813831524515675393090595201005865039653290375672635122485970360367918320452064200270641502180764915592713868367140182512626048642529703167629807944574060323075",
+    "q_bits": 742,
+    "source_q_bits": [
+      371,
+      373,
+      197
+    ],
+    "baseline": "33069314676410002028768149056120697680855369109587363446384483693665041010431381819366198553380663291672599523250258939815124886701927011911543727818111250581466127616492247466687288275560005030117376/10526289790824026186708103955149532971350935402610567144962476113937957488247010929560952581121392482517933744234497291282569452338675187476218380330457579185566918698239343784025277086658780652618325",
+    "cost": {
+      "common_denominator": "329861849108507694520277141308201560422890610861327526807109793553998408235598953425083228830488510699125580163528485756509466220840270691866258062192910335385009330003636917883371384131927818113750357746276025859344907323534025261649775",
+      "raw_numerator": "6217749371152995966779121570258664888704404648133528028551546885971756108301160653752532880758598568863062821400488428733744709874126215873991775079447961169085743675210558905347283480616063180479522284779954828306708290805619966584291328",
+      "raw_denominator": "1979171094651046167121662847849209362537343665167965160842658761323990449413593720550499372982931064194753480981170914539056797325041624151197548373157462012310055980021821507300228304791566908682502146477656155156069443941204151569898650",
+      "actual_gcd": "166283747988702",
+      "raw_denominator_bits": 789
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "certified_cancelled_primes": [
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "exceptions": [
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      37,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67
+    ],
+    "q_part_with_all_prime_factors_above_n": "423288605916892545614645062528781926862784651128765996153985895033273087061586661409493102622300459941672851974196495773643335614160155768513539039981271946006647331191627639458717025215772851363703601711910263",
+    "q_part_above_n_bits": 697,
+    "quality_display": "9.167757852932960E+393",
+    "baseline_quality_display": "1.501839252563182E+302",
+    "quality_ratio_display": "6.104353603281039E+91",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 71,
+    "p": "264404039394722626513907993476636435719918343676189655863973452288360007676444974438542332361464840679278825056716683947647831577649191043402324319492254975488610640801051945536779235524666887994685039438717677895417856",
+    "q": "84162419686268664204917042530605556896312945317804931746996212971905085313658038756547182181150242738413017159799136409768918981367119167822298156283276882078429881256371623787463732694150290093781049066254644109466675",
+    "q_bits": 724,
+    "source_q_bits": [
+      386,
+      372,
+      203
+    ],
+    "baseline": "135160362011155155632489579581958232974044871600951533232711410972243092565259152059930259276316926850604556614414944012515912114547435183074035149707191853327194364484921085712428312781412686379352064/43022879448330742017007985104427386527098709356034978909992662140638103771889019655314118908120923256390947398632862727283164568957543045586622726678067401679256417392197731847745803601092834845155675",
+    "cost": {
+      "common_denominator": "47528817893208241707222276076226939658512264345938540932896435975372307151555094226993574835031436786736992936673524229725530453267096900903209398088541633317595164143538894831893658224992327427485365880587481252462618670441789662117575",
+      "raw_numerator": "895897110762660757031965198543144386810774153163409347167929222834950438774127400636131842549304082926242660686900609131137378081858234507655931588921575614794036335146114225979239783839441563629574037954863162137024547639284221370957824",
+      "raw_denominator": "285172907359249450243333656457361637951073586075631245597378615852233842909330565361961449010188620720421957620041145378353182719602581405419256388531249799905570984861233368991361949349953964564912195283524887514775712022650737972705450",
+      "actual_gcd": "3388363932765780654",
+      "raw_denominator_bits": 786
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "q_part_with_all_prime_factors_above_n": "122717108380112416466489201510692135305299510608622102102571232941332637782560709891154934445889076620203399296518084655959419588602640111242648599002392202684291294089590651394871154286517368662844459204607",
+    "q_part_above_n_bits": 685,
+    "quality_display": "7.864956908345628E+382",
+    "baseline_quality_display": "1.057021889401742E+302",
+    "quality_ratio_display": "7.440675531134998E+80",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 72,
+    "p": "3914827150396063284865934409952659712845148324890747555985456625343015317071719065600266021886879658989133761512085141180295155215162952172172298771629551547843783590781593299039207334537168213290935793433909988506242285842324258816",
+    "q": "1246128184671784469980038408502262158491449332348507080256824018958549486838957187945256957477225837992321025177317386448544406799684467976941205586945105785689880555648317424501252782504323961347746279348889399319411730219104679675",
+    "q_bits": 768,
+    "source_q_bits": [
+      395,
+      392,
+      204
+    ],
+    "baseline": "3726434243069242837516587627288531714998761752716167538631471109908874254672498037631542101325576736594179276052844224178287664421885027537190154955595311822094968091157063399544185643566609071100617550481850368/1186160859782750829691250097793670549823419853105477233048643541942410009020419101942522308296849225526939976521633984102488172321108705714231741970663269637468479605596634042346521137594465917629959364324824225",
+    "cost": {
+      "common_denominator": "100531804679637395532949780716954867086877998198671332569584640727455582605790896501160830791681179284919429690465328057071190858583892225256690656581566186716080713876468052636986426866344212482846346747183836955640458869443214847753357785618619225",
+      "raw_numerator": "1894979874202037034965203901638759650464089935598862392025730441119164973933309140422268815589466605336821919530147843610377800194589800359504095354042042983438646188493189044562933896273694350230765618097315333565273487853829779765079633758311677952",
+      "raw_denominator": "603190828077824373197698684301729202521267989192027995417507844364733495634745379006964984750087075709516578142791968342427145151503353351540143939489397120296484283258808315821918561198065274897078080483103021733842753216659289086520146713711715350",
+      "actual_gcd": "484051990395111522",
+      "raw_denominator_bits": 827
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71
+    ],
+    "q_part_with_all_prime_factors_above_n": "3432069162732792589575895832885996594729301239178381152411371911224562232639911728200642606448526281120247691523225376316691250873459367521198292007442763440378385463488202204135814885516793774185868488312000524371763551",
+    "q_part_above_n_bits": 730,
+    "quality_display": "2.958344840634286E+408",
+    "baseline_quality_display": "3.385202636837170E+321",
+    "quality_ratio_display": "8.739048021651957E+86",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 73,
+    "p": "97511623542511703154251783334523508427707830936620908918165911468393866566769284191203530896418427056377925297903897234504396788877922371974195566993862933645390101960704074045033661722503802895103238735217343027290714848381487808512",
+    "q": "31038913791413543158311933137930464495017075852622783172333644255347345856762147929071293400296282096414521182138880052853491759078151897440169387544886136685554887969619707855238242148139643161560086789051830254646832417054341532725",
+    "q_bits": 773,
+    "source_q_bits": [
+      405,
+      405,
+      220
+    ],
+    "baseline": "8145418265952270740976679792923153386653688104620416716235300715444731828382498163644914254571044548851687213084344366918639777653774910764051003735606029243000584717159759307262503478486615033069131337396102627328/2592767161154636874056788202186576983907042081122268103226342597985829475463115102224301508952770380066702350566989528597161930633339373061339399157583391430239148824907665334042905724965924836709698414729774456975",
+    "cost": {
+      "common_denominator": "8957075082926597090882727881508020984748626785113959276530410310288554098755061666486391214902701375401227380799827581925032501579551211060091759397802614107526154700263267890856324570995925566840436856742316965484970131473854742472839821090603515499775",
+      "raw_numerator": "168836887669046312875924073594103914281296808946131531598009065664540452860523213039678809119392522376190897406308366882782251201629689159384556166398929972469559448412923354716148710178065593689512627067345742368716090439276523424437824551951145870819328",
+      "raw_denominator": "53742450497559582545296367289048125908491760710683755659182461861731324592530369998918347289416208252407364284798965491550195009477307266360550556386815684645156928201579607345137947425975553401042621140453901792909820788843128454837038926543621092998650",
+      "actual_gcd": "1731453969643313914194",
+      "raw_denominator_bits": 843
+    },
+    "eligible_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "35200509171016598732155460616239420254016066361716545195455190592903437204317654822810535396275083660531293199284306352705542048477305386197062843688035145504594735322439307993958507150115097031503857449409593854713392647",
+    "q_part_above_n_bits": 733,
+    "quality_display": "3.149194049039513E+410",
+    "baseline_quality_display": "6.814549415590699E+326",
+    "quality_ratio_display": "4.621279936476233E+83",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 74,
+    "p": "52899942089574584848794394875279961859751423577600506789896100770820645388598539014524279651673662427510817413205939058423701138244741216467354431352953647063065598940885450352145795372240841547583270687796517060212502121704637318354173952",
+    "q": "16838574545661603772668997146561475497757208126050059408071687234491598984502493583477529168194620013384254861903579189274750826110469117284722024923357230001437686969475246969549570328923931870633113418781888271297603642768638024306872225",
+    "q_bits": 792,
+    "source_q_bits": [
+      409,
+      403,
+      220
+    ],
+    "baseline": "54942496668515083892755855798916895296945709858512608844623151330308044382476541677236851131398714281492933796534538406480414763389762647135660789964464018506964674881495544056347965972195849989930784957466551517184/17488739861208334501851495074080903590701310078070238142374135039010804325421037109606556563664070096540227448478089853939261150691186954531098671150028077056542194974424332805586349701306922528682617526292067793675",
+    "cost": {
+      "common_denominator": "2680200104818959816465354875623713124268711941415576547401937943820550155492162683566767364729191226517382531341534541860345285109908229786148133627252655239889843840506702046736592812505584496589836131233189210056821682921810814376938574969232203518861175",
+      "raw_numerator": "50520581756699027724353267187610170853491026156871647516462710260732212025750346194585766664787498103941660386051379997488034606379290071469920889022627942931025819320875152901392876420381469834163697418218959567347023012163275263043679555288694324908261376",
+      "raw_denominator": "16081200628913758898792129253742278745612271648493459284411627662923300932952976101400604188375147359104295188049207251162071710659449378716888801763515931439339063043040212280419556875033506979539016787399135260340930097530864886261631449815393221113167050",
+      "actual_gcd": "955021494563328138",
+      "raw_denominator_bits": 852
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "73730637789082397599191301086815619411402181894294691646756631919288820382809203189158042156172515153268401427177170800813375628091517314014244219475149175204522414141397575331924267619915591198373840721537221478445583022393",
+    "q_part_above_n_bits": 744,
+    "quality_display": "1.590229069436817E+421",
+    "baseline_quality_display": "1.306290787043186E+327",
+    "quality_ratio_display": "1.217362232980553E+94",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 75,
+    "p": "7829704504808458045319469767790433550135762052321288318828419738417572015284841175111882579749129674577598563740248826629187079609073121523655374835664945062360007333658019177025128329274990732044654091000464786103352561705960527361998848",
+    "q": "2492272349778293381122453312685687477181069858502544738243269395132817759506064004719280981864218289581118927494922496172093645238771119566584137305789511054892161085941644673202186326572892644713852592727132373223208093835720736980345625",
+    "q_bits": 789,
+    "source_q_bits": [
+      417,
+      401,
+      215
+    ],
+    "baseline": "3085790029400497783116079441963827034192729845841958009436280238484427848534267797439365215694320629946307231888026359161898092067415463237365700349226474862949624741158839479354875056308544635406783750510297326026752/982237473045548519414996859396541275249107690730269932248792525080601107683332967659696376908655139142906954883296100484397585974929181464896941943545534279974240732186509385319772962436159195171927230728434739246875",
+    "cost": {
+      "common_denominator": "338642594520505369727552284142731558343740131176637990989829603290314796576024249451577139547797133534387537226871658447871482496898856798082300982940408526460479410603095152758288799605251091063723895995083888637233562559890885747831219035059495014103125",
+      "raw_numerator": "6383262522829241039320605255574137333142121559552395116680771917383636583208044433075082909861302080045953668515936388333774806286367202119294255255266673053323313176152215053074845906133473725227413964177211499584551232787227365832613422215244198172426240",
+      "raw_denominator": "2031855567123032218365313704856389350062440787059827945938977619741888779456145496709462837286782801206325223361229950687228894981393140788493805897642451158762876463618570916549732797631506546382343375970503331823401375359345314486987314210356970084618750",
+      "actual_gcd": "815262251456499630",
+      "raw_denominator_bits": 849
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [
+      {
+        "p": 41,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "10646682443770325898785271848016827117420279689132006817054603041072967377598101575101225871974700773200745863849730586187366248142298113269446924004178951151766806530542690022503235987504459018350964386309305066485467121",
+    "q_part_above_n_bits": 731,
+    "quality_display": "5.977262310411888E+418",
+    "baseline_quality_display": "1.736075432182436E+329",
+    "quality_ratio_display": "3.442973847569411E+89",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 76,
+    "p": "2279313769458188168076004084688181949840892948919493943130315648843428446080244610717017324558060147583131112421311706344083772231623696856231492478476987046513532971133706621961188231641706813229202426916603358879134476486934769360378376749056",
+    "q": "725528106533382765880822337864997552725551827896082117233557298402436790472003403317385025086561142665736547679716377963512029585637896700657718649710218678843820130372325039142931943544334113813817624700665299622719761975545554398307749809925",
+    "q_bits": 807,
+    "source_q_bits": [
+      420,
+      409,
+      224
+    ],
+    "baseline": "200566177860184171522585753799605492426888691629526486806620076440490585464482667394134144536386408843231119328773284673101121061456522339566114083178246238115100810269133803316607191278289096985216487084358255832465408/63842197246993140093045288201466397891860632286993820063681212977122335522130788539321007271010506598599615880202451441947198538944170397781221212092651117770505032230891640765627119013442203597323164380120698057038625",
+    "cost": {
+      "common_denominator": "9786651647587750950077278579114919641364353748632615205907788625016617809357242192776037021918652980255291492888795121213909372148835714931611767487228414293859647196346918389625006430723143901513968962849980768839774774334586621977647132607757126826905426125",
+      "raw_numerator": "184474037515824747158958553905499701134633092777986475632577349367449916311261360345680668785006246291842038984109619745981555700865803029211693646045948760054359994751945702736731008083503982057488749866155993523913595305371941237803705654188112386370526248960",
+      "raw_denominator": "58719909885526505700463671474689517848186122491795691235446731750099706856143453156656222131511917881531748957332770727283456232893014289589670604923370485763157883178081510337750038584338863409083813777099884613038648646007519731865882795646542760961432556750",
+      "actual_gcd": "80934024962993910",
+      "raw_denominator_bits": 863
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [
+      {
+        "p": 59,
+        "reason": "normalized_coefficient_zero"
+      }
+    ],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "166702600304160560062426449052201805287713121907345311754979291903932157342164682032265313330408197440790213392952431781293361700416352029840178992621217412313604140375659514945052688317614533852644934083546163099787423334477",
+    "q_part_above_n_bits": 745,
+    "quality_display": "8.691239525019431E+428",
+    "baseline_quality_display": "3.090039375706488E+331",
+    "quality_ratio_display": "2.812663033794616E+97",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 77,
+    "p": "112539160210326587737211365262800655226892346921346293771959580760707518794036697411242284046150680205080548950226930844482666629846966884620350757407594170606795377952236211183880379399526721531155195737019653072835422954707408061587048871493632",
+    "q": "35822327277768439994753078172338760775223033353336323318842116935599203628488176961055521902308392948589730927257820606995172174312548347990958883109086454358752398288306940020328699753946652583072420302323777248743834595311840265491011383708125",
+    "q_bits": 813,
+    "source_q_bits": [
+      426,
+      419,
+      225
+    ],
+    "baseline": "2298222257232170460874739097418186523391910142545102702954708969375011745947768693552962600701332097317281103151474430807891825191293537674398141631633132129224786806002520861763355456039300341584115069492370555783008485376/731546865124626666933350173351594904539401939697287235347688955784961353961382476623411619891043590628494684965746437051285015716775924317192313079226935070429197845561794980529039252072133823582620769969764968268916540625",
+    "cost": {
+      "common_denominator": "199564706457381378598626989018819282169815797469451994215434489818746452488823795932515824821706103377023203727470053382623119970192274362777664328030781777927349128525199469864152738607955909904796879406611529895966649453463819895474244907889104393099134285040625",
+      "raw_numerator": "3761706094333877466772822487113477362971395416784748495048912098731223841791639831207433286672510329400509734865156861999859835020615421498477802912149631329256581885713688010909894925183452978101616204500738695598962834843852213067680147985570940343690094769602560",
+      "raw_denominator": "1197388238744288271591761934112915693018894784816711965292606938912478714932942775595094948930236620262139222364820320295738719821153646176665985968184690667564094771151196819184916431647735459428781276439669179375799896720782919372845469447334626358594805710243750",
+      "actual_gcd": "33425752309716484830",
+      "raw_denominator_bits": 878
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "6739175626391185004654702228045311186765002443110924518276490713961474789968447604610138194818343200460005854817249011058347082547941469016803567059757279415193695370353634816068918336325550384436116692742833389296963464187391",
+    "q_part_above_n_bits": 751,
+    "quality_display": "3.635318005334796E+431",
+    "baseline_quality_display": "1.709406704735158E+338",
+    "quality_ratio_display": "2.126654818461136E+93",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 78,
+    "p": "23032868537848346275781834132344021481844131977264542068044539834808861170380744562402903138749929514056764300862103808378242394162834990675346283326203190609916894555301271848919534543912936603443610306521803634695474271140795116615741559640424448",
+    "q": "7331589762768720164344905389245719933780385999288989547232597026205136203404031838028339156440161988864758554042568111753363151946182449675745051185594646790586964416880406558211573342928035865681294274840263655265926319134990309548291010261619775",
+    "q_bits": 821,
+    "source_q_bits": [
+      424,
+      422,
+      230
+    ],
+    "baseline": "1151226087813239661340270375921934292005962737618954664962807485492626653660143974021224671728556308208717016137744205018666855521649482545026495874365763888065718884387160660595710269825014816015349083855781757185290552737792/366446644983642921662892316578110247142409883209017231161326492689107663223739225486876509732539144190587859790081018203918091919275887537912009273896272739881451453200121523391048996183401785790637397317862271650111749608875",
+    "cost": {
+      "common_denominator": "285907887354553663629655945513774048184791345871232043476175429139590854077599387332326063861699042091200376459993450899866314247825931137640525505494977067390646034990422307372184489101272539203566938352274819851173168961890102219906767639285406974491491270851432125",
+      "raw_numerator": "5389236711098663607228091697836465077221484598250605104646967532507988572768401089608223180870083305924606928629008263107649877868468151723231009239142370960128922988347024427429692518071020006712303237301455137024249547992528853927695639386640069284112683626271866880",
+      "raw_denominator": "1715447324127321981777935673082644289108748075227392260857052574837545124465596323993956383170194252547202258759960705399197885486955586825843153032969862404343876209942533844233106934607635235221401630113648919107039013771340613319440605835712441846948947625108592750",
+      "actual_gcd": "233980266168015393810",
+      "raw_denominator_bits": 888
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73
+    ],
+    "q_part_with_all_prime_factors_above_n": "11827290444133458965575634241669061258268143267229577460896636171291118035185635185073265128660330386896875182592485774891971351764654176742441082689879964351545907584245640680007713742191997642329162664892478601098519962325173272651",
+    "q_part_above_n_bits": 771,
+    "quality_display": "2.612717004788501E+435",
+    "baseline_quality_display": "1.807154410855290E+342",
+    "quality_ratio_display": "1.445763012332717E+93",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 79,
+    "p": "3427164381094855967539932300236745599844559649825486040188055145131638078085207257842497903897828305338596295562452857355967739957860485880348010444825978658978019699101993270296011709207907051598010556963902312029070072305927119036638446036310818816",
+    "q": "1090900304079445001285796556828632412664442037207423401034471322909927272949960454595556053078511095697276190077246008275417496085913986969671653672560063608951882722280022789785949347161715444352806014468338517725397623956228366004530297147291513125",
+    "q_bits": 828,
+    "source_q_bits": [
+      436,
+      434,
+      230
+    ],
+    "baseline": "238532432573805596300639282144147597416947149053299871702294029212731140813282890573328364687023448936521411828352555908191062919686782889181836105461242120700262189893383619710572437879684594078810465502203717188217642832137027584/75927231463710781910895495507765830512260991596683417147852449850724952803806724784222441155267140090340559484831548698894208080558102936325576335934311189658773110200889244564190945392288699467640904238008937419302748021507696875",
+    "cost": {
+      "common_denominator": "480111484223593337802753333873033591946134720292590411912036692000956716844728742012685509992416915417621904731430236607784234816061698634155692531035802099730925640881670423462721921743184912820742767731762035865110182915347142388667120585761342848687406138162977184375",
+      "raw_numerator": "9049888270445596478425298813863433737046724557580927555357464692585200783039737260852096290258052885521831986310882167469031828588222048046863606533912332811565571867688827064716822266974636997522594198388240309097848530385198250767767988152667768942170255182252862341120",
+      "raw_denominator": "2880668905341560026816520003238201551676808321755542471472220152005740301068372452076113059954501492505731428388581419646705408896370191804934155186214812598385553845290022540776331530459109476924456606390572215190661097492082854332002723514568057092124436828977863106250",
+      "actual_gcd": "2640634432467602301570",
+      "raw_denominator_bits": 899
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "q_part_with_all_prime_factors_above_n": "205228674370285303877009446732723216746750917415041335093703990104641821401036909431745442549503810003814702963033552470415450377711679207328198624829327142744197945113610102876119116825090752944642869000057652108881868802399967767",
+    "q_part_above_n_bits": 766,
+    "quality_display": "9.924922282153480E+438",
+    "baseline_quality_display": "3.268748174600720E+351",
+    "quality_ratio_display": "3.036306791472493E+87",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  },
+  {
+    "H": 1,
+    "n": 80,
+    "p": "137214695345366733235268147843160496401843436293795235084536304944807258893850876675176259663598413428399388814733568372852214982786425044804567356782070121803539471247714148456073388073417456148286327613961582622060192328265586833647073027062002352128",
+    "q": "43676794058127196486685751310725970337692048761424982843909520901231305610111754394032506512423247420402431456550776623606817800178069818611957841932778826995364343973032752480995343264461389730798587328848104056688000453910061860727269090820957932425",
+    "q_bits": 833,
+    "source_q_bits": [
+      439,
+      431,
+      239
+    ],
+    "baseline": "705865472321817726191190039990642152026360474820780351375698654612804298410778800958771933673132276046742301343689641770580813695573437746808103906339122482836618420753805720304078872656820327664185944873464147698821865278520950784/224683958155825444910047252935345282861713023516589265271424541833101573579260558729018919210802472389537062724914541257447218492012917545191876112215263226316191966282714440653191163450383158334358246539960671552774865400406494725",
+    "cost": {
+      "common_denominator": "949586941118423410485743249107395561034715954479699148524194493073195115556500945241511961218390607756707204361102795107867063193998049921036970381957121269172621115628085253833519717527956324320005966158774532563785225701172706088366111457961706922495187675191246575253025",
+      "raw_numerator": "17899292148974655279175707315135563191987542623159393090102743619220631879064571542572783479603060577692023142071497261229006889127740779201919805660712536047161031692545311925021286772162796731994854597057062094233417575426853590976575229521371492957446876632444035529703424",
+      "raw_denominator": "5697521646710540462914459494644373366208295726878194891145166958439170693339005671449071767310343646540243226166616770647202379163988299526221822291742727615035726693768511523001118305167737945920035796952647195382711354207036236530196668747770241534971126051147479451518150",
+      "actual_gcd": "130447340963899553697558",
+      "raw_denominator_bits": 910
+    },
+    "eligible_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "certified_cancelled_primes": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "exceptions": [],
+    "removed_relative_to_baseline": [
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79
+    ],
+    "q_part_with_all_prime_factors_above_n": "803043912767042948654906320406957008449101228667070396730830836997476203951086231599281090239878010521967209560397434250683461242205675326877658526569330370440231444131771708119165725121855191039084355677789061744101765647603408546453554311",
+    "q_part_above_n_bits": 797,
+    "quality_display": "2.729726393691990E+441",
+    "baseline_quality_display": "1.205987821680431E+351",
+    "quality_ratio_display": "2.263477577981155E+90",
+    "strictly_improves_baseline": false,
+    "strictly_worsens_baseline": true,
+    "strictly_worse_than_355_over_113": true
+  }
+]

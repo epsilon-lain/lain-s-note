@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "independent_residue_identity_cases": 4085,
+  "independent_integer_filters": 4,
+  "synchronous_candidates": 306,
+  "asynchronous_candidates": 237,
+  "qualified_prime_cancellations": 1789,
+  "removed_from_old_baseline": 1586,
+  "asynchronous_qualified_prime_cancellations": 108,
+  "exact_remaining_denominator_budget_checks": 306,
+  "shared_denominator_controls": 5,
+  "gaussian_orbit_controls": 1,
+  "all_candidates_fail_to_improve_existing_quality": true,
+  "scope": "Independent implementation, not an external review or a formal proof of the new theorem."
+}
