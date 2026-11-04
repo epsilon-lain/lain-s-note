@@ -1,0 +1,120 @@
+{
+  "reports": [
+    {
+      "file": "results.json",
+      "sha256": "881759c7d043cda021d4092d5f24821660575cd464c0895ae0c070085dc0dee8",
+      "checks": "PASS",
+      "backward_fraction_checks": 28,
+      "tree_blocks_source_and_taylor": 431,
+      "source_levels": 7,
+      "independent_taylor_grid_bits": 2098,
+      "independent_taylor_terms": [
+        450,
+        132
+      ],
+      "last_node_denominator_digits": [
+        216,
+        221
+      ],
+      "largest_certified_run": 20776,
+      "record_steps": [
+        0,
+        1,
+        3,
+        306,
+        430
+      ],
+      "verified_hits": [
+        {
+          "target": "1/300",
+          "step": 306,
+          "q_digits": 155,
+          "quality_decimal_enclosure": [
+            "0.0022887386169930294258",
+            "0.0022887386169930294259"
+          ]
+        },
+        {
+          "target": "1/1000",
+          "step": 430,
+          "q_digits": 216,
+          "quality_decimal_enclosure": [
+            "0.000048130561246289404628",
+            "0.000048130561246289404629"
+          ]
+        },
+        {
+          "target": "1/10000",
+          "step": 430,
+          "q_digits": 216,
+          "quality_decimal_enclosure": [
+            "0.000048130561246289404628",
+            "0.000048130561246289404629"
+          ]
+        }
+      ],
+      "unreached_targets": [],
+      "elapsed_seconds_display": 0.067618
+    },
+    {
+      "file": "deep_scan.json",
+      "sha256": "bd534e0045f625c93c93a74ea55ab7858ecb4a7ddf65bcf8427946dbc7d70fd2",
+      "checks": "PASS",
+      "backward_fraction_checks": 40,
+      "tree_blocks_source_and_taylor": 3988,
+      "source_levels": 10,
+      "independent_taylor_grid_bits": 14862,
+      "independent_taylor_terms": [
+        3198,
+        940
+      ],
+      "last_node_denominator_digits": [
+        2056,
+        2056
+      ],
+      "largest_certified_run": 20776,
+      "record_steps": [
+        0,
+        1,
+        3,
+        306,
+        430
+      ],
+      "verified_hits": [
+        {
+          "target": "1/300",
+          "step": 306,
+          "q_digits": 155,
+          "quality_decimal_enclosure": [
+            "0.0022887386169930294258",
+            "0.0022887386169930294259"
+          ]
+        },
+        {
+          "target": "1/1000",
+          "step": 430,
+          "q_digits": 216,
+          "quality_decimal_enclosure": [
+            "0.000048130561246289404628",
+            "0.000048130561246289404629"
+          ]
+        },
+        {
+          "target": "1/10000",
+          "step": 430,
+          "q_digits": 216,
+          "quality_decimal_enclosure": [
+            "0.000048130561246289404628",
+            "0.000048130561246289404629"
+          ]
+        }
+      ],
+      "unreached_targets": [
+        "1/100000",
+        "1/1000000"
+      ],
+      "elapsed_seconds_display": 10.41382
+    }
+  ],
+  "scope": "Independent implementation, not an external or multi-agent review; finite certificates only."
+}

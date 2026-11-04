@@ -1,0 +1,25 @@
+{
+  "checks": "PASS",
+  "file": "conic_results.json",
+  "sha256": "0daf3c49879e25de337e19fcfd3f73412962a3dab62cd076ed6e90f0577f10ca",
+  "binomial_source_values": 130,
+  "telescoping_companion_values": 130,
+  "pi_squared_brackets_checked": 128,
+  "conics_rechecked": 1152,
+  "independent_root_convergents_checked": 82075,
+  "certified_hits": 8,
+  "distinct_fractions": [
+    "3/1",
+    "22/7",
+    "355/113"
+  ],
+  "max_hit_n": 4,
+  "independent_pi_grid_bits": 1140,
+  "taylor_terms": [
+    244,
+    72
+  ],
+  "no_new_fraction_better_than_355_over_113": true,
+  "scope": "Finite experiment only. Neither an infinite successful family nor an exclusion of larger or modified families.",
+  "elapsed_seconds_display": 0.831677
+}

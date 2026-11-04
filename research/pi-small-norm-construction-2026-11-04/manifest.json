@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5903,
+      "sha256": "393d939d19d7c601b7b6a8dfe7a8e1f53464cb3a0cac3ab696ffd2d099237bdd"
+    },
+    {
+      "path": "THEORY.md",
+      "bytes": 6679,
+      "sha256": "4df6024fd8ed8457faf09b96c286ea64408d75418396c6abe6a8b8ab61a1a100"
+    },
+    {
+      "path": "conic_attempt.py",
+      "bytes": 5305,
+      "sha256": "724e176df93c2686d31105652597fda5966abd77ddca8e34b7b5f5f4e9328ce6"
+    },
+    {
+      "path": "conic_results.json",
+      "bytes": 560753,
+      "sha256": "0daf3c49879e25de337e19fcfd3f73412962a3dab62cd076ed6e90f0577f10ca"
+    },
+    {
+      "path": "conic_verification.json",
+      "bytes": 724,
+      "sha256": "5368abbaebd8b437875283ab5a2765fb8f4d79efbd828917142f6916ed2cec44"
+    },
+    {
+      "path": "construct.py",
+      "bytes": 6964,
+      "sha256": "1e655a01aaa43ac00ca7467e22d0517b31b574e44677815e0462cc9ff011e068"
+    },
+    {
+      "path": "content_lift.py",
+      "bytes": 4997,
+      "sha256": "156bbfc5cd79be1d24e2523ae7b05cc0021f08dbb3e19a48337e5882f58693fd"
+    },
+    {
+      "path": "content_lift_results.json",
+      "bytes": 283543,
+      "sha256": "c47344fd254cba18310770387268e70f13b195f607f1ae3ec7489785c4a57be6"
+    },
+    {
+      "path": "content_verification.json",
+      "bytes": 596,
+      "sha256": "e0cbd67df8352424e2c289d3bd01c26230f2ba3e674e79bf3cbb99fd63bb2bb6"
+    },
+    {
+      "path": "deep_scan.json",
+      "bytes": 435042,
+      "sha256": "bd534e0045f625c93c93a74ea55ab7858ecb4a7ddf65bcf8427946dbc7d70fd2"
+    },
+    {
+      "path": "results.json",
+      "bytes": 71822,
+      "sha256": "881759c7d043cda021d4092d5f24821660575cd464c0895ae0c070085dc0dee8"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2962,
+      "sha256": "20d9a7634018753963bc12c3d64b031f64eb8c91529c626bb81f41fafdf9e5c6"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7448,
+      "sha256": "1311727ae74dd6419593922caf07bca5d5fe7d0b917e4a36b60fb9ec4e51bb59"
+    },
+    {
+      "path": "verify_conic.py",
+      "bytes": 6077,
+      "sha256": "573898e8add64bb76ff63c0b7c88bcff44ed0fb17b2f37f7ced3b39b43a72191"
+    },
+    {
+      "path": "verify_content.py",
+      "bytes": 5163,
+      "sha256": "742ba7df51fb1e91aab16a617f43f75703546e9e25ce563dd7a68679c6e08d44"
+    }
+  ],
+  "scope": "Finite constructive attempts and controls; no new pi record or infinite successful sequence."
+}

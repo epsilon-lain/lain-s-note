@@ -1,0 +1,19 @@
+{
+  "checks": "PASS",
+  "file": "content_lift_results.json",
+  "sha256": "c47344fd254cba18310770387268e70f13b195f607f1ae3ec7489785c4a57be6",
+  "content_witnesses_checked": 128,
+  "quadratic_candidates_rechecked": 12231,
+  "certified_hits": 6,
+  "distinct_fractions": [
+    "3/1",
+    "22/7",
+    "355/113"
+  ],
+  "last_source_original_B_digits": 238,
+  "last_source_new_B_digits": 134,
+  "height_claim_includes_weight_cost": true,
+  "max_hit_n": 4,
+  "scope": "Finite positive-cone weight selection, no global minimal-height or infinite-success theorem.",
+  "elapsed_seconds_display": 0.134728
+}
