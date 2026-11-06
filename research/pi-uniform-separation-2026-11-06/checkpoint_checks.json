@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "source_centers": 24,
+  "norm_identity_and_finite_lower_bound_checks": 138,
+  "rational_square_zero_norm_cases": 3,
+  "two_adic_indices": 513,
+  "odd_surplus_counterexamples": [
+    {
+      "n": 72,
+      "p": 17,
+      "gcd_valuation": 5,
+      "factorial_valuation": 4
+    },
+    {
+      "n": 107,
+      "p": 73,
+      "gcd_valuation": 2,
+      "factorial_valuation": 1
+    },
+    {
+      "n": 166,
+      "p": 131,
+      "gcd_valuation": 2,
+      "factorial_valuation": 1
+    }
+  ],
+  "source_height_cost_examples": [
+    {
+      "n": 1,
+      "B": "1",
+      "q_max": "1",
+      "uniform_on_this_finite_range": "1/16"
+    },
+    {
+      "n": 2,
+      "B": "38",
+      "q_max": "3",
+      "uniform_on_this_finite_range": "1/608"
+    },
+    {
+      "n": 4,
+      "B": "1112",
+      "q_max": "72",
+      "uniform_on_this_finite_range": "1/17792"
+    },
+    {
+      "n": 8,
+      "B": "230352316320",
+      "q_max": "74",
+      "uniform_on_this_finite_range": "1/3685637061120"
+    },
+    {
+      "n": 16,
+      "B": "54379991952145788888960",
+      "q_max": "34682",
+      "uniform_on_this_finite_range": "1/870079871234332622223360"
+    },
+    {
+      "n": 24,
+      "B": "13923879743272706249558386345133383296",
+      "q_max": "493786",
+      "uniform_on_this_finite_range": "1/222782075892363299992934181522134132736"
+    }
+  ],
+  "scope": "Finite exact checks; no all-denominator pi lower bound or contrary conclusion."
+}

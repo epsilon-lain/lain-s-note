@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/epsilon-lain/lain-s-note",
+  "baseline_commit": "88c331c410290c5eb915776ecd2415bffff20dc0",
+  "branch": "codex/pi-uniform-separation-20261106",
+  "target": "Existence of a uniform positive c with abs(pi-p/q)>=c/q^2 for all integer p and positive q",
+  "status": "Target unresolved; proved restricted construction obstructions and a costed irreducible repair, with exact finite checks",
+  "python": "3.12.10",
+  "dependencies": "standard library only",
+  "lean_formalization": false,
+  "sha256": {
+    "checkpoint_checks.json": "c8cdc6333a1cbe677bcfb4f58d9febaa56d6257f8ebf1639aa12a3f0a2a81275",
+    "CHECKPOINTS.md": "daecc7a32a1658601c1b128364672bc1df9531f471d0901de6ef25db61ff7b20",
+    "COVER_AUDIT.md": "9d74dd44b419d98b4a7f1e806381c815b63ee6c4b268074afd22f46cbb763fb0",
+    "DETERMINANT_AUDIT.md": "ddd7b15ea7101c295e2ae9ed09eb86bcff82bf1fa8fb4e1874dceefff04f4f08",
+    "README.md": "65263325d91b2e06a59d6bd54a31a2ceef25b5ff7a8dac3ec664ba22137182ae",
+    "REVIEW.md": "60a45f525625cff03b1c30a321413ef13d263af71a55d55de4d8d7983da27c51",
+    "RUN_LOG.txt": "ba36f3213eb0331f947a0f8c797f8e3370433b1216c101eda955a7d2e96e5ae4",
+    "SOURCES.md": "bb4ef7f0c2e5650d7286b95c072412b44255a8ec36d5bf9c0933bdd843a34a6f",
+    "THEORY.md": "f3eaeb986071f847d66abf27074afa97c8e90c7a8a488add84709f21dacb2f3a",
+    "verification.json": "ae93e32c171e86da1e22aa7ba9e8ea5f0531638e11743191776ecbac82b52a95",
+    "verify.py": "ee176e85f3d167a11ea48219a5d45d09ee6da4c69b13e03baa41133deed408c7",
+    "verify_checkpoints.py": "de88b707cd9211d476c90278d477753668b4f9ea9207f55bdc5666ecdd743747"
+  },
+  "hash_normalization": "UTF-8 text bytes with CRLF normalized to LF"
+}
