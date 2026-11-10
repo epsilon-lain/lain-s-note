@@ -1,0 +1,50 @@
+{
+  "checks": "PASS",
+  "file": "full_cone_results.json",
+  "input_schema": 2,
+  "compact_exact_record_hashes_recomputed": 256,
+  "sha256": "308295af245b9ae62211ca94fa8777ac7e289e5e06c73535384ad2d64b1020f4",
+  "source_intervals_checked": 256,
+  "independent_endpoint_convergents_checked": 134271,
+  "unique_candidate_sum": 67149,
+  "optimal_source_and_primitive_weight_witnesses": 256,
+  "summary_recomputed_exactly": true,
+  "independent_pi_grid_bits": 2285,
+  "independent_taylor_terms": [
+    490,
+    144
+  ],
+  "exhaustive_integer_cross_checks": [
+    {
+      "n": 1,
+      "q_limit": 2,
+      "integer_pairs_scanned": 5,
+      "competitive_primitive_pairs": 1
+    },
+    {
+      "n": 2,
+      "q_limit": 26,
+      "integer_pairs_scanned": 377,
+      "competitive_primitive_pairs": 2
+    },
+    {
+      "n": 3,
+      "q_limit": 292,
+      "integer_pairs_scanned": 43070,
+      "competitive_primitive_pairs": 3
+    },
+    {
+      "n": 4,
+      "q_limit": 3193,
+      "integer_pairs_scanned": 5102414,
+      "competitive_primitive_pairs": 3
+    }
+  ],
+  "rational_root_terminal_controls": 4,
+  "best_actual_quality_decimal_enclosure": [
+    "0.000048130561246289404628",
+    "0.000048130561246289404629"
+  ],
+  "method": "Independent binomial/telescoping source sums, dyadic endpoint CFs, exact envelope minimum, direct integer witness checks, outward Taylor intervals.",
+  "scope": "Finite n only. Global minimum refers only to the stated uniform-tail triangle certificate over the full positive source cone, not actual pi quality or a new global record."
+}

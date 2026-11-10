@@ -1,0 +1,94 @@
+{
+  "base_commit": "88c331c410290c5eb915776ecd2415bffff20dc0",
+  "files": [
+    {
+      "path": "research/pi-joint-selection-2026-11-10/README.md",
+      "bytes": 6591,
+      "sha256": "e04c9e2ff1ef06e2b7fe69864a4209d1470de644b3719ff80e98864ee663c03e"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/THEORY.md",
+      "bytes": 8076,
+      "sha256": "61e2ca658fefa24a9132679482007bf93b7458f185fa5e73aa2dcbbfce6863bf"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/experiment.py",
+      "bytes": 9428,
+      "sha256": "adbf2c0a6f906328557ddf573186737098f851c5d9dfd1cdd8e7054f32f710fe"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/full_cone.py",
+      "bytes": 7937,
+      "sha256": "3de35cd6dc979288b43c7da4a026a390c689b1acb0f7d369b803be2ba7e0c973"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/full_cone_results.json",
+      "bytes": 143057,
+      "sha256": "308295af245b9ae62211ca94fa8777ac7e289e5e06c73535384ad2d64b1020f4"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/full_cone_verification.json",
+      "bytes": 1562,
+      "sha256": "da6cf87edcda40c0bc66bf6ac1592a9bb8cae72ad2881c265a20a0610cee1604"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/full_cone_verify.py",
+      "bytes": 12690,
+      "sha256": "7614b6a54f68f45adc5bfe0dd003fbb0ea737457f9bd881032285ad2a0efa818"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/results.json",
+      "bytes": 140165,
+      "sha256": "2c0c781d305de7c3d1223d6501426e8253d231982eb63fd998acf647312c89bd"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/verification.json",
+      "bytes": 858,
+      "sha256": "09d7448872140cec3eb18ec7fd536d150cb00647874efc5786c99e89503077e0"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/verify.py",
+      "bytes": 13461,
+      "sha256": "5beebf9b9276455a5b00c72a3681e68c1710d7ed6442a97c62880f79688285d7"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/conic_attempt.py",
+      "git_blob": "8b1c60a56615dfc20d6602062b08b414a9fa856b",
+      "sha256": "724e176df93c2686d31105652597fda5966abd77ddca8e34b7b5f5f4e9328ce6"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/content_lift.py",
+      "git_blob": "9ed2be96b80408dae306ad1df0e5e38988eb0a86",
+      "sha256": "156bbfc5cd79be1d24e2523ae7b05cc0021f08dbb3e19a48337e5882f58693fd"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/verify_conic.py",
+      "git_blob": "561e544dee20f36b1bcf1b1759588e6b95c39b87",
+      "sha256": "573898e8add64bb76ff63c0b7c88bcff44ed0fb17b2f37f7ced3b39b43a72191"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/verify_content.py",
+      "git_blob": "afe2f854aeadaf6cfbcf32bd5fbc9b2982d87e71",
+      "sha256": "742ba7df51fb1e91aab16a617f43f75703546e9e25ce563dd7a68679c6e08d44"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/construct.py",
+      "git_blob": "0ec6f146c3635b64dcdaff4345781c5191f5c710",
+      "sha256": "1e655a01aaa43ac00ca7467e22d0517b31b574e44677815e0462cc9ff011e068"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/verify.py",
+      "git_blob": "0058892fcf19b8f2600d208675e8bd54e6c4232e",
+      "sha256": "1311727ae74dd6419593922caf07bca5d5fe7d0b917e4a36b60fb9ec4e51bb59"
+    }
+  ],
+  "known_record_comparison": {
+    "path": "research/pi-small-norm-construction-2026-11-04/deep_scan.json",
+    "record_step": 430,
+    "q_decimal_digits": 216,
+    "exact_numerator_and_denominator_match": true
+  },
+  "scope": "Deterministic research artifacts; manifest excludes its own hash. Baseline source files unchanged."
+}

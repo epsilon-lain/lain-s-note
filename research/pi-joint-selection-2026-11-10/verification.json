@@ -1,0 +1,25 @@
+{
+  "checks": "PASS",
+  "file": "results.json",
+  "sha256": "2c0c781d305de7c3d1223d6501426e8253d231982eb63fd998acf647312c89bd",
+  "source_indices": 128,
+  "source_pools_rebuilt": 128,
+  "primitive_sources_rebuilt": 25029,
+  "independent_root_convergents_checked": 2820622,
+  "baseline_root_convergents_checked": 12231,
+  "certified_hits": 9,
+  "summary_recomputed_exactly": true,
+  "independent_pi_grid_bits": 1396,
+  "independent_taylor_terms": [
+    299,
+    88
+  ],
+  "distinct_fractions": [
+    "3/1",
+    "22/7",
+    "355/113"
+  ],
+  "improved_actual_quality_n": [],
+  "method": "Separate implementation: binomial/telescoping sources, exact dyadic root brackets, complete weight pools, integer norm budgets, outward Taylor scoring.",
+  "scope": "All listed finite cases and comparisons verified. No global weight optimum or infinite-success theorem."
+}

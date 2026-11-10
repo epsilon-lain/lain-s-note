@@ -1,0 +1,2966 @@
+{
+  "schema": 1,
+  "base_commit": "88c331c410290c5eb915776ecd2415bffff20dc0",
+  "parameters": {
+    "n_min": 1,
+    "n_max": 128,
+    "weight_pool": "original",
+    "budget_names": [
+      "fixed25",
+      "square_root"
+    ],
+    "score_pi_bits": 270
+  },
+  "pi_scoring_interval": [
+    "1490008378948674864251842325617581517428299273537095393111130730979077711733494737/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+    "1490008378948674864251842325617581517428299273537095393111130730979077711733494987/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+  ],
+  "cases": [
+    {
+      "n": 1,
+      "source_count": 4,
+      "pool_sha256": "0155716a279a1e11be1f996a28b79657f37fc453f8d657240d90b0c4b372c88f",
+      "baseline_source": [
+        "1",
+        "10",
+        "1",
+        "0",
+        "1"
+      ],
+      "source_width": "5/38",
+      "root_convergents_checked": 4,
+      "baseline_root_convergents_checked": 1,
+      "hits_with_budgets": 4,
+      "baseline_hits_with_budgets": 2,
+      "joint_best_bound": 3,
+      "baseline_best_bound": 0,
+      "joint_best_quality": 3,
+      "baseline_best_quality": 0
+    },
+    {
+      "n": 2,
+      "source_count": 3,
+      "pool_sha256": "98cd3466271ce9ed613ff71967f82bd2876745912609f2be99c7748035a39e24",
+      "baseline_source": [
+        "23",
+        "227",
+        "1",
+        "1",
+        "40"
+      ],
+      "source_width": "10/8379",
+      "root_convergents_checked": 5,
+      "baseline_root_convergents_checked": 2,
+      "hits_with_budgets": 3,
+      "baseline_hits_with_budgets": 2,
+      "joint_best_bound": 5,
+      "baseline_best_bound": 5,
+      "joint_best_quality": 5,
+      "baseline_best_quality": 5
+    },
+    {
+      "n": 3,
+      "source_count": 5,
+      "pool_sha256": "393dcd61814b10bc0bbed6aa2403b4c9a01472357ee2724a3e339873daa8abd3",
+      "baseline_source": [
+        "882",
+        "8705",
+        "1",
+        "0",
+        "1"
+      ],
+      "source_width": "5/490392",
+      "root_convergents_checked": 10,
+      "baseline_root_convergents_checked": 2,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 4,
+      "source_count": 6,
+      "pool_sha256": "5cf456a4955dd9e8ad6d4b702132cac17d5e121bd7fc9084d1e476ceecb9283a",
+      "baseline_source": [
+        "1112",
+        "10975",
+        "1",
+        "0",
+        "1"
+      ],
+      "source_width": "2/23462505",
+      "root_convergents_checked": 22,
+      "baseline_root_convergents_checked": 4,
+      "hits_with_budgets": 2,
+      "baseline_hits_with_budgets": 2,
+      "joint_best_bound": 7,
+      "baseline_best_bound": 7,
+      "joint_best_quality": 7,
+      "baseline_best_quality": 7
+    },
+    {
+      "n": 5,
+      "source_count": 10,
+      "pool_sha256": "130330edc2e1b35d51bda38f378b37ee18bc4d8705689b79c0d903b750526170",
+      "baseline_source": [
+        "74343",
+        "733736",
+        "43",
+        "19",
+        "4000"
+      ],
+      "source_width": "5/7086621762",
+      "root_convergents_checked": 40,
+      "baseline_root_convergents_checked": 4,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 6,
+      "source_count": 15,
+      "pool_sha256": "0ccf823aa7c6fd6e313ce674f78c7361ac4101f91cad77efd3dd0491d1a70b82",
+      "baseline_source": [
+        "489334",
+        "4829533",
+        "2641",
+        "1",
+        "72000"
+      ],
+      "source_width": "10/1721713954079",
+      "root_convergents_checked": 60,
+      "baseline_root_convergents_checked": 4,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 7,
+      "source_count": 19,
+      "pool_sha256": "61ffd34f4beecdd2b571b41a7521632e5536ebc612940462b89b8e46a520e4dd",
+      "baseline_source": [
+        "5605703",
+        "55326071",
+        "41761",
+        "169",
+        "21609000"
+      ],
+      "source_width": "5/104918115077728",
+      "root_convergents_checked": 100,
+      "baseline_root_convergents_checked": 7,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 8,
+      "source_count": 24,
+      "pool_sha256": "0b72488125c37e6ffce9e498c11e7e328efe6843f842914705095274430f338e",
+      "baseline_source": [
+        "128186627",
+        "1265151298",
+        "150737",
+        "9829",
+        "1843968000"
+      ],
+      "source_width": "10/25628715973923921",
+      "root_convergents_checked": 191,
+      "baseline_root_convergents_checked": 10,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 9,
+      "source_count": 15,
+      "pool_sha256": "6af2195f67acc3fbb9f6608637437d347cca84198c2efb0af9bb47c3b705a4ec",
+      "baseline_source": [
+        "714605077",
+        "7052869413",
+        "13",
+        "40087",
+        "2612736"
+      ],
+      "source_width": "1/313479270607175190",
+      "root_convergents_checked": 163,
+      "baseline_root_convergents_checked": 12,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 10,
+      "source_count": 13,
+      "pool_sha256": "e1a2d026d1c32e7eb83015f2018aff8a18f25192b7bb35e4a9731c68fc06ed12",
+      "baseline_source": [
+        "6196878313",
+        "61160737471",
+        "6852683",
+        "1",
+        "52254720"
+      ],
+      "source_width": "10/383835843405534204531",
+      "root_convergents_checked": 148,
+      "baseline_root_convergents_checked": 12,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 11,
+      "source_count": 22,
+      "pool_sha256": "8bf5c18114d275149d8460ca4499f51a84ccd673651035107343e98aca3dd7bc",
+      "baseline_source": [
+        "81391306836",
+        "803300000159",
+        "619",
+        "9803",
+        "7231482720"
+      ],
+      "source_width": "5/23517368282662672176648",
+      "root_convergents_checked": 280,
+      "baseline_root_convergents_checked": 15,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 12,
+      "source_count": 31,
+      "pool_sha256": "5ffd9d5126864125342d29fec42a736e93e44f811491ddf608ffe1bd8a6d51fa",
+      "baseline_source": [
+        "1162239277415",
+        "11470841887494",
+        "122754493",
+        "43781",
+        "9719112775680"
+      ],
+      "source_width": "10/5766972248468407595549229",
+      "root_convergents_checked": 460,
+      "baseline_root_convergents_checked": 17,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 13,
+      "source_count": 38,
+      "pool_sha256": "99f474cd88173b97140a8b7caff4d2bffd632ccc84cb6287563d04fa0b2d9231",
+      "baseline_source": [
+        "6462326841763",
+        "63780609438742",
+        "3870221",
+        "317333",
+        "108943320245760"
+      ],
+      "source_width": "5/353709094887432779256839322",
+      "root_convergents_checked": 639,
+      "baseline_root_convergents_checked": 20,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 14,
+      "source_count": 45,
+      "pool_sha256": "e49fb9b90ebf05790a336aa120adeb4bb87a688d9410f033700b954ea7c9104d",
+      "baseline_source": [
+        "81360205160745",
+        "802993038928022",
+        "117502225",
+        "201743",
+        "2643691237963776"
+      ],
+      "source_width": "2/17361716689417119667064254395",
+      "root_convergents_checked": 845,
+      "baseline_root_convergents_checked": 21,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 15,
+      "source_count": 35,
+      "pool_sha256": "27e7beaac1f7ebac714af57146c0807b82193ec26df31a9518baaf8394705d75",
+      "baseline_source": [
+        "1558768551737681",
+        "15384428958509902",
+        "4153469",
+        "657343469",
+        "24195714939396000"
+      ],
+      "source_width": "5/5327784700306192776369568954752",
+      "root_convergents_checked": 710,
+      "baseline_root_convergents_checked": 21,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 16,
+      "source_count": 36,
+      "pool_sha256": "74b15631fb6d49938b6fb5947be47cf6e694b460a160a3381cc4d66745f4ea37",
+      "baseline_source": [
+        "13844240922317012",
+        "136637181136641383",
+        "20982430127",
+        "500657",
+        "126410265805824000"
+      ],
+      "source_width": "10/1308262970185195087600034574753369",
+      "root_convergents_checked": 749,
+      "baseline_root_convergents_checked": 22,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 17,
+      "source_count": 52,
+      "pool_sha256": "246628cf96dfecd44073f9b07b273fc2f986d8cc98557161eb4f5891105bad0e",
+      "baseline_source": [
+        "232603910662558076",
+        "2295708580385779177",
+        "1714496213083",
+        "1065473741",
+        "11828771565319957248000"
+      ],
+      "source_width": "5/80328557014814232789262823294971398",
+      "root_convergents_checked": 1136,
+      "baseline_root_convergents_checked": 25,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 18,
+      "source_count": 57,
+      "pool_sha256": "aa1dcf5d7aca3951ea4043d0ffa02880335a98e1e8f15adf1aaee08eb74a109b",
+      "baseline_source": [
+        "3918784156660164863",
+        "38676849359492413733",
+        "1543978820592479",
+        "20764666651",
+        "250391436494692855025664000"
+      ],
+      "source_width": "10/19732285322268220841617338582665334451",
+      "root_convergents_checked": 1290,
+      "baseline_root_convergents_checked": 25,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 19,
+      "source_count": 50,
+      "pool_sha256": "62f26b2ae8a89c85105caea637d1063b5b05d9cca5d075a68fafacc511d0e79c",
+      "baseline_source": [
+        "17038395303116160841",
+        "168162221271135517522",
+        "98966053645",
+        "1118613877177",
+        "332972065259437424079587328"
+      ],
+      "source_width": "1/242390828499608411662045688627640751960",
+      "root_convergents_checked": 1190,
+      "baseline_root_convergents_checked": 27,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 20,
+      "source_count": 54,
+      "pool_sha256": "1bbd72bee3febf9a1ca9e1d5aa4635f963504ab2f39bb5c986d4e53126859ea0",
+      "baseline_source": [
+        "1047721904672101530644",
+        "10340600721469498711087",
+        "7942747172729",
+        "1158802618889",
+        "38944101199934201646735360"
+      ],
+      "source_width": "10/297788128201753218894119879049955002426141",
+      "root_convergents_checked": 1369,
+      "baseline_root_convergents_checked": 27,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 21,
+      "source_count": 56,
+      "pool_sha256": "571d5fac9f1c879da8d4185365b689b64078ececda0ecf0396f77c8d1d008e39",
+      "baseline_source": [
+        "2495985505436975202129",
+        "24634389529516017700457",
+        "219164997553",
+        "7832655613",
+        "276679854834968229765120"
+      ],
+      "source_width": "5/18294210727828097309514196486260419843671698",
+      "root_convergents_checked": 1485,
+      "baseline_root_convergents_checked": 29,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 22,
+      "source_count": 58,
+      "pool_sha256": "0deeb9eadc01dd5157121b9675cea0f59d488a83a2bf962e513aabb3e7e0cd52",
+      "baseline_source": [
+        "87069839970141157340218",
+        "859344875771451315718121",
+        "5607972135919",
+        "171799304935",
+        "2071826183836499527606321152"
+      ],
+      "source_width": "10/4495924974802662361831071317623357594378715199",
+      "root_convergents_checked": 1594,
+      "baseline_root_convergents_checked": 31,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 23,
+      "source_count": 55,
+      "pool_sha256": "3cb41ffd62bbe9078086750393e98836f698073783c14825e64f20697f02e367",
+      "baseline_source": [
+        "87069839970141157340218",
+        "859344875771451315718121",
+        "1672756273555",
+        "39255804951433",
+        "26411347991572060145083842816"
+      ],
+      "source_width": "5/276247620461107772988214481232915690538859591712",
+      "root_convergents_checked": 1590,
+      "baseline_root_convergents_checked": 32,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 24,
+      "source_count": 64,
+      "pool_sha256": "f55bf52471c4e80de1a0d9541d17cd3bc0643918bc7bc66f25c59e1ef957704f",
+      "baseline_source": [
+        "4204226981644629723547549",
+        "41494057121218467653886768",
+        "533508596353955333",
+        "8120743920415",
+        "30425872886291013287136586924032"
+      ],
+      "source_width": "2/13579943230550370984820403292185128921279375625125",
+      "root_convergents_checked": 1881,
+      "baseline_root_convergents_checked": 33,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 25,
+      "source_count": 75,
+      "pool_sha256": "d724a492ec4a63b18f8985b6f9da527895eaf0e1805ef2fb6fdaa825ec7baf18",
+      "baseline_source": [
+        "31969539028493214130429416",
+        "315526703096414644432683061",
+        "18059841718567741",
+        "7330139991067501",
+        "117258961774712493358628525520000000"
+      ],
+      "source_width": "5/4172571555275906260837602408748022610939207308138542",
+      "root_convergents_checked": 2272,
+      "baseline_root_convergents_checked": 33,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 26,
+      "source_count": 65,
+      "pool_sha256": "5c49fb23597e6f432edeebffdf65d797a333281cd667ea728cbe15571bc1f773",
+      "baseline_source": [
+        "387838695323563199288700541",
+        "3827814494278194200846083500",
+        "694676575541035891",
+        "921325950518663477",
+        "1746932411233182270202377592320000000"
+      ],
+      "source_width": "10/1025706348621629354534197145820029524130370941847085659",
+      "root_convergents_checked": 2056,
+      "baseline_root_convergents_checked": 33,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 27,
+      "source_count": 64,
+      "pool_sha256": "ab3e9a5c6bdf5003cd21fe63a1d8f79656a3ec56b0d7fc252a6417626de2f59c",
+      "baseline_source": [
+        "1647263398379732439546090412",
+        "16257838086402020736682383183",
+        "5268647502975407",
+        "7917603783179653",
+        "3374750183170835004215720040000000"
+      ],
+      "source_width": "5/63038108574654776348997557078442538011182748802917662568",
+      "root_convergents_checked": 2094,
+      "baseline_root_convergents_checked": 36,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 28,
+      "source_count": 84,
+      "pool_sha256": "0878b7aed804445aa4d27d392cb46571948044631de174a3ebc9be6e37eb4163",
+      "baseline_source": [
+        "43636495287548663040906181210",
+        "430674945938105342199866812819",
+        "1978763350926078057199",
+        "1067119771267349",
+        "128056920550527236735968026349824000000"
+      ],
+      "source_width": "10/15497511638162385476339424736752129011647471325231698794381",
+      "root_convergents_checked": 2810,
+      "baseline_root_convergents_checked": 37,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 29,
+      "source_count": 98,
+      "pool_sha256": "783f72e11b0f2269c1435dd0c1d0835d269c950acb4e72c226ceb19a1fdc9b04",
+      "baseline_source": [
+        "678836572054573875793364944373",
+        "6699848419170235835202959173469",
+        "37033535538812266348513",
+        "5319168162091396959587",
+        "363295265371410900931473831041638694937600000"
+      ],
+      "source_width": "1/190505513972587645070187643301020276044089139996033216783810",
+      "root_convergents_checked": 3385,
+      "baseline_root_convergents_checked": 39,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 30,
+      "source_count": 80,
+      "pool_sha256": "2b6acf0f35597020327c565715039c6e22351ef44cd1cd919b29ab8e646ff63a",
+      "baseline_source": [
+        "4685577629751504269772422293590",
+        "46244797596241291822752572803463",
+        "244404466845431535151",
+        "1078464262713207191",
+        "1074520157856879328398325439342320896000000"
+      ],
+      "source_width": "10/234189952167921234232747415516617808127149677526890902842231991",
+      "root_convergents_checked": 2858,
+      "baseline_root_convergents_checked": 41,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 31,
+      "source_count": 90,
+      "pool_sha256": "c241537feb9a669848f57abf210ba032f1b1e3758f7e3afcc28bc33837a67419",
+      "baseline_source": [
+        "26230507427550914178117383607862",
+        "258884731549763613138974434336829",
+        "26476182061686905236083271",
+        "838891317224906433671",
+        "1337335805050505287942983274543228671825045000000"
+      ],
+      "source_width": "5/14395032777087711965133079019362298334021560782353563799290439168",
+      "root_convergents_checked": 3278,
+      "baseline_root_convergents_checked": 42,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 32,
+      "source_count": 105,
+      "pool_sha256": "7fd10a81eac4dc3560d44e5778635fb17061013129b65a928c9fcf70ef148f94",
+      "baseline_source": [
+        "529295726180769787832120094450830",
+        "5223939428591513554602241259540043",
+        "18270777349462901454051233",
+        "476985578696787574192903",
+        "443650653581581179026956223361858127851196416000000"
+      ],
+      "source_width": "10/3539398602622926749395534370825231346018965044379817350449738727529",
+      "root_convergents_checked": 3915,
+      "baseline_root_convergents_checked": 43,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 33,
+      "source_count": 94,
+      "pool_sha256": "1a674db87ea8d6517ade25666d3143c7c3004e64a2a7eca72fae6f027d41c928",
+      "baseline_source": [
+        "12504025833816967299500115678614160",
+        "123409788400774977566000105685033083",
+        "38992494347934906169",
+        "263778668115434609280709",
+        "32918819876675724907523071269556571044224000000"
+      ],
+      "source_width": "5/217569299807282269182157927110825856434255189773781712657190375248182",
+      "root_convergents_checked": 3704,
+      "baseline_root_convergents_checked": 45,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 34,
+      "source_count": 94,
+      "pool_sha256": "5a534a75a1743c0ea6603ec841abfb30d4eba78696bac56711815221fb9909eb",
+      "baseline_source": [
+        "173858888662673922441834819942181907",
+        "1715918452713631339522861693147913858",
+        "2883558228401794858558079",
+        "614051645148227174849",
+        "30184243201139926029391724012313558854860800000"
+      ],
+      "source_width": "2/10699563734749206986872120512180078982940901876075597397485389049107895",
+      "root_convergents_checked": 3851,
+      "baseline_root_convergents_checked": 47,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 35,
+      "source_count": 98,
+      "pool_sha256": "86974ad6767aa4ed2c2579e6dca3eadcdc5f023a453d174ad0621d7fb167b0cd",
+      "baseline_source": [
+        "1580826442830173128529513893833500322",
+        "15602131617515112072475174703343905717",
+        "14133468728268577216189",
+        "6975385177241292229967",
+        "16743911090503577074862367184259194840320000000"
+      ],
+      "source_width": "5/3288698050630093395979236391116451722605181127970136279562180187049462552",
+      "root_convergents_checked": 4147,
+      "baseline_root_convergents_checked": 49,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 36,
+      "source_count": 106,
+      "pool_sha256": "2fdb34c76ccdb9221cf19da1a02f5047768dfeec49ced326fdd4115ae5c1fbe2",
+      "baseline_source": [
+        "17587957811462212270865487883467913769",
+        "173586185822181414091881783641300942911",
+        "31028303064459947624641572503",
+        "16329558766636576645003",
+        "1924076311231947048826584337877592597490851840000000"
+      ],
+      "source_width": "10/808687256025727747067587020694162783200973638024889687732264329225111964389",
+      "root_convergents_checked": 4635,
+      "baseline_root_convergents_checked": 49,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 37,
+      "source_count": 105,
+      "pool_sha256": "fe67d0cec3702864a13e0f932f178a735539757d2d572847ad272e0f17c4cbce",
+      "baseline_source": [
+        "124957918192565051718126264707801377732",
+        "1233285219344304066898132522625393651533",
+        "157088017743655491679",
+        "14817029615564023730480777",
+        "654025494776526356610763972839004277736960000000"
+      ],
+      "source_width": "5/49714742294112648726587260397859827796212426838079290947876581792163112480018",
+      "root_convergents_checked": 4783,
+      "baseline_root_convergents_checked": 53,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 38,
+      "source_count": 99,
+      "pool_sha256": "1e53fd9a4a97522771619d238c666705226de293c4ef6a9c63b5624c66524e0a",
+      "baseline_source": [
+        "1618677412922691399143199057116826099602",
+        "15975705718525732083705923820393998204105",
+        "2304643421019629858064157663",
+        "31930593164470044773",
+        "6591259211809435095055892297353667143741440000000"
+      ],
+      "source_width": "10/12225232898182771054480646896655228232146597953180950987856914474621916484876871",
+      "root_convergents_checked": 4631,
+      "baseline_root_convergents_checked": 54,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 39,
+      "source_count": 106,
+      "pool_sha256": "1029aa4101ebf96fb4c1368203412f52bc2c43051dda63f1d3eb9ad6ae0fff01",
+      "baseline_source": [
+        "19052142962284928771160231083320804967485",
+        "188037114030750983196761587763719857127573",
+        "17411507704126858389061",
+        "43795646039400722800004341",
+        "186992138533558972162425033801522895712539683840000"
+      ],
+      "source_width": "1/150316238655160869534351770556463088719859423249092815649581341642849221218188640",
+      "root_convergents_checked": 5080,
+      "baseline_root_convergents_checked": 56,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 40,
+      "source_count": 118,
+      "pool_sha256": "1cded4824b30dac0ec8e5226fd68f70c078e87bd978c15af21554a83b248df2d",
+      "baseline_source": [
+        "568492582013029124693279295674320133360503",
+        "5610796889422445400360304995472018889076720",
+        "322524712458863651519108230699363",
+        "23034560962762961723197",
+        "34406553490174850877886206219480212811107301826560000000"
+      ],
+      "source_width": "10/184825104200444725864903475309477928038002042369159043621707765963484650681199357361",
+      "root_convergents_checked": 5819,
+      "baseline_root_convergents_checked": 58,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 41,
+      "source_count": 118,
+      "pool_sha256": "bb6faf6c22b34d187ad002a47ac7222db3c3c04663df821fe56de5493850e341",
+      "baseline_source": [
+        "8330267633002704252039296201788418844956555",
+        "82216446092935723941035237226638883378407117",
+        "994446285497755465935181231",
+        "20920848436612664641392211171",
+        "42518089065721564194553908442987445612242294599149568000000"
+      ],
+      "source_width": "5/11362970254259466835561490103244892417872287407282006262335443485507099430794508705998",
+      "root_convergents_checked": 6020,
+      "baseline_root_convergents_checked": 61,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 42,
+      "source_count": 115,
+      "pool_sha256": "28417f0a2969922e4884af93199e61af6f4b2c94eb5b9b5f30e813fe63d30637",
+      "baseline_source": [
+        "24928956085852816539963737076232873278203561",
+        "246038934699496309045889178355365519740884057",
+        "14601025070601362214184484289733",
+        "84007049905243586862456053473",
+        "379211333184982562539897858713279794336951571007238676480000000"
+      ],
+      "source_width": "10/2794397632256980056649482374277175494443766146201451662355568915770373170283602746023539",
+      "root_convergents_checked": 6092,
+      "baseline_root_convergents_checked": 63,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 43,
+      "source_count": 127,
+      "pool_sha256": "558f028153ee5d65f4cc628f81a2f6800ede1f7d1c453d1c9fa15cf84a8ad0af",
+      "baseline_source": [
+        "465350821404778458115348784011202365069244156",
+        "4592828514987149579319467418187581556895558613",
+        "924862841455034537604860016816199",
+        "5317508780571237065861529798649",
+        "258729543655740240966583052774416961644233591454839125946240000000"
+      ],
+      "source_width": "5/171802550558480948984879615955573721615750024595155563540751586016036632046762020195454792",
+      "root_convergents_checked": 6925,
+      "baseline_root_convergents_checked": 66,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 44,
+      "source_count": 126,
+      "pool_sha256": "61617f809f55dab30de990dbe166f0c30cc3c86d4f3016608c8218bb1ed2c7b2",
+      "baseline_source": [
+        "1944489498103097338225248567710730307328210810",
+        "19191342108350367536967964178380786104986125093",
+        "929725496581204861358318495771",
+        "447873870979587026465800076549",
+        "13159944736092298364829025685944728742022626812652047233679360000"
+      ],
+      "source_width": "2/8450175217803214548710544016455440920507684820388893945507746125263318912317422235082082105",
+      "root_convergents_checked": 7080,
+      "baseline_root_convergents_checked": 68,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 45,
+      "source_count": 125,
+      "pool_sha256": "5bb7665773d41d6a95c20a376646ac78251cbbd113461fb3ad333badb5f9bac5",
+      "baseline_source": [
+        "34336028495764151097619415538172080180612921936",
+        "338883017957723495613736774365823644174927620605",
+        "1134566120720133315817921711639",
+        "25408712323312616553668714630603",
+        "2612827524426530739796175940691624264660631092800857439360000000"
+      ],
+      "source_width": "5/2597683560329028262241795678541175280182874299315882519494171100785976866185634482123767256922",
+      "root_convergents_checked": 7345,
+      "baseline_root_convergents_checked": 69,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 46,
+      "source_count": 130,
+      "pool_sha256": "5e2533cc52bf66adebd057f70dad9e847cc0b9f044caa0bde9793c3d0d3f13b2",
+      "baseline_source": [
+        "411392488435164064997537891514520129689338394149",
+        "4060281114434798323622200600723208589904049700248",
+        "886435403357998237072303116457007117",
+        "3808358629035871442226173382373",
+        "5145866099741487864978742342407668291388800143587762932981760000000"
+      ],
+      "source_width": "10/638852924466594298575438105854784713913781436867587227119452787288428811818602117009736607694039",
+      "root_convergents_checked": 7782,
+      "baseline_root_convergents_checked": 71,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 47,
+      "source_count": 153,
+      "pool_sha256": "c774290404b734fa5d149c7490ab3f02d9844b61146d04b28aae76639b5963ea",
+      "baseline_source": [
+        "6312120419506723774029996532005911726677184021599",
+        "62298131472569569571861892036668184997470428236326",
+        "1068845851648886108652565208717107451",
+        "7947726161669631999770660843072129",
+        "455368505039817145226734381983481425127877573939414288015718000480000000"
+      ],
+      "source_width": "5/39278907475083955369135424101306900133767687496122378313883491447984301285175870756080549953659008",
+      "root_convergents_checked": 9366,
+      "baseline_root_convergents_checked": 74,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 48,
+      "source_count": 152,
+      "pool_sha256": "be003f3f4d7fd7e349fdcd9f5c5065dfafe6199547983d9aa5ad42d3358f554a",
+      "baseline_source": [
+        "43380198218673671912432822273065283232605581929268",
+        "428145395259150427287364195424502980017624855126635",
+        "3633294058749328653364516061846389",
+        "2855648270936364221557360899815797",
+        "249075593360554058105817688473257747958642812131244525101927434240000000"
+      ],
+      "source_width": "10/9660097879529456701189771666647175091289308969268188417292002700699289297163884311748350113246266641",
+      "root_convergents_checked": 9518,
+      "baseline_root_convergents_checked": 75,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 49,
+      "source_count": 146,
+      "pool_sha256": "f49454c5f8fe4f6a8597cf30bf3ce23118dcceb8bacbdd0001e9253663c24d10",
+      "baseline_source": [
+        "204544965160312710182696502784973292327718443677117",
+        "2018777888366891850531653542659903301748072800003072",
+        "757831322416614374637078047166473921459",
+        "995158494122038672105599485406165383",
+        "15057776461198182013683930295118523202533692820054958841383108406261134786560"
+      ],
+      "source_width": "1/118789228712421405659541157113332432515576150445590095714737165488417269917661012947246228407913754750",
+      "root_convergents_checked": 9489,
+      "baseline_root_convergents_checked": 77,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 50,
+      "source_count": 146,
+      "pool_sha256": "fd15718e50e5de14161b5c5f8c155c15121e83186d54968de5aad3e85775a8c6",
+      "baseline_source": [
+        "6322225773617131642510093981221813026597285103999805",
+        "62397867319972217511004230495957722570852734896228803",
+        "1204637749412510743890717113475138376811",
+        "9064568598016477768195327919776659671",
+        "126089339225258133124965783094072062803223310119491350851720146516096699596800"
+      ],
+      "source_width": "10/146074968056482732506125276921293793360978101862375319813177509241939456767580001492444071856054655513211",
+      "root_convergents_checked": 9794,
+      "baseline_root_convergents_checked": 77,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 51,
+      "source_count": 150,
+      "pool_sha256": "54acbc4fa7efddd6442f428d995c5b43e93651d58b1aa170690329495d918f0f",
+      "baseline_source": [
+        "247093679670111724844616889131459497347812063223165210",
+        "2438716868353498857626185221579481884208465629642679263",
+        "2344519504481157247515321073466111",
+        "8189822980115155984312099275153589271",
+        "42676417990093702797278460693632056992635799756192640241751488280240537600"
+      ],
+      "source_width": "5/8981472763921263893596914921961162896102682296696011174924376774943930606113456596104459348801841456317368",
+      "root_convergents_checked": 10345,
+      "baseline_root_convergents_checked": 79,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 52,
+      "source_count": 151,
+      "pool_sha256": "b1afae1fa0fb509f4ecbec5d60b957575f4d0ec3c273a172508640831a590368",
+      "baseline_source": [
+        "247093679670111724844616889131459497347812063223165210",
+        "2438716868353498857626185221579481884208465629642679263",
+        "11696008770345843413229614554931709535661",
+        "2344519504481157247515321073466111",
+        "115397034245213372363840957715581082108087202540744899213696024309770413670400"
+      ],
+      "source_width": "10/2208930994099605023559030110276759314394741134563391935095313266435920908580480719866175506749260817213708869",
+      "root_convergents_checked": 10578,
+      "baseline_root_convergents_checked": 79,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 53,
+      "source_count": 163,
+      "pool_sha256": "e489c03c7ffe379129fe7779448ada47f88053b053e3c94353b55d594472bba4",
+      "baseline_source": [
+        "13612813224575814945814127188832647665595189574038243294",
+        "134353081312480886735568674809561717670207973196911731273",
+        "2203509026862769500865685710028628430037",
+        "12059012573717413482781287329971735107229",
+        "1027277942654409872782385958615141876418100205638307857503984890119774111637504000"
+      ],
+      "source_width": "5/135818657401320075360044104024189531506630180404559863753104332522017518240787046874059592040197628801460194562",
+      "root_convergents_checked": 11593,
+      "baseline_root_convergents_checked": 79,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 54,
+      "source_count": 163,
+      "pool_sha256": "2f1c20f71b8a349a93057d54585fafeb7badf95ceb3d2b02488d8ece74125185",
+      "baseline_source": [
+        "63854975752467299126952074471452536131263570509110849121",
+        "630223349718005534510900042422448566054967563943171469466",
+        "2543769697847935466767081867264545871243",
+        "363360221372434302703616004760374071",
+        "5539222857000687310696784698835963685616217459984385202101786634471509251850240"
+      ],
+      "source_width": "2/6680811837747291358624821801347746458904914921067733251641608735996950985077891232775634327117201723335653610155",
+      "root_convergents_checked": 11790,
+      "baseline_root_convergents_checked": 80,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 55,
+      "source_count": 165,
+      "pool_sha256": "cd9a53a77482061b6fa330c1c4e13a119ea4b3aa9fd84625138c3d652b697ef2",
+      "baseline_source": [
+        "685079849646832882058149389088522763490220523553642579701",
+        "6761467099172017897628406891608007727161622654841693150956",
+        "279469577369655346131463695173119229242093",
+        "114693591481561196827303881630220904584313",
+        "133092767534667128084181213469865332851137895774879441732282858710492264815647744000"
+      ],
+      "source_width": "5/2053910256872288542589828886886222910464362712996804562005679121919268370249408844418857947596162334575483451350432",
+      "root_convergents_checked": 12180,
+      "baseline_root_convergents_checked": 80,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 56,
+      "source_count": 171,
+      "pool_sha256": "ed24c276ca0d78ebb513c1f3cb9d2f73ca6cc6bd25ca7d7eecc7981bc43f0592",
+      "baseline_source": [
+        "12146802319837712943001162152218034188011650213256864591507",
+        "119884133635032722746575221351692363990521513314734239514078",
+        "1824220492571405778014658032918288063971",
+        "49155978004273533320199638174286062682971",
+        "242842741194595349490692372666359277521580548064532829512433399554729209954304000"
+      ],
+      "source_width": "10/505156500331348824085807812880923909192255229138791689685189113358626733795857645314325332213026165531434565160025769",
+      "root_convergents_checked": 12970,
+      "baseline_root_convergents_checked": 82,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 57,
+      "source_count": 156,
+      "pool_sha256": "333cff27ecbb042a4bf5eddfac53880745c70541313c50922de0d87b0da3ccc7",
+      "baseline_source": [
+        "145138670475795158992248916168989594515385477730833185691441",
+        "1432461260896166056297586000013618916075207202631059033186129",
+        "7457760217875600651454246686954214541863",
+        "6875298067746976090381076659253781743",
+        "7278050360223019989476112581839580386776809871855113750987247523907013820416000"
+      ],
+      "source_width": "5/31060796610948392572686702649206885388240767157449521292293080991727247734182365451695823088215374573593794873604187758",
+      "root_convergents_checked": 12033,
+      "baseline_root_convergents_checked": 82,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 58,
+      "source_count": 160,
+      "pool_sha256": "e11c240840e77410725f815234c605ca6c9706988226683684ece0b1e901f6b2",
+      "baseline_source": [
+        "1688591889919610408752040898352691873201827066728617537738647",
+        "16665733948394384665482891019939994262430822347275328848961289",
+        "428830893932501425761406795877657011143953",
+        "9263361577687454715841015788816588438703",
+        "90834554794901817034405066227799387814467693573223533676246711964780410524336128000"
+      ],
+      "source_width": "10/7639435489200257277163604599462955885065876327198157671415519505749170155951514572766350892433864630558792426972765096331",
+      "root_convergents_checked": 12402,
+      "baseline_root_convergents_checked": 85,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 59,
+      "source_count": 171,
+      "pool_sha256": "b77bfbe85463434f60faad63374287ba8da8c10c393a837ab944f635b5ebd1e8",
+      "baseline_source": [
+        "4976263107009386588272173112926238256058647583504701328882775",
+        "49113748261918447818120806415541472964849238417584404279069374",
+        "204753107555396322998298934783411662701701",
+        "28831985892881283274353884222519958701741",
+        "639009512987835759222430343934485626028188071842435672128357184515554942998321922048"
+      ],
+      "source_width": "1/93946777985467724619328583408007099643104024248577578489779949076964725239532943984968240267193049124604889129480841183240",
+      "root_convergents_checked": 13432,
+      "baseline_root_convergents_checked": 87,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 60,
+      "source_count": 179,
+      "pool_sha256": "c928242306010f02ff5ccdfe6c1d511381d6b9e70ae481e522127455ac3c4c05",
+      "baseline_source": [
+        "147688813883111431877397102071566293172104434055093573613077769",
+        "1457630167492423756056469168090582704505489558804498381790934424",
+        "13174696466537883153262609492674984111645358961861",
+        "252952116732277922377396626451526818888199",
+        "10708521418650151653049487703654110120980375707935536993527009698111669734765878769680384000"
+      ],
+      "source_width": "10/115532549147213092364933560721955278106097832364723171853329506996642367952067926659303395163157331922160941228759582213454541",
+      "root_convergents_checked": 14225,
+      "baseline_root_convergents_checked": 89,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 61,
+      "source_count": 193,
+      "pool_sha256": "823064003b1dbb053fe9301f2ca2348a85903dbdf7446e1f415badd619ca3b8d",
+      "baseline_source": [
+        "1529435252196824387125284836814802521615784916958303394887725463",
+        "15094920896262991111128928607879715595199958266591539548025701964",
+        "49043571857973027007300940598067889992677366733",
+        "1181245878255836440470194203232012817178384543",
+        "283923557654246305284622899234051486076403656767946775915694435068394355542299901657663750144000"
+      ],
+      "source_width": "5/7103928467740297546604190510458509707202554060363736074733950174796140684840513642714534737530342835412595193447152884981281578",
+      "root_convergents_checked": 15405,
+      "baseline_root_convergents_checked": 90,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 62,
+      "source_count": 182,
+      "pool_sha256": "ea219878c4f926cf3c852e37d72476a6c0878474a0dc5c0e61aef3edf4420b7f",
+      "baseline_source": [
+        "18377008451491242986384938863270736935208759967911572217366738055",
+        "181373803491694310884920201354835760680989605919162960239227067743",
+        "1099937637616599376028190902413006672128364295459",
+        "184701245601399935161316043158903057939647710971",
+        "15626814149184706073897893349459562983969597674903350622805597619503896760461080768113063795097600"
+      ],
+      "source_width": "10/1747247647593262259481355224790513839529921771759321368851046921153262873682715599437098695119984548287137886704561072063765525719",
+      "root_convergents_checked": 14754,
+      "baseline_root_convergents_checked": 92,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 63,
+      "source_count": 173,
+      "pool_sha256": "f8034efb22456a7c5a2c972ae2dad520bca8fe377a3a5419fa9a9861de612923",
+      "baseline_source": [
+        "107894053423710665621683007373366434682242830215004431425062301251",
+        "1064871624522025166764799580633149699340884953335688202922428386300",
+        "1731400877768649175351941020555123734331179387",
+        "203052468651346319089059607440948711309906861323",
+        "18198775731261131910906684586452102688347672555880019670306554403882848603138881602856118208000"
+      ],
+      "source_width": "5/107436523947215698942403546600683359302640431590235042893687769727211492480279467170434870758272167459804574078053083598679176353792",
+      "root_convergents_checked": 14359,
+      "baseline_root_convergents_checked": 94,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 64,
+      "source_count": 195,
+      "pool_sha256": "9b5d5463c79b01b9fb6b01717e902fbedcb85acc38d7fab1a6f04fd436271853",
+      "baseline_source": [
+        "2715728344044257883528460123197431603991279515343022357843924269330",
+        "26803164416542323480004909717183578244203113439311368033299936725243",
+        "1453541556536594091934588871260103658851062609",
+        "104358085763151011620953053087909236420463",
+        "13290486481060960573587631699235839509951671721572036339977159868205199144801142699659886592"
+      ],
+      "source_width": "2/5284950650167912165144228058192345551880701830892908640388297867164723539599243225191902219489797840436237570605193310410471284958645",
+      "root_convergents_checked": 16383,
+      "baseline_root_convergents_checked": 96,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 65,
+      "source_count": 179,
+      "pool_sha256": "d94e8d022946b7a4488f73282a2caad6dcc809cb8ec518e05241b3cbf4c3c10d",
+      "baseline_source": [
+        "43186999802328901485233219676271691360069995549256502453153727472234",
+        "426238603318910586802094767893206054671610381627178193902810343370339",
+        "748229672457169744614614565026293011965693",
+        "17103224330016785937989464556379891085738731473",
+        "27794004526026522099896140227784761305304234563546933703321226845524837973915357479043072000"
+      ],
+      "source_width": "5/1624842943658335223052275332679474446697137195214465593247291421843940474569506827213235747898448590279088554063486893578600796167856022",
+      "root_convergents_checked": 15320,
+      "baseline_root_convergents_checked": 99,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 66,
+      "source_count": 164,
+      "pool_sha256": "b3529085d51ba63c2aaab10016c8f1bf0656121aa36ad1df844e26198a89b006",
+      "baseline_source": [
+        "310083635892632148730374092801233553593991087864377724541833741975331",
+        "3060402817511712464009929517241628770498901693353042078586661141148253",
+        "42327282090535668441994120944641026406173775043277",
+        "9071339959330656258373944439697476456332583",
+        "23696032589888074024264141573984926391128625269618379349128316495999713476083880255896420352000"
+      ],
+      "source_width": "10/399643919881559197782643777447611603216403354984892160824815532295481191559396310794173151334300098505723990643783179741134950166033979859",
+      "root_convergents_checked": 14181,
+      "baseline_root_convergents_checked": 100,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 67,
+      "source_count": 194,
+      "pool_sha256": "02c54efc08c354f7940118476cbc56970dcbc38885f220c71047103918ee2b05",
+      "baseline_source": [
+        "1979944996898208435937518025947947830705136834825557484586636183467962",
+        "19541273855301414478635338942585385167901389487952820346761020275339261",
+        "49654332575537908317098455412612542759543994056969",
+        "2170636746819686453111645795457656256951776275459",
+        "615103460027104432445546303636115796428074272094562052667448013102897891824119539134706728292810752000"
+      ],
+      "source_width": "5/24574028673605855125986598188400527702573703008228532973978111653203403144697180290747380935324978114422578001447944211123262596633637459928",
+      "root_convergents_checked": 16867,
+      "baseline_root_convergents_checked": 101,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 68,
+      "source_count": 214,
+      "pool_sha256": "2ad80bbd9a7db369a2a04e645cf83298a4bd98f34cba82967d624ae6e84d6730",
+      "baseline_source": [
+        "113710859549135690652559609507972452193193652536559875160181283679456085",
+        "1122281199857803533566470441207849434391639536947162496319799896032703232",
+        "21345222904889666917783898337744829377019722516499009",
+        "466275867373743509083779123310680173650139678388829",
+        "105381989836749500102670774512405726042712556728996212964219055589264417949294297692994564589543961395200"
+      ],
+      "source_width": "10/6044226983594796610447711289095825037152914577353854479722410114166000952439285074327519850242169016821141729600912249712278152803957961530261",
+      "root_convergents_checked": 19010,
+      "baseline_root_convergents_checked": 102,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 69,
+      "source_count": 193,
+      "pool_sha256": "6afd29d894714e0387adb09d8d2b7a3f05539dd8d186c15ca6fbaf8472ddeb9a",
+      "baseline_source": [
+        "356118143896654929641057890702561513382221199336780986818493919284329700",
+        "3514745200310199008244237913683748904696869390611258315179066109962458429",
+        "2315909684254529244230374780482008427312041587",
+        "123499943015372395108880091814764129418167174240661",
+        "33784591252704583898963364782714491583134907828017762458387852125336977757507465141450170327105536"
+      ],
+      "source_width": "1/74332096605210639251238382418537272401682303973524236824778980295488453815281525167118182378200118058071003160379641818320491543221852894621610",
+      "root_convergents_checked": 17415,
+      "baseline_root_convergents_checked": 105,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 70,
+      "source_count": 197,
+      "pool_sha256": "351f10c2132a05fb1ecbab9f2d4e6f457ed28069a879566160e1a80ea31bab25",
+      "baseline_source": [
+        "1957659818933153008807849639851114349686864027934882648759423237972079369",
+        "19321327964778443838103990855789326283248830953617944323311483094655851729",
+        "145971424465948711675483222821507612361276373416134361",
+        "11624380196202197839357359619506347705669382127",
+        "17311112873286646295336600136597508083920365994521498119173940758437129098888122634462070746120192000"
+      ],
+      "source_width": "10/91414093457467422878478322413615992936693978451948868011662434527317683997549435147478132796263877275891368647611350134577181801560177132135741751",
+      "root_convergents_checked": 18086,
+      "baseline_root_convergents_checked": 106,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 71,
+      "source_count": 221,
+      "pool_sha256": "e3a70024890270402ae4d63a55da46bf4d966356d670e4ee1d5a271373e2def5",
+      "baseline_source": [
+        "38263890991419871956272316829278857184197080128773113286884523279322497111",
+        "377649466931721029948708540001048446095818396290574717088455377128348558138",
+        "45676481118894477842815713892857445145411049417797136619",
+        "50736373259236749038910996611497659728442333812253319",
+        "11809449556806279011814789144415845638253240676695072670974260923408391930001384392141589235254687044222976000"
+      ],
+      "source_width": "5/5621096531712922094033956774203782891751452611276541498042050434996851151221382832030171413588813004446190297056728559263480552949660005460614188128",
+      "root_convergents_checked": 20412,
+      "baseline_root_convergents_checked": 108,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 72,
+      "source_count": 229,
+      "pool_sha256": "94839d71acfb03e3850b3e476b8d6d45cf5d6f99e62ee3dc646827e11d018182",
+      "baseline_source": [
+        "320170864807787701641474540003891219434766910425065865823210642819668862171",
+        "3159959776407527545464640493912596601653985856390534605286002464799341885636",
+        "47865167212254793557841424517716071853005190483748878911",
+        "9051622044588178748075143916137153522566245077765499",
+        "1295268852386874243410909581724577897960007127089781091779331841906074760549114946555744331187759400963014656000"
+      ],
+      "source_width": "10/1382579089165236322139962193349261908092240174030191994738111807115200285408544364163599274309977183664654778999935371078865103459856434190300749742889",
+      "root_convergents_checked": 21355,
+      "baseline_root_convergents_checked": 110,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 73,
+      "source_count": 245,
+      "pool_sha256": "299873c6e64cf148a79d1da390f9530d83f607c9b258b7e9a0a8c233b4eba883",
+      "baseline_source": [
+        "8310382748126051516687042034731511343342749401656831551875342256726301531163",
+        "82020190145641956876205680667823302610116193580087962868857704637010335606004",
+        "23162025068677854772016356095277418895069850543448696445403",
+        "153851858241434843237748971169636551630396350669352844737",
+        "106414502191309829306099125097440999861905048996585894972890007343933391013815391904258163689281420584440813584384000"
+      ],
+      "source_width": "5/85015860007985679539682165541285465773274269741785326172012700307657450195351397137359744460847350375148142751532014495100760443508834424806911647187582",
+      "root_convergents_checked": 23415,
+      "baseline_root_convergents_checked": 111,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 74,
+      "source_count": 235,
+      "pool_sha256": "130a2732f10543a649c79e8fea57301278d78f2ff13460025bd73065bf3224a5",
+      "baseline_source": [
+        "31743366264382031601427124233664616600138250889521370141366594349297712499216",
+        "313294467388336372005308777638684953063878110372158583676011124390751781101447",
+        "384648686405669080530495132354147392028261702461220772243",
+        "34857067166162256376841962046790771807814793592426746627",
+        "64855105085047526737622323979875717228699262991187222306889872535994545862062758684932202267500408910612788310179840"
+      ],
+      "source_width": "2/4182162329510129881846991309952088554966157181708990776480121399891513329183181690030420850560472299705022048668040712228803569892040807187814330004797375",
+      "root_convergents_checked": 22884,
+      "baseline_root_convergents_checked": 111,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 75,
+      "source_count": 239,
+      "pool_sha256": "3f164f7bd8053f4e7d53766588ae418b4c7b0c42b9730fb4c2b5184ef3afd584",
+      "baseline_source": [
+        "230513946598800272726676911670383827544310505628306422541441502701810289025675",
+        "2275081461863996560913367124138617974057262966185198048600935575372272803316133",
+        "326979263535283700126152314363078921304260269894016548597",
+        "273805200288353107545306194695724011475554774707074791657",
+        "272689153750941817011174195601970516642235721915854466565375898573384269799927507331778650214559495320641422950400000"
+      ],
+      "source_width": "5/1285827695414689431241063063003922745400156275067586910328633554773487193928596596668619773166106563021097730946481893849961393720928755902318990578090430792",
+      "root_convergents_checked": 23503,
+      "baseline_root_convergents_checked": 114,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 76,
+      "source_count": 252,
+      "pool_sha256": "0f347f58ad8bb011c2f161f39cd7803beeec795878dd2c1320e6d12c6632519d",
+      "baseline_source": [
+        "27057550856347359343797233344069590637399145410684460701576258515128839816512272",
+        "267047323014505041937836845491477403940406814069187290563735111218476926182793421",
+        "134357993418157801462531935822910703842957494666689006004451",
+        "303929741749697128282586301997736181010571046631801178167",
+        "1121714118969730606220017862860764418717566942883197493312608480191209491250078043226950429252235280047865159680000000"
+      ],
+      "source_width": "10/316268220581755638511551941590608687021377203168461638779161100045838287746317700250036320202067803032249555605474445987277076529439615618957590693675222224709",
+      "root_convergents_checked": 25152,
+      "baseline_root_convergents_checked": 116,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 77,
+      "source_count": 226,
+      "pool_sha256": "4cb583787c3a4cf5ebb25360dbd0b0f9678b81e59fdcdd6d2a7563348eb0f09c",
+      "baseline_source": [
+        "100305310136742500667705883700850629598375208199202815175668420269636773438667841",
+        "989973730378226840369320007777937503667973268400933309725082986411329421223619302",
+        "3108440884033229335122463966326834404991187816504454159",
+        "1877872417287406609962939267968901883421436376170693119",
+        "554631477882136999119632223771423918180529958423726197979288117450334916424700744939679492535494025374433280000000"
+      ],
+      "source_width": "5/19447743173180694414606757693472606943239355185736957348789576791317410440829099189906411469110040882415757366920182417426570317723194783396396050314528057108618",
+      "root_convergents_checked": 22893,
+      "baseline_root_convergents_checked": 117,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 78,
+      "source_count": 237,
+      "pool_sha256": "d18e3d75ae278f302151e4f72cf09a1ca938498e2ae6d05cea79de9a6af464c4",
+      "baseline_source": [
+        "1704729244431424910805546669091119935517289918375191245141280261578421527879301947",
+        "16825003253506128293156613397976660326407431036883495869229208897841855615194895868",
+        "2357032597025138598517405175067413404926616669462551962722770331",
+        "84916335955445948933312765686870036865186457308454698662801",
+        "581723523967305249130312958870995445855067869026812778758600941531839439464523785348097360809169809618304496966696960000000"
+      ],
+      "source_width": "10/4783477017272376898059005818275645345022496527819095253763579048580206165457308176693551241465484734284371791380075601237966727296975071355032866629431279606528431",
+      "root_convergents_checked": 24404,
+      "baseline_root_convergents_checked": 118,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 79,
+      "source_count": 238,
+      "pool_sha256": "d2c4e688c1a80c072b9fe17220c0e8c012ccdd9a4bf88d1c3e7f04d1812f0cf3",
+      "baseline_source": [
+        "4846783744245160997393666543041648255565383970096242330429572144517133791231133490",
+        "47835838173330401304005291295563527175432383482570060514436939041620479146589474843",
+        "27061940346799383068491992407079669505677922102405861325039",
+        "8789176225782816992777667286322320374018938013255238905464759",
+        "86501893008344994426507970685794473706774539993060490927796866815574002633928202368286713834958544495848613244494673920000"
+      ],
+      "source_width": "1/58828663228479646048243948756205238478559116045993383686971117097469017649932921280724880685307160963934677749190787326046944061512754633898019926224163436425573760",
+      "root_convergents_checked": 24830,
+      "baseline_root_convergents_checked": 118,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 80,
+      "source_count": 229,
+      "pool_sha256": "dacbcd1d34bbed99ea45e26f2600609a7ce972eb11a3a6d36255e7084d3684f7",
+      "baseline_source": [
+        "86072186130079700512326398034121971766632593113415833512579555620166248299094645575",
+        "849498427040817062329867727718899736438955290905538447577137069155136944421406076828",
+        "915139185479523111343478131050124610162066701403320015733236457",
+        "243667781351809863156111492751886282953171879852939697029",
+        "248535180809610758397149724978264705599711360698355619276273826091884900945966552259050490928724886542505555449951027200000"
+      ],
+      "source_width": "10/72349417882012632760881982324022618804592325198888171682776647694809114185558779517565049096939747369953213334355711165708157895471101906823296870251249285956892916441",
+      "root_convergents_checked": 24006,
+      "baseline_root_convergents_checked": 121,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 81,
+      "source_count": 234,
+      "pool_sha256": "83911c17f8cd6a3dc38f66dded9e51b0a2c70f137051f3d9a0317a5bd7b825e7",
+      "baseline_source": [
+        "849323564567875258217671100586045301219677873275590659219795131651049793880604886823",
+        "8382487590808003692397510081199893649712280711053360858873267604570286630305686922726",
+        "639505280929204165335623381218485699939081613810619693638187",
+        "281380421157308933922606013201609683528303599922162250731106313",
+        "31771563447876785634119620043785190485470050600912325019783121048864312886428980180144658348025532852892732990996643840000000"
+      ],
+      "source_width": "5/4448891878175299768023173821231255408565262633631607679967079417812359028121130950045942855830275707969796390371605986395572013967951494745105567905397722610002382146118",
+      "root_convergents_checked": 24917,
+      "baseline_root_convergents_checked": 122,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 82,
+      "source_count": 245,
+      "pool_sha256": "46e89dc7cf0f288929cb19467d0f453e979e5869e8d586cfd41030e0877d74c0",
+      "baseline_source": [
+        "8735207123591824775810703653664602862794463070267490174499259986675866860801760102538",
+        "86213038671428990778759531507870968464586968401765630254051547227145573843266124137347",
+        "4734872755027889920904790858926039397473794590374764767328380117839",
+        "72035416033434510107243674068541305985555475993390771401153",
+        "12764175659896058570668509994697549671892175423176588035306328341882733198486228905328808087768396148283534578609330913280000000"
+      ],
+      "source_width": "10/1094282288281499739512367481453400145492534431284665452315219373584616661916150900267767073165614018603116032020425005391885725559310440168726865627628574318344519009300979",
+      "root_convergents_checked": 26425,
+      "baseline_root_convergents_checked": 123,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 83,
+      "source_count": 266,
+      "pool_sha256": "2feed72d56bdaa1c09d61b99a6c86ce0523eabe385d9c4c2eaba81b04b7c5df6",
+      "baseline_source": [
+        "97941824780428815543474748641252749972009501263891740986720179231281837730277187490297",
+        "966647064903643042743604429717133572640906419841855137730055288820029456132326588189528",
+        "10859144712735078994822772500714769939047128772733605806675839191969",
+        "20068589456619322254564373227012679721201708440678425384517233757",
+        "83495999815341460869161801574336976424558970290987440988339651600211860694313614708325507483261208395214465119212224432473743360000000"
+      ],
+      "source_width": "5/67289544578701942580319755211094268038867323623023102669163304440719980071009919597914218974973074247349855645323893487650115584939133659691387318666658966000878926579621432",
+      "root_convergents_checked": 28922,
+      "baseline_root_convergents_checked": 126,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 84,
+      "source_count": 259,
+      "pool_sha256": "ae1d47b47279d243f0fba31c8ccfe4da6d1cf334dd890ecc377019bce7fa2cff",
+      "baseline_source": [
+        "1878365085075331144877641631491131455193769450154478059096681925367706650596870082520719",
+        "18538720310512075793686003227641279817106395913798778877379153582034850814200737423875726",
+        "15492069180508874032373960340863642743668614691963399620903224111",
+        "74406538543977208190114782911758482866487800598856145723223286456339",
+        "2274189888369078393109104201539769845366268923800283629315535967631876350035558404082100066298417577342784746338439119296764313600000"
+      ],
+      "source_width": "2/3310216980021351103204535606027747873558612389026371121469290453077070359166950337219456461160931176363920384412867677893637855805170233621408608718465363532893238857249104345",
+      "root_convergents_checked": 28647,
+      "baseline_root_convergents_checked": 127,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 85,
+      "source_count": 257,
+      "pool_sha256": "debd049eb69b19494bb57c5c4e8a66ff21a96197cd24ae7d8830bc54f85fc970",
+      "baseline_source": [
+        "4527664569136880510815034865306966042459448580623525690029380656728752328978543635547785",
+        "44686258158209710513395128632282498275583531477085440333255979654647647845308235134939648",
+        "56032560684467860913064591572631693564853939484310563172008207593373",
+        "3687282136420741198364901543472876635709416727909668602845333",
+        "444321848119702309091759812226198948966232908990185214218624861171993148431771483761308084883884991787496478969584170819878912000000"
+      ],
+      "source_width": "5/1017761448295233766166790658930869221790285627532444909807621539831644192547389037787480908416665493325617090915191611232753223433421238954428431384796939575738754189930996742802",
+      "root_convergents_checked": 29020,
+      "baseline_root_convergents_checked": 129,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 86,
+      "source_count": 262,
+      "pool_sha256": "65fdacf861468d1a601cb2b075182c60099e47cc47507b55d5f560bb0f8230c5",
+      "baseline_source": [
+        "92431656467812941361178338937630452304382741062624991859684295059942753230167742793476419",
+        "912263883474706286061588575873291245328777025455507585542498746674987807720365440122668686",
+        "576850519957922944545241735071226544843808302964820483382960772509",
+        "20990054339380386782958575030329062395393447001736522048494587064091",
+        "143939404537635940980538069500863068866763007201800450607185658452683896553459057936058517445732490127517890388472794096624599040000000"
+      ],
+      "source_width": "10/250337631374327574037574966234633607799565764076463118829875750351630847573019791161701355118253452966858928165940003846397214066177456195253778065614303949521159702453410658233439",
+      "root_convergents_checked": 29901,
+      "baseline_root_convergents_checked": 129,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 87,
+      "source_count": 273,
+      "pool_sha256": "d3db29164619979c520d31d847b32dd5a961a07a7fe8bbd8181f56a5d7d0a2b0",
+      "baseline_source": [
+        "1950120114962345529606375187420853430476956459476371880433428957572255322491479685934100369",
+        "19246914069285251428320150350603681148455484597519830177058985639484039257818290712845921702",
+        "5178650876891956792524231963622510938040973010774928163443738091",
+        "2853729950993885451295607541721491241860273887915660450358758171",
+        "1393640765644066780020125343204805313193149799608363851539832558273488229211410278336206802591584092395991217353450284840960000000"
+      ],
+      "source_width": "5/15393837223771286240106659609184292248461553728265408642403040860797456865279261014060428426642231245258012864538232366709454913620369482408627498581855952460018549378804067994721568",
+      "root_convergents_checked": 31504,
+      "baseline_root_convergents_checked": 130,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 88,
+      "source_count": 271,
+      "pool_sha256": "ee8df7ae710abd6ed238ae67cd7ab90fe45b40da46567b531023317ff7917508",
+      "baseline_source": [
+        "32918698980905773209650024821377778704326073234151447724874066850750119223115246032078241333",
+        "324894536340083403711031886956263210161283503828459801325979881014713874039687374400506527395",
+        "363086276709739692949699517743363809565467620641201273965582011352884053",
+        "544340321252613109620754047363508935117907979010522690150625603",
+        "11595463170269348016275748715262907849409630377410048560274608151360245117165286922442267706031432387668968433938821398167453040640000000"
+      ],
+      "source_width": "10/3786415002673311595207611216269019841066237390146319426510715912903810079613041932030074572753811636546217460441669019014285870524517496284880439517712068021898232799509588769672726921",
+      "root_convergents_checked": 31594,
+      "baseline_root_convergents_checked": 132,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 89,
+      "source_count": 275,
+      "pool_sha256": "6f502c5212c64e43394285ff5c2bfcdeb0a6bfb31d741ba7fe5cf09fc643416e",
+      "baseline_source": [
+        "436764843097339513079359600190773778819537447482143806381243141516356670228324940875117327199",
+        "4310696217674605232813886001297074942887399618971544406827275137942296033079978358134452838137",
+        "112654170757654858737051713294993963917269446217323179877331443838031273",
+        "12748236464386567251412249602859406331209364168128271642781038180569537",
+        "147343755819524089453444820594921781263700209472755230864668610673126150703483659381608867586933824970759249823557460655516277922103866163200000"
+      ],
+      "source_width": "1/46567197185338870802772289265665945773346100562757409552251183127011946992428091879737023226083669224150941209601571124006037699091723173233197421239667598418737497197506453684740031990",
+      "root_convergents_checked": 32113,
+      "baseline_root_convergents_checked": 134,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 90,
+      "source_count": 297,
+      "pool_sha256": "1adfea7c85821c7698dbe341715c2ae024228761bf2441ec3448583de17b0426",
+      "baseline_source": [
+        "4870250672032546190292255651741267124423564068771884765643422690381423610957804841690447081855",
+        "48067447467100824368374809788180350792083962816343908077751986279394684111959136688279994274297",
+        "24875970090722707695461316392158391402210937383868421375587359454012313199",
+        "210990047722206229082888831383065831477209923760659126553017598858075779",
+        "47089861553749943690631548786050512134480515925374426843687968227370520816664369508489691151252728551879384739528772119701732903268296818688000000"
+      ],
+      "source_width": "10/57270704797520843867348764043069859029464290653891619806194502223408625747119498107163339901573167446032328651527721467248761729910341201774121428200376433719454982003138761044915559750411",
+      "root_convergents_checked": 35279,
+      "baseline_root_convergents_checked": 134,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 91,
+      "source_count": 317,
+      "pool_sha256": "159ebd195161c6495c0a2ec5e463fe14c017c98c8c9aee222bf3eefa03d13d8c",
+      "baseline_source": [
+        "38269273215489243479023530205875372410137883390598556100262665968541222178173457499021181380675",
+        "377702587354083748207067083963742294485234739531161832798433904119305537258348225017154713344976",
+        "9683124044104973620407566458752589724661624518697678351625385800922981",
+        "1609251158794320625579784346985854952393862471288333937756946159839699223",
+        "1223271450973096070964540833893431654839646213859435001808798095506843137446648989761669392433951211291464431951866038521251662771025335091200000"
+      ],
+      "source_width": "5/3521725359662652126885846024287830974029295772928519853900559183472390855579288458880715651252057966325170754719517303710395803417245334287617050577332245068513838662374682999138019138886248",
+      "root_convergents_checked": 38080,
+      "baseline_root_convergents_checked": 136,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 92,
+      "source_count": 303,
+      "pool_sha256": "4bba5b9afe868e70f066753f3c35d1f9a17897616dce228a5679578d3a4d8eea",
+      "baseline_source": [
+        "100474160494678542283519629665624221691243209629310622813811616056283462385442550465793161006126",
+        "991640216614037910212049380263366035820027115344289546891478547966073333694097212382258253551797",
+        "14750976791561076001401365255801996051289842146588896504313655979234313",
+        "860740871853664860128437732016844149389148628713127675818958347842619",
+        "11242542947639601031604859338556753635722953029953669632172885840597737329075054352121469397626216860657463160297032717031811038826659840000000"
+      ],
+      "source_width": "10/866241407764145154807035160302991465837574680595496319772095184249076424761556334249176178534307342175624316309842198328557012936046726429728477379342187411297999781098277177471407367346483389",
+      "root_convergents_checked": 36747,
+      "baseline_root_convergents_checked": 136,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 93,
+      "source_count": 278,
+      "pool_sha256": "e106cbec82f001f834e4a4ed146c8ff28b5b33605c574b2060e72e680d842241",
+      "baseline_source": [
+        "2851545767066488427417573160843353579764947753011295994886987915544478168970564870541229689552203",
+        "28143628652547145234144449731337991297445993969171269145759833247169358880693070171720385812795292",
+        "625610512380880898895680230875946237317554083329693012547754537844545173",
+        "173751451692269021449043091378687503169395658564159431604744882600258983",
+        "698855263111303652262016677370015163088609673499792258297704014787744021683537220808840529337018680659337888715585658485551632133844008960000000"
+      ],
+      "source_width": "5/53267571128538779024810028419576125655792775238563368891105241717940337333507125384074038978079357070129129532349420062655781242711988410067105984727013971000270876094594755876138920986382219242",
+      "root_convergents_checked": 34172,
+      "baseline_root_convergents_checked": 138,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 94,
+      "source_count": 286,
+      "pool_sha256": "4d684cb49fe6744a3132d5d284d490b9aa7851c34462fddeb899d21ced93e167",
+      "baseline_source": [
+        "40223063220414873610696583140803822781782998171046075796859265665791544752744235838974595136749220",
+        "396985721785502147008658444379521976271703996914430636681312101104269244330785274041232176139789479",
+        "3100388585160672877311974832057439515442853249804484158203659436412009",
+        "580895062981755488121763624531907574546075530751143516412156194879003",
+        "2933756722259527800514158453112626873956960895223104148891633146113167994436604835576021033721391852064664300667296333257207186140130181120000"
+      ],
+      "source_width": "2/2620458650643657868038341312045469826514260496644238161666207490069738143794744832244977509592880826984007930774314426088865207303525597189793641792106367319711902656787530458325357249613894009755",
+      "root_convergents_checked": 35418,
+      "baseline_root_convergents_checked": 139,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 95,
+      "source_count": 284,
+      "pool_sha256": "53090642788bd1d4995d384d4f5bc453c34fab0dca3b0f6db23bc1c38dc1caa7",
+      "baseline_source": [
+        "310277848534558356633618852853391543713512951146694111772512362048098161883686184679166049174778822",
+        "3062319619457214557222477706730560478948027972323415727320565997297510445789815814430593607613582867",
+        "1501312665380197293843648576211210876952752253415483136236008710574014349",
+        "1136790445140044618279398686238331898407156034237386124078675391217933",
+        "2366873028687407128573612773949544356188346662745818267958151823991052882230358081646452215813500461479227645965414347588573533454662192960000000"
+      ],
+      "source_width": "5/805697851282400518634135604127659273992350857174627933856376439598425774548642709914464497255760277185625937870168959374991466719564900863764932621101028667204318467092826623030683138044155805532672",
+      "root_convergents_checked": 35370,
+      "baseline_root_convergents_checked": 139,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 96,
+      "source_count": 289,
+      "pool_sha256": "0d30df6c39d5419162bb169bebb415fe79f380a90b8cad19d0e10fdf08c79d30",
+      "baseline_source": [
+        "4869641247116276838237137093938774661732125240030327846169230510244208826326252216285535654914195571",
+        "48061432684265078857461392120892970388101989566384589728490741109767815776238323034736049182220218657",
+        "53978314715591148703688591182450812769005298679186806344702878280015804111851",
+        "77228043837915205804942199828255320645113819642273129740955529174227778799",
+        "17342564014735777617278488310273959256992632303127981907643692359619616528208632057649139310414613112721349544667995201323489073437380380654960640000000"
+      ],
+      "source_width": "10/198178954328101358781253756249775510374874323986978086690799844556961364532207241587596291393184824645028896390541655626812525309464421864472815884100923595202876340638298078881024417224462600006897089",
+      "root_convergents_checked": 36356,
+      "baseline_root_convergents_checked": 141,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 97,
+      "source_count": 299,
+      "pool_sha256": "d91b8b470b98bc255f5dc22afe2c1f4878b422c3f9570355c4bf15fd019469f2",
+      "baseline_source": [
+        "44137049072581049900767852698302363499302640111419644727295586954245977598819956131248986943402538961",
+        "435615213777842924274375006794767293971865934069784723283737235985207852431934723127055036247595550780",
+        "225957848258304449259336888846847246545591158868252550507138333730135697703249",
+        "3095254680468287605267398027498984473027558174342013752537161196610513928441",
+        "5156872549478818628775502636251892780040749016180402954631485835143683696101175632657188716461694424239876625798172128832807352053470609097318236160000000"
+      ],
+      "source_width": "5/12186620877728386477249161925760466848771882110361551307411346214309057472160524001076092645131213657794783630752687039133707750110927374547852014291112683414802066757233138705588542024744599876700647558",
+      "root_convergents_checked": 38157,
+      "baseline_root_convergents_checked": 142,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 98,
+      "source_count": 296,
+      "pool_sha256": "90f095f32af9909f9beb1824167a29daeef06b5a1be5dc22ff6ca736d0a79b64",
+      "baseline_source": [
+        "918555109879985214281307265605882748019992891638997530121743600280726449423419534272633389020479806348",
+        "9065775555114621468627957837350804515776382614206622595592783676508220201146372103400641950157397146707",
+        "17116006606589745040299664894505825287736697326621868216324081626172213910393",
+        "4986400534408149022806566752076231858314881539402119007154464805382350803",
+        "385071536683762314485168742625043330293174705029772366980997386461306807390776229621098838091277444579319252797439333122545890919120349036321013760000000"
+      ],
+      "source_width": "10/2997571002655240929491152156551316014745901028810369608095859567721616856736538899586024015323825852875877584809718066080145419418882151832225310448415060037353088736535587641196527222586407192570879681691",
+      "root_convergents_checked": 37982,
+      "baseline_root_convergents_checked": 144,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 99,
+      "source_count": 276,
+      "pool_sha256": "acce258a9f8d96bb73c9134e87108688899d517e82b2106f2c45c9bf9c612239",
+      "baseline_source": [
+        "5555467708352492335588611446333598851619259989945404825457757188638604674139337161767049321066281377049",
+        "54830268544465571736042122030899594388630161619309520296840439295034529059310167343530906737191978431022",
+        "1622474668836386730883459517724574822301286062181247612835656885106244629",
+        "2142149578864021432540114475660949597923997421376608034167910800435396372378571",
+        "37732453900861092327645121726327928190583388092175615441942593376177809913868670629105718485299965987161334571273447611619773621562851083941992346419200"
+      ],
+      "source_width": "1/36866004178453747430103004607460196880089705122864061038933773258525915646769340143855873564300798310779604695748747822283732449077810551772261266165467147684697696270062098052019031259311448025041956299000",
+      "root_convergents_checked": 35758,
+      "baseline_root_convergents_checked": 145,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 100,
+      "source_count": 294,
+      "pool_sha256": "f10d2cf1c6475811458e5583c9eff1ef0b9fbcfd3a99ebe6859f95ed9cacfb4b",
+      "baseline_source": [
+        "110823326667927345026616383010124143697340640244549064988754046081381543346225781843554695456477525866799",
+        "1093782392625139409428628117052130504283597278817659923236373795751304574366432775860100471448695169840624",
+        "495504412637280488698149583631347146751245486063557824507099249556319150106479199",
+        "1571582967975044110293525443044358883287045305708377893838229574609320979",
+        "1540100159218820095005923335768486864921770942537780222120105852088890200566068188943090550420406774986176921276467249453868311084198003426203769241600000"
+      ],
+      "source_width": "10/45340160306118646018141937556425882650680870187887954801159531121095113559148133286714258831734847929655991324240242239798570157966122882075908774791236690830107377593374110946326377031845454949108327718648701",
+      "root_convergents_checked": 38416,
+      "baseline_root_convergents_checked": 146,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 101,
+      "source_count": 326,
+      "pool_sha256": "7575712572b1cb8b967af88244f33273ce4dc16427a431653dc18e81f22e09a7",
+      "baseline_source": [
+        "169012723856067263707718880238353014971820590361796299895859947716391617356408341346215567845249429488723",
+        "1668088723209941900010963236593645553619710999036144645002980913274474126079304247461916160541638743976447",
+        "11217783177356708817712042172068274750745645381575562244619920327332418624307",
+        "209960397993169446942887532040631838077288242030471623136996360891170232877",
+        "23608280202472910375921026755090261533135039032208218855912898450310945024833038911693941689668609527868006479624699902519884980511671004910866611562086400000"
+      ],
+      "source_width": "5/2788113322092954625613662135656137199273339360846762325524888615163490352972511743256774479700011835500460860863074159923871913842363429318510441677842600564815587139477951776897600724769121028607606819241094338",
+      "root_convergents_checked": 42616,
+      "baseline_root_convergents_checked": 146,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 102,
+      "source_count": 314,
+      "pool_sha256": "76a7eb5a7ced021d9f55ce740b46a27d35063db50c718bf2f12007b9eb62c8bc",
+      "baseline_source": [
+        "14476904854433644760182721203270130416302090820997234556136849601974669018640934796271877962302679032408254",
+        "142881323865470200910360503227512002561959032196889954748489751424081605291107293810122974117487988407838619",
+        "57384423031122214548895978286957595995657606627288233254514564840542851853875899",
+        "4421488888497573314513464298284238322024412418416014210603292893913720837439453",
+        "72316389671638602952368166445322344100229023864883745219273509855824614943019528072783191342634797387593389367970855149038003479805392280512110021182842470400000"
+      ],
+      "source_width": "10/685801063984668920117756287688137427554834765586958626103007014423945636554754459358197631386264957623875328219755376429415229853328139179305104082713899416456640355937302223510110857371390307692852170394084350479",
+      "root_convergents_checked": 41348,
+      "baseline_root_convergents_checked": 149,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 103,
+      "source_count": 312,
+      "pool_sha256": "99bb542e66588de4975dea1ba9bb680eaadc7eb53d1cb9a36f5c131f7043277a",
+      "baseline_source": [
+        "29798873328147625838904036807732025907463284593803450611752998942531296124063911299274833763831605212260123",
+        "294103091346990111320775822637992232892016619388960632721994407414535581212611108857555529037684170535559473",
+        "3902216521472417385559903538938959820699249878992367624783236244970895503185607",
+        "8266213808256869906872195229239488035272363191003314903208229326783069577334801",
+        "125127241299558749793663641064051570344154752715452662466029987252857583771889841120435182894232516926156477793916649965425860038074886941064013731335722188800000"
+      ],
+      "source_width": "5/42172199942391266360502570730771371308439747824998868473599288020283326684776537593703933901303805196549528046493328437380665440358030416394281993993341594408494781627271750166501044082747452495524989472173641952992",
+      "root_convergents_checked": 41569,
+      "baseline_root_convergents_checked": 151,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 104,
+      "source_count": 314,
+      "pool_sha256": "c88585461ffb52bb3961d714d16c7d38224b8bd17c3344966f70937732bf012e",
+      "baseline_source": [
+        "5795796355962785192034981299663759862494122943199590245836010364348478900321752543538282059281324589069849562",
+        "57202217222627971680940892021471192474720422615653324992105410751670533308789821020670819439749300349794329275",
+        "1378642154569731064263667859847462329369432948427151602724534893276953321632200420859",
+        "9565866537441801162516374690142006628605162068872336569174890290052411035909",
+        "103066675221238441426167693680516259507294231490463567883331618794124167496184533297185836234229118901077543610360646901582631014928325091910332862292834098085888000"
+      ],
+      "source_width": "2/2074649312603822882959982894729923498369685024875657774135960080756468368545720463557079220624967370759389076288559390966256283975647308581683145488980657654123007849352526505676753041268100801950401172969695535843205",
+      "root_convergents_checked": 42231,
+      "baseline_root_convergents_checked": 152,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 105,
+      "source_count": 323,
+      "pool_sha256": "81e7e9f39019a206a10282c1eee54d5696a6c2c179159fd6ceef068dad7ba479",
+      "baseline_source": [
+        "20814259500625332547578908131880462566840646557886167557859625971436535755232607430031452060684608366619462831",
+        "205428507172787777844711895667782684206743179076690447739345589107683191765819740580631344158581580660972327220",
+        "62006451127360612070264998351344917494409167781209264169629874458134036558470503039",
+        "15395394373554224524176756431004791597513478577227146902049052695100401011235665174351",
+        "2171512386739296296669292909817714898990344731639718595573456273814571992524644936116291478655168352350663237952269890858727373468745170428989054378887905387485593600000"
+      ],
+      "source_width": "5/637886621563075350784282491887951925366890166369046012400654911825282724897483419376491510852592168005173137116931935184410754252678432492852917189345995525102530274545420999179314185391372203537409182058267830044086462",
+      "root_convergents_checked": 43823,
+      "baseline_root_convergents_checked": 155,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 106,
+      "source_count": 346,
+      "pool_sha256": "fe0b5705a0edc6ca9267321375b8b951676f4a11ceb8491dc5c1b62e50397a72",
+      "baseline_source": [
+        "408790857876839451086725651239904765997593400992676964226486588124657952325258753113032093629872441246220580047",
+        "4034604050026349148868012799443816934385298211612984873729652690179364773878486157387075398576734315149125325164",
+        "37699771464168579064903416223092689485948836957480135642436570040613024292354296057661",
+        "471522610762481974623182230012831074227540632154989735934004422337093344522234041",
+        "573732291894625371866724084339639396267207030938083526697471128755391419757022844362467398456732701742705860785658628487517595134733715873212806334826921836334284800000"
+      ],
+      "source_width": "10/156903491835447876240721726919333317568483735698225571079013527729081827204007574820498329728143738983493567035499423500681826149714419559090864131890419387051324935302026952451988529443985391786820096532068316490766521579",
+      "root_convergents_checked": 47499,
+      "baseline_root_convergents_checked": 155,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 107,
+      "source_count": 335,
+      "pool_sha256": "d81ebad393a4d8ce25d2113fe262283a84b22b6dbe128c0abecfebcf7c1bc361",
+      "baseline_source": [
+        "1614378970880060619425162600864546333449440420697415492798698479526137804841926468933396197292568988223475117480",
+        "15933281796023955807738660077930123045567341683994638007811987166017190439329337500076527805677393364106064532909",
+        "132784952652690326317443007404536538487486877583800464638648797611663860642213821",
+        "19797144145022914504552809481980698418520018502765593353890545548267430718665070539",
+        "42011486951945392942054863911536458139800903290372172751043084609230393227521326301870036426878969692200175921090453041510871959551000706383540466423999381306695680000"
+      ],
+      "source_width": "5/9648550049361907663897430128152731216590921219014219751867998229741989633266739851940763466435867278210249423445663810896634671587520794323413857537485608584504483898620969533771732754704275761071629761671905862259136549128",
+      "root_convergents_checked": 46491,
+      "baseline_root_convergents_checked": 159,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 108,
+      "source_count": 343,
+      "pool_sha256": "ec10bba4f403fae42ba6783884a4f118174e1b48aa3cf14712e2131a695c73e4",
+      "baseline_source": [
+        "18589606702519210505798066581386534353632986885172452591976821699685161094217781026839243808962617604124938920846",
+        "183472064125703839374683547202682417164660589055471855491462246603014670151169422901930472518691158233125251690825",
+        "344648166387625178169296587411116971407665121803232768709226918676078191023157408149408850367",
+        "1800847788961851987625626901184450629887518443136676578469789399020912722860422951",
+        "10514661841684542190588974254892248126562579548092453234321623883572332724435703160480865913742581737104463037643108085119287600994478569434124593402497076513043831075635200000"
+      ],
+      "source_width": "10/2373295430977126807400695688956614198960438192091016137787905415560363256595721164331596372706652315571354213327303308531371252745952259285225689798517464831363902099796480139388618583954429853527965921819500806431609854527621",
+      "root_convergents_checked": 47880,
+      "baseline_root_convergents_checked": 160,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 109,
+      "source_count": 372,
+      "pool_sha256": "831384b7108f8a38140c8851ca824a3b4639fe1ca8c1371e0346975e20887d19",
+      "baseline_source": [
+        "88097968446413438275740931769640675190969635436012252360118930435523227388410089546223119727193074130367133517554",
+        "869492097105753515854290625406340001789276303171222929604839730318788356552464232966265521246880429774477919266149",
+        "10719154314314986397373289531076622386664130871667630294198258487737563231234007226054092143",
+        "1686960186280596310889665937571712404157805995488171808273813088723706233914947517457993423",
+        "8118866852829423396810928441081304053009683325934951486489072087818096444353228081328920198329672845702978981882203532950926281668831818061342922208938892869685340020761678585921536000"
+      ],
+      "source_width": "1/29188505616897301982756493135372421605499462191347824532686551457272052200513632736332711793903376256175542435994476458505028708576629853196807739039995354376715352067543728360780285639779302683207582128744307042913443648283490",
+      "root_convergents_checked": 51916,
+      "baseline_root_convergents_checked": 162,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 110,
+      "source_count": 361,
+      "pool_sha256": "2aca1d1e611047357d48bf7e6350860e553018845e9a656e4aa543351954dc97",
+      "baseline_source": [
+        "1956744912523614852572098565513481388554964966477442004514593291281196163639239751043747877807210248472201876307034",
+        "19312298200452281188169077306142162456528739258822376306797936313616358514305382548159771939950060613271639475546103",
+        "5203395510450016167751561613348550314094104843921261115251550618858809786693839239244474669",
+        "10049963996386061345739313848104005896991910349872097603451289473527674148685999057815140639",
+        "495943152236706498423300726220371073597232246019290156116829763714491643083700321500747798308041989472627390296052142560191396921235438845433785653026395533669517436199607874355200000"
+      ],
+      "source_width": "10/35898162079850442349993541744880016387476405056304725543619497063763142856617718160140121057403247454931534726892427763510331559079845080116784752223190635400345690557610240241024637463949872984738832129776218748933144242584257231",
+      "root_convergents_checked": 50727,
+      "baseline_root_convergents_checked": 163,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 111,
+      "source_count": 344,
+      "pool_sha256": "0056fdc5b15c4a6682c512f7a6bc65aacf2f4fe08affe1b3dcb94d56caade1a8",
+      "baseline_source": [
+        "66123591364442784909957618001204290905332629007328386791579648305750972459939197242016004184768298305666149224149740",
+        "652613688346338817656716978820903652305343061141162555320162324753220134546821332877633085876431753338134028906024419",
+        "30681832915636923538373774905265627463646123262962291710834225516397580931742024329113",
+        "3775023853444441478701770340188263136889379772437027258219730720344419718737731431953",
+        "116290684791519318572159923836150035891385451466499691701447922246745031068891715994929566702888317463979110282388530355642095500981776003637486327480663502769213650233328640000"
+      ],
+      "source_width": "5/2207510915020967445037766156350872945820017464329705131228924570270349045937116393111376426579964231624472463115642009854275926052723855953940316213730017609619750766960590588334510925967442794459501127065185250325333008693847160448",
+      "root_convergents_checked": 48971,
+      "baseline_root_convergents_checked": 165,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 112,
+      "source_count": 365,
+      "pool_sha256": "42edabf9988a44a835212deb36d30219f3e3c22bc96107b234ab4f8ab201d000",
+      "baseline_source": [
+        "829991220144562740726040332737644638915426793691799361465736171814238129842455737611913166875698145024185810368788448",
+        "8191684999204303151167221693203396023116160877043263905771326657896660006324439196487934740730621242907344349887327455",
+        "5284441910883047387583155366804365372479021613707802205372987233084208808416518206400844805697",
+        "858721570694317566984530707234743988047147905990560191244422306355265677735098333819310583",
+        "806248583301810795655529699357379499708600496950484765672178686498602633015633066409746936361905011760781940561913267508321151582390937488036137413804348389142363627061750026240819200000"
+      ],
+      "source_width": "10/542992432077812103315061478608978454782515984085878777252058627323577600190735586400248040931123218509634360695690707821483864792305640809848215822660049144419303382427808856888647926075583360645807214867597043642177751265364113239329",
+      "root_convergents_checked": 52368,
+      "baseline_root_convergents_checked": 167,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 113,
+      "source_count": 378,
+      "pool_sha256": "38705cf740a2bb5cae3d705b8a5db36667803a9103b11ce03d646f68f21d0ea4",
+      "baseline_source": [
+        "4916291685135699781371568436864497804491719581760423587571570653926388182606191380640654237696611382918571557117344129",
+        "48521854052654321879210788099688501774462730444267741655423696252951340048631833690293416639812544999979965239242189477",
+        "16131773207219777316414994312665661443095207302169536199600682605562681459561229572392222127013067",
+        "76273349908519834948660772697227073478067867494349357176481666597113901799508803727606917128767",
+        "2913167951631000925273005707198761735246262161353242963181210547458027468162890708530681055992100899728963073796760451592660594038555488703385291478208619948460131694067734644215984953753600000"
+      ],
+      "source_width": "5/33390657829891260827446517544624830889625927924073602017608980584696254209418639420956725272081132920391858949202271490434994741715991657867819976557879005686254707016252370169672162375266575921385389421698407087884809292834483039814422",
+      "root_convergents_checked": 54619,
+      "baseline_root_convergents_checked": 169,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 114,
+      "source_count": 366,
+      "pool_sha256": "9b7aca07dd7e958def2efcc4ffbb63a7c9b2d28f0534445db694949cf9bf34b6",
+      "baseline_source": [
+        "51971168690449069350817173164664762106667682100631496866227146939501799197831996244396405695381095700390989527756739429",
+        "512934875237013613384572256374154577635146961163766417167572260975346480451865661935568929643173226015842189742492753400",
+        "7433992437783220713102033165151064509050030084220199837524515646231387836599086934304948625577",
+        "509396453216852900727111713439902582958850536849087457122643281085225729274072438978890602134167",
+        "5311177065895534056254561190576276520092227509312806471341665729052894981779592909654121229003278253557502215762256482655090759002012005876484177174814274821073523607900127230814038523904000"
+      ],
+      "source_width": "2/1642655250965658477134968307323294768302949039717713467327194788999043859278982402102974093858275511253247379208735874883259139786752989664984799817368358652087445076265558079028831673658466388067965768934888094791700939364152333653288495",
+      "root_convergents_checked": 53501,
+      "baseline_root_convergents_checked": 170,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 115,
+      "source_count": 359,
+      "pool_sha256": "625fae67c36c72abaa982393ae994559010fef04f004ca70a902df26162f9bd3",
+      "baseline_source": [
+        "443798084101312658002268735951713904489463444249402035475983666226821368207953835898883818946149770072270603859306562987",
+        "4380111524041340723132885962383556462774422454675626784799190403087972423862011823699238642916513383013194923255865834911",
+        "263560335030524255052924907376103258047153037231477653937290468407819848319628147009097291523",
+        "19291611577755459580140407873472048821356786871041838195582292003283712664240088307672132453",
+        "328239939287794125277248277109652024699587548611732005109180828150140272098257604412989224159279408274743734755210757424421110016305043485411030643793562087261153947138874620177612800000"
+      ],
+      "source_width": "5/505066023025635293618478368064280944617346091511763844012530186877548457749740958954244177494234061854542814415776477306411828193019821251552277826638701707672626110472133536638383632009790557118166401044175703591755679869412129047699975352",
+      "root_convergents_checked": 53272,
+      "baseline_root_convergents_checked": 172,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 116,
+      "source_count": 360,
+      "pool_sha256": "05b3a46483966bd78c2670e235a6ac0cfb9675015823523c7a178cac1b633851",
+      "baseline_source": [
+        "5181219724590696889681953203025338222469373418622224753592420013931791314123295879334952569840356150309186335768476189270",
+        "51136588996831336584529463341125529490347020590076836018989162363645754265087772245846353820634298433054051229881252567849",
+        "316892233607810310356297953158396787822400702589730911817440311319489762725529524770424734817",
+        "108708246982838550199958711719749259377118805838365221051466024506389911708169273246790916701",
+        "637696079199264072234035017651953801235069385105684410719939398939273966165816865690614146312378661758789075228244995078155966577957564270505371108728318634498006050917488066096005120000"
+      ],
+      "source_width": "10/124233900214899820330285783799470739067318664092006326179613271578963518000612695242031523614186658808165907498661815164694580119215032871958595663630620496668022527328584039097750725316287177267390694916869137446660357482858673939941937583669",
+      "root_convergents_checked": 54143,
+      "baseline_root_convergents_checked": 174,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 117,
+      "source_count": 339,
+      "pool_sha256": "59be339e3bcfd1565e8a191f214bd2211be61f0d1d2c71332db6d35b2aa79eed",
+      "baseline_source": [
+        "68243452587881684881869929111232824701080781330587725867653427513566929820018754103152151045816929494163963572708803586484",
+        "673535880006890057045148795359398996300060112580350121816457491533570750293865062843401076954078906395729055834968015051859",
+        "1280731510938923431306941773677078897076017732924577067006555643336303113902468524245043771",
+        "139572766044849061965479008580276160254465363907523379211114729329221181159969284851512630531",
+        "1590521807258200077875833643001838726642458518045575440647936823045243612297768102493306380804684308129985157801700301300603343805288951038072939339267880440597276239703974725222400000"
+      ],
+      "source_width": "5/7639630260303003066767604065539452641501726721877447346752259285663464727144776891340544071963219863320089232981783410984618003218140191283763365014590844216446513448522967299943960797857346765231715903773283934350710943623378677844896853348898",
+      "root_convergents_checked": 51433,
+      "baseline_root_convergents_checked": 174,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 118,
+      "source_count": 342,
+      "pool_sha256": "f97d9470c17c84fa5ee4d7618ab76377911322a98b67172f6770e710f83fd930",
+      "baseline_source": [
+        "1168344010430359925626717902600848081968609364198433321796535782561991596343685135254812762362772096746997855064237167348079",
+        "11531093187329871833075094804354749277223392149429597902736017352699730079187109997841819612600754808176909343259020490750353",
+        "4471334629984039855180866365724137142917330808107037012330033403818445775754110011674498261181",
+        "326186020615497974717129000327952300403922162714646859555761608913258332732161411712479739",
+        "25637558350989782330400984903743783891744293722238729925339306149907956866202350592144227880477426789294869699197633189504849292112851148734880380872112147707157318122198303008358400000"
+      ],
+      "source_width": "10/1879164465967993885935000487863056202534709552525229302034286627072845370785880146756959368046238237049270320482882477532621789742226127782663251755135473282287402420288818158042820840078346698480156758458186284007972216239235813560762205430101351",
+      "root_convergents_checked": 52009,
+      "baseline_root_convergents_checked": 176,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 119,
+      "source_count": 376,
+      "pool_sha256": "536acd8ceae5d169cba325ea1f08bde077777857af30aecc124bda4b7ac14971",
+      "baseline_source": [
+        "5475019866204306881218640188507701990753870626702884743673051461127149759543870215890176941374875427984044644824009715486530",
+        "54036280167541698573365492018775296292475850068198240253373566809776597286304468344209625217788215406957486620487084961852267",
+        "310380931907151987676344407829272257391890170703367127873357892403266296066737782200182672981",
+        "1714284209577041580482175768041035769634512359293839671618106662992347321556581621074442068477",
+        "36500542500999282730235841326487331196164814669183698101777627642383309593461180958613628391404568402129517896731588332116842789390480751836807240859132021428366914534168131561917623500800"
+      ],
+      "source_width": "1/23111465264870157607809889658838087736192397068441314460135750959536685730141968389482047747544679208657674398107453392006993773730666159258261190433031450848670737633767751177521207125821141116090321427191493186282332438115346401953744892820758560",
+      "root_convergents_checked": 57794,
+      "baseline_root_convergents_checked": 177,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 120,
+      "source_count": 392,
+      "pool_sha256": "16ab7df3350ac060cf0bc4f35df26694e2d3deef1de1f861e78b6c4625b440f9",
+      "baseline_source": [
+        "99718701602107883787562241295739483915538280644850358707911462082850687268133349021277997707110529800459801461896412046105619",
+        "984184136203080446153653951142310082541788693376997922463460219928678481232667540193615073532788632133411668512026549804091159",
+        "2052733642943416427224334983222444219665758689143738815163232709743628032041074089498707539591959",
+        "47248908380111042024453472488414077878887368384235030737064750755199681410607692979549993737",
+        "2794299904382720209013270149396159326022186768932723299657617427168100255958750695396258632834799494899867398792848867530476003015539196312865626094479006425138136997831053133926708019200000"
+      ],
+      "source_width": "10/28424340512894360586764001622642465573048274401152520486978099100901081775857538198742088919899279095541526734415450369040565674654860938806498026647695303606248789193777289296505674405302630977367856162118597616317198746857828453765383744953142968841",
+      "root_convergents_checked": 60759,
+      "baseline_root_convergents_checked": 178,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 121,
+      "source_count": 371,
+      "pool_sha256": "2ad33eb7b0cedcac86b8210fea43c88621f83c28bbd084d5ef942131fe351e4c",
+      "baseline_source": [
+        "1116591342462459060252444095643462281009695742936531712073228426341303111869013134980570352642469447008750313826860489074829726",
+        "11020314827785761178514841901699468744606345946680560828726186825067077573582730289392587161455031491690313501459658352541544277",
+        "15651375169541713346594482851654026779560887186804122738234473849204972266790252601381105881041",
+        "22554046069416230426651690720146959854238516143561914830236070765079840765130905219094244316883",
+        "351067447241090237569781867566789762398013650290346308518581546742719961380543859450308069280306796006531158696080446264489811464906465738843778132975249854164646298942477336210600207974400000"
+      ],
+      "source_width": "5/1747928003008026675515838671384904070740074001453704894797480132460227972365184625964530326027362464649515655672341920412276538368899971575044996135327811479011379716078810479195246448588860003677282929637825414578535024662874910258295550468092693013998",
+      "root_convergents_checked": 57633,
+      "baseline_root_convergents_checked": 179,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 122,
+      "source_count": 359,
+      "pool_sha256": "dfaca4b4a3fc0f9a753b2fd29154a923c42d08b16910409191370c71c5a0aead",
+      "baseline_source": [
+        "5547892138489524571039293517722562343079714664258807479215613960525189613669173268490462371662852099967603620432062304786951247",
+        "54755500666805265177665203027443648596753641552254405422725322863089236175073994110783660907691631842604777788920787217785740243",
+        "53043634779123163970080930985105386586657104548502079194022090879759527420374347110276237746659",
+        "755681183898138209381319042909594804372816988327577593820767857446995239122157128224548616274771",
+        "243558032776720436538389414958329062675005941505143583689051147749526174596270317737632919620338558358242470591714739520079497891786253151102243811753541590964765755695725161494973277798400000"
+      ],
+      "source_width": "10/429948948246310998317809669893437588248456297558395064214240277675273289003801059174784985304411330174343189193762491187472689259234679280700462815924430729594702576467781127693817428996933950830237049706945267182762806803423348293941457758491555466536299",
+      "root_convergents_checked": 56246,
+      "baseline_root_convergents_checked": 182,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 123,
+      "source_count": 365,
+      "pool_sha256": "8a7c40a027e004a10e5d91d12994680a0b78fd145282bea436ee4d64ad8b3b3c",
+      "baseline_source": [
+        "12212375619441508202331031131088586967169125071454146670504456347391682339207359671961495095968173646943957554690985098648732220",
+        "120531316161396291533845247956586765938113629051189371674176832551245549923730718510959908976838295176899869079301232788113024763",
+        "11301580804260291572794978921958800983942490281701038000887964188257964125960508249125248139",
+        "65561687981814461171914509227440770127711415256602312697160767054286169958172962203760889607",
+        "5218003720829532439573565932634201963202326626768639364870954885185721362186513366234303330510607057918473072083236385702021082909221105065679864571334932990640374214107164228909711360000"
+      ],
+      "source_width": "5/26439330983501666300575125755506406561512075697157533226909165992454846430079662252467470017825199634810569561031730018949287273527657606736963397747849224931918152826521335410912760058007040608983328625722428047540977599608104569312438045467247568892582312",
+      "root_convergents_checked": 58013,
+      "baseline_root_convergents_checked": 184,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 124,
+      "source_count": 382,
+      "pool_sha256": "7e48b84e19083b9b6097fd3609042588347ba0ecb2b38f36e34b444cff0ec265",
+      "baseline_source": [
+        "3815809085404240083698321006417361696099846736957952568676605994346730079446365390920476932313733029946482360684019413083191403887",
+        "37660526143022448223737382565482514621288205905523338367765897078851700812379058169530275261681239727035363930530905417109049466299",
+        "141502483120495622567052591687788695166827862141752212304712039734840890118618365973873887274309575577",
+        "76350407184334084018851044097335392401850870047785223838731345350540603274029000192763530903",
+        "32439412433503527844569875119123788428627969253878840216839105991845400281184644671210483763375339975631211971792177026941224941382782118229593779401381386281783410788162305664519940667028275200"
+      ],
+      "source_width": "2/1300691270594389316300408581762447789983435648035640775003520418150494119796582727583198987253976843802464088227079525565168140780956766076223423582452126508130782569465940975304295606781235249074692327858117567519145909574626699849452004967021553346695315625",
+      "root_convergents_checked": 60987,
+      "baseline_root_convergents_checked": 186,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 125,
+      "source_count": 391,
+      "pool_sha256": "17cd095ca3187a712b1b91c113e1fb711e7aaa5a313eb615251796282b0bb834",
+      "baseline_source": [
+        "12314505925193067333460466229559374762968548090947102119635634383704999684422818709470696948754939418772468068435118181253634199281",
+        "121539301876526481370115160301365204245470685379204460492164246347693536481722055522868979322399238138665982496223103779283173157070",
+        "363815522544293219246925532935762025119920185990109945681735616027274641461401187637540953201",
+        "1863045600917449247828193459456810987662253194422713988699506287634555764270468397028996422866089",
+        "999549149392859925254588425257786924488267731479515495150173691005008604426612406789940277731389525867612430923661296792843588496656365100836116685639273412764160455600357772397465600000000000"
+      ],
+      "source_width": "5/399924681920376299468808977402111164151834753113384747709812802557921046000556423518994658969617357259638080395347440194664711580494160629458378537399957040846117459871654022332567334845683039229635408329266640937960386988580628396026182604099135732825780926442",
+      "root_convergents_checked": 62899,
+      "baseline_root_convergents_checked": 188,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 126,
+      "source_count": 387,
+      "pool_sha256": "765813f4023a850daa587fd91a45bd7e6ec9906a51d67b63af40b19759081fb4",
+      "baseline_source": [
+        "135398503299026533127053473369497679457818183375060852582639455939018038116954969005817858960824492738262428965012845068296732530991",
+        "1336329664060984313613597537075234312870486971025993118555435825661872673549323957159003973001507428049441308113057635408174339603955",
+        "106271358252385594099789572494925191941715323328368532629459466154098721614262855603868186298759382125537",
+        "264301259073192716481739200056740864744072659814228018190761970203728112663047954750451990001",
+        "2956894281110141230966030608073492498055079274759184164187108017594364593855728766913391447912772974328295386306440710688900103111286765619516223790725296509294496856249735172323809866956800000000000"
+      ],
+      "source_width": "10/98372197729385805812325850508751703719910942049191787743198006598997097092492830005748995024794754640506955577022725134813033374741161298485655825977321391755262147807590093823336376731042138293234217481730227533716200097433885011277812022877325964775529227105559",
+      "root_convergents_checked": 63040,
+      "baseline_root_convergents_checked": 190,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 127,
+      "source_count": 400,
+      "pool_sha256": "6a96042e92108ae8ad7bcd729bbf911f69aa51945f86160d8c01c26692cc97e5",
+      "baseline_source": [
+        "1669918944813200389069726948567515076175413318000774333234776791400004934003224353524977581015200733163118938554343319504025917459629",
+        "16481439367190860333331547572343875387657985347196932191974266575440613388958303381867219320321583892041501766684070603778412892790366",
+        "535865561852395474394016269084909719891434079701429438720889574498185580869469810756163705823343894213",
+        "562044044881571282827087842651522656536079702259626474164807410361500249468518608169850087736731641081",
+        "905428099266787446172898598103673121494776496017298570999177739094401501041359619524663447586192539717569671855204294970267446792662287252067175845105433514160194016770477003302499673132385851455900000000000"
+      ],
+      "source_width": "5/6049322534173807046949055570882745323362304044510101242466175201051445161584065037638112781628078613451481485275123083236050886326391133390614496773143865305832618008546511186335274931941899231496878339168066430337930511950928592130217499908408484233338459614240768",
+      "root_convergents_checked": 65501,
+      "baseline_root_convergents_checked": 192,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    },
+    {
+      "n": 128,
+      "source_count": 396,
+      "pool_sha256": "c743a0b81c30fd49bedd120b99958180206c97f3d7c9a92e95b5782221b0073a",
+      "baseline_source": [
+        "18758892703192439417042344453399167102343687763429151723268729230343066649928661842419360679781405602566496949539938019497569543204664",
+        "185142849982991155563188684923438482988365964227491328312974803596257141414246962151798273110051397337950073314448371610236546017312973",
+        "63678443216261893163849465600968616743471821044406599660281187801355073486362456702564450149338116157",
+        "1860917859794964592837208639097317037430038646079433881205550899510450481341194015652334913078843705849",
+        "31306882718426482318193455708273013767943662134618194551005442760612495477465573694981317735097392077696753581258771003089477575976612157412175870119504513903890126564983274028904818010907507916800000000000"
+      ],
+      "source_width": "10/1487994362486760669405843688435117168894110719396931822177008253838713673679592308727803772666340200332128049660892217562403177307993341253102801672699254922819186629649703914973122206447109909840732098212860173956431635926068753126360117943111212162149718042012308681",
+      "root_convergents_checked": 65684,
+      "baseline_root_convergents_checked": 194,
+      "hits_with_budgets": 0,
+      "baseline_hits_with_budgets": 0,
+      "joint_best_bound": null,
+      "baseline_best_bound": null,
+      "joint_best_quality": null,
+      "baseline_best_quality": null
+    }
+  ],
+  "hits": [
+    {
+      "n": 1,
+      "source": [
+        "1",
+        "10",
+        "1",
+        "0",
+        "1"
+      ],
+      "budget": "fixed25",
+      "p": "3",
+      "q": "1",
+      "norm": "-1",
+      "H": "1",
+      "q_limit": "2",
+      "quality_upper_from_conic": "43/228",
+      "quality_interval": [
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961169/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961419/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.14159265358979323846",
+        "0.14159265358979323847"
+      ]
+    },
+    {
+      "n": 1,
+      "source": [
+        "1",
+        "10",
+        "1",
+        "0",
+        "1"
+      ],
+      "budget": "square_root",
+      "p": "3",
+      "q": "1",
+      "norm": "-1",
+      "H": "1",
+      "q_limit": "2",
+      "quality_upper_from_conic": "43/228",
+      "quality_interval": [
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961169/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961419/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.14159265358979323846",
+        "0.14159265358979323847"
+      ]
+    },
+    {
+      "n": 1,
+      "source": [
+        "8",
+        "79",
+        "2",
+        "1",
+        "5"
+      ],
+      "budget": "fixed25",
+      "p": "3",
+      "q": "1",
+      "norm": "-7",
+      "H": "8",
+      "q_limit": "2",
+      "quality_upper_from_conic": "51/304",
+      "quality_interval": [
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961169/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961419/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.14159265358979323846",
+        "0.14159265358979323847"
+      ]
+    },
+    {
+      "n": 1,
+      "source": [
+        "23",
+        "227",
+        "1",
+        "3",
+        "5"
+      ],
+      "budget": "fixed25",
+      "p": "3",
+      "q": "1",
+      "norm": "-20",
+      "H": "23",
+      "q_limit": "2",
+      "quality_upper_from_conic": "875/5244",
+      "quality_interval": [
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961169/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961419/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.14159265358979323846",
+        "0.14159265358979323847"
+      ]
+    },
+    {
+      "n": 2,
+      "source": [
+        "23",
+        "227",
+        "1",
+        "1",
+        "40"
+      ],
+      "budget": "fixed25",
+      "p": "3",
+      "q": "1",
+      "norm": "-20",
+      "H": "23",
+      "q_limit": "28",
+      "quality_upper_from_conic": "83905/578151",
+      "quality_interval": [
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961169/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "67155186400533454887002061830824505727317701965704142194275938689841174717961419/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.14159265358979323846",
+        "0.14159265358979323847"
+      ]
+    },
+    {
+      "n": 2,
+      "source": [
+        "23",
+        "227",
+        "1",
+        "1",
+        "40"
+      ],
+      "budget": "fixed25",
+      "p": "22",
+      "q": "7",
+      "norm": "9",
+      "H": "23",
+      "q_limit": "28",
+      "quality_upper_from_conic": "1769/23598",
+      "quality_interval": [
+        "29386648986190665721526252458698913330389604013743284619806852872667691856135461/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "29386648986190665721526252458698913330389604013743284619806852872667691856147711/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.061959974100131315330",
+        "0.061959974100131315331"
+      ]
+    },
+    {
+      "n": 2,
+      "source": [
+        "38",
+        "375",
+        "1",
+        "0",
+        "1"
+      ],
+      "budget": "fixed25",
+      "p": "22",
+      "q": "7",
+      "norm": "17",
+      "H": "25",
+      "q_limit": "23",
+      "quality_upper_from_conic": "173/2052",
+      "quality_interval": [
+        "29386648986190665721526252458698913330389604013743284619806852872667691856135461/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "29386648986190665721526252458698913330389604013743284619806852872667691856147711/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.061959974100131315330",
+        "0.061959974100131315331"
+      ]
+    },
+    {
+      "n": 4,
+      "source": [
+        "1112",
+        "10975",
+        "1",
+        "0",
+        "1"
+      ],
+      "budget": "fixed25",
+      "p": "355",
+      "q": "113",
+      "norm": "25",
+      "H": "25",
+      "q_limit": "513",
+      "quality_upper_from_conic": "4424179/1126200240",
+      "quality_interval": [
+        "1615560601537258414404791020778753005157400282268873848360355731259667712204437/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "1615560601537258414404791020778753005157400282268873848360355731259667715396687/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.0034063119301380705066",
+        "0.0034063119301380705067"
+      ]
+    },
+    {
+      "n": 4,
+      "source": [
+        "1112",
+        "10975",
+        "1",
+        "0",
+        "1"
+      ],
+      "budget": "square_root",
+      "p": "355",
+      "q": "113",
+      "norm": "25",
+      "H": "33",
+      "q_limit": "590",
+      "quality_upper_from_conic": "4424179/1126200240",
+      "quality_interval": [
+        "1615560601537258414404791020778753005157400282268873848360355731259667712204437/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+        "1615560601537258414404791020778753005157400282268873848360355731259667715396687/474284397516047136454946754595585670566993857190463750305618264096412179005177856"
+      ],
+      "quality_decimal_enclosure": [
+        "0.0034063119301380705066",
+        "0.0034063119301380705067"
+      ]
+    }
+  ],
+  "summary": {
+    "source_count": 25029,
+    "root_convergents_checked": 2820622,
+    "baseline_source_count": 128,
+    "baseline_root_convergents_checked": 12231,
+    "hits_with_budgets": 9,
+    "baseline_hits_with_budgets": 6,
+    "distinct_fractions": [
+      "3/1",
+      "22/7",
+      "355/113"
+    ],
+    "baseline_distinct_fractions": [
+      "3/1",
+      "22/7",
+      "355/113"
+    ],
+    "new_to_baseline_fractions": [],
+    "newly_successful_n": [],
+    "improved_bound_n": [
+      1
+    ],
+    "improved_actual_quality_n": [],
+    "max_hit_n": 4,
+    "baseline_max_hit_n": 4,
+    "joint_best_bound": 7,
+    "baseline_best_bound": 7,
+    "joint_best_quality": 7,
+    "baseline_best_quality": 7
+  },
+  "scope": "Finite same-pool, same-budget selection ablation. No global weight optimum, new pi record, or infinite-success claim."
+}
