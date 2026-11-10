@@ -1,0 +1,105 @@
+{
+  "base_commit": "c6b02f113e8527b57622d7fb8f6f60eaece91d81",
+  "files": [
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/MOMENT_THEORY.md",
+      "bytes": 5697,
+      "sha256": "fa49754514eabac65573e793afd1998bccce2e74ea39ce5880524d8bf71d4065"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/README.md",
+      "bytes": 7144,
+      "sha256": "75e90b022f3216fde6d37a7a19afa47315d08c59d8c4c6d91b3aa4f0e28b1755"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/THEORY_EULER.md",
+      "bytes": 3802,
+      "sha256": "f41441f9eec0ea3d0c2062b681c4d3752bd31cc621620acd74376dc16a1ee31a"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/aitken_probe.py",
+      "bytes": 5269,
+      "sha256": "b6a8233bbd1641078d9c7a6818debdf1659084122dbece2e87e89374088a940b"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/aitken_results.json",
+      "bytes": 11998,
+      "sha256": "560c7e6e9cc90faa4465e4c8575108c819c99e3f22b710a7808f29e5f9c2b599"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/aitken_verification.json",
+      "bytes": 657,
+      "sha256": "b5930786b6a16690872c2300885dc2ee48943f548a03e1e52174fddedd249541"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/aitken_verify.py",
+      "bytes": 4619,
+      "sha256": "af4737fe884a8763e6fc0a8497223fdbf82f8b909f7df1dacfe6c63dd5b82fd1"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/fresh_probe.py",
+      "bytes": 7173,
+      "sha256": "56303028090a81e0d72eb718ecf51743bbefd8f2c0de73cc7e58b83da72afbcb"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/fresh_probe_results.json",
+      "bytes": 285848,
+      "sha256": "30773e11c13cd2d1cb508ca787d74a3cf5fcba62ba5cd8342384396b383de046"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/fresh_verification.json",
+      "bytes": 944,
+      "sha256": "7c285c1c49edc8b6cede030735127030e3504318d94dfc7179f1a5f349cb5c93"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/fresh_verify.py",
+      "bytes": 9340,
+      "sha256": "998ca23fed763eebde38b52c1a74fa499e1a90b587fefd23459f6327b03f233b"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/moment_filter.py",
+      "bytes": 11511,
+      "sha256": "030f18a81cb42de9555c393474bb5f58c6ec50c8b75d2a870ca999d19688c6e5"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/moment_filter_results.json",
+      "bytes": 416246,
+      "sha256": "ae0075abb82df2bcf4abf1204a37a2aa1c262bcc7acb529b04d1bc0e08fd5cf2"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/moment_filter_verification.json",
+      "bytes": 865,
+      "sha256": "edb8c2dd560c3972ea5a6b9764027d55fffa0f7e344d5b5e91258057b150dc12"
+    },
+    {
+      "path": "research/pi-signed-remainder-2026-11-10/moment_filter_verify.py",
+      "bytes": 10021,
+      "sha256": "9932a65a68c5d98c8aab6044bd767630f1b47b2c11206cce78f7ae49be0adf46"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/conic_attempt.py",
+      "git_blob": "8b1c60a56615dfc20d6602062b08b414a9fa856b",
+      "sha256": "724e176df93c2686d31105652597fda5966abd77ddca8e34b7b5f5f4e9328ce6"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/construct.py",
+      "git_blob": "0ec6f146c3635b64dcdaff4345781c5191f5c710",
+      "sha256": "1e655a01aaa43ac00ca7467e22d0517b31b574e44677815e0462cc9ff011e068"
+    },
+    {
+      "path": "research/pi-small-norm-construction-2026-11-04/verify.py",
+      "git_blob": "0058892fcf19b8f2600d208675e8bd54e6c4232e",
+      "sha256": "1311727ae74dd6419593922caf07bca5d5fe7d0b917e4a36b60fb9ec4e51bb59"
+    },
+    {
+      "path": "research/pi-joint-selection-2026-11-10/verify.py",
+      "git_blob": "4193b31bb3a4439f305137918b13f725988ec2c1",
+      "sha256": "5beebf9b9276455a5b00c72a3681e68c1710d7ed6442a97c62880f79688285d7"
+    }
+  ],
+  "primary_integral_source": "https://cs.uwaterloo.ca/journals/JIS/VOL8/Tzermias/tzermias5.pdf",
+  "verification": "All three final data files match independently checked SHA256 values. Manifest excludes itself.",
+  "scope": "Finite constructions and cost comparisons; no new record or infinite-success theorem."
+}

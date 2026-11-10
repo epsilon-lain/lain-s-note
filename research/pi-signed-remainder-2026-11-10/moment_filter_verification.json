@@ -1,0 +1,25 @@
+{
+  "checks": "PASS",
+  "file": "moment_filter_results.json",
+  "sha256": "ae0075abb82df2bcf4abf1204a37a2aa1c262bcc7acb529b04d1bc0e08fd5cf2",
+  "source_records_reconstructed": 4160,
+  "filtered_records": 4032,
+  "independent_root_convergents_checked": 229118,
+  "certified_hits": 6,
+  "distinct_fractions": [
+    "3/1",
+    "22/7",
+    "355/113"
+  ],
+  "source_error_signs_and_bounds_checked": 4160,
+  "better_same_highest_order": 1064,
+  "better_same_n": 108,
+  "same_highest_order_comparisons_checked": 5,
+  "independent_pi_bits": 3924,
+  "independent_taylor_terms": [
+    843,
+    248
+  ],
+  "method": "Binomial and telescoping sources; closed multinomial filter coefficients; dyadic CF; direct integer gcd; outward Taylor score.",
+  "scope": "Finite exact reconstruction; source moment identity reviewed separately; no infinite-success or pi-record theorem."
+}

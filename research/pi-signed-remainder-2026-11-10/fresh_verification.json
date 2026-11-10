@@ -1,0 +1,24 @@
+{
+  "checks": "PASS",
+  "file": "fresh_probe_results.json",
+  "input_schema": 2,
+  "sha256": "30773e11c13cd2d1cb508ca787d74a3cf5fcba62ba5cd8342384396b383de046",
+  "candidate_rationals_reconstructed": 2460,
+  "polynomial_division_angle_reconstructions": 4100,
+  "exact_record_hashes_checked": 2460,
+  "signed_beta_error_intervals_checked": 2460,
+  "complete_family_summaries_recomputed": 3,
+  "strict_matched_order_quality_improvements": 117,
+  "independent_pi_grid_bits": 2196,
+  "independent_taylor_terms": [
+    471,
+    138
+  ],
+  "best_fractions": {
+    "gregory": "4/1",
+    "two_angle": "10/3",
+    "machin": "3804/1195"
+  },
+  "method": "Polynomial long division and quotient integration; beta monomial sums; exact reduced denominator and gcd; separate outward dyadic Machin checks.",
+  "scope": "Finite Euler/binomial filter experiment. Matched Taylor-baseline gains do not imply new pi records or infinite normalized-quality decay."
+}

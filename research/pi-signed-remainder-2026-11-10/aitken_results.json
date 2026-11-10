@@ -1,0 +1,255 @@
+{
+  "schema": 1,
+  "source_commit": "c6b02f113e8527b57622d7fb8f6f60eaece91d81",
+  "method": "Aitken transform of pi-squared rational sources; pi used only for strict scoring.",
+  "parameters": {
+    "n": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "scoring_bits": 3000
+  },
+  "cases": [
+    {
+      "n": 1,
+      "source": "10",
+      "transformed_source": "33379/3382",
+      "source_denominator_digits": 1,
+      "transformed_denominator_digits": 4,
+      "error_ratio_decimal_enclosure": [
+        "0.0000047267439085531618000",
+        "0.0000047267439085531618001"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "54.064137593494014629",
+        "54.064137593494014630"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "8705/882",
+      "same_highest_input_denominator_digits": 3,
+      "same_highest_input_cost_ratio_decimal": [
+        "0.89624039035141005593",
+        "0.89624039035141005594"
+      ],
+      "same_highest_input_cost_improved": true,
+      "exact_record_sha256": "bc5f2d5525b63362a9c72f7de6a0623f9496d2504c9a38d807ca1f958f745f40"
+    },
+    {
+      "n": 2,
+      "source": "375/38",
+      "transformed_source": "19525295/1978326",
+      "source_denominator_digits": 2,
+      "transformed_denominator_digits": 7,
+      "error_ratio_decimal_enclosure": [
+        "0.0000015422545570453851710",
+        "0.0000015422545570453851711"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "4180.0799308274397390",
+        "4180.0799308274397391"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "10975/1112",
+      "same_highest_input_denominator_digits": 4,
+      "same_highest_input_cost_ratio_decimal": [
+        "68324.942479697086708",
+        "68324.942479697086709"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "f01fc5977fd3f563c47db466fc2a1f02ff13b70f06d8273d470fe7b8e4dbc26c"
+    },
+    {
+      "n": 3,
+      "source": "8705/882",
+      "transformed_source": "9340065305/946346472",
+      "source_denominator_digits": 3,
+      "transformed_denominator_digits": 9,
+      "error_ratio_decimal_enclosure": [
+        "6.8842872914861619551E-7",
+        "6.8842872914861619552E-7"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "792541.75147560031859",
+        "792541.75147560031860"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "13327519/1350360",
+      "same_highest_input_denominator_digits": 7,
+      "same_highest_input_cost_ratio_decimal": [
+        "4885.4049361404138108",
+        "4885.4049361404138109"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "f4f13831915e99fe2b763e4662745788bb224c93e0d95127f662b88f80dd751d"
+    },
+    {
+      "n": 4,
+      "source": "10975/1112",
+      "transformed_source": "5641685395009/571622241960",
+      "source_denominator_digits": 4,
+      "transformed_denominator_digits": 12,
+      "error_ratio_decimal_enclosure": [
+        "3.6750084808896216577E-7",
+        "3.6750084808896216578E-7"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "97110683099.222458480",
+        "97110683099.222458481"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "124308457/12595080",
+      "same_highest_input_denominator_digits": 8,
+      "same_highest_input_cost_ratio_decimal": [
+        "11108622.941981635727",
+        "11108622.941981635728"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "ee969dbc667b4698f6b49cd787cd309e96707650dba27fedaa26894fcb7480af"
+    },
+    {
+      "n": 8,
+      "source": "2273486234953/230352316320",
+      "transformed_source": "2200915223481075089125429/222999335539542885929760",
+      "source_denominator_digits": 12,
+      "transformed_denominator_digits": 24,
+      "error_ratio_decimal_enclosure": [
+        "6.8964013148599914507E-8",
+        "6.8964013148599914508E-8"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "64631538881293419.910",
+        "64631538881293419.911"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "394018358855/39922406496",
+      "same_highest_input_denominator_digits": 11,
+      "same_highest_input_cost_ratio_decimal": [
+        "3.2226155269948820840E+22",
+        "3.2226155269948820841E+22"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "7875f750011543711ae095f82ec11e19267eb2a127e9b9b101ba96da54d8c659"
+    },
+    {
+      "n": 16,
+      "source": "536709007902101980385171/54379991952145788888960",
+      "transformed_source": "10882892227398884567697121275890343060282485593/1102667521932052737490832914535680480627082880",
+      "source_denominator_digits": 23,
+      "transformed_denominator_digits": 46,
+      "error_ratio_decimal_enclosure": [
+        "1.0906443552035377994E-8",
+        "1.0906443552035377995E-8"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "4.4842936476707939238E+36",
+        "4.4842936476707939239E+36"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "6167385521393628805478859343003/624886801006218950681227025280",
+      "same_highest_input_denominator_digits": 30,
+      "same_highest_input_cost_ratio_decimal": [
+        "5.1221332696068164352E+26",
+        "5.1221332696068164353E+26"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "c395b44de142b91e4fb0b236658513e93fa6cc38f1b38b307a229f0e81ee0425"
+    },
+    {
+      "n": 32,
+      "source": "68846274986571720266668275714773563469575870952469845148859/6975586071005318658850886476747007950152926802073209024000",
+      "transformed_source": "143304822777779817306425999080175402701484052098812407008820709352315997505189082645874578140571/14519814265500097703250139716123239637829491295215351662706593747704967210376410596349067456000",
+      "source_denominator_digits": 58,
+      "transformed_denominator_digits": 95,
+      "error_ratio_decimal_enclosure": [
+        "1.5494426054837066429E-9",
+        "1.5494426054837066430E-9"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "6.7133024268615718592E+63",
+        "6.7133024268615718593E+63"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "15072765949815258874227428501003665231747282935807472717409/1527190486799207550287493772718681491723993880125621824000",
+      "same_highest_input_denominator_digits": 58,
+      "same_highest_input_cost_ratio_decimal": [
+        "2.1169842897472270153E+69",
+        "2.1169842897472270154E+69"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "27217bf6c7b5da21ef4acd4577993282f4172634ddcfbb545056f67da5211cbb"
+    },
+    {
+      "n": 64,
+      "source": "45816932907246954397656880906599887152350320684908902903787517883058857362962725735731351303056087631471934027041/4642225873023837270752401620661265665194213311345770541244283845595935519952091408662843476188788136748497479680",
+      "transformed_source": "55335037988099739671669284193211915150491550413586498519258996786230418060013832731732047881708096285426881275231997022896744052642069703446386079665019890716463272658222840616805349159/5606611545847990529563961724447351372404217670208078459921892957272249325470737218414458952533931395069590139664430653126535358351793015635483900095751955313357462564660321914589255680",
+      "source_denominator_digits": 112,
+      "transformed_denominator_digits": 184,
+      "error_ratio_decimal_enclosure": [
+        "2.0709910493292387914E-10",
+        "2.0709910493292387915E-10"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "3.0208323291776936666E+134",
+        "3.0208323291776936667E+134"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "571253571465416290410510870067792605984754696681021015075561412808130802653394690005575169644654743764405101360691/57880088020788768156316949217713033105638499004537367164343546951784597986028464124689849042781460047749708216320",
+      "same_highest_input_denominator_digits": 113,
+      "same_highest_input_cost_ratio_decimal": [
+        "2.9388880151726284462E+136",
+        "2.9388880151726284463E+136"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "2b4878db87b4f68754859dc118f07c67f49dcb03d0b13b1509b8afcce0d45d04"
+    },
+    {
+      "n": 128,
+      "source": "19202407649799918479459247006867265078113923153418090258494177977788708744431197725956801289732138562513556974970841297950111730287190915300158986004208904242012602841866027420568127255131252251294932566423335060136012211557539796573034861/1945610671860409189771754739030117919196311865829415901672201822931381230391312868506587400407221263895926305636670801937028832141771653118430207454490532573111426990309030406787974034200934704712196707957822682537170348455466097382400000",
+      "transformed_source": "264168640526630087908980152653193277949432206260308378947865247783570237537161700510435013916792817850877995017056282212650233789032035549125846847852444187210678221316086660053638027270054499107104658967941356704464297264655179597634873482447470993377798124978013346938410969895734807246805605721268657423653075636306157405054756948266719274214968804663549950228613836021/26765879339345399351566736553134559658881527034552766401046981833604036367616833979215461084056092833350999537481983097320075535765111559649187515240530797143272657632396868735451250403567360618111799175577464868807780680345775631985145142017653857875068206594621569590833133986496467574932485027778576145871381230996982382688573166247533038091353702350730919825126400000",
+      "source_denominator_digits": 238,
+      "transformed_denominator_digits": 371,
+      "error_ratio_decimal_enclosure": [
+        "2.6790813871678468142E-11",
+        "2.6790813871678468143E-11"
+      ],
+      "B_squared_error_ratio_decimal_enclosure": [
+        "5.0703397275153790721E+255",
+        "5.0703397275153790722E+255"
+      ],
+      "analytic_error_strictly_improved": true,
+      "arithmetic_cost_strictly_worse": true,
+      "same_highest_input_source": "10151601102293519390661371236492245377678557529690503102983646343495070001643749324710925891091478298158663757496862028292889397570333097115041738294223851089720430911291559301399600735704569171079356463495820782737049494743368029227578287/1028572239549240226529698767231597273634378414964924316112829905508617547329888136797876729077922673943428269578186724171239771494433054548657295385591671653176479377257856278573898181301853198716524042841147115499729523850249424460800000",
+      "same_highest_input_denominator_digits": 238,
+      "same_highest_input_cost_ratio_decimal": [
+        "2.7441571739593350853E+260",
+        "2.7441571739593350854E+260"
+      ],
+      "same_highest_input_cost_improved": false,
+      "exact_record_sha256": "9ce77767e697b43d6c62e2349378ec902081f9ad007e0af2caf5c630f3f9fe59"
+    }
+  ],
+  "summary": {
+    "candidates": 9,
+    "analytic_improvements": 9,
+    "arithmetic_cost_improvements": 0,
+    "same_highest_input_cost_improvements": 1,
+    "last_source_denominator_digits": 238,
+    "last_transformed_denominator_digits": 371
+  },
+  "scope": "Finite diagnostic of analytic acceleration versus actual reduced pi-squared source cost; not an infinite exclusion or a pi approximation theorem."
+}

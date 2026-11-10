@@ -1,0 +1,21 @@
+{
+  "checks": "PASS",
+  "file": "aitken_results.json",
+  "sha256": "560c7e6e9cc90faa4465e4c8575108c819c99e3f22b710a7808f29e5f9c2b599",
+  "source_formula": "binomial sum and telescoping companion",
+  "candidate_formula": "rational determinant rather than local-tail weights",
+  "cases_verified": 9,
+  "taylor_terms": [
+    644,
+    189
+  ],
+  "summary": {
+    "candidates": 9,
+    "analytic_improvements": 9,
+    "arithmetic_cost_improvements": 0,
+    "same_highest_input_cost_improvements": 1,
+    "last_source_denominator_digits": 238,
+    "last_transformed_denominator_digits": 371
+  },
+  "scope": "Nine finite diagnostics; no general failure theorem."
+}
