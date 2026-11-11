@@ -1,0 +1,290 @@
+{
+  "status": "PASS",
+  "scope": "Finite exact checks; general statements require the accompanying proofs.",
+  "arithmetic": "fractions.Fraction and exact Q(sqrt(2)) arithmetic; no floating point",
+  "independence": "CFs are computed by floor/reciprocal, without using the parent/tail criterion.",
+  "ranges": {
+    "q_range": [
+      2,
+      50
+    ],
+    "numerators": "coprime residues plus shifts -2q, 0, 3q",
+    "additional_centers": [
+      "22/7",
+      "355/113",
+      "-355/113"
+    ],
+    "tail_cases_per_side": 6,
+    "rational_tail_probes": [
+      "1/3",
+      "1",
+      "7/5",
+      "17/3"
+    ]
+  },
+  "counts": {
+    "centers": 2321,
+    "parent_determinants": 4642,
+    "quadratic_chart_cases": 27852,
+    "inside_ball_cases": 23210,
+    "outside_ball_cases": 4642,
+    "convergent_classifications": 27852,
+    "rational_tail_transfers": 111408,
+    "cf_entries": 149400
+  },
+  "examples": [
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "outside",
+      "tail": {
+        "rational": "6/7",
+        "sqrt2_coefficient": "-1/28"
+      },
+      "x": {
+        "rational": "8546/2737",
+        "sqrt2_coefficient": "-2/2737"
+      },
+      "inside_ball": false,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "25/8"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "near_outer_boundary",
+      "tail": {
+        "rational": "6/7",
+        "sqrt2_coefficient": "1/28"
+      },
+      "x": {
+        "rational": "8546/2737",
+        "sqrt2_coefficient": "2/2737"
+      },
+      "inside_ball": true,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "25/8"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "below_cf_threshold",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "-1/28"
+      },
+      "x": {
+        "rational": "11178/3577",
+        "sqrt2_coefficient": "-2/3577"
+      },
+      "inside_ball": true,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "25/8"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "above_cf_threshold",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "1/28"
+      },
+      "x": {
+        "rational": "11178/3577",
+        "sqrt2_coefficient": "2/3577"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "22/7",
+        "25/8"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "moderate_tail",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "1"
+      },
+      "x": {
+        "rational": "54/17",
+        "sqrt2_coefficient": "-1/34"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "22/7",
+        "47/15"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "3",
+      "side": -1,
+      "label": "large_tail",
+      "tail": {
+        "rational": "37",
+        "sqrt2_coefficient": "1"
+      },
+      "x": {
+        "rational": "106056/33751",
+        "sqrt2_coefficient": "1/67502"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "22/7",
+        "839/267"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "outside",
+      "tail": {
+        "rational": "1/7",
+        "sqrt2_coefficient": "-1/28"
+      },
+      "x": {
+        "rational": "8658/2737",
+        "sqrt2_coefficient": "2/2737"
+      },
+      "inside_ball": false,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "212/67"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "near_outer_boundary",
+      "tail": {
+        "rational": "1/7",
+        "sqrt2_coefficient": "1/28"
+      },
+      "x": {
+        "rational": "8658/2737",
+        "sqrt2_coefficient": "-2/2737"
+      },
+      "inside_ball": true,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "117/37"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "below_cf_threshold",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "-1/28"
+      },
+      "x": {
+        "rational": "29826/9457",
+        "sqrt2_coefficient": "2/9457"
+      },
+      "inside_ball": true,
+      "center_is_convergent": false,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "41/13"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "above_cf_threshold",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "1/28"
+      },
+      "x": {
+        "rational": "29826/9457",
+        "sqrt2_coefficient": "-2/9457"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "22/7",
+        "41/13"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "moderate_tail",
+      "tail": {
+        "rational": "1",
+        "sqrt2_coefficient": "1"
+      },
+      "x": {
+        "rational": "225/71",
+        "sqrt2_coefficient": "-1/71"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "22/7",
+        "63/20"
+      ]
+    },
+    {
+      "center": "22/7",
+      "parent": "19/6",
+      "side": 1,
+      "label": "large_tail",
+      "tail": {
+        "rational": "37",
+        "sqrt2_coefficient": "1"
+      },
+      "x": {
+        "rational": "220437/70127",
+        "sqrt2_coefficient": "-1/70127"
+      },
+      "inside_ball": true,
+      "center_is_convergent": true,
+      "convergents_checked": [
+        "3/1",
+        "19/6",
+        "22/7",
+        "855/272"
+      ]
+    }
+  ],
+  "script_sha256": "cda667e01320568cab8737b9481668e15715686c4e71f2758ce074959ac4908e"
+}

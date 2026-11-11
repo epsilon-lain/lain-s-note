@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "counts": {
+    "stored_centers": 5,
+    "euclidean_parent_pairs": 4,
+    "stored_integer_centers": 1,
+    "integer_cf_probes": 77,
+    "decimal_enclosures": 5,
+    "tail_transfer_endpoints": 2
+  },
+  "arithmetic": "exact integers, Fraction, Q(sqrt(2)); no floating point",
+  "scope": "Stored examples only, plus 77 exact integer-center CF probes; not a formal proof or new pi result.",
+  "independence": {
+    "parents": "Euclidean CF predecessors from both finite expansions; no modular inverse",
+    "pi": "4*(arctan(1/2)+arctan(1/3)), each 300 terms with outward rounding to 512-bit dyadics",
+    "pi_containment": "The independent interval is strictly inside the generator's exact Machin interval",
+    "generator": "neighborhood.py was neither imported nor executed",
+    "integer_cases": "Uses only the independent_check.py quadratic arithmetic and direct CF extraction"
+  },
+  "independent_pi_interval": [
+    "5265233861681329527430852685569923513156999664186156825699335636012975722784512364974235671530965793305471412114541685665911614578199895192794221775478923/1675975991242824637446753124775730765934920727574049172215445180465220503759193372100234287270862928461253982273310756356719235351493321243304206125760512",
+    "10530467723362659054861705371139847026313999328372313651398671272025951445569024729948471343061931586610942824229083371331823229156399790385588443550958447/3351951982485649274893506249551461531869841455148098344430890360930441007518386744200468574541725856922507964546621512713438470702986642486608412251521024"
+  ],
+  "rebuilt_centers": [
+    {
+      "center": "22/7",
+      "euclidean_parents": [
+        "3",
+        "19/6"
+      ],
+      "cylinder_endpoints": [
+        "25/8",
+        "41/13"
+      ]
+    },
+    {
+      "center": "355/113",
+      "euclidean_parents": [
+        "333/106",
+        "22/7"
+      ],
+      "cylinder_endpoints": [
+        "688/219",
+        "377/120"
+      ]
+    },
+    {
+      "center": "1/2",
+      "euclidean_parents": [
+        "0",
+        "1"
+      ],
+      "cylinder_endpoints": [
+        "1/3",
+        "2/3"
+      ]
+    },
+    {
+      "center": "-5/7",
+      "euclidean_parents": [
+        "-3/4",
+        "-2/3"
+      ],
+      "cylinder_endpoints": [
+        "-8/11",
+        "-7/10"
+      ]
+    }
+  ],
+  "examples_sha256": "c91b6f9e91a67304848be912085c51d47a6873e5d358b614cd69c943a6b95303",
+  "script_sha256": "0429d56cfe9c2462d036abc707f37a5d9e89f67d57bcc7b30af363817db3950c"
+}

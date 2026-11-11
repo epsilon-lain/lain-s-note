@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "status": "PASS",
+  "scope": "Classical exact rational-neighborhood coordinates and elementary consequences; no new pi theorem or record",
+  "files": {
+    "README.md": {
+      "bytes": 13105,
+      "sha256": "0ed03aeaed2f6fd8dc12990dd7215a1fd82e28bb9098f29476d6e9bf9fcae42c"
+    },
+    "examples.json": {
+      "bytes": 9714,
+      "sha256": "c91b6f9e91a67304848be912085c51d47a6873e5d358b614cd69c943a6b95303"
+    },
+    "examples_verification.json": {
+      "bytes": 2484,
+      "sha256": "9354bcf90369efa92f69d108aafcd0172e7e66d83bd2913adb2d68f65ac53727"
+    },
+    "independent_check.py": {
+      "bytes": 7864,
+      "sha256": "cda667e01320568cab8737b9481668e15715686c4e71f2758ce074959ac4908e"
+    },
+    "neighborhood.py": {
+      "bytes": 4973,
+      "sha256": "edcb8ff7cd91ec68b7358b1a128a905492d8b13491b9619797ecd95b293cd76c"
+    },
+    "verification.json": {
+      "bytes": 6283,
+      "sha256": "2067f4163df4415b0ad1e3f24d0f22c43c1d560e854b450dba666efa8045a3d1"
+    },
+    "verify_examples.py": {
+      "bytes": 7874,
+      "sha256": "0429d56cfe9c2462d036abc707f37a5d9e89f67d57bcc7b30af363817db3950c"
+    }
+  }
+}
