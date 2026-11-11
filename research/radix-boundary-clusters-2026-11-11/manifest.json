@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "source_commit": "5b367e102474accee60f2e65fd31034b6fcb8b47",
+  "scope": "Proofs of general radix structure and finite exact pi certificates; no infinite pi conclusion",
+  "files": {
+    "README.md": {
+      "bytes": 13958,
+      "sha256": "da9506db31905b81e0735b143c8969eff7c9658a0005f0a1b7d28b749109fd80",
+      "git_blob_sha1": "c5aaf318e213150e857b6cd1fc51c448c42dbd98"
+    },
+    "experiment.py": {
+      "bytes": 12226,
+      "sha256": "b0a36e266d2d9e137a0ec873fdadc2c207d869b950080ff151d06133282039a8",
+      "git_blob_sha1": "3375b74bfef1b283c4b356588c3ee71c733701e5"
+    },
+    "results.json": {
+      "bytes": 1507101,
+      "sha256": "a8b902395a86b0f61408b2d577ee83ea0a61e2ca9338b723920117f5acae3f84",
+      "git_blob_sha1": "6ed18a2c78896b63aa9be04d6fd6849c88a6ee45"
+    },
+    "verify.py": {
+      "bytes": 14733,
+      "sha256": "71961dde6d9df9b37dd097c1bed6d2ee618282ac84ce78158a10382189307f40",
+      "git_blob_sha1": "4512cb0eaff43acdd9f8f96d4603abcc62aacd3c"
+    },
+    "verification.json": {
+      "bytes": 8860,
+      "sha256": "06c76d070654d4701ac45c008ea1e4c206582bd0ede81ced9b80071b357ec2b7",
+      "git_blob_sha1": "3a2f0e8619c9d3534fc8ea653acd426d93eea62b"
+    }
+  }
+}
