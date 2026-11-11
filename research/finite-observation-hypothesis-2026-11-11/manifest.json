@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "source_commit": "6b8029bea8cca8ca0fc792731da41e4628bb7396",
+  "scope": "Conditional finite-observation hypothesis consequences, unconditional gcd identities, finite exact pi certificates; hypothesis remains unproved",
+  "files": {
+    "README.md": {
+      "bytes": 11735,
+      "sha256": "480cd182ac64cdc6e705429ac9f4b569f50bcac3922230b520f05b157d3be48b",
+      "git_blob_sha1": "ddc811eb4b8a634caf7b0b62d033d5e2fc45c94a"
+    },
+    "MIXED_RADIX.md": {
+      "bytes": 4336,
+      "sha256": "b6ec2ed79ce0c7bd96c4699656d4d2ac20988ca59cdb14e658cc53c999f8f852",
+      "git_blob_sha1": "9759db7b23e300d6d45940c2ce83a3a9acb035a7"
+    },
+    "EXPONENT_SCALE.md": {
+      "bytes": 2851,
+      "sha256": "3e68c45d0dee97a923a34ed73c6b1b4207e0411653fa354d4e9c5e367873b13c",
+      "git_blob_sha1": "dd0dc7e1ba7eaa17de8bec9c91350293d9599054"
+    },
+    "experiment.py": {
+      "bytes": 11003,
+      "sha256": "ea6e26ea6213d6f354b3eccd59a0b85e4e6965f088448a4f675c7df0439d38d8",
+      "git_blob_sha1": "b78e011dd93f4a03466b4a4202554de871d27a57"
+    },
+    "results.json": {
+      "bytes": 1029777,
+      "sha256": "3a45573563e6a9c6eeefa050a000de9361177f452fa80c19eb02f4a72b64492c",
+      "git_blob_sha1": "c2adeb476e4a642fbb254a67b070a35688b4ba7b"
+    },
+    "verify.py": {
+      "bytes": 13766,
+      "sha256": "0ee0d321cd8f61b352736fab487619ae32750606c8baed3f49bf729e12366b43",
+      "git_blob_sha1": "7b1da9d151b9681ba33bea0e191f5bcac8850f13"
+    },
+    "verification.json": {
+      "bytes": 10477,
+      "sha256": "0ee3c533d6a6a05ebb81d36aab3c34b19ede7e3868e4938a676268c05fd77b2f",
+      "git_blob_sha1": "f9dd17163970a9bba474e64c60e53ec5f09e0366"
+    }
+  }
+}
