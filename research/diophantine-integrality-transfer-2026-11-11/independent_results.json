@@ -1,0 +1,85 @@
+{
+  "checks": "PASS",
+  "method": "Homogeneous integer forms, modular residue exhaustion, direct integer gcd, rational SOS normalization.",
+  "nonsquare_residues_mod_149": [
+    59,
+    97,
+    109,
+    108
+  ],
+  "all_149_residues_checked": 149,
+  "pair_determinants": [
+    {
+      "i": 0,
+      "j": 1,
+      "determinant": -51,
+      "factorization": {
+        "3": 1,
+        "17": 1
+      }
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "determinant": -122451,
+      "factorization": {
+        "3": 1,
+        "7": 4,
+        "17": 1
+      }
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "determinant": 17493,
+      "factorization": {
+        "3": 1,
+        "7": 3,
+        "17": 1
+      }
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "determinant": -122400,
+      "factorization": {
+        "2": 5,
+        "3": 2,
+        "5": 2,
+        "17": 1
+      }
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "determinant": 19125,
+      "factorization": {
+        "3": 2,
+        "5": 3,
+        "17": 1
+      }
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "determinant": 3935925,
+      "factorization": {
+        "3": 3,
+        "5": 2,
+        "7": 3,
+        "17": 1
+      }
+    }
+  ],
+  "pair_gcd_instances_checked": 18570,
+  "scalar_map_instances_checked": 29943,
+  "valuation_regimes": {
+    "integral_at_149": 27579,
+    "denominator_at_149": 2364
+  },
+  "squarefree_recovery_instances_checked": 13211,
+  "quartic_scaling_and_height_instances_checked": 256,
+  "positive_sqrt2_linear_form_certificates_checked": 3045,
+  "positive_sqrt2_polynomial_gap_certificates_checked": 3045,
+  "scope": "Elementary lemmas only. Finite checks supplement symbolic proofs; no verification of the claimed definition of Z or any pi approximation theorem."
+}

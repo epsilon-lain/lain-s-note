@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-11",
+  "base_commit": "fbc58c29c1a3df93b9be7f35633a87b888769ee1",
+  "files": [
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/INDEPENDENT_REVIEW.md",
+      "bytes": 8241,
+      "sha256": "12462d4ad3383a08ff4f4051187fef4ff8eba1bb1ce61f27c0abea4e2411c1a3"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/README.md",
+      "bytes": 6941,
+      "sha256": "1227a75e5c71433789f6eaee8446f0da9464afe9744d77ce243ff927b65cfa8f"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/SOURCE_READING.md",
+      "bytes": 8912,
+      "sha256": "bd1898599f8e58715316a510d86e406cbcd3dc2af59531b837cfbefa151a267c"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/TRANSFER_LEMMAS.md",
+      "bytes": 12021,
+      "sha256": "ccd330a4c3672a38c11d3cc0996010cb278b301f92db600ed130b7b642751d09"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/certificates.py",
+      "bytes": 6075,
+      "sha256": "6605513b700dfc37065db74b3e75b22ea56e1d59d23d0b85e33ac9b339c6644a"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/examples.json",
+      "bytes": 9051,
+      "sha256": "6017220e83811e66772c9973bbc673b58191a735ae033298a3ecae4d11ef8258"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/independent_check.py",
+      "bytes": 7337,
+      "sha256": "3bad9fe43f1e92dc8e72b3f8634f34ad461f7f29f8d6c4ba854280381d82dbe7"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/independent_example_check.py",
+      "bytes": 4630,
+      "sha256": "2dc4a67048ba579ac28c5b31ff50f767eadc218ce187ed580c5828b4384a4412"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/independent_examples.json",
+      "bytes": 671,
+      "sha256": "494e4003a8e9c435e74059bfe4c3a0bd2fe4f3616f09d24a9ee7d8b02d3293e2"
+    },
+    {
+      "path": "research/diophantine-integrality-transfer-2026-11-11/independent_results.json",
+      "bytes": 1754,
+      "sha256": "cb364933f74a941702ab4b536b68ed3c7ad780aec6abdd0cf4efb862d704aac6"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/pi-joint-selection-2026-11-10/verify.py",
+      "git_blob": "4193b31bb3a4439f305137918b13f725988ec2c1",
+      "sha256": "5beebf9b9276455a5b00c72a3681e68c1710d7ed6442a97c62880f79688285d7"
+    }
+  ],
+  "manuscript_source": {
+    "repository": "elliotglazer/diophantine-z-q",
+    "commit": "511529bbe9d635194f0c9d925709e77a5d3afa64",
+    "path": "research/version15/snapshots/v15-222-004/manuscript/quartic_v15.tex",
+    "git_blob": "832597b48dc3c1c28c9e960d40565016131492c2",
+    "reading_copy_normalization": "CRLF to LF; final newline",
+    "normalized_reading_copy_sha256": "ea71d5032e118680f0a2ff2a03dc95f0ca825796b30818f2c4dba0b470b98cbf",
+    "full_source_redistributed": false
+  },
+  "scope": "Original source-based reading plus independently proved elementary transfer tools. No certification of the complete manuscript and no new pi approximation theorem. Manifest excludes itself."
+}

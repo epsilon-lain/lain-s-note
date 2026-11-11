@@ -1,0 +1,20 @@
+{
+  "checks": "PASS",
+  "file": "examples.json",
+  "sha256": "6017220e83811e66772c9973bbc673b58191a735ae033298a3ecae4d11ef8258",
+  "normalizer_examples_reconstructed": 16,
+  "expanded_quartic_examples_reconstructed": 12,
+  "independent_pi_bits": 256,
+  "dyadic_taylor_terms": [
+    54,
+    16
+  ],
+  "finite_pi_range_verified": [
+    1,
+    56
+  ],
+  "pi_fraction_instances_checked": 1652,
+  "all_integer_numerators_covered_by_range_and_outside_bound": true,
+  "method": "Homogeneous integer forms, expanded quartic, independent outward-dyadic Machin intervals.",
+  "scope": "Finite known-input illustration only; no new pi result or verification of the source paper."
+}
