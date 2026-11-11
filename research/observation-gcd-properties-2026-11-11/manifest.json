@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "source_commit": "f76248e7dfc27581c0265fb9c4dfff0dd914ebe4",
+  "scope": "General observation-gcd properties, classical distribution corollaries, finite exact pi checks; no infinite pi bound",
+  "files": {
+    "README.md": {
+      "bytes": 9792,
+      "sha256": "2832b5a5b7427980da98b73d66b64ac63b13ae138ca86ba42b8d930f7291e9ee",
+      "git_blob_sha1": "5ce69341285d933e72437517d8e6f0f4e641be05"
+    },
+    "DISTRIBUTION.md": {
+      "bytes": 7914,
+      "sha256": "bdadfbd156779c1cf27ae4cbda6e0cb3900c9cda735e1cdf13e516a69972f9f9",
+      "git_blob_sha1": "09fb354b9f3219e47deae20f721cca5934fcfec5"
+    },
+    "MOMENTS.md": {
+      "bytes": 3120,
+      "sha256": "0471c89c4f5da00e9f5299e6b8ae5c964c55dda34fec14543b0410e8bb7a5250",
+      "git_blob_sha1": "75644adab98aea8a1db45b7fbbe93c5102a734f0"
+    },
+    "experiment.py": {
+      "bytes": 9808,
+      "sha256": "9b8e3cbde8125bd7c1cd426f8b4ddb6733549ebc0b6784786d1c595c8360361d",
+      "git_blob_sha1": "876617042432639b68c7fdf4c8dc201f41bb6f35"
+    },
+    "results.json": {
+      "bytes": 48661,
+      "sha256": "68fe7f95d5ccfef5bc2bd26bdc047a66e206526a5717c83901fa230f4d537f3a",
+      "git_blob_sha1": "d1e4d2a906718badf235df964c70c50714f7b1d7"
+    },
+    "verify.py": {
+      "bytes": 12885,
+      "sha256": "f926beffe8ae53af3ecc978f735cebfcb7b700a58f13ae414e1adccc82f3a140",
+      "git_blob_sha1": "c87c88031a4d798ca9d1f1ab79968ffca767c0b8"
+    },
+    "verification.json": {
+      "bytes": 3279,
+      "sha256": "c4dbc4e6dfb42e97fd7c5b0f1944d70a50ca86b9a39cc2ca3bf251098d05f878",
+      "git_blob_sha1": "39bb2c5f8cf027e89041da81496d22ec584b7675"
+    }
+  }
+}

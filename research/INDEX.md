@@ -372,3 +372,8 @@
 ## 任意进制有限观测的统一假设（2026-11-11）
 
 - [约分平方根律、精度成本与完整有限 gcd 优化](finite-observation-hypothesis-2026-11-11/README.md)：明确跨进制统一假设H(c)，证明坏逼近等价于gcd(round(Bπ),B)²/B在全部整数分辨率上有界，并给出其limsup与渐近逼近常数的精确互逆关系。推导条件性的最低分母平方根律、长零块／周期模板约束。完整认证B≤10^1000的最大gcd指标约10388.40992，来自旧216位分母中心；另一π恒等式独立复核。附[混合进制嵌套链](finite-observation-hypothesis-2026-11-11/MIXED_RADIX.md)和[增长指数](finite-observation-hypothesis-2026-11-11/EXPONENT_SCALE.md)。假设仍未证明，没有新π纪录。
+
+
+## 有限观测约分函数的性质（2026-11-11）
+
+- [局部排斥、异常计数与稀疏尖峰](observation-gcd-properties-2026-11-11/README.md)：证明π的相邻G值乘积小于1（B≥4）、不同既约中心的乘法间距；对任意无理目标，异常计数Sτ=o(N)，且坏逼近严格等价于Sτ=O(sqrtN)，附计数常数恢复距离常数。百万分辨率扫描与旧认证窗口逐事件一致，独立π恒等式复核十万项及全部72个大高度计数。附[确定性分布](observation-gcd-properties-2026-11-11/DISTRIBUTION.md)和[矩平均指数门槛](observation-gcd-properties-2026-11-11/MOMENTS.md)。未证明π的无限计数上界。
