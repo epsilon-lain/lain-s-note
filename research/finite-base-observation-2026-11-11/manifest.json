@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "status": "PASS",
+  "scope": "Fixed-base denominator structure, generic metric theorem, and explicitly bounded pi certificates; no infinite pi conclusion",
+  "files": {
+    "README.md": {
+      "bytes": 11778,
+      "sha256": "99e9550d442e54027f722be4e216466a87e34257e9c01ef0121d91409544cda7"
+    },
+    "experiment.py": {
+      "bytes": 8744,
+      "sha256": "3f1f93767e4ec1ab534a64604eba0838ba5d2d50dc6545579468b7907a62bc90"
+    },
+    "results.json": {
+      "bytes": 75934,
+      "sha256": "18b5461a28a9e3fa75afcb87f287e2e3d7e51f0c0cf1b87a82be87a52227c062"
+    },
+    "smooth_results.json": {
+      "bytes": 9200,
+      "sha256": "4c5f30e7bd32bd6c3ca76fe5ec1c681b9ab572f70819779b6e73a630d60f54bd"
+    },
+    "smooth_scan.py": {
+      "bytes": 7720,
+      "sha256": "35fc960427da9b40baf7e2406fd829a6d4c4f6dc70b3d890efd916ba89183917"
+    },
+    "verification.json": {
+      "bytes": 10149,
+      "sha256": "d1c0e86bf4d5f9fdb2f64295a9b55c34af5188559273fd0c0f95974aefe50b6b"
+    },
+    "verify.py": {
+      "bytes": 13980,
+      "sha256": "51c888a9f10c91e6596639c64685d177e3a1ada82a79fa98ad113ac7b0662db9"
+    }
+  }
+}
