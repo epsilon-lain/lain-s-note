@@ -1,7 +1,7 @@
 {
-  "format": "yohaku-pi-finite-observations/2",
+  "format": "yohaku-pi-finite-observations/3",
   "date": "2026-11-12",
-  "claim_scope": "Finite observed prefixes and exact directed display checks. No new record, BA theorem, non-BA theorem or independent full pi certificate proof.",
+  "claim_scope": "Finite observed prefixes, exact directed display checks, and an independent rigorous integer enclosure of the runA n=430 witness. No new record, BA/non-BA theorem, full long-prefix proof, or whole-author-response approval.",
   "artifact_sha256": [
     "324a5a829cd5b95bd972e80cf904a69ee1b7e3bed3ea44e5653c8a663200f4d4",
     "c05395aad616260699357900762832d0d63cf4d2d71b005c5951f5bdf5deae3a"
@@ -35,7 +35,9 @@
     "prefix_method": "mpmath pi at 200832 bits; Euclidean algorithm on a dyadic rational. Numerical cross-check, not a rigorous pi interval proof.",
     "prefix_hash_maximum_and_index_match": true,
     "rounding_method": "exact integer comparisons against saved upper_num/upper_den; 40-place displays for A/B and 18-place display for A, with adjacent-grid minimality",
-    "full_independent_interval_proof_performed": false
+    "full_independent_interval_proof_performed": false,
+    "targeted_runA_independent_interval_check_performed": true,
+    "full_independent_interval_proof_scope": "The entire original 26386/58417-term outputs and their exact rational bounds were not re-proved by the targeted 432-term checker."
   },
   "v04c_display_followup": {
     "task": "18-place guaranteed upper display of saved runA rational",
@@ -55,5 +57,37 @@
     "exact_integer_verification_by": "independent reviewer",
     "whole_saved_memory_mathematics_approved": false,
     "claim_scope": "Rational display direction and grid minimality only; no new mathematical theorem or independent full pi certificate validation."
+  },
+  "v05_followup": {
+    "process_archive_sha256": "6d141e61aef8956a98867627e050be5617867ffa4a830df0111538fd7d21e16b",
+    "model_ran_unchanged_v04c_script": true,
+    "script_sha256": "067b5c199da13597885b031f65baf0e60ec5d348e20896a1dad47ee41671d033",
+    "model_execution_exit_code": 0,
+    "model_report_true_boolean_checks": 21,
+    "report_sha256": "51d8b8cf1d9bad153f8c9023503e1522f5d1ed3ab9f64bbde82c0270ebb494ff",
+    "model_read_report": true,
+    "model_saved_standalone_note": true,
+    "note_source_sha256": "f4f6d376289054742c63a5c009035e258504a8cef67852613c94f765ee0d10fa",
+    "independent_check_by": "External reviewer, not research model",
+    "independent_checker": "check_math_independent.py",
+    "independent_checker_sha256": "74cc12c46f3797e90a7148fb360acf0bf79bfd3f5631ebc1865c8b63112d769a",
+    "independent_result": "math_standalone_check.json",
+    "independent_method": "Machin identity with outward-rounded exact integer arctangent series at scale 10^600, 450/150 terms; certified 432-term CF prefix; direct interval for q430*(q430*pi-p430)",
+    "pi_interval_width": "7840/10^600",
+    "q430_digits": 216,
+    "nearest_integer_verified": true,
+    "witness_strict_lower": "0.0000481305612462894046281170790752902942",
+    "witness_strict_upper": "0.0000481305612462894046281170790752902943",
+    "witness_strict_upper_18": "0.000048130561246290",
+    "model_script_independence_limit": "R1 repeats original compute code; R2 independently rewrites CF transform but shares the pi enclosure constructor.",
+    "whole_response_approved": false,
+    "response_source_sha256": "aa06e967310403b3ede0bae3ff87e5ea73b39bbc81dd491a705fa20a9488a139",
+    "remaining_response_errors": [
+      "v_n equated to |q_n*x-p_n| without factor q_n",
+      "False equality of |q_n*x-p_n| and q_n*|x-p_n|",
+      "Rational upper bound conflated with exact finite minimum",
+      "Tail denominator threshold conflated with convergent index"
+    ],
+    "claim_scope": "Independently checked finite witness and decimal enclosure, not new theory, asymptotic liminf control or global minimizer."
   }
 }
