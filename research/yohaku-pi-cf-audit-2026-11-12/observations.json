@@ -1,0 +1,40 @@
+{
+  "format": "yohaku-pi-finite-observations/1",
+  "date": "2026-11-12",
+  "claim_scope": "Finite observed prefixes and exact directed display checks. No new record, BA theorem, non-BA theorem or independent full pi certificate proof.",
+  "artifact_sha256": [
+    "324a5a829cd5b95bd972e80cf904a69ee1b7e3bed3ea44e5653c8a663200f4d4",
+    "c05395aad616260699357900762832d0d63cf4d2d71b005c5951f5bdf5deae3a"
+  ],
+  "indexing": "a_0=3; convergent witness n=k-1 for a_k",
+  "runs": {
+    "runA": {
+      "precision_bits": 90064,
+      "prefix_length": 26386,
+      "maximum_partial_quotient": 20776,
+      "argmax_zero_based": 431,
+      "witness_index": 430,
+      "terms_sha256": "bf09742a72cffc8f2725c76870efb47ef0fc1cb6c4f58e0483491fb2f11aea56",
+      "upper_40_from_stored_fraction": "0.0000481305612462894046281170790752902943",
+      "original_decimal_40": "0.0000481305612462894046281170790752902942",
+      "original_decimal_40_strictly_below_stored_fraction": true
+    },
+    "runB": {
+      "precision_bits": 200064,
+      "prefix_length": 58417,
+      "maximum_partial_quotient": 78629,
+      "argmax_zero_based": 28421,
+      "witness_index": 28420,
+      "terms_sha256": "847e9c55e32fb77977660f9d1d7b5ae06cd1bc4340a45dee169074afb57d4a0b",
+      "upper_40_from_stored_fraction": "0.0000127178573727574566035844693935801275",
+      "original_decimal_40": "0.0000127178573727574566035844693935801274",
+      "original_decimal_40_strictly_below_stored_fraction": true
+    }
+  },
+  "verification": {
+    "prefix_method": "mpmath pi at 200832 bits; Euclidean algorithm on a dyadic rational. Numerical cross-check, not a rigorous pi interval proof.",
+    "prefix_hash_maximum_and_index_match": true,
+    "rounding_method": "exact integer comparison against saved upper_num/upper_den",
+    "full_independent_interval_proof_performed": false
+  }
+}
