@@ -20,6 +20,29 @@ EXPECTED = {
     "runA": "0.0000481305612462894046281170790752902943",
     "runB": "0.0000127178573727574566035844693935801275",
 }
+EXPECTED_A_18 = "0.000048130561246290"
+
+
+def check_grid_upper(numerator: int, denominator: int, places: int,
+                     expected: str) -> dict:
+    """Verify the exact fraction lies between adjacent decimal grid points."""
+    scale = 10**places
+    lower, remainder = divmod(numerator * scale, denominator)
+    upper = lower + bool(remainder)
+    display = f"{upper // scale}.{upper % scale:0{places}d}"
+    floor_display = f"{lower // scale}.{lower % scale:0{places}d}"
+    if display != expected or remainder == 0:
+        raise SystemExit(f"Unexpected nonterminating {places}-place display")
+    if not (upper - 1) * denominator < numerator * scale < upper * denominator:
+        raise SystemExit(f"{places}-place strict bound/minimality comparison failed")
+    return {
+        "places": places,
+        "lower_truncation": floor_display,
+        "safe_upper": display,
+        "strict_upper_of_saved_fraction": True,
+        "previous_grid_point_strictly_below_saved_fraction": True,
+        "minimal_grid_upper": True,
+    }
 
 
 def main() -> None:
@@ -34,28 +57,24 @@ def main() -> None:
     if hasattr(sys, "set_int_max_str_digits"):
         sys.set_int_max_str_digits(0)
     report = json.loads(raw)
-    scale = 10**40
     checks = {}
     for key, expected in EXPECTED.items():
         bound = report[key]["min_markov_upper_bound"]
         numerator, denominator = int(bound["upper_num"]), int(bound["upper_den"])
         if numerator < 0 or denominator <= 0:
             raise SystemExit("Invalid nonnegative rational bound")
-        lower, remainder = divmod(numerator * scale, denominator)
-        upper = lower + bool(remainder)
-        display = f"{upper // scale}.{upper % scale:040d}"
-        floor_display = f"{lower // scale}.{lower % scale:040d}"
-        if display != expected:
-            raise SystemExit(f"{key}: unexpected upper display")
-        if bound["decimal_40"] != floor_display or remainder == 0:
+        check_40 = check_grid_upper(numerator, denominator, 40, expected)
+        if bound["decimal_40"] != check_40["lower_truncation"]:
             raise SystemExit(f"{key}: expected historical strict downward truncation")
-        if not lower * denominator < numerator * scale <= upper * denominator:
-            raise SystemExit(f"{key}: directed-rounding comparison failed")
         checks[key] = {
-            "safe_upper_40": display,
+            "safe_upper_40": check_40["safe_upper"],
             "historical_decimal_is_strict_lower_truncation": True,
             "integer_arithmetic_verified": True,
+            "decimal_grid_40": check_40,
         }
+        if key == "runA":
+            checks[key]["v04c_decimal_grid_18"] = check_grid_upper(
+                numerator, denominator, 18, EXPECTED_A_18)
     print(json.dumps({
         "artifact_sha256": fingerprint,
         "checks": checks,

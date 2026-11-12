@@ -1,5 +1,5 @@
 {
-  "format": "yohaku-pi-finite-observations/1",
+  "format": "yohaku-pi-finite-observations/2",
   "date": "2026-11-12",
   "claim_scope": "Finite observed prefixes and exact directed display checks. No new record, BA theorem, non-BA theorem or independent full pi certificate proof.",
   "artifact_sha256": [
@@ -34,7 +34,26 @@
   "verification": {
     "prefix_method": "mpmath pi at 200832 bits; Euclidean algorithm on a dyadic rational. Numerical cross-check, not a rigorous pi interval proof.",
     "prefix_hash_maximum_and_index_match": true,
-    "rounding_method": "exact integer comparison against saved upper_num/upper_den",
+    "rounding_method": "exact integer comparisons against saved upper_num/upper_den; 40-place displays for A/B and 18-place display for A, with adjacent-grid minimality",
     "full_independent_interval_proof_performed": false
+  },
+  "v04c_display_followup": {
+    "task": "18-place guaranteed upper display of saved runA rational",
+    "original_artifact_sha256": "324a5a829cd5b95bd972e80cf904a69ee1b7e3bed3ea44e5653c8a663200f4d4",
+    "process_archive_sha256": "d7cdb3826be61136351dc6e44d5bb872e71591e9b4bbc6e44e194bf4495c7a13",
+    "saved_memory_source_sha256": "7ba7b6d1bfa8ef67bb8cd99663fc8a9e6e506a597eb81773d9e1097fb199d2d6",
+    "places": 18,
+    "lower_truncation": "0.000048130561246289",
+    "safe_upper": "0.000048130561246290",
+    "strict_upper_of_saved_fraction": true,
+    "previous_grid_point_strictly_below_saved_fraction": true,
+    "minimal_decimal_grid_upper": true,
+    "model_saved_derivation_in_memory": true,
+    "standalone_document_created": false,
+    "model_verification_script_saved": true,
+    "model_verification_script_executed": false,
+    "exact_integer_verification_by": "independent reviewer",
+    "whole_saved_memory_mathematics_approved": false,
+    "claim_scope": "Rational display direction and grid minimality only; no new mathematical theorem or independent full pi certificate validation."
   }
 }
