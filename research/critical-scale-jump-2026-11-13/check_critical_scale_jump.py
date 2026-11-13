@@ -75,7 +75,7 @@ result = {
     ],
     "denominator_ratio_interval_open": [
         str(ratio_lower),
-        f"{a + 598}/1000",
+        f"{a}.598",
     ],
     "denominator_ratio_upper_exact": (
         f"{ratio_upper.numerator}/{ratio_upper.denominator}"
