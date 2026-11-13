@@ -1,0 +1,31 @@
+{
+  "format": "critical-scale-denominator-jump/1",
+  "source": "yohaku-pi-cf-audit-2026-11-12/runB-independent.json",
+  "convergent_index": 28420,
+  "next_partial_quotient": 78629,
+  "epsilon_interval_open": [
+    "0.0000127178573727574566035844693935801274",
+    "0.0000127178573727574566035844693935801275"
+  ],
+  "coarse_cf_epsilon_interval": [
+    "1/78631",
+    "1/78629"
+  ],
+  "reciprocal_epsilon_interval_open_decimal": [
+    "78629.5970060232165112381393203364389351035541431978365904831",
+    "78629.5970060232165112381393203364395533649066761593539785912"
+  ],
+  "denominator_ratio_interval_open": [
+    "78629",
+    "78629.598"
+  ],
+  "denominator_ratio_upper_exact": "5000000000000000000000000000000000000000/63589286863787283017922346967900637",
+  "denominator_ratio_upper_decimal": "78629.5970060232165112381393203364395533649066761593539785912",
+  "checks": {
+    "epsilon_inside_cf_interval": true,
+    "reciprocal_upper_below_78629_598": true,
+    "ratio_lower_from_next_partial_quotient": true,
+    "ratio_upper_from_1_over_epsilon": true
+  },
+  "scope": "Exact rational checks for one finite witness; no new pi computation, no tail liminf result, and no proof of P2848."
+}
