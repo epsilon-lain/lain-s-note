@@ -1,5 +1,5 @@
 {
-  "format": "yohaku-pi-finite-observations/4",
+  "format": "yohaku-pi-finite-observations/5",
   "date": "2026-11-12",
   "claim_scope": "Finite observed prefixes, exact directed display checks, and external rigorous integer enclosures of runA n=430 and runB n=28420 witnesses. No new record, BA/non-BA theorem, complete 58417-term certification, or whole-response approval.",
   "artifact_sha256": [
@@ -119,5 +119,25 @@
     "unsupported_Sol_crosscheck_claim_saved": true,
     "actual_Sol_turns": 0,
     "whole_manuscript_approved": false
+  },
+  "v07c_peer_review": {
+    "process_archive_sha256": "5bcdf89b8ab6e3616e1355e4be767de4a1e5edb3c4ceef1e37e339573f54599f",
+    "actual_model": "gpt-6.1-sol/high",
+    "actual_native_turns": 1,
+    "native_tools": 5,
+    "memory_source_sha256": "3fe50989e7a12e928d63a75cb31f739cdb76043f89b8927763540a7629f39dc8",
+    "peer_review_scope": "Source-text mathematical derivation with task-given constants. No artifact read, numerical recomputation or line-by-line verification-script review.",
+    "result_summary_chars": 281,
+    "result_summary_confirmed_received": true,
+    "full_detailed_memory_confirmed_received": false,
+    "mathematical_contribution": "Monotone complete-quotient endpoint derivation and sufficient lower-and-upper decimal-grid conditions; upper endpoint truncation alone cannot establish true-witness lower bound.",
+    "eighteen_place_lower_and_upper_object": "U_B stored rational under its stated truncation semantics",
+    "forty_place_witness_enclosure": "Conditional in peer's review; previously externally certified by separate published integer checker",
+    "historical_runB_script_has_both_endpoint_floor_checks": true,
+    "historical_report_checks_true": true,
+    "new_computation_this_stage": false,
+    "new_numeric_record_or_BA_result": false,
+    "section10_explanation_wording_still_pending": true,
+    "whole_response_approved": false
   }
 }
