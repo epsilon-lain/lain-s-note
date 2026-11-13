@@ -1,0 +1,47 @@
+{
+  "format": "external-v06d-runB-independent-integer-check/1",
+  "uploaded_code_executed": false,
+  "network_or_model_calls": 0,
+  "independent_pi_identity": "pi = 48*atan(1/18)+32*atan(1/57)-20*atan(1/239)",
+  "identity_gaussian_real_equals_imag": "72498183345339963679508209228515625000000",
+  "scale_decimal_digits": 30000,
+  "arctan_terms": {
+    "18": 11950,
+    "57": 8543,
+    "239": 6307
+  },
+  "pi_enclosure_scaled_width": 973316,
+  "certified_cf_terms": 28422,
+  "a28421": 78629,
+  "prefix_max_at": 28421,
+  "prefix_terms_sha256": "4ad2e4618f46e7357bdc32c6ac69cb88e96243dd21461c47a7b736b950252a30",
+  "p28420_digits": 14593,
+  "q28420_digits": 14593,
+  "p28420_sha256": "550564cf29d9cffd0f4b7fa4a9cd434fe67a069e876054d3dca09e8aceef49eb",
+  "q28420_sha256": "0dc26d6bf06b343709ebc2dc7989c7136cb876fe75a28417c6bb125e48d41c3f",
+  "q28421_digits": 14598,
+  "p28420_is_nearest_integer_to_q28420_pi": true,
+  "strict_witness_lower_40": "0.0000127178573727574566035844693935801274",
+  "strict_witness_upper_40": "0.0000127178573727574566035844693935801275",
+  "strict_witness_upper_18": "0.000012717857372758",
+  "witness_less_than_reciprocal_a28421": true,
+  "witness_less_than_q28420_over_q28421": true,
+  "scope": "Finite witness and infimum upper bound only; no tail liminf, global minimum, BA/non-BA or full 58417-term certification.",
+  "historical_fraction_rounding_only": {
+    "artifact_sha256": "324a5a829cd5b95bd972e80cf904a69ee1b7e3bed3ea44e5653c8a663200f4d4",
+    "numerator_digits": 60221,
+    "denominator_digits": 60226,
+    "grid18": {
+      "digits": 18,
+      "strict_lower": "0.000012717857372757",
+      "strict_upper": "0.000012717857372758"
+    },
+    "grid40": {
+      "digits": 40,
+      "strict_lower": "0.0000127178573727574566035844693935801274",
+      "strict_upper": "0.0000127178573727574566035844693935801275"
+    },
+    "fraction_as_upper_bound_on_true_witness_independently_certified": false,
+    "note": "This optional part checks the stored rational's rounding only. The true witness enclosure above is derived independently."
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "format": "yohaku-pi-finite-observations/3",
+  "format": "yohaku-pi-finite-observations/4",
   "date": "2026-11-12",
-  "claim_scope": "Finite observed prefixes, exact directed display checks, and an independent rigorous integer enclosure of the runA n=430 witness. No new record, BA/non-BA theorem, full long-prefix proof, or whole-author-response approval.",
+  "claim_scope": "Finite observed prefixes, exact directed display checks, and external rigorous integer enclosures of runA n=430 and runB n=28420 witnesses. No new record, BA/non-BA theorem, complete 58417-term certification, or whole-response approval.",
   "artifact_sha256": [
     "324a5a829cd5b95bd972e80cf904a69ee1b7e3bed3ea44e5653c8a663200f4d4",
     "c05395aad616260699357900762832d0d63cf4d2d71b005c5951f5bdf5deae3a"
@@ -89,5 +89,35 @@
       "Tail denominator threshold conflated with convergent index"
     ],
     "claim_scope": "Independently checked finite witness and decimal enclosure, not new theory, asymptotic liminf control or global minimizer."
+  },
+  "updated": "2026-11-13 Asia/Shanghai",
+  "v06d_followup": {
+    "process_archive_sha256": "95340e33c75bc48a0a7d3255b2f27371c3dfb31f2c127e519b73433291dc8cca",
+    "model_saved_new_runB_script": true,
+    "model_execution_exit_code": 0,
+    "model_report_sha256": "1148f541646a1c947b80c5949a615dc5a11c72c0dd3a450d5856e2a40d08bad2",
+    "model_script_sha256": "d02c13ab5026b659872e68248b1b42a50468bb7489876ca4bb486aa32bcd3e99",
+    "model_script_fully_independent": false,
+    "new_search_coverage": false,
+    "independent_certification_by": "external reviewer, not original research lead or Sol",
+    "independent_checker": "check_runB_independent.py",
+    "independent_checker_sha256": "5bb36162c4b036138980ae862ca8f71925c82008bd9b5298ad416bd1f6ff6d11",
+    "independent_report": "runB-independent.json",
+    "independent_report_sha256": "3221c01380472cfc2ad743ebf802835eafa2da6121be23ec771f634fba46a5b9",
+    "independent_pi_identity": "pi = 48*atan(1/18)+32*atan(1/57)-20*atan(1/239)",
+    "scale_decimal_digits": 30000,
+    "pi_interval_scaled_width": 973316,
+    "certified_cf_terms": 28422,
+    "witness_index": 28420,
+    "q_digits": 14593,
+    "witness_strict_lower": "0.0000127178573727574566035844693935801274",
+    "witness_strict_upper": "0.0000127178573727574566035844693935801275",
+    "witness_strict_upper_18": "0.000012717857372758",
+    "original_stored_rational_as_true_witness_upper_independently_certified": false,
+    "four_previous_local_errors_revised": true,
+    "manuscript_source_sha256": "e136fc0b04b163addbc0aca696e2633a90be602b462e41cebf0668d44669b9a4",
+    "unsupported_Sol_crosscheck_claim_saved": true,
+    "actual_Sol_turns": 0,
+    "whole_manuscript_approved": false
   }
 }
