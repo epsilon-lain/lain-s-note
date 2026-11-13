@@ -1,5 +1,5 @@
 {
-  "format": "yohaku-pi-finite-observations/5",
+  "format": "yohaku-pi-finite-observations/6",
   "date": "2026-11-12",
   "claim_scope": "Finite observed prefixes, exact directed display checks, and external rigorous integer enclosures of runA n=430 and runB n=28420 witnesses. No new record, BA/non-BA theorem, complete 58417-term certification, or whole-response approval.",
   "artifact_sha256": [
@@ -139,5 +139,19 @@
     "new_numeric_record_or_BA_result": false,
     "section10_explanation_wording_still_pending": true,
     "whole_response_approved": false
+  },
+  "v08_recovery": {
+    "archive_sha256": "686f3a5d49ac0f32ba961560d8490f7403a96c90487618c7da9380315e9e3fa7",
+    "prior_Sol_detailed_memory_received_chars": 7547,
+    "new_Sol_turns": 0,
+    "new_computation": false,
+    "section10_factor_explanation_corrected": true,
+    "crosscheck_scope_attribution_added": true,
+    "open_interval_and_same_grid_floor_make_irrationality_redundant_for_strict_lower_bound": true,
+    "author_response_source_sha256": "d7f8e7291b5239c9c165ffe317218c3d960a170930ba96e78700dea407527b56",
+    "registration_status": "pending_independent_review",
+    "whole_response_approved": false,
+    "new_numeric_record_or_BA_result": false,
+    "old_peer_review_section_is_historical_v07c_endpoint": true
   }
 }
