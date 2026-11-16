@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "n": 1,
+      "graphs": 1,
+      "targets": 1,
+      "submod_graphs": 1,
+      "dictionary_opt_checks": 24
+    },
+    {
+      "n": 2,
+      "graphs": 2,
+      "targets": 6,
+      "submod_graphs": 2,
+      "dictionary_opt_checks": 48
+    },
+    {
+      "n": 3,
+      "graphs": 8,
+      "targets": 56,
+      "submod_graphs": 8,
+      "dictionary_opt_checks": 192
+    },
+    {
+      "n": 4,
+      "graphs": 64,
+      "targets": 960,
+      "submod_graphs": 30,
+      "dictionary_opt_checks": 1536
+    }
+  ],
+  "p4_gains": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+  ],
+  "heterogeneous_costs": [
+    12,
+    11,
+    11,
+    10
+  ],
+  "all_assertions_passed": true
+}

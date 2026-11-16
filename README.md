@@ -1,5 +1,7 @@
 # lain-s-note
 
+- [概念复用费用与 Stable 最短性：11月17日外部补充复核](research/concept-reuse-cost-2026-11-16/review-2026-11-17/README.md)：pair-AND一般证明审阅及独立小检查通过；另补齐Stable08491最短10步的独立完整复核，保留原生总负责人中断记录。
+
 - [概念定义费用与复用收益：原团队第二轮理论及比赛负结果（2026-11-16）](research/concept-reuse-cost-2026-11-16/README.md)：二元合取的精确匹配公式、次模边界及贪心反例；附 Stable 真实搜索、作者证书与独立复核未完成的明确范围。
 
 - [不可删证书与接近二倍的删除结果：Yohaku 原生研究（2026-11-16）](research/irredundant-certificates-2026-11-16/README.md)：完整区间判据与无限族证明，区分局部不可删和最优描述；附真实原生算法、有限资源／宏结果及后续外部复核。

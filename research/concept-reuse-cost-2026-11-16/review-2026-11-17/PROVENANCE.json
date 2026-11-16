@@ -1,0 +1,13 @@
+{
+  "schema": "concept-reuse-cost-external-review/1",
+  "review_date": "2026-11-17",
+  "source_repository": "epsilon-lain/lain-s-note",
+  "source_commit": "1e4ab09adade5e0c7a5a9eb7b521c72179c3dc3c",
+  "source_file": "research/concept-reuse-cost-2026-11-16/theory-author.zh.md",
+  "native_general_theorem": "M-98718cbca95c0dc3@1",
+  "review_scope": "general proof review plus n1..4 independent small checks; no literature priority certification",
+  "checker_sha256": "b6f6beef3e20ef76234789cea6ea1544596340beca62af8491ea8d1554ef631c",
+  "checks_sha256": "80f7bca820631c0b5aa5c55e9037f9dc89c8a1a7ae16ce2d604c60b3cbb52d15",
+  "uploaded_research_code_executed": false,
+  "native_record_modified": false
+}

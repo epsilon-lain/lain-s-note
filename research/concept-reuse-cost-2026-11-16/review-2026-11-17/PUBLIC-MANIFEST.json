@@ -1,0 +1,26 @@
+{
+  "schema": "round2-external-review-files/1",
+  "scope": "All other files in this directory; original native reports remain unchanged.",
+  "files": [
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 701,
+      "sha256": "ee8a2a36e4d2aef469e9bc872c23b524f946a40458f71fa20db6c392dfc9225e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3798,
+      "sha256": "fb89e591fb9037c6eb28c7983dfd8d9a8ebfbc95d9cf4dd2719973ab4054ce2b"
+    },
+    {
+      "path": "check_theory.py",
+      "bytes": 3762,
+      "sha256": "b6f6beef3e20ef76234789cea6ea1544596340beca62af8491ea8d1554ef631c"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 689,
+      "sha256": "80f7bca820631c0b5aa5c55e9037f9dc89c8a1a7ae16ce2d604c60b3cbb52d15"
+    }
+  ]
+}
