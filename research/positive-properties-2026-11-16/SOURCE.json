@@ -1,0 +1,25 @@
+{
+  "run_id": "theory-application-sol-20261116-01",
+  "source": "https://github.com/epsilon-lain/yohaku/tree/9afa13603ab26d435d7b5729d057e9b7de9bf8bb/research/theory-application-sol-2026-11-16/theory",
+  "copy_scope": "four byte-exact scientific artifacts; README wrapper added for this repository; no host migration implied",
+  "files": {
+    "README.md": {
+      "published_as": "THEORY.md",
+      "sha256": "e08afb8d4beb43140d53021fcf3cf790c5a2cb06571e35412e9f6e9110369fd5"
+    },
+    "verify_white_points.py": {
+      "published_as": "verify_white_points.py",
+      "sha256": "1e206f68abde9ab92199275d693b7dace72897856f3c0cc034256efc370eac61"
+    },
+    "RESULTS.json": {
+      "published_as": "RESULTS.json",
+      "sha256": "50edca4b75aeb86f415f800fb5d4c24381fbb670895bd24b075b6c91be861734"
+    },
+    "REVIEW_RECEIPT.json": {
+      "published_as": "REVIEW_RECEIPT.json",
+      "sha256": "c82e7584a434ad2baf3731bd8db2a5c839ea6625262ec6581b351c8f7d748176"
+    }
+  },
+  "math_final_publication_event": "f57f58bec5a83c43eda34c868c54018a4e060257c0638e7a938c131d7cf7401b",
+  "run_commit": "9afa13603ab26d435d7b5729d057e9b7de9bf8bb"
+}
