@@ -1,0 +1,1605 @@
+{
+  "format": "concept-compression-exact/1",
+  "scope": "declared finite nonnegative-vector languages; elementary examples, not new universal theory",
+  "cost_model": "tree atom occurrence 1 except expanded block references b=3/c=5; addition 1; DAG example counts each distinct input/gate node once",
+  "target": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "basis_only": {
+    "state_count": 31,
+    "unordered_splits_checked": 90,
+    "target_cost": 9,
+    "target_expression": "((((e5+e4)+e3)+e2)+e1)",
+    "all_state_minima": [
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 1,
+        "expression": "e5"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 1,
+        "expression": "e4"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e3"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e2"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e1"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e4)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e3)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e2+e1)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e3+e2)+e1)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 7,
+        "expression": "(((e4+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 9,
+        "expression": "((((e5+e4)+e3)+e2)+e1)"
+      }
+    ]
+  },
+  "preexisting_blocks": {
+    "state_count": 31,
+    "unordered_splits_checked": 90,
+    "target_cost": 3,
+    "target_expression": "(c+b)",
+    "all_state_minima": [
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 1,
+        "expression": "e5"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 1,
+        "expression": "e4"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e3"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e2"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e1"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e4)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e3)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "b"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 1,
+        "expression": "c"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+b)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+b)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+b)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(c+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(c+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+b)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+b)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+b)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(c+b)"
+      }
+    ]
+  },
+  "expanded_block_reference_costs": {
+    "state_count": 31,
+    "unordered_splits_checked": 90,
+    "target_cost": 9,
+    "target_expression": "((((e5+e4)+e3)+e2)+e1)",
+    "all_state_minima": [
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 1,
+        "expression": "e5"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 1,
+        "expression": "e4"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e3"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e2"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e1"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e4)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e3)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e2+e1)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e3+e2)+e1)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 7,
+        "expression": "(((e4+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 9,
+        "expression": "((((e5+e4)+e3)+e2)+e1)"
+      }
+    ]
+  },
+  "target_given_a_unit_cost_name": {
+    "state_count": 31,
+    "unordered_splits_checked": 90,
+    "target_cost": 1,
+    "target_expression": "w",
+    "all_state_minima": [
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 1,
+        "expression": "e5"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 1,
+        "expression": "e4"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e3"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e2"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost": 1,
+        "expression": "e1"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e4)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e3)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "cost": 3,
+        "expression": "(e5+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e4+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e3+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cost": 3,
+        "expression": "(e2+e1)"
+      },
+      {
+        "vector": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e3)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e2)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e4)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "cost": 5,
+        "expression": "((e5+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e4+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "cost": 5,
+        "expression": "((e3+e2)+e1)"
+      },
+      {
+        "vector": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e2)"
+      },
+      {
+        "vector": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e3)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e4)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "cost": 7,
+        "expression": "(((e5+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "cost": 7,
+        "expression": "(((e4+e3)+e2)+e1)"
+      },
+      {
+        "vector": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "cost": 1,
+        "expression": "w"
+      }
+    ]
+  },
+  "definition_accounting": {
+    "binding_headers_cost": 0,
+    "block_definition_body_costs": [
+      3,
+      5
+    ],
+    "single_use_total": 11,
+    "repeated_use_scheme_comparisons_not_global_optima": [
+      {
+        "uses": 1,
+        "expand_each_time": 9,
+        "define_blocks_once": 11,
+        "define_target_once": 10,
+        "blocks_beat_expansion": false
+      },
+      {
+        "uses": 2,
+        "expand_each_time": 18,
+        "define_blocks_once": 14,
+        "define_target_once": 11,
+        "blocks_beat_expansion": true
+      },
+      {
+        "uses": 3,
+        "expand_each_time": 27,
+        "define_blocks_once": 17,
+        "define_target_once": 12,
+        "blocks_beat_expansion": true
+      },
+      {
+        "uses": 4,
+        "expand_each_time": 36,
+        "define_blocks_once": 20,
+        "define_target_once": 13,
+        "blocks_beat_expansion": true
+      },
+      {
+        "uses": 5,
+        "expand_each_time": 45,
+        "define_blocks_once": 23,
+        "define_target_once": 14,
+        "blocks_beat_expansion": true
+      },
+      {
+        "uses": 6,
+        "expand_each_time": 54,
+        "define_blocks_once": 26,
+        "define_target_once": 15,
+        "blocks_beat_expansion": true
+      }
+    ]
+  },
+  "shared_subexpression_example": {
+    "target": [
+      2,
+      2
+    ],
+    "tree": {
+      "state_count": 8,
+      "unordered_splits_checked": 11,
+      "target_cost": 7,
+      "target_expression": "((e2+e1)+(e2+e1))",
+      "all_state_minima": [
+        {
+          "vector": [
+            0,
+            1
+          ],
+          "cost": 1,
+          "expression": "e2"
+        },
+        {
+          "vector": [
+            1,
+            0
+          ],
+          "cost": 1,
+          "expression": "e1"
+        },
+        {
+          "vector": [
+            0,
+            2
+          ],
+          "cost": 3,
+          "expression": "(e2+e2)"
+        },
+        {
+          "vector": [
+            1,
+            1
+          ],
+          "cost": 3,
+          "expression": "(e2+e1)"
+        },
+        {
+          "vector": [
+            2,
+            0
+          ],
+          "cost": 3,
+          "expression": "(e1+e1)"
+        },
+        {
+          "vector": [
+            1,
+            2
+          ],
+          "cost": 5,
+          "expression": "((e2+e2)+e1)"
+        },
+        {
+          "vector": [
+            2,
+            1
+          ],
+          "cost": 5,
+          "expression": "(e1+(e2+e1))"
+        },
+        {
+          "vector": [
+            2,
+            2
+          ],
+          "cost": 7,
+          "expression": "((e2+e1)+(e2+e1))"
+        }
+      ]
+    },
+    "dag": {
+      "addition_gates": 2,
+      "input_nodes": 2,
+      "total_nodes": 4,
+      "instructions": [
+        {
+          "left": [
+            0,
+            1
+          ],
+          "right": [
+            1,
+            0
+          ],
+          "result": [
+            1,
+            1
+          ]
+        },
+        {
+          "left": [
+            1,
+            1
+          ],
+          "right": [
+            1,
+            1
+          ],
+          "result": [
+            2,
+            2
+          ]
+        }
+      ],
+      "first_target_bfs_depth": 2
+    },
+    "bound": "two input nodes and at least two addition gates; construction attains four nodes"
+  },
+  "description_path_counterexample": {
+    "objects": [
+      0,
+      1,
+      2
+    ],
+    "literal_cost_each": 1,
+    "directed_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "target": 0,
+    "target_description_cost": 1,
+    "distance_from_1": 1,
+    "distance_from_2": 2
+  }
+}
