@@ -1,0 +1,174 @@
+{
+  "format": "native465-external-review/1",
+  "verification_stage": "external post-native-run review",
+  "original_native_receipt": false,
+  "supplied_research_code_executed": false,
+  "checker_sha256": "02f5d2ad7accea2911790838f146e8968f4e7fe310e0da62a24c9ffa87d125e8",
+  "fixture_sha256": "2c54f9b0f88feaa72167be09f8ef6569159273db8693124442f60acc2a055839",
+  "exhaustive_to": 12,
+  "theory": {
+    "complete_literal_partition_checks": [
+      {
+        "m": 3,
+        "spectrum": [
+          3
+        ],
+        "partitions_examined": 11
+      },
+      {
+        "m": 4,
+        "spectrum": [
+          4,
+          5
+        ],
+        "partitions_examined": 22
+      },
+      {
+        "m": 5,
+        "spectrum": [
+          5,
+          6
+        ],
+        "partitions_examined": 42
+      },
+      {
+        "m": 6,
+        "spectrum": [
+          6,
+          8
+        ],
+        "partitions_examined": 77
+      },
+      {
+        "m": 7,
+        "spectrum": [
+          7,
+          9,
+          10
+        ],
+        "partitions_examined": 135
+      },
+      {
+        "m": 8,
+        "spectrum": [
+          8,
+          10,
+          11
+        ],
+        "partitions_examined": 231
+      },
+      {
+        "m": 9,
+        "spectrum": [
+          9,
+          12,
+          13
+        ],
+        "partitions_examined": 385
+      },
+      {
+        "m": 10,
+        "spectrum": [
+          10,
+          13,
+          14,
+          15
+        ],
+        "partitions_examined": 627
+      },
+      {
+        "m": 11,
+        "spectrum": [
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "partitions_examined": 1002
+      },
+      {
+        "m": 12,
+        "spectrum": [
+          12,
+          17,
+          18
+        ],
+        "partitions_examined": 1575
+      }
+    ],
+    "all_stored_patterns_interval_and_bound_checked": 349,
+    "family_interval_and_coverage_cases": 90,
+    "family_literal_cases_half_at_most_512": 50,
+    "limit": "m above exhaustive_to: stored patterns checked for validity; completeness of their lists is not independently re-enumerated"
+  },
+  "application": {
+    "forward_layer_sizes": [
+      1,
+      13,
+      129,
+      1186,
+      10656
+    ],
+    "target_layer_sizes": [
+      1,
+      10,
+      77,
+      574,
+      4453
+    ],
+    "generated_edges": 27874,
+    "ball_digests": {
+      "forward3_sha256": "e1f6dd0863a66abdb4bae8809fa1e39c6e66ee274d95549822f75c0a906bedae",
+      "forward4_sha256": "063a0aba85a505e686de02328da472c2369c0727d598ca25787176ddcf081671",
+      "target4_sha256": "3737904cb75b8f52f58027c33bd8f5c22a8f5a3379ac844961cf6d6db3158bfc"
+    },
+    "intersection_B3_B4": 0,
+    "intersection_B4_B4": 2,
+    "all_length8_paths": 8,
+    "exact_distance_in_frozen_table": 8,
+    "resource_distribution": [
+      {
+        "peak": 9,
+        "work": 48,
+        "count": 2
+      },
+      {
+        "peak": 9,
+        "work": 49,
+        "count": 4
+      },
+      {
+        "peak": 9,
+        "work": 51,
+        "count": 2
+      }
+    ],
+    "composition_cut_checks": 72,
+    "flat_macro": {
+      "candidate_count": 55,
+      "baseline": 64,
+      "best_paid_cost": 55,
+      "optimal_macros": [
+        [
+          2,
+          5,
+          5
+        ]
+      ],
+      "single_path_paid_optima": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    "official_core_or_cli_run": false,
+    "platform_upload": false
+  },
+  "status": "passed"
+}

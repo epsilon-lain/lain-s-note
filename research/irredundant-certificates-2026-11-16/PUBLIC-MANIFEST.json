@@ -1,0 +1,101 @@
+{
+  "schema": "yohaku-native465-public-math/1",
+  "scope": "All other files in this directory; proofs and original research code are distinct from post-run external checks.",
+  "files": [
+    {
+      "path": "AC_APPENDIX.md",
+      "bytes": 7150,
+      "sha256": "0e4c53164b2b623162d16a4a8c904e19f31abd0eb30640895eaf932e05131fcc"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 9735,
+      "sha256": "484413c9b18120a9e4ca62f45402c8a16805628e8e37b6fdaeb36ddf63d77ee4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3265,
+      "sha256": "a1593e9f52a2bc0048800ace745a2a3b9362cb799917a42f4924f1c0b71acca8"
+    },
+    {
+      "path": "THEORY.md",
+      "bytes": 10948,
+      "sha256": "341e659178ca1724ef908d829af92e05722f49221d82b7fb5b01d9fea3e6accf"
+    },
+    {
+      "path": "data/ac-paths.json",
+      "bytes": 17872,
+      "sha256": "f063df6c0c385460463500f3821c72339f789d161af6420133353245bc1c8ce9"
+    },
+    {
+      "path": "data/ac-submission.txt",
+      "bytes": 37,
+      "sha256": "0114c5aa4bdddd2fd9465c04a677fec7fa24bc60c06992d06a8df1a0318fc215"
+    },
+    {
+      "path": "data/native-results.json",
+      "bytes": 79452,
+      "sha256": "2c54f9b0f88feaa72167be09f8ef6569159273db8693124442f60acc2a055839"
+    },
+    {
+      "path": "external-verification.json",
+      "bytes": 3505,
+      "sha256": "fc4491f3bf9df1b79d3eea1e41c814463719204679c10d247e81b39073adec23"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 2997,
+      "sha256": "3efc8af9029f1f36a93be94cf8e8cde9b487c5688744c4de27a1d27016db55b6"
+    },
+    {
+      "path": "source/ac-resource-and-macro.md",
+      "bytes": 5150,
+      "sha256": "5422e0c2c912406d58ce77656e28693b67b3f5062dbeca613b8fc664959c3a61"
+    },
+    {
+      "path": "source/interval-criterion.md",
+      "bytes": 1945,
+      "sha256": "241b7a4d57f05812830818f2383c41d8c7feb5a67cb37501687e929a8bc52d43"
+    },
+    {
+      "path": "source/native-application.py",
+      "bytes": 18404,
+      "sha256": "56a7bec46821137de761be80c4a709b3d842a5daaf1469ab9db80c91f53985ea"
+    },
+    {
+      "path": "source/native-independent-ac-verifier.py",
+      "bytes": 5396,
+      "sha256": "aff30510285004f968f08575fb0d81ec81a4b4d51511f39b7eae7803e41ebf2c"
+    },
+    {
+      "path": "source/native-independent-theory-verifier.py",
+      "bytes": 5124,
+      "sha256": "ba06d1d1a849c470d3c814e1fb706dc99ddbe1ddcb5dc6315e487f339dd1924e"
+    },
+    {
+      "path": "source/native-resource-signature-audit.py",
+      "bytes": 4011,
+      "sha256": "fb9afb2fd2fdd907fd4de338b051865d547bafa268dae075eacde31ff84811a9"
+    },
+    {
+      "path": "source/native-theory-v2.py",
+      "bytes": 10286,
+      "sha256": "261db5a9f89c1945cd83c6d3fbaf5c589245642afd1e2ad8dd1f023c659ca762"
+    },
+    {
+      "path": "source/near-double-family.md",
+      "bytes": 4008,
+      "sha256": "0946db9fc3e1bdcf39ac509700989edc83f0dbc371995e65f1f8ef5a10f96f58"
+    },
+    {
+      "path": "source/resource-signature.md",
+      "bytes": 2674,
+      "sha256": "8772d63983b00068a1db455fb7b4d3b8be63c332cbfc16365ec266e763ce4b44"
+    },
+    {
+      "path": "verify_native_results.py",
+      "bytes": 12385,
+      "sha256": "02f5d2ad7accea2911790838f146e8968f4e7fe310e0da62a24c9ffa87d125e8"
+    }
+  ]
+}

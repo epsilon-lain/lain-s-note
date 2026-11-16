@@ -1,0 +1,203 @@
+{
+  "format": "native465-public-provenance/1",
+  "publication_scope": "mathematical excerpts and selected native results; no conversation traces, host paths, credentials or private node/task identifiers",
+  "native_mathematics": [
+    {
+      "file": "source/interval-criterion.md",
+      "native_math_id": "M-05ac7d1d25ae1353",
+      "native_revision": 1,
+      "full_original_body_sha256": "dd288967c795a6a73f504dc9de578869950fbc375c3774b821c304d6789d89cb",
+      "public_excerpt_sha256": "241b7a4d57f05812830818f2383c41d8c7feb5a67cb37501687e929a8bc52d43",
+      "selection": "complete mathematical body"
+    },
+    {
+      "file": "source/near-double-family.md",
+      "native_math_id": "M-eea68ed0edda0837",
+      "native_revision": 1,
+      "full_original_body_sha256": "39bac6d86025d3ab0b13f8416879604969a92c83bb58673f76b58a2241a5a4af",
+      "public_excerpt_sha256": "0946db9fc3e1bdcf39ac509700989edc83f0dbc371995e65f1f8ef5a10f96f58",
+      "selection": "complete mathematical body"
+    },
+    {
+      "file": "source/ac-resource-and-macro.md",
+      "native_math_id": "M-0d87e4c929e155d1",
+      "native_revision": 1,
+      "full_original_body_sha256": "fd2b32e7e0e18ebab66743f2edc85091d638e2e9d57aa7dd4052e8c6c437aa8b",
+      "public_excerpt_sha256": "5422e0c2c912406d58ce77656e28693b67b3f5062dbeca613b8fc664959c3a61",
+      "selection": "exact leading mathematical sections; provenance/executable sections omitted"
+    },
+    {
+      "file": "source/resource-signature.md",
+      "native_math_id": "M-5606eba96406db45",
+      "native_revision": 1,
+      "full_original_body_sha256": "cedfe6c82fc97d6170f2bd160691d84d1ea7d826388cc56e8c3b3b4b95bbf6ec",
+      "public_excerpt_sha256": "8772d63983b00068a1db455fb7b4d3b8be63c332cbfc16365ec266e763ce4b44",
+      "selection": "exact leading mathematical sections; provenance/executable sections omitted"
+    }
+  ],
+  "original_source_hashes": [
+    {
+      "original_relative_file": "world-files/theory/irredundant-certificates.md.tex",
+      "sha256": "33af44aa743ea56f642f1728760bdacdc07ac71731fb7e89833d175b7e7d8d83",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/theory/research.py.tex",
+      "sha256": "f0b68c31dc20c59694dc96c2e45faa7b7019ae9237b0b443c90e01f924b8f7a0",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/theory/near-double-independent-proof-review.md.tex",
+      "sha256": "f8e728be72e809780473e853cff95f7eeaeacfeb1c6855cc986ed8dd7d93a658",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/theory/root_certificate_verify.py.tex",
+      "sha256": "1e9652dc90bffdff4e8082ca051ceae55cf718145b0afed996cf4407de070cee",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/theory/root_audit.py.tex",
+      "sha256": "95fa2c070a9e4a02f3dcdd11e8679693e2fd2928ed04b02e1fab351aeeb173ee",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/application/research.py.tex",
+      "sha256": "3eb410b09bb0f3d5ef62ab5c68422b2203c3f770084953d75fb300d495783462",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/application/umbrella_verify.py.tex",
+      "sha256": "9352e1862513ddc75c3663de2b078808adba15de1c7dabed58460c9e71719318",
+      "published_raw_file": false
+    },
+    {
+      "original_relative_file": "world-files/application/resource-interface.md.tex",
+      "sha256": "c126845b142eb94bf39d7936b16fb446d805b50d7cf39e6b9583ee4f77c9c31b",
+      "published_raw_file": false
+    }
+  ],
+  "original_artifact_hashes": [
+    {
+      "public_description": "theory-first-certificate-results.json",
+      "original_filename": "certificate-results.json",
+      "bytes": 151117,
+      "sha256": "ba105ea75fcdf330dd86d557b72a4dc909ac3e52dbc6396b2aae57f3ce292308"
+    },
+    {
+      "public_description": "theory-extended-certificate-results.json",
+      "original_filename": "certificate-results.json",
+      "bytes": 253671,
+      "sha256": "aff7443b39cc9e2f238a9cb9f5bf973ec3e347d7b71da1d29e5193b658229120"
+    },
+    {
+      "public_description": "theory-distinct-author-verification.json",
+      "original_filename": "root-certificate-verify.json",
+      "bytes": 19778,
+      "sha256": "e2b44b73519117b368ea90f71db0402c75a8f44ce1f9dcff30e741d0645298b6"
+    },
+    {
+      "public_description": "resource-signature-audit.json",
+      "original_filename": "root-audit.json",
+      "bytes": 1130,
+      "sha256": "79ca01b770f372b006398f0a03512bb2034428acc4235fd30531e390b4502ffd"
+    },
+    {
+      "public_description": "application-results.json",
+      "original_filename": "results.json",
+      "bytes": 25992,
+      "sha256": "4ead26801b48307654c112dc17ea75742504e5024726c8363220f22b49e7697a"
+    },
+    {
+      "public_description": "application-paths.json",
+      "original_filename": "paths.json",
+      "bytes": 17872,
+      "sha256": "f063df6c0c385460463500f3821c72339f789d161af6420133353245bc1c8ce9"
+    },
+    {
+      "public_description": "application-balls.json",
+      "original_filename": "balls.json",
+      "bytes": 5608483,
+      "sha256": "41082082db7654ba8ed1e468004e9f800ba89a2f1b0aae6e9705395d979d546e"
+    },
+    {
+      "public_description": "application-distinct-author-verification.json",
+      "original_filename": "umbrella-verify.json",
+      "bytes": 3981,
+      "sha256": "df89977f3d30dcd5db18df1d15ac54922cbff7007cd0bee45a9fa762698bd68e"
+    }
+  ],
+  "external_review": "verify_native_results.py and its JSON output were created after the native run; they are not original native-run evidence",
+  "fixture_sha256": "2c54f9b0f88feaa72167be09f8ef6569159273db8693124442f60acc2a055839",
+  "native_algorithms": [
+    {
+      "file": "source/native-theory-v2.py",
+      "native_math_id": "M-76595f02ff6f5258@2",
+      "original_relative_source": "world-files/theory/research.py.tex",
+      "original_tex_sha256": "f0b68c31dc20c59694dc96c2e45faa7b7019ae9237b0b443c90e01f924b8f7a0",
+      "extracted_python_sha256": "261db5a9f89c1945cd83c6d3fbaf5c589245642afd1e2ad8dd1f023c659ca762",
+      "projection": "verbatim raw body including original trailing newline; no source edits",
+      "changes": [],
+      "executed_in_this_external_review": false,
+      "runtime_path_note": "/output is the original isolated-task output interface, not a host path; relative historical source citations are retained"
+    },
+    {
+      "file": "source/native-application.py",
+      "native_math_id": "M-7984e3d81670a37f@1",
+      "original_relative_source": "world-files/application/research.py.tex",
+      "original_tex_sha256": "3eb410b09bb0f3d5ef62ab5c68422b2203c3f770084953d75fb300d495783462",
+      "extracted_python_sha256": "56a7bec46821137de761be80c4a709b3d842a5daaf1469ab9db80c91f53985ea",
+      "projection": "verbatim raw body including original trailing newline; no source edits",
+      "changes": [],
+      "executed_in_this_external_review": false,
+      "runtime_path_note": "/output is the original isolated-task output interface, not a host path; relative historical source citations are retained"
+    },
+    {
+      "file": "source/native-independent-theory-verifier.py",
+      "native_math_id": "M-8551c6027291f241@1",
+      "original_relative_source": "world-files/theory/root_certificate_verify.py.tex",
+      "original_tex_sha256": "1e9652dc90bffdff4e8082ca051ceae55cf718145b0afed996cf4407de070cee",
+      "extracted_python_sha256": "ba06d1d1a849c470d3c814e1fb706dc99ddbe1ddcb5dc6315e487f339dd1924e",
+      "projection": "verbatim raw body including original trailing newline; no source edits",
+      "changes": [],
+      "executed_in_this_external_review": false,
+      "runtime_path_note": "/output is the original isolated-task output interface, not a host path; relative historical source citations are retained"
+    },
+    {
+      "file": "source/native-independent-ac-verifier.py",
+      "native_math_id": "M-809143f7c563abe4@1",
+      "original_relative_source": "world-files/application/umbrella_verify.py.tex",
+      "original_tex_sha256": "9352e1862513ddc75c3663de2b078808adba15de1c7dabed58460c9e71719318",
+      "extracted_python_sha256": "aff30510285004f968f08575fb0d81ec81a4b4d51511f39b7eae7803e41ebf2c",
+      "projection": "verbatim raw body including original trailing newline; no source edits",
+      "changes": [],
+      "executed_in_this_external_review": false,
+      "runtime_path_note": "/output is the original isolated-task output interface, not a host path; relative historical source citations are retained"
+    },
+    {
+      "file": "source/native-resource-signature-audit.py",
+      "native_math_id": "M-5606eba96406db45@1",
+      "original_relative_source": "world-files/theory/root_audit.py.tex",
+      "original_tex_sha256": "95fa2c070a9e4a02f3dcdd11e8679693e2fd2928ed04b02e1fab351aeeb173ee",
+      "extracted_python_sha256": "fb9afb2fd2fdd907fd4de338b051865d547bafa268dae075eacde31ff84811a9",
+      "projection": "verbatim raw body including original trailing newline; no source edits",
+      "changes": [],
+      "executed_in_this_external_review": false,
+      "runtime_path_note": "/output is the original isolated-task output interface, not a host path; relative historical source citations are retained"
+    }
+  ],
+  "verbatim_public_artifacts": [
+    {
+      "file": "data/ac-paths.json",
+      "original_filename": "paths.json",
+      "sha256": "f063df6c0c385460463500f3821c72339f789d161af6420133353245bc1c8ce9",
+      "changes": []
+    },
+    {
+      "file": "data/ac-submission.txt",
+      "original_filename": "submission-internal.txt",
+      "sha256": "0114c5aa4bdddd2fd9465c04a677fec7fa24bc60c06992d06a8df1a0318fc215",
+      "changes": []
+    }
+  ]
+}
