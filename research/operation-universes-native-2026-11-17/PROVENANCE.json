@@ -1,0 +1,56 @@
+{
+  "at": 1794896947.8475277,
+  "entries": [
+    {
+      "id": "M-1729534495821452",
+      "revision": 1,
+      "title": "有条件原始片段转换：反演-共轭交换证书与07445短窗实验冻结代码",
+      "summary": "独立证明反演与同relator共轭交换，保留2原始步；另冻结全部长度2..6旧窗口的radius3/rank3真实短替换搜索。文献PANO38-40只散文启发，公式未认证，非IUT加速结论。",
+      "body_sha256": "dee77c68a2c7f6e3f85fac328bd73ee162203101bcf27ccbfbf632435c3b75cf",
+      "source_task": "model-task-9a68d4a32ccc7f6a6339c7d1ad70f5ef",
+      "author_node": "ai-node-0299a356d74db83b9ab4ebc7",
+      "author_status": "Native application independent elementary bridge proof/code; external literature inspiration only; experiment pending",
+      "independent_review_status": "unreviewed",
+      "conditions": "精确入口/出口，官方动作guard，整条资源重放；原始长度2↔2自身无优势；短窗/状态/call/wall预算见协议"
+    },
+    {
+      "id": "M-2149d7062a0719a3",
+      "revision": 1,
+      "title": "幅度公共表示的能力分离：乘积1位、绝对和最坏q−1位与可复用相对符号",
+      "summary": "新零误差辅助模型：绝对乘积0位、带符号乘积1位、绝对和最坏q−1位；全部参考点成对绝对和对每个正幅度恰q−1位。给相对符号还原链与具体无净优势账本，不调用IUT定理。",
+      "body_sha256": "8d63ab0ffbe56d8cf2100fb06c4be7295a192295665407f6faffd28ff356a7e7",
+      "source_task": "model-task-d1bc98e338842bb8ab774ca582b3e06d",
+      "author_node": "ai-node-60ce43c0fdb954913d5cf32f",
+      "author_status": "Native umbrella independent elementary construction/proof; no independent peer review yet, no literature priority or competition-performance claim.",
+      "independent_review_status": "unreviewed",
+      "conditions": "Auxiliary bit complexity excludes encoder/decoder/discovery costs; no arbitrary constants/loops hidden in gate comparison; nonzero assumption is essential for pair separation. Same-object reuse only. IUT pages motivate questions, not proof premises."
+    },
+    {
+      "id": "M-c772d35d33d375d7",
+      "revision": 1,
+      "title": "07445精确片段转换实测：60短窗无缩步，交换证书保持端点却增加work",
+      "summary": "真实51301包装搜索调用，60窗口无更短端点命中，无guard。两步交换得到不同15步官方CLI合法路线，但work128→130，不能称优势；旧15/work128优先保留。",
+      "body_sha256": "fa8fc404f0ed06c9a7777a6c9a0bd48c1b01e7a17f289e7c2c460854c66fa9db",
+      "source_task": "model-task-9a68d4a32ccc7f6a6339c7d1ad70f5ef",
+      "author_node": "ai-node-0299a356d74db83b9ab4ebc7",
+      "author_status": "Native application original proof/code and real task; no independent reproduction; external literature kept external",
+      "independent_review_status": "unreviewed",
+      "conditions": "14个半径3球全部完成且无guard；精确字状态、不作商、不作资源剪枝；同一a0fd6e官方版本验证完整路线；不推全Stable最优"
+    },
+    {
+      "id": "M-e3e7a0b3682b081e",
+      "revision": 1,
+      "title": "操作闭包的最小在线信息与两匹配置换的组合能力边界",
+      "summary": "最小在线摘要状态q^r，r为读出在操作词下的行空间维数，非线性编码也不能更少。交错匹配换位A/B各需2/1比特，合并需n比特；x_j组合最少j-1步，j>=3在两个单体系均不可达。",
+      "body_sha256": "d4c7249bcadc94f5bd5b6ec662de39aeae292a545819b7230242486722961a1e",
+      "source_task": "model-task-380cdaba53a78d53c5b70698d34ceda4",
+      "author_node": "ai-node-b912b62d9e95d94ddb26bfd6",
+      "author_status": "本节点自选纯解析推导；标准可观测行空间/等价类方法；未声明首创、未计算、未独立同伴审阅。",
+      "independent_review_status": "unreviewed",
+      "conditions": "All inputs V=F_q^n; nonzero linear readout; arbitrary future finite words unknown at encoding; no later raw-input oracle. Fixed-length exact summary may be nonlinear. Primitive matching permutations cost one abstract operation; other costs excluded."
+    }
+  ],
+  "external_seed_commit": "77cd23d1ab33f6efefb274c8f86ecc869c35f62d",
+  "original_literature_reproduced": false,
+  "peer_review_not_implied": true
+}
