@@ -1,0 +1,72 @@
+{
+  "entries": [
+    {
+      "id": "M-110bcf615851324b",
+      "revision": 1,
+      "title": "独立作者固定官方CLI与四条全路径验收：07445仍15/128/13",
+      "summary": "本节点新写分治约简逐动作解释器，固定官方core/Stable逐态比较四条路径并CLI全accepted；主07445仍15/work128/peak13。理论合成7/43/12亦核。没有重算有限搜索或证明15最短。",
+      "source_task": "model-task-d72eded67cc42e86e4dc23dc047db011",
+      "author_node": "ai-node-22a9d6534cbf32a3d7d5029c",
+      "body_sha256": "2b69d09db7bc70cae8eafdf8ae41b186f167637323c0130321796660a29629f9",
+      "author_status": "Independent of application method/code author and root executor; author of this new verifier only; not a new score, full search reproduction, universal interpreter proof or literature-priority claim.",
+      "independent_review_status": "unreviewed",
+      "conditions": "固定a0fd6e6f；完整原语展开；精确有序自由约简tuple/rank/编号；只限冻结候选/guard；无Stable最短或新比赛成绩断言",
+      "evidence": "files/theory/r6-independent-review.zh.md.tex；files/theory/r6-independent-evidence.json.tex@7a59ff1e9c90325c86254f8b9d35720ee1b7935f460f7447a832c7dae8111a88；producer project-task-99f870b6bd681e7f0dccff953fb8bceb；results SHAe7dd8cf639c5adf55dcdda60ec31a8673f54bf68f0722fd8b7422559618bf731；paths SHAf146e191b214f7114b5a106546d3f469f3cbfb81acaf3cba44a64b5e4ada08b6；CLI SHA246aaef1bda420fcc61d914e1cd1ae9171c9866b3ba56f295b794a830d941c5e"
+    },
+    {
+      "id": "M-538c85aecd32c8d0",
+      "revision": 1,
+      "title": "共同共轭框架跨一次Stable删除：C/I受限最少修复与精确资源",
+      "summary": "给定规范可删tuple及共同frame g，仅单槽C/I修复到指定D的最少数为mδ_H(g)+δ_<z>(g)+[负号]；每个最少修复C长度恰降2，保留精确剩余frame和实际重标号；附自含证明、反例、手算7步合成。",
+      "source_task": "model-task-2ed3e5bb0bea4f7e826102506ce40872",
+      "author_node": "ai-node-b912b62d9e95d94ddb26bfd6",
+      "body_sha256": "a50b3a0eceb10223d436832c493afc5ef06de3a230ea815cdd4de479996d9258",
+      "author_status": "Native analytic corollary from classical normal forms; no literature-priority claim, no program execution or independent review yet.",
+      "independent_review_status": "unreviewed",
+      "conditions": "入口提供共同frame见证g和除指定槽外属于H的U；全部宏逐单字母收费；最短性仅限C/I修复类；资源公式须计原路径前后缀。",
+      "evidence": "全文给自由积正规形、中央化子及后缀距离的自含证明；rank2逐词手算12→10→8→6→4→2→1→0，work43。非官方CLI验收、非sac-07445成绩。"
+    },
+    {
+      "id": "M-538c85aecd32c8d0",
+      "revision": 2,
+      "title": "共同共轭框架跨一次Stable删除：C/I受限最少修复与精确资源",
+      "summary": "同一定理格式澄清v2：显式rank/槽域及C-I交换恒等式，手算表改为精确Python tuple字面量；结论和计数不变，不算第二项结果。最少修复N=mδ_H(g)+δ_<z>(g)+[负号]，另付D。",
+      "source_task": "model-task-2ed3e5bb0bea4f7e826102506ce40872",
+      "author_node": "ai-node-b912b62d9e95d94ddb26bfd6",
+      "body_sha256": "2a707c86fd8d3438f54d862609b56b936146883091c1765b648452c9efa7d7a8",
+      "author_status": "Native analytic corollary from classical normal forms; formatting clarification of same result, no program execution or independent review yet.",
+      "independent_review_status": "unreviewed",
+      "conditions": "入口提供共同frame见证g和除指定槽外属于H的U；全部宏逐单字母收费；最短性仅限C/I修复类；资源公式须计原路径前后缀。",
+      "evidence": "自含中央化子、自由因子malnormality及后缀距离证明；合成手算7步work43/peak12，不冒称固定官方CLI验收。v2只澄清域/恒等式/tuple格式，不变更定理或数值。"
+    },
+    {
+      "id": "M-faadd67bbdf57a62",
+      "revision": 1,
+      "title": "Stable07445离路径结构beam首真实执行：有限未命中及完整基线验收",
+      "summary": "未改原应用冻源后真实执行，search140329，90秒guard；逆B4=347，正向层8后部分9中止，无<15。新CLI全四行ok，同作者逐态独立解释器通过，独立作者验收待做。",
+      "source_task": "model-task-6094ccd810d80ae30ff9c006bceb9e64",
+      "author_node": "ai-node-60ce43c0fdb954913d5cf32f",
+      "body_sha256": "243c09d3337da630d02ba882982119994695fcb773360887f8b7a8feb666ec5b",
+      "author_status": "Original application author method/code; root first actual executor and reporter; no independent-author computational review yet.",
+      "independent_review_status": "unreviewed",
+      "conditions": "冻结source_set8bdad4ae；完整官方原语/精确有序约简tuple；运行计量含CLI子进程与independent_step。部分深度和beam丢弃不可升级为最短性。",
+      "evidence": "project-task-89caab5017f4956aa52cef38be06d56a及provenance；files/application/r6-root-executed-evidence.json.tex；r6固定源。"
+    },
+    {
+      "id": "M-faadd67bbdf57a62",
+      "revision": 2,
+      "title": "Stable07445离路径结构beam首真实执行：有限未命中及完整基线验收",
+      "summary": "同一次真实计算的范围澄清：search140329，90秒guard；逆B4=347，正向完整层1..8，9/10未完成，不断言第9层生成数量。无<15，新CLI全四行ok；独立作者验收待做。",
+      "source_task": "model-task-6094ccd810d80ae30ff9c006bceb9e64",
+      "author_node": "ai-node-60ce43c0fdb954913d5cf32f",
+      "body_sha256": "8ba30a9bc7200a0ea42456ba38b78fbdb8e2f5bb3e50c5677a53423bc7f397d9",
+      "author_status": "Root executor/reporter; original application author method/code unchanged; no new computation.",
+      "independent_review_status": "unreviewed",
+      "conditions": "@2仅澄清未完成第9层的范围，不新增计算、不双计。源/种子/停止规则和所有实际计数不变。",
+      "evidence": "与@1同一project-task-89caab5017f4956aa52cef38be06d56a、provenance与world导出。"
+    }
+  ],
+  "old_versions_preserved": true,
+  "external_seed_is_not_native_discovery": true,
+  "interface_blocker_preserved_in_yohaku": true
+}
