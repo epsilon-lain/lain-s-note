@@ -1,0 +1,37 @@
+{
+  "kind": "costed-structure-reproduction",
+  "date": "2026-11-17",
+  "native_dispatch": false,
+  "files": [
+    {
+      "path": "README.zh.md",
+      "sha256": "f348653980d166d5fe6a3c9529e796f2f996adc947a795dea9cd3b7f5a468ab7",
+      "bytes": 9919
+    },
+    {
+      "path": "SOURCES-AND-REVIEW.md",
+      "sha256": "accbb15458c31ef1d5b3fb72571d3d7f8e4c164e846db975b7c7870a658d05e2",
+      "bytes": 3395
+    },
+    {
+      "path": "check_matrix.py",
+      "sha256": "94224223d2b079535e5ce983b74e012923c863d34db6dc8b59cb46d78f9b7f95",
+      "bytes": 3807
+    },
+    {
+      "path": "matrix-checks.json",
+      "sha256": "72b2d597f72c2f3a952ff505a514603aee8a6f72d6ff57da17bbb2c9a2069fd9",
+      "bytes": 1398
+    },
+    {
+      "path": "ntt/check_ntt.py",
+      "sha256": "39bbfd33da5b80868ebdfbf690e22444c3d41cc0f873d312309d5853ffa63d0a",
+      "bytes": 11338
+    },
+    {
+      "path": "ntt/checks.json",
+      "sha256": "557839954ca7f5160ce22b17e5a143aa85b30bc033622e2ecd54b2c2ccd82a21",
+      "bytes": 10388
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "field": "F_17",
+  "exhaustive_input_quadruples": 83521,
+  "direct_ledger": {
+    "addition": 16,
+    "subtraction": 0,
+    "multiplication": 32,
+    "division": 0,
+    "arithmetic": 48,
+    "input_reads": 4,
+    "output_writes": 2,
+    "total": 54
+  },
+  "transformed_ledger": {
+    "addition": 4,
+    "subtraction": 3,
+    "multiplication": 8,
+    "division": 2,
+    "arithmetic": 17,
+    "input_reads": 4,
+    "output_writes": 2,
+    "total": 23
+  },
+  "net_saving_per_instance": 31,
+  "constant_two_is_constructed_and_charged": true,
+  "division_note": "Scalar field division is one primitive in BOTH algorithm models; Python modular-inverse implementation is not the counted cost model.",
+  "conversion": "p=a+b,q=a-b,s=u+v,d=u-v (four scalar operations)",
+  "restore": "two sums/differences and two divisions by constructed 2",
+  "extra_instance_information": "none: both two-coordinate maps are bijections",
+  "excluded": [
+    "control/index/comparison overhead",
+    "additional register accesses within scalar instructions",
+    "program-discovery or proof-discovery cost",
+    "wall-clock comparison"
+  ],
+  "general_proof": "T A T^-1 = diag(a+b,a-b), T=[[1,1],[1,-1]]; char !=2",
+  "not_claimed": [
+    "54 is optimal among arbitrary scalar arithmetic algorithms",
+    "competition improvement",
+    "new theorem priority",
+    "native Yohaku execution"
+  ]
+}

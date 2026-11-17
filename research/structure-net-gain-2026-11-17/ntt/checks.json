@@ -1,0 +1,347 @@
+{
+  "status": "all checks passed",
+  "field_modulus": 257,
+  "random_seed": 20261117,
+  "dependencies": "Python standard library only",
+  "operation_model": {
+    "charged": "Every field multiplication, addition, and subtraction, including multiplication by 1 or 0; modular reduction is part of the operation.",
+    "available_task_parameters": "0, 1, n, and fixed field modulus 257",
+    "constant_three": "Generated from 1 with two charged additions on each invocation.",
+    "excluded": "Memory access/copies/allocation, integer indexing, loop control, comparisons, input/output, and input residue normalization.",
+    "normalization_note": "Formal inputs are elements of F_257 represented by canonical residues; signed/out-of-range structured tests also exercise an uncharged input adapter."
+  },
+  "formulas": {
+    "naive_multiplications": "n^2",
+    "naive_additions": "n(n-1)",
+    "naive_total": "2n^2-n",
+    "ntt_multiplications": "(3/2)n log2(n)+3n+20",
+    "ntt_additions_and_subtractions": "3n log2(n)+2",
+    "ntt_total_primary": "(9/2)n log2(n)+3n+22",
+    "setup_multiplications": "8+14+(n-2)=n+20",
+    "setup_additions": "2"
+  },
+  "correctness_scope": {
+    "random_checks": "Deterministic checks of sampled inputs; not an independent general proof.",
+    "basis_checks": "For n=16, all 256 pairs of standard basis vectors agree with the exact cyclic-convolution answer. Given bilinearity of both implementations, this establishes equality of the fixed-size maps on all F_257 inputs.",
+    "general_identity": "For omega of order n, T_omega(a*b)=T_omega(a) pointwise-multiplied by T_omega(b); inverse is n^(-1) T_(omega^(-1)).",
+    "comparison_limit": "Counts compare these two algorithms, not an unrestricted lower bound or a wall-clock benchmark."
+  },
+  "memory": "Recursive code: O(n) peak live field-element storage, O(n log n) total allocation, O(log n) recursion depth. Iterative in-place radix-two transforms can retain O(n) field storage including vectors and twiddles; memory work is excluded from the arithmetic ledger.",
+  "results": [
+    {
+      "n": 16,
+      "log2_n": 4,
+      "status": "passed",
+      "structured_pairs": 9,
+      "random_pairs": 100,
+      "basis_pairs": 256,
+      "total_pairs": 365,
+      "constants": {
+        "omega": 249,
+        "inverse_n": 241,
+        "ladder": {
+          "1": 3,
+          "2": 9,
+          "4": 81,
+          "8": 136,
+          "16": 249,
+          "32": 64,
+          "64": 241,
+          "128": 256,
+          "256": 1
+        }
+      },
+      "naive_ledger": {
+        "multiplications": 256,
+        "additions": 240,
+        "subtractions": 0,
+        "additions_and_subtractions": 240,
+        "total": 496
+      },
+      "ntt_ledger_primary": {
+        "multiplications": 164,
+        "additions": 98,
+        "subtractions": 96,
+        "additions_and_subtractions": 194,
+        "total": 358
+      },
+      "ntt_total_if_three_is_supplied": 356,
+      "net_field_operation_saving": 138,
+      "ntt_stage_ledgers": {
+        "generate_constant_three": {
+          "multiplications": 0,
+          "additions": 2,
+          "subtractions": 0,
+          "additions_and_subtractions": 2,
+          "total": 2
+        },
+        "root_ladder_and_verification": {
+          "multiplications": 8,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 8
+        },
+        "inverse_n_exponentiation": {
+          "multiplications": 14,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 14
+        },
+        "full_twiddle_table": {
+          "multiplications": 14,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 14
+        },
+        "forward_transform_a": {
+          "multiplications": 32,
+          "additions": 32,
+          "subtractions": 32,
+          "additions_and_subtractions": 64,
+          "total": 96
+        },
+        "forward_transform_b": {
+          "multiplications": 32,
+          "additions": 32,
+          "subtractions": 32,
+          "additions_and_subtractions": 64,
+          "total": 96
+        },
+        "pointwise_product": {
+          "multiplications": 16,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 16
+        },
+        "inverse_transform_unscaled": {
+          "multiplications": 32,
+          "additions": 32,
+          "subtractions": 32,
+          "additions_and_subtractions": 64,
+          "total": 96
+        },
+        "inverse_normalization": {
+          "multiplications": 16,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 16
+        }
+      }
+    },
+    {
+      "n": 32,
+      "log2_n": 5,
+      "status": "passed",
+      "structured_pairs": 9,
+      "random_pairs": 100,
+      "basis_pairs": 0,
+      "total_pairs": 109,
+      "constants": {
+        "omega": 136,
+        "inverse_n": 249,
+        "ladder": {
+          "1": 3,
+          "2": 9,
+          "4": 81,
+          "8": 136,
+          "16": 249,
+          "32": 64,
+          "64": 241,
+          "128": 256,
+          "256": 1
+        }
+      },
+      "naive_ledger": {
+        "multiplications": 1024,
+        "additions": 992,
+        "subtractions": 0,
+        "additions_and_subtractions": 992,
+        "total": 2016
+      },
+      "ntt_ledger_primary": {
+        "multiplications": 356,
+        "additions": 242,
+        "subtractions": 240,
+        "additions_and_subtractions": 482,
+        "total": 838
+      },
+      "ntt_total_if_three_is_supplied": 836,
+      "net_field_operation_saving": 1178,
+      "ntt_stage_ledgers": {
+        "generate_constant_three": {
+          "multiplications": 0,
+          "additions": 2,
+          "subtractions": 0,
+          "additions_and_subtractions": 2,
+          "total": 2
+        },
+        "root_ladder_and_verification": {
+          "multiplications": 8,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 8
+        },
+        "inverse_n_exponentiation": {
+          "multiplications": 14,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 14
+        },
+        "full_twiddle_table": {
+          "multiplications": 30,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 30
+        },
+        "forward_transform_a": {
+          "multiplications": 80,
+          "additions": 80,
+          "subtractions": 80,
+          "additions_and_subtractions": 160,
+          "total": 240
+        },
+        "forward_transform_b": {
+          "multiplications": 80,
+          "additions": 80,
+          "subtractions": 80,
+          "additions_and_subtractions": 160,
+          "total": 240
+        },
+        "pointwise_product": {
+          "multiplications": 32,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 32
+        },
+        "inverse_transform_unscaled": {
+          "multiplications": 80,
+          "additions": 80,
+          "subtractions": 80,
+          "additions_and_subtractions": 160,
+          "total": 240
+        },
+        "inverse_normalization": {
+          "multiplications": 32,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 32
+        }
+      }
+    },
+    {
+      "n": 64,
+      "log2_n": 6,
+      "status": "passed",
+      "structured_pairs": 9,
+      "random_pairs": 100,
+      "basis_pairs": 0,
+      "total_pairs": 109,
+      "constants": {
+        "omega": 81,
+        "inverse_n": 253,
+        "ladder": {
+          "1": 3,
+          "2": 9,
+          "4": 81,
+          "8": 136,
+          "16": 249,
+          "32": 64,
+          "64": 241,
+          "128": 256,
+          "256": 1
+        }
+      },
+      "naive_ledger": {
+        "multiplications": 4096,
+        "additions": 4032,
+        "subtractions": 0,
+        "additions_and_subtractions": 4032,
+        "total": 8128
+      },
+      "ntt_ledger_primary": {
+        "multiplications": 788,
+        "additions": 578,
+        "subtractions": 576,
+        "additions_and_subtractions": 1154,
+        "total": 1942
+      },
+      "ntt_total_if_three_is_supplied": 1940,
+      "net_field_operation_saving": 6186,
+      "ntt_stage_ledgers": {
+        "generate_constant_three": {
+          "multiplications": 0,
+          "additions": 2,
+          "subtractions": 0,
+          "additions_and_subtractions": 2,
+          "total": 2
+        },
+        "root_ladder_and_verification": {
+          "multiplications": 8,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 8
+        },
+        "inverse_n_exponentiation": {
+          "multiplications": 14,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 14
+        },
+        "full_twiddle_table": {
+          "multiplications": 62,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 62
+        },
+        "forward_transform_a": {
+          "multiplications": 192,
+          "additions": 192,
+          "subtractions": 192,
+          "additions_and_subtractions": 384,
+          "total": 576
+        },
+        "forward_transform_b": {
+          "multiplications": 192,
+          "additions": 192,
+          "subtractions": 192,
+          "additions_and_subtractions": 384,
+          "total": 576
+        },
+        "pointwise_product": {
+          "multiplications": 64,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 64
+        },
+        "inverse_transform_unscaled": {
+          "multiplications": 192,
+          "additions": 192,
+          "subtractions": 192,
+          "additions_and_subtractions": 384,
+          "total": 576
+        },
+        "inverse_normalization": {
+          "multiplications": 64,
+          "additions": 0,
+          "subtractions": 0,
+          "additions_and_subtractions": 0,
+          "total": 64
+        }
+      }
+    }
+  ]
+}
