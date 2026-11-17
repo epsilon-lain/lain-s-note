@@ -1,0 +1,22 @@
+{
+  "kind": "proof-reconstruction-lemma-and-development-scan",
+  "native_dispatch": false,
+  "official_challenge_improvement": false,
+  "files": [
+    {
+      "path": "README.zh.md",
+      "bytes": 5949,
+      "sha256": "e460dd2b687d1d89f521ee222e9ceba12f0b8768b97680e0f078145bfb1755f6"
+    },
+    {
+      "path": "check_rule.py",
+      "bytes": 18396,
+      "sha256": "e6084d3d1ceef7d4fe83534a8a1f139e0d26837ffe660ee3a8d29f6234221518"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 70815,
+      "sha256": "691e9152981249af8287db1c9915b2090670819cfa82664ff603e64cec2f113e"
+    }
+  ]
+}
