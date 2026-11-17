@@ -1,5 +1,7 @@
 # lain-s-note
 
+- [概念转换与目标信息：原团队增补研究（2026-11-17）](research/concept-transformations-2026-11-17/README.md)：独立集原像、辅助编码与查询分离、商路线提升条件；附真实有限核验、Stable07445搜索负结果及保留停止记录的接续过程。
+
 - [概念复用费用与 Stable 最短性：11月17日外部补充复核](research/concept-reuse-cost-2026-11-16/review-2026-11-17/README.md)：pair-AND一般证明审阅及独立小检查通过；另补齐Stable08491最短10步的独立完整复核，保留原生总负责人中断记录。
 
 - [概念定义费用与复用收益：原团队第二轮理论及比赛负结果（2026-11-16）](research/concept-reuse-cost-2026-11-16/README.md)：二元合取的精确匹配公式、次模边界及贪心反例；附 Stable 真实搜索、作者证书与独立复核未完成的明确范围。
