@@ -1,0 +1,493 @@
+{
+  "status": "passed",
+  "model": "N[x]; free 0,1,x; binary +,*; unit gate count; free reuse",
+  "scope": "finite exact BFS plus symbolic witness checks; general lower bounds are mathematical proofs",
+  "searches": [
+    {
+      "name": "mixed_x_squared_plus_x",
+      "target_coefficients": [
+        0,
+        1,
+        1
+      ],
+      "allowed": [
+        "+",
+        "*"
+      ],
+      "max_gates": 2,
+      "first_found": 2,
+      "excluded_through": 1,
+      "layer_state_counts": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "mixed_shifted_square",
+      "target_coefficients": [
+        1,
+        2,
+        1
+      ],
+      "allowed": [
+        "+",
+        "*"
+      ],
+      "max_gates": 2,
+      "first_found": 2,
+      "excluded_through": 1,
+      "layer_state_counts": [
+        1,
+        4,
+        17
+      ]
+    },
+    {
+      "name": "mixed_shifted_fourth",
+      "target_coefficients": [
+        1,
+        4,
+        6,
+        4,
+        1
+      ],
+      "allowed": [
+        "+",
+        "*"
+      ],
+      "max_gates": 3,
+      "first_found": 3,
+      "excluded_through": 2,
+      "layer_state_counts": [
+        1,
+        4,
+        24,
+        195
+      ]
+    },
+    {
+      "name": "mixed_16x",
+      "target_coefficients": [
+        0,
+        16
+      ],
+      "allowed": [
+        "+",
+        "*"
+      ],
+      "max_gates": 4,
+      "first_found": 4,
+      "excluded_through": 3,
+      "layer_state_counts": [
+        1,
+        3,
+        12,
+        65,
+        450
+      ]
+    },
+    {
+      "name": "mixed_256x_exclude_up_to_4",
+      "target_coefficients": [
+        0,
+        256
+      ],
+      "allowed": [
+        "+",
+        "*"
+      ],
+      "max_gates": 4,
+      "first_found": null,
+      "excluded_through": 4,
+      "layer_state_counts": [
+        1,
+        3,
+        12,
+        65,
+        468
+      ]
+    },
+    {
+      "name": "plus_16x",
+      "target_coefficients": [
+        0,
+        16
+      ],
+      "allowed": [
+        "+"
+      ],
+      "max_gates": 4,
+      "first_found": 4,
+      "excluded_through": 3,
+      "layer_state_counts": [
+        1,
+        3,
+        12,
+        61,
+        388
+      ]
+    }
+  ],
+  "linear_witness_checks": [
+    {
+      "k": 2,
+      "alpha_decimal": "16",
+      "mixed_gate_count": 4,
+      "plus_gate_count": 4,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 3,
+      "alpha_decimal": "256",
+      "mixed_gate_count": 5,
+      "plus_gate_count": 8,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 4,
+      "alpha_decimal": "65536",
+      "mixed_gate_count": 6,
+      "plus_gate_count": 16,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          6
+        ],
+        [
+          "*",
+          7,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 5,
+      "alpha_decimal": "4294967296",
+      "mixed_gate_count": 7,
+      "plus_gate_count": 32,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          6
+        ],
+        [
+          "*",
+          7,
+          7
+        ],
+        [
+          "*",
+          8,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 6,
+      "alpha_decimal": "18446744073709551616",
+      "mixed_gate_count": 8,
+      "plus_gate_count": 64,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          6
+        ],
+        [
+          "*",
+          7,
+          7
+        ],
+        [
+          "*",
+          8,
+          8
+        ],
+        [
+          "*",
+          9,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 7,
+      "alpha_decimal": "340282366920938463463374607431768211456",
+      "mixed_gate_count": 9,
+      "plus_gate_count": 128,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          6
+        ],
+        [
+          "*",
+          7,
+          7
+        ],
+        [
+          "*",
+          8,
+          8
+        ],
+        [
+          "*",
+          9,
+          9
+        ],
+        [
+          "*",
+          10,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    },
+    {
+      "k": 8,
+      "alpha_decimal": "115792089237316195423570985008687907853269984665640564039457584007913129639936",
+      "mixed_gate_count": 10,
+      "plus_gate_count": 256,
+      "mixed_witness": [
+        [
+          "+",
+          1,
+          1
+        ],
+        [
+          "*",
+          3,
+          3
+        ],
+        [
+          "*",
+          4,
+          4
+        ],
+        [
+          "*",
+          5,
+          5
+        ],
+        [
+          "*",
+          6,
+          6
+        ],
+        [
+          "*",
+          7,
+          7
+        ],
+        [
+          "*",
+          8,
+          8
+        ],
+        [
+          "*",
+          9,
+          9
+        ],
+        [
+          "*",
+          10,
+          10
+        ],
+        [
+          "*",
+          11,
+          2
+        ]
+      ],
+      "polynomial_identity_verified": true
+    }
+  ],
+  "shifted_power_witness_checks": [
+    {
+      "k": 1,
+      "degree": 2,
+      "gates": 2,
+      "nonzero_expanded_coefficients": 3,
+      "identity_verified": true
+    },
+    {
+      "k": 2,
+      "degree": 4,
+      "gates": 3,
+      "nonzero_expanded_coefficients": 5,
+      "identity_verified": true
+    },
+    {
+      "k": 3,
+      "degree": 8,
+      "gates": 4,
+      "nonzero_expanded_coefficients": 9,
+      "identity_verified": true
+    },
+    {
+      "k": 4,
+      "degree": 16,
+      "gates": 5,
+      "nonzero_expanded_coefficients": 17,
+      "identity_verified": true
+    },
+    {
+      "k": 5,
+      "degree": 32,
+      "gates": 6,
+      "nonzero_expanded_coefficients": 33,
+      "identity_verified": true
+    },
+    {
+      "k": 6,
+      "degree": 64,
+      "gates": 7,
+      "nonzero_expanded_coefficients": 65,
+      "identity_verified": true
+    }
+  ],
+  "k_1_linear_exception_verified": true,
+  "not_claimed": [
+    "bit-complexity speedup",
+    "novel theorem priority",
+    "AC competition improvement",
+    "native Yohaku execution"
+  ]
+}
