@@ -1,0 +1,13 @@
+{
+  "schema": "concept-transformations-external-review/1",
+  "review_date": "2026-11-17",
+  "source_repository": "epsilon-lain/lain-s-note",
+  "source_commit": "43c3c2e9b026cb098f9c33d338a3bd2be34c24b5",
+  "source_native_repository": "epsilon-lain/yohaku",
+  "source_native_commit": "b28fab89c3ed32ec8a201f93ceb31cb4ef897820",
+  "review_identity": "new external supplementary proof review and independent small implementations",
+  "original_native_records_modified": false,
+  "uploaded_native_programs_executed": false,
+  "literature_priority_certified": false,
+  "full_native_n5_pair_or_n4_quotient_rerun": false
+}

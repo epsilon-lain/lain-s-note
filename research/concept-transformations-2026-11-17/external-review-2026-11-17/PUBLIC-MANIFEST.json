@@ -1,0 +1,46 @@
+{
+  "schema": "concept-transformations-review-files/1",
+  "scope": "All other files in this new external review directory; original native evidence unchanged.",
+  "files": [
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 616,
+      "sha256": "cfcaf5d5e9db751f031bcfb1c33fd85a193e6bf2453bfecd82f688e2b9e080ee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4180,
+      "sha256": "7daa0f0611e7e086d8b652120ba2bb90765890443e58a08137d249744b3b6278"
+    },
+    {
+      "path": "pair/check_pair_inverse.py",
+      "bytes": 5953,
+      "sha256": "4571d23cfd543a1b8bbc0965d64ee64abb876ffdde7a809efd210735f041e448"
+    },
+    {
+      "path": "pair/external_check_results.json",
+      "bytes": 1961,
+      "sha256": "7810b309c962a241579af1f1c3442241e676ffc8355ee5372543bb4b32d0df79"
+    },
+    {
+      "path": "pair/pair_inverse_external_review.zh.md",
+      "bytes": 8316,
+      "sha256": "557a960d5bdb4ba0d4c0fb531af5457e96251f7f0bcbf89060511b96896c2585"
+    },
+    {
+      "path": "quotient/quotient_check.json",
+      "bytes": 4155,
+      "sha256": "1746ffa2619745c536f21dbd74aeeb5c9611e8f3f885f894dfcab32c42dbf076"
+    },
+    {
+      "path": "quotient/quotient_independent_check.py",
+      "bytes": 8279,
+      "sha256": "9a83f913001c534470d74dec834433bd3726b1f9b241455533c2db3b4b5adc54"
+    },
+    {
+      "path": "quotient/round3-quotient-external-review.zh.md",
+      "bytes": 5957,
+      "sha256": "5b5eeac5c60ce302937a9366f77c3a024f28db22c11545b78fe6a19b2a9b3e44"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "stage": "external_round3_bounded_quotient_review",
+  "reviewed_commit": "43c3c2e9b026cb098f9c33d338a3bd2be34c24b5",
+  "scope": "Independent stdlib implementation; n=1..3 exhaustive loop-free directed graphs; all set partitions, sources, saturated targets; walks length 0..4 and all actual targets. Two explicit n=3/4 examples only. n=4 full counts are formulas, not a rerun.",
+  "methods": [
+    "Floyd-Warshall",
+    "Cartesian complete concrete trajectories",
+    "partitions deduplicated from all arbitrary maps"
+  ],
+  "passed": true,
+  "counts_by_n": [
+    {
+      "n": 1,
+      "graphs": 1,
+      "graph_partitions": 1,
+      "local_graph_partitions": 1,
+      "distance_checks": 2,
+      "strict_optimistic_distances": 0,
+      "local_distance_equalities": 2,
+      "raw_tree_walks": 1,
+      "route_endpoint_checks": 1,
+      "spurious_routes": 0,
+      "local_routes": 1,
+      "backward_target_checks": 2,
+      "bounded_lifting_equivalence_checks": 1
+    },
+    {
+      "n": 2,
+      "graphs": 4,
+      "graph_partitions": 8,
+      "local_graph_partitions": 6,
+      "distance_checks": 48,
+      "strict_optimistic_distances": 0,
+      "local_distance_equalities": 40,
+      "raw_tree_walks": 36,
+      "route_endpoint_checks": 50,
+      "spurious_routes": 14,
+      "local_routes": 30,
+      "backward_target_checks": 200,
+      "bounded_lifting_equivalence_checks": 8
+    },
+    {
+      "n": 3,
+      "graphs": 64,
+      "graph_partitions": 320,
+      "local_graph_partitions": 140,
+      "distance_checks": 4224,
+      "strict_optimistic_distances": 96,
+      "local_distance_equalities": 2280,
+      "raw_tree_walks": 5760,
+      "route_endpoint_checks": 7662,
+      "spurious_routes": 2895,
+      "local_routes": 2430,
+      "backward_target_checks": 61296,
+      "bounded_lifting_equivalence_checks": 320
+    }
+  ],
+  "counts_n_le_3": {
+    "graphs": 69,
+    "graph_partitions": 329,
+    "local_graph_partitions": 147,
+    "distance_checks": 4274,
+    "strict_optimistic_distances": 96,
+    "local_distance_equalities": 2322,
+    "raw_tree_walks": 5797,
+    "route_endpoint_checks": 7713,
+    "spurious_routes": 2909,
+    "local_routes": 2461,
+    "backward_target_checks": 61498,
+    "bounded_lifting_equivalence_checks": 329
+  },
+  "formula_only_n_le_4": [
+    {
+      "n": 1,
+      "graphs": 1,
+      "graph_partitions": 1,
+      "distance_checks": 2
+    },
+    {
+      "n": 2,
+      "graphs": 4,
+      "graph_partitions": 8,
+      "distance_checks": 48
+    },
+    {
+      "n": 3,
+      "graphs": 64,
+      "graph_partitions": 320,
+      "distance_checks": 4224
+    },
+    {
+      "n": 4,
+      "graphs": 4096,
+      "graph_partitions": 61440,
+      "distance_checks": 1540096
+    }
+  ],
+  "matches_author_route_aggregates": {
+    "raw_tree_walks": 5797,
+    "route_endpoint_checks": 7713,
+    "local_routes": 2461,
+    "backward_target_checks": 61498,
+    "spurious_routes": 2909
+  },
+  "examples": [
+    {
+      "name": "three_state_single_edge",
+      "edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "representation": [
+        0,
+        0,
+        1
+      ],
+      "source": 0,
+      "quotient_route": [
+        0,
+        1
+      ],
+      "target": [
+        2
+      ],
+      "quotient_route_exists": true,
+      "concrete_lift_exists": false
+    },
+    {
+      "name": "four_state_incompatible_middle",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "representation": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "source": 0,
+      "quotient_route": [
+        0,
+        1,
+        2
+      ],
+      "target": [
+        3
+      ],
+      "quotient_route_exists": true,
+      "concrete_lift_exists": false
+    }
+  ],
+  "limitations": [
+    "No execution of uploaded/frozen author source",
+    "No full n=4 independent rerun",
+    "No external task/provenance authentication",
+    "No labels, resource history, application benchmark or official CLI",
+    "Bounded experiment supports but does not prove general theorem"
+  ],
+  "script_sha256": "9a83f913001c534470d74dec834433bd3726b1f9b241455533c2db3b4b5adc54"
+}

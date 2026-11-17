@@ -1,5 +1,7 @@
 # lain-s-note
 
+- [概念转换：外部证明审阅与独立小检查（2026-11-17）](research/concept-transformations-2026-11-17/external-review-2026-11-17/README.md)：复核目标信息恢复与商路线提升条件；分清辅助消息、直接查询和合法解码，原生应用仍未缩步。
+
 - [概念转换与目标信息：原团队增补研究（2026-11-17）](research/concept-transformations-2026-11-17/README.md)：独立集原像、辅助编码与查询分离、商路线提升条件；附真实有限核验、Stable07445搜索负结果及保留停止记录的接续过程。
 
 - [概念复用费用与 Stable 最短性：11月17日外部补充复核](research/concept-reuse-cost-2026-11-16/review-2026-11-17/README.md)：pair-AND一般证明审阅及独立小检查通过；另补齐Stable08491最短10步的独立完整复核，保留原生总负责人中断记录。
