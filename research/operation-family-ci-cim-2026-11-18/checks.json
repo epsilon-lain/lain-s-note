@@ -1,0 +1,1472 @@
+{
+  "official_commit": "a0fd6e6f52d82c93ccc06ab91d81e8fa3678256e",
+  "official_blobs": {
+    "canon": "93175152acd876566ff60bbfaf7cd90cd8cd2fa9",
+    "core": "0a5da5fe6e3e42c96877734dad46b155a69c02b2",
+    "stable_core": "af48e32f766dbcd0cad0becd8c1c4edb4358efac"
+  },
+  "cases": 66,
+  "prefix_sequences_per_case": 211,
+  "route_verifications": 132,
+  "official_apply": 17436,
+  "four_step_moves": [
+    4,
+    12,
+    5,
+    16
+  ],
+  "results": [
+    {
+      "L": 1,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        1,
+        6
+      ],
+      "CI": {
+        "ok": true,
+        "length": 2,
+        "peak_total_relator_length": 4,
+        "work": 7,
+        "certificate_hash": "sha256:74dbccd0e8c87bd7581dadf3534be437ef6bfeba354c8e37d3080d53bde27db8"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 4,
+        "work": 13,
+        "certificate_hash": "sha256:e2b27590d10b9581276fb18f6a2b21f956dca77f9926b954a3f0ca15c69f596e"
+      }
+    },
+    {
+      "L": 2,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        1
+      ],
+      "CI": {
+        "ok": true,
+        "length": 3,
+        "peak_total_relator_length": 7,
+        "work": 17,
+        "certificate_hash": "sha256:c3cee58a0f9ab3c6d5046acee8265e89bc771e4b4ed1686b95740adbc9bf5b81"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 7,
+        "work": 22,
+        "certificate_hash": "sha256:df8c0d10897b8c6d52539de49500122ee5ccc8ac665b7f9a4f05892b918e400a"
+      }
+    },
+    {
+      "L": 3,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 10,
+        "work": 31,
+        "certificate_hash": "sha256:6754406aca8102123ab33c6f938c9e76fbad71d34a80ce9875d7bd495fa4b76f"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 10,
+        "work": 31,
+        "certificate_hash": "sha256:739544e6a54e8bd1572b3cd4555cca3f35119a402b41aac06d8f3f8850100a46"
+      }
+    },
+    {
+      "L": 4,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 5,
+        "peak_total_relator_length": 13,
+        "work": 49,
+        "certificate_hash": "sha256:bc976f609ab59cbab24912be2a28acd95e061a72eb711cb6739beab6fee61541"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 13,
+        "work": 40,
+        "certificate_hash": "sha256:207d210613ddb2d246dd2783bd7fd0be22af352bb2a3d29f7c61a07668c8d105"
+      }
+    },
+    {
+      "L": 5,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 6,
+        "peak_total_relator_length": 16,
+        "work": 71,
+        "certificate_hash": "sha256:4d5824eaa3a39929998d22979c98cc10f169e930debea1ca2006d825e2ce7b28"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 16,
+        "work": 49,
+        "certificate_hash": "sha256:112edea275c85af15024670de0750dc7a4574573c04a6750418cd2e559c15c2e"
+      }
+    },
+    {
+      "L": 6,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 7,
+        "peak_total_relator_length": 19,
+        "work": 97,
+        "certificate_hash": "sha256:0b52219f0c978ade615a52bdfd35c4aba3ec24c6df10c3ad0dbf0f3626522859"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 19,
+        "work": 58,
+        "certificate_hash": "sha256:c66b2267d49162d4b4ee5479a5092a6a59905d88297cc4ea09db960851bfb509"
+      }
+    },
+    {
+      "L": 7,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 8,
+        "peak_total_relator_length": 22,
+        "work": 127,
+        "certificate_hash": "sha256:4414f953e9c027c02ed17d5ecc920533bdbb78e3c07c288c98a0a859ba06e235"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 22,
+        "work": 67,
+        "certificate_hash": "sha256:407bf423d31eba05a9436e0f04b694f8b8763b5f198e4e1ae7b05d37d4ca2143"
+      }
+    },
+    {
+      "L": 8,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 9,
+        "peak_total_relator_length": 25,
+        "work": 161,
+        "certificate_hash": "sha256:77386a9758a90bc078c008543a8e6704eacd204fcf246cf2c724c732f1e00eb4"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 25,
+        "work": 76,
+        "certificate_hash": "sha256:468e655a998f241622edfca15b3af3c370965f39bf6a9ff125c94aacdeedd834"
+      }
+    },
+    {
+      "L": 9,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 10,
+        "peak_total_relator_length": 28,
+        "work": 199,
+        "certificate_hash": "sha256:05b277427f1af26f93bf7fb0beec7cada2f766cbf32b10cdc2775c85614f52c7"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 28,
+        "work": 85,
+        "certificate_hash": "sha256:459ab64153c43b5fd04e56f8dc15e16ad24594b9565dbe6de0e3be7fab42cc62"
+      }
+    },
+    {
+      "L": 10,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 11,
+        "peak_total_relator_length": 31,
+        "work": 241,
+        "certificate_hash": "sha256:f201279484da203df8a40cf95ae1ef20c2a5c5a9995a6360f570a467a11a0054"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 31,
+        "work": 94,
+        "certificate_hash": "sha256:176ed7444d80d9aaf3a8c0db365b5020120418ff2c338db61afe96b2630c5a09"
+      }
+    },
+    {
+      "L": 11,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 12,
+        "peak_total_relator_length": 34,
+        "work": 287,
+        "certificate_hash": "sha256:ff56e90aa60f5c1714f2327e0f003c8c19bf6c17e99cce39a54f515ab8f49d8a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 34,
+        "work": 103,
+        "certificate_hash": "sha256:cfb8e294fe926fadadd4a747c02e4aea23f66db88c317ef959b06097debb3288"
+      }
+    },
+    {
+      "L": 12,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 13,
+        "peak_total_relator_length": 37,
+        "work": 337,
+        "certificate_hash": "sha256:eab6e6047b1e668893cf8f59bd0581360eb4c48463cca583246b119dd4333885"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 37,
+        "work": 112,
+        "certificate_hash": "sha256:2ae19895065063a854bacbf46f7fb8cf2e8a3e2936e0d6a7a32ea92c8612b641"
+      }
+    },
+    {
+      "L": 13,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 14,
+        "peak_total_relator_length": 40,
+        "work": 391,
+        "certificate_hash": "sha256:1c4e89a2a08e123ee7681f3759d493fa68d00a9410c814f18921e3a863a0af89"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 40,
+        "work": 121,
+        "certificate_hash": "sha256:a7ab69bc6bd7c529312c6dd48044a81ff47450a84ae1d14693d37d27b3562178"
+      }
+    },
+    {
+      "L": 14,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 15,
+        "peak_total_relator_length": 43,
+        "work": 449,
+        "certificate_hash": "sha256:00cfc0cc7f7fd8d8ad5623a4db5c43f375d3e6dfee41d7c23ae0d9e628a67038"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 43,
+        "work": 130,
+        "certificate_hash": "sha256:486bfd2532f5336e9c8fa8b8673eff7b09be3105bc4623cc6969a0808ca2b2d6"
+      }
+    },
+    {
+      "L": 15,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 16,
+        "peak_total_relator_length": 46,
+        "work": 511,
+        "certificate_hash": "sha256:0304b76a918e2062a51b612cec587d6eee77c678013d3a1606a1a570abfea101"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 46,
+        "work": 139,
+        "certificate_hash": "sha256:41af06112a619458cc5cf9757fc057bfc6f33ac183188c5d4428c845c52af613"
+      }
+    },
+    {
+      "L": 16,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 17,
+        "peak_total_relator_length": 49,
+        "work": 577,
+        "certificate_hash": "sha256:15d3fd2ec0f304eaaa79f14e1d2ce60a4fa1776af1b89dfcad79ac4709e8d502"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 49,
+        "work": 148,
+        "certificate_hash": "sha256:fa97b9e0ae50006f4668c77cb80891f7d75fd5a6a586d6096d5d335f4a37919b"
+      }
+    },
+    {
+      "L": 17,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 18,
+        "peak_total_relator_length": 52,
+        "work": 647,
+        "certificate_hash": "sha256:7e1f748a6d7b95db3ddf786ac304b535e8653fa010cdc76618cdd0a75b63479a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 52,
+        "work": 157,
+        "certificate_hash": "sha256:e6b4eb3256f7d085f3a6b5d85407ec4f89253777dbd1d28fb9356d9e24dc6555"
+      }
+    },
+    {
+      "L": 18,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 19,
+        "peak_total_relator_length": 55,
+        "work": 721,
+        "certificate_hash": "sha256:19d8eb120db0c1de99232319c61d3727f52624f9a0f3c956dfed0a96c3fba569"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 55,
+        "work": 166,
+        "certificate_hash": "sha256:b64948744b4bab231db9673a3faa1ff298559fc4a9503dc34552d6993d8d5d4a"
+      }
+    },
+    {
+      "L": 19,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 20,
+        "peak_total_relator_length": 58,
+        "work": 799,
+        "certificate_hash": "sha256:5e81e8621ebeb7a6ef1ce2545154afe701154a738692b6022c15ee31fd664bd2"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 58,
+        "work": 175,
+        "certificate_hash": "sha256:934e6c47a693d8d50d6051cc7b8f360b969b7cf884c3c284ab39a645b10f4dcb"
+      }
+    },
+    {
+      "L": 20,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 21,
+        "peak_total_relator_length": 61,
+        "work": 881,
+        "certificate_hash": "sha256:a8543dd802d2947f61af80e7079088212643eedc91ac41ce0884876dad852f0b"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 61,
+        "work": 184,
+        "certificate_hash": "sha256:26c30ca88c43f088bfd8dcf954c5a5d9dd2b4cd0d2c5a637be13063d6e12e306"
+      }
+    },
+    {
+      "L": 21,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 22,
+        "peak_total_relator_length": 64,
+        "work": 967,
+        "certificate_hash": "sha256:0eb9e667f8bdffaf14971506e852234ef2c15fee7b9908405d359425f3d9bd6d"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 64,
+        "work": 193,
+        "certificate_hash": "sha256:bded2d1dbf7aa062c0ce9adc3cc2e6fae440e8e3c85a85e857b5a7f1e1db97fa"
+      }
+    },
+    {
+      "L": 22,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 23,
+        "peak_total_relator_length": 67,
+        "work": 1057,
+        "certificate_hash": "sha256:b443c4975ce8f007bf3524a86de694a5236755e666ea2c427deff555e22d4db1"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 67,
+        "work": 202,
+        "certificate_hash": "sha256:4701f438fa25e4e09072610753c3a0b996dfa61fac8fdbd79701a15f795362e1"
+      }
+    },
+    {
+      "L": 23,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 24,
+        "peak_total_relator_length": 70,
+        "work": 1151,
+        "certificate_hash": "sha256:17e285bc43f4337395cdfcf17724c987141afcc694ded241e6ee9c5a2c42c393"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 70,
+        "work": 211,
+        "certificate_hash": "sha256:78994a147472a7452abc5b2d1c47d3e038ad62062a697a38974c96d7102f9a5e"
+      }
+    },
+    {
+      "L": 24,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 25,
+        "peak_total_relator_length": 73,
+        "work": 1249,
+        "certificate_hash": "sha256:6275008e48182c3b10c056fcbb7216fe8bc7595f64f286a2d49945f036ac99fa"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 73,
+        "work": 220,
+        "certificate_hash": "sha256:8f9d3f22fb2322c75e58cb3e0c2980e996c612fc9b5720ea8d364c64e01a4550"
+      }
+    },
+    {
+      "L": 25,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 26,
+        "peak_total_relator_length": 76,
+        "work": 1351,
+        "certificate_hash": "sha256:bdb75698aba5e9e8785971548eb2ca59aa541e75390eefc26714755384ab305e"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 76,
+        "work": 229,
+        "certificate_hash": "sha256:4c58989617cafedd402c28270f4369b536db852bc814a119556a9447d7a09c3d"
+      }
+    },
+    {
+      "L": 26,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 27,
+        "peak_total_relator_length": 79,
+        "work": 1457,
+        "certificate_hash": "sha256:44ebb9d309ebf98ed62b1b41786aa8432117723a113b8ff14d7b8795bf540f15"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 79,
+        "work": 238,
+        "certificate_hash": "sha256:bd39904744524ae3f217eff039c7452574abfcc60608bd6859dc3aacbdef3c2e"
+      }
+    },
+    {
+      "L": 27,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 28,
+        "peak_total_relator_length": 82,
+        "work": 1567,
+        "certificate_hash": "sha256:3013dc6e7fe4b985e84e028f9b9a614cd797c4ba718b4f5c03e13cc2ce0389e7"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 82,
+        "work": 247,
+        "certificate_hash": "sha256:118a998a72f43e92c1063ddfbde3cb12bc6ab82bbe428fbf9becc2de727ae275"
+      }
+    },
+    {
+      "L": 28,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 29,
+        "peak_total_relator_length": 85,
+        "work": 1681,
+        "certificate_hash": "sha256:d7035733de6cae7d14ed02e90e773eff21bf4109cfc4e3ea378da5644a7fc5d6"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 85,
+        "work": 256,
+        "certificate_hash": "sha256:2498a020b89cf66a261ad8310c346ae213dbd69bee591e6df75e177bd6f0d937"
+      }
+    },
+    {
+      "L": 29,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 30,
+        "peak_total_relator_length": 88,
+        "work": 1799,
+        "certificate_hash": "sha256:0d24f6a655709c5374af748c5362b8de1fd370f88bed9b3a4bc0cc5611f8a04a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 88,
+        "work": 265,
+        "certificate_hash": "sha256:4d9663e57004c9579136c9400ce505522a662fbe7de83bffa2b81b119d69d800"
+      }
+    },
+    {
+      "L": 30,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 31,
+        "peak_total_relator_length": 91,
+        "work": 1921,
+        "certificate_hash": "sha256:33e35bd69cdca2b2575b90e5af8a70caf30802644ea5a6b5ddc8cccd59c0f1d7"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 91,
+        "work": 274,
+        "certificate_hash": "sha256:1b9093a118960e25b8a9f2a40f08fc66bc42f552456fa46d5277e9a7519c71f3"
+      }
+    },
+    {
+      "L": 31,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 32,
+        "peak_total_relator_length": 94,
+        "work": 2047,
+        "certificate_hash": "sha256:dbfcb3d1ffbfad0d3159cc45992397d94bfd814394826874660a25c731da12e9"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 94,
+        "work": 283,
+        "certificate_hash": "sha256:5a9e882055d0a38485e7c40b9217eb2b97ff40daab87ccd46e662a3c9d819933"
+      }
+    },
+    {
+      "L": 32,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 33,
+        "peak_total_relator_length": 97,
+        "work": 2177,
+        "certificate_hash": "sha256:ba3416e92fa137008d6bda312722c81204a0f9b9f9977cceefa3884a8f4b9241"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 97,
+        "work": 292,
+        "certificate_hash": "sha256:1e2532f01d9592667512236d05eb9e657ec8885234c7c0d514318e5090d894bb"
+      }
+    },
+    {
+      "L": 33,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 34,
+        "peak_total_relator_length": 100,
+        "work": 2311,
+        "certificate_hash": "sha256:5c5c3378037a4a020c5c5a3139ea02339a5848f131a7ec60213f59abf3775e7a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 100,
+        "work": 301,
+        "certificate_hash": "sha256:407b1d10019a887077d28ce5b7ee66749401e511bd44a87ef24bd3fe0b491195"
+      }
+    },
+    {
+      "L": 34,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 35,
+        "peak_total_relator_length": 103,
+        "work": 2449,
+        "certificate_hash": "sha256:eca481f435b441bfd306365d981dcdc5b0461be9af3f87e11c5a6782b5513b2f"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 103,
+        "work": 310,
+        "certificate_hash": "sha256:130ca6e6a114148fdb0ce6069f834b448f222b20c18e002559dbc152bc03187e"
+      }
+    },
+    {
+      "L": 35,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 36,
+        "peak_total_relator_length": 106,
+        "work": 2591,
+        "certificate_hash": "sha256:71e311cc69b8eaafeb1c0455dc8fc79323d2423d9841b875a097ebd36e8e5ae7"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 106,
+        "work": 319,
+        "certificate_hash": "sha256:64b7d72756faf6b9ce6be2c64463024eb4bfca63672326a23015b58696d166f0"
+      }
+    },
+    {
+      "L": 36,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 37,
+        "peak_total_relator_length": 109,
+        "work": 2737,
+        "certificate_hash": "sha256:227a2203fe6b1113fea67c0b5e39f5f91ab85ec8b322940c4a2c56b91529b4dd"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 109,
+        "work": 328,
+        "certificate_hash": "sha256:b4f4a59b08027cd4189414f6de4360c777f181c6a9fdbec8049a2ca78877d675"
+      }
+    },
+    {
+      "L": 37,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 38,
+        "peak_total_relator_length": 112,
+        "work": 2887,
+        "certificate_hash": "sha256:ef689f22435a3a35164b3358e84af8d35017f614c9e993aa7840cbd2b81b6040"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 112,
+        "work": 337,
+        "certificate_hash": "sha256:cebf82c4777dfcdd90546edf2e56c680b808b101229efd57f1670c531939e077"
+      }
+    },
+    {
+      "L": 38,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 39,
+        "peak_total_relator_length": 115,
+        "work": 3041,
+        "certificate_hash": "sha256:fa2c10ad00c68e45d4df9c25ed28fe70f024cf03deb45ad88aa8c40413c19005"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 115,
+        "work": 346,
+        "certificate_hash": "sha256:bf703312003b00c88443444ff70290e83f82c70cf15b47a0d323880b4075c617"
+      }
+    },
+    {
+      "L": 39,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 40,
+        "peak_total_relator_length": 118,
+        "work": 3199,
+        "certificate_hash": "sha256:cff3b747313bc5e55a956819592ed8e058b22fcf4aa36554b9335d1c05f3fbe2"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 118,
+        "work": 355,
+        "certificate_hash": "sha256:1bbd2cc5ae0429b3a8b998b2a5acd4f30435a6002f3d7953ff973732b6c69bc4"
+      }
+    },
+    {
+      "L": 40,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 41,
+        "peak_total_relator_length": 121,
+        "work": 3361,
+        "certificate_hash": "sha256:6859640f772cff8d7cfdcc4fbed33dcf2a6bccfd6912f8454137b268ac440e6a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 121,
+        "work": 364,
+        "certificate_hash": "sha256:2d46f7065e90eefd3ff308868a2ea7aa4b214811d6588f1457ecb6e783fd3f25"
+      }
+    },
+    {
+      "L": 41,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 42,
+        "peak_total_relator_length": 124,
+        "work": 3527,
+        "certificate_hash": "sha256:bf95819bb5bbd7e9f04fc516b211b098a6727fc31d6e0222338f1d8b5738a142"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 124,
+        "work": 373,
+        "certificate_hash": "sha256:0a5ce06d71677f832f7c3828b17c2c0a227e690669cfd531eb8beae896218860"
+      }
+    },
+    {
+      "L": 42,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 43,
+        "peak_total_relator_length": 127,
+        "work": 3697,
+        "certificate_hash": "sha256:91610f9d3c6949270231f78df276827b7c2ebe6785d1008da38604ad79c92612"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 127,
+        "work": 382,
+        "certificate_hash": "sha256:0714495a2ea089b92544bd5802da976ce606c74c525f166fe5f9461d2a2d9d6b"
+      }
+    },
+    {
+      "L": 43,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 44,
+        "peak_total_relator_length": 130,
+        "work": 3871,
+        "certificate_hash": "sha256:c115d05bac7995692f43d2b884313fb622e5df1153538790768cddfec928fd6a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 130,
+        "work": 391,
+        "certificate_hash": "sha256:8091b0086612f0b3da6041340876bd900c2ba1e1b4ec0d52240357a06fc480b3"
+      }
+    },
+    {
+      "L": 44,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 45,
+        "peak_total_relator_length": 133,
+        "work": 4049,
+        "certificate_hash": "sha256:d566a439b6ba72b6eb2c54f69a164c31623f050b834840174ef18eae86148e05"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 133,
+        "work": 400,
+        "certificate_hash": "sha256:0f102b83bbac2e5247566a1d15d1f3df59e095a9f5c4704473fa01a82afa8abf"
+      }
+    },
+    {
+      "L": 45,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 46,
+        "peak_total_relator_length": 136,
+        "work": 4231,
+        "certificate_hash": "sha256:2569548252aea5b9eeca967cc918ce83d6e6239552eff1bbe560fd314641898b"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 136,
+        "work": 409,
+        "certificate_hash": "sha256:90cbbc684424538e07d8d63b7a4ac30cf2c91a2b81cf29c22d1a19844ceceba5"
+      }
+    },
+    {
+      "L": 46,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 47,
+        "peak_total_relator_length": 139,
+        "work": 4417,
+        "certificate_hash": "sha256:f2da3d877c3da75fe67ee81e627a61bfa46d7a569358c0903af9b05f86ce4cba"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 139,
+        "work": 418,
+        "certificate_hash": "sha256:8c2193d1bc40964664c4cc3e94cea52e2a0594f34f8eab3a63d0ce3f9668d72b"
+      }
+    },
+    {
+      "L": 47,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 48,
+        "peak_total_relator_length": 142,
+        "work": 4607,
+        "certificate_hash": "sha256:5e012d6f9cb78f4aafee54a9cb67ac093cc34615912818916e0e7a908d95ad21"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 142,
+        "work": 427,
+        "certificate_hash": "sha256:7a0f6c9731ac0cf528c9ffdee02af5bd0691eaae4d1ec5a3b2bed4b949371779"
+      }
+    },
+    {
+      "L": 48,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 49,
+        "peak_total_relator_length": 145,
+        "work": 4801,
+        "certificate_hash": "sha256:78006afef68abcb126aa5d368d1868bbc29370f925a758b1aa565cb8ce438ead"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 145,
+        "work": 436,
+        "certificate_hash": "sha256:4157de0cc02b3765294a0e9302967d394916bc851d64421842ff17877b6f0bec"
+      }
+    },
+    {
+      "L": 49,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 50,
+        "peak_total_relator_length": 148,
+        "work": 4999,
+        "certificate_hash": "sha256:f74c473baad32b17498e04de26ffde15eefbb4498247e16807997ee453d929ee"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 148,
+        "work": 445,
+        "certificate_hash": "sha256:f4c61a6d289ab455d237f0fbc773f808cc1d8e00a6b105bfb74361b37e8a4dd6"
+      }
+    },
+    {
+      "L": 50,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 51,
+        "peak_total_relator_length": 151,
+        "work": 5201,
+        "certificate_hash": "sha256:f689e0e529e869fc7228068c087da878b648eaa2eaaf6b10ea3515386d4a1da2"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 151,
+        "work": 454,
+        "certificate_hash": "sha256:12d658193ad5e1a09e4dde181fa2ad87e8a4b3ccfe7ff2fb265525c0a4ed33fc"
+      }
+    },
+    {
+      "L": 51,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 52,
+        "peak_total_relator_length": 154,
+        "work": 5407,
+        "certificate_hash": "sha256:c21876f4643f045d61343e06fa859d8244bc317ee5265d2e926d38656269cc46"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 154,
+        "work": 463,
+        "certificate_hash": "sha256:55f35416d4c40353f3da9484e9f2d3978171889b60a751a161d7d2312b0fc246"
+      }
+    },
+    {
+      "L": 52,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 53,
+        "peak_total_relator_length": 157,
+        "work": 5617,
+        "certificate_hash": "sha256:d83d3f59b0d2b643ecc8d20072b630d8b64b72aacf210addc59758d7f5d35ad6"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 157,
+        "work": 472,
+        "certificate_hash": "sha256:497d7ddb0e24208679ea7eb43ef6b4a4d69d0dc7286715a7824699f6d47e3243"
+      }
+    },
+    {
+      "L": 53,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 54,
+        "peak_total_relator_length": 160,
+        "work": 5831,
+        "certificate_hash": "sha256:f7b8801c47386ae5af397b7c73edda10a6c5f485d2eb103a764d602f22052e0e"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 160,
+        "work": 481,
+        "certificate_hash": "sha256:b5474fe6e47eb9101aa987dbc74c6d51672632babb3ae1c7567febe5681c0a45"
+      }
+    },
+    {
+      "L": 54,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 55,
+        "peak_total_relator_length": 163,
+        "work": 6049,
+        "certificate_hash": "sha256:11673b9ca2ceac55bebd52e38120a01d7735aba944f23fe17ab56a95493e9003"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 163,
+        "work": 490,
+        "certificate_hash": "sha256:fee1b9413ed9eb7527edbba87d6534f76b9454da5baa67f78ea0dff4dc38f3ae"
+      }
+    },
+    {
+      "L": 55,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 56,
+        "peak_total_relator_length": 166,
+        "work": 6271,
+        "certificate_hash": "sha256:0e4512947f33ac70708a3769113a5bbd1665baacc91a8ba105ae53e1087211e7"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 166,
+        "work": 499,
+        "certificate_hash": "sha256:8e0d7616fb7a542625efeb72072dbf6e718796a508907207b01b67e787ce63f7"
+      }
+    },
+    {
+      "L": 56,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 57,
+        "peak_total_relator_length": 169,
+        "work": 6497,
+        "certificate_hash": "sha256:aa2e2caba9ae6f9dabf141daa42278a896e4e4b847b114373a35d44a266bf3d3"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 169,
+        "work": 508,
+        "certificate_hash": "sha256:c938f48df05bd3ab098ebd7dabc12f6eaa7eee10d00a48b997a2c8d071bec32c"
+      }
+    },
+    {
+      "L": 57,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 58,
+        "peak_total_relator_length": 172,
+        "work": 6727,
+        "certificate_hash": "sha256:9345405e35b9269116beff60cc2b72800128099a642a9fdbb6a1108c646df513"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 172,
+        "work": 517,
+        "certificate_hash": "sha256:ecb8427d54abac79577a222b5af1bf374cd94e8f7aa39ab1a5c034b41939fda1"
+      }
+    },
+    {
+      "L": 58,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 59,
+        "peak_total_relator_length": 175,
+        "work": 6961,
+        "certificate_hash": "sha256:418f58c016f4061030a2f4228cc28d039a7e7cb2774731d0c7d0ed149bc76a2a"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 175,
+        "work": 526,
+        "certificate_hash": "sha256:cdf7a0803ed4ac5479d26035ed49dae5207f82ca9e036b73786038cf0f16ea89"
+      }
+    },
+    {
+      "L": 59,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 60,
+        "peak_total_relator_length": 178,
+        "work": 7199,
+        "certificate_hash": "sha256:ae9349f9c66dbc36227cebdc6c3b7a88827a74df54b54204564629dacae70ee6"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 178,
+        "work": 535,
+        "certificate_hash": "sha256:18806544a54135c712ca27a006475ae35d40c4928dfd3fa99d9758f1315eb725"
+      }
+    },
+    {
+      "L": 60,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 61,
+        "peak_total_relator_length": 181,
+        "work": 7441,
+        "certificate_hash": "sha256:2c49d493d3371bfd1bb89f75bd06f41466c0b08a91f47cf7c8fd94b7045ea556"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 181,
+        "work": 544,
+        "certificate_hash": "sha256:5b49e74352b8ebc0bb30deee165eb00bc897aa878aae4f589b5ba24fc239cda3"
+      }
+    },
+    {
+      "L": 61,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 62,
+        "peak_total_relator_length": 184,
+        "work": 7687,
+        "certificate_hash": "sha256:d090b1dda7eac5a11b8cebc71f8f326456a1acbc49efa1f0708e88424582bcda"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 184,
+        "work": 553,
+        "certificate_hash": "sha256:a53714176d6c6f8b8da63d402bc2b6d14e67d0d42d55528981972e43fb7c9f37"
+      }
+    },
+    {
+      "L": 62,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 63,
+        "peak_total_relator_length": 187,
+        "work": 7937,
+        "certificate_hash": "sha256:5d30fcfda870a68ee26fadf931e5c52ccb80bda7c1b718f4ed1db8a57e846b70"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 187,
+        "work": 562,
+        "certificate_hash": "sha256:66b119907e2702cb8ff97ac201bafebb584d581426e7495892083051d5659612"
+      }
+    },
+    {
+      "L": 63,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 64,
+        "peak_total_relator_length": 190,
+        "work": 8191,
+        "certificate_hash": "sha256:e905c19dfc2a59424537d5e7bc7d8696205dda8022f390c3ac32437edf4be6e2"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 190,
+        "work": 571,
+        "certificate_hash": "sha256:0047bae637d76d5ac96654b3400e7f9a0d3a82777c7fe8d672efe8d61eaad081"
+      }
+    },
+    {
+      "L": 64,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 65,
+        "peak_total_relator_length": 193,
+        "work": 8449,
+        "certificate_hash": "sha256:7a464408c64bd06f67a264690a465bf7d1ac16472273da6b8c8b832927c3a59b"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 193,
+        "work": 580,
+        "certificate_hash": "sha256:d67b8bf9e584e26307edeaccf49fa5c0e4aa2205aadd64cb688f6270f3049aaf"
+      }
+    },
+    {
+      "L": 100,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 101,
+        "peak_total_relator_length": 301,
+        "work": 20401,
+        "certificate_hash": "sha256:a0cb60e960b150c6a06bad78adbae53d33259d37bcba4b627f98cc2002029260"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 301,
+        "work": 904,
+        "certificate_hash": "sha256:0077e2f61ca38ced135acc5b688580b557853f480e30d64d3adc493c16c45fdd"
+      }
+    },
+    {
+      "L": 1000,
+      "prefix_hits_by_depth_0_1_2": [
+        0,
+        0,
+        0
+      ],
+      "CI": {
+        "ok": true,
+        "length": 1001,
+        "peak_total_relator_length": 3001,
+        "work": 2004001,
+        "certificate_hash": "sha256:2c67d8155272769a12e6fe2b0dcdc5b7f24784819ee57926de765638cca4f6b5"
+      },
+      "four_step_CIM": {
+        "ok": true,
+        "length": 4,
+        "peak_total_relator_length": 3001,
+        "work": 9004,
+        "certificate_hash": "sha256:3ac0d6b0452602284aa311ad01de944dadbc812bc7bd918bc6fbf61c6100322a"
+      }
+    }
+  ]
+}
