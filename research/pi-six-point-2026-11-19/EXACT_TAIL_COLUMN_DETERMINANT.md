@@ -119,7 +119,7 @@ where the last inequality follows from the elementary bound
 \tag{10}
 \]
 The bound is exponential in \(H\), with exponent
-\(2\log35+2\log4\approx 9.128\).
+\(2\log35+2\log4=2\log140\approx 9.883\).
 
 By contrast, for the shifted six-point family, \(m,n\asymp q_j\) and the matched tail size is
 \[
