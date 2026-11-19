@@ -91,12 +91,11 @@ Thus \(q_j\le x_c\le2q_j-1\). Define
 It is an integer because (6) implies
 \(x_c\equiv-p_j^{-1}c\pmod {q_j}\), so the numerator in (7) is divisible by \(q_j\).
 
-If \(\kappa_j=0\), replace \(x_{c,+}\) by \(x_{c,+}+q_j\); this changes \(\kappa_j\) to \(-1\). Hence we may and do arrange
+If \(\kappa_j=0\), replace \(x_{c,+}\) by \(x_{c,+}+q_j\); this changes \(\kappa_j\) to \(-1\). Before adjustment, \(x_c\in[q_j,2q_j-1]\), so the numerator in (7) has absolute value at most \(2(q_j-1)\). Since it is divisible by \(q_j\), the original \(\kappa_j\) lies in \(\{-1,0,1\}\). Hence after the possible adjustment we may arrange
 \[
-1\le|\kappa_j|\le 4.
+|\kappa_j|=1.
 \tag{8}
 \]
-(The upper bound follows from \(q_j\le x_c\le3q_j-1\) after the possible adjustment.)
 
 For each \(c\in\{c_{j,-},c_{j,0},c_{j,+}\}\), take the two points
 \[
@@ -147,7 +146,7 @@ A direct determinant expansion for the three levels \(c_-=c_0-1,c_0,c_0+1\), wit
 Thus (8) yields the exact certificate
 \[
 \boxed{
-\det A_j\in\{\pm4,\pm8,\pm12,\pm16\}
+|\det A_j|=4
 \quad\text{for every sufficiently large }j.
 }
 \tag{13}
