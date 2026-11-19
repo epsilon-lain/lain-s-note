@@ -104,13 +104,9 @@ The residue relation
 \[
 x_c\equiv-p_j^{-1}c\pmod{q_j}
 \]
-shows that \(\kappa_j\in\mathbb Z\). After the optional one-step adjustment, the six \(x\)-coordinates lie in \([q_j,3q_j-1]\); hence
+shows that \(\kappa_j\in\mathbb Z\). Before adjustment, all three representatives lie in \([q_j,2q_j-1]\). Since the numerator defining \(\kappa_j\) is divisible by \(q_j\) and has absolute value at most \(2(q_j-1)\), its quotient is in \(\{-1,0,1\}\). If it is zero, replacing only \(x_{c_j+1}\) by \(x_{c_j+1}+q_j\) changes it to \(-1\). Thus the construction can always be normalized so that \(|\kappa_j|=1\), and
 \[
-0<|\kappa_j|<4.
-\]
-Consequently
-\[
-\boxed{|\det A_j|\in\{4,8,12\}.}
+\boxed{|\det A_j|=4.}
 \tag{7}
 \]
 In particular, this exact integer determinant does not tend to zero. The \(O(q_j^{-1})\) tail cancellation has not yet been inserted as a determinant factor.
