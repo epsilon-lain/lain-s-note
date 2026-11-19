@@ -19,3 +19,5 @@
 
 - [奇偶兼容的移位六点族](PARITY_COMPATIBLE_SIX_POINT_FAMILY.md)：修复此前六点族未确保每个 \((m,n)\) 奇偶相反的缺口；利用相邻收敛分数在 \(\mathbb F_2^2\) 的基性质，构造无限多个 \(p\) 偶、\(q\) 奇的近似，再得到六个奇偶相反的整数点。给出尾项比值 \(1+O(q^{-1})\)、有界非零二次行列式，以及一个实际尾项列行列式模 5 非零的有限证书。
 - [奇偶兼容尾项列复算](verify_parity_tail_column.py)：精确计算六个有理截断，清除公分母并以 Bareiss 和模 5 复核非零性。
+
+- [BBP 接力与既有 Padé 工作分流](RESEARCH_HANDOFF_BBP_VS_PADE.md)：记录 11 月 19 日 Yohaku `pi-math` 稀疏例外接力的结论，区分 BBP–有限积分二进赋值路线与已经完成的 Niven-Padé、指数 Padé、OpenAI 插值行列式路线，避免重复研究。
