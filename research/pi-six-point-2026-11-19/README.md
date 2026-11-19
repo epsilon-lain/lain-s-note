@@ -13,3 +13,6 @@
 - [移位六点精确复算](verify_shifted_six_point.py)：用有理交错余项区间和 Bareiss 消元复核 \(93/86\) 的有限样本。
 
 - [移位六点定量审计](SHIFTED_SIX_POINT_QUANTITATIVE_AUDIT.md)：把六个反正切尾项比值收敛加强为统一 \(O(q_j^{-1})\) 误差，并精确说明有界非零行列式为何尚未产生 π 的有理逼近矛盾。
+
+- [精确尾项列行列式](EXACT_TAIL_COLUMN_DETERMINANT.md)：把 \(f_{m,n}=\pi/4-T_m(2/5)-T_n(3/7)\) 作为第六列，严格证明清分母后的行列式为整数，并给出 \(216LH^6\delta<1\) 的充分矛盾门槛；同时审计原始 Taylor 公分母成本。当前估计尚不足以满足门槛，也没有证明该路线不可能。
+- [尾项列有限证书复算](verify_exact_tail_column.py)：以 Fraction 计算六个有理截断、精确清分母并用 Bareiss 与模 5 检查非零性。
