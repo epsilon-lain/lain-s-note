@@ -11,3 +11,5 @@
 
 - [移位收敛分数六点引理](SHIFTED_CONVERGENT_SIX_POINT_LEMMA.md)：沿尾项斜率 \(\lambda=\log(2/5)/\log(3/7)\) 的连分数收敛分数构造六个整数点，使两组反正切余项比值同时趋于 1，并得到有界非零整数行列式 \(\det A=\pm4\kappa\)。这是一条严格的辅助几何构造，尚未给出 π 坏逼近结论。
 - [移位六点精确复算](verify_shifted_six_point.py)：用有理交错余项区间和 Bareiss 消元复核 \(93/86\) 的有限样本。
+
+- [移位六点定量审计](SHIFTED_SIX_POINT_QUANTITATIVE_AUDIT.md)：把六个反正切尾项比值收敛加强为统一 \(O(q_j^{-1})\) 误差，并精确说明有界非零行列式为何尚未产生 π 的有理逼近矛盾。
