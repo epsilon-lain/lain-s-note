@@ -159,3 +159,42 @@ The parity gap in the earlier construction is repaired. We now have an infinite 
 - a bounded nonzero quadratic integer determinant.
 
 No claim is made that the tail-column determinant is nonzero for all members, that the denominator budget closes, or that \(\pi\) is badly approximable.
+
+## 5. Finite parity-compatible certificate
+
+A concrete parity-compatible choice is
+\[
+p/q=332/307,\qquad c_0=-5,
+\]
+with offsets \(-6,-5,-4\). The six points are
+\[
+(823,890),\ (1437,1554),\
+(430,465),\ (1044,1129),\
+(651,704),\ (1265,1368).
+\]
+All six pairs have opposite parity, and their offsets \(qn-pm\) are
+\(-6,-6,-5,-5,-4,-4\).
+
+Using 12 terms of the alternating rational tail series gives strict enclosures (entries are integers divided by \(10^{12}\)):
+\[
+\begin{array}{c|c}
+(m,n)&r_m(2/5)/r_n(3/7)\\ \hline
+(823,890)&(1005082313506,1005082315561)/10^{12}\\
+(1437,1554)&(1011709117395,1011709119475)/10^{12}\\
+(430,465)&(1006362522816,1006362524848)/10^{12}\\
+(1044,1129)&(1013046226429,1013046228506)/10^{12}\\
+(651,704)&(1014368986904,1014368988971)/10^{12}\\
+(1265,1368)&(1021066594109,1021066596206)/10^{12}.
+\end{array}
+\]
+For these points, the rational determinant with final column
+\(T_m(2/5)+T_n(3/7)\), after clearing its exact common denominator, is nonzero and congruent to \(4\pmod5\). The accompanying script performs all operations with exact fractions and integer arithmetic:
+[verify_parity_tail_column.py](verify_parity_tail_column.py).
+
+This is a finite nonzero certificate for the tail-column determinant, not an infinite-family proof.
+
+## 6. Status
+
+The parity gap is repaired. We have an infinite family with all six pairs of opposite parity, tail ratios converging to one at rate \(O(q^{-1})\), signed \(\pi/4\)-linear forms equal to differences of positive tails, and a bounded nonzero quadratic integer determinant. For one explicit member, the tail-column determinant also has an exact modular nonzero certificate.
+
+No claim is made that the tail-column determinant is nonzero for all members, that the denominator budget closes, or that \(\pi\) is badly approximable.
