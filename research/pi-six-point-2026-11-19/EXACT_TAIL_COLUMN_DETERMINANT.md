@@ -1,7 +1,7 @@
 # Exact tail-column determinant: the six-point bridge and its denominator budget
 
 Date: 2026-11-19  
-Status: **exact determinant identity proved; naive Taylor-denominator route quantitatively ruled out at the required scale.**
+Status: **exact determinant identity proved; current denominator and tail bounds do not certify the required inequality.**
 
 This note makes the signed two-arctangent tail difference an actual determinant column. It also audits the denominator needed to turn that real determinant into an integer. This is the missing logical bridge between “small tail cancellation” and “integer determinant”; the audit shows why the raw Taylor truncations do not yet close it.
 
@@ -127,7 +127,7 @@ r_m(2/5)\asymp \frac{(2/5)^{2m}}m,
 \]
 whose exponential rate in \(m\) is \(2\log(5/2)\approx1.833\). The relative mismatch established in the shifted construction is \(O(q_j^{-1})\), so the absolute signed error is at most a polynomial factor times this tail. Even this optimistic error scale is exponentially much larger than \(1/L_H\), because the crude but valid clearing-denominator cost (10) has a much larger exponential rate.
 
-Therefore the raw Taylor-tail column (2), with the obvious common denominator (9), does **not** satisfy the sufficient condition (6) along the current shifted family. This is not a proof that every possible cancellation of the actual reduced denominator fails: (9) is an upper bound for a clearing denominator, and a substantially sharper exact gcd analysis could lower it. It does show that the naive “small analytic column + clear every Taylor denominator” argument is quantitatively inadequate.
+Therefore the present estimates do **not certify** the sufficient condition (6) along the current shifted family: the available upper bound for the clearing denominator is far too coarse relative to the available tail estimate. This is not a proof that the route fails. In particular, because (9) is only an upper bound, the actual reduced common denominator may be much smaller; and the actual signed tail difference may be smaller than the current upper estimate. A valid impossibility claim would require a lower bound for the product \(L\delta\), which has not been proved.
 
 ## 4. A correction to the shifted quadratic determinant
 
@@ -165,3 +165,7 @@ The determinant (3) is the correct way to make the signed analytic cancellation 
 4. Prove a tail-difference bound strong enough that the determinant is less than the reciprocal of the true clearing denominator.
 
 The present note proves (1)–(5), identifies the exact sufficient condition (7), and records why the first naive denominator choice is too expensive. It does not prove \(\pi\) badly approximable, nor does it prove that all Padé or joint-gcd improvements are impossible.
+
+## 6. Exact finite replay
+
+The accompanying [verify_exact_tail_column.py](verify_exact_tail_column.py) computes the six rational truncations with `Fraction`, forms their exact common denominator, builds the integer matrix obtained by clearing only the final column, and checks its determinant by Bareiss elimination. For the six-point sample in `TWO_ARCTAN_SIX_POINT_CANDIDATE.md`, it produces a nonzero integer determinant and verifies it modulo 5. This is a finite certificate only; it does not establish a uniform lower bound or an infinite-family contradiction.
