@@ -43,3 +43,6 @@
 - [权重的精确整数验证程序](verify_elliptic_high_order_weights.py) 与 [\(m=1,\ldots,30\) 的检查结果](elliptic_high_order_weight_checks.json)：验证插值恒等式、乘法形式群的首个非零误差系数及权重范数。
 
 - [Hilbert 第十问题、abc 猜想与 π 研究迁移报告](H10_ABC_LITERATURE_AND_PI_TRANSFER.md)：整理 2026 年 H10/Q 与 number fields 新预印本、Pasten–Vidaux 的局部赋值—Vojta 高度路线、abc 当前争议状态、椭圆曲线高度文献及 David–Hirata-Kohno 椭圆对数下界；明确哪些工具可能帮助我们的形式群高度问题，以及为什么它们尚不能直接证明 \(\pi\) 坏逼近。
+
+- [椭圆对数与高阶消项的精确高度实验](ELLIPTIC_LOG_HEIGHT_EXPERIMENT.md)：在 \(E:y^2=x^3-2\)、\(P=(3,5)\) 上，以精确有理椭圆群运算计算 \(B_m([s]P)\)，比较实椭圆对数回归、\(|\xi([s]P)|\)、输出有理高度和误差；显示本次样本中提高消项阶数并未改善高度/误差权衡。
+- [可复现实验程序](elliptic_formal_height_experiment.py) 与 [精确有理输出摘要](elliptic_formal_height_experiment.json)：测试 \(s=15,26\) 的 \(m\le4\) 及 \(s=41\) 的 \(m\le6\)。椭圆周期为高精度数值积分，椭圆点和 \(B_m\) 的有理运算精确。
