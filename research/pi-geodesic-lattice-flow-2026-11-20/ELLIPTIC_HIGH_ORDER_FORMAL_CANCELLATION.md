@@ -202,3 +202,10 @@ For the weights themselves,
 \sum_{j=2}^{m+2}|\lambda_{m,j}|=2^{m+1}-1.
 \]
 The exact integer checks through \(m=30\) are stored in `elliptic_high_order_weight_checks.json` and can be regenerated with `verify_elliptic_high_order_weights.py`.
+
+
+## 8. Minimal support and the binomial uniqueness barrier
+
+The moment identity itself forces at least \(m+1\) distinct multiplication indices. If one insists that every index be at most \(m+2\), the support is forced to be exactly \(\{2,\ldots,m+2\}\), and the unique weights are the binomial finite-difference weights. Thus any different integer cancellation scheme must introduce some multiplier \(j\ge m+3\). This is proved in `ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md`.
+
+The exact elliptic experiment there shows why this matters: the tested alternatives reduce \(\sum|\lambda_j|j^2\) but introduce larger multipliers, and on \(E:y^2=x^3-2\) their actual rational heights and errors are both worse in all nine tested cases.
