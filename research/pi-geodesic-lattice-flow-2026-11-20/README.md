@@ -19,3 +19,6 @@
 - [部分商曲率复核程序](partial_quotient_curvature_check.py)：以高精度数值检查局部公式，并与有限下包络结果对照。
 
 - [部分商局部凸性与全局加权平均判据](PARTIAL_QUOTIENT_LOCAL_GLOBAL_TEST.md)：证明若下一部分商 \(a_{n+1}\ge2\)，该收敛点自动通过局部凸性；若 \(a_{n+1}=1\)，局部条件精确化为 \((r_n+z_n)^2+2r_nz_n(1+r_n+z_n)>1\)。同时把全局活跃条件改写成左右所有加权割线斜率的比较，强调局部通过不保证全局活跃。
+
+- [流式下凸包与加权 PAVA](STREAMING_LOWER_HULL_AND_PAVA.md)：将收敛分母点按顺序输入单调栈；当相邻下降斜率不再严格递减时弹出中间点。证明每点至多入栈/出栈一次，并把整形过程识别为带权 pool-adjacent-violators 算法。
+- [π 的百万分母流式实验程序](pi_lattice_stack_experiment.py) 与 [JSON 输出](pi_lattice_stack_experiment.json)：处理所有 \(q\le10^6\) 的收敛分母，列出最终有限前缀下包络、被弹出的收敛点和连续切换时间。
