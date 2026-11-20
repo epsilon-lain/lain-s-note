@@ -58,3 +58,6 @@
 
 - [CM 稀疏十二阶消项：三点构造](CM_SPARSE_ORDER12_CANCELLATION.md)：利用 \(j=0\) 曲线的六阶自同构，证明形式乘法级数只含 \(z^{6k+1}\) 次幂；因此只需约束 \(\sum\lambda_jj=1\) 与 \(\sum\lambda_jj^7=1\)，便可实现十二阶误差。给出最小最大乘法指标 \(J=4\) 的三点整数权重 \((-364,291,-36)\)，并用 Streng 原始 EDS 因子给出相应高度下界。
 - [CM 稀疏消项精确实验程序](cm_sparse_cancellation_experiment.py) 与 [精确有理数实验结果](cm_sparse_cancellation_experiment.json)：在 \(E:y^2=x^3-2,P=(3,5),s=41\) 上比较三种稀疏方案和三种二项式方案；全部椭圆群运算与输出有理数精确计算。
+
+- [CM 周期/准周期与 \(\pi\) 的精确桥接](CM_LEGENDRE_PERIOD_PI_BRIDGE.md)：在方形 CM 曲线 \(y^2=x^3-36x\) 上由 Legendre 关系得到 \(\Omega H=\pi\)；利用相邻椭圆对数收敛分数消去基点 zeta 值，把 \(\Omega,H\) 写成两个小形式误差和有理 zeta cocycle；构造 CM 稀疏的二点/四点 zeta 算术滤波器，并给出把一列有理 \(\pi\) 近似提升为全体有理数统一下界的覆盖判据。
+- [CM-Legendre 精确实验程序](cm_legendre_pi_bridge_experiment.py) 与 [实验数据](cm_legendre_pi_bridge_experiment.json)：在 \(P=(12,-36)\) 上用精确有理椭圆群运算计算 zeta cocycle、CM 滤波器及有理 \(\Pi_K\)；椭圆周期与 \(\pi\) 的误差采用高精度数值积分诊断。
