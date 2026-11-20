@@ -22,3 +22,6 @@
 
 - [流式下凸包与加权 PAVA](STREAMING_LOWER_HULL_AND_PAVA.md)：将收敛分母点按顺序输入单调栈；当相邻下降斜率不再严格递减时弹出中间点。证明每点至多入栈/出栈一次，并把整形过程识别为带权 pool-adjacent-violators 算法。
 - [π 的百万分母流式实验程序](pi_lattice_stack_experiment.py) 与 [JSON 输出](pi_lattice_stack_experiment.json)：处理所有 \(q\le10^6\) 的收敛分母，列出最终有限前缀下包络、被弹出的收敛点和连续切换时间。
+
+- [部分商 1 的精确局部阈值](SHARP_LOCAL_FILTER_PARTIAL_QUOTIENT_ONE.md)：将局部凸性化简为 \(\alpha_{n+2}< (\beta_n+2)/(\beta_n-1)\)，其中 \(\alpha_{n+2}\) 是前向完全商、\(\beta_n=q_n/q_{n-1}\) 是反向有限商；若 \(a_{n+1}\ge2\)，局部凸性自动成立。
+- [阈值复核程序](partial_quotient_one_threshold_check.py) 与 [100 位数值结果](partial_quotient_one_threshold_check.json)：检查 \(\pi\) 的部分商为 1 的收敛点，包括 106、33102、33215、66317、265381。
