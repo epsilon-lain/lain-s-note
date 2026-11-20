@@ -160,3 +160,12 @@ Because every \(\lambda_j\) is an integer, the same \(p\)-adic integrality/congr
 The quadratic proxy \(\mathcal C_2\) is motivated by canonical-height growth, but it is not the exact logarithmic height of the reduced rational combination. Denominator cancellation, common factors, and addition-height inequalities can change the true output height. The candidates must still be tested on an actual elliptic curve before claiming an improvement in the real height/error tradeoff.
 
 No claim about \(\pi\)'s bad approximability follows from this weight optimization.
+
+
+## 7. Actual elliptic test: the proxy improvement does not transfer
+
+The explicit candidates above were tested on \(E:y^2=x^3-2\), \(P=(3,5)\), with exact rational group arithmetic, for \(s=15,26,41\). In all nine comparisons (orders \(m=4,5,6\)), the alternative weights produced both a larger reduced rational logarithmic height and a larger \(|B_m-1|\) than the binomial weights.
+
+For \(s=41\), the alternative logarithmic heights were approximately \(1.38\), \(2.76\), and \(2.71\) times the binomial heights at orders 4, 5, and 6, respectively. The alternative errors were approximately \(2.63\), \(8.25\), and \(12\) times larger. See `ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md` and its exact-arithmetic reproduction script.
+
+**Revised conclusion:** \(\sum|\lambda_j|j^2\) is only a coarse proxy. It does not predict the denominator lcm or the actual reduced height of the rational combination. The binomial weights are also uniquely forced if one requires all multipliers to be at most \(m+2\), so any alternative must introduce larger multiplication indices.
