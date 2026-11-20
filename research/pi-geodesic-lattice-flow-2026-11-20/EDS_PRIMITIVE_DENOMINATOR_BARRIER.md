@@ -66,7 +66,7 @@ v_p(\mathcal B_{\lambda,s})=-v_p(B_N).
 \tag{4}
 \]
 
-For fixed \(\lambda_J\), all its prime divisors form a finite set. A fixed good prime can be primitive for at most one index \(N\), because the order of \(\bar P\) modulo that prime is fixed. The bad primes are also a finite set. Silverman's primitive-divisor theorem therefore implies that, for all sufficiently large \(s\), every prime in the primitive part \(D_N\) of \(B_N\) is good, exceeds 3, and does not divide \(\lambda_J\). It follows from (4) that
+For fixed \(\lambda_J\), all its prime divisors form a finite set. A fixed good prime can be primitive for at most one index \(N\), because the order of \(\bar P\) modulo that prime is fixed. The bad primes are also a finite set, and any prime can be primitive at most once by definition. It follows that for sufficiently large \(s\), every prime in the primitive part \(D_N\) of \(B_N\) is good, exceeds 3, and does not divide \(\lambda_J\). It follows from (4) that
 \[
 \boxed{D_{2Js}\mid \operatorname{den}(\mathcal B_{\lambda,s})}
 \qquad\text{for all sufficiently large }s.
@@ -77,7 +77,7 @@ Here \(D_N\) is the product of the full prime powers in \(B_N\) whose prime divi
 
 ## 3. Quantitative height obstruction
 
-For the \(\mathbb Z\)-indexed EDS of an elliptic curve with complex multiplication over a quadratic extension, Streng proves the sharper primitive-part asymptotic
+For the \(\mathbb Z\)-indexed EDS, Streng's Proposition 1.3 proves the sharper primitive-part asymptotic without a complex multiplication hypothesis
 \[
 \log D_N
 =
@@ -87,7 +87,7 @@ For the \(\mathbb Z\)-indexed EDS of an elliptic curve with complex multiplicati
 \qquad(\epsilon>0).
 \tag{6}
 \]
-Our curve has \(j(E)=0\), with CM field \(\mathbb Q(\sqrt{-3})\), so this result applies to its rational-point EDS. Since
+For the rational-point EDS we can take the base field to be \(\mathbb Q\), so the normalized ideal norm is the positive generator. Since
 \[
 \prod_{\ell\mid N}(1-\ell^{-2})
 \ge \prod_{\ell\ {\rm prime}}(1-\ell^{-2})
@@ -138,15 +138,14 @@ This does **not** prove that binomial weights minimize the full rational height 
 
 ## 5. A second EDS phenomenon: coprime multipliers have disjoint good denominator primes
 
-For a good prime \(p>3\), if \(p\) divides the reduced denominator of
-\[
-R_j(s)=\frac{\xi([js]P)}{\xi([s]P)},
-\]
-then the reduction of \([s]P\) is neither the identity, nor 2-torsion, nor a 3-torsion zero of \(\xi\); moreover \([j][s]P\) is 2-torsion. If the same \(p\) divides the denominator of \(R_k(s)\), the order \(r\) of \([s]\bar P\) must satisfy
-\[
-r\mid 2j,\qquad r\mid 2k,\qquad r>2.
-\]
-Thus \(r\mid2\gcd(j,k)\), which is impossible if \(\gcd(j,k)=1\). Hence
+Let \(p>3\), \(Q=[s]P\), and \(R_j(s)=\xi([j]Q)/\xi(Q)\). Consider the reduction of \(Q\).
+
+- If it is the identity, the formal multiplication series shows that \(R_j(s)\) is \(p\)-integral.
+- If it is a nonzero point with \(x=0\), it lifts to a 3-torsion point \(T\) with \(x=0\) over \(\mathbb Q_p\). Both \(\xi\) at \(T\) and \(\xi\) at \([j]T\) have integral simple zeros with unit leading coefficients. Writing \(Q=T+U\) in the formal neighborhood, multiplication by \(j\) cannot decrease the valuation of the formal parameter of \(U\). Hence \(R_j(s)\) is \(p\)-integral.
+- If it is nonzero 2-torsion, lift it to a 2-torsion point \(T\) over \(\mathbb Q_p\). Near \(T\), \(\xi\) has an integral simple pole with unit leading coefficient. For odd \(j\) we obtain \(v_p(R_j(s))=-v_p(j)\), by the formal logarithm isometry on \(p\mathbb Z_p\) applied to \(Q-T\). For even \(j\) the numerator is in the formal neighborhood of the identity and the ratio is integral. In particular, \(p=5,s=1,j=5\) gives a denominator divisible by 5 even though \(P\) reduces to nonzero 2-torsion.
+- In the remaining cases, \(\xi(Q)\) is a \(p\)-adic unit. A denominator prime requires \([j]\bar Q\) to be nonzero 2-torsion, so the order \(r>2\) of \(\bar Q\) divides \(2j\).
+
+Thus if the same \(p>3\) divides both denominators, either \(p\mid j,k\) in the 2-torsion case, or \(r>2\) divides \(2\gcd(j,k)\) in the unit case. In particular,
 \[
 \boxed{
 \gcd(j,k)=1
@@ -156,9 +155,7 @@ Thus \(r\mid2\gcd(j,k)\), which is impossible if \(\gcd(j,k)=1\). Hence
 }
 \tag{9}
 \]
-For our curve, the only excluded primes are the bad primes 2 and 3.
-
-This is the opposite of the hoped-for “shared denominator” shortcut: coprime multipliers tend to bring disjoint good prime supports. EDS divisibility can create overlap when multipliers share factors, but the moment condition \(\sum_j\lambda_jj=1\) forces the gcd of all support indices to be 1.
+Only 2 and 3 are excluded. The moment condition \(\sum_j\lambda_jj=1\) forces the gcd of all support indices to be 1, while smaller subsets can still share factors. [Exact local counterexample and pole-degree computation](EDS_EXACT_POLE_HEIGHT.zh.md).
 
 ## 6. Exact finite experiment
 
@@ -191,16 +188,13 @@ This is a genuine obstruction theorem for the elliptic formal-group route: high-
 
 It does **not** prove that \(\pi\) is badly approximable. The EDS lower bound controls the height of our constructed rational combinations; it does not yet relate their real distance to \(\pi\) strongly enough to yield a positive lower bound for \(q\|q\pi\|\).
 
-The useful next step is to compare the exact error \(|\mathcal B_{\lambda,s}-1|\) with the forced lower bound (7), and determine whether any choice of \(s,m\) can beat the height cost. This will tell us whether the elliptic construction can ever produce a useful Diophantine approximation input for the continuous \(\pi\)-lattice flow.
+For fixed weights, a follow-up computes the exact quadratic denominator coefficient from all surviving poles and compares it with the real error along returns. The simultaneous growth of \(s\) and the cancellation order still requires uniform bounds. [Exact pole-height coefficient](EDS_EXACT_POLE_HEIGHT.zh.md).
 
 ## References
 
 - M. Streng, *Divisibility sequences for elliptic curves with complex multiplication*, Algebra & Number Theory 2 (2008), Proposition 1.3, especially the primitive-part asymptotic for the \(\mathbb Z\)-indexed sequence, pp. 184–185.
 - K. Eisenstädter and G. Everest, *Descent on elliptic curves and Hilbert's tenth problem*, arXiv:0707.1485, for the local-order interpretation of primitive EDS divisors and the H10 use of elliptic divisibility sequences.
 - M. Nowroozi and S. Siksek, *Perfect powers in elliptic divisibility sequences*, Bull. Lond. Math. Soc. (2024), for strong divisibility and local valuation properties.
-
-
-For the application of Streng's theorem, base-change \(E\) from \(\mathbb Q\) to its CM field \(K=\mathbb Q(\sqrt{-3})\), where the endomorphisms are defined. The point \(P\) remains rational over \(K\), and the denominator ideal of \(x(nP)\) is generated by the rational integer \(B_n\). Its normalized ideal norm is \(B_n\), so the primitive-part size estimate is exactly the stated estimate for the rational EDS (not its square).
 
 
 ## 8. CM-sparse cancellation improves the multiplier bound

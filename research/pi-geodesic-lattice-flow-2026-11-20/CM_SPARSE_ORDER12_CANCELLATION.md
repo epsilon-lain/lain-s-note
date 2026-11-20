@@ -201,11 +201,13 @@ The leading term in (5) predicts
 matching the exact rational computation to the displayed precision. This is a strong finite consistency check of the formal expansion.
 
 Compared with the binomial order-seven filter, the sparse filter has:
-- about \(31.3\%\) of its logarithmic rational height;
-- about \(5.3\%\) of its absolute error;
+- about \(10.45\%\) of its logarithmic rational height,
+- about \(0.944\%\) of its absolute error,
 - a smaller maximum multiplier (4 instead of 9).
 
-Compared with the binomial order-four filter, the sparse filter has essentially the same height but an error smaller by about \(6.9\times10^{22}\).
+Compared with the binomial order-four filter, the sparse filter has about one third of the logarithmic height and an error smaller by a factor of about \(3.87\times10^{23}\).
+
+The follow-up counts all surviving poles. The exact coefficient of \(\widehat h(P)s^2\) in the log denominator is 84 for the sparse filter and 804 for the binomial order-seven filter. The coefficient 84 is optimal among fixed finite integer filters satisfying (6). [Exact coefficients and optimality proof](EDS_EXACT_POLE_HEIGHT.zh.md).
 
 ## 7. What this changes in the research plan
 
