@@ -137,3 +137,10 @@ A plausible next improvement is to replace the binomial finite-difference weight
 - verify_elliptic_high_order_weights.py independently verifies the integer interpolation identities for m=1,...,30.
 
 The elliptic-period and logarithm values are high-precision numerical integrations, not interval-certified. The rational point arithmetic and the reduced rational B_m values are exact. This experiment is about the height bottleneck in our elliptic construction; it does not prove or disprove bad approximability of pi.
+
+
+## 7. Literature connection
+
+S. David and N. Hirata-Kohno, “Linear forms in elliptic logarithms,” *Journal für die reine und angewandte Mathematik* 628 (2009), 37–89, DOI 10.1515/CRELLE.2009.018, prove effective lower bounds for linear forms in elliptic logarithms. Their published abstract emphasizes optimal dependence on the height of the linear form and an effective simultaneous version depending on the elliptic curve, point heights, and field degree. It also notes that the numerical constant is not fully explicit in a practically sharp form.
+
+For our point \(P=(3,5)\), the relevant form is \(s\,u(P)-r\Omega\). The experiment at \(s=41,r=11\) supplies one small nonzero value. The theorem gives a general lower-bound framework, but we have not specialized all constants to this curve, and no numerical bound from that theorem is claimed here.
