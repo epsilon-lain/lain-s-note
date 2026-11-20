@@ -46,3 +46,6 @@
 
 - [椭圆对数与高阶消项的精确高度实验](ELLIPTIC_LOG_HEIGHT_EXPERIMENT.md)：在 \(E:y^2=x^3-2\)、\(P=(3,5)\) 上，以精确有理椭圆群运算计算 \(B_m([s]P)\)，比较实椭圆对数回归、\(|\xi([s]P)|\)、输出有理高度和误差；显示本次样本中提高消项阶数并未改善高度/误差权衡。
 - [可复现实验程序](elliptic_formal_height_experiment.py) 与 [精确有理输出摘要](elliptic_formal_height_experiment.json)：测试 \(s=15,26\) 的 \(m\le4\) 及 \(s=41\) 的 \(m\le6\)。椭圆周期为高精度数值积分，椭圆点和 \(B_m\) 的有理运算精确。
+
+- [高度感知的整数消项权重](HEIGHT_AWARE_INTEGER_WEIGHT_OPTIMIZATION.md)：用多项式恒等式 \(xL(x)-1=(x-1)^{m+1}Q(x)\) 构造整数权重；在 \(m=4,5,6\) 给出候选，使高度代理 \(\sum |\lambda_j|j^2\) 相对二项式权重分别降低约 12.1%、16.8%、32.3%。这些是改进候选，不声称全局最优，也尚未证明实际椭圆组合高度同步下降。
+- [精确整数验证器](verify_height_aware_weights.py) 与 [候选权重和成本数据](height_aware_weight_results.json)：验证全部矩条件 \(\sum_j\lambda_jj^r=1\)（\(0\le r\le m\)）及二次成本。
