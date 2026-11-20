@@ -209,3 +209,17 @@ The exact integer checks through \(m=30\) are stored in `elliptic_high_order_wei
 The moment identity itself forces at least \(m+1\) distinct multiplication indices. If one insists that every index be at most \(m+2\), the support is forced to be exactly \(\{2,\ldots,m+2\}\), and the unique weights are the binomial finite-difference weights. Thus any different integer cancellation scheme must introduce some multiplier \(j\ge m+3\). This is proved in `ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md`.
 
 The exact elliptic experiment there shows why this matters: the tested alternatives reduce \(\sum|\lambda_j|j^2\) but introduce larger multipliers, and on \(E:y^2=x^3-2\) their actual rational heights and errors are both worse in all nine tested cases.
+
+
+## 9. Curve-specific improvement using CM symmetry
+
+For \(E:y^2=x^3-2\), the sixth-order automorphism forces \([j]_F(z)\) to contain only powers \(z^{6k+1}\). The generic polynomial-moment filter therefore cancels many coefficients that are identically zero. A sparse three-point filter
+\[
+(\lambda_2,\lambda_3,\lambda_4)=(-364,291,-36)
+\]
+satisfies only the two necessary nonzero-coefficient constraints and gives
+\[
+\sum_{j=2}^4\lambda_j\frac{[j]_F(z)}z
+=1-1\,031\,184\,000\,z^{12}+O(z^{18}).
+\]
+See CM_SPARSE_ORDER12_CANCELLATION.md for the derivation, minimum-multiplier argument, EDS height consequence, and exact elliptic experiment. This illustrates that the generic binomial scheme is not optimal once the automorphism-forced sparsity of a particular formal group is used.
