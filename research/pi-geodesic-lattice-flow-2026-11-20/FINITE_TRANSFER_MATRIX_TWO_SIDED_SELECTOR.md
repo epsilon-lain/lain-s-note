@@ -129,11 +129,15 @@ Starting from
 \]
 we obtain, for \(h\ge1\),
 \[
+\boxed{R_{n-1}=r_n,}
+\]
+and for \(h\ge2\),
+\[
 \boxed{
 R_{n-h}
 =
 (1,0)\,
-N(a_n)N(a_{n-1})\cdots N(a_{n-h+1})
+N(a_{n-h+2})N(a_{n-h+3})\cdots N(a_n)
 \binom{r_n}{1}.
 }
 \tag{5}
@@ -155,11 +159,15 @@ Z_{n-1}=a_{n+1}+z_n.
 \]
 For \(h\ge2\),
 \[
+\boxed{Z_{n-1}=a_{n+1}+z_n,}
+\]
+and for \(h\ge2\),
+\[
 \boxed{
 Z_{n-h}
 =
 (1,0)\,
-M(a_n)M(a_{n-1})\cdots M(a_{n-h+2})
+M(a_{n-h+2})M(a_{n-h+3})\cdots M(a_n)
 \binom{a_{n+1}+z_n}{1}.
 }
 \tag{6}
