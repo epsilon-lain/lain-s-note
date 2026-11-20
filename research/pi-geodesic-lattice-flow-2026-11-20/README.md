@@ -41,3 +41,5 @@
 
 - [任意阶椭圆形式群消项](ELLIPTIC_HIGH_ORDER_FORMAL_CANCELLATION.md)：构造整数权重 \(\lambda_{m,j}=(-1)^j\binom{m+1}{j-1}\)，证明 \(\sum_j\lambda_{m,j}[j]_F(T)=T+O(T^{m+1})\)。应用于椭圆曲线，得到任意阶实数逼近，同时保留所有指定 \(p\mid M\) 处的同余。附有粗略高度预算，并明确尚无足够的分母控制来改善 \(\pi\) 的逼近。
 - [权重的精确整数验证程序](verify_elliptic_high_order_weights.py) 与 [\(m=1,\ldots,30\) 的检查结果](elliptic_high_order_weight_checks.json)：验证插值恒等式、乘法形式群的首个非零误差系数及权重范数。
+
+- [Hilbert 第十问题、abc 猜想与 π 研究迁移报告](H10_ABC_LITERATURE_AND_PI_TRANSFER.md)：整理 2026 年 H10/Q 与 number fields 新预印本、Pasten–Vidaux 的局部赋值—Vojta 高度路线、abc 当前争议状态、椭圆曲线高度文献及 David–Hirata-Kohno 椭圆对数下界；明确哪些工具可能帮助我们的形式群高度问题，以及为什么它们尚不能直接证明 \(\pi\) 坏逼近。
