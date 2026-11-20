@@ -64,3 +64,5 @@
 
 - [Gaussian CM 迹滤波器：三端同态十一阶准周期逼近](GAUSSIAN_CM_TRACE_FILTER.zh.md)：不再只使用整数倍点，而是利用平方 CM 环 \(\mathbb Z[i]\) 的端同态 \(1+i\)，对共轭端同态取迹以保持有理性。由三个范数为 \(1,2,4\) 的 Gaussian 乘子构造权重 \((233/210,-13/105,1/70)\)，匹配 \(z\zeta(L(z))\) 的前两个非零局部矩，得到 \(Z_{CM}(Q)=\zeta(u)+O(\xi(Q)^{11})\)。在同一 \(2/7,3/11\) Legendre 实验中，\(\pi\) 有理近似分母为 2500 bit、误差约 \(10^{-6.3863}\)，优于原固定整数三点滤波器的 7270 bit 与 \(10^{-3.2552}\)。
 - [Gaussian CM 迹滤波器精确复核程序](verify_gaussian_cm_trace_filter.py) 与 [精确实验结果](gaussian_cm_trace_filter_results.json)：椭圆群运算、Gaussian 端同态、迹、滤波器和有理 \(\pi\) 近似均为精确有理运算；局部 zeta 误差用交错级数区间，\(\pi\) 误差用 Machin 有理区间独立核验。
+
+- [Gaussian CM 高阶滤波器扩展](verify_gaussian_cm_higher_filters.py) 与 [阶 19/23 实验结果](gaussian_cm_higher_filter_results.json)：继续匹配第三、第四、第五个稀疏 CM 局部矩，得到局部准周期误差 \(O(z^{15})\) 和 \(O(z^{19})\) 的五项/六项滤波器；在相同 Legendre 收敛分数对上分别得到约 5,975 bit / \(10^{-11.764}\) 与 8,588 bit / \(10^{-13.441}\) 的有理 \(\pi\) 近似。
