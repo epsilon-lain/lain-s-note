@@ -125,7 +125,9 @@ def rational_cocycles(max_n):
     x1, y1 = P
     R = {1: F(0), 2: (3*x1*x1 - E_A) / (2*y1)}
     for n in range(2, max_n):
-        xn, yn = rational_point(n)
+        xn_g, yn_g = rational_point(n)
+        assert xn_g.i == 0 and yn_g.i == 0
+        xn, yn = xn_g.r, yn_g.r
         R[n + 1] = R[n] + (yn-y1)/(xn-x1)
     return R
 
