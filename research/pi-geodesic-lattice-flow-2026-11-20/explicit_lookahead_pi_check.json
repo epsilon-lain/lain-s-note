@@ -1,0 +1,29 @@
+{
+  "alpha": "pi",
+  "precision_decimal_digits": 100,
+  "candidates_checked": 20,
+  "results": [
+    {"candidate_q":7,"a_n_plus_2":1,"a_n_plus_3":292,"proved_lookahead_bound":6,"actual_lookahead":2,"future_witness_q":113},
+    {"candidate_q":106,"a_n_plus_2":292,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":113},
+    {"candidate_q":113,"a_n_plus_2":1,"a_n_plus_3":1,"proved_lookahead_bound":2,"actual_lookahead":2,"future_witness_q":33215},
+    {"candidate_q":33102,"a_n_plus_2":1,"a_n_plus_3":1,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":33215},
+    {"candidate_q":33215,"a_n_plus_2":1,"a_n_plus_3":2,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":66317},
+    {"candidate_q":66317,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":99532},
+    {"candidate_q":99532,"a_n_plus_2":1,"a_n_plus_3":3,"proved_lookahead_bound":2,"actual_lookahead":2,"future_witness_q":364913},
+    {"candidate_q":265381,"a_n_plus_2":3,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":364913},
+    {"candidate_q":364913,"a_n_plus_2":1,"a_n_plus_3":14,"proved_lookahead_bound":3,"actual_lookahead":2,"future_witness_q":1725033},
+    {"candidate_q":1360120,"a_n_plus_2":14,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":1725033},
+    {"candidate_q":1725033,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":25510582},
+    {"candidate_q":25510582,"a_n_plus_2":1,"a_n_plus_3":1,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":52746197},
+    {"candidate_q":52746197,"a_n_plus_2":1,"a_n_plus_3":2,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":78256779},
+    {"candidate_q":78256779,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":131002976},
+    {"candidate_q":131002976,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":340262731},
+    {"candidate_q":340262731,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":811528438},
+    {"candidate_q":811528438,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":1963319607},
+    {"candidate_q":1963319607,"a_n_plus_2":1,"a_n_plus_3":84,"proved_lookahead_bound":5,"actual_lookahead":2,"future_witness_q":6701487259},
+    {"candidate_q":4738167652,"a_n_plus_2":84,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":6701487259},
+    {"candidate_q":6701487259,"a_n_plus_2":2,"a_n_plus_3":null,"proved_lookahead_bound":2,"actual_lookahead":1,"future_witness_q":567663097408}
+  ],
+  "all_actual_lookaheads_within_bound": true,
+  "scope": "Finite 100-digit numerical diagnostic; not interval-certified. The lookahead theorem is proved independently."
+}
