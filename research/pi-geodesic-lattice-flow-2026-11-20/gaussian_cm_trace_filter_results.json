@@ -30,7 +30,7 @@
       "cm_filter_denominator_bits":442,
       "cm_filter_log10_error":"-8.04147457",
       "fixed_integer_three_point_numerator_bits":1835,
-      "fixed_integer_three_point_denominator_bits":1835,
+      "fixed_integer_three_point_denominator_bits":1831,
       "fixed_integer_three_point_log10_error":"-4.36208595"
     },
     {
@@ -41,7 +41,7 @@
       "cm_filter_denominator_bits":1088,
       "cm_filter_log10_error":"-8.88890783",
       "fixed_integer_three_point_numerator_bits":4512,
-      "fixed_integer_three_point_denominator_bits":4512,
+      "fixed_integer_three_point_denominator_bits":4508,
       "fixed_integer_three_point_log10_error":"-5.22487666"
     }
   ],
@@ -60,8 +60,8 @@
       "side_of_pi":"above"
     },
     "comparison": {
-      "denominator_bit_reduction_percent":65.5647382928,
-      "absolute_error_improvement_factor_approx":1352
+      "denominator_bit_reduction_percent":65.6121045392,
+      "absolute_error_improvement_factor_approx":1352.5
     }
   },
   "minimality_with_maximum_gaussian_norm_4": {
