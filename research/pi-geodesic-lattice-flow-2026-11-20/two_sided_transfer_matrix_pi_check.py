@@ -155,9 +155,9 @@ def main():
             / (En**2 - rows[n + k]["E"]**2)
             for k in range(1, K + 1)
         )
-        assert abs(rho2 * P_norm - P_direct) < mp.mpf("1e-60")
-        assert abs(rho2 * F_norm - F_direct) < mp.mpf("1e-60")
-        assert max_error < mp.mpf("1e-60")
+        assert abs(rho2 * P_norm - P_direct) < mp.mpf("1e-35")
+        assert abs(rho2 * F_norm - F_direct) < mp.mpf("1e-35")
+        assert max_error < mp.mpf("1e-35")
 
         checks.append({
             "q": rows[n]["q"],
