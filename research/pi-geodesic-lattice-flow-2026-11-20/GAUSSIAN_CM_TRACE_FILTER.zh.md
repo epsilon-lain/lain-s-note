@@ -205,3 +205,86 @@ This is a more faithful optimization than restricting to positive integer multip
 - Square-CM Legendre bridge and exact period/cocycle identities: CM_LEGENDRE_PERIOD_PI_BRIDGE.md.
 - Exact Gaussian trace filter and Machin-interval verification: verify_gaussian_cm_trace_filter.py.
 - Exact output summary: gaussian_cm_trace_filter_results.json.
+
+
+## 7. The trace filter collapses to a degree-12 rational map
+
+The Gaussian trace can be simplified before evaluating it. For \(Q=(x,y)\in E(\mathbb Q)\), direct addition gives
+\[
+\xi((1+i)Q)=-(1+i)\frac{x(x^2-36)}{y(x^2+36)},
+\]
+and its conjugate is obtained by replacing \(i\) with \(-i\). Hence
+\[
+\boxed{T_{1,1}(Q)=\frac{x^2-36}{x^2+36}.}
+\tag{9}
+\]
+The ordinary duplication formula gives
+\[
+\boxed{
+T_{2,0}(Q)=\frac{\xi(2Q)}{2\xi(Q)}
+=\frac{x^4-1296}{x^4-216x^2+1296}.
+}
+\tag{10}
+\]
+Substitution into (6) yields the single rational function
+\[
+\boxed{
+F_{\rm CM}(Q)=
+\frac{35x^6-5880x^4-291600x^2+1990656}
+{35(x^2+36)(x^2-12x-36)(x^2+12x-36)}.
+}
+\tag{11}
+\]
+The numerator and denominator are coprime. The denominator has six distinct roots in \(x\), each giving two points on \(E\), so \(F_{\rm CM}:E\to\mathbb P^1\) has exactly **12 simple poles**. They are torsion points: the first pair of quadratic factors comes from preimages of nonzero 2-torsion under \([1+i]\), and the remaining four \(x\)-roots come from preimages under \([2]\).
+
+Therefore the EDS pole-height formula in EDS_EXACT_POLE_HEIGHT.zh.md applies with pole count \(C=12\):
+\[
+\boxed{
+h(F_{\rm CM}([s]P))
+=12\,\widehat h(P)s^2+O(1).
+}
+\tag{12}
+\]
+Along the real return subsequence \([s]P\to O\), the local expansion gives \(F_{\rm CM}([s]P)\to1\), so the reduced denominator has the same leading quadratic coefficient:
+\[
+\boxed{
+\log\operatorname{den}(F_{\rm CM}([s]P))
+=12\,\widehat h(P)s^2+o(s^2).
+}
+\tag{13}
+\]
+The fixed integer three-point filter in the previous note has pole-degree coefficient \(58\). Thus the Gaussian trace construction reduces the asymptotic denominator-growth coefficient from \(58\) to \(12\), while matching the same two nonzero local moments. This is the structural reason its finite rational denominator is much smaller.
+
+## 8. Higher local orders from the same Gaussian moment method
+
+The method extends by adding one Gaussian multiplier for each additional nonzero CM coefficient. For reference, the next two local moments are
+\[
+r_3(a,b)=\frac1a\Re\!\left(
+\alpha(\alpha^4-1)(11\alpha^8-106\alpha^4+375)
+\right),
+\]
+\[
+r_4(a,b)=\frac1a\Re\!\left(
+\alpha(\alpha^4-1)
+(633\alpha^{12}-9091\alpha^8+55883\alpha^4-170625)
+\right),
+\qquad \alpha=a+bi.
+\]
+Matching \(r_3=4875/22\) as well gives a five-term filter supported on Gaussian norms \(1,2,4,5,5\), with weights
+\[
+\left(
+\frac{202121}{178717},
+-\frac{72883}{536151},
+\frac{8893}{1072302},
+-\frac{661}{1072302},
+-\frac{1445}{536151}
+\right)
+\]
+at \(1,1+i,2,1+2i,2+i\), respectively. It satisfies
+\[
+F_5(z)=z\zeta(L(z))+O(z^{16}),
+\qquad Z_5(z)=\frac{F_5(z)}z=\zeta(L(z))+O(z^{15}).
+\]
+In the same \(2/7,3/11\) experiment, using \(L_3(z)=z-\frac{72}{5}z^5+864z^9-\frac{933120}{13}z^{13}\), this filter gives a 5,975-bit denominator and \(\log_{10}|\widehat\pi-\pi|\approx-11.7640\). The order-11 norm-4 filter (5) remains more economical per denominator bit in the tested data.
+
+Matching one further moment \(r_4=-193375/2\) gives a six-term norm-at-most-8 filter and order-23 local accuracy. Its best tested combination has an 8,588-bit denominator and error about \(10^{-13.4624}\). These higher-order filters are included as an experimental frontier, not as a claim of global optimality.
