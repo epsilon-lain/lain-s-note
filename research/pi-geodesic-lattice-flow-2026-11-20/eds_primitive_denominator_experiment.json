@@ -1,0 +1,40 @@
+{
+  "curve": "y^2=x^3-2",
+  "point": "(3,5)",
+  "formal_parameter": "xi=-x/y",
+  "eds": {
+    "signed_initial_values_W1_to_W4": [1,10,171,-7660],
+    "cutoff": 720,
+    "recurrence": "W_(m+2)W_(m-2)=W_(m+1)W_(m-1)W_2^2-W_3W_1W_m^2",
+    "coordinate_formula": "phi_n=3W_n^2-W_(n+1)W_(n-1); xi(nP)=-2phi_n W_n^2/W_(2n)",
+    "direct_group_law_crosschecks": "n=1,...,12 all exact",
+    "strong_divisibility_checks": "gcd(|W_m|,|W_n|)=|W_gcd(m,n)| for all 1<=m,n<=40"
+  },
+  "s15_ratio_denominator_bits": {
+    "2":2629,"3":5257,"4":10514,"5":15771,"6":23657,
+    "7":31542,"8":42056,"9":52570,"10":65712,"11":78855,"12":94625
+  },
+  "coprime_multiplier_denominator_gcd_test": {
+    "pairs_checked": 34,
+    "result": "For every pair 2<=j<k<=12 with gcd(j,k)=1, the exact reduced denominators of R_j(15) and R_k(15) have gcd 1.",
+    "scope": "One exact finite sample; the general no-common-good-prime statement is proved in the note."
+  },
+  "exact_sum_comparisons_s15": [
+    {"m":4,"scheme":"binomial","J":6,"denominator_bits":55196,"log_height":38258.62159184848,"log10_abs_error":-3.226684416586805},
+    {"m":4,"scheme":"height_proxy_alternative","J":7,"denominator_bits":76224,"log_height":52833.94730462455,"log10_abs_error":-2.8043604451826174},
+    {"m":5,"scheme":"binomial","J":7,"denominator_bits":86738,"log_height":60121.608789798534,"log10_abs_error":-3.4175419226508725},
+    {"m":5,"scheme":"height_proxy_alternative","J":10,"denominator_bits":239191,"log_height":165794.3098883708,"log10_abs_error":-2.430766058403655},
+    {"m":6,"scheme":"binomial","J":8,"denominator_bits":128793,"log_height":89272.25792741732,"log10_abs_error":-3.9221628927474548},
+    {"m":6,"scheme":"height_proxy_alternative","J":12,"denominator_bits":349587,"log_height":242314.7166443771,"log10_abs_error":-2.318502794439283}
+  ],
+  "log_Bn_over_n_squared": {
+    "100":"0.6746835313128712",
+    "200":"0.6747755225016332",
+    "300":"0.6747840747487293",
+    "400":"0.6747849179966035",
+    "500":"0.6747836652931295",
+    "600":"0.6747802276930894",
+    "720":"0.6747863964539321"
+  },
+  "scope": "All EDS recurrences, direct small-multiple checks, and rational sums are exact. The h estimates are decimal diagnostics. No factorization of the large EDS terms was attempted; the asymptotic primitive-part bound is taken from Streng's theorem."
+}
