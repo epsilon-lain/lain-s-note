@@ -1,0 +1,34 @@
+{
+  "curve": "y^2=x^3-2",
+  "point": "(3,5)",
+  "formal_parameter": "xi=-x/y",
+  "arithmetic": "Exact rational group-law operations and exact Fraction B_m values; logarithmic heights and log10 errors are decimal summaries of exact rationals.",
+  "height_definition": "h(a/b)=log(max(|a|,b)) for reduced a/b with b>0.",
+  "comparison_scope": {
+    "recurrence_indices_s": [15,26,41],
+    "orders_m": [4,5,6],
+    "alternative_weights": {
+      "4": {"2":4,"3":-5,"5":5,"6":-4,"7":1},
+      "5": {"2":4,"3":-5,"4":1,"5":1,"6":1,"7":1,"8":-5,"9":4,"10":-1},
+      "6": {"2":4,"3":-4,"4":-3,"5":6,"8":-6,"9":3,"10":4,"11":-4,"12":1}
+    },
+    "all_moment_identities_verified": true
+  },
+  "comparisons": [
+    {"s":15,"m":4,"binomial_log10_error":-3.2266844166,"alternative_log10_error":-2.8043604452,"binomial_log_height":38258.62,"alternative_log_height":52833.95,"C2_reduction_percent":12.065},
+    {"s":15,"m":5,"binomial_log10_error":-3.4175419227,"alternative_log10_error":-2.4307660584,"binomial_log_height":60121.61,"alternative_log_height":165794.31,"C2_reduction_percent":16.801},
+    {"s":15,"m":6,"binomial_log10_error":-3.9221628927,"alternative_log10_error":-2.3185027944,"binomial_log_height":89272.26,"alternative_log_height":242314.72,"C2_reduction_percent":32.327},
+    {"s":26,"m":4,"binomial_log10_error":-3.2276864440,"alternative_log10_error":-2.8053673037,"binomial_log_height":114951.28,"alternative_log_height":158742.25,"C2_reduction_percent":12.065},
+    {"s":26,"m":5,"binomial_log10_error":-3.4185637761,"alternative_log10_error":-2.4319385175,"binomial_log_height":180637.73,"alternative_log_height":498119.81,"C2_reduction_percent":16.801},
+    {"s":26,"m":6,"binomial_log10_error":-3.9233827795,"alternative_log10_error":-2.3203600692,"binomial_log_height":268219.66,"alternative_log_height":728024.72,"C2_reduction_percent":32.327},
+    {"s":41,"m":4,"binomial_log10_error":-23.7271301554,"alternative_log10_error":-23.3069137520,"binomial_log_height":285846.86,"alternative_log_height":394741.52,"C2_reduction_percent":12.065},
+    {"s":41,"m":5,"binomial_log10_error":-23.9267025103,"alternative_log10_error":-23.0102485617,"binomial_log_height":449188.85,"alternative_log_height":1238676.71,"C2_reduction_percent":16.801},
+    {"s":41,"m":6,"binomial_log10_error":-24.5287625016,"alternative_log10_error":-23.4495812556,"binomial_log_height":666978.16,"alternative_log_height":1810373.65,"C2_reduction_percent":32.327}
+  ],
+  "outcome": {
+    "alternative_worse_in_actual_log_height_all_nine_cases": true,
+    "alternative_error_larger_all_nine_cases": true,
+    "interpretation": "The quadratic coefficient proxy C2 does not predict the exact reduced rational output height or the real cancellation error for these candidates."
+  },
+  "scope": "Finite exact-rational elliptic experiment. No global optimality statement and no conclusion about bad approximability of pi."
+}
