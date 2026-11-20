@@ -61,3 +61,6 @@
 
 - [CM 周期/准周期与 \(\pi\) 的精确桥接](CM_LEGENDRE_PERIOD_PI_BRIDGE.md)：在方形 CM 曲线 \(y^2=x^3-36x\) 上由 Legendre 关系得到 \(\Omega H=\pi\)；利用相邻椭圆对数收敛分数消去基点 zeta 值，把 \(\Omega,H\) 写成两个小形式误差和有理 zeta cocycle；构造 CM 稀疏的二点/四点 zeta 算术滤波器，并给出把一列有理 \(\pi\) 近似提升为全体有理数统一下界的覆盖判据。
 - [CM-Legendre 精确实验程序](cm_legendre_pi_bridge_experiment.py) 与 [实验数据](cm_legendre_pi_bridge_experiment.json)：在 \(P=(12,-36)\) 上用精确有理椭圆群运算计算 zeta cocycle、CM 滤波器及有理 \(\Pi_K\)；椭圆周期与 \(\pi\) 的误差采用高精度数值积分诊断。
+
+- [Gaussian CM 迹滤波器：三端同态十一阶准周期逼近](GAUSSIAN_CM_TRACE_FILTER.zh.md)：不再只使用整数倍点，而是利用平方 CM 环 \(\mathbb Z[i]\) 的端同态 \(1+i\)，对共轭端同态取迹以保持有理性。由三个范数为 \(1,2,4\) 的 Gaussian 乘子构造权重 \((233/210,-13/105,1/70)\)，匹配 \(z\zeta(L(z))\) 的前两个非零局部矩，得到 \(Z_{CM}(Q)=\zeta(u)+O(\xi(Q)^{11})\)。在同一 \(2/7,3/11\) Legendre 实验中，\(\pi\) 有理近似分母为 2500 bit、误差约 \(10^{-6.3863}\)，优于原固定整数三点滤波器的 7270 bit 与 \(10^{-3.2552}\)。
+- [Gaussian CM 迹滤波器精确复核程序](verify_gaussian_cm_trace_filter.py) 与 [精确实验结果](gaussian_cm_trace_filter_results.json)：椭圆群运算、Gaussian 端同态、迹、滤波器和有理 \(\pi\) 近似均为精确有理运算；局部 zeta 误差用交错级数区间，\(\pi\) 误差用 Machin 有理区间独立核验。
