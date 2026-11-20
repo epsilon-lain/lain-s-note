@@ -248,11 +248,24 @@ def main():
     assert sum((w*r1(a, b) for (a, b), w in WEIGHTS.items()), F(0)) == F(5, 6)
     assert sum((w*r2(a, b) for (a, b), w in WEIGHTS.items()), F(0)) == F(-45, 14)
 
-    # Verify the CM automorphism and rationality of all trace values.
+    # Verify the CM automorphism, rational traces, and the simplified
+    # rational functions T_(1,1)(Q), T_(2,0)(Q).
     P7 = rational_point(7)
     assert tau(P7, +1) != tau(P7, -1)
-    for a, b in WEIGHTS:
-        assert isinstance(trace_multiplier(P7, a, b), F)
+    for n in (7, 11):
+        Q = rational_point(n)
+        x = Q[0].r
+        T11 = trace_multiplier(Q, 1, 1)
+        T20 = trace_multiplier(Q, 2, 0)
+        assert T11 == (x*x-36)/(x*x+36)
+        assert T20 == (x**4-1296)/(x**4-216*x*x+1296)
+        F_trace = (F(233, 210) - F(13, 105)*T11 + F(1, 70)*T20)
+        F_rational = (
+            35*x**6 - 5880*x**4 - 291600*x*x + 1990656
+        ) / (
+            35*(x*x+36)*(x*x-12*x-36)*(x*x+12*x-36)
+        )
+        assert F_trace == F_rational
 
     pi_interval = machin_pi_interval(100)
     rows = []
@@ -284,6 +297,12 @@ def main():
         "point": "P=(12,-36)",
         "cm_ring": "Z[i]",
         "automorphism": "tau(x,y)=(-x,i*y)",
+        "simplified_rational_map": {
+            "F_CM(x)": "(35*x^6-5880*x^4-291600*x^2+1990656)/(35*(x^2+36)*(x^2-12*x-36)*(x^2+12*x-36))",
+            "degree_on_x_line": 6,
+            "degree_on_elliptic_curve": 12,
+            "simple_torsion_poles": 12
+        },
         "gaussian_trace_filter_weights": {
             "1": "233/210",
             "1+i": "-13/105",
