@@ -271,47 +271,22 @@ A second adjacent pair, \(5/18,28/101\), was also tested. At \(K=3\), its ration
 
 ## 7. The exact uniform-coverage criterion
 
-Here is the final bridge from a rational approximant sequence to **all** rational approximations.
-
-Let \(r_k=a_k/b_k\) be reduced rationals with strictly increasing denominators \(b_k\to\infty\), and let
+Let \(r_k=a_k/b_k\) be reduced rationals with strictly increasing denominators \(b_k\to\infty\), and put \(\varepsilon_k=|\pi-r_k|\). Suppose there are constants \(c_0>0\) and \(0<c_1<1\) such that
 \[
-\varepsilon_k=|\pi-r_k|.
-\]
-Suppose there are constants \(c_0>0\) and \(c_1<1\) such that
-\[
-\boxed{
-b_k^2\varepsilon_k\ge c_0,
-\qquad
-b_{k+1}^2\varepsilon_k\le c_1
-}
+b_k^2\varepsilon_k\ge c_0,\qquad
+b_k b_{k+1}\varepsilon_k\le c_1
 \tag{11}
 \]
-for every \(k\). Then
+for every \(k\). For \(b_k\le q<b_{k+1}\), either \(p/q=r_k\), in which case the first condition applies, or determinant separation gives
 \[
-\boxed{
 q^2\left|\pi-\frac pq\right|
-\ge \min(c_0,1-c_1)
-}
+\ge \frac q{b_k}(1-qb_k\varepsilon_k)\ge 1-c_1 .
 \tag{12}
 \]
-for every reduced rational \(p/q\).
+For \(q<b_1\), take the minimum of \(q\|q\pi\|\) over those finitely many denominators and include it in the lower bound. This gives a positive lower bound for every denominator.
 
-**Proof.** Choose \(k\) with \(b_k\le q<b_{k+1}\). If \(p/q=r_k\), then \(q=b_k\) and (11) gives the lower bound \(c_0\). Otherwise distinct reduced rationals satisfy
-\[
-\left|\frac pq-r_k\right|\ge\frac1{qb_k}.
-\]
-Hence
-\[
-q^2\left|\pi-\frac pq\right|
-\ge \frac q{b_k}-q^2\varepsilon_k
-\ge 1-c_1.
-\]
-This proves (12). \(\square\)
+The existence of a sequence satisfying (11) is equivalent to bad approximability. In the reverse direction take the ordinary convergents. If the partial quotients are at most \(M\), the first inequality follows from bad approximability, and the complete quotient formula gives \(b_k b_{k+1}\varepsilon_k\le[1+(M+1)^{-2}]^{-1}<1\).
 
-This criterion gives a concrete target for the CM construction: keep the approximant quality \(b_k^2\varepsilon_k\) bounded below, while ensuring that the next denominator remains inside the current error window.
+## 8. Direct expansion and height estimates
 
-## 8. Next optimization target
-
-The square-CM Legendre identity supplies the exact occurrence of \(\pi\); the two-convergent elimination turns it into rational arithmetic; and the sparse zeta filters supply low-order rational approximations to the quasi-period. The next optimization is to improve the rational height/error ratio of these filters until the covering inequalities (11) become available.
-
-This is the concrete bridge from CM symmetry to a uniform constraint on rational approximations to \(\pi\).
+The follow-up expands the composed function \(\zeta(L(z))\) directly and also truncates the period product by total degree. For \(K=6\) the latter keeps approximately \(10^{-18.39}\) error with a 5,553-bit denominator. The same follow-up proves denominator barriers for explicitly stated truncation families and obtains a degree-optimal fixed three-point order-eleven zeta filter. The bounds leave the uniform coverage problem for \(\pi\) open. [Direct expansions and proofs](CM_LEGENDRE_DIRECT_HEIGHT.zh.md) · [Exact rational checks](verify_cm_legendre_direct.py)
