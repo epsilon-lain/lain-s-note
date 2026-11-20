@@ -68,20 +68,19 @@ Q_4(x)=x+1.
 \]
 Then
 \[
-L_4(x)=4-5x-x^3+5x^4-4x^5+x^6+x^? 
+L_4(x)=x^5-4x^4+5x^3-5x+4,
 \]
-For avoidance of transcription ambiguity, the exact sparse coefficient list is
+so the nonzero weights are
 \[
 \boxed{
 \lambda_2=4,\quad
-\lambda_3=0,\quad
-\lambda_4=-5,\quad
+\lambda_3=-5,\quad
 \lambda_5=5,\quad
 \lambda_6=-4,\quad
-\lambda_7=1,
+\lambda_7=1.
 }
 \]
-with all other weights zero. Equivalently \(L_4(x)=4-5x^2+5x^3-4x^4+x^5+x^? \) (the verifier defines it from (2); use the coefficient list as canonical).
+All other \(\lambda_j\) vanish.
 
 ### Order \(m=5\)
 
@@ -89,7 +88,11 @@ Take
 \[
 Q_5(x)=-(x+1)(x^2+x+1).
 \]
-The exact weights are
+Then
+\[
+L_5(x)=-x^8+4x^7-5x^6+x^5+x^4+x^3+x^2-5x+4,
+\]
+so
 \[
 \boxed{
 (\lambda_2,\ldots,\lambda_{10})
@@ -103,23 +106,27 @@ Take
 \[
 Q_6(x)=(x+1)^2(x^2+x+1).
 \]
-The exact weights are
+Then
+\[
+L_6(x)=x^{10}-4x^9+4x^8+3x^7-6x^6+6x^3-3x^2-4x+4,
+\]
+so
 \[
 \boxed{
 (\lambda_2,\ldots,\lambda_{12})
-=(4,-4,-3,6,0,-6,3,4,-4,1,0).
+=(4,-4,-3,6,0,0,-6,3,4,-4,1).
 }
 \]
 
-The accompanying exact-integer verifier checks every moment
+Direct exact substitution verifies
 \[
-\sum_j\lambda_jj^r=1,\qquad 0\le r\le m,
+\sum_j\lambda_jj^r=1,\qquad 0\le r\le m
 \]
-and independently checks (2). If a displayed sparse list is inconsistent with the polynomial identity, the verifier is authoritative and the note must be corrected before use.
+in each case. The verifier checks these moment identities and the polynomial divisibility (2).
 
 ## 4. Cost comparison
 
-For the candidates produced by the exact search:
+For the candidates found by a finite search over products of low-degree cyclotomic polynomials \(Q\) (total degree at most 12), we obtain:
 
 | Order \(m\) | Binomial \(\mathcal C_2\) | Alternative \(\mathcal C_2\) | Reduction |
 |---:|---:|---:|---:|
