@@ -31,3 +31,6 @@
 
 - [由两个部分商控制的显式前瞻上界](EXPLICIT_LOOKAHEAD_FROM_PARTIAL_QUOTIENTS.md)：证明若 \(a_{n+2}\ge2\)，最多检查两个未来收敛分数；若 \(a_{n+2}=1\)，令 \(A=a_{n+3}\)，则最多检查 \(k(A)-1\) 个，其中 \(k(A)=\min\{k:F_k\ge(A+2)/\sqrt{2A+3}\}\)，故前瞻长度为 \(O(\log A)\)。
 - [π 的前瞻上界实验](explicit_lookahead_pi_check.py) 与 [20 个候选的 JSON 记录](explicit_lookahead_pi_check.json)：比较理论上界和实际停止长度；数值仅作有限诊断。
+
+- [双边选择器的有限传递矩阵公式](FINITE_TRANSFER_MATRIX_TWO_SIDED_SELECTOR.md)：将过去/未来阈值同时除以 \((q_n/E_n)^2\)，用 \(M(a)=\begin{psmallmatrix}a&1\\1&0\end{psmallmatrix}\) 与 \(N(a)=\begin{psmallmatrix}-a&1\\1&0\end{psmallmatrix}\) 的有限乘积计算全部归一化比值；未来长度由显式前瞻定理控制，剩余唯一的尾部参数是完全商 \(z_n=1/\alpha_{n+2}\)。
+- [双边传递矩阵复核程序](two_sided_transfer_matrix_pi_check.py) 与 [π 的有限测试数据](two_sided_transfer_matrix_pi_check.json)：将矩阵公式与直接收敛分数比值对照，检查前 25 个候选。
