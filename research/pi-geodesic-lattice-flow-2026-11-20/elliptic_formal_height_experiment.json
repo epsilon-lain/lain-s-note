@@ -14,6 +14,11 @@
     "abs_xi_41P": "0.000020228280096978686235174119478725",
     "period_distance_over_abs_xi": "0.9999999999999999999999999942"
   },
+  "scan_s_le_100": {
+    "best_s": 41,
+    "best_abs_xi": "0.000020228280096978686235174119478725",
+    "scope": "finite exact-rational scan over 1<=s<=100"
+  },
   "height_diagnostics": {
     "41P": {
       "log_height_x": "2268.6386607779614",
