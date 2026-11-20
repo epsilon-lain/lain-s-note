@@ -225,3 +225,45 @@ is constant throughout that interval. If it is, a finite block of partial quotie
 The original clock used one scalar to enumerate all lattice points. The current construction uses one scalar flow parameter and a finite transfer-matrix selector. It does not visit all rational pairs: it selects only the candidates that can support the lower envelope. The past and future are represented by opposite matrix products, while the complete quotient couples them.
 
 This is a precise two-sided arithmetic boundary-value formulation. It is not physical retrocausality; it is a global optimization criterion expressed through finite continued-fraction data.
+
+
+## 7. Finite continued-fraction cylinders for the tail parameter
+
+The only infinite-tail input in the selector is
+\[
+z_n=\frac1{\alpha_{n+2}}.
+\]
+A finite block of future digits gives a rigorous interval for it. Suppose the known prefix is
+\[
+\alpha_{n+2}=[b_0;b_1,\ldots,b_m,\tau],
+\qquad \tau>1,
+\]
+where \(b_j=a_{n+2+j}\). Let \(P_m/Q_m\) and \(P_{m-1}/Q_{m-1}\) be the convergents of the finite word \([b_0;\ldots,b_m]\). Then
+\[
+\alpha_{n+2}
+=\frac{P_m\tau+P_{m-1}}{Q_m\tau+Q_{m-1}}.
+\]
+As \(\tau\) ranges over \((1,\infty)\), this Möbius function is monotone, so its range is the interval between
+\[
+\frac{P_m}{Q_m}
+\quad\text{and}\quad
+\frac{P_m+P_{m-1}}{Q_m+Q_{m-1}}.
+\]
+Taking reciprocals gives an explicit rational interval \(I_m\) containing \(z_n\).
+
+Substitute \(z\in I_m\) into the finite matrix formulas (1)–(7), using outward-rounded interval arithmetic. If the resulting interval for
+\[
+\mathcal F_n(z)-\mathcal P_n(z)
+\]
+lies strictly above zero, the candidate is certified active; if it lies strictly below zero, it is certified inactive. If the interval contains zero, reveal another future partial quotient and refine the cylinder.
+
+This gives an adaptive finite-digit certificate. It is not guaranteed to decide every candidate from a uniformly bounded number of digits: a candidate whose exact selector margin is zero (a hull tie), or arbitrarily close to zero, can require more precision. For strict activity/inactivity the nested cylinders shrink to the true irrational tail, so interval refinement eventually decides once the selector has a nonzero margin.
+
+## 8. Precise interpretation of “direct”
+
+The matrix selector avoids constructing intermediate numerator-denominator pairs and avoids scanning arbitrary rational numbers. It still performs:
+- a finite scan of the already known past prefix (or an equivalent stored past summary);
+- a bounded, partial-quotient-controlled future matrix calculation;
+- interval refinement of one complete-quotient parameter when needed.
+
+Thus it is a finite transfer-matrix formula with adaptive tail certification, not a formula depending on only two partial quotients and not a constant-time local rule.
