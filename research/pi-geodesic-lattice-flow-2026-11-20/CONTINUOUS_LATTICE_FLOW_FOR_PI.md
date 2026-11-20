@@ -172,3 +172,13 @@ and the lattice identity (4) are two distinct one-parameter views of the same cl
 ## 10. References and attribution
 
 The geodesic-flow criterion (7) is classical in Diophantine approximation and homogeneous dynamics; this note is a tailored derivation for the user's one-dimensional-to-lattice proposal, not a claim to have invented the criterion. Standard references include Cassels, *An Introduction to Diophantine Approximation*, and Kleinbock–Margulis, "Flows on homogeneous spaces and Diophantine approximation on manifolds," Annals of Mathematics 148 (1998), 339–360.
+
+## 11. First finite lower-envelope experiment (2026-11-20)
+
+For the finite candidate set \(1\le q\le200000\), the active vectors of the lower envelope were computed at 80 decimal digits. The active list begins
+\[
+(0,1),(1,3),(7,22),(113,355),(33215,104348),(66317,208341),(99532,312689).
+\]
+The finite experiment also shows that some continued-fraction convergents are skipped by this Euclidean lower envelope, including \(333/106\) and \(103993/33102\). This is expected: the active set is the lower convex hull of \((q^2,\|q\pi\|^2)\), not the full list of convergents. The last vector is active only relative to the cutoff \(q\le200000\); larger denominators may create later switches.
+
+See [the experiment note](LOWER_ENVELOPE_EXPERIMENT.md), [the reproducible mpmath script](pi_lattice_flow_experiment.py), and [the JSON output](pi_lattice_flow_experiment.json). This is numerical exploration, not an infinite itinerary theorem.
