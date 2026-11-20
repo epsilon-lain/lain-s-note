@@ -55,3 +55,6 @@
 
 - [椭圆除法序列的原始因子分母障碍](EDS_PRIMITIVE_DENOMINATOR_BARRIER.md)：证明对任意固定有限整数线性组合 \(\mathcal B_{\lambda,s}=\sum_j\lambda_j\xi([js]P)/\xi([s]P)\)，其最大乘法指标 \(J\) 对应的 \(B_{2Js}\) 原始 EDS 因子不能在组合中抵消；利用 Streng 对 CM 曲线原始部分的渐近式，得到 \(\liminf h(\mathcal B_{\lambda,s})/s^2\ge4J^2\widehat h(P)/\zeta(2)\)。因此二项式权重在最小最大指标意义下也最优。另证明互素乘法指标的项分母没有共同的良约化素因子。
 - [EDS 精确实验程序](eds_primitive_denominator_experiment.py) 与 [实验 JSON](eds_primitive_denominator_experiment.json)：在 \(E:y^2=x^3-2,P=(3,5)\) 上使用整数 EDS 递推至 720，和精确椭圆群运算交叉核验，并比较 \(s=15\) 时原始/替代权重的约分分母。
+
+- [CM 稀疏十二阶消项：三点构造](CM_SPARSE_ORDER12_CANCELLATION.md)：利用 \(j=0\) 曲线的六阶自同构，证明形式乘法级数只含 \(z^{6k+1}\) 次幂；因此只需约束 \(\sum\lambda_jj=1\) 与 \(\sum\lambda_jj^7=1\)，便可实现十二阶误差。给出最小最大乘法指标 \(J=4\) 的三点整数权重 \((-364,291,-36)\)，并用 Streng 原始 EDS 因子给出相应高度下界。
+- [CM 稀疏消项精确实验程序](cm_sparse_cancellation_experiment.py) 与 [精确有理数实验结果](cm_sparse_cancellation_experiment.json)：在 \(E:y^2=x^3-2,P=(3,5),s=41\) 上比较三种稀疏方案和三种二项式方案；全部椭圆群运算与输出有理数精确计算。
