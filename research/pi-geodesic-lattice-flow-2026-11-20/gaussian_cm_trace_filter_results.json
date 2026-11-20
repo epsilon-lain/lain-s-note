@@ -1,0 +1,82 @@
+{
+  "curve": "E: y^2=x^3-36x",
+  "point": "P=(12,-36)",
+  "cm_ring": "Z[i]",
+  "automorphism": "tau(x,y)=(-x,i*y)",
+  "formal_log": "L(z)=z-(72/5)z^5+864z^9+O(z^13)",
+  "target_local_series": "z*zeta(L(z))=1+12z^4-(3888/7)z^8+O(z^12)",
+  "filter": {
+    "definition": "F_CM(Q)=233/210-(13/105)T_(1,1)(Q)+(1/70)T_(2,0)(Q), Z_CM(Q)=F_CM(Q)/xi(Q)",
+    "trace_multiplier": "T_(a,b)(Q)=(xi([(a+bi)]Q)+xi([(a-bi)]Q))/(2a*xi(Q))",
+    "weights": {"identity":"233/210","1+i":"-13/105","2":"1/70"},
+    "gaussian_norms": {"1":1,"1+i":2,"2":4},
+    "moments": {
+      "sum_weights":"1",
+      "sum_weight_r1":"5/6",
+      "sum_weight_r2":"-45/14"
+    },
+    "result": "Z_CM(Q)=zeta(u)+O(xi(Q)^11)"
+  },
+  "elliptic_cocycles": {
+    "R7": "-14566275648/441041329",
+    "R11": "-253434733433445222234144/28941184902620566636633"
+  },
+  "local_filter_results": [
+    {
+      "n":7,
+      "xi_n_numerator_bits":60,
+      "xi_n_denominator_bits":64,
+      "cm_filter_numerator_bits":446,
+      "cm_filter_denominator_bits":442,
+      "cm_filter_log10_error":"-8.04147457",
+      "fixed_integer_three_point_numerator_bits":1835,
+      "fixed_integer_three_point_denominator_bits":1835,
+      "fixed_integer_three_point_log10_error":"-4.36208595"
+    },
+    {
+      "n":11,
+      "xi_n_numerator_bits":152,
+      "xi_n_denominator_bits":156,
+      "cm_filter_numerator_bits":1092,
+      "cm_filter_denominator_bits":1088,
+      "cm_filter_log10_error":"-8.88890783",
+      "fixed_integer_three_point_numerator_bits":4512,
+      "fixed_integer_three_point_denominator_bits":4512,
+      "fixed_integer_three_point_log10_error":"-5.22487666"
+    }
+  ],
+  "pi_approximants": {
+    "construction": "Pi_hat=(7*L1(z11)-11*L1(z7))*(11*R7-7*R11-11*Z_CM(7P)+7*Z_CM(11P)), L1(z)=z-(72/5)z^5",
+    "gaussian_cm_filter": {
+      "numerator_bits":2502,
+      "denominator_bits":2500,
+      "log10_abs_error":"-6.38634348",
+      "side_of_pi":"below"
+    },
+    "fixed_integer_three_point_filter": {
+      "numerator_bits":7271,
+      "denominator_bits":7270,
+      "log10_abs_error":"-3.25519747",
+      "side_of_pi":"above"
+    },
+    "comparison": {
+      "denominator_bit_reduction_percent":65.5647382928,
+      "absolute_error_improvement_factor_approx":1352
+    }
+  },
+  "minimality_with_maximum_gaussian_norm_4": {
+    "available_moment_points_up_to_units_and_conjugation": {
+      "1":[0,0],
+      "1+i":[-5,45],
+      "2":[15,165]
+    },
+    "pair_determinants_against_target": ["-150/7","-1300/7","-11650/7"],
+    "conclusion": "No one- or two-term trace filter supported on Gaussian norms <=4 can match both target moments; the three-term filter uses all available nodes and has minimum possible maximum norm 4."
+  },
+  "verification": {
+    "all_elliptic_and_gaussian_arithmetic_exact": true,
+    "local_zeta_error_enclosure": "Alternating formal series with 144*|z|^4<1",
+    "pi_error_enclosure": "Exact Machin arctangent rational interval, 100 terms",
+    "scope": "Finite Legendre-bridge experiment with exact rational filters and exact rational approximant."
+  }
+}
