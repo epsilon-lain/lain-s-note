@@ -1,0 +1,17 @@
+{
+  "q_max": 200000,
+  "precision_decimal_digits": 100,
+  "convergents_count": 8,
+  "convergents": [
+    [1,3],[7,22],[106,333],[113,355],
+    [33102,103993],[33215,104348],[66317,208341],[99532,312689]
+  ],
+  "full_scan_active": [
+    [0,1],[1,3],[7,22],[113,355],[33215,104348],[66317,208341],[99532,312689]
+  ],
+  "convergent_only_active": [
+    [1,3],[7,22],[113,355],[33215,104348],[66317,208341],[99532,312689]
+  ],
+  "comparison": "Identical after adding the vertical vector (0,1) to the convergent-only candidate hull.",
+  "scope": "Finite numerical regression only. The theorem that every active denominator is a convergent is proved separately."
+}
