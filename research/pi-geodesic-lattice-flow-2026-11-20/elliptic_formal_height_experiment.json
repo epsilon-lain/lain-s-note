@@ -5,14 +5,14 @@
   "formal_parameter": "xi=-x/y",
   "elliptic_logarithm_diagnostic": {
     "real_period": "2.163681749013751009472202825697347548",
-    "uP": "1.161000949630797955262461768623911448",
-    "theta_u_over_period": "0.536585821902876973679563800258907121",
+    "uP": "0.580500474815398977631230884311955724",
+    "theta_u_over_period": "0.268292910951438486839781900129453562",
     "s": 41,
-    "nearest_integer": 22,
-    "distance_41theta_to_integer": "0.000018698017955920862115810615191976",
-    "period_times_distance": "0.0000404565601939573724703482387233",
+    "nearest_integer": 11,
+    "distance_41theta_to_integer": "0.000009349008977960431057905307595988",
+    "period_times_distance": "0.000020228280096978686235174119361654",
     "abs_xi_41P": "0.000020228280096978686235174119478725",
-    "period_distance_over_2_abs_xi": "1.0000000000000000000000000000"
+    "period_distance_over_abs_xi": "0.9999999999999999999999999942"
   },
   "height_diagnostics": {
     "41P": {
