@@ -1,0 +1,16 @@
+{
+  "alpha": "pi",
+  "precision_decimal_digits": 80,
+  "checked_candidates": [
+    {"q":7,"a_n_plus_2":1,"a_n_plus_3":292,"lookahead_bound":6,"past_threshold":"2403.5895412503942","future_threshold":"162355039.342788349","active":true},
+    {"q":106,"a_n_plus_2":292,"a_n_plus_3":1,"lookahead_bound":2,"past_threshold":"20999290826.9420128","future_threshold":"19700804.4617946134","active":false},
+    {"q":113,"a_n_plus_2":1,"a_n_plus_3":1,"lookahead_bound":2,"past_threshold":"162355039.342788349","future_threshold":"1.40118302663382765e18","active":true},
+    {"q":33102,"a_n_plus_2":1,"a_n_plus_3":1,"lookahead_bound":2,"past_threshold":"2.01884572980741224e18","future_threshold":"30636934559382946.3","active":false},
+    {"q":33215,"a_n_plus_2":1,"a_n_plus_3":2,"lookahead_bound":2,"past_threshold":"1.40118302663382765e18","future_threshold":"5.93764667921738993e19","active":true},
+    {"q":66317,"a_n_plus_2":2,"a_n_plus_3":1,"lookahead_bound":2,"past_threshold":"5.93764667921738993e19","future_threshold":"9.59229761052146431e19","active":true},
+    {"q":99532,"a_n_plus_2":1,"a_n_plus_3":3,"lookahead_bound":2,"past_threshold":"9.59229761052146431e19","future_threshold":"1.52759229117292604e22","active":true},
+    {"q":265381,"a_n_plus_2":3,"a_n_plus_3":1,"lookahead_bound":2,"past_threshold":"1.97491375028732577e22","future_threshold":"1.25365770821990698e22","active":false}
+  ],
+  "transfer_matrix_check": "Past and future normalized ratios agree with direct convergent ratios to high precision for 25 candidates; threshold identities agree up to scale-relative rounding.",
+  "scope": "Finite high-precision numerical regression, not interval-certified. The transfer identities and finite lookahead theorem are proved separately."
+}
