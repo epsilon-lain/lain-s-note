@@ -1,0 +1,62 @@
+{
+  "curve": "y^2=x^3-36x",
+  "j_invariant": 1728,
+  "point": "(12,-36)",
+  "CM_period_relation": "Omega*H=pi",
+  "point_non_torsion": {
+    "good_reduction_point_counts": {"5":8,"7":8,"11":12,"13":20},
+    "gcd": 4,
+    "two_P": "(25/4,35/8)"
+  },
+  "period_diagnostics": {
+    "Omega": "1.0704505140376155993171555258476452",
+    "uP": "0.2967744354148354545825271244715438",
+    "theta": "0.27724255490843438440670127667439312",
+    "H": "2.9348322154006623848330948516198583",
+    "delta_7_2": "-0.06347998017138301655662118",
+    "delta_11_3": "0.05316724745034320245633179",
+    "delta_18_5": "-0.01031273272103981410028939",
+    "delta_101_28": "0.001603583845144131954884848"
+  },
+  "exact_rational_cocycles": {
+    "R7": "-14566275648/441041329",
+    "R11": "-253434733433445222234144/28941184902620566636633"
+  },
+  "exact_local_parameters": {
+    "z7": "-884619602260392601/13932152355102290403",
+    "z11": "4547893737992821776112484676302621179493399749/85529544363814282559421823745196992028029282253",
+    "z18_log10_abs": "-1.986626167141138",
+    "z101_log10_abs": "-2.794908327536124"
+  },
+  "rational_pi_approximants": [
+    {"pair":"2/7,3/11","K":0,"log10_abs_error":-1.309259389373262,"denominator_bits":325},
+    {"pair":"2/7,3/11","K":1,"log10_abs_error":-4.303726390128479,"denominator_bits":5322},
+    {"pair":"2/7,3/11","K":2,"log10_abs_error":-7.210457257429439,"denominator_bits":17526},
+    {"pair":"2/7,3/11","K":3,"log10_abs_error":-10.03444952420673,"denominator_bits":36672},
+    {"pair":"2/7,3/11","K":4,"log10_abs_error":-12.81223800769442,"denominator_bits":62836},
+    {"pair":"2/7,3/11","K":5,"log10_abs_error":-15.56122995029504,"denominator_bits":95869},
+    {"pair":"2/7,3/11","K":6,"log10_abs_error":-18.29094480837717,"denominator_bits":135919},
+    {"pair":"5/18,28/101","K":3,"log10_abs_error":-20.92577232216056,"denominator_bits":2273673}
+  ],
+  "CM_sparse_zeta_filters": [
+    {
+      "name":"two_point_order7",
+      "weights":{"2":285,"3":-34},
+      "C":468,
+      "moments":{"sum_lambda_j":468,"sum_lambda_j_times_j5_minus_j":390},
+      "local_zeta_errors_at_n7_n11":["0.0008202396162673444","-0.0002348201685010463"]
+    },
+    {
+      "name":"four_point_order11",
+      "weights":{"2":-15064,"3":17375,"4":-5291,"5":539},
+      "C":3528,
+      "moments":{"sum_lambda_j":3528,"sum_lambda_j_times_j5_minus_j":2940,"sum_lambda_j_times_j9_minus_6j5_plus_5j":-11340},
+      "local_zeta_errors_at_n7_n11":["-0.01628912328876234","0.002085475377704444"]
+    }
+  ],
+  "pi_from_zeta_filters": [
+    {"filter":"two_point_order7","formal_log_truncation_order":1,"log10_abs_pi_error":-1.942396485107131,"denominator_bits":3794},
+    {"filter":"four_point_order11","formal_log_truncation_order":1,"log10_abs_pi_error":-0.6831285805773013,"denominator_bits":12455}
+  ],
+  "scope": "Elliptic point arithmetic, cocycles, filters, and rational Pi_K values are exact. Periods and errors against pi are high-precision numerical diagnostics. Legendre and two-convergent identities are exact."
+}
