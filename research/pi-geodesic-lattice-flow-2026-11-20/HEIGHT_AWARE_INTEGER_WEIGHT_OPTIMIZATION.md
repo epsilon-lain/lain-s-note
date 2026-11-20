@@ -126,7 +126,7 @@ in each case. The verifier checks these moment identities and the polynomial div
 
 ## 4. Cost comparison
 
-For the candidates found by a finite search over products of low-degree cyclotomic polynomials \(Q\) (total degree at most 12), we obtain:
+For the three explicit choices of \(Q\) above, we obtain:
 
 | Order \(m\) | Binomial \(\mathcal C_2\) | Alternative \(\mathcal C_2\) | Reduction |
 |---:|---:|---:|---:|
