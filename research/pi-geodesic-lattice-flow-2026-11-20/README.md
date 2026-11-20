@@ -14,3 +14,6 @@
 - [活跃向量与连分数定理](ACTIVE_VECTORS_AND_CONTINUED_FRACTIONS.md)：证明每个活跃分母必是 \(\|q\pi\|\) 的严格纪录，因此必为正则连分数收敛分母；并给出收敛分数的下凸包生存判据。
 - [仅用收敛分数的下包络实验](CONTINUED_FRACTION_LOWER_HULL.md)：推导完整商给出的精确误差表达式，并将全分母扫描降为收敛分数扫描。
 - [收敛分数下包络复核程序](continued_fraction_hull_check.py) 与 [有限对照结果](continued_fraction_hull_check.json)：对 \(q\le200000\) 比较全扫描和收敛分数扫描。
+
+- [全局活跃判据与部分商曲率](GLOBAL_ACTIVE_CRITERION_PARTIAL_QUOTIENTS.md)：给出每个收敛分母的精确活跃时间区间 \((L_n,U_n)\)，并推导相邻三收敛点的局部曲率不等式。明确局部条件必要但不充分，避免把相邻斜率测试误当成全局凸包判据。
+- [部分商曲率复核程序](partial_quotient_curvature_check.py)：以高精度数值检查局部公式，并与有限下包络结果对照。
