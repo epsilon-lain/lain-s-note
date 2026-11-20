@@ -95,12 +95,12 @@ def main():
             })
 
     # Real elliptic logarithm for P on E(R): u(P)=integral_x(P)^infinity dx/sqrt(x^3-2).
-    root = mp.root(2, 3)
+    root = mp.power(mp.mpf(2), mp.mpf(1) / 3)
     integrand = lambda x: 1 / mp.sqrt(x ** 3 - 2)
-    period = mp.quad(integrand, [root, mp.inf])
+    period = mp.re(mp.quad(integrand, [root, mp.inf]))
     # For E: y^2=x^3-2, the Weierstrass differential is dx/(2y),
     # so the elliptic logarithm is half the integral used in integrand.
-    uP = mp.quad(integrand, [mp.mpf(3), mp.inf]) / 2
+    uP = mp.re(mp.quad(integrand, [mp.mpf(3), mp.inf])) / 2
     theta = uP / period
     s = 41
     nearest = int(mp.nint(s * theta))
