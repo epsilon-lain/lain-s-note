@@ -301,7 +301,12 @@ def main():
             "F_CM(x)": "(35*x^6-5880*x^4-291600*x^2+1990656)/(35*(x^2+36)*(x^2-12*x-36)*(x^2+12*x-36))",
             "degree_on_x_line": 6,
             "degree_on_elliptic_curve": 12,
-            "simple_torsion_poles": 12
+            "simple_torsion_poles": 12,
+            "Z_CM_equals_F_CM_over_xi": true,
+            "Z_CM_degree_on_elliptic_curve": 14,
+            "Z_CM_simple_torsion_poles": 14,
+            "Z_CM_denominator_height_coefficient_on_real_returns": "14*canonical_height(P)",
+            "fixed_integer_three_point_filter_coefficient": 58
         },
         "gaussian_trace_filter_weights": {
             "1": "233/210",
