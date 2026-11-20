@@ -1,0 +1,50 @@
+{
+  "curve": "E: y^2 = x^3 - 2",
+  "point": "P=(3,5)",
+  "point_is_non_torsion": "Lutz-Nagell: on this integral short Weierstrass model, a torsion point with y!=0 must have y^2 dividing the discriminant -1728; 25 does not divide 1728.",
+  "formal_parameter": "xi=-x/y",
+  "elliptic_logarithm_diagnostic": {
+    "real_period": "2.163681749013751009472202825697347548",
+    "uP": "1.161000949630797955262461768623911448",
+    "theta_u_over_period": "0.536585821902876973679563800258907121",
+    "s": 41,
+    "nearest_integer": 22,
+    "distance_41theta_to_integer": "0.000018698017955920862115810615191976",
+    "period_times_distance": "0.0000404565601939573724703482387233",
+    "abs_xi_41P": "0.000020228280096978686235174119478725",
+    "period_distance_over_2_abs_xi": "1.0000000000000000000000000000"
+  },
+  "height_diagnostics": {
+    "41P": {
+      "log_height_x": "2268.6386607779614",
+      "log_height_x_over_2s2": "0.6747884178399647"
+    },
+    "82P": {
+      "log_height_x": "9074.554643111846",
+      "log_height_x_over_2s2": "0.6747884178399647"
+    }
+  },
+  "exact_rational_Bm_experiments": [
+    {"s":15,"m":1,"abs_xi_sP":"0.05278012715399713","log10_abs_Bm_minus_1":-4.446112412071216,"log_height_Bm":5465.747319328236,"numerator_bits":7886,"denominator_bits":7886,"log10_error_over_xi_power_m":-3.169,"weight_l1_norm":3},
+    {"s":15,"m":2,"abs_xi_sP":"0.05278012715399713","log10_abs_Bm_minus_1":-3.723233391406211,"log_height_Bm":12753.410561447361,"numerator_bits":18400,"denominator_bits":18400,"log10_error_over_xi_power_m":-1.447,"weight_l1_norm":7},
+    {"s":15,"m":3,"abs_xi_sP":"0.05278012715399713","log10_abs_Bm_minus_1":-3.3305031976269674,"log_height_Bm":23684.90482885391,"numerator_bits":34171,"denominator_bits":34171,"log10_error_over_xi_power_m":0.360,"weight_l1_norm":15},
+    {"s":15,"m":4,"abs_xi_sP":"0.05278012715399713","log10_abs_Bm_minus_1":-3.2266844165933435,"log_height_Bm":38258.62159184848,"numerator_bits":55196,"denominator_bits":55196,"log10_error_over_xi_power_m":2.344,"weight_l1_norm":31},
+    {"s":26,"m":1,"abs_xi_sP":"0.05275989887127936","log10_abs_Bm_minus_1":-4.447111289126951,"log_height_Bm":16421.612101180046,"numerator_bits":23692,"denominator_bits":23692,"log10_error_over_xi_power_m":-3.169,"weight_l1_norm":3},
+    {"s":26,"m":2,"abs_xi_sP":"0.05275989887127936","log10_abs_Bm_minus_1":-3.7242323387145,"log_height_Bm":38317.09505209106,"numerator_bits":55280,"denominator_bits":55280,"log10_error_over_xi_power_m":-1.447,"weight_l1_norm":7},
+    {"s":26,"m":3,"abs_xi_sP":"0.05275989887127936","log10_abs_Bm_minus_1":-3.331502570439625,"log_height_Bm":71160.31888405416,"numerator_bits":102663,"denominator_bits":102663,"log10_error_over_xi_power_m":0.360,"weight_l1_norm":15},
+    {"s":26,"m":4,"abs_xi_sP":"0.05275989887127936","log10_abs_Bm_minus_1":-3.2276864440136706,"log_height_Bm":114951.28450319238,"numerator_bits":165840,"denominator_bits":165840,"log10_error_over_xi_power_m":2.344,"weight_l1_norm":31},
+    {"s":41,"m":1,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-24.945185915996262,"log_height_Bm":40835.4958940033,"numerator_bits":58914,"denominator_bits":58914,"log10_error_over_xi_power_m":-20.251144874593592,"weight_l1_norm":3},
+    {"s":41,"m":2,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-24.22233747408609,"log_height_Bm":95282.82375267438,"numerator_bits":137465,"denominator_bits":137465,"log10_error_over_xi_power_m":-14.834255391273473,"weight_l1_norm":7},
+    {"s":41,"m":3,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-23.829792497315793,"log_height_Bm":176953.81554068098,"numerator_bits":255291,"denominator_bits":255291,"log10_error_over_xi_power_m":-9.747669373071403,"weight_l1_norm":15},
+    {"s":41,"m":4,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-23.72713015539921,"log_height_Bm":285846.8618201107,"numerator_bits":412390,"denominator_bits":412390,"log10_error_over_xi_power_m":-4.950965989759425,"weight_l1_norm":31},
+    {"s":41,"m":5,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-23.926702510303585,"log_height_Bm":449188.84539612394,"numerator_bits":648043,"denominator_bits":648043,"log10_error_over_xi_power_m":-0.45649730326840654,"weight_l1_norm":63},
+    {"s":41,"m":6,"abs_xi_sP":"0.0000202282800969786862351741194787","log10_abs_Bm_minus_1":-24.528762501606252,"log_height_Bm":666978.1568308082,"numerator_bits":962247,"denominator_bits":962247,"log10_error_over_xi_power_m":3.63548374682432,"weight_l1_norm":127}
+  ],
+  "interpretation": {
+    "exact": "All elliptic point arithmetic and B_m values were computed as reduced exact rational numbers.",
+    "numerical": "Elliptic periods, elliptic-log coordinates, and decimal logarithms of exact rational outputs are high-precision diagnostics.",
+    "main_observation": "For the best tested recurrence s=41, raising m from 1 to 6 increases the logarithmic rational height from about 4.08e4 to 6.67e5, while |B_m-1| stays around 10^-24 and does not decrease monotonically.",
+    "caveat": "This is a small experiment on one curve and one generator, not a general asymptotic theorem and not a proof about pi."
+  },
+  "elliptic_logarithm_reference": "S. David and N. Hirata-Kohno, Linear forms in elliptic logarithms, J. reine angew. Math. 628 (2009), 37-89, DOI 10.1515/CRELLE.2009.018."
+}
