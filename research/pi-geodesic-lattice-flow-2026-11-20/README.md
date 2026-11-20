@@ -52,3 +52,6 @@
 
 - [高度代理权重的椭圆曲线实测](ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md)：在 \(E:y^2=x^3-2\)、\(P=(3,5)\) 上，用精确有理椭圆群运算比较原二项式权重与新候选。虽然新候选降低 \(\sum|\lambda_j|j^2\)，但在 \(s=15,26,41\)、\(m=4,5,6\) 的九组测试中，实际有理高度和实数误差全部更差。
 - [精确对照程序](compare_height_aware_weights_on_elliptic_curve.py) 与 [九组对照结果](height_aware_weights_elliptic_comparison.json)：所有矩条件和椭圆有理运算均可复算。
+
+- [椭圆除法序列的原始因子分母障碍](EDS_PRIMITIVE_DENOMINATOR_BARRIER.md)：证明对任意固定有限整数线性组合 \(\mathcal B_{\lambda,s}=\sum_j\lambda_j\xi([js]P)/\xi([s]P)\)，其最大乘法指标 \(J\) 对应的 \(B_{2Js}\) 原始 EDS 因子不能在组合中抵消；利用 Streng 对 CM 曲线原始部分的渐近式，得到 \(\liminf h(\mathcal B_{\lambda,s})/s^2\ge4J^2\widehat h(P)/\zeta(2)\)。因此二项式权重在最小最大指标意义下也最优。另证明互素乘法指标的项分母没有共同的良约化素因子。
+- [EDS 精确实验程序](eds_primitive_denominator_experiment.py) 与 [实验 JSON](eds_primitive_denominator_experiment.json)：在 \(E:y^2=x^3-2,P=(3,5)\) 上使用整数 EDS 递推至 720，和精确椭圆群运算交叉核验，并比较 \(s=15\) 时原始/替代权重的约分分母。
