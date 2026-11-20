@@ -1,0 +1,41 @@
+{
+  "curve": "E:y^2=x^3-36x",
+  "formal_parameter": "xi=-x/y",
+  "order19": {
+    "support": ["1","1+i","2","1+2i","2+i"],
+    "weights": ["202121/178717","-72883/536151","8893/1072302","-661/1072302","-1445/536151"],
+    "gaussian_norms": [1,2,4,5,5],
+    "matched_moments": ["1","5/6","-45/14","4875/22","-193375/2"],
+    "local_zeta_error_order": 19,
+    "local_results": [
+      {"n":7,"numerator_bits":961,"denominator_bits":957,"log10_error":"-12.64258362"},
+      {"n":11,"numerator_bits":2345,"denominator_bits":2341,"log10_error":"-14.10533967"}
+    ],
+    "pi_approximant": {
+      "L_truncation_K":3,
+      "numerator_bits":5977,
+      "denominator_bits":5975,
+      "log10_abs_error":"-11.76404267",
+      "side_of_pi":"above"
+    }
+  },
+  "order23": {
+    "support": ["1","1+i","2","1+2i","2+i","2+2i"],
+    "weights": ["12486023931/10913532322","-7249221697/49110895449","31564637/4677228138","-56405183/49110895449","-103699966/49110895449","1685917/49110895449"],
+    "gaussian_norms": [1,2,4,5,5,8],
+    "matched_moments": ["1","5/6","-45/14","4875/22","-193375/2","78316875/38"],
+    "local_zeta_error_order": 23,
+    "local_results": [
+      {"n":7,"numerator_bits":1477,"denominator_bits":1473,"log10_error":"-14.53801317"},
+      {"n":11,"numerator_bits":3600,"denominator_bits":3596,"log10_error":"-16.30597206"}
+    ],
+    "pi_approximant": {
+      "L_truncation_K":4,
+      "numerator_bits":8589,
+      "denominator_bits":8588,
+      "log10_abs_error":"-13.44134506",
+      "side_of_pi":"above"
+    }
+  },
+  "scope": "All moment equations and rational elliptic evaluations are exact. The local zeta errors use alternating-series enclosures, and the pi errors use exact Machin intervals."
+}
