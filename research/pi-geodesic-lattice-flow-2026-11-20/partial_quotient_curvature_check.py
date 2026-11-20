@@ -35,7 +35,7 @@ def convergents(alpha, qmax):
 
 def local_test(c, n):
     prev, cur, nxt = c[n-1], c[n], c[n+1]
-    a = cur["a"]  # a_n under zero-based convergent indexing
+    a = nxt["a"]  # a_{n+1} in q_{n+1}=a_{n+1}q_n+q_{n-1}
     qprev, q, qnext = prev["q"], cur["q"], nxt["q"]
     Eprev, E, Enext = prev["E"], cur["E"], nxt["E"]
     Dleft = (Eprev**2 - E**2) / (q**2 - qprev**2)
