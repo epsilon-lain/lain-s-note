@@ -1,0 +1,39 @@
+{
+  "alpha": "pi",
+  "precision_decimal_digits": 100,
+  "convergent_denominator_cutoff": 1000000,
+  "convergents_processed": 10,
+  "hull_vertices_including_vertical": [
+    [0, 1],
+    [1, 3],
+    [7, 22],
+    [113, 355],
+    [33215, 104348],
+    [66317, 208341],
+    [99532, 312689],
+    [364913, 1146408]
+  ],
+  "popped_convergents": [
+    [106, 333],
+    [33102, 103993],
+    [265381, 833719]
+  ],
+  "active_intervals": [
+    {"q": 0, "p": 1, "t_start": "0.0", "t_end": "0.00506304436758253128830735054052"},
+    {"q": 1, "p": 3, "t_start": "0.00506304436758253128830735054052", "t_end": "1.94617963529122459257476980192"},
+    {"q": 7, "p": 22, "t_start": "1.94617963529122459257476980192", "t_end": "4.72632402400598381565479884031"},
+    {"q": 113, "p": 355, "t_start": "4.72632402400598381565479884031", "t_end": "10.4459621431776563735506681463"},
+    {"q": 33215, "p": 104348, "t_start": "10.4459621431776563735506681463", "t_end": "11.3826074099526710138155181994"},
+    {"q": 66317, "p": 208341, "t_start": "11.3826074099526710138155181994", "t_end": "11.5025193027706335548225602195"},
+    {"q": 99532, "p": 312689, "t_start": "11.5025193027706335548225602195", "t_end": "12.7701412189651404217136954344"},
+    {"q": 364913, "p": 1146408, "t_start": "12.7701412189651404217136954344", "t_end": null}
+  ],
+  "algorithm": "append convergent; while previous_drop <= new_drop, pop middle; append",
+  "complexity": {
+    "time": "O(number of convergents)",
+    "space": "O(number of hull vertices)",
+    "each_point_pushed_once": true,
+    "each_point_popped_at_most_once": true
+  },
+  "scope": "Finite-prefix numerical experiment; stack theorem is exact, displayed pi data are cutoff-dependent."
+}
