@@ -65,7 +65,8 @@ def hull(lines):
 
 def convergent_hull(alpha, qmax):
     conv = convergents(alpha, qmax)
-    lines = [(e * e, q * q, q, p, e) for q, p, e in conv]
+    lines = [(mp.mpf(1), 0, 0, 1, mp.mpf(1))]
+    lines.extend((e * e, q * q, q, p, e) for q, p, e in conv)
     active = hull(lines)
     return conv, active
 
