@@ -101,12 +101,15 @@
     "scope": "Finite Legendre-bridge experiment with exact rational filters and exact rational approximant."
   },
   "simplified_rational_map": {
-    "formula": "(35*x^6-5880*x^4-291600*x^2+1990656)/(35*(x^2+36)*(x^2-12*x-36)*(x^2+12*x-36))",
-    "degree_on_x_line": 6,
-    "degree_on_elliptic_curve": 12,
-    "simple_torsion_poles": 12,
-    "denominator_height_coefficient_on_real_returns": "12*canonical_height(P)",
-    "comparison_fixed_integer_three_point_filter_coefficient": 58
+    "F_CM_formula": "(35*x^6-5880*x^4-291600*x^2+1990656)/(35*(x^2+36)*(x^2-12*x-36)*(x^2+12*x-36))",
+    "F_CM_degree_on_elliptic_curve": 12,
+    "F_CM_simple_torsion_poles": 12,
+    "Z_CM_definition": "F_CM/xi",
+    "Z_CM_degree_on_elliptic_curve": 14,
+    "Z_CM_simple_torsion_poles": 14,
+    "denominator_height_coefficient_on_real_returns": "14*canonical_height(P)",
+    "fixed_integer_three_point_filter_degree_coefficient": 58,
+    "asymptotic_denominator_coefficient_ratio": "14/58=7/29"
   },
   "higher_order_filters": {
     "order19": {
