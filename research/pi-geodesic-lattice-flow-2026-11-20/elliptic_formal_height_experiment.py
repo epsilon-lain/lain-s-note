@@ -98,7 +98,9 @@ def main():
     root = mp.root(2, 3)
     integrand = lambda x: 1 / mp.sqrt(x ** 3 - 2)
     period = mp.quad(integrand, [root, mp.inf])
-    uP = mp.quad(integrand, [mp.mpf(3), mp.inf])
+    # For E: y^2=x^3-2, the Weierstrass differential is dx/(2y),
+    # so the elliptic logarithm is half the integral used in integrand.
+    uP = mp.quad(integrand, [mp.mpf(3), mp.inf]) / 2
     theta = uP / period
     s = 41
     nearest = int(mp.nint(s * theta))
