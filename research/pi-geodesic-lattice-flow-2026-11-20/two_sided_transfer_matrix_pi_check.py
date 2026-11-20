@@ -29,10 +29,17 @@ def mvec(A, v):
     return tuple(sum(A[i][j] * v[j] for j in range(2)) for i in range(2))
 
 
-def product_left(indices, coeffs, signed=False):
+def product_right(indices, signed=False):
     P = I2
     for a in indices:
         P = mmul(P, mat(a, signed=signed))
+    return P
+
+
+def product_left(indices, signed=False):
+    P = I2
+    for a in indices:
+        P = mmul(mat(a, signed=signed), P)
     return P
 
 
@@ -97,9 +104,9 @@ def matrix_ratios(rows, n, K):
             Z = mp.mpf(rows[n - 1]["E"]) / En
         else:
             indices = [rows[j]["a"] for j in range(n - h + 2, n + 1)]
-            Pq = product_left(indices, signed=True)
+            Pq = product_right(indices, signed=True)
             R = mvec(Pq, (r, mp.mpf(1)))[0]
-            Pe = product_left(indices, signed=False)
+            Pe = product_right(indices, signed=False)
             Z = mvec(Pe, (mp.mpf(rows[n + 1]["a"]) + z, mp.mpf(1)))[0]
         past[h] = (R, Z)
 
