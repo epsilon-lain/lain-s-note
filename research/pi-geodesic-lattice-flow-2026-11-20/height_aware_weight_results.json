@@ -1,0 +1,41 @@
+{
+  "objective": "C2 = sum_j |lambda_j| j^2",
+  "status": "Exact integer moment checks; candidate weights are improvements over binomial weights, not globally optimal.",
+  "results": [
+    {
+      "m": 4,
+      "Q": "x+1",
+      "weights": {"2":4,"3":-5,"5":5,"6":-4,"7":1},
+      "moments_sum_lambda_j_power_r": [1,1,1,1,1],
+      "C0": 19,
+      "binomial_C0": 31,
+      "C2": 379,
+      "binomial_C2": 431,
+      "C2_reduction_percent": 12.064965197215777
+    },
+    {
+      "m": 5,
+      "Q": "-(x+1)(x^2+x+1)",
+      "weights": {"2":4,"3":-5,"4":1,"5":1,"6":1,"7":1,"8":-5,"9":4,"10":-1},
+      "moments_sum_lambda_j_power_r": [1,1,1,1,1,1],
+      "C0": 23,
+      "binomial_C0": 63,
+      "C2": 931,
+      "binomial_C2": 1119,
+      "C2_reduction_percent": 16.80071492403932
+    },
+    {
+      "m": 6,
+      "Q": "(x+1)^2(x^2+x+1)",
+      "weights": {"2":4,"3":-4,"4":-3,"5":6,"8":-6,"9":3,"10":4,"11":-4,"12":1},
+      "moments_sum_lambda_j_power_r": [1,1,1,1,1,1,1],
+      "C0": 35,
+      "binomial_C0": 127,
+      "C2": 1905,
+      "binomial_C2": 2815,
+      "C2_reduction_percent": 32.32682060390764
+    }
+  ],
+  "identity": "x L(x)-1=(x-1)^(m+1) Q(x), L(x)=sum_{j>=2} lambda_j x^(j-2)",
+  "scope": "Exact finite algebraic constructions and exact integer cost comparisons. No claim of global optimality or improved elliptic output height."
+}
