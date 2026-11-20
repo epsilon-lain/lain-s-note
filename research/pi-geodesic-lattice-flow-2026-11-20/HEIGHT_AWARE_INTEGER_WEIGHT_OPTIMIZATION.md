@@ -169,3 +169,13 @@ The explicit candidates above were tested on \(E:y^2=x^3-2\), \(P=(3,5)\), with 
 For \(s=41\), the alternative logarithmic heights were approximately \(1.38\), \(2.76\), and \(2.71\) times the binomial heights at orders 4, 5, and 6, respectively. The alternative errors were approximately \(2.63\), \(8.25\), and \(12\) times larger. See `ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md` and its exact-arithmetic reproduction script.
 
 **Revised conclusion:** \(\sum|\lambda_j|j^2\) is only a coarse proxy. It does not predict the denominator lcm or the actual reduced height of the rational combination. The binomial weights are also uniquely forced if one requires all multipliers to be at most \(m+2\), so any alternative must introduce larger multiplication indices.
+
+
+## 8. Structural explanation from primitive EDS divisors
+
+The later note `EDS_PRIMITIVE_DENOMINATOR_BARRIER.md` proves that if \(J\) is the largest multiplier with nonzero weight, then the primitive part of the EDS denominator \(B_{2Js}\) survives in the reduced denominator of the weighted combination for all sufficiently large \(s\). For our CM curve this gives
+\[
+\liminf_{s\to\infty}\frac{h(B_{m,\lambda}([s]P))}{s^2}
+\ge \frac{4J^2\widehat h(P)}{\zeta(2)}.
+\]
+Thus the actual denominator cost has a rigorous quadratic lower-bound component controlled by the *largest multiplier*. Since any non-binomial integer moment solution must use \(J\ge m+3\), the binomial scheme is optimal for this unavoidable primitive-divisor contribution. This does not assert it minimizes every part of the full rational height.
