@@ -159,10 +159,6 @@ Z_{n-1}=a_{n+1}+z_n.
 \]
 For \(h\ge2\),
 \[
-\boxed{Z_{n-1}=a_{n+1}+z_n,}
-\]
-and for \(h\ge2\),
-\[
 \boxed{
 Z_{n-h}
 =
