@@ -171,13 +171,13 @@ and satisfies
 W_{m+2}W_{m-2}
 =W_{m+1}W_{m-1}W_2^2-W_3W_1W_m^2.
 \]
-For this model, \(B_n=|W_n|\), and
+The division-polynomial identities give
 \[
 \phi_n=3W_n^2-W_{n+1}W_{n-1},\qquad
 \xi([n]P)=-\frac{2\phi_nW_n^2}{W_{2n}}.
 \tag{10}
 \]
-The script eds_primitive_denominator_experiment.py checks these identities against exact elliptic group arithmetic for small \(n\), verifies strong divisibility on a finite range, and compares the exact denominators of the terms \(R_j(15)\).
+For \(1\le n\le12\), the experiment verifies exactly that \(|W_n|=B_n\) and that (10) agrees with direct rational elliptic group arithmetic. It also verifies strong divisibility on a finite range and compares the exact denominators of the terms \(R_j(15)\).
 
 For \(s=15\), the exact denominator bit lengths of \(R_j(s)\), \(2\le j\le12\), are:
 \[
