@@ -49,3 +49,6 @@
 
 - [高度感知的整数消项权重](HEIGHT_AWARE_INTEGER_WEIGHT_OPTIMIZATION.md)：用多项式恒等式 \(xL(x)-1=(x-1)^{m+1}Q(x)\) 构造整数权重；在 \(m=4,5,6\) 给出候选，使高度代理 \(\sum |\lambda_j|j^2\) 相对二项式权重分别降低约 12.1%、16.8%、32.3%。这些是改进候选，不声称全局最优，也尚未证明实际椭圆组合高度同步下降。
 - [精确整数验证器](verify_height_aware_weights.py) 与 [候选权重和成本数据](height_aware_weight_results.json)：验证全部矩条件 \(\sum_j\lambda_jj^r=1\)（\(0\le r\le m\)）及二次成本。
+
+- [高度代理权重的椭圆曲线实测](ELLIPTIC_HEIGHT_AWARE_WEIGHTS_ACTUAL_TEST.md)：在 \(E:y^2=x^3-2\)、\(P=(3,5)\) 上，用精确有理椭圆群运算比较原二项式权重与新候选。虽然新候选降低 \(\sum|\lambda_j|j^2\)，但在 \(s=15,26,41\)、\(m=4,5,6\) 的九组测试中，实际有理高度和实数误差全部更差。
+- [精确对照程序](compare_height_aware_weights_on_elliptic_curve.py) 与 [九组对照结果](height_aware_weights_elliptic_comparison.json)：所有矩条件和椭圆有理运算均可复算。
