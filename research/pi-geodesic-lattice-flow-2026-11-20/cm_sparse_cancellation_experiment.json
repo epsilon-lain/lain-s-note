@@ -1,0 +1,20 @@
+{
+  "curve": "E: y^2=x^3-2",
+  "point": "P=(3,5)",
+  "formal_parameter": "xi=-x/y",
+  "s": 41,
+  "abs_xi_sP_log10": -4.694041041408119,
+  "formal_group_expansion": {
+    "multiplication_series": "[j](z)=jz+(6/7)(j^7-j)z^7+(12/91)(4j^13-39j^7+35j)z^13+O(z^19)",
+    "CM_symmetry": "only powers z^(6k+1) occur in [j](z)"
+  },
+  "rows": [
+    {"scheme":"CM_sparse_J4_order12","weights":{"2":-364,"3":291,"4":-36},"largest_multiplier":4,"S1":1,"S7":1,"S13":-1954952999,"C0":691,"C2":4651,"formal_coefficient_z6":"0","formal_coefficient_z12":"-1031184000","leading_error_order":12,"leading_error_coefficient":"-1031184000","predicted_log10_error_from_leading_term":-47.315156331075755,"exact_rational_log10_abs_error":-47.31515633107327,"exact_rational_log_height":95282.82375267436,"numerator_bits":137465,"denominator_bits":137465},
+    {"scheme":"CM_sparse_J5_order12","weights":{"2":28,"3":18,"4":-36,"5":7},"largest_multiplier":5,"S1":1,"S7":1,"S13":6157929961,"C0":89,"C2":1025,"formal_coefficient_z6":"0","formal_coefficient_z12":"3248138880","leading_error_order":12,"leading_error_coefficient":"3248138880","predicted_log10_error_from_leading_term":-46.81685790689227,"exact_rational_log10_abs_error":-46.816857906904914,"exact_rational_log_height":176953.81554068098,"numerator_bits":255291,"denominator_bits":255291},
+    {"scheme":"CM_sparse_J6_order12","weights":{"2":-19,"3":-4,"4":13,"5":1,"6":-1},"largest_multiplier":6,"S1":1,"S7":1,"S13":-10974108599,"C0":38,"C2":381,"formal_coefficient_z6":"0","formal_coefficient_z12":"-5788540800","leading_error_order":12,"leading_error_coefficient":"-5788540800","predicted_log10_error_from_leading_term":-46.565923398174654,"exact_rational_log10_abs_error":-46.56592339818608,"exact_rational_log_height":285848.4712580231,"numerator_bits":412393,"denominator_bits":412393},
+    {"scheme":"binomial_order4","weights":{"2":5,"3":-10,"4":10,"5":-5,"6":1},"largest_multiplier":6,"S1":1,"S7":31921,"S13":7612364761,"C0":31,"C2":431,"formal_coefficient_z6":"27360","formal_coefficient_z12":"4015149120","leading_error_order":6,"leading_error_coefficient":"27360","predicted_log10_error_from_leading_term":-23.727130155400634,"exact_rational_log10_abs_error":-23.727130155366133,"exact_rational_log_height":285846.86182011064,"numerator_bits":412390,"denominator_bits":412390},
+    {"scheme":"binomial_order6","weights":{"2":7,"3":-21,"4":35,"5":-35,"6":21,"7":-7,"8":1},"largest_multiplier":8,"S1":1,"S7":5041,"S13":105398092801,"C0":127,"C2":2815,"formal_coefficient_z6":"4320","formal_coefficient_z12":"55594572480","leading_error_order":6,"leading_error_coefficient":"4320","predicted_log10_error_from_leading_term":-24.5287625016338,"exact_rational_log10_abs_error":-24.52876250162213,"exact_rational_log_height":666978.1568308081,"numerator_bits":962247,"denominator_bits":962247},
+    {"scheme":"binomial_order7","weights":{"2":8,"3":-28,"4":56,"5":-70,"6":56,"7":-28,"8":8,"9":-1},"largest_multiplier":9,"S1":1,"S7":1,"S13":-207048441599,"C0":255,"C2":6911,"formal_coefficient_z6":"0","formal_coefficient_z12":"-109212364800","leading_error_order":12,"leading_error_coefficient":"-109212364800","predicted_log10_error_from_leading_term":-45.290220685814326,"exact_rational_log10_abs_error":-45.29022068581886,"exact_rational_log_height":911991.132194828,"numerator_bits":1315726,"denominator_bits":1315726}
+  ],
+  "scope": "All elliptic group operations and rational cancellation values are exact. Formal expansions are exact through z^13. This is one curve and one s-value; no theorem about pi follows."
+}
