@@ -1,0 +1,43 @@
+{
+  "formal_group_model": "multiplicative formal group F(X,Y)=X+Y+XY",
+  "weights": "lambda_(m,j)=(-1)^j * binomial(m+1,j-1), j=2,...,m+2",
+  "verified_m": [1,30],
+  "checks": [
+    {"m":1,"sum_abs_weights":3,"max_abs_weight":2,"first_error_coefficient":-1},
+    {"m":2,"sum_abs_weights":7,"max_abs_weight":3,"first_error_coefficient":1},
+    {"m":3,"sum_abs_weights":15,"max_abs_weight":6,"first_error_coefficient":-1},
+    {"m":4,"sum_abs_weights":31,"max_abs_weight":10,"first_error_coefficient":1},
+    {"m":5,"sum_abs_weights":63,"max_abs_weight":20,"first_error_coefficient":-1},
+    {"m":6,"sum_abs_weights":127,"max_abs_weight":35,"first_error_coefficient":1},
+    {"m":7,"sum_abs_weights":255,"max_abs_weight":70,"first_error_coefficient":-1},
+    {"m":8,"sum_abs_weights":511,"max_abs_weight":126,"first_error_coefficient":1},
+    {"m":9,"sum_abs_weights":1023,"max_abs_weight":252,"first_error_coefficient":-1},
+    {"m":10,"sum_abs_weights":2047,"max_abs_weight":462,"first_error_coefficient":1},
+    {"m":11,"sum_abs_weights":4095,"max_abs_weight":924,"first_error_coefficient":-1},
+    {"m":12,"sum_abs_weights":8191,"max_abs_weight":1716,"first_error_coefficient":1},
+    {"m":13,"sum_abs_weights":16383,"max_abs_weight":3432,"first_error_coefficient":-1},
+    {"m":14,"sum_abs_weights":32767,"max_abs_weight":6435,"first_error_coefficient":1},
+    {"m":15,"sum_abs_weights":65535,"max_abs_weight":12870,"first_error_coefficient":-1},
+    {"m":16,"sum_abs_weights":131071,"max_abs_weight":24310,"first_error_coefficient":1},
+    {"m":17,"sum_abs_weights":262143,"max_abs_weight":48620,"first_error_coefficient":-1},
+    {"m":18,"sum_abs_weights":524287,"max_abs_weight":92378,"first_error_coefficient":1},
+    {"m":19,"sum_abs_weights":1048575,"max_abs_weight":184756,"first_error_coefficient":-1},
+    {"m":20,"sum_abs_weights":2097151,"max_abs_weight":352716,"first_error_coefficient":1},
+    {"m":21,"sum_abs_weights":4194303,"max_abs_weight":705432,"first_error_coefficient":-1},
+    {"m":22,"sum_abs_weights":8388607,"max_abs_weight":1352078,"first_error_coefficient":1},
+    {"m":23,"sum_abs_weights":16777215,"max_abs_weight":2704156,"first_error_coefficient":-1},
+    {"m":24,"sum_abs_weights":33554431,"max_abs_weight":5200300,"first_error_coefficient":1},
+    {"m":25,"sum_abs_weights":67108863,"max_abs_weight":10400600,"first_error_coefficient":-1},
+    {"m":26,"sum_abs_weights":134217727,"max_abs_weight":20058300,"first_error_coefficient":1},
+    {"m":27,"sum_abs_weights":268435455,"max_abs_weight":40116600,"first_error_coefficient":-1},
+    {"m":28,"sum_abs_weights":536870911,"max_abs_weight":77558760,"first_error_coefficient":1},
+    {"m":29,"sum_abs_weights":1073741823,"max_abs_weight":155117520,"first_error_coefficient":-1},
+    {"m":30,"sum_abs_weights":2147483647,"max_abs_weight":300540195,"first_error_coefficient":1}
+  ],
+  "identities": {
+    "interpolation": "sum_j lambda_(m,j) f(j)=f(1) for every polynomial deg(f)<=m",
+    "multiplicative_model": "B_m(T)=1+(-1)^m T^m+O(T^(m+1))",
+    "weight_l1_norm": "2^(m+1)-1"
+  },
+  "scope": "Exact integer symbolic checks, not a numerical elliptic-curve height experiment."
+}
