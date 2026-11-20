@@ -3,11 +3,11 @@
   "precision_decimal_digits": 100,
   "convergent_denominator_cutoff": 1000000,
   "partial_quotient_one_cases": [
-    {"q":106,"a_next":1,"beta_backward":"15.1428571428571428571428571429","alpha_forward":"292.634591014376?","threshold":"1.21212121212121212121212121212","local_convex":false},
-    {"q":33102,"a_next":1,"beta_backward":"292.938053097345132743362831858","alpha_forward":"1.736659577064?","threshold":"1.010276152660?","local_convex":false},
-    {"q":33215,"a_next":1,"beta_backward":"1.00341369101565","alpha_forward":"1.357479127584","threshold":"879.814159292?","local_convex":true},
-    {"q":66317,"a_next":1,"beta_backward":"1.996597922625","alpha_forward":"2.79736611969","threshold":"4.01024107305","local_convex":true},
-    {"q":265381,"a_next":1,"beta_backward":"2.66628822891","alpha_forward":"3.93500888626","threshold":"2.8004088056","local_convex":false}
+    {"q":106,"a_next":1,"beta_backward":"15.1428571428571428571428571429","alpha_forward":"292.63459101439547237854369576","threshold":"1.21212121212121212121212121212","local_convex":false},
+    {"q":33102,"a_next":1,"beta_backward":"292.938053097345132743362831858","alpha_forward":"1.73665957706435077162011354701","threshold":"1.01027615265694625481221013065","local_convex":false},
+    {"q":33215,"a_next":1,"beta_backward":"1.00341369101564860129297323425","alpha_forward":"1.35747912758438918751984947238","threshold":"879.814159292035398230088495575","local_convex":true},
+    {"q":66317,"a_next":1,"beta_backward":"1.9965979226253198855938581966","alpha_forward":"2.79736611968745656615719905191","threshold":"4.01024107304694580387891970274","local_convex":true},
+    {"q":265381,"a_next":1,"beta_backward":"2.66628822891130490696459430133","alpha_forward":"3.93500888626124800375521036207","threshold":"2.80040880560027494889929996563","local_convex":false}
   ],
-  "scope": "Rounded display values only. Recompute all entries with partial_quotient_one_threshold_check.py; symbolic threshold theorem is exact."
+  "scope": "100-digit numerical diagnostics. The threshold equivalence is proved symbolically; decimal entries are not formal interval certificates."
 }
