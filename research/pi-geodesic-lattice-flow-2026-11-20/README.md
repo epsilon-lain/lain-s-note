@@ -66,3 +66,5 @@
 - [Gaussian CM 迹滤波器精确复核程序](verify_gaussian_cm_trace_filter.py) 与 [精确实验结果](gaussian_cm_trace_filter_results.json)：椭圆群运算、Gaussian 端同态、迹、滤波器和有理 \(\pi\) 近似均为精确有理运算；局部 zeta 误差用交错级数区间，\(\pi\) 误差用 Machin 有理区间独立核验。
 
 - [Gaussian CM 高阶滤波器扩展](verify_gaussian_cm_higher_filters.py) 与 [阶 19/23 实验结果](gaussian_cm_higher_filter_results.json)：继续匹配第三、第四、第五个稀疏 CM 局部矩，得到局部准周期误差 \(O(z^{15})\) 和 \(O(z^{19})\) 的五项/六项滤波器；在相同 Legendre 收敛分数对上分别得到约 5,975 bit / \(10^{-11.764}\) 与 8,588 bit / \(10^{-13.441}\) 的有理 \(\pi\) 近似。
+
+Gaussian 迹滤波器的显式有理函数及极点高度也已核对：归一化函数 \(F_{CM}\) 在椭圆曲线上有 12 个简单扭点极点；真正的准周期滤波器 \(Z_{CM}=F_{CM}/\xi\) 再增加 \(O,T_0\) 两个简单扭点极点，故次数为 14。沿实返回子序列的分母高度二次系数为 \(14\widehat h(P)\)，相较此前固定整数三点滤波器的系数 58 降为 \(7/29\)。
