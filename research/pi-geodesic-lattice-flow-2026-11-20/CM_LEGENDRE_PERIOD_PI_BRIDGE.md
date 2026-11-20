@@ -277,12 +277,12 @@ Let \(r_k=a_k/b_k\) be reduced rationals with strictly increasing denominators \
 \[
 \varepsilon_k=|\pi-r_k|.
 \]
-Suppose there are constants \(c_0>0\) and \(c_1<1/2\) such that
+Suppose there are constants \(c_0>0\) and \(c_1<1\) such that
 \[
 \boxed{
-c_0\le b_k^2\varepsilon_k\le c_1,
+b_k^2\varepsilon_k\ge c_0,
 \qquad
-b_{k+1}^2\varepsilon_k\le\frac12
+b_{k+1}^2\varepsilon_k\le c_1
 }
 \tag{11}
 \]
@@ -290,7 +290,7 @@ for every \(k\). Then
 \[
 \boxed{
 q^2\left|\pi-\frac pq\right|
-\ge \min(c_0,1/2)
+\ge \min(c_0,1-c_1)
 }
 \tag{12}
 \]
@@ -304,11 +304,11 @@ Hence
 \[
 q^2\left|\pi-\frac pq\right|
 \ge \frac q{b_k}-q^2\varepsilon_k
-\ge 1-\frac12=\frac12.
+\ge 1-c_1.
 \]
 This proves (12). \(\square\)
 
-This criterion gives a concrete target for the CM construction: produce rational period approximants whose normalized errors \(b_k^2\varepsilon_k\) stay in a fixed interval below \(1/2\), while the next denominator is covered by the current error window.
+This criterion gives a concrete target for the CM construction: keep the approximant quality \(b_k^2\varepsilon_k\) bounded below, while ensuring that the next denominator remains inside the current error window.
 
 ## 8. Next optimization target
 
