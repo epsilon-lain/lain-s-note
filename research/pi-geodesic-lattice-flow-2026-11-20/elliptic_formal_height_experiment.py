@@ -55,7 +55,7 @@ def log10_fraction(x):
 
 
 def log_height_fraction(x):
-    return max(log(x.numerator), log(x.denominator))
+    return max(log(abs(x.numerator)), log(x.denominator))
 
 
 def B_m(s, m, cache):
@@ -133,6 +133,11 @@ def main():
             "abs_xi_41P": mp.nstr(z41, 35),
             "ratio_period_distance_over_2xi": mp.nstr(period * delta / (2 * z41), 25),
         },
+        "scan_s_le_100": {
+            "best_s": best_scan[1],
+            "best_abs_xi": best_scan[0],
+            "scope": "finite exact-rational scan over 1<=s<=100",
+        },
         "height_diagnostics": hvals,
         "exact_fraction_experiments": selected,
         "scope": "Exact rational elliptic arithmetic for B_m; real elliptic-log values are high-precision numerical diagnostics. No D-H-K explicit constant has been evaluated.",
@@ -142,6 +147,7 @@ def main():
     print(json.dumps({
         "curve": result["curve"],
         "real_uniformization": result["real_uniformization"],
+        "best_s_le_100": best_scan,
         "experiments": [
             (r["s"], r["m"], r["log10_abs_Bm_minus_1"], r["log_height_Bm"])
             for r in selected
