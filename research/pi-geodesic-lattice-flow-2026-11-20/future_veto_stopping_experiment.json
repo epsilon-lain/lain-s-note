@@ -1,0 +1,50 @@
+{
+  "alpha": "pi",
+  "precision_decimal_digits": 100,
+  "convergent_denominator_cutoff": 1000000000,
+  "selected_candidates": [
+    {
+      "q": 99532,
+      "p": 312689,
+      "past_threshold": "9.5922976105214643084e19",
+      "past_witness_q": 66317,
+      "future_threshold": "1.5275922911729260379e22",
+      "future_witness_q": 364913,
+      "active": true,
+      "lookahead_convergents": 2,
+      "stopping_trace": [
+        {
+          "examined_q": 265381,
+          "current_min_x": "1.974913750287325774e22",
+          "unseen_future_lower_bound": "1.46486860402e22",
+          "stop": false
+        },
+        {
+          "examined_q": 364913,
+          "current_min_x": "1.5275922911729260379e22",
+          "unseen_future_lower_bound": "2.18684019719e23",
+          "stop": true
+        }
+      ]
+    },
+    {
+      "q": 265381,
+      "p": 833719,
+      "past_threshold": "1.974913750287325774e22",
+      "past_witness_q": 99532,
+      "future_threshold": "1.2536577082199069846e22",
+      "future_witness_q": 364913,
+      "active": false,
+      "lookahead_convergents": 1,
+      "stopping_trace": [
+        {
+          "examined_q": 364913,
+          "current_min_x": "1.2536577082199069846e22",
+          "unseen_future_lower_bound": "3.32641803928e23",
+          "stop": true
+        }
+      ]
+    }
+  ],
+  "scope": "100-digit numerical diagnostics, not interval-certified decimal claims. The stopping inequality is mathematically exact."
+}
