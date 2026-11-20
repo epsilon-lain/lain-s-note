@@ -38,3 +38,6 @@
 该双边选择器还可用有限连分数柱区间包住唯一尾部参数 \(z_n=1/\alpha_{n+2}\)，并通过外向舍入区间运算认证选择器符号；见上述传递矩阵笔记第 7 节。
 
 - [椭圆形式群与 adelic 格流桥接](ELLIPTIC_FORMAL_GROUP_ADELIC_LATTICE_BRIDGE.md)：从 Pasten–Vidaux Lemma 4.1 推出同时实数逼近与有限素数处 \(p\)-adic 同余的加强引理；将同余条件识别为有限指数子格；并证明固定同余子格的坏逼近常数只是 \(M\kappa((\pi-k)/M)\)，所以朴素局部筛选不会解决原问题。明确指出真正缺少的是椭圆见证的定量高度/分母控制。
+
+- [任意阶椭圆形式群消项](ELLIPTIC_HIGH_ORDER_FORMAL_CANCELLATION.md)：构造整数权重 \(\lambda_{m,j}=(-1)^j\binom{m+1}{j-1}\)，证明 \(\sum_j\lambda_{m,j}[j]_F(T)=T+O(T^{m+1})\)。应用于椭圆曲线，得到任意阶实数逼近，同时保留所有指定 \(p\mid M\) 处的同余。附有粗略高度预算，并明确尚无足够的分母控制来改善 \(\pi\) 的逼近。
+- [权重的精确整数验证程序](verify_elliptic_high_order_weights.py) 与 [\(m=1,\ldots,30\) 的检查结果](elliptic_high_order_weight_checks.json)：验证插值恒等式、乘法形式群的首个非零误差系数及权重范数。
