@@ -1,0 +1,13 @@
+{
+  "alpha": "pi",
+  "precision_decimal_digits": 100,
+  "convergent_denominator_cutoff": 1000000,
+  "partial_quotient_one_cases": [
+    {"q":106,"a_next":1,"beta_backward":"15.1428571428571428571428571429","alpha_forward":"292.634591014376?","threshold":"1.21212121212121212121212121212","local_convex":false},
+    {"q":33102,"a_next":1,"beta_backward":"292.938053097345132743362831858","alpha_forward":"1.736659577064?","threshold":"1.010276152660?","local_convex":false},
+    {"q":33215,"a_next":1,"beta_backward":"1.00341369101565","alpha_forward":"1.357479127584","threshold":"879.814159292?","local_convex":true},
+    {"q":66317,"a_next":1,"beta_backward":"1.996597922625","alpha_forward":"2.79736611969","threshold":"4.01024107305","local_convex":true},
+    {"q":265381,"a_next":1,"beta_backward":"2.66628822891","alpha_forward":"3.93500888626","threshold":"2.8004088056","local_convex":false}
+  ],
+  "scope": "Rounded display values only. Recompute all entries with partial_quotient_one_threshold_check.py; symbolic threshold theorem is exact."
+}
