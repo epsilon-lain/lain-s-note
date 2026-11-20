@@ -45,8 +45,8 @@ def local_test(c, n):
     z = Enext / E
     lhs = ((a + z)**2 - 1) / (1 - r**2)
     rhs = (1 - z**2) / ((a + r)**2 - 1)
-    assert mp.almosteq(Dleft / (E/q)**2, lhs)
-    assert mp.almosteq(Dright / (E/q)**2, rhs)
+    assert abs(Dleft / (E/q)**2 - lhs) < mp.mpf('1e-70')
+    assert abs(Dright / (E/q)**2 - rhs) < mp.mpf('1e-70')
     return {
         "n": n, "p": cur["p"], "q": q, "a_n": a,
         "D_left": mp.nstr(Dleft, 35),
