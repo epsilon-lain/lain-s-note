@@ -25,3 +25,6 @@
 
 - [部分商 1 的精确局部阈值](SHARP_LOCAL_FILTER_PARTIAL_QUOTIENT_ONE.md)：将局部凸性化简为 \(\alpha_{n+2}< (\beta_n+2)/(\beta_n-1)\)，其中 \(\alpha_{n+2}\) 是前向完全商、\(\beta_n=q_n/q_{n-1}\) 是反向有限商；若 \(a_{n+1}\ge2\)，局部凸性自动成立。
 - [阈值复核程序](partial_quotient_one_threshold_check.py) 与 [100 位数值结果](partial_quotient_one_threshold_check.json)：检查 \(\pi\) 的部分商为 1 的收敛点，包括 106、33102、33215、66317、265381。
+
+- [有限未来否决证书定理](FINITE_FUTURE_VETO_CERTIFICATE.md)：证明对每个固定收敛点，未来否决阈值 \(F_n\) 的下确界必在有限未来指标处达到；给出由 \((q_{m+1}^2-q_n^2)/E_n^2\ge U_m\) 触发的可验证停止条件。区分逐点有限前瞻与尚未证明的统一有界前瞻。
+- [π 的未来否决停止实验](future_veto_stopping_experiment.py) 与 [数值记录](future_veto_stopping_experiment.json)：展示 \(q=99532\) 的候选经两步未来检查后通过，以及 \(q=265381\) 被 \(q=364913\) 否决。
