@@ -76,8 +76,8 @@ def main():
     # Q coefficients in ascending powers of x.
     candidates_Q = {
         4: [1, 1],  # x+1
-        5: [-1, -3, -2, -1],  # -(x+1)(x^2+x+1)
-        6: [1, 4, 5, 4, 2],  # (x+1)^2(x^2+x+1)
+        5: [-1, -2, -2, -1],  # -(x+1)(x^2+x+1)
+        6: [1, 3, 4, 3, 1],  # (x+1)^2(x^2+x+1)
     }
     results = []
     for m, Q in candidates_Q.items():
