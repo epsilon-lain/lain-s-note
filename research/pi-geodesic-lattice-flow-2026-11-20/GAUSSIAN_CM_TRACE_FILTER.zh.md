@@ -207,7 +207,7 @@ This is a more faithful optimization than restricting to positive integer multip
 - Exact output summary: gaussian_cm_trace_filter_results.json.
 
 
-## 7. The trace filter collapses to a degree-12 rational map
+## 7. The trace filter collapses to a low-degree rational map
 
 The Gaussian trace can be simplified before evaluating it. For \(Q=(x,y)\in E(\mathbb Q)\), direct addition gives
 \[
@@ -235,25 +235,24 @@ F_{\rm CM}(Q)=
 }
 \tag{11}
 \]
-The numerator and denominator are coprime. The denominator has six distinct roots in \(x\), each giving two points on \(E\), so \(F_{\rm CM}:E\to\mathbb P^1\) has exactly **12 simple poles**. They are torsion points: the first pair of quadratic factors comes from preimages of nonzero 2-torsion under \([1+i]\), and the remaining four \(x\)-roots come from preimages under \([2]\).
+The numerator and denominator are coprime. The denominator has six distinct roots in \(x\), each giving two points on \(E\), so \(F_{\rm CM}:E\to\mathbb P^1\) has exactly **12 simple poles**. They are torsion points: the \(x^2+36\) poles come from preimages of nonzero 2-torsion under \([1+i]\), and the remaining four \(x\)-roots come from preimages under \([2]\).
 
-Therefore the EDS pole-height formula in EDS_EXACT_POLE_HEIGHT.zh.md applies with pole count \(C=12\):
+The actual quasi-period filter is \(Z_{\rm CM}=F_{\rm CM}/\xi\). The divisor of \(\xi=-x/y\) is
+\[
+(\xi)=O+T_0-T_+-T_-,
+\qquad T_0=(0,0),\quad T_\pm=(\pm6,0).
+\]
+Since \(F_{\rm CM}\) is finite and nonzero at \(O,T_0,T_\pm\), dividing by \(\xi\) adds two simple poles at \(O,T_0\) and zeros at \(T_\pm\). Thus \(Z_{\rm CM}:E\to\mathbb P^1\) has exactly **14 simple torsion poles** and degree 14.
+
+The EDS pole-height method in EDS_EXACT_POLE_HEIGHT.zh.md therefore gives, along the real return subsequence \([s]P\to O\),
 \[
 \boxed{
-h(F_{\rm CM}([s]P))
-=12\,\widehat h(P)s^2+O(1).
+\log\operatorname{den}(Z_{\rm CM}([s]P))
+=14\,\widehat h(P)s^2+o(s^2).
 }
 \tag{12}
 \]
-Along the real return subsequence \([s]P\to O\), the local expansion gives \(F_{\rm CM}([s]P)\to1\), so the reduced denominator has the same leading quadratic coefficient:
-\[
-\boxed{
-\log\operatorname{den}(F_{\rm CM}([s]P))
-=12\,\widehat h(P)s^2+o(s^2).
-}
-\tag{13}
-\]
-The fixed integer three-point filter in the previous note has pole-degree coefficient \(58\). Thus the Gaussian trace construction reduces the asymptotic denominator-growth coefficient from \(58\) to \(12\), while matching the same two nonzero local moments. This is the structural reason its finite rational denominator is much smaller.
+The fixed integer three-point quasi-period filter in the direct-height note has degree coefficient \(58\). The Gaussian trace filter therefore reduces the asymptotic denominator-growth coefficient from \(58\) to \(14\), a factor \(7/29\), while matching the same two nonzero local moments. This is the structural reason its finite rational denominator is much smaller.
 
 ## 8. Higher local orders from the same Gaussian moment method
 
