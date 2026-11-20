@@ -28,3 +28,6 @@
 
 - [有限未来否决证书定理](FINITE_FUTURE_VETO_CERTIFICATE.md)：证明对每个固定收敛点，未来否决阈值 \(F_n\) 的下确界必在有限未来指标处达到；给出由 \((q_{m+1}^2-q_n^2)/E_n^2\ge U_m\) 触发的可验证停止条件。区分逐点有限前瞻与尚未证明的统一有界前瞻。
 - [π 的未来否决停止实验](future_veto_stopping_experiment.py) 与 [数值记录](future_veto_stopping_experiment.json)：展示 \(q=99532\) 的候选经两步未来检查后通过，以及 \(q=265381\) 被 \(q=364913\) 否决。
+
+- [由两个部分商控制的显式前瞻上界](EXPLICIT_LOOKAHEAD_FROM_PARTIAL_QUOTIENTS.md)：证明若 \(a_{n+2}\ge2\)，最多检查两个未来收敛分数；若 \(a_{n+2}=1\)，令 \(A=a_{n+3}\)，则最多检查 \(k(A)-1\) 个，其中 \(k(A)=\min\{k:F_k\ge(A+2)/\sqrt{2A+3}\}\)，故前瞻长度为 \(O(\log A)\)。
+- [π 的前瞻上界实验](explicit_lookahead_pi_check.py) 与 [20 个候选的 JSON 记录](explicit_lookahead_pi_check.json)：比较理论上界和实际停止长度；数值仅作有限诊断。
