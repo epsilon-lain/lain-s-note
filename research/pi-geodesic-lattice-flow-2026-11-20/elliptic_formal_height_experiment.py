@@ -69,8 +69,12 @@ def B_m(s, m, cache):
 
 def main():
     # Exact points needed for s=15,26 (m<=4), and s=41 (m<=6).
-    max_multiple = 8 * 41
-    cache = {n: xi(mul(n)) for n in range(1, max_multiple + 1)}
+    requests = [(15, 4), (26, 4), (41, 6)]
+    needed = {s for s, max_m in requests}
+    for s, max_m in requests:
+        needed.update(j * s for m in range(1, max_m + 1)
+                      for j in range(2, m + 3))
+    cache = {n: xi(mul(n)) for n in sorted(needed)}
     selected = []
     for s, max_m in ((15, 4), (26, 4), (41, 6)):
         z = cache[s]
