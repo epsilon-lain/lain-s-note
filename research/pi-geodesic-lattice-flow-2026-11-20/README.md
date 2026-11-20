@@ -36,3 +36,5 @@
 - [双边传递矩阵复核程序](two_sided_transfer_matrix_pi_check.py) 与 [π 的有限测试数据](two_sided_transfer_matrix_pi_check.json)：将矩阵公式与直接收敛分数比值对照，检查前 25 个候选。
 
 该双边选择器还可用有限连分数柱区间包住唯一尾部参数 \(z_n=1/\alpha_{n+2}\)，并通过外向舍入区间运算认证选择器符号；见上述传递矩阵笔记第 7 节。
+
+- [椭圆形式群与 adelic 格流桥接](ELLIPTIC_FORMAL_GROUP_ADELIC_LATTICE_BRIDGE.md)：从 Pasten–Vidaux Lemma 4.1 推出同时实数逼近与有限素数处 \(p\)-adic 同余的加强引理；将同余条件识别为有限指数子格；并证明固定同余子格的坏逼近常数只是 \(M\kappa((\pi-k)/M)\)，所以朴素局部筛选不会解决原问题。明确指出真正缺少的是椭圆见证的定量高度/分母控制。
