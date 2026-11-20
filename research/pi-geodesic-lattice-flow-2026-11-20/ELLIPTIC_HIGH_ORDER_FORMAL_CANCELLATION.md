@@ -171,3 +171,34 @@ In particular, (9) approximates a **rational** target \(r\), not \(\pi\) itself.
 The previous first-order formal-group construction has now been upgraded to arbitrary-order real cancellation with integral coefficients, preserving the same \(p\)-adic congruences. The next genuine bottleneck is no longer formal cancellation; it is a quantitative height theorem for the resulting rational combination.
 
 This result is a new algebraic tool for the project, not a proof of bad approximability of \(\pi\), and not a claim that the elliptic-curve paper itself states the higher-order lemma.
+
+
+## 7. A crude height budget
+
+Let \(h\) be the logarithmic Weil height on \(\mathbb P^1(\mathbb Q)\), and \(\widehat h_E\) the canonical height on \(E\). Since \(\xi\) is a fixed rational function on \(E\), standard height comparison gives
+\[
+h(\xi(Q))\le C_E\widehat h_E(Q)+O_E(1).
+\]
+For \(Q=[j]V\),
+\[
+\widehat h_E([j]V)=j^2\widehat h_E(V).
+\]
+Using \(h(x+y)\le h(x)+h(y)+O(1)\) repeatedly in (6), one obtains the crude estimate
+\[
+\boxed{
+h(B_m(V))
+\le C_E\left(\sum_{j=2}^{m+2}j^2\right)\widehat h_E(V)
++O_E(m^2)
+=O_E(m^3\widehat h_E(V)+m^2).
+}
+\tag{11}
+\]
+The \(O(m^2)\) term accounts for the logarithmic heights of the binomial weights and repeated rational additions. This is only an upper bound; it does not show that the reduced denominator actually has this size.
+
+If \(V=[s]P\), then \(\widehat h_E(V)=s^2\widehat h_E(P)\). The compact-recurrence argument supplies some \(s\) for which \(|\xi(V)|\) is small, but the present construction does not give a sufficiently sharp relation between this \(s\), the real size of \(\xi(V)\), and the reduced denominator of \(B_m(V)\). Thus (11) does not convert the real error \(O(|\xi(V)|^m)\) into a useful power saving in the rational height.
+
+For the weights themselves,
+\[
+\sum_{j=2}^{m+2}|\lambda_{m,j}|=2^{m+1}-1.
+\]
+The exact integer checks through \(m=30\) are stored in `elliptic_high_order_weight_checks.json` and can be regenerated with `verify_elliptic_high_order_weights.py`.
