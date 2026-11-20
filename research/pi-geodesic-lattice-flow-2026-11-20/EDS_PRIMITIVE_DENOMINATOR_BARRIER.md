@@ -77,17 +77,21 @@ Here \(D_N\) is the product of the full prime powers in \(B_N\) whose prime divi
 
 ## 3. Quantitative height obstruction
 
-For the \(\mathbb Z\)-indexed EDS of an elliptic curve with complex multiplication, Streng proves the primitive-part estimate
+For the \(\mathbb Z\)-indexed EDS of an elliptic curve with complex multiplication over a quadratic extension, Streng proves the sharper primitive-part asymptotic
 \[
 \log D_N
-\ge
+=
 \widehat h(P)
-\left(1-\sum_{\ell\mid N}\frac1{\ell^2}-o(1)\right)N^2.
+\left(\prod_{\ell\mid N}(1-\ell^{-2})\right)N^2
++O_\epsilon(N^\epsilon)
+\qquad(\epsilon>0).
 \tag{6}
 \]
-Our curve has \(j(E)=0\), hence complex multiplication, so this estimate applies to the present sequence. Since
+Our curve has \(j(E)=0\), with CM field \(\mathbb Q(\sqrt{-3})\), so this result applies to its rational-point EDS. Since
 \[
-1-\sum_{\ell\ {\rm prime}}\ell^{-2}>0.5477,
+\prod_{\ell\mid N}(1-\ell^{-2})
+\ge \prod_{\ell\ {\rm prime}}(1-\ell^{-2})
+=\frac1{\zeta(2)}>0.6079,
 \]
 equations (5)–(6), with \(N=2Js\), give
 \[
@@ -95,8 +99,7 @@ equations (5)–(6), with \(N=2Js\), give
 \liminf_{s\to\infty}
 \frac{h(\mathcal B_{\lambda,s})}{s^2}
 \ge
-4J^2\widehat h(P)
-\left(1-\sum_{\ell\ {\rm prime}}\ell^{-2}\right).
+\frac{4J^2\widehat h(P)}{\zeta(2)}.
 }
 \tag{7}
 \]
@@ -192,6 +195,6 @@ The useful next step is to compare the exact error \(|\mathcal B_{\lambda,s}-1|\
 
 ## References
 
-- M. Streng, *Divisibility sequences for elliptic curves with complex multiplication*, Algebra & Number Theory 2 (2008), especially the primitive-part estimate for the \(\mathbb Z\)-indexed sequence, pp. 184–185.
+- M. Streng, *Divisibility sequences for elliptic curves with complex multiplication*, Algebra & Number Theory 2 (2008), Proposition 1.3, especially the primitive-part asymptotic for the \(\mathbb Z\)-indexed sequence, pp. 184–185.
 - K. Eisenstädter and G. Everest, *Descent on elliptic curves and Hilbert's tenth problem*, arXiv:0707.1485, for the local-order interpretation of primitive EDS divisors and the H10 use of elliptic divisibility sequences.
 - M. Nowroozi and S. Siksek, *Perfect powers in elliptic divisibility sequences*, Bull. Lond. Math. Soc. (2024), for strong divisibility and local valuation properties.
