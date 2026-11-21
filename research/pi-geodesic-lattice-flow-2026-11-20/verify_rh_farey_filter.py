@@ -1,6 +1,7 @@
 """Checks for the two fixed-phase Farey-window research tasks. Python 3."""
+from cmath import exp as complex_exp
 from fractions import Fraction as F
-from math import cos, gcd, pi, sin
+from math import cos, exp, gcd, log, log1p, pi, sin, sinh
 
 
 def mobius(n):
@@ -90,6 +91,10 @@ def verify():
         coeffs = arithmetic_coeffs(Q, H)
         traces = [cycle_traces(q,L) for q in range(Q, 2*Q)]
         assert coeffs == [(L-k)*sum(row[k] for row in traces) for k in range(L)]
+        weights = {d: sum(mobius(r) for r in range((Q+d-1)//d, (2*Q-1)//d+1))
+                   for d in range(1,2*Q)}
+        for e in range(1,2*Q):
+            assert sum(weights[d] for d in range(e,2*Q,e)) == int(Q <= e < 2*Q)
         pole_direct = sum(1/sin(1-pi*a/q)**2 for q in range(Q,2*Q)
                           for a in range(q) if gcd(a,q) == 1)
         pole_folded = sum(
@@ -97,6 +102,14 @@ def verify():
             for d in range(1,2*Q))
         assert abs(pole_direct-pole_folded) < 1e-10 * pole_direct
         nodes = sum(totient(q) for q in range(Q, 2*Q))
+        t = 1 / Q**2
+        z = complex_exp(2j)
+        angles = [pi*a/q for q in range(Q,2*Q) for a in range(q) if gcd(a,q)==1]
+        ratio_log = 2*nodes*t + 2*sum(
+            log(abs((exp(-2*t)*z - complex_exp(2j*a)) / (z - complex_exp(2j*a))))
+            for a in angles)
+        pole_log = sum(log1p((sinh(t)/sin(1-a))**2) for a in angles)
+        assert abs(ratio_log - pole_log) < 1e-10
         mean = F(coeffs[0], L**2)
         second = F(coeffs[0]**2 + 2*sum(c*c for c in coeffs[1:]), L**4)
         assert mean == F(nodes, L)
