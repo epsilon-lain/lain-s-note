@@ -104,6 +104,28 @@ def verify_giant_record_consequences():
     print("A later dyadic window has D > A/18 and wave < 4.3e-11/H^2")
 
 
+def verify_undecided_half_height():
+    """Check which side of the half-height threshold a local tail lies on."""
+    a = RECORD_DIGIT
+    h = 374_373_210_117
+    pi_lo, pi_hi = pi_interval(30)
+    eta_fail = F("1.5706409124")
+    eta_pass = F("1.5706409128")
+    arg_fail = h * pi_lo / (a + eta_fail)
+    arg_pass = h * pi_hi / (a + eta_pass)
+    assert 0 < arg_fail < 2 and 0 < arg_pass < 2
+    background = F(27, h**2)
+    denom_lower = 1 - (pi_hi / a)**2 / 6
+    assert 8 * pi_hi**2 / 3 < 27 and denom_lower > 0
+    lower = sinc_polynomial(arg_pass, 17)
+    upper = sinc_polynomial(arg_fail, 16)
+    assert lower > 0 and lower**2 > F(1, 2)
+    assert (upper / denom_lower)**2 + background < F(1, 2)
+    assert 1 / (pi_lo * denom_lower)**2 + background < F(1, 2)
+    print("H=374373210117 fails for eta <= 1.5706409124 and passes for eta >= 1.5706409128")
+
+
 if __name__ == "__main__":
     verify_first_record()
     verify_giant_record_consequences()
+    verify_undecided_half_height()
