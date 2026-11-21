@@ -1,0 +1,354 @@
+{
+  "source": {
+    "readme": "https://drive.google.com/file/d/1Dw6pzvn_mouWut7T2NtGsp0VskT-wTFN/view",
+    "log": "https://drive.google.com/file/d/1rf5VjABLlb4rRd3aI6LbZQ23vhU7TnhB/view",
+    "checksums": "https://drive.google.com/file/d/1VG1OzYXxX_zB2Olh8deJJ07tS4VllY9i/view",
+    "archive_folder": "https://drive.google.com/drive/folders/1HJyFbg9d16JWVeR3yqVjJJWzCxAiFkIz"
+  },
+  "scope": {
+    "independent_review": "Parsed the archived run log rather than recomputing the full prefix or scanning the archives.",
+    "trusted_terms_by_author": 653520000000,
+    "generated_terms": 657290105207,
+    "crosschecked_terms_by_author": 30000000000,
+    "known_initial_term_correction": {
+      "archive": 0,
+      "correct": 3
+    }
+  },
+  "seed": {
+    "next_partial_quotient": 845188380288,
+    "one_based_position": 383059989914,
+    "convergent_zero_based_index": 383059989912,
+    "iteration": 32,
+    "one_based_line": 5726650441,
+    "archive_url": "https://drive.google.com/file/d/1DnYCO4razWWp6fsrlY49pKy7ayP86CrT/view",
+    "archive_size_bytes": 6376404876,
+    "uncompressed_md5": "3e88e1aaa7a352472157622ceae75cc2"
+  },
+  "batches": [
+    {
+      "iteration": 1,
+      "one_based_start": 1,
+      "term_count": 12171960817,
+      "maximum": 9787547328
+    },
+    {
+      "iteration": 2,
+      "one_based_start": 12171960818,
+      "term_count": 12171921463,
+      "maximum": 52662113289
+    },
+    {
+      "iteration": 3,
+      "one_based_start": 24343882281,
+      "term_count": 12172038520,
+      "maximum": 17445028771
+    },
+    {
+      "iteration": 4,
+      "one_based_start": 36515920801,
+      "term_count": 12172051517,
+      "maximum": 49023409189
+    },
+    {
+      "iteration": 5,
+      "one_based_start": 48687972318,
+      "term_count": 12172100403,
+      "maximum": 13558190134
+    },
+    {
+      "iteration": 6,
+      "one_based_start": 60860072721,
+      "term_count": 12172051326,
+      "maximum": 22967179536
+    },
+    {
+      "iteration": 7,
+      "one_based_start": 73032124047,
+      "term_count": 12172019523,
+      "maximum": 24497456299
+    },
+    {
+      "iteration": 8,
+      "one_based_start": 85204143570,
+      "term_count": 12172004395,
+      "maximum": 55684867310
+    },
+    {
+      "iteration": 9,
+      "one_based_start": 97376147965,
+      "term_count": 12172044952,
+      "maximum": 10620503115
+    },
+    {
+      "iteration": 10,
+      "one_based_start": 109548192917,
+      "term_count": 12172054325,
+      "maximum": 178811599343
+    },
+    {
+      "iteration": 11,
+      "one_based_start": 121720247242,
+      "term_count": 12172014034,
+      "maximum": 20843818030
+    },
+    {
+      "iteration": 12,
+      "one_based_start": 133892261276,
+      "term_count": 12172144434,
+      "maximum": 9034879179
+    },
+    {
+      "iteration": 13,
+      "one_based_start": 146064405710,
+      "term_count": 12171945612,
+      "maximum": 3077324209
+    },
+    {
+      "iteration": 14,
+      "one_based_start": 158236351322,
+      "term_count": 12171996139,
+      "maximum": 24173609350
+    },
+    {
+      "iteration": 15,
+      "one_based_start": 170408347461,
+      "term_count": 12172144916,
+      "maximum": 12383976391
+    },
+    {
+      "iteration": 16,
+      "one_based_start": 182580492377,
+      "term_count": 12172127841,
+      "maximum": 30380591783
+    },
+    {
+      "iteration": 17,
+      "one_based_start": 194752620218,
+      "term_count": 12172057184,
+      "maximum": 10283982372
+    },
+    {
+      "iteration": 18,
+      "one_based_start": 206924677402,
+      "term_count": 12172054777,
+      "maximum": 18394315518
+    },
+    {
+      "iteration": 19,
+      "one_based_start": 219096732179,
+      "term_count": 12172070638,
+      "maximum": 26922591848
+    },
+    {
+      "iteration": 20,
+      "one_based_start": 231268802817,
+      "term_count": 12172132777,
+      "maximum": 91389837464
+    },
+    {
+      "iteration": 21,
+      "one_based_start": 243440935594,
+      "term_count": 12171901282,
+      "maximum": 14592608583
+    },
+    {
+      "iteration": 22,
+      "one_based_start": 255612836876,
+      "term_count": 12172056271,
+      "maximum": 171433008651
+    },
+    {
+      "iteration": 23,
+      "one_based_start": 267784893147,
+      "term_count": 12171953910,
+      "maximum": 35658003604
+    },
+    {
+      "iteration": 24,
+      "one_based_start": 279956847057,
+      "term_count": 12172075900,
+      "maximum": 17693467669
+    },
+    {
+      "iteration": 25,
+      "one_based_start": 292128922957,
+      "term_count": 12172036432,
+      "maximum": 13919904869
+    },
+    {
+      "iteration": 26,
+      "one_based_start": 304300959389,
+      "term_count": 12172121993,
+      "maximum": 71997994271
+    },
+    {
+      "iteration": 27,
+      "one_based_start": 316473081382,
+      "term_count": 12172034486,
+      "maximum": 14636638747
+    },
+    {
+      "iteration": 28,
+      "one_based_start": 328645115868,
+      "term_count": 12172003205,
+      "maximum": 68836055873
+    },
+    {
+      "iteration": 29,
+      "one_based_start": 340817119073,
+      "term_count": 12172002114,
+      "maximum": 6724361310
+    },
+    {
+      "iteration": 30,
+      "one_based_start": 352989121187,
+      "term_count": 12172194837,
+      "maximum": 34267390498
+    },
+    {
+      "iteration": 31,
+      "one_based_start": 365161316024,
+      "term_count": 12172023450,
+      "maximum": 26417768858
+    },
+    {
+      "iteration": 32,
+      "one_based_start": 377333339474,
+      "term_count": 12172031104,
+      "maximum": 845188380288
+    },
+    {
+      "iteration": 33,
+      "one_based_start": 389505370578,
+      "term_count": 12172123404,
+      "maximum": 164216217056
+    },
+    {
+      "iteration": 34,
+      "one_based_start": 401677493982,
+      "term_count": 12172066396,
+      "maximum": 64948410393
+    },
+    {
+      "iteration": 35,
+      "one_based_start": 413849560378,
+      "term_count": 12172012545,
+      "maximum": 52525667830
+    },
+    {
+      "iteration": 36,
+      "one_based_start": 426021572923,
+      "term_count": 12172037473,
+      "maximum": 6748068257
+    },
+    {
+      "iteration": 37,
+      "one_based_start": 438193610396,
+      "term_count": 12172045866,
+      "maximum": 37204162112
+    },
+    {
+      "iteration": 38,
+      "one_based_start": 450365656262,
+      "term_count": 12171996699,
+      "maximum": 39317986405
+    },
+    {
+      "iteration": 39,
+      "one_based_start": 462537652961,
+      "term_count": 12172119939,
+      "maximum": 36054117326
+    },
+    {
+      "iteration": 40,
+      "one_based_start": 474709772900,
+      "term_count": 12171892586,
+      "maximum": 51293054433
+    },
+    {
+      "iteration": 41,
+      "one_based_start": 486881665486,
+      "term_count": 12172283656,
+      "maximum": 7768127573
+    },
+    {
+      "iteration": 42,
+      "one_based_start": 499053949142,
+      "term_count": 12172087809,
+      "maximum": 9658576392
+    },
+    {
+      "iteration": 43,
+      "one_based_start": 511226036951,
+      "term_count": 12172044563,
+      "maximum": 177622263374
+    },
+    {
+      "iteration": 44,
+      "one_based_start": 523398081514,
+      "term_count": 12172038944,
+      "maximum": 116232388925
+    },
+    {
+      "iteration": 45,
+      "one_based_start": 535570120458,
+      "term_count": 12171962844,
+      "maximum": 9266787810
+    },
+    {
+      "iteration": 46,
+      "one_based_start": 547742083302,
+      "term_count": 12172084082,
+      "maximum": 296327777204
+    },
+    {
+      "iteration": 47,
+      "one_based_start": 559914167384,
+      "term_count": 12171999121,
+      "maximum": 17794987896
+    },
+    {
+      "iteration": 48,
+      "one_based_start": 572086166505,
+      "term_count": 12171859145,
+      "maximum": 4332459474
+    },
+    {
+      "iteration": 49,
+      "one_based_start": 584258025650,
+      "term_count": 12172051425,
+      "maximum": 28998650168
+    },
+    {
+      "iteration": 50,
+      "one_based_start": 596430077075,
+      "term_count": 12172022801,
+      "maximum": 102313224371
+    },
+    {
+      "iteration": 51,
+      "one_based_start": 608602099876,
+      "term_count": 12172103538,
+      "maximum": 9638392408
+    },
+    {
+      "iteration": 52,
+      "one_based_start": 620774203414,
+      "term_count": 12172025562,
+      "maximum": 4368194417
+    },
+    {
+      "iteration": 53,
+      "one_based_start": 632946228976,
+      "term_count": 12171907372,
+      "maximum": 4600967237
+    },
+    {
+      "iteration": 54,
+      "one_based_start": 645118136348,
+      "term_count": 12171968860,
+      "maximum": 49680503072
+    }
+  ]
+}
