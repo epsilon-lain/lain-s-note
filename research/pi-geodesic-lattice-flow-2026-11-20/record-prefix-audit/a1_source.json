@@ -1,0 +1,148 @@
+{
+  "schema": "pi-a1-source-certificate-v1",
+  "generated_utc_note": "See individual HTTP and execution-log timestamps.",
+  "fixed_commit": "e4243a11ea52e02e58129432e6c18be1d99c5772",
+  "fixed_files": [
+    {
+      "name": "NEXT_PI_RECORD.zh.md",
+      "bytes": 8154,
+      "git_blob_sha1": "70ed67a006725069bbddff33d712b0b680c54516",
+      "sha256": "221d7560c7bbcd992507cdd827e7f95b24a2b9be08caa1a4223248e5e0e2034b"
+    },
+    {
+      "name": "NEXT_PI_RECORD_OPEN_MATH.zh.md",
+      "bytes": 3622,
+      "git_blob_sha1": "2372113ece5b651882f0fc45321d724560eb7c6b",
+      "sha256": "76c61581af4e0215261535daca76839d9d08218dc2ed86c5dc458fa009d9f144"
+    },
+    {
+      "name": "frank_iteration_maxima.json",
+      "bytes": 8518,
+      "git_blob_sha1": "7bc2801351fef74c9506e8724279bac8b4d9678b",
+      "sha256": "b4a44a39fcf38277dc3de2be5acf6b78495b0433f2332def6166ee9b8c20d61a"
+    },
+    {
+      "name": "scan_cf_record_windows.c",
+      "bytes": 3290,
+      "git_blob_sha1": "ed9836cc80a1d2fba795e01c3a3b382f1b4b22e5",
+      "sha256": "5f6535a737e70c825185cd5a6b886003e9eb7a5419dc9aa637e0ed389bcb9c2c"
+    },
+    {
+      "name": "verify_local_cf_records.py",
+      "bytes": 7361,
+      "git_blob_sha1": "29eb388f45c44e8bb754edef405570fe0c61342c",
+      "sha256": "96efb13db5268bab68c4141cc233fc903fb6803cc16f94ec8f8a867b12a9ef0f"
+    },
+    {
+      "name": "verify_frank_log.py",
+      "bytes": 3031,
+      "git_blob_sha1": "b301e67d695367a6d30c1bb310b987df9614124b",
+      "sha256": "d956b30aa34afa74b5480762ebc6d96557833bf95c2e0e6af7cc81258ce06953"
+    },
+    {
+      "name": "verify_historical_records.py",
+      "bytes": 3635,
+      "git_blob_sha1": "65db0ceeb166ba5193989c734ed6c2e54a75df37",
+      "sha256": "8ba1a6d57950f0297b0ac4ab644d3f28acc1cf7a46de2d84b705d7febfaa0f0e"
+    },
+    {
+      "name": "verify_record_restart.py",
+      "bytes": 2213,
+      "git_blob_sha1": "23aa501d89a6b82feda9d7fbb9795ab217d82539",
+      "sha256": "1eadb213e3aadc1a7c7e5086653d8533a7a77b8fafea0a683bc18ec4792a651e"
+    }
+  ],
+  "original_archive": {
+    "md5": "de964cd7c7879eb55fb6abfa23c50fca",
+    "sha256": "f58e264430cfdee66aeefae1abb844a4991164a36c44fd36d2ab739edf5c66fb",
+    "bytes": 6376404876,
+    "newly_computed_in_this_run": true
+  },
+  "original_log": {
+    "md5": "0d69381a791d201db0d3e4ee253b8a1e",
+    "sha256": "af850feac7f7a433e9e59255d6bfdaefe53c38f96717bc3f91ea20ebef398a80",
+    "bytes": 17116,
+    "newly_computed_in_this_run": true
+  },
+  "archive_member_listing": {
+    "name": "iteration32.txt",
+    "bytes": 38383985761,
+    "method": "LZMA2:24",
+    "crc32_hex": "609C25A5",
+    "decompression_pipeline_exit": 0
+  },
+  "decompressed_text_recomputed": {
+    "md5": "3e88e1aaa7a352472157622ceae75cc2",
+    "sha256": "c45bf94a8189f3f74928c7a704e9ca3ad451ba658a9086c6840ca99aa1375cd1",
+    "bytes": 38383985761,
+    "newly_computed_in_this_run": true,
+    "newline_count": 12172031104,
+    "final_two_bytes_hex": "0d0a"
+  },
+  "author_source_scope": {
+    "public_terms_one_based_count": 653520000000,
+    "generated_terms_in_log": 657290105207,
+    "crosschecked_terms_claimed_by_author": 30000000000,
+    "crosscheck_reproduced_here": false,
+    "pi_prefix_independently_recomputed_here": false,
+    "initial_term_correction": {
+      "archive_iteration1_first": 0,
+      "a0": 3
+    }
+  },
+  "position_conversion": {
+    "volume_first_a_zero_based": 377333339473,
+    "seed_frank_one_based_a_position": 383059989914,
+    "seed_volume_line_one_based": 5726650441,
+    "seed_a_zero_based": 383059989913,
+    "seed_convergent_n": 383059989912,
+    "volume_last_a_zero_based": 389505370576,
+    "later_volume_a_count": 6445380663,
+    "public_last_a_zero_based": 653519999999
+  },
+  "scan_artifact": {
+    "threshold": 845188380287,
+    "summary": "count=12172031104 maximum=845188380288",
+    "hit_count": 1,
+    "only_hit_zero_based_a_index": 383059989913,
+    "neighbors_each_side": 64,
+    "raw_window_file": "verification/seed_local_lines_5726650377-5726650505.crlf.txt",
+    "raw_window_bytes": 416,
+    "raw_window_sha256": "96e50dd3cfff35b9dd511a28e0bfb0aeba013e557d8cb6b2851ee144f0efccbd"
+  },
+  "seed_score_rational_interval": [
+    "1480600586618817651768711705838896620246723603498855773990360816132401585043/1751799505468320157992684797555897185704973669408317441765081167",
+    "2562235886945124918029292960333496751553861097757670606533308967145028813793/3031555978168221633636507277886992770379102678117297152455214942"
+  ],
+  "seed_score_strictly_greater_than_A": true,
+  "other_post_seed_public_batches_with_logged_max_at_least_threshold": [],
+  "largest_maximum_among_skipped_post_seed_batches": 296327777204,
+  "conditional_public_prefix_exclusion": {
+    "later_convergent_n_inclusive": [
+      383059989913,
+      653519999998
+    ],
+    "count": 270460010086,
+    "all_denominator_statement": "q_383059989912 < Q <= q_653519999998 is excluded if the published prefix is genuine",
+    "reason": "Since E_seed<1/A<1/2, Legendre reduces a strict refresh to a convergent. All later certified convergents have a_i<=A-2, hence S_i<A<S_seed and E_i>E_seed."
+  },
+  "earliest_unresolved": {
+    "convergent_n": 653519999999,
+    "required_unknown_a_zero_based": 653520000000,
+    "is_asserted_record": false
+  },
+  "limitations": [
+    "MD5 authenticates equality with the author's published text, not an independent derivation from pi.",
+    "Other-volume exclusion uses the author's log maxima and public cutoff, not fresh archive scans of those volumes.",
+    "No new strict refresh, no next record beyond the cutoff, and no E-to-zero sequence is claimed."
+  ],
+  "checks_performed": [
+    "fixed commit, untruncated tree, sizes and Git blob SHA-1 for 8 snapshots",
+    "archive HTTP receipt, bytes, MD5 and SHA-256 recomputed",
+    "independent regex parse of all 54 log entries and JSON cross-check",
+    "author README scope, 54 decompressed MD5 rows and iteration32 MD5",
+    "full-stream scanner count/maximum, unique hit and 129 raw CRLF lines",
+    "full decompressed bytes/newlines/MD5/SHA-256 recomputed in this run"
+  ],
+  "validation": "passed"
+}

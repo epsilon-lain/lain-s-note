@@ -1,0 +1,18 @@
+1000000 submitted quotients match
+record n=0 next=7
+record n=1 next=15
+record n=3 next=292
+record n=306 next=436
+record n=430 next=20776
+record n=28420 next=78629
+record n=156380 next=179136
+record n=267312 next=528210
+record n=453292 next=12996958
+reserved a[984074]=186371
+postrecord a[813999]=368536
+extra a[1000000]=1
+1000001 digits independently certified
+
+Standalone regeneration: PASS
+Headered and headerless comparison: PASS
+Corrupt comparison rejected: coefficient mismatch at a[999998]
