@@ -1,0 +1,14 @@
+556/177: 2 hits, 0 positive offsets, weight 32/177
+289/92: 23 hits, 0 positive offsets, weight 2
+600/191: 12 hits, 0 positive offsets, weight 192/191
+311/99: 102 hits, 0 positive offsets, weight 544/99
+644/205: 20 hits, 0 positive offsets, weight 64/41
+333/106: 77 hits, 8 positive offsets, weight 308/53
+688/219: 19 hits, 18 positive offsets, weight 304/219
+355/113: 36 hits, 36 positive offsets, weight 576/113
+732/233: 18 hits, 18 positive offsets, weight 288/233
+377/120: 137 hits, 137 positive offsets, weight 137/30
+776/247: 11 hits, 11 positive offsets, weight 176/247
+399/127: 11 hits, 11 positive offsets, weight 176/127
+421/134: 2 hits, 2 positive offsets, weight 8/67
+distinct 13 hits 470 positive 241 F 2992647787632811517022607/97929379187827870584330
